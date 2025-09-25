@@ -28,6 +28,7 @@ def players_links(url):
     ]
     return players_pages
 
+
 def Get_Players(url):
     useragent ='Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/140.0.0.0 Safari/537.36'
     headers={
@@ -59,12 +60,15 @@ def Get_Players(url):
             'Last Season Total Rebound Percentage':[node.text.split() for node in soup.select('.p1 p')][4],
             'Last Season Assists Percentage':[node.text.split() for node in soup.select('.p1 p')][6],
 
-            'Last Season Field Goal Percentage':[node.text.split() for node in soup.select('.p1 p')][0],
-            'Last Season 3pt Field Goal Percentage':[node.text.split() for node in soup.select('.p1 p')][2],
-            'Last Season TFree Throw Percentage':[node.text.split() for node in soup.select('.p1 p')][4],
-            'Last Season Effective Field Goal Percentage':[node.text.split() for node in soup.select('.p1 p')][6],
+            'Last Season Field Goal Percentage':[node.text.split() for node in soup.select('.p2 p')][0],
+            'Last Season 3pt Field Goal Percentage':[node.text.split() for node in soup.select('.p2 p')][2],
+            'Last Season TFree Throw Percentage':[node.text.split() for node in soup.select('.p2 p')][4],
+            'Last Season Effective Field Goal Percentage':[node.text.split() for node in soup.select('.p2 p')][6],
+            'Last Season Player Efficiency Rating': [node.text.split() for node in soup.select('.p3 p')][0],
+            'Last Season Win Shares':[node.text.split() for node in soup.select('.p3 p')][2],
 
             'Experience':[node.text.split() for node in soup.select('#info #meta div p')][[node.text.split()[0] for node in soup.select('#info #meta div p')].index('Experience:')][1],
+
             'Career Games':[node.text.split() for node in soup.select('.p1 p')][1],
             'Career Points':[node.text.split() for node in soup.select('.p1 p')][3],
             'Career Total Rebound Percentage':[node.text.split() for node in soup.select('.p1 p')][5],
@@ -74,9 +78,12 @@ def Get_Players(url):
             'Career 3pt Field Goal Percentage':[node.text.split() for node in soup.select('.p2 p')][3],
             'Career Free Throw Percentage':[node.text.split() for node in soup.select('.p2 p')][5],
             'Career Effective Field Goal Percentage':[node.text.split() for node in soup.select('.p2 p')][7],
+            'Career Player Efficiency Rating': [node.text.split() for node in soup.select('.p3 p')][1],
+            'Career Win Shares':[node.text.split() for node in soup.select('.p3 p')][3],
 
             })
     return posts
+
 
 def Get_MVPs(url:str):
     useragent ='Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/140.0.0.0 Safari/537.36'
