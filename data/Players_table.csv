@@ -1,567 +1,570 @@
-,player_id,player_name,Position,Shoots,Height,Weight,Birthday,Birthmonth,Birthyear,College,Last Season Games,Last Season Points,Last Season Total Rebound Percentage,Last Season Assists Percentage,Last Season Field Goal Percentage,Last Season 3pt Field Goal Percentage,Last Season TFree Throw Percentage,Last Season Effective Field Goal Percentage,Experience,Career Games,Career Points,Career Total Rebound Percentage,Career Assists Percentage,Career Field Goal Percentage,Career 3pt Field Goal Percentage,Career Free Throw Percentage,Career Effective Field Goal Percentage
-0,gilgesh01,Shai Gilgeous-Alexander,"Point Guard , Shooting Guard",Right,6-6,200,12,July,1998,Kentucky,76,32.7,5.0,6.4,76,32.7,5.0,6.4,7,462,24.4,4.8,5.1,50.1,35.5,86.2,54.0
-1,edwaran01,Anthony Edwards,Shooting Guard,Right,6-4,225,5,August,2001,Georgia,79,27.6,5.7,4.5,79,27.6,5.7,4.5,5,381,23.9,5.3,4.2,44.6,36.4,80.4,52.4
-2,jokicni01,Nikola JokiÄ,Center,Right,6-11,284,19,February,1995,Colleges,70,29.6,12.7,10.2,70,29.6,12.7,10.2,10,745,21.8,10.9,7.2,56.0,36.0,82.4,59.6
-3,antetgi01,Giannis Antetokounmpo,"Power Forward, Small Forward, Point Guard, , Shooting Guard",Right,6-11,242,6,December,1994,Colleges,67,30.4,11.9,6.5,67,30.4,11.9,6.5,12,859,23.9,9.9,5.0,55.1,28.4,69.3,57.0
-4,tatumja01,Jayson Tatum,"Small Forward , Power Forward",Right,6-8,210,3,March,1998,Duke,72,26.8,8.7,6.0,72,26.8,8.7,6.0,8,585,23.6,7.3,3.8,45.9,37.0,84.0,53.3
-5,bookede01,Devin Booker,"Shooting Guard , Point Guard",Right,6-6,206,30,October,1996,Kentucky,75,25.6,4.1,7.1,75,25.6,4.1,7.1,10,673,24.4,4.0,5.2,46.4,35.4,87.3,52.1
-6,youngtr01,Trae Young,Point Guard,Right,6-1,164,19,September,1998,Oklahoma,76,24.2,3.1,11.6,76,24.2,3.1,11.6,7,483,25.3,3.5,9.8,43.3,35.2,87.3,50.4
-7,herroty01,Tyler Herro,Shooting Guard,Right,6-5,195,20,January,2000,Kentucky,77,23.9,5.2,5.5,77,23.9,5.2,5.5,6,361,19.4,5.0,4.0,44.8,38.2,87.4,53.4
-8,cunnica01,Cade Cunningham,"Point Guard , Shooting Guard",Right,6-6,220,25,September,2001,"Oklahoma,State",70,26.1,6.1,9.1,70,26.1,6.1,9.1,4,208,22.1,5.4,7.4,44.6,33.9,85.3,49.7
-9,hardeja01,James Harden,"Point Guard , Shooting Guard",Left,6-5,220,26,August,1989,"Arizona,State",79,22.8,5.8,8.7,79,22.8,5.8,8.7,16,1151,24.1,5.6,7.2,43.9,36.3,86.1,52.5
-10,townska01,Karl-Anthony Towns,"Center , Power Forward",Right,7-0,248,15,November,1995,Kentucky,72,24.4,12.8,3.1,72,24.4,12.8,3.1,10,645,23.1,11.1,3.2,52.4,40.0,83.7,57.7
-11,lavinza01,Zach LaVine,"Shooting Guard, Small Forward, , Point Guard",Right,6-5,200,10,March,1995,UCLA,74,23.3,4.3,4.2,74,23.3,4.3,4.2,11,654,20.8,4.1,4.0,47.0,39.1,83.3,54.4
-12,greenja05,Jalen Green,Shooting Guard,Right,6-4,178,9,February,2002,Colleges,82,21.0,4.6,3.4,82,21.0,4.6,3.4,4,307,20.1,4.3,3.4,42.2,34.2,79.9,49.8
-13,curryst01,Stephen Curry,Point Guard,Right,6-2,185,14,March,1988,Davidson,70,24.5,4.4,6.0,70,24.5,4.4,6.0,16,1026,24.7,4.7,6.4,47.1,42.3,91.1,58.2
-14,derozde01,DeMar DeRozan,"Shooting Guard, Small Forward, , Power Forward",Right,6-6,220,7,August,1989,USC,77,22.2,3.9,4.4,77,22.2,3.9,4.4,16,1187,21.3,4.4,4.1,46.9,30.0,84.2,48.5
-15,jamesle01,LeBron James,"Small Forward, Power Forward, Point Guard, Center, , Shooting Guard",Right,6-9,250,30,December,1984,Colleges,70,24.4,7.8,8.2,70,24.4,7.8,8.2,22,1562,27.0,7.5,7.4,50.6,34.9,73.7,54.8
-16,mitchdo01,Donovan Mitchell,"Shooting Guard , Point Guard",Right,6-3,215,7,September,1996,Louisville,71,24.0,4.5,5.0,71,24.0,4.5,5.0,8,539,24.7,4.3,4.7,44.9,36.6,84.0,52.6
-17,brunsja01,Jalen Brunson,"Point Guard , Shooting Guard",Left,6-2,190,31,August,1996,Villanova,65,26.0,2.9,7.3,65,26.0,2.9,7.3,7,487,18.1,3.2,5.0,48.9,38.9,82.3,54.7
-18,duranke01,Kevin Durant,"Small Forward, Power Forward, , Shooting Guard",Right,6-11,240,29,September,1988,Texas,62,26.6,6.0,4.2,62,26.6,6.0,4.2,17,1123,27.2,7.0,4.4,50.2,39.0,88.2,55.4
-19,jacksja02,Jaren Jackson Jr.,"Center , Power Forward",Right,6-10,242,15,September,1999,"Michigan,State",74,22.2,5.6,2.0,74,22.2,5.6,2.0,7,407,18.5,5.5,1.5,46.6,35.1,79.2,52.8
-20,siakapa01,Pascal Siakam,Power Forward,Right,6-8,230,2,April,1994,"New,Mexico,State",78,20.2,6.9,3.4,78,20.2,6.9,3.4,9,629,18.0,6.7,3.6,49.9,33.9,76.3,53.9
-21,garlada01,Darius Garland,"Point Guard , Shooting Guard",Right,6-1,192,26,January,2000,Vanderbilt,75,20.6,2.9,6.7,75,20.6,2.9,6.7,6,382,18.9,2.7,6.7,45.3,38.8,86.7,53.0
-22,whiteco01,Coby White,"Point Guard , Shooting Guard",Right,6-5,195,16,February,2000,UNC,74,20.4,3.7,4.5,74,20.4,3.7,4.5,6,422,15.2,3.6,3.8,43.3,36.9,86.5,52.7
-23,willija06,Jalen Williams,"Shooting Guard , Power Forward",Right,6-6,220,14,April,2001,"Santa,Clara",69,21.6,5.3,5.1,69,21.6,5.3,5.1,3,215,18.1,4.6,4.3,51.3,38.2,80.3,56.3
-24,reaveau01,Austin Reaves,Shooting Guard,Right,6-5,206,29,May,1998,"Wichita,State",73,20.2,4.5,5.8,73,20.2,4.5,5.8,4,280,14.5,3.8,4.3,48.1,37.0,86.3,56.9
-25,foxde01,De'Aaron Fox,Point Guard,Left,6-3,185,20,December,1997,Kentucky,62,23.5,4.8,6.3,62,23.5,4.8,6.3,8,531,21.5,3.9,6.1,47.0,33.0,74.6,51.5
-26,sengual01,Alperen ÅengÃ¼n,Center,Right,6-11,235,25,July,2002,Colleges,76,19.1,10.3,4.9,76,19.1,10.3,4.9,4,286,16.0,8.6,4.1,51.8,27.2,70.1,53.2
-27,wagnefr01,Franz Wagner,Small Forward,Right,6-10,225,27,August,2001,Michigan,60,24.2,5.7,4.7,60,24.2,5.7,4.7,4,291,19.1,4.8,3.7,47.4,32.2,85.6,52.3
-28,lillada01,Damian Lillard,Point Guard,Right,6-2,195,15,July,1990,"Weber,State",58,24.9,4.7,7.1,58,24.9,4.7,7.1,13,900,25.1,4.3,6.7,43.9,37.1,89.9,52.3
-29,bridgmi01,Mikal Bridges,"Small Forward , Shooting Guard",Right,6-6,209,30,August,1996,Villanova,82,17.6,3.2,3.7,82,17.6,3.2,3.7,7,556,14.8,4.0,2.7,48.4,37.1,84.3,56.1
-30,murraja01,Jamal Murray,"Point Guard , Shooting Guard",Right,6-4,215,23,February,1997,Kentucky,67,21.4,3.9,6.0,67,21.4,3.9,6.0,8,536,18.0,3.8,4.7,45.5,38.1,87.0,52.9
-31,adebaba01,Bam Adebayo,"Center , Power Forward",Right,6-9,255,18,July,1997,Kentucky,78,18.1,9.6,4.3,78,18.1,9.6,4.3,8,567,15.7,8.9,3.6,53.7,31.4,75.6,54.5
-32,doncilu01,Luka DonÄiÄ,"Point Guard , Shooting Guard",Right,6-6,230,28,February,1999,Colleges,50,28.2,8.2,7.7,50,28.2,8.2,7.7,7,450,28.6,8.6,8.2,46.8,35.0,75.1,54.2
-33,brownja02,Jaylen Brown,"Small Forward , Shooting Guard",Right,6-6,223,24,October,1996,California,63,22.2,5.8,4.5,63,22.2,5.8,4.5,9,603,19.0,5.3,2.6,47.8,35.9,72.6,54.2
-34,portemi01,Michael Porter Jr.,Small Forward,Right,6-10,218,29,June,1998,Missouri,77,18.2,7.0,2.1,77,18.2,7.0,2.1,6,345,16.2,6.4,1.4,50.0,40.6,79.5,59.9
-35,poolejo01,Jordan Poole,"Shooting Guard , Point Guard",Right,6-4,194,19,June,1999,Michigan,68,20.5,3.0,4.5,68,20.5,3.0,4.5,6,412,16.8,2.7,3.8,42.2,34.5,87.9,51.3
-36,maxeyty01,Tyrese Maxey,"Point Guard , Shooting Guard",Right,6-2,200,4,November,2000,Kentucky,52,26.3,3.3,6.1,52,26.3,3.3,6.1,5,318,19.5,3.0,4.4,46.1,38.1,86.6,53.3
-37,halibty01,Tyrese Haliburton,"Point Guard , Shooting Guard",Right,6-5,185,29,February,2000,"Iowa,State",73,18.6,3.5,9.2,73,18.6,3.5,9.2,5,333,17.5,3.7,8.8,47.7,39.2,85.5,57.4
-38,vucevni01,Nikola VuÄeviÄ,Center,Right,6-10,260,24,October,1990,USC,73,18.5,10.1,3.5,73,18.5,10.1,3.5,14,972,17.2,10.5,2.9,49.7,34.8,77.0,52.9
-39,simonan01,Anfernee Simons,Shooting Guard,Right,6-3,181,8,June,1999,Colleges,70,19.3,2.7,4.8,70,19.3,2.7,4.8,7,389,15.0,2.5,3.3,43.1,38.1,88.0,53.1
-40,zubaciv01,Ivica Zubac,Center,Right,7-0,240,18,March,1997,Colleges,80,16.8,12.6,2.7,80,16.8,12.6,2.7,9,584,10.2,8.1,1.4,61.6,8.3,72.6,61.6
-41,sabondo01,Domantas Sabonis,"Center , Power Forward",Left,6-10,240,3,May,1996,Gonzaga,70,19.1,13.9,6.0,70,19.1,13.9,6.0,9,646,16.1,10.7,4.9,56.0,34.7,72.9,58.1
-42,beaslma01,Malik Beasley,Shooting Guard,Right,6-4,187,26,November,1996,"Florida,State",82,16.3,2.6,1.7,82,16.3,2.6,1.7,9,578,11.7,2.8,1.4,42.6,39.1,76.9,55.3
-43,sharpsh01,Shaedon Sharpe,Shooting Guard,Right,6-6,200,30,May,2003,Kentucky,72,18.5,4.5,2.8,72,18.5,4.5,2.8,3,184,14.3,3.9,2.1,44.9,33.0,77.9,51.9
-44,anunoog01,OG Anunoby,"Small Forward , Power Forward",Right,6-7,232,17,July,1997,Indiana,74,18.0,4.8,2.2,74,18.0,4.8,2.2,8,492,12.9,4.4,1.7,47.4,37.5,76.1,56.0
-45,banede01,Desmond Bane,Shooting Guard,Right,6-5,215,25,June,1998,TCU,69,19.2,6.1,5.3,69,19.2,6.1,5.3,5,313,17.8,4.6,3.8,47.2,41.0,88.3,56.6
-46,mobleev01,Evan Mobley,Power Forward,Right,6-11,215,18,June,2001,USC,71,18.5,9.3,3.2,71,18.5,9.3,3.2,4,269,16.4,9.0,2.9,54.8,31.5,69.4,57.1
-47,powelno01,Norman Powell,"Shooting Guard , Small Forward",Right,6-3,215,25,May,1993,UCLA,60,21.8,3.2,2.1,60,21.8,3.2,2.1,10,617,13.2,2.7,1.5,47.1,39.8,82.4,55.8
-48,bridgmi02,Miles Bridges,"Small Forward , Power Forward",Left,6-7,225,21,March,1998,"Michigan,State",64,20.3,7.5,3.9,64,20.3,7.5,3.9,6,424,15.7,6.2,2.7,46.2,34.0,82.6,53.0
-49,randlju01,Julius Randle,"Power Forward , Center",Left,6-9,250,29,November,1994,Kentucky,69,18.7,7.1,4.7,69,18.7,7.1,4.7,11,710,19.0,9.1,3.8,47.1,33.4,75.3,51.2
-50,davisan02,Anthony Davis,"Center , Power Forward",Right,6-10,253,11,March,1993,Kentucky,51,24.7,11.6,3.5,51,24.7,11.6,3.5,13,787,24.1,10.7,2.6,52.2,29.6,79.4,53.6
-51,barnesc01,Scottie Barnes,"Power Forward, Shooting Guard, , Small Forward",Right,6-7,227,1,August,2001,"Florida,State",65,19.3,7.7,5.8,65,19.3,7.7,5.8,4,276,17.2,7.5,5.0,46.6,30.0,76.1,50.4
-52,whitede01,Derrick White,"Shooting Guard , Point Guard",Right,6-4,190,2,July,1994,"Colorado-Colorado,Springs",76,16.4,4.5,4.8,76,16.4,4.5,4.8,8,494,13.0,3.7,4.2,44.8,36.9,85.2,54.4
-53,irvinky01,Kyrie Irving,"Point Guard , Shooting Guard",Right,6-2,195,23,March,1992,Duke,50,24.7,4.8,4.6,50,24.7,4.8,4.6,14,779,23.7,4.1,5.6,47.4,39.4,88.8,54.0
-54,barrerj01,RJ Barrett,"Shooting Guard , Small Forward",Left,6-6,214,14,June,2000,Duke,58,21.1,6.3,5.4,58,21.1,6.3,5.4,6,387,18.8,5.6,3.3,44.1,34.6,69.7,49.4
-55,avdijde01,Deni Avdija,Small Forward,Right,6-9,210,3,January,2001,Colleges,72,16.9,7.3,3.9,72,16.9,7.3,3.9,5,359,11.3,6.2,2.8,46.2,33.7,75.3,52.9
-56,braunch01,Christian Braun,Shooting Guard,Right,6-6,218,17,April,2001,Kansas,79,15.4,5.2,2.6,79,15.4,5.2,2.6,3,237,9.2,3.8,1.7,52.8,38.4,75.2,58.6
-57,banchpa01,Paolo Banchero,Power Forward,Right,6-10,250,12,November,2002,Duke,46,25.9,7.5,4.8,46,25.9,7.5,4.8,3,198,22.4,7.1,4.6,44.5,32.0,73.0,48.7
-58,castlst01,Stephon Castle,Point Guard,Right,6-6,215,1,November,2004,UConn,81,14.7,3.7,4.1,81,14.7,3.7,4.1,1,81,14.7,3.7,4.1,42.8,28.5,72.4,47.6
-59,ballla01,LaMelo Ball,Point Guard,Right,6-7,180,22,August,2001,Colleges,47,25.2,4.9,7.4,47,25.2,4.9,7.4,5,231,21.0,6.0,7.4,42.1,36.5,83.7,50.8
-60,mccolcj01,CJ McCollum,"Shooting Guard , Point Guard",Right,6-3,190,19,September,1991,Lehigh,56,21.1,3.8,4.1,56,21.1,3.8,4.1,12,787,19.6,3.6,3.8,45.3,39.7,79.9,53.0
-61,moranja01,Ja Morant,Point Guard,Right,6-2,174,10,August,1999,"Murray,State",50,23.2,4.1,7.3,50,23.2,4.1,7.3,6,307,22.6,4.7,7.4,46.9,31.6,76.6,50.8
-62,sextoco01,Collin Sexton,"Shooting Guard , Point Guard",Right,6-3,190,4,January,1999,Alabama,63,18.4,2.7,4.2,63,18.4,2.7,4.2,7,407,18.8,2.8,3.7,47.0,38.7,83.8,52.2
-63,mathube01,Bennedict Mathurin,"Small Forward , Shooting Guard",Right,6-6,210,19,June,2002,Arizona,72,16.1,5.3,1.9,72,16.1,5.3,1.9,3,209,15.9,4.5,1.8,44.6,34.2,82.8,50.2
-64,pritcpa01,Payton Pritchard,"Point Guard , Shooting Guard",Right,6-1,195,28,January,1998,Oregon,80,14.3,3.8,3.5,80,14.3,3.8,3.5,5,347,9.1,2.7,2.5,45.4,39.9,85.6,58.4
-65,reidna01,Naz Reid,"Center , Power Forward",Right,6-9,264,26,August,1999,LSU,80,14.2,6.0,2.3,80,14.2,6.0,2.3,6,406,11.6,4.9,1.3,48.7,37.3,72.8,56.5
-66,georgke01,Keyonte George,"Point Guard , Shooting Guard",Right,6-4,185,8,November,2003,Baylor,67,16.8,3.8,5.6,67,16.8,3.8,5.6,2,142,14.8,3.3,5.0,39.1,33.9,83.1,48.4
-67,murphtr02,Trey Murphy III,Small Forward,Right,6-8,206,18,June,2000,"Rice,University",53,21.2,5.1,3.5,53,21.2,5.1,3.5,4,251,13.7,3.9,1.8,45.4,38.3,87.5,57.2
-68,turnemy01,Myles Turner,Center,Right,6-11,250,24,March,1996,Texas,72,15.6,6.5,1.5,72,15.6,6.5,1.5,10,642,14.1,6.8,1.3,49.9,36.2,77.1,55.6
-69,monkma01,Malik Monk,Shooting Guard,Right,6-3,200,4,February,1998,Kentucky,65,17.2,3.8,5.6,65,17.2,3.8,5.6,8,523,12.3,2.6,3.2,43.4,35.0,84.8,52.1
-70,wembavi01,Victor Wembanyama,"Center , Power Forward",Right,7-3,235,4,January,2004,Colleges,46,24.3,11.0,3.7,46,24.3,11.0,3.7,2,117,22.5,10.8,3.8,46.9,33.9,80.9,53.5
-71,allenja01,Jarrett Allen,Center,Right,6-11,243,21,April,1998,Texas,82,13.5,9.7,1.9,82,13.5,9.7,1.9,8,568,12.8,9.2,1.7,64.1,16.4,71.2,64.3
-72,grimequ01,Quentin Grimes,Shooting Guard,Right,6-5,205,8,May,2000,Kansas,75,14.6,4.3,3.0,75,14.6,4.3,3.0,4,243,10.4,3.1,2.0,44.4,37.5,76.3,56.3
-73,huntede01,De'Andre Hunter,Small Forward,Right,6-8,225,2,December,1997,Virginia,64,17.0,4.0,1.4,64,17.0,4.0,1.4,6,327,14.8,4.1,1.5,45.2,37.3,81.9,53.0
-74,wiggian01,Andrew Wiggins,"Small Forward , Power Forward",Right,6-7,197,23,February,1995,Kansas,60,18.0,4.5,2.6,60,18.0,4.5,2.6,11,766,18.5,4.5,2.3,44.9,35.6,72.5,49.8
-75,daniedy01,Dyson Daniels,"Point Guard , Shooting Guard",Right,6-8,199,17,March,2003,Colleges,76,14.1,5.9,4.4,76,14.1,5.9,4.4,3,196,8.4,4.5,3.2,47.2,32.7,61.4,52.4
-76,johnsca02,Cameron Johnson,Power Forward,Right,6-8,210,3,March,1996,Pitt,57,18.8,4.3,3.4,57,18.8,4.3,3.4,6,340,12.9,3.9,2.0,45.3,39.2,85.1,57.2
-77,brookdi01,Dillon Brooks,"Small Forward , Shooting Guard",Right,6-6,225,22,January,1996,Oregon,75,14.0,3.7,1.7,75,14.0,3.7,1.7,8,492,14.2,3.2,2.0,41.9,35.5,80.4,49.1
-78,hartjo01,Josh Hart,"Small Forward , Shooting Guard",Right,6-4,215,6,March,1995,Villanova,77,13.6,9.6,5.9,77,13.6,9.6,5.9,8,530,10.3,7.0,3.2,47.1,34.2,75.3,54.7
-79,lopezbr01,Brook Lopez,Center,Right,7-1,282,1,April,1988,Stanford,80,13.0,5.0,1.8,80,13.0,5.0,1.8,17,1105,15.9,6.1,1.5,49.7,35.2,79.7,53.7
-80,vassede01,Devin Vassell,"Shooting Guard , Small Forward",Right,6-5,200,23,August,2000,"Florida,State",64,16.3,4.0,2.9,64,16.3,4.0,2.9,5,303,14.1,3.8,2.6,44.4,36.9,80.6,53.0
-81,giddejo01,Josh Giddey,"Shooting Guard, Point Guard, Power Forward, , Small Forward",Right,6-8,210,10,October,2002,Colleges,70,14.6,8.1,7.2,70,14.6,8.1,7.2,4,280,14.1,7.5,6.1,46.4,33.0,76.4,51.0
-82,barneha02,Harrison Barnes,"Power Forward , Small Forward",Right,6-8,225,30,May,1992,UNC,82,12.3,3.8,1.7,82,12.3,3.8,1.7,13,993,13.9,4.8,1.8,46.0,38.5,81.0,52.8
-83,thompkl01,Klay Thompson,"Shooting Guard , Small Forward",Right,6-5,215,8,February,1990,"Washington,State",72,14.0,3.4,2.0,72,14.0,3.4,2.0,12,865,19.1,3.5,2.3,45.1,41.1,86.0,54.9
-84,harrito02,Tobias Harris,"Power Forward , Small Forward",Right,6-8,226,15,July,1992,Tennessee,73,13.7,5.9,2.2,73,13.7,5.9,2.2,14,970,16.1,6.2,2.4,47.8,36.6,83.6,53.1
-85,mcdanja02,Jaden McDaniels,"Power Forward , Small Forward",Right,6-9,185,29,September,2000,Washington,82,12.2,5.7,2.0,82,12.2,5.7,2.0,5,366,10.3,4.2,1.5,48.2,34.8,75.2,55.4
-86,westbru01,Russell Westbrook,Point Guard,Right,6-4,200,12,November,1988,UCLA,75,13.3,4.9,6.1,75,13.3,4.9,6.1,17,1237,21.2,7.0,8.0,43.9,30.5,77.2,47.1
-87,okongon01,Onyeka Okongwu,Center,Right,6-8,235,11,December,2000,USC,74,13.4,8.9,2.3,74,13.4,8.9,2.3,5,307,9.6,6.7,1.3,61.4,32.2,75.5,63.4
-88,schrode01,Dennis SchrÃ¶der,"Point Guard , Shooting Guard",Right,6-1,172,15,September,1993,Colleges,75,13.1,2.6,5.4,75,13.1,2.6,5.4,12,842,13.9,2.9,4.9,43.2,34.2,83.6,48.5
-89,johnske04,Keldon Johnson,Small Forward,Right,6-5,220,11,October,1999,Kentucky,77,12.7,4.8,1.6,77,12.7,4.8,1.6,6,370,15.6,5.4,2.2,46.7,35.2,76.2,53.1
-90,thompam01,Amen Thompson,Small Forward,Right,6-7,209,30,January,2003,Colleges,69,14.1,8.2,3.8,69,14.1,8.2,3.8,2,131,11.9,7.4,3.3,54.9,22.1,68.4,56.3
-91,butleji01,Jimmy Butler,"Small Forward, Shooting Guard, , Power Forward",Right,6-7,230,14,September,1989,"Tyler,Junior,College",55,17.5,5.4,5.4,55,17.5,5.4,5.4,14,869,18.3,5.3,4.3,47.2,32.8,84.3,50.3
-92,kuzmaky01,Kyle Kuzma,"Power Forward , Small Forward",Right,6-9,221,24,July,1995,Utah,65,14.8,5.7,2.3,65,14.8,5.7,2.3,8,541,17.0,6.3,2.7,45.0,33.4,72.1,51.7
-93,murrake02,Keegan Murray,"Small Forward , Power Forward",Right,6-8,215,19,August,2000,Iowa,76,12.4,6.7,1.4,76,12.4,6.7,1.4,3,233,13.3,5.6,1.4,45.1,37.2,81.2,55.6
-94,risacza01,Zaccharie Risacher,Small Forward,Right,6-8,200,8,April,2005,Colleges,75,12.6,3.6,1.2,75,12.6,3.6,1.2,1,75,12.6,3.6,1.2,45.8,35.5,71.1,53.7
-95,durenja01,Jalen Duren,Center,Right,6-10,250,18,November,2003,Memphis,78,11.8,10.3,2.7,78,11.8,10.3,2.7,3,206,11.5,10.2,2.1,65.3,0.0,69.1,65.3
-96,marshna01,Naji Marshall,Small Forward,Right,6-7,220,24,January,1998,Xavier,69,13.2,4.8,3.0,69,13.2,4.8,3.0,5,299,8.8,3.8,2.3,45.6,30.2,78.6,51.1
-97,wiggiaa01,Aaron Wiggins,Shooting Guard,Right,6-6,200,2,January,1999,Maryland,76,12.0,3.9,1.8,76,12.0,3.9,1.8,4,274,8.6,3.2,1.3,50.4,38.9,79.4,58.2
-98,hieldbu01,Buddy Hield,"Shooting Guard , Small Forward",Right,6-4,220,17,December,1992,Oklahoma,82,11.1,3.2,1.6,82,11.1,3.2,1.6,9,714,15.0,4.1,2.5,43.3,39.7,85.8,55.1
-99,oubreke01,Kelly Oubre Jr.,Small Forward,Left,6-8,203,9,December,1995,Kansas,60,15.1,6.1,1.8,60,15.1,6.1,1.8,10,655,13.3,4.6,1.1,43.8,32.5,75.1,50.6
-100,bealbr01,Bradley Beal,Shooting Guard,Right,6-4,207,28,June,1993,Florida,53,17.0,3.3,3.7,53,17.0,3.3,3.7,13,801,21.5,4.1,4.3,46.4,37.6,82.1,52.7
-101,markkla01,Lauri Markkanen,"Power Forward , Small Forward",Right,7-0,240,22,May,1997,Arizona,47,19.0,5.9,1.5,47,19.0,5.9,1.5,8,450,18.2,7.1,1.5,45.5,37.1,86.7,54.7
-102,camarto01,Toumani Camara,Power Forward,Left,6-8,220,8,May,2000,Dayton,78,11.3,5.8,2.2,78,11.3,5.8,2.2,2,148,9.5,5.4,1.8,45.5,36.3,73.8,53.9
-103,jeromty01,Ty Jerome,Shooting Guard,Right,6-5,195,8,July,1997,Virginia,70,12.5,2.5,3.4,70,12.5,2.5,3.4,6,229,8.7,2.0,2.8,45.8,38.1,85.0,54.7
-104,dinwisp01,Spencer Dinwiddie,"Point Guard , Shooting Guard",Right,6-5,215,6,April,1993,Colorado,79,11.0,2.6,4.4,79,11.0,2.6,4.4,11,621,13.0,3.0,5.1,41.4,33.3,79.6,49.1
-105,sarral01,Alex Sarr,"Center , Power Forward",Right,7-0,205,26,April,2005,Colleges,67,13.0,6.5,2.4,67,13.0,6.5,2.4,1,67,13.0,6.5,2.4,39.4,30.8,67.9,45.7
-106,goberru01,Rudy Gobert,Center,Right,7-1,258,26,June,1992,Colleges,72,12.0,10.9,1.8,72,12.0,10.9,1.8,12,829,12.6,11.7,1.4,65.6,0.0,64.1,65.6
-107,hardati02,Tim Hardaway Jr.,"Shooting Guard , Small Forward",Right,6-5,205,16,March,1992,Michigan,77,11.0,2.4,1.6,77,11.0,2.4,1.6,12,813,13.7,2.9,1.8,41.7,36.1,81.5,51.7
-108,vanvlfr01,Fred VanVleet,"Point Guard , Shooting Guard",Right,6-0,197,25,February,1994,"Wichita,State",60,14.1,3.7,5.6,60,14.1,3.7,5.6,9,550,14.9,3.4,5.7,40.1,37.1,86.2,50.2
-109,valanjo01,Jonas ValanÄiÅ«nas,Center,Right,6-11,265,6,May,1992,Colleges,81,10.4,7.7,2.0,81,10.4,7.7,2.0,13,937,13.1,9.3,1.4,56.0,34.1,79.4,57.4
-110,johnske07,Keon Johnson,Shooting Guard,Right,6-5,186,10,March,2002,Tennessee,79,10.6,3.8,2.2,79,10.6,3.8,2.2,4,161,8.2,2.7,1.9,37.9,32.4,76.5,45.6
-111,hendesc01,Scoot Henderson,Point Guard,Right,6-3,202,3,February,2004,Colleges,66,12.7,3.0,5.1,66,12.7,3.0,5.1,2,128,13.3,3.1,5.2,40.1,34.0,79.3,46.6
-112,washipj01,P.J. Washington,"Power Forward , Center",Right,6-7,230,23,August,1998,Kentucky,57,14.7,7.8,2.3,57,14.7,7.8,2.3,6,390,13.1,5.9,2.3,44.8,35.8,70.9,52.8
-113,toppiob01,Obi Toppin,Power Forward,Right,6-9,220,4,March,1998,Dayton,79,10.5,4.0,1.6,79,10.5,4.0,1.6,5,362,8.5,3.4,1.2,52.3,35.5,77.1,60.5
-114,jonesty01,Tyus Jones,Point Guard,Right,6-1,196,10,May,1996,Duke,81,10.2,2.4,5.3,81,10.2,2.4,5.3,10,682,7.7,2.0,4.4,44.5,37.8,82.1,52.1
-115,poeltja01,Jakob Poeltl,Center,Right,7-0,245,15,October,1995,Utah,57,14.5,9.6,2.8,57,14.5,9.6,2.8,9,595,8.9,7.0,1.8,63.1,42.9,55.5,63.1
-116,trentga02,Gary Trent Jr.,"Shooting Guard , Small Forward",Right,6-5,209,18,January,1999,Duke,74,11.1,2.3,1.2,74,11.1,2.3,1.2,7,415,13.7,2.4,1.4,42.3,39.1,82.3,52.9
-117,wellsja01,Jaylen Wells,"Shooting Guard , Small Forward",Right,6-7,206,26,August,2003,"Sonoma,State,University",79,10.4,3.4,1.7,79,10.4,3.4,1.7,1,79,10.4,3.4,1.7,42.5,35.2,82.2,52.7
-118,porzikr01,Kristaps PorziÅÄ£is,"Center , Power Forward",Right,7-2,240,2,August,1995,Colleges,42,19.5,6.8,2.1,42,19.5,6.8,2.1,9,501,19.6,7.8,1.8,46.1,36.6,82.9,52.5
-119,robindu01,Duncan Robinson,"Small Forward , Shooting Guard",Right,6-7,215,22,April,1994,Williams,74,11.0,2.3,2.4,74,11.0,2.3,2.4,7,423,11.3,2.6,1.8,43.4,39.7,87.4,59.4
-120,champju02,Julian Champagnie,Small Forward,Right,6-8,220,29,June,2001,"St.,John's",82,9.9,3.9,1.4,82,9.9,3.9,1.4,3,173,8.6,3.4,1.3,41.7,37.2,85.7,54.7
-121,aldamsa01,Santi Aldama,Power Forward,Right,6-11,224,10,January,2001,"Loyola,(MD)",65,12.5,6.4,2.9,65,12.5,6.4,2.9,4,235,9.8,5.2,1.9,45.9,34.5,69.2,54.6
-122,carrica01,Bub Carrington,Point Guard,Right,6-4,190,21,July,2005,Pitt,82,9.8,4.2,4.4,82,9.8,4.2,4.4,1,82,9.8,4.2,4.4,40.1,33.9,81.2,49.3
-123,leonaka01,Kawhi Leonard,Small Forward,Right,6-7,225,29,June,1991,"San,Diego,State",37,21.5,5.9,3.1,37,21.5,5.9,3.1,13,733,20.1,6.4,3.1,49.9,39.2,86.0,55.4
-124,niangge01,Georges Niang,Power Forward,Right,6-7,230,17,June,1993,"Iowa,State",79,9.9,3.4,1.4,79,9.9,3.4,1.4,9,544,7.4,2.5,1.0,44.5,39.9,85.2,58.0
-125,jonesde02,Derrick Jones Jr.,"Small Forward , Power Forward",Left,6-5,210,15,February,1997,UNLV,77,10.1,3.4,0.8,77,10.1,3.4,0.8,9,497,7.2,3.3,0.7,50.7,32.5,70.6,56.7
-126,pippesc02,Scotty Pippen Jr.,Point Guard,Right,6-1,185,10,November,2000,Vanderbilt,79,9.9,3.3,4.4,79,9.9,3.3,4.4,3,106,10.0,3.1,4.2,48.1,40.1,71.5,55.4
-127,dickgr01,Gradey Dick,Shooting Guard,Right,6-6,205,20,November,2003,Kansas,54,14.4,3.6,1.8,54,14.4,3.6,1.8,2,114,11.3,2.9,1.5,41.6,35.6,85.9,50.8
-128,leverca01,Caris LeVert,"Shooting Guard , Small Forward",Right,6-6,205,25,August,1994,Michigan,64,12.1,3.2,3.4,64,12.1,3.2,3.4,9,524,13.9,3.8,4.0,43.7,34.5,73.6,50.0
-129,hachiru01,Rui Hachimura,Power Forward,Right,6-8,230,8,February,1998,Gonzaga,59,13.1,5.0,1.4,59,13.1,5.0,1.4,6,337,12.8,4.9,1.3,49.6,38.1,76.4,55.1
-130,alexani01,Nickeil Alexander-Walker,Shooting Guard,Right,6-5,205,2,September,1998,"Virginia,Tech",82,9.4,3.2,2.7,82,9.4,3.2,2.7,6,381,8.6,2.5,2.3,41.4,36.0,74.3,51.2
-131,sensabr01,Brice Sensabaugh,Small Forward,Right,6-6,235,30,October,2003,"Ohio,State",71,10.9,3.0,1.5,71,10.9,3.0,1.5,2,103,9.8,3.0,1.6,44.1,39.2,89.5,55.8
-132,porteke02,Kevin Porter Jr.,"Shooting Guard, Point Guard, , Small Forward",Left,6-4,203,4,May,2000,USC,75,10.3,3.7,3.4,75,10.3,3.7,3.4,5,271,13.9,4.1,4.6,43.5,35.1,73.4,50.7
-133,yabusgu01,Guerschon Yabusele,"Center , Power Forward",Right,6-8,260,17,December,1995,Colleges,70,11.0,5.6,2.1,70,11.0,5.6,2.1,3,144,6.5,3.5,1.2,48.9,36.9,71.4,57.8
-134,collijo01,John Collins,Power Forward,Right,6-9,235,23,September,1997,"Wake,Forest",40,19.0,8.2,2.0,40,19.0,8.2,2.0,8,472,16.0,8.1,1.5,54.6,36.3,79.2,59.1
-135,joeis01,Isaiah Joe,Shooting Guard,Right,6-5,181,2,July,1999,Arkansas,74,10.2,2.6,1.6,74,10.2,2.6,1.6,5,321,7.6,2.0,1.1,43.1,40.2,83.7,58.5
-136,wilsoja03,Jalen Wilson,Power Forward,Right,6-8,225,4,November,2000,Kansas,79,9.5,3.4,1.8,79,9.5,3.4,1.8,2,122,7.9,3.3,1.6,40.3,33.5,82.0,49.4
-137,chrisma02,Max Christie,Shooting Guard,Right,6-6,190,10,February,2003,"Michigan,State",78,9.6,3.3,1.9,78,9.6,3.3,1.9,3,186,6.2,2.6,1.2,42.6,37.0,84.1,52.3
-138,gordoaa01,Aaron Gordon,"Power Forward , Small Forward",Right,6-8,235,16,September,1995,Arizona,51,14.7,4.8,3.2,51,14.7,4.8,3.2,11,720,13.6,6.2,2.7,48.4,33.1,69.3,53.4
-139,podzibr01,Brandin Podziemski,Shooting Guard,Left,6-5,205,25,February,2003,Illinois,64,11.7,5.1,3.4,64,11.7,5.1,3.4,2,138,10.4,5.4,3.6,44.9,37.8,70.1,53.3
-140,willizi01,Zion Williamson,Power Forward,Left,6-6,284,6,July,2000,Duke,30,24.6,7.2,5.3,30,24.6,7.2,5.3,5,214,24.7,6.6,4.3,58.9,32.7,68.9,59.3
-141,blackan01,Anthony Black,Point Guard,Right,6-7,198,20,January,2004,Arkansas,78,9.4,2.9,3.1,78,9.4,2.9,3.1,2,147,7.2,2.5,2.3,43.5,34.3,71.8,49.2
-142,russeda01,D'Angelo Russell,Point Guard,Left,6-3,193,23,February,1996,"Ohio,State",58,12.6,2.8,5.1,58,12.6,2.8,5.1,10,629,17.3,3.4,5.7,42.7,36.5,79.6,51.3
-143,coulibi01,Bilal Coulibaly,Small Forward,Right,6-8,195,26,July,2004,Colleges,59,12.3,5.0,3.4,59,12.3,5.0,3.4,2,122,10.3,4.5,2.5,42.7,31.1,72.8,48.7
-144,claxtni01,Nic Claxton,Center,Left,6-11,215,17,April,1999,Georgia,70,10.3,7.4,2.2,70,10.3,7.4,2.2,6,311,10.3,7.7,1.7,63.6,20.0,53.7,63.8
-145,moodymo01,Moses Moody,Shooting Guard,Right,6-5,205,31,May,2002,Arkansas,74,9.8,2.6,1.3,74,9.8,2.6,1.3,4,255,7.0,2.2,0.9,44.9,36.7,77.5,55.2
-146,divindo01,Donte DiVincenzo,Shooting Guard,Right,6-4,203,31,January,1997,Villanova,62,11.7,3.7,3.6,62,11.7,3.7,3.6,7,416,10.7,4.3,2.9,42.7,38.0,77.2,55.0
-147,paulch01,Chris Paul,Point Guard,Right,6-0,175,6,May,1985,"Wake,Forest",82,8.8,3.6,7.4,82,8.8,3.6,7.4,20,1354,17.0,4.4,9.2,47.0,37.0,87.1,52.3
-148,mccontj01,T.J. McConnell,Point Guard,Right,6-1,190,25,March,1992,Duquesne,79,9.1,2.4,4.4,79,9.1,2.4,4.4,10,706,7.6,2.9,5.0,51.6,34.5,77.8,53.5
-149,dortlu01,Luguentz Dort,"Small Forward , Shooting Guard",Right,6-4,220,19,April,1999,"Arizona,State",71,10.1,4.1,1.6,71,10.1,4.1,1.6,6,363,12.2,3.9,1.6,40.8,36.0,79.0,50.7
-150,kuminjo01,Jonathan Kuminga,"Power Forward , Small Forward",Right,6-8,210,6,October,2002,Colleges,47,15.3,4.6,2.2,47,15.3,4.6,2.2,4,258,12.5,4.0,1.8,50.7,33.2,69.6,55.0
-151,knechda01,Dalton Knecht,Small Forward,Right,6-6,215,19,April,2001,"Northeastern,Junior,College",78,9.1,2.8,0.8,78,9.1,2.8,0.8,1,78,9.1,2.8,0.8,46.1,37.6,76.2,57.6
-152,kispeco01,Corey Kispert,Small Forward,Right,6-7,220,3,March,1999,Gonzaga,61,11.6,3.0,1.7,61,11.6,3.0,1.7,4,292,11.1,2.8,1.5,47.4,38.2,80.5,59.2
-153,gaffoda01,Daniel Gafford,"Center , Power Forward",Right,6-10,234,1,October,1998,Arkansas,57,12.3,6.8,1.4,57,12.3,6.8,1.4,6,378,9.3,5.6,1.1,70.9,0.0,67.2,70.9
-154,smithja05,Jabari Smith Jr.,Power Forward,Right,6-11,220,13,May,2003,Auburn,57,12.2,7.0,1.1,57,12.2,7.0,1.1,3,212,13.0,7.5,1.3,43.2,34.0,80.5,51.0
-155,coffeam01,Amir Coffey,"Shooting Guard , Small Forward",Left,6-7,210,17,June,1997,Minnesota,72,9.7,2.2,1.1,72,9.7,2.2,1.1,6,323,6.7,1.9,1.1,45.5,38.4,83.7,54.9
-156,filipky01,Kyle Filipowski,Center,Right,6-11,250,7,November,2003,Duke,72,9.6,6.1,1.9,72,9.6,6.1,1.9,1,72,9.6,6.1,1.9,50.2,35.0,65.0,57.6
-157,buzelma01,Matas Buzelis,Small Forward,Right,6-10,209,13,October,2004,Colleges,80,8.6,3.5,1.0,80,8.6,3.5,1.0,1,80,8.6,3.5,1.0,45.4,36.1,81.5,54.1
-158,easonta01,Tari Eason,Power Forward,Right,6-8,216,10,May,2001,Cincinnati,57,12.0,6.4,1.5,57,12.0,6.4,1.5,3,161,10.3,6.3,1.2,46.6,34.5,74.1,51.6
-159,holidjr01,Jrue Holiday,"Point Guard , Shooting Guard",Right,6-4,205,12,June,1990,UCLA,62,11.1,4.3,3.9,62,11.1,4.3,3.9,16,1037,15.8,4.2,6.2,46.2,37.0,78.8,51.8
-160,huertke01,Kevin Huerter,"Shooting Guard , Small Forward",Right,6-7,190,27,August,1998,Maryland,69,9.9,3.0,2.3,69,9.9,3.0,2.3,7,482,11.6,3.4,2.9,44.1,37.5,76.0,54.8
-161,allengr01,Grayson Allen,Shooting Guard,Right,6-4,198,8,October,1995,Duke,64,10.6,3.0,2.1,64,10.6,3.0,2.1,7,403,10.5,3.0,2.0,45.1,41.4,85.7,58.7
-162,johnsja05,Jalen Johnson,"Small Forward , Power Forward",Right,6-9,220,18,December,2001,Duke,36,18.9,10.0,5.0,36,18.9,10.0,5.0,4,184,11.0,6.3,2.6,50.4,32.3,71.2,55.0
-163,onealro01,Royce O'Neale,Small Forward,Right,6-4,226,5,June,1993,Denver,75,9.1,4.7,2.2,75,9.1,4.7,2.2,8,600,7.1,4.8,2.4,42.6,38.5,77.0,55.7
-164,portibo01,Bobby Portis,"Power Forward , Center",Right,6-10,250,10,February,1995,Arkansas,49,13.9,8.4,2.1,49,13.9,8.4,2.1,10,654,12.0,7.2,1.3,47.8,38.3,76.5,53.4
-165,roziete01,Terry Rozier,"Point Guard , Shooting Guard",Right,6-1,190,17,March,1994,Louisville,64,10.6,3.7,2.6,64,10.6,3.7,2.6,10,665,13.9,3.9,3.5,41.8,36.1,82.9,50.2
-166,grantje01,Jerami Grant,"Power Forward , Small Forward",Right,6-7,210,12,March,1994,Syracuse,47,14.4,3.5,2.1,47,14.4,3.5,2.1,11,719,13.1,3.9,1.6,44.9,36.4,75.3,51.4
-167,caldwke01,Kentavious Caldwell-Pope,Shooting Guard,Right,6-5,204,18,February,1993,Georgia,77,8.7,2.2,1.8,77,8.7,2.2,1.8,12,912,11.2,3.0,1.8,42.8,36.7,82.2,51.8
-168,willima07,Mark Williams,Center,Right,7-0,241,16,December,2001,Duke,44,15.3,10.2,2.5,44,15.3,10.2,2.5,3,106,12.3,8.8,1.4,62.2,0.0,75.3,62.2
-169,agbajoc01,Ochai Agbaji,Shooting Guard,Right,6-5,215,20,April,2000,Kansas,64,10.4,3.8,1.5,64,10.4,3.8,1.5,3,201,7.9,2.9,1.2,45.0,35.3,73.4,54.0
-170,elliske01,Keon Ellis,Shooting Guard,Right,6-6,175,8,January,2000,"Florida,SouthWestern,State,College",80,8.3,2.7,1.5,80,8.3,2.7,1.5,3,153,6.5,2.2,1.4,47.9,42.9,80.5,63.0
-171,georgpa01,Paul George,"Small Forward, Power Forward, , Shooting Guard",Right,6-8,220,2,May,1990,"Fresno,State",41,16.2,5.3,4.3,41,16.2,5.3,4.3,15,908,20.6,6.3,3.7,44.0,38.3,85.3,52.0
-172,missiyv01,Yves Missi,Center,Right,6-11,235,14,May,2004,Baylor,73,9.1,8.2,1.4,73,9.1,8.2,1.4,1,73,9.1,8.2,1.4,54.7,0.0,62.3,54.7
-173,princta02,Taurean Prince,"Power Forward , Small Forward",Right,6-6,218,22,March,1994,Baylor,80,8.2,3.6,1.9,80,8.2,3.6,1.9,9,582,9.9,3.6,1.7,42.8,38.4,81.1,53.1
-174,nembhan01,Andrew Nembhard,"Shooting Guard , Point Guard",Right,6-5,193,16,January,2000,Florida,65,10.0,3.3,5.0,65,10.0,3.3,5.0,3,208,9.6,2.7,4.6,46.4,33.5,79.5,52.4
-175,kesslwa01,Walker Kessler,Center,Right,7-0,245,26,July,2001,UNC,58,11.1,12.2,1.7,58,11.1,12.2,1.7,3,196,9.4,9.2,1.2,68.0,19.6,53.7,68.5
-176,harteis01,Isaiah Hartenstein,"Center , Power Forward",Left,7-0,255,5,May,1998,Colleges,57,11.2,10.7,3.8,57,11.2,10.7,3.8,7,379,6.8,6.4,2.0,59.2,25.5,68.6,60.0
-177,willizi02,Ziaire Williams,Small Forward,Right,6-9,215,12,September,2001,Stanford,63,10.0,4.6,1.3,63,10.0,4.6,1.3,4,213,8.3,3.2,1.2,42.1,31.6,81.1,50.7
-178,anthoco01,Cole Anthony,Point Guard,Right,6-2,185,15,May,2000,UNC,67,9.4,3.0,2.9,67,9.4,3.0,2.9,5,320,12.5,4.3,3.8,41.9,34.5,84.7,48.3
-179,cartewe01,Wendell Carter Jr.,"Center , Power Forward",Right,6-10,270,16,April,1999,Duke,68,9.1,7.2,2.0,68,9.1,7.2,2.0,7,383,11.9,8.3,2.0,50.9,31.6,72.9,55.0
-180,sochaje01,Jeremy Sochan,Power Forward,Right,6-8,230,20,May,2003,Baylor,54,11.4,6.5,2.4,54,11.4,6.5,2.4,3,184,11.4,6.1,2.8,46.8,29.0,72.5,50.4
-181,colliis01,Isaiah Collier,Point Guard,Right,6-3,210,8,October,2004,USC,71,8.7,3.3,6.3,71,8.7,3.3,6.3,1,71,8.7,3.3,6.3,42.2,24.9,68.2,45.9
-182,greendr01,Draymond Green,"Power Forward , Small Forward",Right,6-6,230,4,March,1990,"Michigan,State",68,9.0,6.1,5.6,68,9.0,6.1,5.6,13,881,8.7,6.9,5.6,44.9,32.0,71.0,50.8
-183,mcbrimi01,Miles McBride,Point Guard,Right,6-2,200,8,September,2000,"West,Virginia",64,9.5,2.5,2.9,64,9.5,2.5,2.9,4,236,6.3,1.5,1.8,40.5,36.0,78.0,51.1
-184,edeyza01,Zach Edey,Center,Right,7-4,305,14,May,2002,Purdue,66,9.2,8.3,1.0,66,9.2,8.3,1.0,1,66,9.2,8.3,1.0,58.0,34.6,70.9,60.0
-185,hausesa01,Sam Hauser,"Small Forward , Power Forward",Right,6-8,215,8,December,1997,Marquette,71,8.5,3.2,0.9,71,8.5,3.2,0.9,4,256,7.4,2.9,0.9,45.1,42.0,85.1,62.7
-186,hawkijo01,Jordan Hawkins,Shooting Guard,Right,6-5,195,29,April,2002,UConn,56,10.8,2.8,1.2,56,10.8,2.8,1.2,2,123,9.2,2.5,1.1,37.6,34.8,82.6,48.5
-187,clarkjo01,Jordan Clarkson,"Shooting Guard , Point Guard",Right,6-3,194,7,June,1992,Tulsa,37,16.2,3.2,3.7,37,16.2,3.2,3.7,11,753,16.0,3.4,2.9,43.6,33.6,82.9,50.4
-188,thomaca02,Cam Thomas,Shooting Guard,Right,6-4,210,13,October,2001,LSU,25,24.0,3.3,3.8,25,24.0,3.3,3.8,4,215,15.1,2.6,2.1,43.9,34.5,86.0,49.9
-189,wareke01,Kel'el Ware,Center,Right,7-0,230,20,April,2004,Oregon,64,9.3,7.4,0.9,64,9.3,7.4,0.9,1,64,9.3,7.4,0.9,55.4,31.5,68.7,59.2
-190,thompau01,Ausar Thompson,Small Forward,Right,6-7,215,30,January,2003,Colleges,59,10.1,5.1,2.3,59,10.1,5.1,2.3,2,122,9.4,5.8,2.1,50.9,19.8,62.1,52.6
-191,smithni01,Nick Smith Jr.,Shooting Guard,Right,6-2,185,18,April,2004,Arkansas,60,9.9,2.1,2.4,60,9.9,2.1,2.4,2,111,8.0,1.8,1.8,39.1,36.9,91.8,48.8
-192,georgky01,Kyshawn George,Shooting Guard,Right,6-7,200,12,December,2003,"Miami,(FL)",68,8.7,4.2,2.5,68,8.7,4.2,2.5,1,68,8.7,4.2,2.5,37.2,32.2,75.3,47.6
-193,strawju01,Julian Strawther,"Small Forward , Shooting Guard",Right,6-7,205,18,April,2002,Gonzaga,65,9.0,2.2,1.3,65,9.0,2.2,1.3,2,115,7.1,1.8,1.1,41.2,33.2,79.3,50.8
-194,mitchda01,Davion Mitchell,Point Guard,Right,6-2,205,5,September,1998,Auburn,74,7.9,2.3,4.9,74,7.9,2.3,4.9,4,301,7.6,1.8,3.3,44.2,34.4,69.8,51.7
-195,bogdabo01,Bogdan BogdanoviÄ,Shooting Guard,Right,6-5,220,18,August,1992,Colleges,54,10.8,2.9,2.7,54,10.8,2.9,2.7,8,503,14.3,3.3,3.2,43.7,38.2,84.6,54.0
-196,conlemi01,Mike Conley,Point Guard,Left,6-0,175,11,October,1987,"Ohio,State",71,8.2,2.6,4.5,71,8.2,2.6,4.5,18,1172,14.1,2.9,5.7,43.8,38.9,82.5,51.1
-197,alvarjo01,Jose Alvarado,Point Guard,Right,6-0,179,12,April,1998,"Georgia,Tech",56,10.3,2.4,4.6,56,10.3,2.4,4.6,4,227,8.2,2.2,3.1,41.1,34.8,75.7,50.3
-198,aytonde01,Deandre Ayton,Center,Right,7-0,250,23,July,1998,Arizona,40,14.4,10.2,1.6,40,14.4,10.2,1.6,7,398,16.4,10.5,1.6,59.0,23.0,75.5,59.3
-199,kennalu01,Luke Kennard,Shooting Guard,Left,6-5,206,24,June,1996,Duke,65,8.9,2.8,3.3,65,8.9,2.8,3.3,8,460,9.8,2.8,2.3,45.7,43.8,88.1,58.6
-200,juzanjo01,Johnny Juzang,Shooting Guard,Right,6-7,215,17,March,2001,Kentucky,64,8.9,2.9,1.1,64,8.9,2.9,1.1,3,102,7.9,2.5,1.0,42.1,36.3,80.3,54.1
-201,jaqueja01,Jaime Jaquez Jr.,Small Forward,Right,6-6,225,18,February,2001,UCLA,66,8.6,4.4,2.5,66,8.6,4.4,2.5,2,141,10.3,4.1,2.6,47.8,31.8,78.5,52.2
-202,millebr02,Brandon Miller,Small Forward,Right,6-9,201,22,November,2002,Alabama,27,21.0,4.9,3.6,27,21.0,4.9,3.6,2,101,18.3,4.4,2.7,42.8,36.6,83.7,52.0
-203,wallaca01,Cason Wallace,Shooting Guard,Right,6-4,205,7,November,2003,Kentucky,68,8.4,3.4,2.5,68,8.4,3.4,2.5,2,150,7.5,2.8,2.0,48.2,38.9,79.7,57.5
-204,suggsja01,Jalen Suggs,"Shooting Guard , Point Guard",Right,6-5,205,3,June,2001,Gonzaga,35,16.2,4.0,3.7,35,16.2,4.0,3.7,4,211,12.3,3.3,3.3,41.9,32.9,77.9,49.6
-205,dosunay01,Ayo Dosunmu,Shooting Guard,Right,6-5,200,17,January,2000,Illinois,46,12.3,3.5,4.5,46,12.3,3.5,4.5,4,279,10.2,2.9,3.3,50.2,36.1,77.3,57.0
-206,willipa01,Patrick Williams,Power Forward,Right,6-7,215,26,August,2001,"Florida,State",63,9.0,3.8,2.0,63,9.0,3.8,2.0,5,276,9.6,4.1,1.5,45.2,39.2,76.9,53.0
-207,quickim01,Immanuel Quickley,"Point Guard , Shooting Guard",Right,6-3,190,17,June,1999,Kentucky,33,17.1,3.5,5.8,33,17.1,3.5,5.8,5,324,14.0,3.4,3.7,42.1,37.5,85.8,51.6
-208,bantoda01,Dalano Banton,Point Guard,Right,6-9,204,7,November,1999,Nebraska,67,8.3,2.0,2.4,67,8.3,2.0,2.4,4,216,6.8,2.2,2.0,40.2,30.4,72.8,46.1
-209,watsope01,Peyton Watson,"Small Forward , Shooting Guard",Right,6-8,200,11,September,2002,UCLA,68,8.1,3.4,1.4,68,8.1,3.4,1.4,3,171,6.8,3.1,1.1,47.2,32.8,67.3,52.5
-210,finnedo01,Dorian Finney-Smith,"Power Forward , Small Forward",Right,6-7,220,4,May,1993,Florida,63,8.7,3.9,1.4,63,8.7,3.9,1.4,9,591,8.3,4.5,1.4,43.6,36.2,71.8,54.8
-211,champju01,Justin Champagnie,Small Forward,Right,6-6,200,29,June,2001,Pitt,62,8.8,5.7,1.0,62,8.8,5.7,1.0,4,118,6.1,4.1,0.8,48.7,36.2,73.2,57.3
-212,murrade01,Dejounte Murray,"Point Guard , Shooting Guard",Right,6-5,180,19,September,1996,Washington,31,17.5,6.5,7.4,31,17.5,6.5,7.4,8,503,15.5,5.8,5.4,45.3,34.0,79.0,49.7
-213,greenaj01,A.J. Green,Shooting Guard,Right,6-4,200,27,September,1999,"University,of,Northern,Iowa",73,7.4,2.4,1.5,73,7.4,2.4,1.5,3,164,5.8,1.7,1.0,42.7,42.1,86.0,60.7
-214,nesmiaa01,Aaron Nesmith,Small Forward,Right,6-5,215,16,October,1999,Vanderbilt,45,12.0,4.0,1.2,45,12.0,4.0,1.2,5,288,8.9,3.3,1.1,46.3,38.5,82.8,56.7
-215,butleja02,Jared Butler,"Point Guard , Shooting Guard",Right,6-3,195,25,August,2000,Baylor,60,9.0,1.8,3.7,60,9.0,1.8,3.7,4,148,6.7,1.5,2.8,45.0,34.1,81.8,52.2
-216,horfoal01,Al Horford,Center,Right,6-9,240,3,June,1986,Florida,60,9.0,6.2,2.1,60,9.0,6.2,2.1,18,1138,12.9,7.9,3.2,50.9,37.7,76.3,55.0
-217,clarkbr01,Brandon Clarke,Power Forward,Right,6-8,215,19,September,1996,"San,Jose,State",64,8.3,5.1,1.0,64,8.3,5.1,1.0,6,307,10.2,5.5,1.3,60.6,26.6,69.8,61.7
-218,dasiltr01,Tristan Da Silva,Small Forward,Right,6-8,217,15,May,2001,Colorado,74,7.2,3.3,1.5,74,7.2,3.3,1.5,1,74,7.2,3.3,1.5,41.2,33.5,87.3,49.5
-219,sheadja01,Jamal Shead,Point Guard,Right,6-0,200,24,June,2002,Houston,75,7.1,1.5,4.2,75,7.1,1.5,4.2,1,75,7.1,1.5,4.2,40.5,32.3,76.8,47.6
-220,councri01,Ricky Council IV,"Shooting Guard , Small Forward",Right,6-6,205,3,August,2001,"Wichita,State",73,7.3,2.9,1.3,73,7.3,2.9,1.3,2,105,6.7,2.5,1.1,40.2,27.3,78.6,46.0
-221,richani01,Nick Richards,"Center , Power Forward",Right,7-0,245,29,November,1997,Kentucky,57,9.3,8.2,0.9,57,9.3,8.2,0.9,5,257,7.3,5.9,0.6,64.0,20.0,73.8,64.0
-222,iveyja01,Jaden Ivey,Shooting Guard,Right,6-4,195,13,February,2002,Purdue,30,17.6,4.1,4.0,30,17.6,4.1,4.0,3,181,16.1,3.7,4.4,42.9,35.2,74.6,49.4
-223,smithja04,Jalen Smith,"Center , Power Forward",Right,6-10,215,16,March,2000,Maryland,64,8.2,5.6,1.0,64,8.2,5.6,1.0,5,271,8.5,5.3,0.8,50.5,33.2,75.4,57.2
-224,martity01,Tyrese Martin,Shooting Guard,Right,6-6,215,7,March,1999,"Rhode,Island",60,8.7,3.7,2.0,60,8.7,3.7,2.0,2,76,7.2,3.0,1.6,40.6,34.6,80.0,50.8
-225,hollaro01,Ron Holland,Small Forward,Right,6-8,206,7,July,2005,Colleges,81,6.4,2.7,1.0,81,6.4,2.7,1.0,1,81,6.4,2.7,1.0,47.4,23.8,75.4,51.7
-226,mannte01,Terance Mann,"Shooting Guard , Small Forward",Right,6-5,215,18,October,1996,"Florida,State",67,7.7,3.0,1.8,67,7.7,3.0,1.8,6,412,8.1,3.5,1.9,50.2,37.2,78.1,56.7
-227,dunnry01,Ryan Dunn,Small Forward,Right,6-6,216,7,January,2003,Virginia,74,6.9,3.6,0.8,74,6.9,3.6,0.8,1,74,6.9,3.6,0.8,43.0,31.1,48.7,51.6
-228,merrisa01,Sam Merrill,Shooting Guard,Right,6-4,205,15,May,1996,"Utah,State,University",71,7.2,2.2,1.5,71,7.2,2.2,1.5,5,173,6.5,1.9,1.4,40.5,38.6,92.5,57.3
-229,greenjo02,Josh Green,Shooting Guard,Right,6-5,200,16,November,2000,Arizona,68,7.4,2.5,1.6,68,7.4,2.5,1.6,5,291,6.7,2.7,1.5,48.2,38.0,68.7,57.0
-230,bitadgo01,Goga Bitadze,Center,Right,6-11,250,20,July,1999,Colleges,70,7.2,6.6,2.0,70,7.2,6.6,2.0,6,319,5.4,4.1,1.2,54.1,23.0,66.2,56.5
-231,bouchch01,Chris Boucher,"Power Forward, Center, , Small Forward",Right,6-9,200,11,January,1993,"New,Mexico,Junior,College",50,10.0,4.5,0.7,50,10.0,4.5,0.7,8,407,8.9,5.1,0.5,48.8,33.9,77.9,55.9
-232,payneca01,Cameron Payne,"Point Guard , Shooting Guard",Left,6-3,183,8,August,1994,"Murray,State",72,6.9,1.4,2.8,72,6.9,1.4,2.8,10,477,7.8,2.0,3.2,41.9,36.8,83.6,50.1
-233,hardyja02,Jaden Hardy,Shooting Guard,Right,6-4,198,5,July,2002,Colleges,57,8.7,1.6,1.4,57,8.7,1.6,1.4,3,178,8.1,1.7,1.4,42.5,38.1,76.3,51.5
-234,jovicni01,Nikola JoviÄ,Power Forward,Right,6-10,209,9,June,2003,Colleges,46,10.7,3.9,2.8,46,10.7,3.9,2.8,3,107,8.7,3.8,2.2,45.0,37.0,80.4,55.4
-235,capelca01,Clint Capela,Center,Right,6-10,240,18,May,1994,Colleges,55,8.9,8.5,1.1,55,8.9,8.5,1.1,11,664,12.0,10.5,1.0,61.7,0.0,54.4,61.7
-236,holmgch01,Chet Holmgren,"Center , Power Forward",Right,7-1,213,1,May,2002,Gonzaga,32,15.0,8.0,2.0,32,15.0,8.0,2.0,2,114,16.1,7.9,2.3,51.9,37.2,78.0,58.6
-237,highsha01,Haywood Highsmith,"Small Forward , Power Forward",Right,6-7,220,9,December,1996,"Wheeling,University",74,6.5,3.4,1.5,74,6.5,3.4,1.5,5,218,5.4,3.1,1.1,44.9,37.4,60.5,55.5
-238,whitmca01,Cam Whitmore,Small Forward,Right,6-7,232,8,July,2004,Villanova,51,9.4,3.0,1.0,51,9.4,3.0,1.0,2,98,10.8,3.4,0.8,44.9,35.7,70.7,53.2
-239,dunnkr01,Kris Dunn,Point Guard,Right,6-3,205,18,March,1994,Providence,74,6.4,3.4,2.8,74,6.4,3.4,2.8,9,407,7.7,3.3,4.0,43.7,32.7,73.6,48.2
-240,strusma01,Max Strus,Small Forward,Right,6-5,215,28,March,1996,"Lewis,(IL)",50,9.4,4.3,3.2,50,9.4,4.3,3.2,6,309,10.4,3.4,2.4,42.7,36.8,81.2,56.1
-241,walkeja02,Jarace Walker,Power Forward,Right,6-8,240,4,September,2003,Houston,75,6.1,3.1,1.5,75,6.1,3.1,1.5,2,108,5.4,2.7,1.4,45.7,40.4,69.2,56.1
-242,vincega01,Gabe Vincent,Point Guard,Right,6-3,195,14,June,1996,"UC,Santa,Barbara",72,6.4,1.3,1.4,72,6.4,1.3,1.4,6,278,7.2,1.6,2.0,39.6,33.7,83.1,50.6
-243,laravja01,Jake LaRavia,Power Forward,Right,6-8,235,3,November,2001,"Indiana,State,University",66,6.9,3.9,2.4,66,6.9,3.9,2.4,3,136,6.9,3.3,1.7,42.9,37.1,75.1,52.2
-244,nurkiju01,Jusuf NurkiÄ,Center,Right,7-0,290,23,August,1994,Colleges,51,8.9,7.8,2.3,51,8.9,7.8,2.3,11,590,11.8,8.8,2.5,50.1,28.5,66.7,51.3
-245,embiijo01,Joel Embiid,Center,Right,7-0,280,16,March,1994,Kansas,19,23.8,8.2,4.5,19,23.8,8.2,4.5,9,452,27.7,11.0,3.7,50.1,33.9,82.8,53.4
-246,lylestr01,Trey Lyles,Power Forward,Right,6-9,234,5,November,1995,Kentucky,69,6.5,4.6,1.2,69,6.5,4.6,1.2,10,650,7.6,4.3,1.1,44.1,34.7,74.1,52.1
-247,watfotr01,Trendon Watford,"Power Forward , Small Forward",Right,6-9,240,9,November,2000,LSU,44,10.2,3.6,2.6,44,10.2,3.6,2.6,4,217,7.9,3.6,1.9,52.0,34.9,75.8,55.6
-248,walteja01,Ja'Kobe Walter,Shooting Guard,Right,6-5,180,4,September,2004,Baylor,52,8.6,3.1,1.6,52,8.6,3.1,1.6,1,52,8.6,3.1,1.6,40.5,34.9,79.5,48.7
-249,bostobr01,Brandon Boston Jr.,"Shooting Guard , Small Forward",Right,6-7,185,28,November,2001,Kentucky,42,10.7,3.2,2.2,42,10.7,3.2,2.2,4,147,7.5,2.2,1.2,41.2,32.8,78.1,46.7
-250,fontesi01,Simone Fontecchio,Small Forward,Right,6-8,209,9,December,1995,Colleges,75,5.9,2.9,0.9,75,5.9,2.9,0.9,3,193,7.6,2.8,1.1,41.9,36.3,82.0,53.0
-251,edwarju01,Justin Edwards,Small Forward,Left,6-6,203,16,December,2003,Kentucky,44,10.1,3.4,1.6,44,10.1,3.4,1.6,1,44,10.1,3.4,1.6,45.5,36.3,69.6,54.6
-252,curryse01,Seth Curry,"Shooting Guard , Point Guard",Right,6-1,185,23,August,1990,Liberty,68,6.5,1.7,0.9,68,6.5,1.7,0.9,11,550,10.0,2.0,1.9,47.1,43.3,86.3,58.2
-253,kornelu01,Luke Kornet,Center,Right,7-2,250,15,July,1995,Vanderbilt,73,6.0,5.3,1.6,73,6.0,5.3,1.6,8,353,5.2,3.5,1.1,53.6,32.1,77.0,58.9
-254,middlkh01,Khris Middleton,"Small Forward , Shooting Guard",Right,6-7,222,12,August,1991,"Texas,A&M",37,11.9,3.7,4.1,37,11.9,3.7,4.1,13,776,16.6,4.8,4.0,46.0,38.7,87.8,52.9
-255,huffja01,Jay Huff,Center,Right,7-1,240,25,August,1998,Virginia,64,6.9,2.0,0.6,64,6.9,2.0,0.6,4,95,5.4,1.7,0.5,52.0,40.4,82.4,64.9
-256,clingdo01,Donovan Clingan,Center,Right,7-2,280,23,February,2004,UConn,67,6.5,7.9,1.1,67,6.5,7.9,1.1,1,67,6.5,7.9,1.1,53.9,28.6,59.6,56.0
-257,willike04,Kenrich Williams,"Power Forward , Small Forward",Right,6-7,210,2,December,1994,TCU,69,6.3,3.5,1.4,69,6.3,3.5,1.4,7,391,6.4,4.1,1.8,47.0,36.5,54.9,55.1
-258,stewais01,Isaiah Stewart,"Center , Power Forward",Right,6-8,250,22,May,2001,Washington,72,6.0,5.5,1.7,72,6.0,5.5,1.7,5,307,8.6,7.1,1.3,50.7,34.5,73.3,55.3
-259,bryanth01,Thomas Bryant,Center,Right,6-10,248,31,July,1997,Indiana,66,6.5,3.8,0.8,66,6.5,3.8,0.8,8,333,8.9,5.1,1.0,58.2,34.6,77.8,62.4
-260,clownno01,Noah Clowney,Power Forward,Right,6-10,210,14,July,2004,Alabama,46,9.1,3.9,0.9,46,9.1,3.9,0.9,2,69,8.0,3.8,0.8,39.4,33.7,80.0,50.0
-261,battlja01,Jamison Battle,Small Forward,Left,6-7,220,10,May,2001,"George,Washington",59,7.1,2.7,0.9,59,7.1,2.7,0.9,1,59,7.1,2.7,0.9,42.9,40.5,88.9,58.1
-262,robinje02,Jeremiah Robinson-Earl,"Power Forward , Center",Right,6-9,230,3,November,2000,Villanova,66,6.3,4.8,1.3,66,6.3,4.8,1.3,4,197,6.0,4.3,1.0,44.1,34.2,79.6,52.2
-263,krejcvi01,Vit Krejci,"Point Guard , Shooting Guard",Right,6-8,195,19,June,2000,Colleges,57,7.2,2.7,2.6,57,7.2,2.7,2.6,4,138,5.6,2.4,2.0,46.5,39.4,76.0,59.4
-264,jackstr02,Trayce Jackson-Davis,"Power Forward , Center",Left,6-9,245,22,February,2000,Indiana,62,6.6,5.0,1.7,62,6.6,5.0,1.7,2,130,7.3,5.0,1.4,64.2,0.0,56.8,64.2
-265,colliza01,Zach Collins,"Center , Power Forward",Right,6-11,250,19,November,1997,Gonzaga,64,6.4,4.5,1.7,64,6.4,4.5,1.7,7,378,8.0,4.8,1.8,48.2,33.1,76.7,53.3
-266,diabamo01,Moussa DiabatÃ©,Center,Right,6-11,210,21,January,2002,Michigan,71,5.7,6.2,0.8,71,5.7,6.2,0.8,3,104,4.7,4.9,0.6,58.1,12.5,60.3,58.2
-267,ingrabr01,Brandon Ingram,"Small Forward , Power Forward",Right,6-8,190,2,September,1997,Duke,18,22.2,5.6,5.2,18,22.2,5.6,5.2,9,495,19.5,5.2,4.3,46.8,36.3,78.8,51.3
-268,paytoga02,Gary Payton II,"Shooting Guard, Point Guard, , Small Forward",Left,6-2,190,1,December,1992,"Oregon,State",62,6.5,3.0,1.3,62,6.5,3.0,1.3,9,270,5.5,2.8,1.2,55.7,34.0,62.5,61.5
-269,sharpda01,Day'Ron Sharpe,"Center , Power Forward",Right,6-11,265,6,November,2001,UNC,50,7.9,6.6,1.8,50,7.9,6.6,1.8,4,191,6.5,5.6,1.2,55.0,29.5,64.8,56.2
-270,mogbojo01,Jonathan Mogbo,Power Forward,Right,6-9,225,29,October,2001,"Missouri,State",63,6.2,4.9,2.3,63,6.2,4.9,2.3,1,63,6.2,4.9,2.3,43.8,24.3,73.2,46.2
-271,wagnemo01,Moritz Wagner,Center,Right,6-11,245,26,April,1997,Michigan,30,12.9,4.9,1.4,30,12.9,4.9,1.4,7,363,9.2,4.0,1.2,52.5,32.4,80.7,58.3
-272,mamuksa01,Sandro Mamukelashvili,"Center , Power Forward",Left,6-11,240,23,May,1999,"Seton,Hall",61,6.3,3.1,0.8,61,6.3,3.1,0.8,4,191,5.2,3.1,0.9,47.1,34.8,73.1,55.5
-273,olynyke01,Kelly Olynyk,"Center , Power Forward",Right,6-11,240,19,April,1991,Gonzaga,44,8.7,4.7,2.9,44,8.7,4.7,2.9,12,800,10.2,5.2,2.5,48.6,37.1,79.6,56.2
-274,hayesja02,Jaxson Hayes,Center,Right,7-0,220,23,May,2000,Texas,56,6.8,4.8,1.0,56,6.8,4.8,1.0,6,367,6.8,3.9,0.7,64.9,26.1,69.6,65.9
-275,carusal01,Alex Caruso,"Point Guard , Shooting Guard",Right,6-5,186,28,February,1994,"Texas,A&M",54,7.1,2.9,2.5,54,7.1,2.9,2.5,8,417,6.9,2.9,2.8,44.0,37.6,75.8,53.4
-276,isaacjo01,Jonathan Isaac,Power Forward,Right,6-10,230,3,October,1997,"Florida,State",71,5.4,4.4,0.6,71,5.4,4.4,0.6,6,276,7.6,4.9,0.8,44.3,32.3,74.9,50.6
-277,achiupr01,Precious Achiuwa,"Center , Power Forward",Right,6-8,225,19,September,1999,Memphis,57,6.6,5.6,1.0,57,6.6,5.6,1.0,5,320,7.6,5.7,1.0,48.4,30.4,60.6,51.4
-278,hortota01,Talen Horton-Tucker,"Shooting Guard , Point Guard",Right,6-4,234,25,November,2000,"Iowa,State",58,6.5,1.7,1.4,58,6.5,1.7,1.4,6,305,9.2,2.6,2.8,42.7,29.9,77.1,47.8
-279,sassema01,Marcus Sasser,Point Guard,Right,6-2,195,21,September,2000,Houston,57,6.6,1.2,2.3,57,6.6,1.2,2.3,2,128,7.5,1.5,2.9,44.1,37.8,86.3,53.2
-280,phillju01,Julian Phillips,Small Forward,Right,6-8,198,5,November,2003,Tennessee,79,4.6,2.1,0.5,79,4.6,2.1,0.5,2,119,3.8,1.7,0.4,44.0,32.5,76.8,52.5
-281,martico01,Cody Martin,Small Forward,Right,6-5,205,28,September,1995,"NC,State",53,6.8,4.2,2.0,53,6.8,4.2,2.0,6,259,6.2,3.7,2.2,43.6,30.8,66.1,49.6
-282,anderky01,Kyle Anderson,"Small Forward , Power Forward",Right,6-9,230,20,September,1993,UCLA,61,5.9,3.4,2.4,61,5.9,3.4,2.4,11,714,6.8,4.3,2.8,47.8,34.0,71.6,51.4
-283,burksal01,Alec Burks,"Shooting Guard , Small Forward",Right,6-6,214,20,July,1991,Colorado,49,7.3,2.5,1.1,49,7.3,2.5,1.1,14,791,10.6,3.3,1.9,41.5,38.6,80.5,48.8
-284,martica02,Caleb Martin,Small Forward,Right,6-5,205,28,September,1995,"NC,State",45,7.9,3.9,2.1,45,7.9,3.9,2.1,6,311,8.4,3.9,1.6,44.7,35.7,73.4,52.0
-285,mathega01,Garrison Mathews,Shooting Guard,Right,6-5,215,24,October,1996,Lipscomb,47,7.5,1.9,1.3,47,7.5,1.9,1.3,6,314,6.5,1.8,0.7,40.5,38.2,83.8,56.8
-286,salauti01,Tidjane SalaÃ¼n,Power Forward,Right,6-9,207,10,August,2005,Colleges,60,5.9,4.7,1.2,60,5.9,4.7,1.2,1,60,5.9,4.7,1.2,33.0,28.3,71.3,41.4
-287,mccaija01,Jared McCain,"Shooting Guard , Point Guard",Right,6-2,195,20,February,2004,Duke,23,15.3,2.4,2.6,23,15.3,2.4,2.6,1,23,15.3,2.4,2.6,46.0,38.3,87.5,55.3
-288,rolliry01,Ryan Rollins,Point Guard,Right,6-4,180,3,July,2002,Toledo,56,6.2,1.9,1.9,56,6.2,1.9,1.9,3,81,5.1,1.6,1.5,48.1,41.4,80.9,56.8
-289,greenja02,Javonte Green,"Shooting Guard , Small Forward",Right,6-4,205,23,July,1993,Radford,68,5.1,3.2,0.8,68,5.1,3.2,0.8,6,263,5.3,3.1,0.7,50.9,33.8,74.7,57.0
-290,looneke01,Kevon Looney,"Center , Power Forward",Right,6-9,222,6,February,1996,UCLA,76,4.5,6.1,1.6,76,4.5,6.1,1.6,10,599,5.0,5.7,1.6,57.5,18.5,60.8,57.7
-291,holidaa01,Aaron Holiday,Point Guard,Right,6-0,185,30,September,1996,UCLA,62,5.5,1.3,1.3,62,5.5,1.3,1.3,7,448,6.5,1.6,2.0,42.1,38.2,85.1,50.6
-292,postqu01,Quinten Post,Power Forward,Right,7-0,238,21,March,2000,"Mississippi,State",42,8.1,3.5,1.3,42,8.1,3.5,1.3,1,42,8.1,3.5,1.3,44.9,40.8,77.8,58.2
-293,brownbr01,Bruce Brown,"Point Guard, Small Forward, , Shooting Guard",Right,6-4,202,15,August,1996,"Miami,(FL)",41,8.3,4.0,2.0,41,8.3,4.0,2.0,7,457,8.9,4.2,2.4,47.6,33.7,76.8,51.8
-294,bonaad01,Adem Bona,"Center , Power Forward",Right,6-10,235,28,March,2003,UCLA,58,5.8,4.2,0.5,58,5.8,4.2,0.5,1,58,5.8,4.2,0.5,70.3,0.0,67.0,70.3
-295,okorois01,Isaac Okoro,"Small Forward , Shooting Guard",Right,6-5,225,26,January,2001,Auburn,55,6.1,2.4,1.2,55,6.1,2.4,1.2,5,334,8.1,2.8,1.6,46.7,35.1,73.1,54.3
-296,mykhasv01,Svi Mykhailiuk,Small Forward,Right,6-7,205,10,June,1997,Kansas,38,8.8,2.4,2.0,38,8.8,2.4,2.0,7,331,6.6,1.8,1.4,40.2,36.0,76.5,51.9
-297,sheppbe01,Ben Sheppard,Shooting Guard,Right,6-6,190,16,July,2001,Belmont,63,5.3,2.8,1.3,63,5.3,2.8,1.3,2,120,4.9,2.2,1.2,40.7,33.0,88.7,52.0
-298,vukcetr01,Tristan Vukcevic,Center,Right,6-10,223,11,March,2003,Colleges,35,9.4,3.7,1.1,35,9.4,3.7,1.1,2,45,9.2,3.7,1.2,48.2,34.8,77.5,56.0
-299,jonestr01,Tre Jones,Point Guard,Right,6-1,185,8,January,2000,Duke,46,7.2,2.5,4.2,46,7.2,2.5,4.2,5,297,8.4,2.8,4.7,48.8,31.1,83.9,52.3
-300,terryda01,Dalen Terry,Shooting Guard,Right,6-7,195,12,July,2002,Arizona,73,4.5,1.7,1.3,73,4.5,1.7,1.3,3,170,3.5,1.6,1.2,44.5,29.8,66.2,50.6
-301,matkoka01,Karlo MatkoviÄ,Power Forward,Right,6-11,231,30,March,2001,Colleges,42,7.7,5.0,1.1,42,7.7,5.0,1.1,1,42,7.7,5.0,1.1,57.4,31.8,77.3,61.9
-302,wadede01,Dean Wade,Power Forward,Right,6-9,228,20,November,1996,"Kansas,State",59,5.4,4.2,1.3,59,5.4,4.2,1.3,6,283,5.2,3.5,1.0,42.8,36.8,67.8,56.6
-303,jeffrda01,DaQuan Jeffries,Shooting Guard,Right,6-5,230,30,August,1997,"Oral,Roberts",47,6.7,2.9,1.1,47,6.7,2.9,1.1,6,111,4.6,2.1,0.8,41.5,31.5,78.3,50.2
-304,miltosh01,Shake Milton,Shooting Guard,Right,6-5,205,26,September,1996,SMU,57,5.5,1.8,1.8,57,5.5,1.8,1.8,7,359,8.1,2.2,2.4,45.1,35.8,82.4,51.3
-305,livelde01,Dereck Lively II,Center,Right,7-1,230,12,February,2004,Duke,36,8.7,7.5,2.4,36,8.7,7.5,2.4,2,91,8.8,7.1,1.6,72.9,0.0,56.5,72.9
-306,batumni01,Nicolas Batum,"Small Forward, Power Forward, , Shooting Guard",Right,6-8,230,14,December,1988,Colleges,78,4.0,2.8,1.1,78,4.0,2.8,1.1,17,1131,10.0,4.8,3.1,43.7,36.9,83.2,53.3
-307,walkeja01,Jabari Walker,Small Forward,Right,6-9,215,30,July,2002,Colorado,60,5.2,3.5,0.6,60,5.2,3.5,0.6,3,188,6.2,4.5,0.8,46.5,31.8,73.9,51.0
-308,quetane01,Neemias Queta,Center,Right,7-0,245,13,July,1999,"Utah,State,University",62,5.0,3.8,0.7,62,5.0,3.8,0.7,4,110,4.7,3.6,0.7,62.7,0.0,71.3,62.7
-309,brogdma01,Malcolm Brogdon,"Point Guard , Shooting Guard",Right,6-4,229,11,December,1992,Virginia,24,12.7,3.8,4.1,24,12.7,3.8,4.1,9,463,15.3,4.1,4.7,46.3,38.8,87.4,53.0
-310,reevean01,Antonio Reeves,Shooting Guard,Right,6-5,205,20,November,2000,"Illinois,State",44,6.9,1.4,0.9,44,6.9,1.4,0.9,1,44,6.9,1.4,0.9,45.6,39.5,80.0,55.8
-311,smartma01,Marcus Smart,"Point Guard , Shooting Guard",Right,6-3,220,6,March,1994,"Oklahoma,State",34,9.0,2.1,3.2,34,9.0,2.1,3.2,11,635,10.6,3.4,4.6,38.8,32.4,77.6,47.4
-312,robinor01,Orlando Robinson,Center,Right,7-0,235,10,July,2000,"Fresno,State",44,6.9,5.0,1.8,44,6.9,5.0,1.8,3,111,4.7,3.9,1.2,47.2,34.2,75.4,50.1
-313,drumman01,Andre Drummond,Center,Right,6-11,279,10,August,1993,UConn,40,7.3,7.8,0.9,40,7.3,7.8,0.9,13,904,12.5,12.1,1.2,54.2,12.9,48.6,54.3
-314,murrakr01,Kris Murray,Small Forward,Left,6-8,220,19,August,2000,Iowa,69,4.2,2.6,1.0,69,4.2,2.6,1.0,2,131,5.1,3.1,1.1,40.6,25.1,55.8,46.5
-315,shamela01,Landry Shamet,Shooting Guard,Right,6-4,190,13,March,1997,"Wichita,State",50,5.7,1.2,0.5,50,5.7,1.2,0.5,7,398,8.3,1.7,1.5,41.3,38.5,83.3,54.7
-316,dowtije01,Jeff Dowtin Jr.,Point Guard,Right,6-3,185,10,May,1997,"Rhode,Island",41,7.0,1.5,1.9,41,7.0,1.5,1.9,4,87,4.8,1.4,1.7,47.3,37.7,73.3,53.4
-317,okogijo01,Josh Okogie,Shooting Guard,Right,6-4,213,1,September,1998,"Georgia,Tech",40,7.1,2.8,0.8,40,7.1,2.8,0.8,7,416,6.3,3.0,1.2,40.6,29.9,74.7,47.1
-318,simpskj01,KJ Simpson,Point Guard,Right,6-0,189,8,August,2002,Colorado,36,7.8,3.0,3.1,36,7.8,3.0,3.1,1,36,7.8,3.0,3.1,34.6,25.4,82.0,40.0
-319,eubandr01,Drew Eubanks,"Center , Power Forward",Right,6-9,245,1,February,1997,"Oregon,State",61,4.6,3.7,0.9,61,4.6,3.7,0.9,7,384,5.7,4.4,1.0,60.4,39.6,72.5,61.1
-320,willija07,Jaylin Williams,"Center , Power Forward",Right,6-8,250,29,June,2002,Arkansas,47,5.9,5.6,2.6,47,5.9,5.6,2.6,3,165,5.1,4.5,1.9,43.0,39.0,75.2,54.8
-321,willibr03,Brandon Williams,Point Guard,Right,6-1,190,22,November,1999,Arizona,33,8.3,1.8,2.3,33,8.3,1.8,2.3,3,74,8.6,2.0,2.5,42.6,32.0,74.4,48.1
-322,martike04,KJ Martin,"Small Forward , Power Forward",Right,6-6,215,6,January,2001,Colleges,43,6.4,2.9,1.1,43,6.4,2.9,1.1,5,309,8.6,4.0,1.2,54.5,32.9,67.3,59.3
-323,micicva01,Vasilije MiciÄ,Point Guard,Right,6-5,200,13,January,1994,Colleges,41,6.6,2.2,3.1,41,6.6,2.2,3.1,2,101,6.8,1.8,3.9,39.5,31.5,81.9,46.3
-324,balllo01,Lonzo Ball,Point Guard,Right,6-6,190,27,October,1997,UCLA,35,7.6,3.4,3.3,35,7.6,3.4,3.3,6,287,11.4,5.5,5.8,39.8,36.2,59.9,50.7
-325,evbuoto01,Tosan Evbuomwan,Small Forward,Right,6-8,219,16,February,2001,Princeton,28,9.5,4.3,2.0,28,9.5,4.3,2.0,2,45,8.2,4.0,1.6,44.7,33.0,73.5,50.9
-326,howarje01,Jett Howard,Small Forward,Right,6-8,215,14,September,2003,Michigan,60,4.5,1.2,0.7,60,4.5,1.2,0.7,2,78,3.8,1.0,0.6,37.0,29.4,66.7,47.6
-327,gordoer01,Eric Gordon,"Shooting Guard , Small Forward",Right,6-3,215,25,December,1988,Indiana,39,6.8,1.2,1.7,39,6.8,1.2,1.7,17,925,15.3,2.3,2.7,43.0,37.2,81.0,52.3
-328,waterli01,Lindy Waters III,Shooting Guard,Right,6-6,215,28,July,1997,"Oklahoma,State",52,4.9,2.1,1.0,52,4.9,2.1,1.0,4,156,5.2,1.9,0.8,39.9,36.6,78.9,55.0
-329,simmobe01,Ben Simmons,Point Guard,Left,6-10,240,20,July,1996,LSU,51,5.0,4.7,5.6,51,5.0,4.7,5.6,7,383,13.1,7.4,7.2,55.8,13.9,59.2,55.9
-330,ighodos01,Oso Ighodaro,Power Forward,Right,6-10,235,14,July,2002,Marquette,61,4.2,3.6,1.2,61,4.2,3.6,1.2,1,61,4.2,3.6,1.2,60.4,0.0,58.0,60.4
-331,larsspe01,Pelle Larsson,Shooting Guard,Right,6-5,215,23,February,2001,Utah,55,4.6,1.7,1.2,55,4.6,1.7,1.2,1,55,4.6,1.7,1.2,43.8,33.7,67.2,51.7
-332,walkelo01,Lonnie Walker IV,Shooting Guard,Right,6-4,204,14,December,1998,"Miami,(FL)",20,12.4,3.2,2.5,20,12.4,3.2,2.5,7,342,10.0,2.3,1.5,42.2,35.6,79.5,50.4
-333,bolbo01,Bol Bol,Power Forward,Right,7-3,220,16,November,1999,Oregon,36,6.8,2.9,0.6,36,6.8,2.9,0.6,6,202,6.2,3.5,0.6,54.5,33.2,74.9,59.8
-334,houstca01,Caleb Houstan,Small Forward,Right,6-8,205,9,January,2003,Michigan,58,4.1,1.3,0.6,58,4.1,1.3,0.6,3,168,4.1,1.5,0.6,39.1,37.2,83.6,54.8
-335,lawsoaj01,A.J. Lawson,Shooting Guard,Right,6-6,179,15,July,2000,"South,Carolina",26,9.1,3.3,1.2,26,9.1,3.3,1.2,3,83,5.2,1.9,0.6,43.9,31.8,63.8,51.8
-336,branhma01,Malaki Branham,"Shooting Guard , Point Guard",Right,6-4,180,12,May,2003,"Ohio,State",47,5.0,1.1,0.8,47,5.0,1.1,0.8,3,188,8.5,2.0,1.7,43.9,33.6,84.3,51.0
-337,mitchaj01,Ajay Mitchell,Shooting Guard,Left,6-5,200,25,June,2002,"UC,Santa,Barbara",36,6.5,1.9,1.8,36,6.5,1.9,1.8,1,36,6.5,1.9,1.8,49.5,38.3,82.9,55.7
-338,morrimo01,Monte Morris,Point Guard,Right,6-2,183,27,June,1995,"Iowa,State",45,5.2,1.5,1.6,45,5.2,1.5,1.6,8,420,9.5,2.4,3.6,47.4,38.9,82.7,54.5
-339,holmeri01,Richaun Holmes,"Center , Power Forward",Right,6-10,235,15,October,1993,"Bowling,Green",31,7.4,5.7,1.4,31,7.4,5.7,1.4,10,489,8.5,5.3,1.0,60.5,26.9,75.1,61.4
-340,jacksan01,Andre Jackson Jr.,Shooting Guard,Right,6-6,210,13,November,2001,UConn,67,3.4,2.7,1.2,67,3.4,2.7,1.2,2,124,2.9,2.4,1.1,48.5,38.5,57.1,56.4
-341,willico04,Cody Williams,Shooting Guard,Right,6-7,190,20,November,2004,Colorado,50,4.6,2.3,1.2,50,4.6,2.3,1.2,1,50,4.6,2.3,1.2,32.3,25.9,72.5,39.1
-342,sheppre01,Reed Sheppard,"Point Guard , Shooting Guard",Right,6-2,185,24,June,2004,Kentucky,52,4.4,1.5,1.4,52,4.4,1.5,1.4,1,52,4.4,1.5,1.4,35.1,33.8,81.3,45.2
-343,santogu01,Gui Santos,Power Forward,Right,6-8,209,22,June,2002,Colleges,56,4.1,3.1,1.4,56,4.1,3.1,1.4,2,79,3.9,2.8,1.2,47.0,33.8,76.3,56.4
-344,adamsst01,Steven Adams,Center,Right,6-11,265,20,July,1993,Pitt,58,3.9,5.6,1.1,58,3.9,5.6,1.1,11,764,8.8,8.0,1.5,58.6,5.9,53.3,58.6
-345,johnsaj01,AJ Johnson,Shooting Guard,Right,6-4,160,1,December,2004,Colleges,29,7.6,2.0,2.6,29,7.6,2.0,2.6,1,29,7.6,2.0,2.6,38.5,26.7,86.5,44.1
-346,dilliro01,Rob Dillingham,Point Guard,Right,6-1,176,4,January,2005,Kentucky,49,4.5,1.0,2.0,49,4.5,1.0,2.0,1,49,4.5,1.0,2.0,44.1,33.8,53.3,50.0
-347,weslebl01,Blake Wesley,Shooting Guard,Right,6-5,185,16,March,2003,"Notre,Dame",58,3.7,1.1,2.0,58,3.7,1.1,2.0,3,156,4.3,1.5,2.4,40.9,29.7,63.4,44.9
-348,connapa01,Pat Connaughton,"Shooting Guard , Small Forward",Right,6-5,209,6,January,1993,"Notre,Dame",41,5.3,2.7,1.7,41,5.3,2.7,1.7,10,595,6.0,3.4,1.4,43.8,35.6,77.3,55.2
-349,jacksgg01,GG Jackson II,Power Forward,Right,6-9,215,17,December,2004,"South,Carolina",29,7.2,3.2,1.0,29,7.2,3.2,1.0,2,77,11.8,3.7,1.1,41.3,35.2,74.6,50.1
-350,jordade01,DeAndre Jordan,Center,Left,6-11,265,21,July,1988,"Texas,A&M",56,3.7,5.1,0.9,56,3.7,5.1,0.9,17,1111,8.5,9.7,0.9,67.4,15.4,47.5,67.4
-351,joneshe01,Herbert Jones,"Small Forward , Power Forward",Left,6-8,210,6,October,1998,Alabama,20,10.3,3.9,3.3,20,10.3,3.9,3.3,4,240,10.1,3.8,2.5,47.7,36.6,82.4,54.5
-352,nancela02,Larry Nance Jr.,"Power Forward , Center",Right,6-8,245,1,January,1993,Wyoming,24,8.5,4.3,1.6,24,8.5,4.3,1.6,10,546,7.7,6.1,1.9,53.9,35.3,69.6,57.7
-353,prospol01,Olivier-Maxence Prosper,Power Forward,Right,6-8,230,3,July,2002,Clemson,52,3.9,2.4,0.8,52,3.9,2.4,0.8,2,92,3.5,2.2,0.7,39.6,26.0,65.8,44.1
-354,landajo01,Jock Landale,Center,Right,6-11,256,25,October,1995,"Saint,Mary's",42,4.8,3.3,0.9,42,4.8,3.3,0.9,4,221,5.4,3.3,1.0,51.8,29.7,76.5,55.8
-355,pickeja02,Jalen Pickett,Shooting Guard,Right,6-4,209,22,October,1999,"Siena,College",49,4.1,1.4,2.2,49,4.1,1.4,2.2,2,76,3.2,1.1,1.7,42.8,38.9,75.0,54.2
-356,joneska01,Kai Jones,Center,Right,6-11,218,19,January,2001,Texas,40,5.0,3.1,0.6,40,5.0,3.1,0.6,3,107,3.5,2.4,0.4,67.1,23.1,68.2,68.3
-357,gueyemo02,Mouhamed Gueye,Power Forward,Right,6-11,210,9,November,2002,"Washington,State",33,6.0,4.2,0.8,33,6.0,4.2,0.8,2,39,5.7,4.1,0.8,41.2,26.7,77.1,47.4
-358,cainja01,Jamal Cain,"Power Forward , Small Forward",Right,6-7,191,20,March,1999,Marquette,37,5.3,2.3,0.6,37,5.3,2.3,0.6,3,81,4.8,2.1,0.5,45.9,33.6,72.6,53.1
-359,gilleco01,Collin Gillespie,Point Guard,Right,6-1,195,25,June,1999,Villanova,33,5.9,2.4,2.4,33,5.9,2.4,2.4,2,57,4.9,1.7,1.8,44.1,42.2,79.4,55.9
-360,reathdu01,Duop Reath,Center,Right,6-11,245,26,June,1996,"Lee,College",46,4.2,2.0,0.6,46,4.2,2.0,0.6,2,114,7.1,3.0,0.8,45.1,34.8,77.4,54.3
-361,portecr01,Craig Porter Jr.,Point Guard,Right,6-2,186,26,February,2000,"Vincennes,University",51,3.7,1.3,1.4,51,3.7,1.3,1.4,2,102,4.6,1.7,1.9,51.1,40.2,72.7,55.6
-362,tateja01,Jae'Sean Tate,"Small Forward , Power Forward",Left,6-4,230,28,October,1995,"Ohio,State",52,3.6,2.3,0.9,52,3.6,2.3,0.9,5,296,8.3,4.1,2.0,49.3,30.9,70.0,53.8
-363,nnajize01,Zeke Nnaji,Power Forward,Right,6-9,240,9,January,2001,Arizona,57,3.2,1.6,0.4,57,3.2,1.6,0.4,5,251,4.2,2.3,0.4,50.9,36.2,65.3,57.4
-364,reedpa01,Paul Reed,"Center , Power Forward",Right,6-9,210,14,June,1999,DePaul,45,4.1,2.7,1.0,45,4.1,2.7,1.0,5,260,4.9,3.9,0.8,54.8,30.5,70.5,56.4
-365,manntr01,Tre Mann,Point Guard,Right,6-3,178,3,February,2001,Florida,13,14.1,2.9,3.0,13,14.1,2.9,3.0,4,181,9.4,2.8,2.3,41.1,35.0,78.8,49.0
-366,willivi01,Vince Williams Jr.,Shooting Guard,Left,6-4,205,30,August,2000,VCU,27,6.6,3.6,2.0,27,6.6,3.6,2.0,3,94,7.8,4.3,2.5,42.3,32.8,80.1,51.6
-367,josepco01,Cory Joseph,"Point Guard , Shooting Guard",Right,6-2,200,20,August,1991,Texas,50,3.5,1.5,1.4,50,3.5,1.5,1.4,14,866,6.7,2.4,2.9,44.0,35.0,78.6,49.2
-368,exumda01,Dante Exum,"Point Guard , Shooting Guard",Right,6-5,214,13,July,1995,Colleges,20,8.7,1.7,2.8,20,8.7,1.7,2.8,8,320,6.2,1.9,2.3,43.5,34.3,76.5,50.7
-369,greenje02,Jeff Green,"Power Forward, Small Forward, , Center",Right,6-8,235,28,August,1986,Georgetown,32,5.4,1.8,0.6,32,5.4,1.8,0.6,17,1217,11.8,4.0,1.5,45.0,33.8,80.4,50.2
-370,edwarke02,Kessler Edwards,Small Forward,Right,6-8,215,9,August,2000,Pepperdine,40,4.2,2.9,1.1,40,4.2,2.9,1.1,4,178,3.6,2.2,0.6,42.8,36.0,78.6,52.1
-371,wallake01,Keaton Wallace,Point Guard,Left,6-3,195,26,February,1999,"Texas-San,Antonio",31,5.4,1.6,2.6,31,5.4,1.6,2.6,1,31,5.4,1.6,2.6,40.1,32.9,100.0,48.5
-372,tysonja01,Jaylon Tyson,Shooting Guard,Right,6-6,215,2,December,2002,Texas,47,3.6,2.0,0.9,47,3.6,2.0,0.9,1,47,3.6,2.0,0.9,43.0,34.5,79.2,49.7
-373,willigr01,Grant Williams,Power Forward,Right,6-6,236,30,November,1998,Tennessee,16,10.4,5.1,2.3,16,10.4,5.1,2.3,6,380,7.2,3.7,1.5,45.2,37.7,77.4,55.8
-374,clarkja02,Jaylen Clark,Shooting Guard,Right,6-5,205,13,October,2001,UCLA,40,4.1,1.3,0.7,40,4.1,1.3,0.7,1,40,4.1,1.3,0.7,46.7,43.1,78.4,55.8
-375,jacksqu01,Quenton Jackson,Point Guard,Right,6-5,175,15,September,1998,"Texas,A&M",28,5.8,1.6,1.9,28,5.8,1.6,1.9,3,40,5.5,1.4,1.8,46.7,30.8,78.1,51.5
-376,pottemi01,Micah Potter,"Power Forward , Center",Right,6-10,248,6,April,1998,"Ohio,State",38,4.3,4.3,0.8,38,4.3,4.3,0.8,4,64,3.9,3.6,0.6,45.3,34.4,83.3,56.2
-377,theisda01,Daniel Theis,Center,Right,6-8,245,4,April,1992,Colleges,38,4.3,4.3,1.6,38,4.3,4.3,1.6,8,411,7.1,4.7,1.3,53.7,32.6,72.6,58.3
-378,goodwjo01,Jordan Goodwin,"Point Guard , Shooting Guard",Right,6-3,200,23,October,1998,"Saint,Louis",29,5.6,3.9,1.4,29,5.6,3.9,1.4,4,150,6.2,3.8,2.4,41.0,32.3,76.3,47.1
-379,bassech01,Charles Bassey,Center,Right,6-10,235,28,October,2000,"Western,Kentucky",36,4.4,4.2,0.5,36,4.4,4.2,0.5,4,113,4.3,4.3,0.8,63.1,23.1,64.8,63.6
-380,jonesco02,Colby Jones,Shooting Guard,Right,6-6,205,28,May,2002,Xavier,39,4.0,2.2,1.1,39,4.0,2.2,1.1,2,69,3.2,1.8,0.9,43.5,25.4,63.0,48.0
-381,ruperra01,Rayan Rupert,Shooting Guard,Right,6-6,205,31,May,2004,Colleges,52,3.0,1.3,0.5,52,3.0,1.3,0.5,2,91,3.4,1.8,1.0,37.0,32.1,76.4,44.2
-382,carteje01,Jevon Carter,Point Guard,Right,6-1,200,14,September,1995,"West,Virginia",36,4.3,1.1,1.1,36,4.3,1.1,1.1,7,412,5.2,1.7,1.6,39.4,37.9,79.9,51.4
-383,roddyda01,David Roddy,Power Forward,Right,6-4,255,27,March,2001,"Colorado,State",33,4.6,2.5,1.1,33,4.6,2.5,1.1,3,168,6.2,2.9,1.0,42.1,30.2,67.9,49.1
-384,millejo02,Jordan Miller,Small Forward,Left,6-7,195,23,January,2000,"George,Mason",37,4.1,1.6,0.9,37,4.1,1.6,0.9,2,45,3.7,1.4,0.8,44.1,22.5,81.1,47.2
-385,queentr01,Trevelin Queen,Shooting Guard,Right,6-6,190,25,February,1997,"College,of,Marin",31,4.9,1.7,1.2,31,4.9,1.7,1.2,4,62,4.1,1.7,1.1,37.2,27.1,85.7,44.5
-386,moorewe01,Wendell Moore Jr.,Shooting Guard,Right,6-5,213,18,September,2001,Duke,36,4.2,2.6,1.2,36,4.2,2.6,1.2,3,90,2.3,1.4,0.7,46.0,25.0,81.5,50.3
-387,hylanbo01,Bones Hyland,"Point Guard , Shooting Guard",Right,6-2,173,14,September,2000,VCU,24,6.2,1.0,1.3,24,6.2,1.0,1.3,4,186,9.5,2.2,2.6,39.8,36.4,84.8,50.6
-388,barlodo01,Dominick Barlow,"Small Forward , Power Forward",Right,6-9,221,26,May,2003,Colleges,35,4.2,2.4,0.5,35,4.2,2.4,0.5,3,96,4.2,3.1,0.8,51.9,25.0,68.0,53.5
-389,mcderdo01,Doug McDermott,"Small Forward , Power Forward",Right,6-6,225,3,January,1992,Creighton,42,3.5,0.5,0.2,42,3.5,0.5,0.2,11,697,8.6,2.1,1.0,47.0,41.1,80.4,57.3
-390,vandeja01,Jarred Vanderbilt,Power Forward,Left,6-8,214,3,April,1999,Kentucky,36,4.1,5.1,1.1,36,4.1,5.1,1.1,7,309,5.9,6.2,1.4,56.0,28.8,63.8,57.9
-391,harriga01,Gary Harris,Shooting Guard,Right,6-4,210,14,September,1994,"Michigan,State",48,3.0,1.3,0.6,48,3.0,1.3,0.6,11,618,10.4,2.3,1.8,44.6,36.9,81.0,53.1
-392,biyombi01,Bismack Biyombo,Center,Right,6-8,255,28,August,1992,Colleges,28,5.1,5.6,1.1,28,5.1,5.6,1.1,14,867,5.1,5.9,0.7,53.7,0.0,55.1,53.7
-393,brookke02,Keion Brooks Jr.,Small Forward,Right,6-7,210,7,August,2000,Kentucky,14,10.1,4.1,0.9,14,10.1,4.1,0.9,1,14,10.1,4.1,0.9,48.6,32.6,73.3,55.0
-394,diengou01,Ousmane Dieng,"Power Forward , Center",Right,6-10,222,21,May,2003,Colleges,37,3.8,2.2,0.8,37,3.8,2.2,0.8,3,109,4.3,2.2,1.0,42.4,29.3,72.7,50.7
-395,cartede02,Devin Carter,Point Guard,Right,6-2,195,18,March,2002,"South,Carolina",36,3.8,2.1,1.1,36,3.8,2.1,1.1,1,36,3.8,2.1,1.1,37.0,29.5,59.1,44.1
-396,garzalu01,Luka Garza,Center,Right,6-10,235,27,December,1998,Iowa,39,3.5,1.4,0.3,39,3.5,1.4,0.3,4,124,4.9,2.0,0.4,49.0,31.4,69.9,54.5
-397,lowryky01,Kyle Lowry,Point Guard,Right,6-0,196,25,March,1986,Villanova,35,3.9,1.9,2.7,35,3.9,1.9,2.7,19,1173,13.9,4.2,6.1,42.3,36.8,81.5,51.2
-398,shannte01,Terrence Shannon Jr.,Shooting Guard,Left,6-6,215,30,July,2000,"Texas,Tech",32,4.3,1.5,1.0,32,4.3,1.5,1.0,1,32,4.3,1.5,1.0,48.2,35.5,81.0,53.1
-399,bambamo01,Mo Bamba,Center,Right,7-0,231,12,May,1998,Texas,32,4.3,4.5,0.6,32,4.3,4.5,0.6,7,364,6.8,5.4,0.8,47.7,35.6,68.2,55.0
-400,jacksre01,Reggie Jackson,"Point Guard , Shooting Guard",Right,6-2,208,16,April,1990,"Boston,College",31,4.4,1.4,1.5,31,4.4,1.4,1.5,14,884,12.3,2.8,4.1,42.3,34.5,85.4,48.4
-401,baglema01,Marvin Bagley III,"Center , Power Forward",Left,6-10,235,14,March,1999,Duke,31,4.4,2.7,0.4,31,4.4,2.7,0.4,7,289,12.0,6.5,0.9,51.8,29.0,69.0,54.1
-402,jonesdi01,Dillon Jones,Small Forward,Right,6-5,240,29,October,2001,"Weber,State",54,2.5,2.2,1.1,54,2.5,2.2,1.1,1,54,2.5,2.2,1.1,38.3,25.4,60.7,44.4
-403,jonesis01,Isaac Jones,Power Forward,Right,6-8,245,11,July,2000,"Wenatchee,Valley,College",40,3.4,1.4,0.3,40,3.4,1.4,0.3,1,40,3.4,1.4,0.3,65.1,37.5,63.9,66.9
-404,tysonhu01,Hunter Tyson,Power Forward,Right,6-8,215,13,June,2000,Clemson,51,2.6,1.5,0.4,51,2.6,1.5,0.4,2,69,2.2,1.3,0.3,37.9,30.7,75.0,47.5
-405,gillan01,Anthony Gill,Power Forward,Right,6-7,230,17,October,1992,"South,Carolina",51,2.5,1.3,0.3,51,2.5,1.3,0.3,5,230,3.4,1.7,0.5,51.2,29.8,75.1,55.3
-406,wrighde01,Delon Wright,"Point Guard , Shooting Guard",Right,6-5,185,26,April,1992,Utah,40,3.1,1.7,1.9,40,3.1,1.7,1.9,10,548,6.7,3.0,3.0,44.7,34.8,79.9,50.7
-407,castlco01,Colin Castleton,"Center , Power Forward",Right,6-11,250,25,May,2000,Michigan,26,4.7,4.7,1.1,26,4.7,4.7,1.1,2,42,3.5,3.2,0.7,48.2,12.5,79.5,49.1
-408,carlsbr01,Branden Carlson,Center,Right,7-0,220,14,June,1999,Utah,32,3.8,1.7,0.4,32,3.8,1.7,0.4,1,32,3.8,1.7,0.4,44.3,33.3,77.8,55.7
-409,loveke01,Kevin Love,"Power Forward , Center",Right,6-8,251,7,September,1988,UCLA,23,5.3,4.1,1.0,23,5.3,4.1,1.0,17,952,16.2,10.0,2.3,43.8,36.9,82.8,51.0
-410,wongis01,Isaiah Wong,Shooting Guard,Right,6-4,184,28,January,2001,"Miami,(FL)",20,6.0,1.6,1.4,20,6.0,1.6,1.4,2,21,5.8,1.5,1.3,38.9,38.2,73.5,44.9
-411,minotjo01,Josh Minott,Small Forward,Right,6-8,205,25,November,2002,Memphis,46,2.6,1.0,0.4,46,2.6,1.0,0.4,3,93,2.3,1.0,0.3,48.8,33.9,90.2,54.9
-412,rhodeja01,Jared Rhoden,Shooting Guard,Right,6-6,210,27,August,1999,"Seton,Hall",14,8.4,3.0,1.1,14,8.4,3.0,1.1,3,45,5.5,2.5,0.8,46.7,32.2,84.6,54.1
-413,williro04,Robert Williams,Center,Right,6-9,237,17,October,1997,"Texas,A&M",20,5.8,5.9,1.1,20,5.8,5.9,1.1,7,235,7.2,6.8,1.4,72.3,14.3,67.4,72.3
-414,lewisma05,Maxwell Lewis,Small Forward,Right,6-7,195,27,July,2002,Pepperdine,28,4.1,2.0,0.7,28,4.1,2.0,0.7,2,62,2.0,1.0,0.4,38.0,33.9,69.2,45.7
-415,whiteda01,Dariq Whitehead,Small Forward,Right,6-7,220,1,August,2004,Duke,20,5.7,1.5,0.6,20,5.7,1.5,0.6,2,22,5.3,1.5,0.7,39.6,42.9,57.1,55.9
-416,poweldw01,Dwight Powell,"Center , Power Forward",Right,6-10,240,20,July,1991,Stanford,55,2.1,2.1,1.0,55,2.1,2.1,1.0,11,705,6.7,4.2,1.0,60.4,29.4,73.6,62.6
-417,scheiba01,Baylor Scheierman,Shooting Guard,Left,6-6,205,26,September,2000,"South,Dakota,State",31,3.6,2.1,1.1,31,3.6,2.1,1.1,1,31,3.6,2.1,1.1,35.5,31.7,75.0,47.3
-418,konchjo01,John Konchar,"Shooting Guard , Small Forward",Right,6-5,210,22,March,1996,"Purdue-Fort,Wayne",46,2.4,3.3,0.9,46,2.4,3.3,0.9,6,307,4.2,4.0,1.4,46.9,36.1,72.7,56.3
-419,thybuma01,Matisse Thybulle,"Shooting Guard , Small Forward",Right,6-5,201,4,March,1997,Washington,15,7.5,3.5,1.9,15,7.5,3.5,1.9,6,347,4.9,2.0,1.1,43.8,34.3,66.1,54.0
-420,millspa02,Patty Mills,"Point Guard , Shooting Guard",Right,6-2,180,11,August,1988,"Saint,Mary's",29,3.8,0.8,0.9,29,3.8,0.8,0.9,16,921,8.7,1.6,2.2,42.3,38.5,85.7,53.8
-421,baughda01,Damion Baugh,Shooting Guard,Right,6-4,194,3,August,2000,Memphis,15,7.3,3.3,3.7,15,7.3,3.3,3.7,1,15,7.3,3.3,3.7,32.3,21.4,86.7,36.9
-422,timmedr01,Drew Timme,Power Forward,Right,6-10,235,9,September,2000,Gonzaga,9,12.1,7.2,2.2,9,12.1,7.2,2.2,1,9,12.1,7.2,2.2,44.1,25.7,62.5,48.5
-423,sprinja01,Jaden Springer,"Shooting Guard , Point Guard",Right,6-4,204,25,September,2002,Tennessee,43,2.5,1.3,0.8,43,2.5,1.3,0.8,4,110,2.9,1.4,0.8,40.9,23.8,77.3,45.3
-424,craigto01,Torrey Craig,"Small Forward , Power Forward",Right,6-7,221,19,December,1990,"USC,Upstate",26,4.2,2.8,0.7,26,4.2,2.8,0.7,8,458,5.9,3.9,1.0,45.2,35.4,70.1,54.5
-425,gibsota01,Taj Gibson,"Power Forward , Center",Right,6-9,232,24,June,1985,USC,37,2.9,3.2,0.6,37,2.9,3.2,0.6,16,1002,8.4,5.7,0.9,51.7,26.6,71.2,52.1
-426,tshieos01,Oscar Tshiebwe,"Power Forward , Center",Right,6-9,260,27,November,1999,"West,Virginia",14,7.6,8.7,0.6,14,7.6,8.7,0.6,2,22,6.0,6.3,0.5,57.8,-,74.4,57.8
-427,spencca01,Cam Spencer,Shooting Guard,Right,6-3,205,6,April,2000,"Loyola,(MD)",25,4.2,1.2,1.4,25,4.2,1.2,1.4,1,25,4.2,1.2,1.4,41.5,36.5,100.0,53.0
-428,hoodsja01,Jalen Hood-Schifino,Shooting Guard,Right,6-6,215,19,June,2003,Indiana,15,7.1,1.8,2.5,15,7.1,1.8,2.5,2,36,3.9,1.1,1.3,32.9,26.2,73.2,38.5
-429,reddica01,Cam Reddish,Small Forward,Right,6-8,218,1,September,1999,Duke,33,3.2,2.0,0.7,33,3.2,2.0,0.7,6,254,8.5,2.7,1.2,39.8,32.2,82.1,47.2
-430,furphjo01,Johnny Furphy,Shooting Guard,Right,6-8,200,8,December,2004,Kansas,50,2.1,1.4,0.4,50,2.1,1.4,0.4,1,50,2.1,1.4,0.4,38.0,30.0,81.8,46.2
-431,klebima01,Maxi Kleber,"Power Forward , Center",Right,6-10,240,29,January,1992,Colleges,34,3.0,2.8,1.3,34,3.0,2.8,1.3,8,440,6.4,4.4,1.2,44.3,35.4,77.6,55.2
-432,spencpa01,Pat Spencer,Point Guard,Right,6-3,205,4,July,1996,"Loyola,(MD)",39,2.5,1.2,1.2,39,2.5,1.2,1.2,2,45,2.3,1.1,1.2,41.0,20.8,73.3,43.3
-433,simsje01,Jericho Sims,"Center , Power Forward",Right,6-10,245,20,October,1998,Texas,53,1.8,3.7,0.6,53,1.8,3.7,0.6,4,191,2.4,4.0,0.5,71.4,0.0,58.5,71.4
-434,mclaujo01,Jordan McLaughlin,Point Guard,Right,6-0,185,9,April,1996,USC,46,2.1,0.7,1.1,46,2.1,0.7,1.1,6,288,4.1,1.4,2.8,44.5,37.3,74.3,53.4
-435,jemistr01,Trey Jemison,Center,Right,6-11,260,28,November,1999,Clemson,38,2.5,2.8,0.4,38,2.5,2.8,0.4,2,63,4.2,3.8,0.7,55.2,-,58.6,55.2
-436,beekmre01,Reece Beekman,Point Guard,Right,6-1,190,8,October,2001,Virginia,36,2.6,1.1,1.8,36,2.6,1.1,1.8,1,36,2.6,1.1,1.8,32.7,17.5,76.2,36.0
-437,kolokch01,Christian Koloko,Center,Right,7-1,230,20,June,2000,Arizona,37,2.4,2.5,0.4,37,2.4,2.5,0.4,2,95,2.9,2.8,0.5,51.9,6.3,64.4,52.1
-438,robinmi01,Mitchell Robinson,Center,Right,7-0,240,1,April,1998,"Western,Kentucky",17,5.1,5.9,0.8,17,5.1,5.9,0.8,7,337,7.8,7.8,0.6,70.0,-,52.2,70.0
-439,smithdr01,Dru Smith,Shooting Guard,Right,6-3,203,30,December,1997,"University,of,Evansville",14,6.2,2.6,1.6,14,6.2,2.6,1.6,3,38,4.5,1.9,1.6,46.0,42.4,82.4,56.1
-440,quinole01,Lester QuiÃ±ones,Shooting Guard,Right,6-5,208,16,November,2000,Memphis,13,6.6,1.5,1.8,13,6.6,1.5,1.8,3,54,4.8,1.7,1.1,39.7,34.6,72.9,50.2
-441,paytoel01,Elfrid Payton,Point Guard,Right,6-3,195,22,February,1994,Louisiana,24,3.5,3.3,6.9,24,3.5,3.3,6.9,9,524,9.8,4.0,5.8,44.4,28.6,62.3,46.4
-442,leeda03,Damion Lee,Shooting Guard,Right,6-5,210,21,October,1992,Drexel,25,3.3,0.8,0.4,25,3.3,0.8,0.4,7,315,7.8,3.2,1.3,43.3,37.4,88.1,53.1
-443,walshjo01,Jordan Walsh,"Small Forward , Power Forward",Right,6-7,205,3,March,2004,Arkansas,52,1.6,1.3,0.4,52,1.6,1.3,0.4,2,61,1.6,1.5,0.4,36.7,26.6,57.1,45.4
-444,kolekty01,Tyler Kolek,Point Guard,Left,6-1,195,27,March,2001,"George,Mason",41,2.0,0.7,1.7,41,2.0,0.7,1.7,1,41,2.0,0.7,1.7,32.9,29.8,76.5,41.5
-445,davisjo06,Johnny Davis,Shooting Guard,Right,6-5,196,27,February,2002,Wisconsin,34,2.4,1.1,0.3,34,2.4,1.1,0.3,3,112,3.5,1.6,0.6,39.7,27.3,56.1,44.4
-446,beaucma01,MarJon Beauchamp,Small Forward,Right,6-6,199,12,October,2000,"Yakima,Valley,Community,College",35,2.3,1.3,0.3,35,2.3,1.3,0.3,3,135,4.1,1.9,0.6,43.0,35.4,71.8,52.2
-447,martija02,Jaylen Martin,Small Forward,Right,6-6,216,28,January,2004,Colleges,16,4.9,2.8,1.1,16,4.9,2.8,1.1,1,16,4.9,2.8,1.1,41.9,30.4,90.0,46.6
-448,brownko01,Kobe Brown,Power Forward,Right,6-7,250,1,January,2000,Missouri,40,1.9,1.6,0.6,40,1.9,1.6,0.6,2,84,2.0,1.5,0.6,43.2,27.0,66.7,49.4
-449,reeseal01,Alex Reese,Power Forward,Right,6-9,245,21,May,1999,Alabama,15,5.1,3.1,0.3,15,5.1,3.1,0.3,1,15,5.1,3.1,0.3,48.1,36.6,75.0,62.0
-450,brownmo01,Moses Brown,Center,Right,7-2,245,13,October,1999,UCLA,13,5.8,3.4,0.2,13,5.8,3.4,0.2,6,163,5.3,4.9,0.2,57.4,-,54.4,57.4
-451,stevela01,Lamar Stevens,"Power Forward , Small Forward",Right,6-6,230,9,July,1997,"Penn,State",17,4.4,2.2,0.5,17,4.4,2.2,0.5,5,220,5.6,2.9,0.6,46.3,28.7,72.6,49.8
-452,lenal01,Alex Len,Center,Right,7-0,250,16,June,1993,Maryland,46,1.6,2.1,0.8,46,1.6,2.1,0.8,12,690,6.7,5.3,0.9,51.0,32.2,67.8,52.6
-453,thorjt01,JT Thor,Power Forward,Left,6-10,205,26,August,2002,Auburn,20,3.6,2.4,0.3,20,3.6,2.4,0.3,4,185,3.2,2.1,0.5,41.9,31.7,65.1,49.3
-454,baglema02,Marcus Bagley,Small Forward,Right,6-8,215,23,October,2001,"Arizona,State",10,6.7,7.0,1.0,10,6.7,7.0,1.0,1,10,6.7,7.0,1.0,39.1,15.6,80.0,42.8
-455,nowelja01,Jaylen Nowell,Shooting Guard,Right,6-4,201,9,July,1999,Washington,8,8.4,2.5,2.3,8,8.4,2.5,2.3,6,205,8.9,2.2,1.9,44.2,31.6,79.2,50.4
-456,smithty02,Tyler Smith,Power Forward,Left,6-11,224,2,November,2004,Colleges,23,2.9,1.1,0.2,23,2.9,1.1,0.2,1,23,2.9,1.1,0.2,48.0,43.3,75.0,61.0
-457,flaglad01,Adam Flagler,Shooting Guard,Right,6-3,195,1,December,1999,"Presbyterian,College",37,1.8,0.7,0.3,37,1.8,0.7,0.3,2,39,1.7,0.7,0.4,25.2,19.2,50.0,32.5
-458,willije02,Jeenathan Williams,Shooting Guard,Left,6-5,205,12,February,1999,Buffalo,20,3.3,0.7,0.5,20,3.3,0.7,0.5,3,47,3.9,1.1,0.6,51.7,28.2,58.3,55.3
-459,jamesbr02,Bronny James,Shooting Guard,Right,6-2,210,6,October,2004,USC,27,2.3,0.7,0.8,27,2.3,0.7,0.8,1,27,2.3,0.7,0.8,31.3,28.1,78.6,38.1
-460,meltode01,De'Anthony Melton,"Point Guard , Shooting Guard",Right,6-2,200,28,May,1998,USC,6,10.3,3.3,2.8,6,10.3,3.3,2.8,7,356,9.1,3.7,2.8,41.0,36.9,77.9,50.6
-461,bradlto01,Tony Bradley,Center,Right,6-10,248,8,January,1998,UNC,14,4.4,3.0,0.4,14,4.4,3.0,0.4,7,193,4.4,4.0,0.5,63.2,46.7,66.7,63.8
-462,fultzma01,Markelle Fultz,"Point Guard , Shooting Guard",Right,6-4,209,29,May,1998,Washington,21,2.9,1.0,1.3,21,2.9,1.0,1.3,8,255,10.4,3.2,4.4,47.0,28.0,73.2,48.8
-463,swideco01,Cole Swider,Small Forward,Right,6-9,220,8,May,1999,Villanova,10,5.9,2.7,0.3,10,5.9,2.7,0.3,3,35,3.1,1.2,0.3,36.4,32.9,66.7,49.1
-464,fernabr01,Bruno Fernando,Center,Right,6-9,240,15,August,1998,Maryland,17,3.4,3.0,1.1,17,3.4,3.0,1.1,6,220,4.0,3.2,0.7,54.3,12.2,65.3,54.8
-465,saricda01,Dario Å ariÄ,"Power Forward , Center",Right,6-10,225,8,April,1994,Colleges,16,3.5,3.1,1.4,16,3.5,3.1,1.4,8,493,10.4,5.3,1.9,44.4,36.0,83.7,52.1
-466,morrima02,Markieff Morris,Power Forward,Right,6-9,245,2,September,1989,Kansas,15,3.7,1.5,1.4,15,3.7,1.5,1.4,14,791,10.2,4.9,1.5,44.3,34.1,77.9,49.0
-467,etienty01,Tyson Etienne,Point Guard,Right,6-2,203,17,September,1999,"Wichita,State",7,7.9,1.3,1.7,7,7.9,1.3,1.7,1,7,7.9,1.3,1.7,32.7,29.5,80.0,45.2
-468,hayeski01,Killian Hayes,Point Guard,Left,6-5,195,27,July,2001,Colleges,6,9.0,3.0,5.2,6,9.0,3.0,5.2,5,216,8.1,2.9,5.2,38.3,28.1,77.7,43.1
-469,peterdr01,Drew Peterson,Power Forward,Right,6-9,205,9,November,1999,"Rice,University",25,2.2,1.6,0.5,25,2.2,1.6,0.5,2,28,2.3,1.5,0.5,44.7,42.1,77.8,61.7
-470,bufkiko01,Kobe Bufkin,Shooting Guard,Left,6-4,195,21,September,2003,Michigan,10,5.3,2.1,1.7,10,5.3,2.1,1.7,2,27,5.0,2.0,1.6,37.4,22.0,65.4,42.1
-471,templga01,Garrett Temple,"Shooting Guard, Small Forward, , Point Guard",Right,6-5,195,8,May,1986,LSU,28,1.9,1.0,1.1,28,1.9,1.0,1.1,15,771,5.9,2.2,1.6,40.0,34.2,74.5,48.8
-472,okekech01,Chuma Okeke,"Power Forward , Small Forward",Right,6-6,229,18,August,1998,Auburn,9,5.9,5.2,1.7,9,5.9,5.2,1.7,5,198,6.3,3.8,1.5,38.7,32.1,78.7,48.4
-473,baldwpa01,Patrick Baldwin Jr.,Small Forward,Right,6-9,220,18,November,2002,UW-Milwaukee,24,2.2,1.0,0.1,24,2.2,1.0,0.1,3,93,3.7,2.0,0.5,40.5,37.3,65.8,53.2
-474,brissos01,Oshae Brissett,"Small Forward , Power Forward",Right,6-7,210,20,June,1998,Syracuse,6,8.7,3.7,0.7,6,8.7,3.7,0.7,6,233,6.6,3.9,0.8,41.9,33.7,69.4,49.7
-475,hukpoar01,Ariel Hukporti,Center,Left,7-0,246,11,April,2002,Colleges,25,1.9,2.0,0.4,25,1.9,2.0,0.4,1,25,1.9,2.0,0.4,67.7,-,46.2,67.7
-476,freemen01,Enrique Freeman,Power Forward,Right,6-7,206,29,July,2000,"University,of,Akron",22,2.1,1.4,0.4,22,2.1,1.4,0.4,1,22,2.1,1.4,0.4,43.2,10.0,68.4,44.6
-477,knoxke01,Kevin Knox,"Small Forward , Power Forward",Right,6-7,215,11,August,1999,Kentucky,14,3.3,1.2,0.4,14,3.3,1.2,0.4,7,320,7.3,2.8,0.7,39.3,34.0,72.3,47.4
-478,johnske10,Keshad Johnson,Small Forward,Right,6-6,225,23,June,2001,"San,Diego,State",16,2.7,1.8,0.3,16,2.7,1.8,0.3,1,16,2.7,1.8,0.3,69.2,42.9,44.4,75.0
-479,plowdda01,Daeqwon Plowden,Shooting Guard,Right,6-6,215,29,August,1998,"Bowling,Green",6,7.2,1.8,0.3,6,7.2,1.8,0.3,1,6,7.2,1.8,0.3,64.0,52.9,100.0,82.0
-480,simsja01,Jaylen Sims,Shooting Guard,Right,6-6,195,11,December,1998,"UNC,Wilmington",6,7.0,1.0,2.0,6,7.0,1.0,2.0,1,6,7.0,1.0,2.0,42.9,40.0,80.0,53.6
-481,nancepe01,Pete Nance,"Power Forward , Center",Right,6-11,230,19,February,2000,Northwestern,13,2.9,1.6,0.8,13,2.9,1.6,0.8,2,21,2.0,1.1,0.5,39.5,40.0,25.0,52.6
-482,batesem01,Emoni Bates,Small Forward,Right,6-10,170,28,January,2004,Memphis,10,3.7,0.7,0.8,10,3.7,0.7,0.8,2,25,3.1,0.8,0.7,32.2,33.3,25.0,44.3
-483,duartch01,Chris Duarte,"Small Forward , Shooting Guard",Right,6-6,190,13,June,1997,Oregon,17,2.1,1.2,0.5,17,2.1,1.2,0.5,4,177,7.6,2.6,1.3,40.6,34.9,81.3,48.9
-484,ducasal01,Alex Ducas,Shooting Guard,Right,6-6,222,11,December,2000,"Saint,Mary's",21,1.7,1.2,0.2,21,1.7,1.2,0.2,1,21,1.7,1.2,0.2,40.0,47.6,100.0,56.7
-485,kawamyu01,Yuki Kawamura,Point Guard,Right,5-8,159,2,May,2001,Colleges,22,1.6,0.5,0.9,22,1.6,0.5,0.9,1,22,1.6,0.5,0.9,36.7,30.4,77.8,48.3
-486,tomlina01,Nae'Qwan Tomlin,Power Forward,Right,6-10,205,10,December,2000,"Monroe,Community,College",5,7.2,4.2,0.4,5,7.2,4.2,0.4,1,5,7.2,4.2,0.4,40.6,20.0,72.7,43.8
-487,jacksis01,Isaiah Jackson,Center,Right,6-10,206,10,January,2002,Kentucky,5,7.0,5.6,1.0,5,7.0,5.6,1.0,4,163,7.2,4.3,0.7,59.5,20.6,67.1,59.9
-488,washity02,TyTy Washington Jr.,Point Guard,Right,6-3,197,15,November,2001,Kentucky,16,2.2,0.8,1.0,16,2.2,0.8,1.0,3,58,3.3,1.1,1.2,34.7,23.4,54.2,40.2
-489,tillmxa01,Xavier Tillman Sr.,"Center , Power Forward",Right,6-8,245,12,January,1999,"Michigan,State",33,1.0,1.3,0.2,33,1.0,1.3,0.2,5,260,5.3,3.8,1.2,50.9,25.2,57.7,53.6
-490,kelleky01,Kylor Kelley,Center,Right,7-0,215,26,August,1997,"Oregon,State",11,3.1,3.5,0.5,11,3.1,3.5,0.5,1,11,3.1,3.5,0.5,63.6,-,60.0,63.6
-491,davisjd01,JD Davison,"Shooting Guard , Point Guard",Right,6-1,195,3,October,2002,Alabama,16,2.1,0.8,0.8,16,2.1,0.8,0.8,3,36,1.9,0.9,0.9,38.5,28.1,69.2,45.4
-492,hallpj01,PJ Hall,Center,Right,6-8,245,21,February,2002,Clemson,19,1.7,1.2,0.2,19,1.7,1.2,0.2,1,19,1.7,1.2,0.2,58.3,25.0,75.0,62.5
-493,alexatr01,Trey Alexander,Shooting Guard,Right,6-4,185,2,May,2003,Creighton,24,1.3,0.5,0.5,24,1.3,0.5,0.5,1,24,1.3,0.5,0.5,31.7,17.6,75.0,35.4
-494,harklej01,Elijah Harkless,Shooting Guard,Right,6-3,195,3,February,2000,"Cal,State,Northridge",10,3.2,2.1,0.8,10,3.2,2.1,0.8,1,10,3.2,2.1,0.8,31.4,28.0,50.0,41.4
-495,richajo01,Josh Richardson,"Shooting Guard , Small Forward",Right,6-5,200,15,September,1993,Tennessee,8,4.0,1.5,1.5,8,4.0,1.5,1.5,10,554,11.5,3.0,2.6,42.8,36.3,84.6,50.9
-496,cissosi01,Sidy Cissoko,Small Forward,Right,6-8,200,2,April,2004,Colleges,22,1.5,1.0,0.7,22,1.5,1.0,0.7,2,34,2.3,1.3,0.7,46.0,16.0,62.5,49.2
-497,dadiepa01,Pacome Dadiet,Shooting Guard,Right,6-7,210,27,July,2005,Colleges,18,1.7,1.0,0.3,18,1.7,1.0,0.3,1,18,1.7,1.0,0.3,32.3,31.6,66.7,41.9
-498,dennira01,RayJ Dennis,Point Guard,Right,6-2,180,30,March,2001,"Boise,State",11,2.7,1.1,1.3,11,2.7,1.1,1.3,1,11,2.7,1.1,1.3,33.3,28.6,100.0,42.4
-499,livinch01,Chris Livingston,Small Forward,Right,6-6,220,15,October,2003,Kentucky,21,1.4,1.7,0.2,21,1.4,1.7,0.2,2,42,1.3,1.3,0.2,40.8,7.7,75.0,41.8
-500,chrisjo01,Josh Christopher,Shooting Guard,Right,6-5,215,8,December,2001,"Arizona,State",14,2.0,0.6,0.6,14,2.0,0.6,0.6,3,152,6.5,1.8,1.5,45.1,27.3,73.7,49.7
-501,garrema01,Marcus Garrett,Shooting Guard,Right,6-5,205,9,November,1998,Kansas,4,7.0,1.5,3.3,4,7.0,1.5,3.3,2,16,2.6,1.8,1.3,33.3,33.3,55.6,37.5
-502,ryanma01,Matt Ryan,Small Forward,Right,6-6,215,17,April,1997,"Notre,Dame",19,1.5,0.4,0.2,19,1.5,0.4,0.2,4,82,3.7,0.9,0.5,38.9,40.2,89.3,54.5
-503,jonessp01,Spencer Jones,Small Forward,Right,6-7,225,14,June,2001,Stanford,20,1.3,0.9,0.3,20,1.3,0.9,0.3,1,20,1.3,0.9,0.3,32.4,5.9,100.0,33.8
-504,cancavl01,Vlatko ÄanÄar,Power Forward,Right,6-8,236,10,April,1997,Colleges,13,1.8,2.5,0.7,13,1.8,2.5,0.7,5,143,3.4,1.8,0.9,47.2,35.4,84.7,55.6
-505,nfalyda01,N'Faly Dante,Center,Right,6-11,230,19,October,2001,Oregon,4,6.0,5.3,0.5,4,6.0,5.3,0.5,1,4,6.0,5.3,0.5,76.9,-,80.0,76.9
-506,gortmja01,Jazian Gortman,Point Guard,Right,6-2,184,14,April,2003,Colleges,16,1.5,0.3,0.4,16,1.5,0.3,0.4,1,16,1.5,0.3,0.4,39.1,36.4,50.0,47.8
-507,crowdja01,Jae Crowder,"Small Forward , Power Forward",Right,6-6,235,6,July,1990,Marquette,9,2.6,2.2,0.7,9,2.6,2.2,0.7,13,812,9.3,4.2,1.6,41.8,34.7,77.7,51.8
-508,jonesma05,Mason Jones,Shooting Guard,Right,6-4,200,21,July,1998,"Connors,State,College",10,2.3,0.9,1.1,10,2.3,0.9,1.1,4,51,4.4,1.5,1.2,42.7,32.9,66.3,51.2
-509,toppija01,Jacob Toppin,Small Forward,Right,6-9,205,8,May,2000,"Rhode,Island",17,1.4,0.9,0.4,17,1.4,0.9,0.4,2,26,1.4,0.8,0.3,45.2,42.9,100.0,54.8
-510,roweja01,Jackson Rowe,Power Forward,Right,6-7,210,4,January,1997,"Cal,State,Fullerton",6,3.7,1.8,0.7,6,3.7,1.8,0.7,1,6,3.7,1.8,0.7,47.1,30.0,50.0,55.9
-511,liddeej01,E.J. Liddell,Power Forward,Right,6-7,240,18,December,2000,"Ohio,State",12,1.8,0.8,0.3,12,1.8,0.8,0.3,2,20,1.3,0.7,0.2,42.9,20.0,100.0,50.0
-512,millele01,Leonard Miller,Small Forward,Left,6-10,210,26,November,2003,Colleges,13,1.5,0.8,0.0,13,1.5,0.8,0.0,2,30,1.6,1.0,0.3,54.3,20.0,90.0,57.1
-513,chrisca02,Cam Christie,Shooting Guard,Right,6-5,190,24,July,2005,Minnesota,13,1.4,0.9,0.5,13,1.4,0.9,0.5,1,13,1.4,0.9,0.5,29.2,15.4,50.0,33.3
-514,minayju01,Justin Minaya,Small Forward,Left,6-5,210,26,March,1999,Colleges,19,0.9,0.5,0.4,19,0.9,0.5,0.4,3,57,1.7,1.4,0.6,31.4,23.9,41.7,38.6
-515,bouyeja01,Jamaree Bouyea,Point Guard,Right,6-2,180,27,June,1999,"San,Francisco",5,3.4,1.0,2.0,5,3.4,1.0,2.0,3,19,2.8,1.6,1.3,40.7,20.0,62.5,44.4
-516,dukeda01,David Duke Jr.,"Shooting Guard , Point Guard",Right,6-5,205,13,October,1999,Providence,6,2.7,0.8,0.7,6,2.7,0.8,0.7,4,55,4.2,2.0,0.9,41.7,26.2,76.7,45.4
-517,flynnma01,Malachi Flynn,Point Guard,Right,6-1,175,10,May,1998,"San,Diego,State",4,4.0,1.8,1.8,4,4.0,1.8,1.8,5,217,5.5,1.7,1.9,38.7,33.3,74.7,47.2
-518,inglejo01,Joe Ingles,"Small Forward , Power Forward",Left,6-8,220,2,October,1987,Colleges,19,0.8,0.6,1.2,19,0.8,0.6,1.2,11,723,7.9,3.0,3.6,44.7,40.9,77.4,58.3
-519,klintbo01,Bobi Klintman,Small Forward,Right,6-9,225,6,March,2003,"Wake,Forest",8,1.9,0.9,0.9,8,1.9,0.9,0.9,1,8,1.9,0.9,0.9,60.0,40.0,50.0,70.0
-520,umudest01,Stanley Umude,Shooting Guard,Right,6-6,210,12,April,1999,"South,Dakota",22,0.7,0.8,0.2,22,0.7,0.8,0.2,3,47,3.1,1.4,0.3,37.8,39.1,86.8,50.0
-521,hendrta01,Taylor Hendricks,Power Forward,Right,6-9,210,22,November,2003,"Central,Florida",3,4.7,5.0,0.7,3,4.7,5.0,0.7,2,43,7.1,4.7,0.8,43.4,36.8,78.8,54.3
-522,mcveija01,Jack McVeigh,Power Forward,Right,6-8,215,27,June,1996,Nebraska,9,1.6,0.6,0.1,9,1.6,0.6,0.1,1,9,1.6,0.6,0.1,29.4,30.8,-,41.2
-523,smithto05,Tolu Smith,Power Forward,Right,6-10,254,26,July,2000,"Western,Kentucky",1,14.0,8.0,0.0,1,14.0,8.0,0.0,1,1,14.0,8.0,0.0,66.7,-,66.7,66.7
-524,armeltr01,Armel TraorÃ©,Small Forward,Right,6-8,215,23,January,2003,Colleges,9,1.6,1.7,0.1,9,1.6,1.7,0.1,1,9,1.6,1.7,0.1,31.6,0.0,28.6,31.6
-525,crawfis01,Isaiah Crawford,Small Forward,Right,6-6,220,1,November,2001,"Louisiana,Tech",15,0.9,0.5,0.1,15,0.9,0.5,0.1,1,15,0.9,0.5,0.1,45.5,20.0,50.0,50.0
-526,mcgowbr01,Bryce McGowens,Shooting Guard,Right,6-7,179,8,November,2002,Nebraska,13,1.0,0.2,0.2,13,1.0,0.2,0.2,3,118,4.8,1.7,0.9,41.5,32.3,76.6,48.2
-527,travelu01,Luke Travers,Shooting Guard,Right,6-8,199,3,September,2001,Colleges,12,1.0,1.7,0.7,12,1.0,1.7,0.7,1,12,1.0,1.7,0.7,25.0,0.0,100.0,25.0
-528,flowetr01,Trentyn Flowers,Small Forward,Right,6-7,185,8,March,2005,Colleges,6,1.8,0.7,0.0,6,1.8,0.7,0.0,1,6,1.8,0.7,0.0,36.4,0.0,100.0,36.4
-529,youngja05,Jahmir Young,Point Guard,Left,6-2,185,7,October,2000,"UNC,Charlotte",6,1.8,0.5,1.0,6,1.8,0.5,1.0,1,6,1.8,0.5,1.0,80.0,50.0,100.0,90.0
-530,milleem01,Emanuel Miller,Power Forward,Right,6-7,215,19,June,2000,"Texas,A&M",6,1.7,1.3,0.3,6,1.7,1.3,0.3,1,6,1.7,1.3,0.3,50.0,0.0,100.0,50.0
-531,bridgja01,Jalen Bridges,Small Forward,Right,6-8,225,14,May,2001,"West,Virginia",8,1.1,0.5,0.0,8,1.1,0.5,0.0,1,8,1.1,0.5,0.0,28.6,28.6,75.0,42.9
-532,robbili01,Liam Robbins,Center,Right,7-0,250,12,July,1999,"Drake,University",13,0.7,0.9,0.2,13,0.7,0.9,0.2,1,13,0.7,0.9,0.2,25.0,0.0,50.0,25.0
-533,tuckepj01,P.J. Tucker,"Small Forward, Power Forward, , Shooting Guard",Right,6-5,245,5,May,1985,Texas,3,3.0,2.7,0.0,3,3.0,2.7,0.0,14,886,6.6,5.4,1.4,42.5,36.6,75.0,51.2
-534,johnsja01,James Johnson,"Power Forward, Small Forward, , Center",Right,6-7,240,20,February,1987,"Wake,Forest",12,0.7,0.5,0.3,12,0.7,0.5,0.3,16,786,7.4,3.5,2.0,47.3,30.0,67.8,51.2
-535,sanogad01,Adama Sanogo,"Power Forward , Center",Right,6-9,245,12,February,2002,UConn,4,2.0,1.5,0.3,4,2.0,1.5,0.3,2,13,3.4,3.2,0.1,52.9,-,66.7,52.9
-536,watsoan02,Anton Watson,Small Forward,Right,6-8,225,6,October,2000,Gonzaga,9,0.9,0.3,0.2,9,0.9,0.3,0.2,1,9,0.9,0.3,0.2,44.4,0.0,-,44.4
-537,wheelph02,Phillip Wheeler,Power Forward,Right,6-9,211,23,April,2002,Colleges,5,1.6,1.6,0.4,5,1.6,1.6,0.4,1,5,1.6,1.6,0.4,14.3,0.0,100.0,14.3
-538,doziepj01,PJ Dozier,"Shooting Guard, Small Forward, , Point Guard",Right,6-6,205,25,October,1996,"South,Carolina",9,0.8,0.6,0.6,9,0.8,0.6,0.6,7,130,5.4,2.6,1.6,40.3,31.1,64.7,46.6
-539,jenkida01,Daniss Jenkins,Point Guard,Right,6-3,165,17,August,2001,"University,of,the,Pacific",7,1.0,0.3,0.4,7,1.0,0.3,0.4,1,7,1.0,0.3,0.4,30.0,14.3,0.0,35.0
-540,norrimi01,Miles Norris,Power Forward,Right,6-10,220,15,April,2000,Oregon,3,2.3,3.0,0.0,3,2.3,3.0,0.0,1,3,2.3,3.0,0.0,22.2,28.6,50.0,33.3
-541,mcculke01,Kevin McCullar Jr.,Small Forward,Right,6-6,210,15,March,2001,"Texas,Tech",4,1.5,2.0,0.5,4,1.5,2.0,0.5,1,4,1.5,2.0,0.5,28.6,0.0,100.0,28.6
-542,mobleis01,Isaiah Mobley,Power Forward,Right,6-8,240,24,September,1999,USC,1,6.0,4.0,5.0,1,6.0,4.0,5.0,3,23,2.6,1.5,0.6,40.7,33.3,71.4,46.6
-543,mooreta02,Taze Moore,Shooting Guard,Left,6-5,195,29,June,1998,"Cal,State-Bakersfield",2,3.0,4.0,0.5,2,3.0,4.0,0.5,2,6,4.0,2.7,1.0,34.5,18.2,50.0,37.9
-544,wisemja01,James Wiseman,Center,Left,7-0,240,31,March,2001,Memphis,1,6.0,1.0,0.0,1,6.0,1.0,0.0,4,148,9.1,5.6,0.7,56.0,26.2,68.3,56.8
-545,chomcul01,Ulrich Chomche,Power Forward,Right,6-10,235,30,December,2005,Colleges,7,0.7,1.1,0.3,7,0.7,1.1,0.3,1,7,0.7,1.1,0.3,40.0,-,50.0,40.0
-546,willial06,Alondes Williams,Shooting Guard,Right,6-4,210,19,June,1999,"Triton,College",1,5.0,0.0,1.0,1,5.0,0.0,1.0,3,9,1.1,0.2,0.1,40.0,20.0,100.0,45.0
-547,harpero02,Ron Harper Jr.,"Small Forward , Power Forward",Right,6-6,245,12,April,2000,"Rutgers,University",1,4.0,7.0,2.0,1,4.0,7.0,2.0,3,11,2.2,1.3,0.6,37.5,20.0,100.0,43.8
-548,ingraha01,Harrison Ingram,Small Forward,Right,6-5,230,27,November,2002,Stanford,5,0.8,1.8,0.6,5,0.8,1.8,0.6,1,5,0.8,1.8,0.6,50.0,0.0,-,50.0
-549,cartodj01,D.J. Carton,Shooting Guard,Left,6-2,200,5,August,2000,"Ohio,State",4,0.8,1.0,0.8,4,0.8,1.0,0.8,2,8,1.8,1.0,0.8,26.7,14.3,83.3,30.0
-550,cuiyo01,Cui Yongxi,Shooting Guard,Right,6-6,190,28,May,2003,Colleges,5,0.6,0.4,0.0,5,0.6,0.4,0.0,1,5,0.6,0.4,0.0,14.3,0.0,50.0,14.3
-551,keybr01,Braxton Key,Small Forward,Right,6-8,230,14,February,1997,Alabama,3,1.0,0.7,0.0,3,1.0,0.7,0.0,4,37,2.9,1.9,0.5,43.6,29.6,62.1,47.9
-552,newtotr01,Tristen Newton,Shooting Guard,Right,6-5,190,26,April,2001,"East,Carolina,University",8,0.4,0.5,0.3,8,0.4,0.5,0.3,1,8,0.4,0.5,0.3,12.5,0.0,100.0,12.5
-553,olivaqu01,Quincy Olivari,Point Guard,Right,6-3,198,27,May,2001,"Rice,University",2,1.5,0.0,0.5,2,1.5,0.0,0.5,1,2,1.5,0.0,0.5,20.0,20.0,-,30.0
-554,colliyu01,Yuri Collins,Point Guard,Right,6-0,190,7,March,2001,"Saint,Louis",2,1.0,1.5,2.0,2,1.0,1.5,2.0,1,2,1.0,1.5,2.0,33.3,-,-,33.3
-555,leonsma01,Malevy Leons,Small Forward,Right,6-9,205,23,September,1999,"Mineral,Area,College",6,0.3,0.5,0.2,6,0.3,0.5,0.2,1,6,0.3,0.5,0.2,0.0,0.0,50.0,0.0
-556,nixda01,Daishen Nix,"Point Guard , Shooting Guard",Right,6-5,224,13,February,2002,Colleges,3,0.3,1.3,1.0,3,0.3,1.3,1.0,4,99,3.3,1.4,1.8,35.6,28.8,59.5,43.6
-557,daviste02,Terence Davis,Shooting Guard,Right,6-4,201,16,May,1997,"Ole,Miss",1,0.0,1.0,1.0,1,0.0,1.0,1.0,5,228,8.0,2.7,1.3,43.3,36.6,82.6,54.2
-558,edwarje01,Jesse Edwards,Center,Right,6-11,230,18,March,2000,"West,Virginia",2,0.0,0.0,0.5,2,0.0,0.0,0.5,1,2,0.0,0.0,0.5,-,-,-,-
-559,mccluma01,Mac McClung,"Shooting Guard , Point Guard",Right,6-2,185,6,January,1999,Georgetown,2,0.0,0.5,1.5,2,0.0,0.5,1.5,3,6,5.5,2.3,2.2,42.9,33.3,66.7,51.8
-560,mcdanja01,Jalen McDaniels,Small Forward,Right,6-9,205,31,January,1998,"San,Diego,State",4,0.0,0.0,0.3,4,0.0,0.0,0.3,6,252,6.7,3.3,1.2,44.9,32.2,77.7,51.1
-561,minixri01,Riley Minix,Small Forward,Right,6-7,230,22,September,2000,"Southeastern,University",1,0.0,2.0,0.0,1,0.0,2.0,0.0,1,1,0.0,2.0,0.0,0.0,0.0,-,0.0
-562,okafoja01,Jahlil Okafor,Center,Right,6-10,270,15,December,1995,Duke,1,0.0,1.0,1.0,1,0.0,1.0,1.0,7,248,10.3,4.7,0.9,54.2,22.2,67.6,54.3
-563,pullizy01,Zyon Pullin,Shooting Guard,Right,6-4,206,3,March,2001,"University,of,California,,Riverside",3,0.0,0.0,0.0,3,0.0,0.0,0.0,1,3,0.0,0.0,0.0,0.0,-,-,0.0
-564,steveis01,Isaiah Stevens,Point Guard,Right,6-0,185,1,November,2000,"Colorado,State",3,0.0,0.7,0.0,3,0.0,0.7,0.0,1,3,0.0,0.7,0.0,0.0,0.0,-,0.0
-565,taylote01,Terry Taylor,Power Forward,Left,6-5,230,23,September,1999,"Austin,Peay,State,University",3,0.0,0.3,0.7,3,0.0,0.3,0.7,4,98,4.6,2.6,0.6,57.9,28.8,68.7,60.7
+,player_id,player_name,Position,Shoots,Height,Weight,Birthday,Birthmonth,Birthyear,College,Last Season Games,Last Season Points,Last Season Total Rebound Percentage,Last Season Assists Percentage,Last Season Field Goal Percentage,Last Season 3pt Field Goal Percentage,Last Season TFree Throw Percentage,Last Season Effective Field Goal Percentage,Last Season Player Efficiency Rating,Last Season Win Shares,Experience,Career Games,Career Points,Career Total Rebound Percentage,Career Assists Percentage,Career Field Goal Percentage,Career 3pt Field Goal Percentage,Career Free Throw Percentage,Career Effective Field Goal Percentage,Career Player Efficiency Rating,Career Win Shares
+0,gilgesh01,Shai Gilgeous-Alexander,"Point Guard , Shooting Guard",Right,6-6,200,12,July,1998,Kentucky,76,32.7,5.0,6.4,51.9,37.5,89.8,56.9,30.7,16.7,7,462,24.4,4.8,5.1,50.1,35.5,86.2,54.0,23.4,60.4
+1,edwaran01,Anthony Edwards,Shooting Guard,Right,6-4,225,5,August,2001,Georgia,79,27.6,5.7,4.5,44.7,39.5,83.7,54.7,20.1,8.4,5,381,23.9,5.3,4.2,44.6,36.4,80.4,52.4,17.7,24.8
+2,jokicni01,Nikola JokiÄ,Center,Right,6-11,284,19,February,1995,Colleges,70,29.6,12.7,10.2,57.6,41.7,80.0,62.7,32.0,16.4,10,745,21.8,10.9,7.2,56.0,36.0,82.4,59.6,28.5,128.0
+3,antetgi01,Giannis Antetokounmpo,"Power Forward, Small Forward, Point Guard, , Shooting Guard",Right,6-11,242,6,December,1994,Colleges,67,30.4,11.9,6.5,60.1,22.2,61.7,60.7,30.5,11.5,12,859,23.9,9.9,5.0,55.1,28.4,69.3,57.0,25.8,120.8
+4,tatumja01,Jayson Tatum,"Small Forward , Power Forward",Right,6-8,210,3,March,1998,Duke,72,26.8,8.7,6.0,45.2,34.3,81.4,53.7,21.7,9.5,8,585,23.6,7.3,3.8,45.9,37.0,84.0,53.3,20.3,65.5
+5,bookede01,Devin Booker,"Shooting Guard , Point Guard",Right,6-6,206,30,October,1996,Kentucky,75,25.6,4.1,7.1,46.1,33.2,89.4,52.5,19.3,6.4,10,673,24.4,4.0,5.2,46.4,35.4,87.3,52.1,18.9,51.5
+6,youngtr01,Trae Young,Point Guard,Right,6-1,164,19,September,1998,Oklahoma,76,24.2,3.1,11.6,41.1,34.0,87.5,49.1,18.3,5.7,7,483,25.3,3.5,9.8,43.3,35.2,87.3,50.4,21.3,43.3
+7,herroty01,Tyler Herro,Shooting Guard,Right,6-5,195,20,January,2000,Kentucky,77,23.9,5.2,5.5,47.2,37.5,87.8,56.3,19.7,7.4,6,361,19.4,5.0,4.0,44.8,38.2,87.4,53.4,15.9,19.9
+8,cunnica01,Cade Cunningham,"Point Guard , Shooting Guard",Right,6-6,220,25,September,2001,"Oklahoma,State",70,26.1,6.1,9.1,46.9,35.6,84.6,52.1,20.6,5.9,4,208,22.1,5.4,7.4,44.6,33.9,85.3,49.7,16.9,7.0
+9,hardeja01,James Harden,"Point Guard , Shooting Guard",Left,6-5,220,26,August,1989,"Arizona,State",79,22.8,5.8,8.7,41.0,35.2,87.4,50.1,20.0,8.3,16,1151,24.1,5.6,7.2,43.9,36.3,86.1,52.5,23.7,174.7
+10,townska01,Karl-Anthony Towns,"Center , Power Forward",Right,7-0,248,15,November,1995,Kentucky,72,24.4,12.8,3.1,52.6,42.0,82.9,58.4,23.4,10.1,10,645,23.1,11.1,3.2,52.4,40.0,83.7,57.7,23.8,85.1
+11,lavinza01,Zach LaVine,"Shooting Guard, Small Forward, , Point Guard",Right,6-5,200,10,March,1995,UCLA,74,23.3,4.3,4.2,51.1,44.6,82.5,60.9,17.3,5.1,11,654,20.8,4.1,4.0,47.0,39.1,83.3,54.4,17.3,37.3
+12,greenja05,Jalen Green,Shooting Guard,Right,6-4,178,9,February,2002,Colleges,82,21.0,4.6,3.4,42.3,35.4,81.3,50.5,15.1,5.1,4,307,20.1,4.3,3.4,42.2,34.2,79.9,49.8,14.3,10.7
+13,curryst01,Stephen Curry,Point Guard,Right,6-2,185,14,March,1988,Davidson,70,24.5,4.4,6.0,44.8,39.7,93.3,57.2,21.5,7.9,16,1026,24.7,4.7,6.4,47.1,42.3,91.1,58.2,23.5,143.1
+14,derozde01,DeMar DeRozan,"Shooting Guard, Small Forward, , Power Forward",Right,6-6,220,7,August,1989,USC,77,22.2,3.9,4.4,47.7,32.8,85.7,50.9,17.7,7.1,16,1187,21.3,4.4,4.1,46.9,30.0,84.2,48.5,18.9,108.5
+15,jamesle01,LeBron James,"Small Forward, Power Forward, Point Guard, Center, , Shooting Guard",Right,6-9,250,30,December,1984,Colleges,70,24.4,7.8,8.2,51.3,37.6,78.2,57.1,22.7,7.7,22,1562,27.0,7.5,7.4,50.6,34.9,73.7,54.8,26.9,271.4
+16,mitchdo01,Donovan Mitchell,"Shooting Guard , Point Guard",Right,6-3,215,7,September,1996,Louisville,71,24.0,4.5,5.0,44.3,36.8,82.3,53.1,20.9,7.6,8,539,24.7,4.3,4.7,44.9,36.6,84.0,52.6,20.0,51.9
+17,brunsja01,Jalen Brunson,"Point Guard , Shooting Guard",Left,6-2,190,31,August,1996,Villanova,65,26.0,2.9,7.3,48.8,38.3,82.1,55.1,21.6,8.3,7,487,18.1,3.2,5.0,48.9,38.9,82.3,54.7,19.1,45.5
+18,duranke01,Kevin Durant,"Small Forward, Power Forward, , Shooting Guard",Right,6-11,240,29,September,1988,Texas,62,26.6,6.0,4.2,52.7,43.0,83.9,59.8,21.2,5.2,17,1123,27.2,7.0,4.4,50.2,39.0,88.2,55.4,24.8,175.4
+19,jacksja02,Jaren Jackson Jr.,"Center , Power Forward",Right,6-10,242,15,September,1999,"Michigan,State",74,22.2,5.6,2.0,48.8,37.5,78.1,54.8,19.6,6.4,7,407,18.5,5.5,1.5,46.6,35.1,79.2,52.8,18.1,28.8
+20,siakapa01,Pascal Siakam,Power Forward,Right,6-8,230,2,April,1994,"New,Mexico,State",78,20.2,6.9,3.4,51.9,38.9,73.4,57.2,19.2,7.5,9,629,18.0,6.7,3.6,49.9,33.9,76.3,53.9,18.5,55.5
+21,garlada01,Darius Garland,"Point Guard , Shooting Guard",Right,6-1,192,26,January,2000,Vanderbilt,75,20.6,2.9,6.7,47.2,40.1,87.8,56.2,19.9,8.1,6,382,18.9,2.7,6.7,45.3,38.8,86.7,53.0,16.3,24.6
+22,whiteco01,Coby White,"Point Guard , Shooting Guard",Right,6-5,195,16,February,2000,UNC,74,20.4,3.7,4.5,45.3,37.0,90.2,55.0,15.5,4.5,6,422,15.2,3.6,3.8,43.3,36.9,86.5,52.7,13.4,17.9
+23,willija06,Jalen Williams,"Shooting Guard , Power Forward",Right,6-6,220,14,April,2001,"Santa,Clara",69,21.6,5.3,5.1,48.4,36.5,78.9,53.7,20.3,7.8,3,215,18.1,4.6,4.3,51.3,38.2,80.3,56.3,18.3,20.7
+24,reaveau01,Austin Reaves,Shooting Guard,Right,6-5,206,29,May,1998,"Wichita,State",73,20.2,4.5,5.8,46.0,37.7,87.7,55.6,18.1,7.6,4,280,14.5,3.8,4.3,48.1,37.0,86.3,56.9,15.5,21.9
+25,foxde01,De'Aaron Fox,Point Guard,Left,6-3,185,20,December,1997,Kentucky,62,23.5,4.8,6.3,46.3,31.0,82.7,51.4,18.3,4.3,8,531,21.5,3.9,6.1,47.0,33.0,74.6,51.5,18.6,33.9
+26,sengual01,Alperen ÅengÃ¼n,Center,Right,6-11,235,25,July,2002,Colleges,76,19.1,10.3,4.9,49.6,23.3,69.2,50.5,21.4,8.3,4,286,16.0,8.6,4.1,51.8,27.2,70.1,53.2,20.1,22.5
+27,wagnefr01,Franz Wagner,Small Forward,Right,6-10,225,27,August,2001,Michigan,60,24.2,5.7,4.7,46.3,29.5,87.1,50.7,20.1,5.6,4,291,19.1,4.8,3.7,47.4,32.2,85.6,52.3,16.9,21.4
+28,lillada01,Damian Lillard,Point Guard,Right,6-2,195,15,July,1990,"Weber,State",58,24.9,4.7,7.1,44.8,37.6,92.1,54.7,21.3,7.6,13,900,25.1,4.3,6.7,43.9,37.1,89.9,52.3,22.2,118.4
+29,bridgmi01,Mikal Bridges,"Small Forward , Shooting Guard",Right,6-6,209,30,August,1996,Villanova,82,17.6,3.2,3.7,50.0,35.4,81.4,57.0,14.0,5.7,7,556,14.8,4.0,2.7,48.4,37.1,84.3,56.1,14.4,42.0
+30,murraja01,Jamal Murray,"Point Guard , Shooting Guard",Right,6-4,215,23,February,1997,Kentucky,67,21.4,3.9,6.0,47.4,39.3,88.6,54.3,17.8,6.2,8,536,18.0,3.8,4.7,45.5,38.1,87.0,52.9,17.0,38.1
+31,adebaba01,Bam Adebayo,"Center , Power Forward",Right,6-9,255,18,July,1997,Kentucky,78,18.1,9.6,4.3,48.5,35.7,76.5,52.1,18.9,7.5,8,567,15.7,8.9,3.6,53.7,31.4,75.6,54.5,19.8,57.6
+32,doncilu01,Luka DonÄiÄ,"Point Guard , Shooting Guard",Right,6-6,230,28,February,1999,Colleges,50,28.2,8.2,7.7,45.0,36.8,78.2,53.6,24.1,5.9,7,450,28.6,8.6,8.2,46.8,35.0,75.1,54.2,25.5,57.1
+33,brownja02,Jaylen Brown,"Small Forward , Shooting Guard",Right,6-6,223,24,October,1996,California,63,22.2,5.8,4.5,46.3,32.4,76.4,51.5,17.8,5.2,9,603,19.0,5.3,2.6,47.8,35.9,72.6,54.2,16.9,40.6
+34,portemi01,Michael Porter Jr.,Small Forward,Right,6-10,218,29,June,1998,Missouri,77,18.2,7.0,2.1,50.4,39.5,76.8,59.6,16.2,6.4,6,345,16.2,6.4,1.4,50.0,40.6,79.5,59.9,17.1,26.5
+35,poolejo01,Jordan Poole,"Shooting Guard , Point Guard",Right,6-4,194,19,June,1999,Michigan,68,20.5,3.0,4.5,43.2,37.8,88.3,54.4,16.6,2.0,6,412,16.8,2.7,3.8,42.2,34.5,87.9,51.3,14.0,11.3
+36,maxeyty01,Tyrese Maxey,"Point Guard , Shooting Guard",Right,6-2,200,4,November,2000,Kentucky,52,26.3,3.3,6.1,43.7,33.7,87.9,51.1,19.5,3.8,5,318,19.5,3.0,4.4,46.1,38.1,86.6,53.3,17.8,26.5
+37,halibty01,Tyrese Haliburton,"Point Guard , Shooting Guard",Right,6-5,185,29,February,2000,"Iowa,State",73,18.6,3.5,9.2,47.3,38.8,85.1,58.2,21.8,10.4,5,333,17.5,3.7,8.8,47.7,39.2,85.5,57.4,20.6,37.6
+38,vucevni01,Nikola VuÄeviÄ,Center,Right,6-10,260,24,October,1990,USC,73,18.5,10.1,3.5,53.0,40.2,80.5,59.2,20.3,7.3,14,972,17.2,10.5,2.9,49.7,34.8,77.0,52.9,20.1,79.9
+39,simonan01,Anfernee Simons,Shooting Guard,Right,6-3,181,8,June,1999,Colleges,70,19.3,2.7,4.8,42.6,36.3,90.2,52.1,14.9,4.2,7,389,15.0,2.5,3.3,43.1,38.1,88.0,53.1,13.9,12.8
+40,zubaciv01,Ivica Zubac,Center,Right,7-0,240,18,March,1997,Colleges,80,16.8,12.6,2.7,62.8,-,66.1,62.8,22.3,11.7,9,584,10.2,8.1,1.4,61.6,8.3,72.6,61.6,19.4,51.3
+41,sabondo01,Domantas Sabonis,"Center , Power Forward",Left,6-10,240,3,May,1996,Gonzaga,70,19.1,13.9,6.0,59.0,41.7,75.4,62.7,22.9,10.1,9,646,16.1,10.7,4.9,56.0,34.7,72.9,58.1,20.5,69.9
+42,beaslma01,Malik Beasley,Shooting Guard,Right,6-4,187,26,November,1996,"Florida,State",82,16.3,2.6,1.7,43.0,41.6,67.9,57.9,14.4,4.7,9,578,11.7,2.8,1.4,42.6,39.1,76.9,55.3,12.4,20.1
+43,sharpsh01,Shaedon Sharpe,Shooting Guard,Right,6-6,200,30,May,2003,Kentucky,72,18.5,4.5,2.8,45.2,31.1,78.5,51.9,14.5,3.0,3,184,14.3,3.9,2.1,44.9,33.0,77.9,51.9,12.8,4.7
+44,anunoog01,OG Anunoby,"Small Forward , Power Forward",Right,6-7,232,17,July,1997,Indiana,74,18.0,4.8,2.2,47.6,37.2,81.0,55.9,15.4,6.5,8,492,12.9,4.4,1.7,47.4,37.5,76.1,56.0,13.5,31.4
+45,banede01,Desmond Bane,Shooting Guard,Right,6-5,215,25,June,1998,TCU,69,19.2,6.1,5.3,48.4,39.2,89.4,56.5,17.9,6.5,5,313,17.8,4.6,3.8,47.2,41.0,88.3,56.6,17.2,25.5
+46,mobleev01,Evan Mobley,Power Forward,Right,6-11,215,18,June,2001,USC,71,18.5,9.3,3.2,55.7,37.0,72.5,60.4,22.3,9.0,4,269,16.4,9.0,2.9,54.8,31.5,69.4,57.1,18.9,28.3
+47,powelno01,Norman Powell,"Shooting Guard , Small Forward",Right,6-3,215,25,May,1993,UCLA,60,21.8,3.2,2.1,48.4,41.8,80.4,57.8,17.5,5.3,10,617,13.2,2.7,1.5,47.1,39.8,82.4,55.8,15.1,32.4
+48,bridgmi02,Miles Bridges,"Small Forward , Power Forward",Left,6-7,225,21,March,1998,"Michigan,State",64,20.3,7.5,3.9,43.1,31.3,87.0,49.5,17.7,3.2,6,424,15.7,6.2,2.7,46.2,34.0,82.6,53.0,15.4,21.3
+49,randlju01,Julius Randle,"Power Forward , Center",Left,6-9,250,29,November,1994,Kentucky,69,18.7,7.1,4.7,48.5,34.4,80.6,54.2,17.5,6.2,11,710,19.0,9.1,3.8,47.1,33.4,75.3,51.2,18.1,49.6
+50,davisan02,Anthony Davis,"Center , Power Forward",Right,6-10,253,11,March,1993,Kentucky,51,24.7,11.6,3.5,51.6,28.2,77.5,53.6,26.3,6.7,13,787,24.1,10.7,2.6,52.2,29.6,79.4,53.6,26.8,118.8
+51,barnesc01,Scottie Barnes,"Power Forward, Shooting Guard, , Small Forward",Right,6-7,227,1,August,2001,"Florida,State",65,19.3,7.7,5.8,44.6,27.1,75.5,48.2,17.8,3.5,4,276,17.2,7.5,5.0,46.6,30.0,76.1,50.4,17.1,19.4
+52,whitede01,Derrick White,"Shooting Guard , Point Guard",Right,6-4,190,2,July,1994,"Colorado-Colorado,Springs",76,16.4,4.5,4.8,44.2,38.4,83.9,58.0,16.6,8.5,8,494,13.0,3.7,4.2,44.8,36.9,85.2,54.4,15.8,39.7
+53,irvinky01,Kyrie Irving,"Point Guard , Shooting Guard",Right,6-2,195,23,March,1992,Duke,50,24.7,4.8,4.6,47.3,40.1,91.6,54.9,19.9,4.6,14,779,23.7,4.1,5.6,47.4,39.4,88.8,54.0,22.2,91.0
+54,barrerj01,RJ Barrett,"Shooting Guard , Small Forward",Left,6-6,214,14,June,2000,Duke,58,21.1,6.3,5.4,46.8,35.0,63.0,52.3,16.5,2.4,6,387,18.8,5.6,3.3,44.1,34.6,69.7,49.4,13.9,13.3
+55,avdijde01,Deni Avdija,Small Forward,Right,6-9,210,3,January,2001,Colleges,72,16.9,7.3,3.9,47.6,36.5,78.0,55.0,17.7,5.6,5,359,11.3,6.2,2.8,46.2,33.7,75.3,52.9,13.1,14.7
+56,braunch01,Christian Braun,Shooting Guard,Right,6-6,218,17,April,2001,Kansas,79,15.4,5.2,2.6,58.0,39.7,82.7,63.4,16.0,8.0,3,237,9.2,3.8,1.7,52.8,38.4,75.2,58.6,13.6,13.4
+57,banchpa01,Paolo Banchero,Power Forward,Right,6-10,250,12,November,2002,Duke,46,25.9,7.5,4.8,45.2,32.0,72.7,50.0,20.0,3.5,3,198,22.4,7.1,4.6,44.5,32.0,73.0,48.7,17.1,11.1
+58,castlst01,Stephon Castle,Point Guard,Right,6-6,215,1,November,2004,UConn,81,14.7,3.7,4.1,42.8,28.5,72.4,47.6,13.7,1.1,1,81,14.7,3.7,4.1,42.8,28.5,72.4,47.6,13.7,1.1
+59,ballla01,LaMelo Ball,Point Guard,Right,6-7,180,22,August,2001,Colleges,47,25.2,4.9,7.4,40.5,33.9,84.3,49.4,19.1,2.0,5,231,21.0,6.0,7.4,42.1,36.5,83.7,50.8,18.9,13.6
+60,mccolcj01,CJ McCollum,"Shooting Guard , Point Guard",Right,6-3,190,19,September,1991,Lehigh,56,21.1,3.8,4.1,44.4,37.3,71.7,53.0,15.8,1.5,12,787,19.6,3.6,3.8,45.3,39.7,79.9,53.0,17.3,52.0
+61,moranja01,Ja Morant,Point Guard,Right,6-2,174,10,August,1999,"Murray,State",50,23.2,4.1,7.3,45.4,30.9,82.4,50.4,19.3,3.5,6,307,22.6,4.7,7.4,46.9,31.6,76.6,50.8,20.2,24.1
+62,sextoco01,Collin Sexton,"Shooting Guard , Point Guard",Right,6-3,190,4,January,1999,Alabama,63,18.4,2.7,4.2,48.0,40.6,86.5,54.3,16.6,2.4,7,407,18.8,2.8,3.7,47.0,38.7,83.8,52.2,16.2,15.8
+63,mathube01,Bennedict Mathurin,"Small Forward , Shooting Guard",Right,6-6,210,19,June,2002,Arizona,72,16.1,5.3,1.9,45.8,34.0,83.1,51.6,13.6,3.0,3,209,15.9,4.5,1.8,44.6,34.2,82.8,50.2,13.3,6.2
+64,pritcpa01,Payton Pritchard,"Point Guard , Shooting Guard",Right,6-1,195,28,January,1998,Oregon,80,14.3,3.8,3.5,47.2,40.7,84.5,62.0,17.6,8.6,5,347,9.1,2.7,2.5,45.4,39.9,85.6,58.4,15.0,20.9
+65,reidna01,Naz Reid,"Center , Power Forward",Right,6-9,264,26,August,1999,LSU,80,14.2,6.0,2.3,46.2,37.9,77.6,55.6,15.8,5.7,6,406,11.6,4.9,1.3,48.7,37.3,72.8,56.5,16.8,20.7
+66,georgke01,Keyonte George,"Point Guard , Shooting Guard",Right,6-4,185,8,November,2003,Baylor,67,16.8,3.8,5.6,39.1,34.3,81.8,48.5,12.9,1.1,2,142,14.8,3.3,5.0,39.1,33.9,83.1,48.4,11.7,0.7
+67,murphtr02,Trey Murphy III,Small Forward,Right,6-8,206,18,June,2000,"Rice,University",53,21.2,5.1,3.5,45.4,36.1,88.7,54.8,17.3,3.5,4,251,13.7,3.9,1.8,45.4,38.3,87.5,57.2,15.7,18.4
+68,turnemy01,Myles Turner,Center,Right,6-11,250,24,March,1996,Texas,72,15.6,6.5,1.5,48.1,39.6,77.3,57.7,16.1,4.7,10,642,14.1,6.8,1.3,49.9,36.2,77.1,55.6,17.3,48.7
+69,monkma01,Malik Monk,Shooting Guard,Right,6-3,200,4,February,1998,Kentucky,65,17.2,3.8,5.6,43.9,32.5,86.5,51.3,15.0,2.8,8,523,12.3,2.6,3.2,43.4,35.0,84.8,52.1,14.3,15.2
+70,wembavi01,Victor Wembanyama,"Center , Power Forward",Right,7-3,235,4,January,2004,Colleges,46,24.3,11.0,3.7,47.6,35.2,83.6,55.9,24.2,3.8,2,117,22.5,10.8,3.8,46.9,33.9,80.9,53.5,23.5,7.5
+71,allenja01,Jarrett Allen,Center,Right,6-11,243,21,April,1998,Texas,82,13.5,9.7,1.9,70.6,0.0,71.8,70.6,22.1,11.6,8,568,12.8,9.2,1.7,64.1,16.4,71.2,64.3,20.6,66.7
+72,grimequ01,Quentin Grimes,Shooting Guard,Right,6-5,205,8,May,2000,Kansas,75,14.6,4.3,3.0,46.7,38.5,75.7,56.5,15.9,3.4,4,243,10.4,3.1,2.0,44.4,37.5,76.3,56.3,12.5,10.8
+73,huntede01,De'Andre Hunter,Small Forward,Right,6-8,225,2,December,1997,Virginia,64,17.0,4.0,1.4,47.0,40.5,84.6,57.3,15.9,4.4,6,327,14.8,4.1,1.5,45.2,37.3,81.9,53.0,12.0,12.1
+74,wiggian01,Andrew Wiggins,"Small Forward , Power Forward",Right,6-7,197,23,February,1995,Kansas,60,18.0,4.5,2.6,44.8,37.4,76.3,52.6,16.4,4.0,11,766,18.5,4.5,2.3,44.9,35.6,72.5,49.8,14.7,33.1
+75,daniedy01,Dyson Daniels,"Point Guard , Shooting Guard",Right,6-8,199,17,March,2003,Colleges,76,14.1,5.9,4.4,49.3,34.0,59.3,53.6,15.6,5.0,3,196,8.4,4.5,3.2,47.2,32.7,61.4,52.4,13.2,9.2
+76,johnsca02,Cameron Johnson,Power Forward,Right,6-8,210,3,March,1996,Pitt,57,18.8,4.3,3.4,47.5,39.0,89.3,58.2,18.2,5.1,6,340,12.9,3.9,2.0,45.3,39.2,85.1,57.2,15.1,22.9
+77,brookdi01,Dillon Brooks,"Small Forward , Shooting Guard",Right,6-6,225,22,January,1996,Oregon,75,14.0,3.7,1.7,42.9,39.7,81.8,53.3,11.0,5.1,8,492,14.2,3.2,2.0,41.9,35.5,80.4,49.1,10.7,14.7
+78,hartjo01,Josh Hart,"Small Forward , Shooting Guard",Right,6-4,215,6,March,1995,Villanova,77,13.6,9.6,5.9,52.5,33.3,77.6,57.9,16.5,9.2,8,530,10.3,7.0,3.2,47.1,34.2,75.3,54.7,13.3,36.7
+79,lopezbr01,Brook Lopez,Center,Right,7-1,282,1,April,1988,Stanford,80,13.0,5.0,1.8,50.9,37.3,82.6,59.9,14.8,6.6,17,1105,15.9,6.1,1.5,49.7,35.2,79.7,53.7,18.5,91.9
+80,vassede01,Devin Vassell,"Shooting Guard , Small Forward",Right,6-5,200,23,August,2000,"Florida,State",64,16.3,4.0,2.9,44.3,36.8,79.2,53.2,14.2,2.2,5,303,14.1,3.8,2.6,44.4,36.9,80.6,53.0,14.1,11.9
+81,giddejo01,Josh Giddey,"Shooting Guard, Point Guard, Power Forward, , Small Forward",Right,6-8,210,10,October,2002,Colleges,70,14.6,8.1,7.2,46.5,37.8,78.1,53.1,18.1,5.3,4,280,14.1,7.5,6.1,46.4,33.0,76.4,51.0,16.4,13.9
+82,barneha02,Harrison Barnes,"Power Forward , Small Forward",Right,6-8,225,30,May,1992,UNC,82,12.3,3.8,1.7,50.8,43.3,80.9,62.2,14.9,5.6,13,993,13.9,4.8,1.8,46.0,38.5,81.0,52.8,13.7,61.6
+83,thompkl01,Klay Thompson,"Shooting Guard , Small Forward",Right,6-5,215,8,February,1990,"Washington,State",72,14.0,3.4,2.0,41.2,39.1,90.5,53.5,12.9,1.8,12,865,19.1,3.5,2.3,45.1,41.1,86.0,54.9,15.8,57.1
+84,harrito02,Tobias Harris,"Power Forward , Small Forward",Right,6-8,226,15,July,1992,Tennessee,73,13.7,5.9,2.2,47.7,34.5,86.1,53.4,13.9,5.2,14,970,16.1,6.2,2.4,47.8,36.6,83.6,53.1,16.5,75.3
+85,mcdanja02,Jaden McDaniels,"Power Forward , Small Forward",Right,6-9,185,29,September,2000,Washington,82,12.2,5.7,2.0,47.7,33.0,81.3,53.7,13.3,6.3,5,366,10.3,4.2,1.5,48.2,34.8,75.2,55.4,11.1,17.9
+86,westbru01,Russell Westbrook,Point Guard,Right,6-4,200,12,November,1988,UCLA,75,13.3,4.9,6.1,44.9,32.3,66.1,50.5,14.3,1.9,17,1237,21.2,7.0,8.0,43.9,30.5,77.2,47.1,21.6,112.5
+87,okongon01,Onyeka Okongwu,Center,Right,6-8,235,11,December,2000,USC,74,13.4,8.9,2.3,56.7,32.4,75.9,60.2,19.0,7.2,5,307,9.6,6.7,1.3,61.4,32.2,75.5,63.4,18.6,24.9
+88,schrode01,Dennis SchrÃ¶der,"Point Guard , Shooting Guard",Right,6-1,172,15,September,1993,Colleges,75,13.1,2.6,5.4,40.6,34.2,83.8,48.3,12.7,3.2,12,842,13.9,2.9,4.9,43.2,34.2,83.6,48.5,14.1,32.7
+89,johnske04,Keldon Johnson,Small Forward,Right,6-5,220,11,October,1999,Kentucky,77,12.7,4.8,1.6,48.2,31.8,77.3,53.8,15.6,3.2,6,370,15.6,5.4,2.2,46.7,35.2,76.2,53.1,14.9,16.7
+90,thompam01,Amen Thompson,Small Forward,Right,6-7,209,30,January,2003,Colleges,69,14.1,8.2,3.8,55.7,27.5,68.4,57.5,18.7,8.0,2,131,11.9,7.4,3.3,54.9,22.1,68.4,56.3,18.5,12.3
+91,butleji01,Jimmy Butler,"Small Forward, Shooting Guard, , Power Forward",Right,6-7,230,14,September,1989,"Tyler,Junior,College",55,17.5,5.4,5.4,50.4,30.8,84.2,53.1,22.4,8.7,14,869,18.3,5.3,4.3,47.2,32.8,84.3,50.3,21.7,123.7
+92,kuzmaky01,Kyle Kuzma,"Power Forward , Small Forward",Right,6-9,221,24,July,1995,Utah,65,14.8,5.7,2.3,43.6,30.7,63.4,49.3,10.6,-0.9,8,541,17.0,6.3,2.7,45.0,33.4,72.1,51.7,13.7,14.4
+93,murrake02,Keegan Murray,"Small Forward , Power Forward",Right,6-8,215,19,August,2000,Iowa,76,12.4,6.7,1.4,44.4,34.3,83.3,53.8,12.0,4.4,3,233,13.3,5.6,1.4,45.1,37.2,81.2,55.6,12.5,13.9
+94,risacza01,Zaccharie Risacher,Small Forward,Right,6-8,200,8,April,2005,Colleges,75,12.6,3.6,1.2,45.8,35.5,71.1,53.7,12.2,1.8,1,75,12.6,3.6,1.2,45.8,35.5,71.1,53.7,12.2,1.8
+95,durenja01,Jalen Duren,Center,Right,6-10,250,18,November,2003,Memphis,78,11.8,10.3,2.7,69.2,-,66.9,69.2,21.4,9.2,3,206,11.5,10.2,2.1,65.3,0.0,69.1,65.3,19.3,18.6
+96,marshna01,Naji Marshall,Small Forward,Right,6-7,220,24,January,1998,Xavier,69,13.2,4.8,3.0,50.8,27.5,81.3,55.1,15.1,3.5,5,299,8.8,3.8,2.3,45.6,30.2,78.6,51.1,12.9,10.3
+97,wiggiaa01,Aaron Wiggins,Shooting Guard,Right,6-6,200,2,January,1999,Maryland,76,12.0,3.9,1.8,48.8,38.3,83.1,57.7,16.1,5.4,4,274,8.6,3.2,1.3,50.4,38.9,79.4,58.2,13.8,12.9
+98,hieldbu01,Buddy Hield,"Shooting Guard , Small Forward",Right,6-4,220,17,December,1992,Oklahoma,82,11.1,3.2,1.6,41.7,37.0,82.8,54.6,12.3,2.8,9,714,15.0,4.1,2.5,43.3,39.7,85.8,55.1,14.3,27.7
+99,oubreke01,Kelly Oubre Jr.,Small Forward,Left,6-8,203,9,December,1995,Kansas,60,15.1,6.1,1.8,47.0,29.3,75.1,51.8,13.5,2.6,10,655,13.3,4.6,1.1,43.8,32.5,75.1,50.6,13.3,24.8
+100,bealbr01,Bradley Beal,Shooting Guard,Right,6-4,207,28,June,1993,Florida,53,17.0,3.3,3.7,49.7,38.6,80.3,57.1,15.2,2.4,13,801,21.5,4.1,4.3,46.4,37.6,82.1,52.7,18.0,58.6
+101,markkla01,Lauri Markkanen,"Power Forward , Small Forward",Right,7-0,240,22,May,1997,Arizona,47,19.0,5.9,1.5,42.3,34.6,87.6,52.1,15.6,2.2,8,450,18.2,7.1,1.5,45.5,37.1,86.7,54.7,17.3,33.1
+102,camarto01,Toumani Camara,Power Forward,Left,6-8,220,8,May,2000,Dayton,78,11.3,5.8,2.2,45.8,37.5,72.2,55.2,12.5,5.2,2,148,9.5,5.4,1.8,45.5,36.3,73.8,53.9,11.8,7.2
+103,jeromty01,Ty Jerome,Shooting Guard,Right,6-5,195,8,July,1997,Virginia,70,12.5,2.5,3.4,51.6,43.9,87.2,60.6,21.0,5.9,6,229,8.7,2.0,2.8,45.8,38.1,85.0,54.7,15.0,9.9
+104,dinwisp01,Spencer Dinwiddie,"Point Guard , Shooting Guard",Right,6-5,215,6,April,1993,Colorado,79,11.0,2.6,4.4,41.6,33.4,80.2,49.6,13.0,3.7,11,621,13.0,3.0,5.1,41.4,33.3,79.6,49.1,14.7,36.0
+105,sarral01,Alex Sarr,"Center , Power Forward",Right,7-0,205,26,April,2005,Colleges,67,13.0,6.5,2.4,39.4,30.8,67.9,45.7,12.9,-0.3,1,67,13.0,6.5,2.4,39.4,30.8,67.9,45.7,12.9,-0.3
+106,goberru01,Rudy Gobert,Center,Right,7-1,258,26,June,1992,Colleges,72,12.0,10.9,1.8,66.9,-,67.4,66.9,18.3,10.1,12,829,12.6,11.7,1.4,65.6,0.0,64.1,65.6,21.2,116.1
+107,hardati02,Tim Hardaway Jr.,"Shooting Guard , Small Forward",Right,6-5,205,16,March,1992,Michigan,77,11.0,2.4,1.6,40.6,36.8,85.5,52.9,9.8,3.5,12,813,13.7,2.9,1.8,41.7,36.1,81.5,51.7,13.1,33.8
+108,vanvlfr01,Fred VanVleet,"Point Guard , Shooting Guard",Right,6-0,197,25,February,1994,"Wichita,State",60,14.1,3.7,5.6,37.8,34.5,81.0,48.3,12.8,5.2,9,550,14.9,3.4,5.7,40.1,37.1,86.2,50.2,15.8,46.1
+109,valanjo01,Jonas ValanÄiÅ«nas,Center,Right,6-11,265,6,May,1992,Colleges,81,10.4,7.7,2.0,55.0,21.6,87.9,55.7,20.8,4.3,13,937,13.1,9.3,1.4,56.0,34.1,79.4,57.4,20.5,84.6
+110,johnske07,Keon Johnson,Shooting Guard,Right,6-5,186,10,March,2002,Tennessee,79,10.6,3.8,2.2,38.9,31.4,77.0,47.0,10.4,0.5,4,161,8.2,2.7,1.9,37.9,32.4,76.5,45.6,9.9,-0.3
+111,hendesc01,Scoot Henderson,Point Guard,Right,6-3,202,3,February,2004,Colleges,66,12.7,3.0,5.1,41.9,35.4,76.7,49.6,12.5,1.8,2,128,13.3,3.1,5.2,40.1,34.0,79.3,46.6,11.0,0.1
+112,washipj01,P.J. Washington,"Power Forward , Center",Right,6-7,230,23,August,1998,Kentucky,57,14.7,7.8,2.3,45.3,38.1,72.2,52.1,14.0,2.4,6,390,13.1,5.9,2.3,44.8,35.8,70.9,52.8,13.0,14.8
+113,toppiob01,Obi Toppin,Power Forward,Right,6-9,220,4,March,1998,Dayton,79,10.5,4.0,1.6,52.9,36.5,78.1,62.1,17.4,4.3,5,362,8.5,3.4,1.2,52.3,35.5,77.1,60.5,16.2,16.6
+114,jonesty01,Tyus Jones,Point Guard,Right,6-1,196,10,May,1996,Duke,81,10.2,2.4,5.3,44.8,41.4,89.5,57.0,14.5,4.4,10,682,7.7,2.0,4.4,44.5,37.8,82.1,52.1,15.0,33.9
+115,poeltja01,Jakob Poeltl,Center,Right,7-0,245,15,October,1995,Utah,57,14.5,9.6,2.8,62.7,33.3,67.4,62.8,20.0,5.5,9,595,8.9,7.0,1.8,63.1,42.9,55.5,63.1,19.0,44.2
+116,trentga02,Gary Trent Jr.,"Shooting Guard , Small Forward",Right,6-5,209,18,January,1999,Duke,74,11.1,2.3,1.2,43.1,41.6,84.8,56.8,11.7,3.3,7,415,13.7,2.4,1.4,42.3,39.1,82.3,52.9,13.1,19.1
+117,wellsja01,Jaylen Wells,"Shooting Guard , Small Forward",Right,6-7,206,26,August,2003,"Sonoma,State,University",79,10.4,3.4,1.7,42.5,35.2,82.2,52.7,10.5,3.5,1,79,10.4,3.4,1.7,42.5,35.2,82.2,52.7,10.5,3.5
+118,porzikr01,Kristaps PorziÅÄ£is,"Center , Power Forward",Right,7-2,240,2,August,1995,Colleges,42,19.5,6.8,2.1,48.3,41.2,80.9,57.2,22.3,5.3,9,501,19.6,7.8,1.8,46.1,36.6,82.9,52.5,20.8,48.0
+119,robindu01,Duncan Robinson,"Small Forward , Shooting Guard",Right,6-7,215,22,April,1994,Williams,74,11.0,2.3,2.4,43.7,39.3,88.7,58.1,11.8,2.7,7,423,11.3,2.6,1.8,43.4,39.7,87.4,59.4,11.4,19.9
+120,champju02,Julian Champagnie,Small Forward,Right,6-8,220,29,June,2001,"St.,John's",82,9.9,3.9,1.4,41.5,37.1,90.4,54.9,12.2,2.5,3,173,8.6,3.4,1.3,41.7,37.2,85.7,54.7,11.7,4.7
+121,aldamsa01,Santi Aldama,Power Forward,Right,6-11,224,10,January,2001,"Loyola,(MD)",65,12.5,6.4,2.9,48.3,36.8,69.1,57.6,16.8,5.0,4,235,9.8,5.2,1.9,45.9,34.5,69.2,54.6,14.3,12.2
+122,carrica01,Bub Carrington,Point Guard,Right,6-4,190,21,July,2005,Pitt,82,9.8,4.2,4.4,40.1,33.9,81.2,49.3,9.0,0.2,1,82,9.8,4.2,4.4,40.1,33.9,81.2,49.3,9.0,0.2
+123,leonaka01,Kawhi Leonard,Small Forward,Right,6-7,225,29,June,1991,"San,Diego,State",37,21.5,5.9,3.1,49.8,41.1,81.0,56.0,20.5,3.5,13,733,20.1,6.4,3.1,49.9,39.2,86.0,55.4,23.2,102.7
+124,niangge01,Georges Niang,Power Forward,Right,6-7,230,17,June,1993,"Iowa,State",79,9.9,3.4,1.4,46.1,40.6,79.3,59.5,11.2,2.9,9,544,7.4,2.5,1.0,44.5,39.9,85.2,58.0,10.8,15.9
+125,jonesde02,Derrick Jones Jr.,"Small Forward , Power Forward",Left,6-5,210,15,February,1997,UNLV,77,10.1,3.4,0.8,52.6,35.6,70.3,59.3,13.5,4.7,9,497,7.2,3.3,0.7,50.7,32.5,70.6,56.7,13.0,23.7
+126,pippesc02,Scotty Pippen Jr.,Point Guard,Right,6-1,185,10,November,2000,Vanderbilt,79,9.9,3.3,4.4,48.0,39.7,71.3,55.3,15.8,4.7,3,106,10.0,3.1,4.2,48.1,40.1,71.5,55.4,15.9,5.6
+127,dickgr01,Gradey Dick,Shooting Guard,Right,6-6,205,20,November,2003,Kansas,54,14.4,3.6,1.8,41.0,35.0,85.8,49.8,10.9,1.4,2,114,11.3,2.9,1.5,41.6,35.6,85.9,50.8,10.0,1.6
+128,leverca01,Caris LeVert,"Shooting Guard , Small Forward",Right,6-6,205,25,August,1994,Michigan,64,12.1,3.2,3.4,46.7,37.3,71.0,55.6,15.2,4.0,9,524,13.9,3.8,4.0,43.7,34.5,73.6,50.0,14.6,23.9
+129,hachiru01,Rui Hachimura,Power Forward,Right,6-8,230,8,February,1998,Gonzaga,59,13.1,5.0,1.4,50.9,41.3,77.0,59.7,13.6,4.3,6,337,12.8,4.9,1.3,49.6,38.1,76.4,55.1,13.5,15.6
+130,alexani01,Nickeil Alexander-Walker,Shooting Guard,Right,6-5,205,2,September,1998,"Virginia,Tech",82,9.4,3.2,2.7,43.8,38.1,78.0,55.3,11.6,4.3,6,381,8.6,2.5,2.3,41.4,36.0,74.3,51.2,11.2,10.2
+131,sensabr01,Brice Sensabaugh,Small Forward,Right,6-6,235,30,October,2003,"Ohio,State",71,10.9,3.0,1.5,45.9,42.2,89.0,59.0,13.4,1.2,2,103,9.8,3.0,1.6,44.1,39.2,89.5,55.8,12.0,0.9
+132,porteke02,Kevin Porter Jr.,"Shooting Guard, Point Guard, , Small Forward",Left,6-4,203,4,May,2000,USC,75,10.3,3.7,3.4,44.9,31.1,76.9,49.2,15.4,2.2,5,271,13.9,4.1,4.6,43.5,35.1,73.4,50.7,14.1,6.2
+133,yabusgu01,Guerschon Yabusele,"Center , Power Forward",Right,6-8,260,17,December,1995,Colleges,70,11.0,5.6,2.1,50.1,38.0,72.5,59.3,14.7,3.9,3,144,6.5,3.5,1.2,48.9,36.9,71.4,57.8,14.2,5.0
+134,collijo01,John Collins,Power Forward,Right,6-9,235,23,September,1997,"Wake,Forest",40,19.0,8.2,2.0,52.7,39.9,84.8,58.3,19.0,2.5,8,472,16.0,8.1,1.5,54.6,36.3,79.2,59.1,18.9,39.2
+135,joeis01,Isaiah Joe,Shooting Guard,Right,6-5,181,2,July,1999,Arkansas,74,10.2,2.6,1.6,44.0,41.2,82.1,60.4,14.0,5.1,5,321,7.6,2.0,1.1,43.1,40.2,83.7,58.5,12.9,13.5
+136,wilsoja03,Jalen Wilson,Power Forward,Right,6-8,225,4,November,2000,Kansas,79,9.5,3.4,1.8,39.7,33.7,81.8,49.5,9.5,1.9,2,122,7.9,3.3,1.6,40.3,33.5,82.0,49.4,9.8,3.0
+137,chrisma02,Max Christie,Shooting Guard,Right,6-6,190,10,February,2003,"Michigan,State",78,9.6,3.3,1.9,42.7,36.6,85.5,52.5,10.4,2.7,3,186,6.2,2.6,1.2,42.6,37.0,84.1,52.3,9.4,4.0
+138,gordoaa01,Aaron Gordon,"Power Forward , Small Forward",Right,6-8,235,16,September,1995,Arizona,51,14.7,4.8,3.2,53.1,43.6,81.0,60.7,17.0,4.3,11,720,13.6,6.2,2.7,48.4,33.1,69.3,53.4,15.9,46.9
+139,podzibr01,Brandin Podziemski,Shooting Guard,Left,6-5,205,25,February,2003,Illinois,64,11.7,5.1,3.4,44.5,37.2,75.8,53.7,14.4,4.2,2,138,10.4,5.4,3.6,44.9,37.8,70.1,53.3,13.6,8.3
+140,willizi01,Zion Williamson,Power Forward,Left,6-6,284,6,July,2000,Duke,30,24.6,7.2,5.3,56.7,23.1,65.6,57.0,27.3,2.5,5,214,24.7,6.6,4.3,58.9,32.7,68.9,59.3,25.1,24.2
+141,blackan01,Anthony Black,Point Guard,Right,6-7,198,20,January,2004,Arkansas,78,9.4,2.9,3.1,42.3,31.8,76.1,47.3,11.6,2.4,2,147,7.2,2.5,2.3,43.5,34.3,71.8,49.2,10.4,4.0
+142,russeda01,D'Angelo Russell,Point Guard,Left,6-3,193,23,February,1996,"Ohio,State",58,12.6,2.8,5.1,39.0,31.4,83.4,47.9,14.0,1.9,10,629,17.3,3.4,5.7,42.7,36.5,79.6,51.3,16.2,26.5
+143,coulibi01,Bilal Coulibaly,Small Forward,Right,6-8,195,26,July,2004,Colleges,59,12.3,5.0,3.4,42.1,28.1,74.6,47.2,10.8,0.3,2,122,10.3,4.5,2.5,42.7,31.1,72.8,48.7,9.9,0.8
+144,claxtni01,Nic Claxton,Center,Left,6-11,215,17,April,1999,Georgia,70,10.3,7.4,2.2,56.3,23.8,51.3,56.8,16.5,4.3,6,311,10.3,7.7,1.7,63.6,20.0,53.7,63.8,18.5,26.1
+145,moodymo01,Moses Moody,Shooting Guard,Right,6-5,205,31,May,2002,Arkansas,74,9.8,2.6,1.3,43.3,37.4,79.7,54.4,12.4,3.5,4,255,7.0,2.2,0.9,44.9,36.7,77.5,55.2,12.1,8.5
+146,divindo01,Donte DiVincenzo,Shooting Guard,Right,6-4,203,31,January,1997,Villanova,62,11.7,3.7,3.6,42.2,39.7,77.8,56.8,14.1,3.9,7,416,10.7,4.3,2.9,42.7,38.0,77.2,55.0,13.6,23.9
+147,paulch01,Chris Paul,Point Guard,Right,6-0,175,6,May,1985,"Wake,Forest",82,8.8,3.6,7.4,42.7,37.7,92.4,54.7,14.7,5.7,20,1354,17.0,4.4,9.2,47.0,37.0,87.1,52.3,23.5,215.1
+148,mccontj01,T.J. McConnell,Point Guard,Right,6-1,190,25,March,1992,Duquesne,79,9.1,2.4,4.4,51.9,30.6,74.0,53.1,18.4,3.2,10,706,7.6,2.9,5.0,51.6,34.5,77.8,53.5,15.7,32.0
+149,dortlu01,Luguentz Dort,"Small Forward , Shooting Guard",Right,6-4,220,19,April,1999,"Arizona,State",71,10.1,4.1,1.6,43.5,41.2,71.7,57.8,11.3,5.6,6,363,12.2,3.9,1.6,40.8,36.0,79.0,50.7,11.0,15.6
+150,kuminjo01,Jonathan Kuminga,"Power Forward , Small Forward",Right,6-8,210,6,October,2002,Colleges,47,15.3,4.6,2.2,45.4,30.5,66.8,49.5,15.7,1.9,4,258,12.5,4.0,1.8,50.7,33.2,69.6,55.0,15.4,12.0
+151,knechda01,Dalton Knecht,Small Forward,Right,6-6,215,19,April,2001,"Northeastern,Junior,College",78,9.1,2.8,0.8,46.1,37.6,76.2,57.6,12.7,2.7,1,78,9.1,2.8,0.8,46.1,37.6,76.2,57.6,12.7,2.7
+152,kispeco01,Corey Kispert,Small Forward,Right,6-7,220,3,March,1999,Gonzaga,61,11.6,3.0,1.7,45.1,36.4,85.2,55.8,11.0,1.1,4,292,11.1,2.8,1.5,47.4,38.2,80.5,59.2,11.6,9.3
+153,gaffoda01,Daniel Gafford,"Center , Power Forward",Right,6-10,234,1,October,1998,Arkansas,57,12.3,6.8,1.4,70.2,-,68.9,70.2,24.7,5.9,6,378,9.3,5.6,1.1,70.9,0.0,67.2,70.9,21.4,31.1
+154,smithja05,Jabari Smith Jr.,Power Forward,Right,6-11,220,13,May,2003,Auburn,57,12.2,7.0,1.1,43.8,35.4,82.5,52.5,12.6,4.2,3,212,13.0,7.5,1.3,43.2,34.0,80.5,51.0,12.5,11.7
+155,coffeam01,Amir Coffey,"Shooting Guard , Small Forward",Left,6-7,210,17,June,1997,Minnesota,72,9.7,2.2,1.1,47.1,40.9,89.1,57.0,11.2,4.0,6,323,6.7,1.9,1.1,45.5,38.4,83.7,54.9,10.8,11.7
+156,filipky01,Kyle Filipowski,Center,Right,6-11,250,7,November,2003,Duke,72,9.6,6.1,1.9,50.2,35.0,65.0,57.6,14.9,2.5,1,72,9.6,6.1,1.9,50.2,35.0,65.0,57.6,14.9,2.5
+157,buzelma01,Matas Buzelis,Small Forward,Right,6-10,209,13,October,2004,Colleges,80,8.6,3.5,1.0,45.4,36.1,81.5,54.1,12.5,1.9,1,80,8.6,3.5,1.0,45.4,36.1,81.5,54.1,12.5,1.9
+158,easonta01,Tari Eason,Power Forward,Right,6-8,216,10,May,2001,Cincinnati,57,12.0,6.4,1.5,48.7,34.2,76.0,54.3,18.5,5.0,3,161,10.3,6.3,1.2,46.6,34.5,74.1,51.6,16.7,8.8
+159,holidjr01,Jrue Holiday,"Point Guard , Shooting Guard",Right,6-4,205,12,June,1990,UCLA,62,11.1,4.3,3.9,44.3,35.3,90.9,53.8,13.5,5.1,16,1037,15.8,4.2,6.2,46.2,37.0,78.8,51.8,17.0,74.6
+160,huertke01,Kevin Huerter,"Shooting Guard , Small Forward",Right,6-7,190,27,August,1998,Maryland,69,9.9,3.0,2.3,42.5,33.8,71.4,53.5,11.3,1.9,7,482,11.6,3.4,2.9,44.1,37.5,76.0,54.8,12.1,19.1
+161,allengr01,Grayson Allen,Shooting Guard,Right,6-4,198,8,October,1995,Duke,64,10.6,3.0,2.1,44.8,42.6,81.6,60.0,13.7,2.5,7,403,10.5,3.0,2.0,45.1,41.4,85.7,58.7,12.8,22.6
+162,johnsja05,Jalen Johnson,"Small Forward , Power Forward",Right,6-9,220,18,December,2001,Duke,36,18.9,10.0,5.0,50.0,31.2,74.6,54.1,17.3,2.4,4,184,11.0,6.3,2.6,50.4,32.3,71.2,55.0,15.9,8.4
+163,onealro01,Royce O'Neale,Small Forward,Right,6-4,226,5,June,1993,Denver,75,9.1,4.7,2.2,42.3,40.6,73.1,58.0,12.6,2.8,8,600,7.1,4.8,2.4,42.6,38.5,77.0,55.7,10.2,30.1
+164,portibo01,Bobby Portis,"Power Forward , Center",Right,6-10,250,10,February,1995,Arkansas,49,13.9,8.4,2.1,46.6,36.5,83.6,52.0,17.7,2.7,10,654,12.0,7.2,1.3,47.8,38.3,76.5,53.4,17.2,33.8
+165,roziete01,Terry Rozier,"Point Guard , Shooting Guard",Right,6-1,190,17,March,1994,Louisville,64,10.6,3.7,2.6,39.1,29.5,85.2,46.2,10.5,1.0,10,665,13.9,3.9,3.5,41.8,36.1,82.9,50.2,14.7,30.6
+166,grantje01,Jerami Grant,"Power Forward , Small Forward",Right,6-7,210,12,March,1994,Syracuse,47,14.4,3.5,2.1,37.3,36.5,84.9,46.7,10.9,1.8,11,719,13.1,3.9,1.6,44.9,36.4,75.3,51.4,13.9,36.6
+167,caldwke01,Kentavious Caldwell-Pope,Shooting Guard,Right,6-5,204,18,February,1993,Georgia,77,8.7,2.2,1.8,43.9,34.2,86.3,54.3,9.9,4.6,12,912,11.2,3.0,1.8,42.8,36.7,82.2,51.8,11.6,48.5
+168,willima07,Mark Williams,Center,Right,7-0,241,16,December,2001,Duke,44,15.3,10.2,2.5,60.4,0.0,80.4,60.4,23.9,4.7,3,106,12.3,8.8,1.4,62.2,0.0,75.3,62.2,22.3,9.7
+169,agbajoc01,Ochai Agbaji,Shooting Guard,Right,6-5,215,20,April,2000,Kansas,64,10.4,3.8,1.5,49.8,39.9,70.8,59.3,12.0,3.1,3,201,7.9,2.9,1.2,45.0,35.3,73.4,54.0,9.8,4.5
+170,elliske01,Keon Ellis,Shooting Guard,Right,6-6,175,8,January,2000,"Florida,SouthWestern,State,College",80,8.3,2.7,1.5,48.9,43.3,84.9,63.9,13.5,5.0,3,153,6.5,2.2,1.4,47.9,42.9,80.5,63.0,13.0,7.5
+171,georgpa01,Paul George,"Small Forward, Power Forward, , Shooting Guard",Right,6-8,220,2,May,1990,"Fresno,State",41,16.2,5.3,4.3,43.0,35.8,81.4,51.4,14.5,1.0,15,908,20.6,6.3,3.7,44.0,38.3,85.3,52.0,19.2,89.5
+172,missiyv01,Yves Missi,Center,Right,6-11,235,14,May,2004,Baylor,73,9.1,8.2,1.4,54.7,0.0,62.3,54.7,15.4,3.6,1,73,9.1,8.2,1.4,54.7,0.0,62.3,54.7,15.4,3.6
+173,princta02,Taurean Prince,"Power Forward , Small Forward",Right,6-6,218,22,March,1994,Baylor,80,8.2,3.6,1.9,45.7,43.9,81.3,60.0,9.8,3.5,9,582,9.9,3.6,1.7,42.8,38.4,81.1,53.1,10.7,15.0
+174,nembhan01,Andrew Nembhard,"Shooting Guard , Point Guard",Right,6-5,193,16,January,2000,Florida,65,10.0,3.3,5.0,45.8,29.1,79.4,50.6,11.7,2.8,3,208,9.6,2.7,4.6,46.4,33.5,79.5,52.4,10.9,6.1
+175,kesslwa01,Walker Kessler,Center,Right,7-0,245,26,July,2001,UNC,58,11.1,12.2,1.7,66.3,17.6,52.0,67.1,20.0,5.4,3,196,9.4,9.2,1.2,68.0,19.6,53.7,68.5,19.9,16.6
+176,harteis01,Isaiah Hartenstein,"Center , Power Forward",Left,7-0,255,5,May,1998,Colleges,57,11.2,10.7,3.8,58.1,0.0,67.5,58.1,18.9,6.8,7,379,6.8,6.4,2.0,59.2,25.5,68.6,60.0,18.0,28.0
+177,willizi02,Ziaire Williams,Small Forward,Right,6-9,215,12,September,2001,Stanford,63,10.0,4.6,1.3,41.2,34.1,82.1,51.1,11.9,2.1,4,213,8.3,3.2,1.2,42.1,31.6,81.1,50.7,10.1,4.7
+178,anthoco01,Cole Anthony,Point Guard,Right,6-2,185,15,May,2000,UNC,67,9.4,3.0,2.9,42.4,35.3,82.3,49.4,14.2,2.0,5,320,12.5,4.3,3.8,41.9,34.5,84.7,48.3,14.1,11.0
+179,cartewe01,Wendell Carter Jr.,"Center , Power Forward",Right,6-10,270,16,April,1999,Duke,68,9.1,7.2,2.0,46.0,23.4,73.7,49.8,13.7,4.6,7,383,11.9,8.3,2.0,50.9,31.6,72.9,55.0,16.2,27.1
+180,sochaje01,Jeremy Sochan,Power Forward,Right,6-8,230,20,May,2003,Baylor,54,11.4,6.5,2.4,53.5,30.8,69.6,56.5,15.9,2.7,3,184,11.4,6.1,2.8,46.8,29.0,72.5,50.4,12.6,4.2
+181,colliis01,Isaiah Collier,Point Guard,Right,6-3,210,8,October,2004,USC,71,8.7,3.3,6.3,42.2,24.9,68.2,45.9,9.7,-0.8,1,71,8.7,3.3,6.3,42.2,24.9,68.2,45.9,9.7,-0.8
+182,greendr01,Draymond Green,"Power Forward , Small Forward",Right,6-6,230,4,March,1990,"Michigan,State",68,9.0,6.1,5.6,42.4,32.5,68.7,50.3,12.4,3.7,13,881,8.7,6.9,5.6,44.9,32.0,71.0,50.8,14.4,64.6
+183,mcbrimi01,Miles McBride,Point Guard,Right,6-2,200,8,September,2000,"West,Virginia",64,9.5,2.5,2.9,40.6,36.9,81.3,51.1,12.6,3.2,4,236,6.3,1.5,1.8,40.5,36.0,78.0,51.1,11.4,7.9
+184,edeyza01,Zach Edey,Center,Right,7-4,305,14,May,2002,Purdue,66,9.2,8.3,1.0,58.0,34.6,70.9,60.0,18.2,4.9,1,66,9.2,8.3,1.0,58.0,34.6,70.9,60.0,18.2,4.9
+185,hausesa01,Sam Hauser,"Small Forward , Power Forward",Right,6-8,215,8,December,1997,Marquette,71,8.5,3.2,0.9,45.1,41.6,100.0,62.7,12.8,4.4,4,256,7.4,2.9,0.9,45.1,42.0,85.1,62.7,12.9,13.2
+186,hawkijo01,Jordan Hawkins,Shooting Guard,Right,6-5,195,29,April,2002,UConn,56,10.8,2.8,1.2,37.2,33.1,81.6,47.1,9.6,-0.5,2,123,9.2,2.5,1.1,37.6,34.8,82.6,48.5,9.9,0.7
+187,clarkjo01,Jordan Clarkson,"Shooting Guard , Point Guard",Right,6-3,194,7,June,1992,Tulsa,37,16.2,3.2,3.7,40.8,36.2,79.7,49.3,14.5,0.4,11,753,16.0,3.4,2.9,43.6,33.6,82.9,50.4,15.3,24.0
+188,thomaca02,Cam Thomas,Shooting Guard,Right,6-4,210,13,October,2001,LSU,25,24.0,3.3,3.8,43.8,34.9,88.1,51.3,18.0,1.2,4,215,15.1,2.6,2.1,43.9,34.5,86.0,49.9,15.1,5.5
+189,wareke01,Kel'el Ware,Center,Right,7-0,230,20,April,2004,Oregon,64,9.3,7.4,0.9,55.4,31.5,68.7,59.2,17.4,4.1,1,64,9.3,7.4,0.9,55.4,31.5,68.7,59.2,17.4,4.1
+190,thompau01,Ausar Thompson,Small Forward,Right,6-7,215,30,January,2003,Colleges,59,10.1,5.1,2.3,53.5,22.4,64.1,54.7,17.2,3.8,2,122,9.4,5.8,2.1,50.9,19.8,62.1,52.6,14.8,5.6
+191,smithni01,Nick Smith Jr.,Shooting Guard,Right,6-2,185,18,April,2004,Arkansas,60,9.9,2.1,2.4,39.1,34.0,93.5,48.2,8.3,-0.5,2,111,8.0,1.8,1.8,39.1,36.9,91.8,48.8,8.2,-1.1
+192,georgky01,Kyshawn George,Shooting Guard,Right,6-7,200,12,December,2003,"Miami,(FL)",68,8.7,4.2,2.5,37.2,32.2,75.3,47.6,8.8,0.1,1,68,8.7,4.2,2.5,37.2,32.2,75.3,47.6,8.8,0.1
+193,strawju01,Julian Strawther,"Small Forward , Shooting Guard",Right,6-7,205,18,April,2002,Gonzaga,65,9.0,2.2,1.3,43.2,34.9,82.2,52.9,9.5,1.3,2,115,7.1,1.8,1.1,41.2,33.2,79.3,50.8,9.2,1.4
+194,mitchda01,Davion Mitchell,Point Guard,Right,6-2,205,5,September,1998,Auburn,74,7.9,2.3,4.9,46.8,39.8,69.0,55.7,10.2,3.0,4,301,7.6,1.8,3.3,44.2,34.4,69.8,51.7,10.1,6.0
+195,bogdabo01,Bogdan BogdanoviÄ,Shooting Guard,Right,6-5,220,18,August,1992,Colleges,54,10.8,2.9,2.7,42.7,36.3,87.9,53.4,11.1,1.9,8,503,14.3,3.3,3.2,43.7,38.2,84.6,54.0,14.4,24.8
+196,conlemi01,Mike Conley,Point Guard,Left,6-0,175,11,October,1987,"Ohio,State",71,8.2,2.6,4.5,40.0,41.0,90.0,53.5,13.3,5.2,18,1172,14.1,2.9,5.7,43.8,38.9,82.5,51.1,17.1,105.7
+197,alvarjo01,Jose Alvarado,Point Guard,Right,6-0,179,12,April,1998,"Georgia,Tech",56,10.3,2.4,4.6,39.2,35.9,81.1,49.8,13.4,1.2,4,227,8.2,2.2,3.1,41.1,34.8,75.7,50.3,13.3,7.2
+198,aytonde01,Deandre Ayton,Center,Right,7-0,250,23,July,1998,Arizona,40,14.4,10.2,1.6,56.6,18.8,66.7,57.3,17.7,2.8,7,398,16.4,10.5,1.6,59.0,23.0,75.5,59.3,20.0,37.6
+199,kennalu01,Luke Kennard,Shooting Guard,Left,6-5,206,24,June,1996,Duke,65,8.9,2.8,3.3,47.8,43.3,89.5,60.9,13.6,3.9,8,460,9.8,2.8,2.3,45.7,43.8,88.1,58.6,13.0,23.6
+200,juzanjo01,Johnny Juzang,Shooting Guard,Right,6-7,215,17,March,2001,Kentucky,64,8.9,2.9,1.1,42.9,37.6,84.9,55.4,11.8,1.6,3,102,7.9,2.5,1.0,42.1,36.3,80.3,54.1,10.7,1.8
+201,jaqueja01,Jaime Jaquez Jr.,Small Forward,Right,6-6,225,18,February,2001,UCLA,66,8.6,4.4,2.5,46.1,31.1,75.4,50.1,14.3,2.3,2,141,10.3,4.1,2.6,47.8,31.8,78.5,52.2,13.4,6.3
+202,millebr02,Brandon Miller,Small Forward,Right,6-9,201,22,November,2002,Alabama,27,21.0,4.9,3.6,40.3,35.5,86.1,50.9,14.0,0.4,2,101,18.3,4.4,2.7,42.8,36.6,83.7,52.0,13.3,1.2
+203,wallaca01,Cason Wallace,Shooting Guard,Right,6-4,205,7,November,2003,Kentucky,68,8.4,3.4,2.5,47.4,35.6,81.1,55.0,12.3,5.2,2,150,7.5,2.8,2.0,48.2,38.9,79.7,57.5,12.1,9.2
+204,suggsja01,Jalen Suggs,"Shooting Guard , Point Guard",Right,6-5,205,3,June,2001,Gonzaga,35,16.2,4.0,3.7,41.0,31.4,88.2,48.9,14.4,1.1,4,211,12.3,3.3,3.3,41.9,32.9,77.9,49.6,12.5,5.6
+205,dosunay01,Ayo Dosunmu,Shooting Guard,Right,6-5,200,17,January,2000,Illinois,46,12.3,3.5,4.5,49.2,32.8,78.5,56.1,12.8,2.5,4,279,10.2,2.9,3.3,50.2,36.1,77.3,57.0,11.8,12.6
+206,willipa01,Patrick Williams,Power Forward,Right,6-7,215,26,August,2001,"Florida,State",63,9.0,3.8,2.0,39.7,35.3,72.3,49.0,9.0,0.4,5,276,9.6,4.1,1.5,45.2,39.2,76.9,53.0,10.6,8.4
+207,quickim01,Immanuel Quickley,"Point Guard , Shooting Guard",Right,6-3,190,17,June,1999,Kentucky,33,17.1,3.5,5.8,42.0,37.8,86.7,51.7,17.5,2.5,5,324,14.0,3.4,3.7,42.1,37.5,85.8,51.6,16.1,21.3
+208,bantoda01,Dalano Banton,Point Guard,Right,6-9,204,7,November,1999,Nebraska,67,8.3,2.0,2.4,39.1,32.4,72.8,46.2,12.9,0.8,4,216,6.8,2.2,2.0,40.2,30.4,72.8,46.1,12.6,2.1
+209,watsope01,Peyton Watson,"Small Forward , Shooting Guard",Right,6-8,200,11,September,2002,UCLA,68,8.1,3.4,1.4,47.7,35.3,69.3,53.3,11.4,2.5,3,171,6.8,3.1,1.1,47.2,32.8,67.3,52.5,11.6,5.3
+210,finnedo01,Dorian Finney-Smith,"Power Forward , Small Forward",Right,6-7,220,4,May,1993,Florida,63,8.7,3.9,1.4,44.8,41.1,66.7,59.7,10.1,2.9,9,591,8.3,4.5,1.4,43.6,36.2,71.8,54.8,10.7,28.4
+211,champju01,Justin Champagnie,Small Forward,Right,6-6,200,29,June,2001,Pitt,62,8.8,5.7,1.0,51.1,38.3,68.5,60.1,15.7,2.8,4,118,6.1,4.1,0.8,48.7,36.2,73.2,57.3,15.0,3.9
+212,murrade01,Dejounte Murray,"Point Guard , Shooting Guard",Right,6-5,180,19,September,1996,Washington,31,17.5,6.5,7.4,39.3,29.9,82.3,44.5,15.4,0.2,8,503,15.5,5.8,5.4,45.3,34.0,79.0,49.7,17.3,26.2
+213,greenaj01,A.J. Green,Shooting Guard,Right,6-4,200,27,September,1999,"University,of,Northern,Iowa",73,7.4,2.4,1.5,42.9,42.7,81.5,61.2,9.2,2.8,3,164,5.8,1.7,1.0,42.7,42.1,86.0,60.7,9.8,4.7
+214,nesmiaa01,Aaron Nesmith,Small Forward,Right,6-5,215,16,October,1999,Vanderbilt,45,12.0,4.0,1.2,50.7,43.1,91.3,61.7,14.6,2.9,5,288,8.9,3.3,1.1,46.3,38.5,82.8,56.7,11.6,10.5
+215,butleja02,Jared Butler,"Point Guard , Shooting Guard",Right,6-3,195,25,August,2000,Baylor,60,9.0,1.8,3.7,44.8,35.5,82.4,51.4,15.6,1.4,4,148,6.7,1.5,2.8,45.0,34.1,81.8,52.2,14.5,2.5
+216,horfoal01,Al Horford,Center,Right,6-9,240,3,June,1986,Florida,60,9.0,6.2,2.1,42.3,36.3,89.5,54.7,12.9,4.4,18,1138,12.9,7.9,3.2,50.9,37.7,76.3,55.0,17.8,117.3
+217,clarkbr01,Brandon Clarke,Power Forward,Right,6-8,215,19,September,1996,"San,Jose,State",64,8.3,5.1,1.0,62.1,5.9,70.1,62.2,17.6,4.4,6,307,10.2,5.5,1.3,60.6,26.6,69.8,61.7,19.8,24.6
+218,dasiltr01,Tristan Da Silva,Small Forward,Right,6-8,217,15,May,2001,Colorado,74,7.2,3.3,1.5,41.2,33.5,87.3,49.5,9.9,2.5,1,74,7.2,3.3,1.5,41.2,33.5,87.3,49.5,9.9,2.5
+219,sheadja01,Jamal Shead,Point Guard,Right,6-0,200,24,June,2002,Houston,75,7.1,1.5,4.2,40.5,32.3,76.8,47.6,9.9,0.8,1,75,7.1,1.5,4.2,40.5,32.3,76.8,47.6,9.9,0.8
+220,councri01,Ricky Council IV,"Shooting Guard , Small Forward",Right,6-6,205,3,August,2001,"Wichita,State",73,7.3,2.9,1.3,38.2,25.8,80.4,44.2,11.6,0.6,2,105,6.7,2.5,1.1,40.2,27.3,78.6,46.0,12.9,1.6
+221,richani01,Nick Richards,"Center , Power Forward",Right,7-0,245,29,November,1997,Kentucky,57,9.3,8.2,0.9,59.1,0.0,74.4,59.1,16.6,3.0,5,257,7.3,5.9,0.6,64.0,20.0,73.8,64.0,16.9,13.3
+222,iveyja01,Jaden Ivey,Shooting Guard,Right,6-4,195,13,February,2002,Purdue,30,17.6,4.1,4.0,46.0,40.9,73.3,53.6,14.7,1.2,3,181,16.1,3.7,4.4,42.9,35.2,74.6,49.4,12.7,1.6
+223,smithja04,Jalen Smith,"Center , Power Forward",Right,6-10,215,16,March,2000,Maryland,64,8.2,5.6,1.0,46.6,32.4,80.9,55.4,18.7,2.9,5,271,8.5,5.3,0.8,50.5,33.2,75.4,57.2,17.9,12.0
+224,martity01,Tyrese Martin,Shooting Guard,Right,6-6,215,7,March,1999,"Rhode,Island",60,8.7,3.7,2.0,40.6,35.1,79.3,51.3,10.9,0.9,2,76,7.2,3.0,1.6,40.6,34.6,80.0,50.8,10.7,0.9
+225,hollaro01,Ron Holland,Small Forward,Right,6-8,206,7,July,2005,Colleges,81,6.4,2.7,1.0,47.4,23.8,75.4,51.7,11.1,1.8,1,81,6.4,2.7,1.0,47.4,23.8,75.4,51.7,11.1,1.8
+226,mannte01,Terance Mann,"Shooting Guard , Small Forward",Right,6-5,215,18,October,1996,"Florida,State",67,7.7,3.0,1.8,49.6,36.8,69.1,56.9,12.0,3.0,6,412,8.1,3.5,1.9,50.2,37.2,78.1,56.7,12.8,21.5
+227,dunnry01,Ryan Dunn,Small Forward,Right,6-6,216,7,January,2003,Virginia,74,6.9,3.6,0.8,43.0,31.1,48.7,51.6,10.7,1.0,1,74,6.9,3.6,0.8,43.0,31.1,48.7,51.6,10.7,1.0
+228,merrisa01,Sam Merrill,Shooting Guard,Right,6-4,205,15,May,1996,"Utah,State,University",71,7.2,2.2,1.5,40.6,37.2,96.6,56.7,11.1,3.3,5,173,6.5,1.9,1.4,40.5,38.6,92.5,57.3,11.9,6.8
+229,greenjo02,Josh Green,Shooting Guard,Right,6-5,200,16,November,2000,Arizona,68,7.4,2.5,1.6,42.8,39.1,68.1,54.3,7.8,1.5,5,291,6.7,2.7,1.5,48.2,38.0,68.7,57.0,9.9,9.2
+230,bitadgo01,Goga Bitadze,Center,Right,6-11,250,20,July,1999,Colleges,70,7.2,6.6,2.0,61.1,10.7,63.9,61.5,19.2,5.8,6,319,5.4,4.1,1.2,54.1,23.0,66.2,56.5,17.4,14.9
+231,bouchch01,Chris Boucher,"Power Forward, Center, , Small Forward",Right,6-9,200,11,January,1993,"New,Mexico,Junior,College",50,10.0,4.5,0.7,49.2,36.3,78.2,58.6,18.7,2.7,8,407,8.9,5.1,0.5,48.8,33.9,77.9,55.9,19.1,25.9
+232,payneca01,Cameron Payne,"Point Guard , Shooting Guard",Left,6-3,183,8,August,1994,"Murray,State",72,6.9,1.4,2.8,40.1,36.3,90.7,50.6,13.8,2.3,10,477,7.8,2.0,3.2,41.9,36.8,83.6,50.1,13.4,13.9
+233,hardyja02,Jaden Hardy,Shooting Guard,Right,6-4,198,5,July,2002,Colleges,57,8.7,1.6,1.4,43.5,38.6,69.8,52.7,10.4,-0.3,3,178,8.1,1.7,1.4,42.5,38.1,76.3,51.5,11.9,0.7
+234,jovicni01,Nikola JoviÄ,Power Forward,Right,6-10,209,9,June,2003,Colleges,46,10.7,3.9,2.8,45.6,37.1,82.8,56.0,13.8,2.5,3,107,8.7,3.8,2.2,45.0,37.0,80.4,55.4,13.1,4.7
+235,capelca01,Clint Capela,Center,Right,6-10,240,18,May,1994,Colleges,55,8.9,8.5,1.1,55.9,0.0,53.6,55.9,17.7,3.2,11,664,12.0,10.5,1.0,61.7,0.0,54.4,61.7,21.8,69.6
+236,holmgch01,Chet Holmgren,"Center , Power Forward",Right,7-1,213,1,May,2002,Gonzaga,32,15.0,8.0,2.0,49.0,37.9,75.4,55.4,19.2,3.2,2,114,16.1,7.9,2.3,51.9,37.2,78.0,58.6,20.1,12.1
+237,highsha01,Haywood Highsmith,"Small Forward , Power Forward",Right,6-7,220,9,December,1996,"Wheeling,University",74,6.5,3.4,1.5,45.8,38.2,72.1,57.2,9.9,3.3,5,218,5.4,3.1,1.1,44.9,37.4,60.5,55.5,9.8,7.5
+238,whitmca01,Cam Whitmore,Small Forward,Right,6-7,232,8,July,2004,Villanova,51,9.4,3.0,1.0,44.4,35.5,75.0,52.5,15.5,1.8,2,98,10.8,3.4,0.8,44.9,35.7,70.7,53.2,16.1,3.3
+239,dunnkr01,Kris Dunn,Point Guard,Right,6-3,205,18,March,1994,Providence,74,6.4,3.4,2.8,43.9,33.5,68.2,52.5,11.3,4.0,9,407,7.7,3.3,4.0,43.7,32.7,73.6,48.2,12.3,11.8
+240,strusma01,Max Strus,Small Forward,Right,6-5,215,28,March,1996,"Lewis,(IL)",50,9.4,4.3,3.2,44.2,38.6,82.4,59.4,12.6,3.4,6,309,10.4,3.4,2.4,42.7,36.8,81.2,56.1,11.8,15.3
+241,walkeja02,Jarace Walker,Power Forward,Right,6-8,240,4,September,2003,Houston,75,6.1,3.1,1.5,47.2,40.5,66.7,57.6,11.9,1.6,2,108,5.4,2.7,1.4,45.7,40.4,69.2,56.1,11.9,2.0
+242,vincega01,Gabe Vincent,Point Guard,Right,6-3,195,14,June,1996,"UC,Santa,Barbara",72,6.4,1.3,1.4,40.0,35.3,71.4,53.0,7.4,1.3,6,278,7.2,1.6,2.0,39.6,33.7,83.1,50.6,8.5,5.0
+243,laravja01,Jake LaRavia,Power Forward,Right,6-8,235,3,November,2001,"Indiana,State,University",66,6.9,3.9,2.4,47.5,42.3,67.8,56.4,12.6,2.9,3,136,6.9,3.3,1.7,42.9,37.1,75.1,52.2,11.7,4.4
+244,nurkiju01,Jusuf NurkiÄ,Center,Right,7-0,290,23,August,1994,Colleges,51,8.9,7.8,2.3,47.7,30.5,66.4,52.3,15.2,1.5,11,590,11.8,8.8,2.5,50.1,28.5,66.7,51.3,18.7,33.2
+245,embiijo01,Joel Embiid,Center,Right,7-0,280,16,March,1994,Kansas,19,23.8,8.2,4.5,44.4,29.9,88.2,48.1,23.4,1.4,9,452,27.7,11.0,3.7,50.1,33.9,82.8,53.4,28.2,64.9
+246,lylestr01,Trey Lyles,Power Forward,Right,6-9,234,5,November,1995,Kentucky,69,6.5,4.6,1.2,42.0,34.0,70.0,52.8,12.3,2.6,10,650,7.6,4.3,1.1,44.1,34.7,74.1,52.1,13.4,22.0
+247,watfotr01,Trendon Watford,"Power Forward , Small Forward",Right,6-9,240,9,November,2000,LSU,44,10.2,3.6,2.6,46.9,33.0,76.2,51.0,13.0,0.7,4,217,7.9,3.6,1.9,52.0,34.9,75.8,55.6,14.4,6.4
+248,walteja01,Ja'Kobe Walter,Shooting Guard,Right,6-5,180,4,September,2004,Baylor,52,8.6,3.1,1.6,40.5,34.9,79.5,48.7,10.8,1.2,1,52,8.6,3.1,1.6,40.5,34.9,79.5,48.7,10.8,1.2
+249,bostobr01,Brandon Boston Jr.,"Shooting Guard , Small Forward",Right,6-7,185,28,November,2001,Kentucky,42,10.7,3.2,2.2,43.6,35.0,78.8,50.0,12.7,0.7,4,147,7.5,2.2,1.2,41.2,32.8,78.1,46.7,11.7,1.0
+250,fontesi01,Simone Fontecchio,Small Forward,Right,6-8,209,9,December,1995,Colleges,75,5.9,2.9,0.9,40.2,33.5,83.3,50.4,9.7,1.6,3,193,7.6,2.8,1.1,41.9,36.3,82.0,53.0,10.4,3.7
+251,edwarju01,Justin Edwards,Small Forward,Left,6-6,203,16,December,2003,Kentucky,44,10.1,3.4,1.6,45.5,36.3,69.6,54.6,11.3,0.9,1,44,10.1,3.4,1.6,45.5,36.3,69.6,54.6,11.3,0.9
+252,curryse01,Seth Curry,"Shooting Guard , Point Guard",Right,6-1,185,23,August,1990,Liberty,68,6.5,1.7,0.9,47.8,45.6,84.6,59.9,12.2,1.8,11,550,10.0,2.0,1.9,47.1,43.3,86.3,58.2,13.4,24.9
+253,kornelu01,Luke Kornet,Center,Right,7-2,250,15,July,1995,Vanderbilt,73,6.0,5.3,1.6,66.8,0.0,69.1,66.8,19.6,7.0,8,353,5.2,3.5,1.1,53.6,32.1,77.0,58.9,16.9,19.4
+254,middlkh01,Khris Middleton,"Small Forward , Shooting Guard",Right,6-7,222,12,August,1991,"Texas,A&M",37,11.9,3.7,4.1,47.5,36.1,85.7,54.6,16.7,2.0,13,776,16.6,4.8,4.0,46.0,38.7,87.8,52.9,16.7,57.9
+255,huffja01,Jay Huff,Center,Right,7-1,240,25,August,1998,Virginia,64,6.9,2.0,0.6,51.5,40.5,78.6,64.8,18.2,2.5,4,95,5.4,1.7,0.5,52.0,40.4,82.4,64.9,18.2,3.2
+256,clingdo01,Donovan Clingan,Center,Right,7-2,280,23,February,2004,UConn,67,6.5,7.9,1.1,53.9,28.6,59.6,56.0,17.4,4.0,1,67,6.5,7.9,1.1,53.9,28.6,59.6,56.0,17.4,4.0
+257,willike04,Kenrich Williams,"Power Forward , Small Forward",Right,6-7,210,2,December,1994,TCU,69,6.3,3.5,1.4,48.3,38.6,71.8,57.6,13.7,3.6,7,391,6.4,4.1,1.8,47.0,36.5,54.9,55.1,12.3,16.1
+258,stewais01,Isaiah Stewart,"Center , Power Forward",Right,6-8,250,22,May,2001,Washington,72,6.0,5.5,1.7,55.9,32.1,75.9,58.6,14.6,4.3,5,307,8.6,7.1,1.3,50.7,34.5,73.3,55.3,13.9,15.4
+259,bryanth01,Thomas Bryant,Center,Right,6-10,248,31,July,1997,Indiana,66,6.5,3.8,0.8,50.8,32.4,85.9,58.3,17.2,3.1,8,333,8.9,5.1,1.0,58.2,34.6,77.8,62.4,19.4,20.4
+260,clownno01,Noah Clowney,Power Forward,Right,6-10,210,14,July,2004,Alabama,46,9.1,3.9,0.9,35.8,33.3,83.8,47.4,9.2,0.5,2,69,8.0,3.8,0.8,39.4,33.7,80.0,50.0,10.5,1.3
+261,battlja01,Jamison Battle,Small Forward,Left,6-7,220,10,May,2001,"George,Washington",59,7.1,2.7,0.9,42.9,40.5,88.9,58.1,10.7,1.7,1,59,7.1,2.7,0.9,42.9,40.5,88.9,58.1,10.7,1.7
+262,robinje02,Jeremiah Robinson-Earl,"Power Forward , Center",Right,6-9,230,3,November,2000,Villanova,66,6.3,4.8,1.3,45.5,34.1,83.6,53.6,12.9,1.7,4,197,6.0,4.3,1.0,44.1,34.2,79.6,52.2,12.4,5.7
+263,krejcvi01,Vit Krejci,"Point Guard , Shooting Guard",Right,6-8,195,19,June,2000,Colleges,57,7.2,2.7,2.6,49.7,43.7,71.1,65.1,12.7,2.6,4,138,5.6,2.4,2.0,46.5,39.4,76.0,59.4,10.3,4.0
+264,jackstr02,Trayce Jackson-Davis,"Power Forward , Center",Left,6-9,245,22,February,2000,Indiana,62,6.6,5.0,1.7,57.6,0.0,57.8,57.6,18.5,3.4,2,130,7.3,5.0,1.4,64.2,0.0,56.8,64.2,20.2,8.2
+265,colliza01,Zach Collins,"Center , Power Forward",Right,6-11,250,19,November,1997,Gonzaga,64,6.4,4.5,1.7,50.7,30.2,88.5,56.0,16.0,2.7,7,378,8.0,4.8,1.8,48.2,33.1,76.7,53.3,13.8,11.9
+266,diabamo01,Moussa DiabatÃ©,Center,Right,6-11,210,21,January,2002,Michigan,71,5.7,6.2,0.8,59.6,0.0,59.5,59.6,16.5,3.2,3,104,4.7,4.9,0.6,58.1,12.5,60.3,58.2,16.6,4.0
+267,ingrabr01,Brandon Ingram,"Small Forward , Power Forward",Right,6-8,190,2,September,1997,Duke,18,22.2,5.6,5.2,46.5,37.4,85.5,53.0,16.0,0.0,9,495,19.5,5.2,4.3,46.8,36.3,78.8,51.3,16.1,27.3
+268,paytoga02,Gary Payton II,"Shooting Guard, Point Guard, , Small Forward",Left,6-2,190,1,December,1992,"Oregon,State",62,6.5,3.0,1.3,57.4,32.6,71.1,62.6,16.2,3.0,9,270,5.5,2.8,1.2,55.7,34.0,62.5,61.5,15.1,11.8
+269,sharpda01,Day'Ron Sharpe,"Center , Power Forward",Right,6-11,265,6,November,2001,UNC,50,7.9,6.6,1.8,52.1,24.4,75.7,53.8,19.7,2.7,4,191,6.5,5.6,1.2,55.0,29.5,64.8,56.2,19.6,8.4
+270,mogbojo01,Jonathan Mogbo,Power Forward,Right,6-9,225,29,October,2001,"Missouri,State",63,6.2,4.9,2.3,43.8,24.3,73.2,46.2,11.9,1.9,1,63,6.2,4.9,2.3,43.8,24.3,73.2,46.2,11.9,1.9
+271,wagnemo01,Moritz Wagner,Center,Right,6-11,245,26,April,1997,Michigan,30,12.9,4.9,1.4,56.2,36.0,71.8,61.6,22.3,2.0,7,363,9.2,4.0,1.2,52.5,32.4,80.7,58.3,17.3,16.9
+272,mamuksa01,Sandro Mamukelashvili,"Center , Power Forward",Left,6-11,240,23,May,1999,"Seton,Hall",61,6.3,3.1,0.8,50.2,37.3,74.1,60.9,19.7,2.2,4,191,5.2,3.1,0.9,47.1,34.8,73.1,55.5,16.1,5.2
+273,olynyke01,Kelly Olynyk,"Center , Power Forward",Right,6-11,240,19,April,1991,Gonzaga,44,8.7,4.7,2.9,50.0,41.8,76.9,56.2,14.9,1.7,12,800,10.2,5.2,2.5,48.6,37.1,79.6,56.2,15.8,46.2
+274,hayesja02,Jaxson Hayes,Center,Right,7-0,220,23,May,2000,Texas,56,6.8,4.8,1.0,72.2,0.0,62.2,72.2,15.8,3.7,6,367,6.8,3.9,0.7,64.9,26.1,69.6,65.9,16.8,20.1
+275,carusal01,Alex Caruso,"Point Guard , Shooting Guard",Right,6-5,186,28,February,1994,"Texas,A&M",54,7.1,2.9,2.5,44.6,35.3,82.4,54.1,15.9,3.9,8,417,6.9,2.9,2.8,44.0,37.6,75.8,53.4,12.5,20.6
+276,isaacjo01,Jonathan Isaac,Power Forward,Right,6-10,230,3,October,1997,"Florida,State",71,5.4,4.4,0.6,41.4,25.8,68.2,47.4,16.6,3.4,6,276,7.6,4.9,0.8,44.3,32.3,74.9,50.6,15.3,14.0
+277,achiupr01,Precious Achiuwa,"Center , Power Forward",Right,6-8,225,19,September,1999,Memphis,57,6.6,5.6,1.0,50.2,27.8,59.4,51.7,13.6,2.3,5,320,7.6,5.7,1.0,48.4,30.4,60.6,51.4,14.0,11.8
+278,hortota01,Talen Horton-Tucker,"Shooting Guard , Point Guard",Right,6-4,234,25,November,2000,"Iowa,State",58,6.5,1.7,1.4,45.7,33.6,73.5,52.7,13.8,1.1,6,305,9.2,2.6,2.8,42.7,29.9,77.1,47.8,12.8,6.0
+279,sassema01,Marcus Sasser,Point Guard,Right,6-2,195,21,September,2000,Houston,57,6.6,1.2,2.3,46.3,38.2,84.3,56.1,14.0,1.8,2,128,7.5,1.5,2.9,44.1,37.8,86.3,53.2,12.6,2.8
+280,phillju01,Julian Phillips,Small Forward,Right,6-8,198,5,November,2003,Tennessee,79,4.6,2.1,0.5,44.6,32.7,78.9,53.3,10.2,1.9,2,119,3.8,1.7,0.4,44.0,32.5,76.8,52.5,9.5,2.1
+281,martico01,Cody Martin,Small Forward,Right,6-5,205,28,September,1995,"NC,State",53,6.8,4.2,2.0,41.8,28.5,70.5,48.5,11.3,1.3,6,259,6.2,3.7,2.2,43.6,30.8,66.1,49.6,11.2,7.2
+282,anderky01,Kyle Anderson,"Small Forward , Power Forward",Right,6-9,230,20,September,1993,UCLA,61,5.9,3.4,2.4,46.9,35.7,73.8,51.0,15.1,2.8,11,714,6.8,4.3,2.8,47.8,34.0,71.6,51.4,14.2,39.4
+283,burksal01,Alec Burks,"Shooting Guard , Small Forward",Right,6-6,214,20,July,1991,Colorado,49,7.3,2.5,1.1,42.4,42.5,77.6,58.7,12.8,1.8,14,791,10.6,3.3,1.9,41.5,38.6,80.5,48.8,14.1,31.7
+284,martica02,Caleb Martin,Small Forward,Right,6-5,205,28,September,1995,"NC,State",45,7.9,3.9,2.1,42.4,35.9,62.2,48.5,9.6,0.6,6,311,8.4,3.9,1.6,44.7,35.7,73.4,52.0,11.4,11.8
+285,mathega01,Garrison Mathews,Shooting Guard,Right,6-5,215,24,October,1996,Lipscomb,47,7.5,1.9,1.3,39.7,39.0,82.1,56.2,11.2,1.5,6,314,6.5,1.8,0.7,40.5,38.2,83.8,56.8,10.3,9.8
+286,salauti01,Tidjane SalaÃ¼n,Power Forward,Right,6-9,207,10,August,2005,Colleges,60,5.9,4.7,1.2,33.0,28.3,71.3,41.4,7.7,0.0,1,60,5.9,4.7,1.2,33.0,28.3,71.3,41.4,7.7,0.0
+287,mccaija01,Jared McCain,"Shooting Guard , Point Guard",Right,6-2,195,20,February,2004,Duke,23,15.3,2.4,2.6,46.0,38.3,87.5,55.3,15.2,0.7,1,23,15.3,2.4,2.6,46.0,38.3,87.5,55.3,15.2,0.7
+288,rolliry01,Ryan Rollins,Point Guard,Right,6-4,180,3,July,2002,Toledo,56,6.2,1.9,1.9,48.7,40.8,80.0,57.7,14.0,1.7,3,81,5.1,1.6,1.5,48.1,41.4,80.9,56.8,13.6,1.7
+289,greenja02,Javonte Green,"Shooting Guard , Small Forward",Right,6-4,205,23,July,1993,Radford,68,5.1,3.2,0.8,42.9,32.6,72.4,50.9,10.7,1.6,6,263,5.3,3.1,0.7,50.9,33.8,74.7,57.0,13.2,10.5
+290,looneke01,Kevon Looney,"Center , Power Forward",Right,6-9,222,6,February,1996,UCLA,76,4.5,6.1,1.6,51.4,40.0,56.6,51.8,17.0,4.3,10,599,5.0,5.7,1.6,57.5,18.5,60.8,57.7,15.7,37.4
+291,holidaa01,Aaron Holiday,Point Guard,Right,6-0,185,30,September,1996,UCLA,62,5.5,1.3,1.3,43.7,39.8,82.9,57.1,12.2,2.0,7,448,6.5,1.6,2.0,42.1,38.2,85.1,50.6,11.2,10.1
+292,postqu01,Quinten Post,Power Forward,Right,7-0,238,21,March,2000,"Mississippi,State",42,8.1,3.5,1.3,44.9,40.8,77.8,58.2,14.2,1.7,1,42,8.1,3.5,1.3,44.9,40.8,77.8,58.2,14.2,1.7
+293,brownbr01,Bruce Brown,"Point Guard, Small Forward, , Shooting Guard",Right,6-4,202,15,August,1996,"Miami,(FL)",41,8.3,4.0,2.0,42.1,33.3,81.5,46.4,10.9,0.7,7,457,8.9,4.2,2.4,47.6,33.7,76.8,51.8,12.4,19.9
+294,bonaad01,Adem Bona,"Center , Power Forward",Right,6-10,235,28,March,2003,UCLA,58,5.8,4.2,0.5,70.3,0.0,67.0,70.3,16.5,2.3,1,58,5.8,4.2,0.5,70.3,0.0,67.0,70.3,16.5,2.3
+295,okorois01,Isaac Okoro,"Small Forward , Shooting Guard",Right,6-5,225,26,January,2001,Auburn,55,6.1,2.4,1.2,46.4,37.1,71.7,56.9,10.7,2.5,5,334,8.1,2.8,1.6,46.7,35.1,73.1,54.3,10.1,16.0
+296,mykhasv01,Svi Mykhailiuk,Small Forward,Right,6-7,205,10,June,1997,Kansas,38,8.8,2.4,2.0,39.1,34.5,80.0,50.7,9.8,-0.1,7,331,6.6,1.8,1.4,40.2,36.0,76.5,51.9,10.4,4.1
+297,sheppbe01,Ben Sheppard,Shooting Guard,Right,6-6,190,16,July,2001,Belmont,63,5.3,2.8,1.3,41.8,34.2,88.9,53.7,9.2,2.1,2,120,4.9,2.2,1.2,40.7,33.0,88.7,52.0,8.7,2.9
+298,vukcetr01,Tristan Vukcevic,Center,Right,6-10,223,11,March,2003,Colleges,35,9.4,3.7,1.1,49.6,37.3,77.6,57.4,17.8,0.7,2,45,9.2,3.7,1.2,48.2,34.8,77.5,56.0,16.9,0.9
+299,jonestr01,Tre Jones,Point Guard,Right,6-1,185,8,January,2000,Duke,46,7.2,2.5,4.2,53.8,39.6,82.1,57.8,16.3,2.9,5,297,8.4,2.8,4.7,48.8,31.1,83.9,52.3,15.3,14.5
+300,terryda01,Dalen Terry,Shooting Guard,Right,6-7,195,12,July,2002,Arizona,73,4.5,1.7,1.3,44.8,35.6,71.0,51.7,9.6,1.1,3,170,3.5,1.6,1.2,44.5,29.8,66.2,50.6,10.3,2.4
+301,matkoka01,Karlo MatkoviÄ,Power Forward,Right,6-11,231,30,March,2001,Colleges,42,7.7,5.0,1.1,57.4,31.8,77.3,61.9,15.6,1.6,1,42,7.7,5.0,1.1,57.4,31.8,77.3,61.9,15.6,1.6
+302,wadede01,Dean Wade,Power Forward,Right,6-9,228,20,November,1996,"Kansas,State",59,5.4,4.2,1.3,41.3,36.0,53.3,56.1,10.1,3.0,6,283,5.2,3.5,1.0,42.8,36.8,67.8,56.6,10.2,11.7
+303,jeffrda01,DaQuan Jeffries,Shooting Guard,Right,6-5,230,30,August,1997,"Oral,Roberts",47,6.7,2.9,1.1,40.5,33.5,80.0,50.0,7.9,0.6,6,111,4.6,2.1,0.8,41.5,31.5,78.3,50.2,8.1,1.1
+304,miltosh01,Shake Milton,Shooting Guard,Right,6-5,205,26,September,1996,SMU,57,5.5,1.8,1.8,45.3,35.8,79.7,52.8,11.9,1.3,7,359,8.1,2.2,2.4,45.1,35.8,82.4,51.3,12.6,11.7
+305,livelde01,Dereck Lively II,Center,Right,7-1,230,12,February,2004,Duke,36,8.7,7.5,2.4,70.2,-,63.0,70.2,20.1,3.4,2,91,8.8,7.1,1.6,72.9,0.0,56.5,72.9,18.9,8.4
+306,batumni01,Nicolas Batum,"Small Forward, Power Forward, , Shooting Guard",Right,6-8,230,14,December,1988,Colleges,78,4.0,2.8,1.1,43.7,43.3,81.0,62.2,10.3,3.5,17,1131,10.0,4.8,3.1,43.7,36.9,83.2,53.3,14.0,73.9
+307,walkeja01,Jabari Walker,Small Forward,Right,6-9,215,30,July,2002,Colorado,60,5.2,3.5,0.6,51.5,38.9,69.0,57.6,15.0,2.0,3,188,6.2,4.5,0.8,46.5,31.8,73.9,51.0,12.8,5.1
+308,quetane01,Neemias Queta,Center,Right,7-0,245,13,July,1999,"Utah,State,University",62,5.0,3.8,0.7,65.0,0.0,75.4,65.0,16.3,3.2,4,110,4.7,3.6,0.7,62.7,0.0,71.3,62.7,17.6,5.2
+309,brogdma01,Malcolm Brogdon,"Point Guard , Shooting Guard",Right,6-4,229,11,December,1992,Virginia,24,12.7,3.8,4.1,43.3,28.6,88.0,46.7,15.8,0.7,9,463,15.3,4.1,4.7,46.3,38.8,87.4,53.0,16.9,33.4
+310,reevean01,Antonio Reeves,Shooting Guard,Right,6-5,205,20,November,2000,"Illinois,State",44,6.9,1.4,0.9,45.6,39.5,80.0,55.8,11.7,0.4,1,44,6.9,1.4,0.9,45.6,39.5,80.0,55.8,11.7,0.4
+311,smartma01,Marcus Smart,"Point Guard , Shooting Guard",Right,6-3,220,6,March,1994,"Oklahoma,State",34,9.0,2.1,3.2,39.3,34.8,76.1,48.8,12.4,0.7,11,635,10.6,3.4,4.6,38.8,32.4,77.6,47.4,12.4,34.2
+312,robinor01,Orlando Robinson,Center,Right,7-0,235,10,July,2000,"Fresno,State",44,6.9,5.0,1.8,44.4,32.7,77.1,47.7,12.9,1.2,3,111,4.7,3.9,1.2,47.2,34.2,75.4,50.1,13.2,3.2
+313,drumman01,Andre Drummond,Center,Right,6-11,279,10,August,1993,UConn,40,7.3,7.8,0.9,50.0,15.0,62.2,50.6,16.0,1.2,13,904,12.5,12.1,1.2,54.2,12.9,48.6,54.3,21.7,76.6
+314,murrakr01,Kris Murray,Small Forward,Left,6-8,220,19,August,2000,Iowa,69,4.2,2.6,1.0,41.9,22.5,45.6,46.8,9.1,0.7,2,131,5.1,3.1,1.1,40.6,25.1,55.8,46.5,9.0,1.4
+315,shamela01,Landry Shamet,Shooting Guard,Right,6-4,190,13,March,1997,"Wichita,State",50,5.7,1.2,0.5,46.1,39.7,66.7,59.6,9.7,1.0,7,398,8.3,1.7,1.5,41.3,38.5,83.3,54.7,10.1,13.1
+316,dowtije01,Jeff Dowtin Jr.,Point Guard,Right,6-3,185,10,May,1997,"Rhode,Island",41,7.0,1.5,1.9,48.7,40.0,73.3,54.8,16.1,1.3,4,87,4.8,1.4,1.7,47.3,37.7,73.3,53.4,14.1,2.3
+317,okogijo01,Josh Okogie,Shooting Guard,Right,6-4,213,1,September,1998,"Georgia,Tech",40,7.1,2.8,0.8,44.3,34.8,74.1,51.9,16.3,1.3,7,416,6.3,3.0,1.2,40.6,29.9,74.7,47.1,11.3,11.6
+318,simpskj01,KJ Simpson,Point Guard,Right,6-0,189,8,August,2002,Colorado,36,7.8,3.0,3.1,34.6,25.4,82.0,40.0,8.3,-0.4,1,36,7.8,3.0,3.1,34.6,25.4,82.0,40.0,8.3,-0.4
+319,eubandr01,Drew Eubanks,"Center , Power Forward",Right,6-9,245,1,February,1997,"Oregon,State",61,4.6,3.7,0.9,59.3,50.0,66.2,60.1,15.6,1.7,7,384,5.7,4.4,1.0,60.4,39.6,72.5,61.1,16.4,15.9
+320,willija07,Jaylin Williams,"Center , Power Forward",Right,6-8,250,29,June,2002,Arkansas,47,5.9,5.6,2.6,43.9,39.9,76.7,57.7,16.4,3.3,3,165,5.1,4.5,1.9,43.0,39.0,75.2,54.8,13.3,7.6
+321,willibr03,Brandon Williams,Point Guard,Right,6-1,190,22,November,1999,Arizona,33,8.3,1.8,2.3,52.1,40.0,83.3,58.5,18.3,1.3,3,74,8.6,2.0,2.5,42.6,32.0,74.4,48.1,13.7,0.7
+322,martike04,KJ Martin,"Small Forward , Power Forward",Right,6-6,215,6,January,2001,Colleges,43,6.4,2.9,1.1,55.2,25.9,78.7,59.0,10.2,1.3,5,309,8.6,4.0,1.2,54.5,32.9,67.3,59.3,13.7,12.4
+323,micicva01,Vasilije MiciÄ,Point Guard,Right,6-5,200,13,January,1994,Colleges,41,6.6,2.2,3.1,34.8,36.0,82.9,43.0,6.5,-1.0,2,101,6.8,1.8,3.9,39.5,31.5,81.9,46.3,9.0,-0.6
+324,balllo01,Lonzo Ball,Point Guard,Right,6-6,190,27,October,1997,UCLA,35,7.6,3.4,3.3,36.6,34.4,81.5,50.4,12.2,1.2,6,287,11.4,5.5,5.8,39.8,36.2,59.9,50.7,13.3,12.6
+325,evbuoto01,Tosan Evbuomwan,Small Forward,Right,6-8,219,16,February,2001,Princeton,28,9.5,4.3,2.0,42.7,31.2,75.3,48.2,11.6,0.6,2,45,8.2,4.0,1.6,44.7,33.0,73.5,50.9,11.0,1.2
+326,howarje01,Jett Howard,Small Forward,Right,6-8,215,14,September,2003,Michigan,60,4.5,1.2,0.7,37.4,29.6,69.6,47.9,7.1,0.1,2,78,3.8,1.0,0.6,37.0,29.4,66.7,47.6,7.3,0.2
+327,gordoer01,Eric Gordon,"Shooting Guard , Small Forward",Right,6-3,215,25,December,1988,Indiana,39,6.8,1.2,1.7,42.6,40.9,75.0,56.4,10.8,0.9,17,925,15.3,2.3,2.7,43.0,37.2,81.0,52.3,13.7,41.9
+328,waterli01,Lindy Waters III,Shooting Guard,Right,6-6,215,28,July,1997,"Oklahoma,State",52,4.9,2.1,1.0,36.9,34.4,72.7,49.8,8.8,1.0,4,156,5.2,1.9,0.8,39.9,36.6,78.9,55.0,11.4,3.8
+329,simmobe01,Ben Simmons,Point Guard,Left,6-10,240,20,July,1996,LSU,51,5.0,4.7,5.6,52.0,-,72.7,52.0,12.4,1.8,7,383,13.1,7.4,7.2,55.8,13.9,59.2,55.9,18.4,35.4
+330,ighodos01,Oso Ighodaro,Power Forward,Right,6-10,235,14,July,2002,Marquette,61,4.2,3.6,1.2,60.4,0.0,58.0,60.4,11.1,1.6,1,61,4.2,3.6,1.2,60.4,0.0,58.0,60.4,11.1,1.6
+331,larsspe01,Pelle Larsson,Shooting Guard,Right,6-5,215,23,February,2001,Utah,55,4.6,1.7,1.2,43.8,33.7,67.2,51.7,10.2,1.4,1,55,4.6,1.7,1.2,43.8,33.7,67.2,51.7,10.2,1.4
+332,walkelo01,Lonnie Walker IV,Shooting Guard,Right,6-4,204,14,December,1998,"Miami,(FL)",20,12.4,3.2,2.5,42.0,35.4,80.0,52.6,13.1,0.3,7,342,10.0,2.3,1.5,42.2,35.6,79.5,50.4,11.6,4.9
+333,bolbo01,Bol Bol,Power Forward,Right,7-3,220,16,November,1999,Oregon,36,6.8,2.9,0.6,52.5,34.4,76.9,61.2,18.4,0.9,6,202,6.2,3.5,0.6,54.5,33.2,74.9,59.8,15.5,5.0
+334,houstca01,Caleb Houstan,Small Forward,Right,6-8,205,9,January,2003,Michigan,58,4.1,1.3,0.6,42.1,40.0,88.2,58.9,9.4,1.8,3,168,4.1,1.5,0.6,39.1,37.2,83.6,54.8,8.0,4.0
+335,lawsoaj01,A.J. Lawson,Shooting Guard,Right,6-6,179,15,July,2000,"South,Carolina",26,9.1,3.3,1.2,42.1,32.7,68.3,50.8,12.7,0.8,3,83,5.2,1.9,0.6,43.9,31.8,63.8,51.8,12.3,1.2
+336,branhma01,Malaki Branham,"Shooting Guard , Point Guard",Right,6-4,180,12,May,2003,"Ohio,State",47,5.0,1.1,0.8,45.8,40.5,81.8,54.7,12.0,0.1,3,188,8.5,2.0,1.7,43.9,33.6,84.3,51.0,9.4,-0.3
+337,mitchaj01,Ajay Mitchell,Shooting Guard,Left,6-5,200,25,June,2002,"UC,Santa,Barbara",36,6.5,1.9,1.8,49.5,38.3,82.9,55.7,12.0,1.5,1,36,6.5,1.9,1.8,49.5,38.3,82.9,55.7,12.0,1.5
+338,morrimo01,Monte Morris,Point Guard,Right,6-2,183,27,June,1995,"Iowa,State",45,5.2,1.5,1.6,42.6,36.0,85.7,50.5,13.1,0.8,8,420,9.5,2.4,3.6,47.4,38.9,82.7,54.5,14.9,24.7
+339,holmeri01,Richaun Holmes,"Center , Power Forward",Right,6-10,235,15,October,1993,"Bowling,Green",31,7.4,5.7,1.4,64.7,0.0,83.3,64.7,19.8,2.0,10,489,8.5,5.3,1.0,60.5,26.9,75.1,61.4,18.5,30.7
+340,jacksan01,Andre Jackson Jr.,Shooting Guard,Right,6-6,210,13,November,2001,UConn,67,3.4,2.7,1.2,47.7,39.5,50.0,55.3,8.6,1.2,2,124,2.9,2.4,1.1,48.5,38.5,57.1,56.4,8.6,2.2
+341,willico04,Cody Williams,Shooting Guard,Right,6-7,190,20,November,2004,Colorado,50,4.6,2.3,1.2,32.3,25.9,72.5,39.1,3.7,-1.2,1,50,4.6,2.3,1.2,32.3,25.9,72.5,39.1,3.7,-1.2
+342,sheppre01,Reed Sheppard,"Point Guard , Shooting Guard",Right,6-2,185,24,June,2004,Kentucky,52,4.4,1.5,1.4,35.1,33.8,81.3,45.2,9.7,0.8,1,52,4.4,1.5,1.4,35.1,33.8,81.3,45.2,9.7,0.8
+343,santogu01,Gui Santos,Power Forward,Right,6-8,209,22,June,2002,Colleges,56,4.1,3.1,1.4,45.8,33.0,69.0,55.3,11.7,1.7,2,79,3.9,2.8,1.2,47.0,33.8,76.3,56.4,12.4,2.4
+344,adamsst01,Steven Adams,Center,Right,6-11,265,20,July,1993,Pitt,58,3.9,5.6,1.1,54.5,0.0,46.2,54.5,16.6,2.3,11,764,8.8,8.0,1.5,58.6,5.9,53.3,58.6,17.1,61.6
+345,johnsaj01,AJ Johnson,Shooting Guard,Right,6-4,160,1,December,2004,Colleges,29,7.6,2.0,2.6,38.5,26.7,86.5,44.1,7.1,-0.4,1,29,7.6,2.0,2.6,38.5,26.7,86.5,44.1,7.1,-0.4
+346,dilliro01,Rob Dillingham,Point Guard,Right,6-1,176,4,January,2005,Kentucky,49,4.5,1.0,2.0,44.1,33.8,53.3,50.0,10.2,0.1,1,49,4.5,1.0,2.0,44.1,33.8,53.3,50.0,10.2,0.1
+347,weslebl01,Blake Wesley,Shooting Guard,Right,6-5,185,16,March,2003,"Notre,Dame",58,3.7,1.1,2.0,43.5,29.3,62.3,48.1,9.9,0.2,3,156,4.3,1.5,2.4,40.9,29.7,63.4,44.9,8.1,-0.5
+348,connapa01,Pat Connaughton,"Shooting Guard , Small Forward",Right,6-5,209,6,January,1993,"Notre,Dame",41,5.3,2.7,1.7,46.9,32.1,77.4,54.2,12.1,1.2,10,595,6.0,3.4,1.4,43.8,35.6,77.3,55.2,11.2,24.6
+349,jacksgg01,GG Jackson II,Power Forward,Right,6-9,215,17,December,2004,"South,Carolina",29,7.2,3.2,1.0,37.2,33.7,72.5,45.2,9.3,0.1,2,77,11.8,3.7,1.1,41.3,35.2,74.6,50.1,12.5,1.3
+350,jordade01,DeAndre Jordan,Center,Left,6-11,265,21,July,1988,"Texas,A&M",56,3.7,5.1,0.9,65.0,-,42.2,65.0,15.4,1.8,17,1111,8.5,9.7,0.9,67.4,15.4,47.5,67.4,18.3,98.8
+351,joneshe01,Herbert Jones,"Small Forward , Power Forward",Left,6-8,210,6,October,1998,Alabama,20,10.3,3.9,3.3,43.6,30.6,82.5,50.0,10.4,0.4,4,240,10.1,3.8,2.5,47.7,36.6,82.4,54.5,12.4,15.6
+352,nancela02,Larry Nance Jr.,"Power Forward , Center",Right,6-8,245,1,January,1993,Wyoming,24,8.5,4.3,1.6,51.6,44.7,69.2,62.6,16.0,1.3,10,546,7.7,6.1,1.9,53.9,35.3,69.6,57.7,16.2,34.7
+353,prospol01,Olivier-Maxence Prosper,Power Forward,Right,6-8,230,3,July,2002,Clemson,52,3.9,2.4,0.8,40.2,23.5,64.5,43.7,12.6,0.9,2,92,3.5,2.2,0.7,39.6,26.0,65.8,44.1,12.2,1.4
+354,landajo01,Jock Landale,Center,Right,6-11,256,25,October,1995,"Saint,Mary's",42,4.8,3.3,0.9,53.3,42.3,67.5,56.9,16.0,1.7,4,221,5.4,3.3,1.0,51.8,29.7,76.5,55.8,16.1,8.2
+355,pickeja02,Jalen Pickett,Shooting Guard,Right,6-4,209,22,October,1999,"Siena,College",49,4.1,1.4,2.2,42.8,39.6,75.0,53.9,10.9,1.1,2,76,3.2,1.1,1.7,42.8,38.9,75.0,54.2,10.7,1.2
+356,joneska01,Kai Jones,Center,Right,6-11,218,19,January,2001,Texas,40,5.0,3.1,0.6,79.8,20.0,71.9,80.3,20.2,2.1,3,107,3.5,2.4,0.4,67.1,23.1,68.2,68.3,14.8,2.8
+357,gueyemo02,Mouhamed Gueye,Power Forward,Right,6-11,210,9,November,2002,"Washington,State",33,6.0,4.2,0.8,42.1,25.9,76.2,48.2,14.4,1.2,2,39,5.7,4.1,0.8,41.2,26.7,77.1,47.4,14.5,1.4
+358,cainja01,Jamal Cain,"Power Forward , Small Forward",Right,6-7,191,20,March,1999,Marquette,37,5.3,2.3,0.6,43.0,32.5,68.0,51.3,11.4,0.4,3,81,4.8,2.1,0.5,45.9,33.6,72.6,53.1,12.7,1.7
+359,gilleco01,Collin Gillespie,Point Guard,Right,6-1,195,25,June,1999,Villanova,33,5.9,2.4,2.4,43.0,43.3,86.4,55.4,16.8,1.3,2,57,4.9,1.7,1.8,44.1,42.2,79.4,55.9,14.9,1.6
+360,reathdu01,Duop Reath,Center,Right,6-11,245,26,June,1996,"Lee,College",46,4.2,2.0,0.6,42.2,32.1,90.9,52.4,13.7,1.0,2,114,7.1,3.0,0.8,45.1,34.8,77.4,54.3,14.7,3.4
+361,portecr01,Craig Porter Jr.,Point Guard,Right,6-2,186,26,February,2000,"Vincennes,University",51,3.7,1.3,1.4,51.4,43.8,71.9,58.9,13.1,1.1,2,102,4.6,1.7,1.9,51.1,40.2,72.7,55.6,14.4,2.6
+362,tateja01,Jae'Sean Tate,"Small Forward , Power Forward",Left,6-4,230,28,October,1995,"Ohio,State",52,3.6,2.3,0.9,47.3,34.8,68.1,52.7,12.3,1.6,5,296,8.3,4.1,2.0,49.3,30.9,70.0,53.8,12.9,10.9
+363,nnajize01,Zeke Nnaji,Power Forward,Right,6-9,240,9,January,2001,Arizona,57,3.2,1.6,0.4,49.6,32.7,61.4,55.7,12.0,1.2,5,251,4.2,2.3,0.4,50.9,36.2,65.3,57.4,12.5,6.7
+364,reedpa01,Paul Reed,"Center , Power Forward",Right,6-9,210,14,June,1999,DePaul,45,4.1,2.7,1.0,50.7,28.6,76.2,53.5,18.6,1.6,5,260,4.9,3.9,0.8,54.8,30.5,70.5,56.4,18.6,11.5
+365,manntr01,Tre Mann,Point Guard,Right,6-3,178,3,February,2001,Florida,13,14.1,2.9,3.0,43.5,40.0,90.5,50.9,13.3,0.1,4,181,9.4,2.8,2.3,41.1,35.0,78.8,49.0,11.3,1.9
+366,willivi01,Vince Williams Jr.,Shooting Guard,Left,6-4,205,30,August,2000,VCU,27,6.6,3.6,2.0,40.1,27.4,79.2,47.9,9.2,0.4,3,94,7.8,4.3,2.5,42.3,32.8,80.1,51.6,11.5,3.1
+367,josepco01,Cory Joseph,"Point Guard , Shooting Guard",Right,6-2,200,20,August,1991,Texas,50,3.5,1.5,1.4,40.3,36.4,77.8,52.9,10.9,1.5,14,866,6.7,2.4,2.9,44.0,35.0,78.6,49.2,12.0,32.1
+368,exumda01,Dante Exum,"Point Guard , Shooting Guard",Right,6-5,214,13,July,1995,Colleges,20,8.7,1.7,2.8,47.8,43.4,74.2,56.3,13.6,0.6,8,320,6.2,1.9,2.3,43.5,34.3,76.5,50.7,9.6,6.6
+369,greenje02,Jeff Green,"Power Forward, Small Forward, , Center",Right,6-8,235,28,August,1986,Georgetown,32,5.4,1.8,0.6,50.4,36.7,80.8,62.4,13.6,1.3,17,1217,11.8,4.0,1.5,45.0,33.8,80.4,50.2,13.1,55.9
+370,edwarke02,Kessler Edwards,Small Forward,Right,6-8,215,9,August,2000,Pepperdine,40,4.2,2.9,1.1,49.6,40.7,92.3,57.8,11.3,1.2,4,178,3.6,2.2,0.6,42.8,36.0,78.6,52.1,9.4,2.7
+371,wallake01,Keaton Wallace,Point Guard,Left,6-3,195,26,February,1999,"Texas-San,Antonio",31,5.4,1.6,2.6,40.1,32.9,100.0,48.5,10.1,0.4,1,31,5.4,1.6,2.6,40.1,32.9,100.0,48.5,10.1,0.4
+372,tysonja01,Jaylon Tyson,Shooting Guard,Right,6-6,215,2,December,2002,Texas,47,3.6,2.0,0.9,43.0,34.5,79.2,49.7,11.1,0.8,1,47,3.6,2.0,0.9,43.0,34.5,79.2,49.7,11.1,0.8
+373,willigr01,Grant Williams,Power Forward,Right,6-6,236,30,November,1998,Tennessee,16,10.4,5.1,2.3,43.9,36.5,83.8,54.9,11.5,0.7,6,380,7.2,3.7,1.5,45.2,37.7,77.4,55.8,10.0,15.5
+374,clarkja02,Jaylen Clark,Shooting Guard,Right,6-5,205,13,October,2001,UCLA,40,4.1,1.3,0.7,46.7,43.1,78.4,55.8,12.0,1.6,1,40,4.1,1.3,0.7,46.7,43.1,78.4,55.8,12.0,1.6
+375,jacksqu01,Quenton Jackson,Point Guard,Right,6-5,175,15,September,1998,"Texas,A&M",28,5.8,1.6,1.9,47.5,37.5,77.5,53.7,14.7,1.0,3,40,5.5,1.4,1.8,46.7,30.8,78.1,51.5,14.1,1.3
+376,pottemi01,Micah Potter,"Power Forward , Center",Right,6-10,248,6,April,1998,"Ohio,State",38,4.3,4.3,0.8,42.2,31.6,85.0,53.7,8.5,0.4,4,64,3.9,3.6,0.6,45.3,34.4,83.3,56.2,9.7,1.0
+377,theisda01,Daniel Theis,Center,Right,6-8,245,4,April,1992,Colleges,38,4.3,4.3,1.6,47.3,24.3,83.8,50.8,12.1,1.0,8,411,7.1,4.7,1.3,53.7,32.6,72.6,58.3,15.4,23.3
+378,goodwjo01,Jordan Goodwin,"Point Guard , Shooting Guard",Right,6-3,200,23,October,1998,"Saint,Louis",29,5.6,3.9,1.4,43.8,38.2,81.8,52.8,12.1,1.0,4,150,6.2,3.8,2.4,41.0,32.3,76.3,47.1,13.3,4.3
+379,bassech01,Charles Bassey,Center,Right,6-10,235,28,October,2000,"Western,Kentucky",36,4.4,4.2,0.5,58.1,-,63.6,58.1,19.0,1.1,4,113,4.3,4.3,0.8,63.1,23.1,64.8,63.6,19.1,3.8
+380,jonesco02,Colby Jones,Shooting Guard,Right,6-6,205,28,May,2002,Xavier,39,4.0,2.2,1.1,45.7,32.7,65.7,51.9,11.4,0.6,2,69,3.2,1.8,0.9,43.5,25.4,63.0,48.0,10.7,0.6
+381,ruperra01,Rayan Rupert,Shooting Guard,Right,6-6,205,31,May,2004,Colleges,52,3.0,1.3,0.5,40.8,27.1,76.7,46.5,8.1,0.1,2,91,3.4,1.8,1.0,37.0,32.1,76.4,44.2,6.8,-0.1
+382,carteje01,Jevon Carter,Point Guard,Right,6-1,200,14,September,1995,"West,Virginia",36,4.3,1.1,1.1,37.7,33.3,80.0,49.7,12.2,0.3,7,412,5.2,1.7,1.6,39.4,37.9,79.9,51.4,10.3,8.5
+383,roddyda01,David Roddy,Power Forward,Right,6-4,255,27,March,2001,"Colorado,State",33,4.6,2.5,1.1,45.6,31.1,76.9,53.2,11.9,0.5,3,168,6.2,2.9,1.0,42.1,30.2,67.9,49.1,9.2,1.7
+384,millejo02,Jordan Miller,Small Forward,Left,6-7,195,23,January,2000,"George,Mason",37,4.1,1.6,0.9,43.3,21.1,80.0,46.3,10.5,0.4,2,45,3.7,1.4,0.8,44.1,22.5,81.1,47.2,10.7,0.5
+385,queentr01,Trevelin Queen,Shooting Guard,Right,6-6,190,25,February,1997,"College,of,Marin",31,4.9,1.7,1.2,38.1,28.6,85.7,45.6,11.9,0.7,4,62,4.1,1.7,1.1,37.2,27.1,85.7,44.5,11.1,0.8
+386,moorewe01,Wendell Moore Jr.,Shooting Guard,Right,6-5,213,18,September,2001,Duke,36,4.2,2.6,1.2,46.8,34.1,81.8,52.4,11.0,0.7,3,90,2.3,1.4,0.7,46.0,25.0,81.5,50.3,10.4,0.8
+387,hylanbo01,Bones Hyland,"Point Guard , Shooting Guard",Right,6-2,173,14,September,2000,VCU,24,6.2,1.0,1.3,39.8,39.0,88.5,53.4,16.0,0.5,4,186,9.5,2.2,2.6,39.8,36.4,84.8,50.6,14.1,4.3
+388,barlodo01,Dominick Barlow,"Small Forward , Power Forward",Right,6-9,221,26,May,2003,Colleges,35,4.2,2.4,0.5,53.1,25.9,63.6,56.2,14.6,1.0,3,96,4.2,3.1,0.8,51.9,25.0,68.0,53.5,13.8,2.8
+389,mcderdo01,Doug McDermott,"Small Forward , Power Forward",Right,6-6,225,3,January,1992,Creighton,42,3.5,0.5,0.2,42.7,43.6,60.0,61.5,9.5,0.4,11,697,8.6,2.1,1.0,47.0,41.1,80.4,57.3,11.6,21.5
+390,vandeja01,Jarred Vanderbilt,Power Forward,Left,6-8,214,3,April,1999,Kentucky,36,4.1,5.1,1.1,48.8,28.1,55.6,52.5,13.2,1.4,7,309,5.9,6.2,1.4,56.0,28.8,63.8,57.9,14.8,16.8
+391,harriga01,Gary Harris,Shooting Guard,Right,6-4,210,14,September,1994,"Michigan,State",48,3.0,1.3,0.6,38.3,35.6,58.3,51.9,6.9,1.0,11,618,10.4,2.3,1.8,44.6,36.9,81.0,53.1,11.9,26.8
+392,biyombi01,Bismack Biyombo,Center,Right,6-8,255,28,August,1992,Colleges,28,5.1,5.6,1.1,58.8,-,40.0,58.8,12.2,0.8,14,867,5.1,5.9,0.7,53.7,0.0,55.1,53.7,13.0,33.1
+393,brookke02,Keion Brooks Jr.,Small Forward,Right,6-7,210,7,August,2000,Kentucky,14,10.1,4.1,0.9,48.6,32.6,73.3,55.0,12.8,0.4,1,14,10.1,4.1,0.9,48.6,32.6,73.3,55.0,12.8,0.4
+394,diengou01,Ousmane Dieng,"Power Forward , Center",Right,6-10,222,21,May,2003,Colleges,37,3.8,2.2,0.8,43.2,32.4,68.8,52.4,11.5,0.9,3,109,4.3,2.2,1.0,42.4,29.3,72.7,50.7,10.2,1.7
+395,cartede02,Devin Carter,Point Guard,Right,6-2,195,18,March,2002,"South,Carolina",36,3.8,2.1,1.1,37.0,29.5,59.1,44.1,10.8,0.4,1,36,3.8,2.1,1.1,37.0,29.5,59.1,44.1,10.8,0.4
+396,garzalu01,Luka Garza,Center,Right,6-10,235,27,December,1998,Iowa,39,3.5,1.4,0.3,49.5,27.8,68.6,54.3,18.8,0.7,4,124,4.9,2.0,0.4,49.0,31.4,69.9,54.5,18.9,2.9
+397,lowryky01,Kyle Lowry,Point Guard,Right,6-0,196,25,March,1986,Villanova,35,3.9,1.9,2.7,35.0,33.0,81.8,47.4,9.8,1.0,19,1173,13.9,4.2,6.1,42.3,36.8,81.5,51.2,17.3,112.6
+398,shannte01,Terrence Shannon Jr.,Shooting Guard,Left,6-6,215,30,July,2000,"Texas,Tech",32,4.3,1.5,1.0,48.2,35.5,81.0,53.1,11.9,0.6,1,32,4.3,1.5,1.0,48.2,35.5,81.0,53.1,11.9,0.6
+399,bambamo01,Mo Bamba,Center,Right,7-0,231,12,May,1998,Texas,32,4.3,4.5,0.6,46.4,27.8,70.4,53.1,13.9,1.0,7,364,6.8,5.4,0.8,47.7,35.6,68.2,55.0,16.4,15.6
+400,jacksre01,Reggie Jackson,"Point Guard , Shooting Guard",Right,6-2,208,16,April,1990,"Boston,College",31,4.4,1.4,1.5,39.1,33.8,77.8,48.5,9.8,0.1,14,884,12.3,2.8,4.1,42.3,34.5,85.4,48.4,14.5,36.3
+401,baglema01,Marvin Bagley III,"Center , Power Forward",Left,6-10,235,14,March,1999,Duke,31,4.4,2.7,0.4,51.9,15.8,65.7,53.3,18.4,0.6,7,289,12.0,6.5,0.9,51.8,29.0,69.0,54.1,17.5,12.6
+402,jonesdi01,Dillon Jones,Small Forward,Right,6-5,240,29,October,2001,"Weber,State",54,2.5,2.2,1.1,38.3,25.4,60.7,44.4,8.1,0.8,1,54,2.5,2.2,1.1,38.3,25.4,60.7,44.4,8.1,0.8
+403,jonesis01,Isaac Jones,Power Forward,Right,6-8,245,11,July,2000,"Wenatchee,Valley,College",40,3.4,1.4,0.3,65.1,37.5,63.9,66.9,15.2,0.7,1,40,3.4,1.4,0.3,65.1,37.5,63.9,66.9,15.2,0.7
+404,tysonhu01,Hunter Tyson,Power Forward,Right,6-8,215,13,June,2000,Clemson,51,2.6,1.5,0.4,37.5,31.1,75.0,47.1,9.0,0.4,2,69,2.2,1.3,0.3,37.9,30.7,75.0,47.5,8.6,0.4
+405,gillan01,Anthony Gill,Power Forward,Right,6-7,230,17,October,1992,"South,Carolina",51,2.5,1.3,0.3,48.9,32.3,66.0,54.5,10.2,0.5,5,230,3.4,1.7,0.5,51.2,29.8,75.1,55.3,12.2,4.1
+406,wrighde01,Delon Wright,"Point Guard , Shooting Guard",Right,6-5,185,26,April,1992,Utah,40,3.1,1.7,1.9,34.4,27.4,60.0,42.0,9.2,0.7,10,548,6.7,3.0,3.0,44.7,34.8,79.9,50.7,15.1,28.9
+407,castlco01,Colin Castleton,"Center , Power Forward",Right,6-11,250,25,May,2000,Michigan,26,4.7,4.7,1.1,46.9,12.5,76.3,48.0,11.3,0.7,2,42,3.5,3.2,0.7,48.2,12.5,79.5,49.1,11.5,0.8
+408,carlsbr01,Branden Carlson,Center,Right,7-0,220,14,June,1999,Utah,32,3.8,1.7,0.4,44.3,33.3,77.8,55.7,17.6,0.9,1,32,3.8,1.7,0.4,44.3,33.3,77.8,55.7,17.6,0.9
+409,loveke01,Kevin Love,"Power Forward , Center",Right,6-8,251,7,September,1988,UCLA,23,5.3,4.1,1.0,35.7,35.8,69.6,46.1,16.2,0.4,17,952,16.2,10.0,2.3,43.8,36.9,82.8,51.0,20.8,94.9
+410,wongis01,Isaiah Wong,Shooting Guard,Right,6-4,184,28,January,2001,"Miami,(FL)",20,6.0,1.6,1.4,39.0,39.4,73.5,45.2,10.9,0.1,2,21,5.8,1.5,1.3,38.9,38.2,73.5,44.9,10.7,0.0
+411,minotjo01,Josh Minott,Small Forward,Right,6-8,205,25,November,2002,Memphis,46,2.6,1.0,0.4,48.9,32.6,89.5,56.7,15.5,0.9,3,93,2.3,1.0,0.3,48.8,33.9,90.2,54.9,17.0,1.6
+412,rhodeja01,Jared Rhoden,Shooting Guard,Right,6-6,210,27,August,1999,"Seton,Hall",14,8.4,3.0,1.1,48.3,30.8,88.0,55.2,16.4,0.6,3,45,5.5,2.5,0.8,46.7,32.2,84.6,54.1,11.2,1.0
+413,williro04,Robert Williams,Center,Right,6-9,237,17,October,1997,"Texas,A&M",20,5.8,5.9,1.1,64.1,33.3,88.2,64.7,18.9,1.3,7,235,7.2,6.8,1.4,72.3,14.3,67.4,72.3,22.0,23.9
+414,lewisma05,Maxwell Lewis,Small Forward,Right,6-7,195,27,July,2002,Pepperdine,28,4.1,2.0,0.7,41.7,38.0,70.0,50.5,9.9,0.2,2,62,2.0,1.0,0.4,38.0,33.9,69.2,45.7,6.6,-0.2
+415,whiteda01,Dariq Whitehead,Small Forward,Right,6-7,220,1,August,2004,Duke,20,5.7,1.5,0.6,40.6,44.6,60.0,57.8,9.4,0.1,2,22,5.3,1.5,0.7,39.6,42.9,57.1,55.9,9.0,0.0
+416,poweldw01,Dwight Powell,"Center , Power Forward",Right,6-10,240,20,July,1991,Stanford,55,2.1,2.1,1.0,68.9,40.0,65.1,70.5,12.9,1.7,11,705,6.7,4.2,1.0,60.4,29.4,73.6,62.6,17.2,47.9
+417,scheiba01,Baylor Scheierman,Shooting Guard,Left,6-6,205,26,September,2000,"South,Dakota,State",31,3.6,2.1,1.1,35.5,31.7,75.0,47.3,10.3,0.7,1,31,3.6,2.1,1.1,35.5,31.7,75.0,47.3,10.3,0.7
+418,konchjo01,John Konchar,"Shooting Guard , Small Forward",Right,6-5,210,22,March,1996,"Purdue-Fort,Wayne",46,2.4,3.3,0.9,45.1,37.1,87.5,57.7,12.1,1.5,6,307,4.2,4.0,1.4,46.9,36.1,72.7,56.3,12.5,13.8
+419,thybuma01,Matisse Thybulle,"Shooting Guard , Small Forward",Right,6-5,201,4,March,1997,Washington,15,7.5,3.5,1.9,47.7,43.8,46.7,59.7,17.0,0.9,6,347,4.9,2.0,1.1,43.8,34.3,66.1,54.0,10.8,14.1
+420,millspa02,Patty Mills,"Point Guard , Shooting Guard",Right,6-2,180,11,August,1988,"Saint,Mary's",29,3.8,0.8,0.9,37.5,34.7,92.9,51.0,8.4,0.1,16,921,8.7,1.6,2.2,42.3,38.5,85.7,53.8,13.3,35.9
+421,baughda01,Damion Baugh,Shooting Guard,Right,6-4,194,3,August,2000,Memphis,15,7.3,3.3,3.7,32.3,21.4,86.7,36.9,6.3,-0.5,1,15,7.3,3.3,3.7,32.3,21.4,86.7,36.9,6.3,-0.5
+422,timmedr01,Drew Timme,Power Forward,Right,6-10,235,9,September,2000,Gonzaga,9,12.1,7.2,2.2,44.1,25.7,62.5,48.5,11.0,0.0,1,9,12.1,7.2,2.2,44.1,25.7,62.5,48.5,11.0,0.0
+423,sprinja01,Jaden Springer,"Shooting Guard , Point Guard",Right,6-4,204,25,September,2002,Tennessee,43,2.5,1.3,0.8,38.9,25.0,71.1,45.6,10.7,0.5,4,110,2.9,1.4,0.8,40.9,23.8,77.3,45.3,11.4,1.4
+424,craigto01,Torrey Craig,"Small Forward , Power Forward",Right,6-7,221,19,December,1990,"USC,Upstate",26,4.2,2.8,0.7,42.2,36.4,66.7,55.6,12.9,0.8,8,458,5.9,3.9,1.0,45.2,35.4,70.1,54.5,11.3,17.2
+425,gibsota01,Taj Gibson,"Power Forward , Center",Right,6-9,232,24,June,1985,USC,37,2.9,3.2,0.6,49.5,50.0,60.0,50.0,10.8,0.4,16,1002,8.4,5.7,0.9,51.7,26.6,71.2,52.1,15.1,60.2
+426,tshieos01,Oscar Tshiebwe,"Power Forward , Center",Right,6-9,260,27,November,1999,"West,Virginia",14,7.6,8.7,0.6,60.0,-,74.2,60.0,21.0,1.0,2,22,6.0,6.3,0.5,57.8,-,74.4,57.8,21.5,1.2
+427,spencca01,Cam Spencer,Shooting Guard,Right,6-3,205,6,April,2000,"Loyola,(MD)",25,4.2,1.2,1.4,41.5,36.5,100.0,53.0,14.2,0.8,1,25,4.2,1.2,1.4,41.5,36.5,100.0,53.0,14.2,0.8
+428,hoodsja01,Jalen Hood-Schifino,Shooting Guard,Right,6-6,215,19,June,2003,Indiana,15,7.1,1.8,2.5,37.8,30.4,85.7,44.9,7.9,-0.1,2,36,3.9,1.1,1.3,32.9,26.2,73.2,38.5,5.5,-0.6
+429,reddica01,Cam Reddish,Small Forward,Right,6-8,218,1,September,1999,Duke,33,3.2,2.0,0.7,40.4,27.7,61.5,47.3,7.4,0.7,6,254,8.5,2.7,1.2,39.8,32.2,82.1,47.2,9.6,3.3
+430,furphjo01,Johnny Furphy,Shooting Guard,Right,6-8,200,8,December,2004,Kansas,50,2.1,1.4,0.4,38.0,30.0,81.8,46.2,9.8,0.5,1,50,2.1,1.4,0.4,38.0,30.0,81.8,46.2,9.8,0.5
+431,klebima01,Maxi Kleber,"Power Forward , Center",Right,6-10,240,29,January,1992,Colleges,34,3.0,2.8,1.3,38.5,26.5,76.2,45.3,5.6,0.3,8,440,6.4,4.4,1.2,44.3,35.4,77.6,55.2,11.3,20.1
+432,spencpa01,Pat Spencer,Point Guard,Right,6-3,205,4,July,1996,"Loyola,(MD)",39,2.5,1.2,1.2,40.6,22.7,73.3,43.1,12.6,0.3,2,45,2.3,1.1,1.2,41.0,20.8,73.3,43.3,12.3,0.3
+433,simsje01,Jericho Sims,"Center , Power Forward",Right,6-10,245,20,October,1998,Texas,53,1.8,3.7,0.6,63.4,-,61.5,63.4,10.0,1.3,4,191,2.4,4.0,0.5,71.4,0.0,58.5,71.4,11.7,6.9
+434,mclaujo01,Jordan McLaughlin,Point Guard,Right,6-0,185,9,April,1996,USC,46,2.1,0.7,1.1,43.1,41.3,77.3,56.3,12.3,0.6,6,288,4.1,1.4,2.8,44.5,37.3,74.3,53.4,13.5,9.6
+435,jemistr01,Trey Jemison,Center,Right,6-11,260,28,November,1999,Clemson,38,2.5,2.8,0.4,55.4,-,39.4,55.4,8.9,0.3,2,63,4.2,3.8,0.7,55.2,-,58.6,55.2,10.6,1.2
+436,beekmre01,Reece Beekman,Point Guard,Right,6-1,190,8,October,2001,Virginia,36,2.6,1.1,1.8,32.7,17.5,76.2,36.0,7.5,0.1,1,36,2.6,1.1,1.8,32.7,17.5,76.2,36.0,7.5,0.1
+437,kolokch01,Christian Koloko,Center,Right,7-1,230,20,June,2000,Arizona,37,2.4,2.5,0.4,60.6,0.0,71.4,60.6,13.0,0.9,2,95,2.9,2.8,0.5,51.9,6.3,64.4,52.1,11.9,2.7
+438,robinmi01,Mitchell Robinson,Center,Right,7-0,240,1,April,1998,"Western,Kentucky",17,5.1,5.9,0.8,66.1,-,68.4,66.1,20.4,1.3,7,337,7.8,7.8,0.6,70.0,-,52.2,70.0,20.3,35.2
+439,smithdr01,Dru Smith,Shooting Guard,Right,6-3,203,30,December,1997,"University,of,Evansville",14,6.2,2.6,1.6,50.8,53.3,75.0,63.9,13.3,0.7,3,38,4.5,1.9,1.6,46.0,42.4,82.4,56.1,12.7,1.3
+440,quinole01,Lester QuiÃ±ones,Shooting Guard,Right,6-5,208,16,November,2000,Memphis,13,6.6,1.5,1.8,39.7,29.5,84.6,48.1,9.5,-0.1,3,54,4.8,1.7,1.1,39.7,34.6,72.9,50.2,10.0,0.4
+441,paytoel01,Elfrid Payton,Point Guard,Right,6-3,195,22,February,1994,Louisiana,24,3.5,3.3,6.9,32.8,16.7,57.1,33.2,8.5,-0.6,9,524,9.8,4.0,5.8,44.4,28.6,62.3,46.4,14.3,15.1
+442,leeda03,Damion Lee,Shooting Guard,Right,6-5,210,21,October,1992,Drexel,25,3.3,0.8,0.4,36.5,24.3,95.2,42.6,11.9,-0.1,7,315,7.8,3.2,1.3,43.3,37.4,88.1,53.1,11.6,10.6
+443,walshjo01,Jordan Walsh,"Small Forward , Power Forward",Right,6-7,205,3,March,2004,Arkansas,52,1.6,1.3,0.4,36.1,27.3,58.3,45.2,6.9,0.4,2,61,1.6,1.5,0.4,36.7,26.6,57.1,45.4,7.2,0.5
+444,kolekty01,Tyler Kolek,Point Guard,Left,6-1,195,27,March,2001,"George,Mason",41,2.0,0.7,1.7,32.9,29.8,76.5,41.5,10.3,0.4,1,41,2.0,0.7,1.7,32.9,29.8,76.5,41.5,10.3,0.4
+445,davisjo06,Johnny Davis,Shooting Guard,Right,6-5,196,27,February,2002,Wisconsin,34,2.4,1.1,0.3,41.0,24.1,60.0,45.5,10.2,0.1,3,112,3.5,1.6,0.6,39.7,27.3,56.1,44.4,7.3,-0.4
+446,beaucma01,MarJon Beauchamp,Small Forward,Right,6-6,199,12,October,2000,"Yakima,Valley,Community,College",35,2.3,1.3,0.3,41.5,34.5,75.0,49.2,12.3,0.1,3,135,4.1,1.9,0.6,43.0,35.4,71.8,52.2,9.3,1.2
+447,martija02,Jaylen Martin,Small Forward,Right,6-6,216,28,January,2004,Colleges,16,4.9,2.8,1.1,41.9,30.4,90.0,46.6,9.1,0.0,1,16,4.9,2.8,1.1,41.9,30.4,90.0,46.6,9.1,0.0
+448,brownko01,Kobe Brown,Power Forward,Right,6-7,250,1,January,2000,Missouri,40,1.9,1.6,0.6,45.8,23.1,71.4,50.0,10.8,0.5,2,84,2.0,1.5,0.6,43.2,27.0,66.7,49.4,8.9,0.9
+449,reeseal01,Alex Reese,Power Forward,Right,6-9,245,21,May,1999,Alabama,15,5.1,3.1,0.3,48.1,36.6,75.0,62.0,14.0,0.5,1,15,5.1,3.1,0.3,48.1,36.6,75.0,62.0,14.0,0.5
+450,brownmo01,Moses Brown,Center,Right,7-2,245,13,October,1999,UCLA,13,5.8,3.4,0.2,69.4,-,72.7,69.4,22.4,0.4,6,163,5.3,4.9,0.2,57.4,-,54.4,57.4,18.8,5.4
+451,stevela01,Lamar Stevens,"Power Forward , Small Forward",Right,6-6,230,9,July,1997,"Penn,State",17,4.4,2.2,0.5,46.0,29.6,72.7,52.4,11.5,0.2,5,220,5.6,2.9,0.6,46.3,28.7,72.6,49.8,11.1,4.9
+452,lenal01,Alex Len,Center,Right,7-0,250,16,June,1993,Maryland,46,1.6,2.1,0.8,50.8,22.2,47.1,52.4,10.6,0.7,12,690,6.7,5.3,0.9,51.0,32.2,67.8,52.6,15.0,23.9
+453,thorjt01,JT Thor,Power Forward,Left,6-10,205,26,August,2002,Auburn,20,3.6,2.4,0.3,42.4,28.6,68.2,47.5,10.0,0.2,4,185,3.2,2.1,0.5,41.9,31.7,65.1,49.3,8.4,1.2
+454,baglema02,Marcus Bagley,Small Forward,Right,6-8,215,23,October,2001,"Arizona,State",10,6.7,7.0,1.0,39.1,15.6,80.0,42.8,11.8,0.2,1,10,6.7,7.0,1.0,39.1,15.6,80.0,42.8,11.8,0.2
+455,nowelja01,Jaylen Nowell,Shooting Guard,Right,6-4,201,9,July,1999,Washington,8,8.4,2.5,2.3,35.6,29.6,63.6,41.1,7.5,-0.2,6,205,8.9,2.2,1.9,44.2,31.6,79.2,50.4,13.6,4.7
+456,smithty02,Tyler Smith,Power Forward,Left,6-11,224,2,November,2004,Colleges,23,2.9,1.1,0.2,48.0,43.3,75.0,61.0,15.2,0.2,1,23,2.9,1.1,0.2,48.0,43.3,75.0,61.0,15.2,0.2
+457,flaglad01,Adam Flagler,Shooting Guard,Right,6-3,195,1,December,1999,"Presbyterian,College",37,1.8,0.7,0.3,26.0,19.4,50.0,33.3,3.7,-0.3,2,39,1.7,0.7,0.4,25.2,19.2,50.0,32.5,3.5,-0.3
+458,willije02,Jeenathan Williams,Shooting Guard,Left,6-5,205,12,February,1999,Buffalo,20,3.3,0.7,0.5,43.5,23.1,62.5,48.4,8.6,0.0,3,47,3.9,1.1,0.6,51.7,28.2,58.3,55.3,13.0,0.6
+459,jamesbr02,Bronny James,Shooting Guard,Right,6-2,210,6,October,2004,USC,27,2.3,0.7,0.8,31.3,28.1,78.6,38.1,7.1,-0.2,1,27,2.3,0.7,0.8,31.3,28.1,78.6,38.1,7.1,-0.2
+460,meltode01,De'Anthony Melton,"Point Guard , Shooting Guard",Right,6-2,200,28,May,1998,USC,6,10.3,3.3,2.8,40.7,37.1,62.5,52.8,13.3,0.2,7,356,9.1,3.7,2.8,41.0,36.9,77.9,50.6,13.4,14.3
+461,bradlto01,Tony Bradley,Center,Right,6-10,248,8,January,1998,UNC,14,4.4,3.0,0.4,64.4,33.3,33.3,65.6,23.2,0.4,7,193,4.4,4.0,0.5,63.2,46.7,66.7,63.8,19.5,8.0
+462,fultzma01,Markelle Fultz,"Point Guard , Shooting Guard",Right,6-4,209,29,May,1998,Washington,21,2.9,1.0,1.3,41.8,50.0,100.0,44.8,8.9,-0.1,8,255,10.4,3.2,4.4,47.0,28.0,73.2,48.8,14.3,8.4
+463,swideco01,Cole Swider,Small Forward,Right,6-9,220,8,May,1999,Villanova,10,5.9,2.7,0.3,34.9,31.9,0.0,46.8,6.5,0.0,3,35,3.1,1.2,0.3,36.4,32.9,66.7,49.1,6.8,-0.1
+464,fernabr01,Bruno Fernando,Center,Right,6-9,240,15,August,1998,Maryland,17,3.4,3.0,1.1,53.1,-,75.0,53.1,15.3,0.3,6,220,4.0,3.2,0.7,54.3,12.2,65.3,54.8,13.9,3.8
+465,saricda01,Dario Å ariÄ,"Power Forward , Center",Right,6-10,225,8,April,1994,Colleges,16,3.5,3.1,1.4,36.2,26.9,70.0,42.2,7.7,0.0,8,493,10.4,5.3,1.9,44.4,36.0,83.7,52.1,14.0,20.9
+466,morrima02,Markieff Morris,Power Forward,Right,6-9,245,2,September,1989,Kansas,15,3.7,1.5,1.4,30.0,25.0,83.3,36.4,6.0,-0.2,14,791,10.2,4.9,1.5,44.3,34.1,77.9,49.0,13.4,27.3
+467,etienty01,Tyson Etienne,Point Guard,Right,6-2,203,17,September,1999,"Wichita,State",7,7.9,1.3,1.7,32.7,29.5,80.0,45.2,5.6,-0.1,1,7,7.9,1.3,1.7,32.7,29.5,80.0,45.2,5.6,-0.1
+468,hayeski01,Killian Hayes,Point Guard,Left,6-5,195,27,July,2001,Colleges,6,9.0,3.0,5.2,41.9,38.1,83.3,51.2,12.7,0.3,5,216,8.1,2.9,5.2,38.3,28.1,77.7,43.1,9.5,-0.2
+469,peterdr01,Drew Peterson,Power Forward,Right,6-9,205,9,November,1999,"Rice,University",25,2.2,1.6,0.5,41.5,39.4,77.8,57.3,10.5,0.4,2,28,2.3,1.5,0.5,44.7,42.1,77.8,61.7,11.4,0.5
+470,bufkiko01,Kobe Bufkin,Shooting Guard,Left,6-4,195,21,September,2003,Michigan,10,5.3,2.1,1.7,38.3,21.1,72.2,42.6,10.5,0.0,2,27,5.0,2.0,1.6,37.4,22.0,65.4,42.1,9.7,-0.1
+471,templga01,Garrett Temple,"Shooting Guard, Small Forward, , Point Guard",Right,6-5,195,8,May,1986,LSU,28,1.9,1.0,1.1,30.0,21.4,91.7,35.0,8.5,0.2,15,771,5.9,2.2,1.6,40.0,34.2,74.5,48.8,9.4,16.9
+472,okekech01,Chuma Okeke,"Power Forward , Small Forward",Right,6-6,229,18,August,1998,Auburn,9,5.9,5.2,1.7,50.0,39.3,66.7,63.8,15.3,0.6,5,198,6.3,3.8,1.5,38.7,32.1,78.7,48.4,11.2,5.0
+473,baldwpa01,Patrick Baldwin Jr.,Small Forward,Right,6-9,220,18,November,2002,UW-Milwaukee,24,2.2,1.0,0.1,54.3,56.5,50.0,72.9,16.2,0.2,3,93,3.7,2.0,0.5,40.5,37.3,65.8,53.2,11.0,0.6
+474,brissos01,Oshae Brissett,"Small Forward , Power Forward",Right,6-7,210,20,June,1998,Syracuse,6,8.7,3.7,0.7,48.7,33.3,57.1,56.4,9.8,0.1,6,233,6.6,3.9,0.8,41.9,33.7,69.4,49.7,12.5,7.0
+475,hukpoar01,Ariel Hukporti,Center,Left,7-0,246,11,April,2002,Colleges,25,1.9,2.0,0.4,67.7,-,46.2,67.7,7.6,0.1,1,25,1.9,2.0,0.4,67.7,-,46.2,67.7,7.6,0.1
+476,freemen01,Enrique Freeman,Power Forward,Right,6-7,206,29,July,2000,"University,of,Akron",22,2.1,1.4,0.4,43.2,10.0,68.4,44.6,7.4,0.2,1,22,2.1,1.4,0.4,43.2,10.0,68.4,44.6,7.4,0.2
+477,knoxke01,Kevin Knox,"Small Forward , Power Forward",Right,6-7,215,11,August,1999,Kentucky,14,3.3,1.2,0.4,50.0,26.7,75.0,55.6,17.1,0.2,7,320,7.3,2.8,0.7,39.3,34.0,72.3,47.4,9.4,0.9
+478,johnske10,Keshad Johnson,Small Forward,Right,6-6,225,23,June,2001,"San,Diego,State",16,2.7,1.8,0.3,69.2,42.9,44.4,75.0,19.1,0.4,1,16,2.7,1.8,0.3,69.2,42.9,44.4,75.0,19.1,0.4
+479,plowdda01,Daeqwon Plowden,Shooting Guard,Right,6-6,215,29,August,1998,"Bowling,Green",6,7.2,1.8,0.3,64.0,52.9,100.0,82.0,16.1,0.2,1,6,7.2,1.8,0.3,64.0,52.9,100.0,82.0,16.1,0.2
+480,simsja01,Jaylen Sims,Shooting Guard,Right,6-6,195,11,December,1998,"UNC,Wilmington",6,7.0,1.0,2.0,42.9,40.0,80.0,53.6,9.8,0.1,1,6,7.0,1.0,2.0,42.9,40.0,80.0,53.6,9.8,0.1
+481,nancepe01,Pete Nance,"Power Forward , Center",Right,6-11,230,19,February,2000,Northwestern,13,2.9,1.6,0.8,43.8,37.5,50.0,57.8,8.5,0.2,2,21,2.0,1.1,0.5,39.5,40.0,25.0,52.6,6.4,0.1
+482,batesem01,Emoni Bates,Small Forward,Right,6-10,170,28,January,2004,Memphis,10,3.7,0.7,0.8,34.2,36.7,-,48.7,9.8,0.1,2,25,3.1,0.8,0.7,32.2,33.3,25.0,44.3,5.2,-0.2
+483,duartch01,Chris Duarte,"Small Forward , Shooting Guard",Right,6-6,190,13,June,1997,Oregon,17,2.1,1.2,0.5,46.2,40.0,75.0,57.7,16.5,0.3,4,177,7.6,2.6,1.3,40.6,34.9,81.3,48.9,10.5,1.9
+484,ducasal01,Alex Ducas,Shooting Guard,Right,6-6,222,11,December,2000,"Saint,Mary's",21,1.7,1.2,0.2,40.0,47.6,100.0,56.7,10.1,0.3,1,21,1.7,1.2,0.2,40.0,47.6,100.0,56.7,10.1,0.3
+485,kawamyu01,Yuki Kawamura,Point Guard,Right,5-8,159,2,May,2001,Colleges,22,1.6,0.5,0.9,36.7,30.4,77.8,48.3,11.0,0.2,1,22,1.6,0.5,0.9,36.7,30.4,77.8,48.3,11.0,0.2
+486,tomlina01,Nae'Qwan Tomlin,Power Forward,Right,6-10,205,10,December,2000,"Monroe,Community,College",5,7.2,4.2,0.4,40.6,20.0,72.7,43.8,14.4,0.1,1,5,7.2,4.2,0.4,40.6,20.0,72.7,43.8,14.4,0.1
+487,jacksis01,Isaiah Jackson,Center,Right,6-10,206,10,January,2002,Kentucky,5,7.0,5.6,1.0,60.9,-,50.0,60.9,18.2,0.3,4,163,7.2,4.3,0.7,59.5,20.6,67.1,59.9,19.4,7.7
+488,washity02,TyTy Washington Jr.,Point Guard,Right,6-3,197,15,November,2001,Kentucky,16,2.2,0.8,1.0,31.1,19.0,50.0,35.6,6.5,-0.2,3,58,3.3,1.1,1.2,34.7,23.4,54.2,40.2,7.0,-0.4
+489,tillmxa01,Xavier Tillman Sr.,"Center , Power Forward",Right,6-8,245,12,January,1999,"Michigan,State",33,1.0,1.3,0.2,24.5,15.6,75.0,29.2,2.4,-0.3,5,260,5.3,3.8,1.2,50.9,25.2,57.7,53.6,14.2,10.0
+490,kelleky01,Kylor Kelley,Center,Right,7-0,215,26,August,1997,"Oregon,State",11,3.1,3.5,0.5,63.6,-,60.0,63.6,12.1,0.3,1,11,3.1,3.5,0.5,63.6,-,60.0,63.6,12.1,0.3
+491,davisjd01,JD Davison,"Shooting Guard , Point Guard",Right,6-1,195,3,October,2002,Alabama,16,2.1,0.8,0.8,35.3,22.2,71.4,41.2,6.5,-0.2,3,36,1.9,0.9,0.9,38.5,28.1,69.2,45.4,10.1,0.1
+492,hallpj01,PJ Hall,Center,Right,6-8,245,21,February,2002,Clemson,19,1.7,1.2,0.2,58.3,25.0,75.0,62.5,18.3,0.2,1,19,1.7,1.2,0.2,58.3,25.0,75.0,62.5,18.3,0.2
+493,alexatr01,Trey Alexander,Shooting Guard,Right,6-4,185,2,May,2003,Creighton,24,1.3,0.5,0.5,31.7,17.6,75.0,35.4,2.9,-0.2,1,24,1.3,0.5,0.5,31.7,17.6,75.0,35.4,2.9,-0.2
+494,harklej01,Elijah Harkless,Shooting Guard,Right,6-3,195,3,February,2000,"Cal,State,Northridge",10,3.2,2.1,0.8,31.4,28.0,50.0,41.4,7.8,0.1,1,10,3.2,2.1,0.8,31.4,28.0,50.0,41.4,7.8,0.1
+495,richajo01,Josh Richardson,"Shooting Guard , Small Forward",Right,6-5,200,15,September,1993,Tennessee,8,4.0,1.5,1.5,28.9,27.3,100.0,36.8,4.4,-0.1,10,554,11.5,3.0,2.6,42.8,36.3,84.6,50.9,12.4,27.7
+496,cissosi01,Sidy Cissoko,Small Forward,Right,6-8,200,2,April,2004,Colleges,22,1.5,1.0,0.7,43.3,23.1,33.3,48.3,6.7,-0.1,2,34,2.3,1.3,0.7,46.0,16.0,62.5,49.2,9.6,0.2
+497,dadiepa01,Pacome Dadiet,Shooting Guard,Right,6-7,210,27,July,2005,Colleges,18,1.7,1.0,0.3,32.3,31.6,66.7,41.9,6.3,0.0,1,18,1.7,1.0,0.3,32.3,31.6,66.7,41.9,6.3,0.0
+498,dennira01,RayJ Dennis,Point Guard,Right,6-2,180,30,March,2001,"Boise,State",11,2.7,1.1,1.3,33.3,28.6,100.0,42.4,13.9,0.1,1,11,2.7,1.1,1.3,33.3,28.6,100.0,42.4,13.9,0.1
+499,livinch01,Chris Livingston,Small Forward,Right,6-6,220,15,October,2003,Kentucky,21,1.4,1.7,0.2,33.3,0.0,75.0,33.3,9.8,0.1,2,42,1.3,1.3,0.2,40.8,7.7,75.0,41.8,8.5,0.1
+500,chrisjo01,Josh Christopher,Shooting Guard,Right,6-5,215,8,December,2001,"Arizona,State",14,2.0,0.6,0.6,35.5,18.2,66.7,38.7,9.4,-0.1,3,152,6.5,1.8,1.5,45.1,27.3,73.7,49.7,11.9,0.2
+501,garrema01,Marcus Garrett,Shooting Guard,Right,6-5,205,9,November,1998,Kansas,4,7.0,1.5,3.3,40.7,37.5,75.0,46.3,8.7,0.0,2,16,2.6,1.8,1.3,33.3,33.3,55.6,37.5,6.2,0.1
+502,ryanma01,Matt Ryan,Small Forward,Right,6-6,215,17,April,1997,"Notre,Dame",19,1.5,0.4,0.2,32.3,31.6,100.0,41.9,6.1,-0.1,4,82,3.7,0.9,0.5,38.9,40.2,89.3,54.5,8.3,0.7
+503,jonessp01,Spencer Jones,Small Forward,Right,6-7,225,14,June,2001,Stanford,20,1.3,0.9,0.3,32.4,5.9,100.0,33.8,4.5,-0.1,1,20,1.3,0.9,0.3,32.4,5.9,100.0,33.8,4.5,-0.1
+504,cancavl01,Vlatko ÄanÄar,Power Forward,Right,6-8,236,10,April,1997,Colleges,13,1.8,2.5,0.7,38.5,26.7,-,46.2,4.6,-0.1,5,143,3.4,1.8,0.9,47.2,35.4,84.7,55.6,10.4,2.4
+505,nfalyda01,N'Faly Dante,Center,Right,6-11,230,19,October,2001,Oregon,4,6.0,5.3,0.5,76.9,-,80.0,76.9,24.0,0.3,1,4,6.0,5.3,0.5,76.9,-,80.0,76.9,24.0,0.3
+506,gortmja01,Jazian Gortman,Point Guard,Right,6-2,184,14,April,2003,Colleges,16,1.5,0.3,0.4,39.1,36.4,50.0,47.8,6.5,-0.1,1,16,1.5,0.3,0.4,39.1,36.4,50.0,47.8,6.5,-0.1
+507,crowdja01,Jae Crowder,"Small Forward , Power Forward",Right,6-6,235,6,July,1990,Marquette,9,2.6,2.2,0.7,31.8,26.7,83.3,40.9,6.6,0.1,13,812,9.3,4.2,1.6,41.8,34.7,77.7,51.8,12.5,43.0
+508,jonesma05,Mason Jones,Shooting Guard,Right,6-4,200,21,July,1998,"Connors,State,College",10,2.3,0.9,1.1,50.0,12.5,80.0,52.8,20.6,0.2,4,51,4.4,1.5,1.2,42.7,32.9,66.3,51.2,13.2,0.6
+509,toppija01,Jacob Toppin,Small Forward,Right,6-9,205,8,May,2000,"Rhode,Island",17,1.4,0.9,0.4,40.9,50.0,-,52.3,9.2,0.0,2,26,1.4,0.8,0.3,45.2,42.9,100.0,54.8,10.9,0.2
+510,roweja01,Jackson Rowe,Power Forward,Right,6-7,210,4,January,1997,"Cal,State,Fullerton",6,3.7,1.8,0.7,47.1,30.0,50.0,55.9,15.9,0.2,1,6,3.7,1.8,0.7,47.1,30.0,50.0,55.9,15.9,0.2
+511,liddeej01,E.J. Liddell,Power Forward,Right,6-7,240,18,December,2000,"Ohio,State",12,1.8,0.8,0.3,53.3,30.0,100.0,63.3,11.1,0.1,2,20,1.3,0.7,0.2,42.9,20.0,100.0,50.0,9.0,0.1
+512,millele01,Leonard Miller,Small Forward,Left,6-10,210,26,November,2003,Colleges,13,1.5,0.8,0.0,40.0,0.0,100.0,40.0,19.9,0.1,2,30,1.6,1.0,0.3,54.3,20.0,90.0,57.1,24.3,0.4
+513,chrisca02,Cam Christie,Shooting Guard,Right,6-5,190,24,July,2005,Minnesota,13,1.4,0.9,0.5,29.2,15.4,50.0,33.3,9.1,0.0,1,13,1.4,0.9,0.5,29.2,15.4,50.0,33.3,9.1,0.0
+514,minayju01,Justin Minaya,Small Forward,Left,6-5,210,26,March,1999,Colleges,19,0.9,0.5,0.4,38.1,20.0,0.0,42.9,5.0,0.0,3,57,1.7,1.4,0.6,31.4,23.9,41.7,38.6,5.4,-0.1
+515,bouyeja01,Jamaree Bouyea,Point Guard,Right,6-2,180,27,June,1999,"San,Francisco",5,3.4,1.0,2.0,50.0,20.0,66.7,54.2,9.7,0.0,3,19,2.8,1.6,1.3,40.7,20.0,62.5,44.4,5.3,-0.2
+516,dukeda01,David Duke Jr.,"Shooting Guard , Point Guard",Right,6-5,205,13,October,1999,Providence,6,2.7,0.8,0.7,42.9,50.0,50.0,53.6,12.2,0.0,4,55,4.2,2.0,0.9,41.7,26.2,76.7,45.4,10.0,0.4
+517,flynnma01,Malachi Flynn,Point Guard,Right,6-1,175,10,May,1998,"San,Diego,State",4,4.0,1.8,1.8,38.5,25.0,83.3,42.3,12.4,0.0,5,217,5.5,1.7,1.9,38.7,33.3,74.7,47.2,10.9,2.9
+518,inglejo01,Joe Ingles,"Small Forward , Power Forward",Left,6-8,220,2,October,1987,Colleges,19,0.8,0.6,1.2,26.1,20.0,-,32.6,2.4,-0.1,11,723,7.9,3.0,3.6,44.7,40.9,77.4,58.3,12.4,42.0
+519,klintbo01,Bobi Klintman,Small Forward,Right,6-9,225,6,March,2003,"Wake,Forest",8,1.9,0.9,0.9,60.0,40.0,50.0,70.0,15.9,0.2,1,8,1.9,0.9,0.9,60.0,40.0,50.0,70.0,15.9,0.2
+520,umudest01,Stanley Umude,Shooting Guard,Right,6-6,210,12,April,1999,"South,Dakota",22,0.7,0.8,0.2,19.2,20.0,50.0,25.0,3.4,-0.2,3,47,3.1,1.4,0.3,37.8,39.1,86.8,50.0,9.9,0.4
+521,hendrta01,Taylor Hendricks,Power Forward,Right,6-9,210,22,November,2003,"Central,Florida",3,4.7,5.0,0.7,22.2,25.0,75.0,30.6,7.1,0.0,2,43,7.1,4.7,0.8,43.4,36.8,78.8,54.3,11.4,1.2
+522,mcveija01,Jack McVeigh,Power Forward,Right,6-8,215,27,June,1996,Nebraska,9,1.6,0.6,0.1,29.4,30.8,-,41.2,4.0,0.0,1,9,1.6,0.6,0.1,29.4,30.8,-,41.2,4.0,0.0
+523,smithto05,Tolu Smith,Power Forward,Right,6-10,254,26,July,2000,"Western,Kentucky",1,14.0,8.0,0.0,66.7,-,66.7,66.7,19.5,0.1,1,1,14.0,8.0,0.0,66.7,-,66.7,66.7,19.5,0.1
+524,armeltr01,Armel TraorÃ©,Small Forward,Right,6-8,215,23,January,2003,Colleges,9,1.6,1.7,0.1,31.6,0.0,28.6,31.6,3.5,-0.1,1,9,1.6,1.7,0.1,31.6,0.0,28.6,31.6,3.5,-0.1
+525,crawfis01,Isaiah Crawford,Small Forward,Right,6-6,220,1,November,2001,"Louisiana,Tech",15,0.9,0.5,0.1,45.5,20.0,50.0,50.0,9.2,0.0,1,15,0.9,0.5,0.1,45.5,20.0,50.0,50.0,9.2,0.0
+526,mcgowbr01,Bryce McGowens,Shooting Guard,Right,6-7,179,8,November,2002,Nebraska,13,1.0,0.2,0.2,28.6,0.0,83.3,28.6,1.7,-0.1,3,118,4.8,1.7,0.9,41.5,32.3,76.6,48.2,8.2,0.6
+527,travelu01,Luke Travers,Shooting Guard,Right,6-8,199,3,September,2001,Colleges,12,1.0,1.7,0.7,25.0,0.0,100.0,25.0,1.9,-0.1,1,12,1.0,1.7,0.7,25.0,0.0,100.0,25.0,1.9,-0.1
+528,flowetr01,Trentyn Flowers,Small Forward,Right,6-7,185,8,March,2005,Colleges,6,1.8,0.7,0.0,36.4,0.0,100.0,36.4,4.3,0.0,1,6,1.8,0.7,0.0,36.4,0.0,100.0,36.4,4.3,0.0
+529,youngja05,Jahmir Young,Point Guard,Left,6-2,185,7,October,2000,"UNC,Charlotte",6,1.8,0.5,1.0,80.0,50.0,100.0,90.0,16.8,0.1,1,6,1.8,0.5,1.0,80.0,50.0,100.0,90.0,16.8,0.1
+530,milleem01,Emanuel Miller,Power Forward,Right,6-7,215,19,June,2000,"Texas,A&M",6,1.7,1.3,0.3,50.0,0.0,100.0,50.0,18.1,0.1,1,6,1.7,1.3,0.3,50.0,0.0,100.0,50.0,18.1,0.1
+531,bridgja01,Jalen Bridges,Small Forward,Right,6-8,225,14,May,2001,"West,Virginia",8,1.1,0.5,0.0,28.6,28.6,75.0,42.9,-0.1,-0.1,1,8,1.1,0.5,0.0,28.6,28.6,75.0,42.9,-0.1,-0.1
+532,robbili01,Liam Robbins,Center,Right,7-0,250,12,July,1999,"Drake,University",13,0.7,0.9,0.2,25.0,0.0,50.0,25.0,2.6,-0.1,1,13,0.7,0.9,0.2,25.0,0.0,50.0,25.0,2.6,-0.1
+533,tuckepj01,P.J. Tucker,"Small Forward, Power Forward, , Shooting Guard",Right,6-5,245,5,May,1985,Texas,3,3.0,2.7,0.0,42.9,50.0,-,64.3,5.5,0.1,14,886,6.6,5.4,1.4,42.5,36.6,75.0,51.2,9.9,43.3
+534,johnsja01,James Johnson,"Power Forward, Small Forward, , Center",Right,6-7,240,20,February,1987,"Wake,Forest",12,0.7,0.5,0.3,36.4,0.0,0.0,36.4,0.0,-0.1,16,786,7.4,3.5,2.0,47.3,30.0,67.8,51.2,13.9,27.4
+535,sanogad01,Adama Sanogo,"Power Forward , Center",Right,6-9,245,12,February,2002,UConn,4,2.0,1.5,0.3,57.1,-,-,57.1,15.2,0.0,2,13,3.4,3.2,0.1,52.9,-,66.7,52.9,20.3,0.2
+536,watsoan02,Anton Watson,Small Forward,Right,6-8,225,6,October,2000,Gonzaga,9,0.9,0.3,0.2,44.4,0.0,-,44.4,5.9,0.0,1,9,0.9,0.3,0.2,44.4,0.0,-,44.4,5.9,0.0
+537,wheelph02,Phillip Wheeler,Power Forward,Right,6-9,211,23,April,2002,Colleges,5,1.6,1.6,0.4,14.3,0.0,100.0,14.3,-2.3,-0.3,1,5,1.6,1.6,0.4,14.3,0.0,100.0,14.3,-2.3,-0.3
+538,doziepj01,PJ Dozier,"Shooting Guard, Small Forward, , Point Guard",Right,6-6,205,25,October,1996,"South,Carolina",9,0.8,0.6,0.6,66.7,66.7,16.7,100.0,9.5,0.1,7,130,5.4,2.6,1.6,40.3,31.1,64.7,46.6,10.3,1.8
+539,jenkida01,Daniss Jenkins,Point Guard,Right,6-3,165,17,August,2001,"University,of,the,Pacific",7,1.0,0.3,0.4,30.0,14.3,0.0,35.0,-0.1,-0.1,1,7,1.0,0.3,0.4,30.0,14.3,0.0,35.0,-0.1,-0.1
+540,norrimi01,Miles Norris,Power Forward,Right,6-10,220,15,April,2000,Oregon,3,2.3,3.0,0.0,22.2,28.6,50.0,33.3,8.5,0.0,1,3,2.3,3.0,0.0,22.2,28.6,50.0,33.3,8.5,0.0
+541,mcculke01,Kevin McCullar Jr.,Small Forward,Right,6-6,210,15,March,2001,"Texas,Tech",4,1.5,2.0,0.5,28.6,0.0,100.0,28.6,6.7,0.0,1,4,1.5,2.0,0.5,28.6,0.0,100.0,28.6,6.7,0.0
+542,mobleis01,Isaiah Mobley,Power Forward,Right,6-8,240,24,September,1999,USC,1,6.0,4.0,5.0,28.6,33.3,50.0,35.7,17.2,0.0,3,23,2.6,1.5,0.6,40.7,33.3,71.4,46.6,11.9,0.3
+543,mooreta02,Taze Moore,Shooting Guard,Left,6-5,195,29,June,1998,"Cal,State-Bakersfield",2,3.0,4.0,0.5,20.0,25.0,50.0,25.0,7.1,-0.1,2,6,4.0,2.7,1.0,34.5,18.2,50.0,37.9,10.2,-0.1
+544,wisemja01,James Wiseman,Center,Left,7-0,240,31,March,2001,Memphis,1,6.0,1.0,0.0,50.0,0.0,100.0,50.0,31.2,0.0,4,148,9.1,5.6,0.7,56.0,26.2,68.3,56.8,14.6,4.3
+545,chomcul01,Ulrich Chomche,Power Forward,Right,6-10,235,30,December,2005,Colleges,7,0.7,1.1,0.3,40.0,-,50.0,40.0,5.2,0.0,1,7,0.7,1.1,0.3,40.0,-,50.0,40.0,5.2,0.0
+546,willial06,Alondes Williams,Shooting Guard,Right,6-4,210,19,June,1999,"Triton,College",1,5.0,0.0,1.0,100.0,100.0,-,125.0,53.4,0.0,3,9,1.1,0.2,0.1,40.0,20.0,100.0,45.0,-0.7,-0.1
+547,harpero02,Ron Harper Jr.,"Small Forward , Power Forward",Right,6-6,245,12,April,2000,"Rutgers,University",1,4.0,7.0,2.0,12.5,0.0,100.0,12.5,7.9,0.0,3,11,2.2,1.3,0.6,37.5,20.0,100.0,43.8,12.9,0.1
+548,ingraha01,Harrison Ingram,Small Forward,Right,6-5,230,27,November,2002,Stanford,5,0.8,1.8,0.6,50.0,0.0,-,50.0,10.9,0.1,1,5,0.8,1.8,0.6,50.0,0.0,-,50.0,10.9,0.1
+549,cartodj01,D.J. Carton,Shooting Guard,Left,6-2,200,5,August,2000,"Ohio,State",4,0.8,1.0,0.8,14.3,0.0,100.0,14.3,-2.6,-0.1,2,8,1.8,1.0,0.8,26.7,14.3,83.3,30.0,3.7,-0.1
+550,cuiyo01,Cui Yongxi,Shooting Guard,Right,6-6,190,28,May,2003,Colleges,5,0.6,0.4,0.0,14.3,0.0,50.0,14.3,-10.7,-0.1,1,5,0.6,0.4,0.0,14.3,0.0,50.0,14.3,-10.7,-0.1
+551,keybr01,Braxton Key,Small Forward,Right,6-8,230,14,February,1997,Alabama,3,1.0,0.7,0.0,0.0,0.0,50.0,0.0,1.1,-0.1,4,37,2.9,1.9,0.5,43.6,29.6,62.1,47.9,14.0,0.4
+552,newtotr01,Tristen Newton,Shooting Guard,Right,6-5,190,26,April,2001,"East,Carolina,University",8,0.4,0.5,0.3,12.5,0.0,100.0,12.5,-6.1,-0.1,1,8,0.4,0.5,0.3,12.5,0.0,100.0,12.5,-6.1,-0.1
+553,olivaqu01,Quincy Olivari,Point Guard,Right,6-3,198,27,May,2001,"Rice,University",2,1.5,0.0,0.5,20.0,20.0,-,30.0,-5.2,-0.1,1,2,1.5,0.0,0.5,20.0,20.0,-,30.0,-5.2,-0.1
+554,colliyu01,Yuri Collins,Point Guard,Right,6-0,190,7,March,2001,"Saint,Louis",2,1.0,1.5,2.0,33.3,-,-,33.3,13.9,0.1,1,2,1.0,1.5,2.0,33.3,-,-,33.3,13.9,0.1
+555,leonsma01,Malevy Leons,Small Forward,Right,6-9,205,23,September,1999,"Mineral,Area,College",6,0.3,0.5,0.2,0.0,0.0,50.0,0.0,-2.3,0.0,1,6,0.3,0.5,0.2,0.0,0.0,50.0,0.0,-2.3,0.0
+556,nixda01,Daishen Nix,"Point Guard , Shooting Guard",Right,6-5,224,13,February,2002,Colleges,3,0.3,1.3,1.0,0.0,0.0,50.0,0.0,-7.0,-0.1,4,99,3.3,1.4,1.8,35.6,28.8,59.5,43.6,6.0,-1.4
+557,daviste02,Terence Davis,Shooting Guard,Right,6-4,201,16,May,1997,"Ole,Miss",1,0.0,1.0,1.0,0.0,0.0,-,0.0,-4.0,0.0,5,228,8.0,2.7,1.3,43.3,36.6,82.6,54.2,13.3,5.3
+558,edwarje01,Jesse Edwards,Center,Right,6-11,230,18,March,2000,"West,Virginia",2,0.0,0.0,0.5,-,-,-,-,-0.1,0.0,1,2,0.0,0.0,0.5,-,-,-,-,-0.1,0.0
+559,mccluma01,Mac McClung,"Shooting Guard , Point Guard",Right,6-2,185,6,January,1999,Georgetown,2,0.0,0.5,1.5,0.0,0.0,-,0.0,-0.3,0.0,3,6,5.5,2.3,2.2,42.9,33.3,66.7,51.8,12.1,0.1
+560,mcdanja01,Jalen McDaniels,Small Forward,Right,6-9,205,31,January,1998,"San,Diego,State",4,0.0,0.0,0.3,-,-,-,-,10.9,0.0,6,252,6.7,3.3,1.2,44.9,32.2,77.7,51.1,11.0,5.3
+561,minixri01,Riley Minix,Small Forward,Right,6-7,230,22,September,2000,"Southeastern,University",1,0.0,2.0,0.0,0.0,0.0,-,0.0,-1.7,0.0,1,1,0.0,2.0,0.0,0.0,0.0,-,0.0,-1.7,0.0
+562,okafoja01,Jahlil Okafor,Center,Right,6-10,270,15,December,1995,Duke,1,0.0,1.0,1.0,-,-,-,-,13.8,0.0,7,248,10.3,4.7,0.9,54.2,22.2,67.6,54.3,16.4,7.2
+563,pullizy01,Zyon Pullin,Shooting Guard,Right,6-4,206,3,March,2001,"University,of,California,,Riverside",3,0.0,0.0,0.0,0.0,-,-,0.0,-11.7,0.0,1,3,0.0,0.0,0.0,0.0,-,-,0.0,-11.7,0.0
+564,steveis01,Isaiah Stevens,Point Guard,Right,6-0,185,1,November,2000,"Colorado,State",3,0.0,0.7,0.0,0.0,0.0,-,0.0,0.1,0.0,1,3,0.0,0.7,0.0,0.0,0.0,-,0.0,0.1,0.0
+565,taylote01,Terry Taylor,Power Forward,Left,6-5,230,23,September,1999,"Austin,Peay,State,University",3,0.0,0.3,0.7,0.0,-,-,0.0,9.8,0.0,4,98,4.6,2.6,0.6,57.9,28.8,68.7,60.7,15.7,3.0
+566,plumlma01,Mason Plumlee,Center,Left,6-10,254,5,March,1990,Duke,74,4.5,6.1,1.8,61.9,0,64.8,61.9,14.8,3.7,12,860,8,6.7,2.4,59.5,3.9,57.7,59.6,17.6,57.8
+567,thomptr01,Tristan Thompson,"Center , Power Forward",Right,6-9,254,13,March,1991,Texas,40,1.7,3.4,0.6,43.7,0,23.3,43.7,9.1,0.4,14,819,8.3,7.8,1,52,23.8,59.2,52.1,15.3,49.3
+568,labissk01,Skal Labissière,"Power Forward , Center",Right,6-10,235,18,March,1996,Kentucky,4,1.3,0.8,0.3,50,100,-,62.5,15.9,0,,152,7.1,4.4,1,49.2,36,74.8,51,15,4.4
