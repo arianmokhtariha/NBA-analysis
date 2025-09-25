@@ -10,16 +10,35 @@ from selenium.webdriver.common.keys import Keys
 import importlib 
 from datetime import datetime
 
-
-
-def Get_Players(url:str):# There is a problem to fix : Function is just working for active players in league
+def players_links(url):
+    base_url='https://www.basketball-reference.com/'
     useragent ='Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/140.0.0.0 Safari/537.36'
     headers={
         'User-Agent' : useragent,
         'Accept-Language': 'en'
         }
-    posts=[]
+
     page=requests.get(url , headers=headers).text
+    soup = BeautifulSoup(page , 'html.parser')
+
+    players_pages = [
+        base_url + '/' + node['href']
+        
+    for node in soup.select("table a[href*=players]")
+    ]
+    return players_pages
+
+def Get_Players(url):
+    useragent ='Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/140.0.0.0 Safari/537.36'
+    headers={
+        'User-Agent' : useragent,
+        'Accept-Language': 'en-US,en;q=0.9,fa;q=0.8',
+        'cookie': "_ga_NR1HN85GXQ=deleted; __cf_bm=.hoW4l7KUjknsOPC7nWgMFsRBf4p5Y4FcWEe9cfMPjo-1758757769-1.0.1.1-DvvaFiwifjQcB7j7DVViDrU.xasPybFbqFqWp69g8DIwEmQnj3UkmKMNLDyRHLN_zBBYWzgmaaPkT1EbNcpD6mfSXanupTRFs3n6oozehQQ; srcssfull=yes; is_live=true; osano_consentmanager_uuid=2c3fd343-d76a-4f06-9140-31bf42095f26; _ga=GA1.1.1702063434.1758757785; __hstc=180814520.0556b9f6c2f4ee0424c7ebac7681a50f.1758757824863.1758757824863.1758757824863.1; hubspotutk=0556b9f6c2f4ee0424c7ebac7681a50f; __hssrc=1; __hssc=180814520.2.1758757824863; _ga_NR1HN85GXQ=GS2.1.s1758757784$o1$g1$t1758758795$j60$l0$h0; _ga_80FRT7VJ60=GS2.1.s1758757784$o22$g1$t1758758795$j60$l0$h0",
+
+        }
+
+    posts=[]
+    page=requests.get(url , headers=headers , timeout=20).text
     soup = BeautifulSoup(page , 'html.parser')
     
     posts.append(
@@ -57,7 +76,7 @@ def Get_Players(url:str):# There is a problem to fix : Function is just working 
             'Career Effective Field Goal Percentage':[node.text.split() for node in soup.select('.p2 p')][7],
 
             })
-    print(posts)
+    return posts
 
 def Get_MVPs(url:str):
     useragent ='Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/140.0.0.0 Safari/537.36'
