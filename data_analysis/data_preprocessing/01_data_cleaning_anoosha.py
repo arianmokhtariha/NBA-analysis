@@ -10,7 +10,30 @@ def clean_players() -> None:
     players_df = pd.read_csv(players_raw_path, index_col=0)
 
     players_df.columns = players_df.columns.str.lower()
+    players_column_map = {
+        "last season games": "last_season_games",
+        "last season points": "last_season_points",
+        "last season total rebound percentage": "last_season_total_rebound_pct",
+        "last season assists percentage": "last_season_assists_pct",
+        "last season field goal percentage": "last_season_field_goal_pct",
+        "last season 3pt field goal percentage": "last_season_three_point_pct",
+        "last season tfree throw percentage": "last_season_free_throw_pct",
+        "last season effective field goal percentage": "last_season_effective_fg_pct",
+        "last season player efficiency rating": "last_season_player_efficiency_rating",
+        "last season win shares": "last_season_win_shares",
+        "career games": "career_games",
+        "career points": "career_points",
+        "career total rebound percentage": "career_total_rebound_pct",
+        "career assists percentage": "career_assists_pct",
+        "career field goal percentage": "career_field_goal_pct",
+        "career 3pt field goal percentage": "career_three_point_pct",
+        "career free throw percentage": "career_free_throw_pct",
+        "career effective field goal percentage": "career_effective_fg_pct",
+        "career player efficiency rating": "career_player_efficiency_rating",
+        "career win shares": "career_win_shares",
+    }
 
+    players_df.rename(columns=players_column_map, inplace=True)
     players_df[["pos1", "pos2", "pos3", "pos4", "pos5", "pos6"]] = players_df[
         "position"
     ].str.split(",", expand=True)
@@ -37,7 +60,23 @@ def clean_players() -> None:
             "birthday",
             "birthmonth",
             "birthyear",
+            "college",
         ]
+    )
+
+    float_cols = [
+        "last_season_field_goal_pct",
+        "last_season_three_point_pct",
+        "last_season_free_throw_pct",
+        "last_season_effective_fg_pct",
+        "career_field_goal_pct",
+        "career_three_point_pct",
+        "career_free_throw_pct",
+        "career_effective_fg_pct",
+    ]
+
+    players_df[float_cols] = (
+        players_df[float_cols].replace("-", pd.NA).apply(pd.to_numeric, errors="coerce")
     )
 
     players_df.to_csv(
@@ -193,8 +232,9 @@ def clean_player_stats() -> None:
 
     player_stats = player_stats.rename(columns=player_stats_column_map)
 
-    print(player_stats[player_stats[["season", "player_id"]].duplicated().sum()])
-    print(player_stats.isna().sum())
+    dup_count = player_stats[["season", "player_id"]].duplicated().sum()
+    print(dup_count)
+
     ### there are duplicates (related to players trade per season, so we had three rows per player (one total, two stints). we are only keeping the season totals here.)
     #! TOT is not a team. its season total (aggregated) across both teams. find the team from other tables
 
