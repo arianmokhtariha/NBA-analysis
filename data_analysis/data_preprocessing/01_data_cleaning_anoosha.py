@@ -207,7 +207,7 @@ def clean_player_stats() -> None:
     )
 
 
-def clean_seasons():
+def clean_seasons() -> None:
     seasons_raw_path = os.path.join(RAW_DATA_DIR, "seasons_table.xlsx")
     seasons = pd.read_excel(seasons_raw_path)
 
@@ -232,14 +232,71 @@ def clean_seasons():
     seasons.to_csv(os.path.join(DATA_CLEAN_DIR, "season_stats.csv"), index=False)
 
 
+def clean_team_stats() -> None:
+    teams_raw_path = os.path.join(RAW_DATA_DIR, "seasons_teams_total_stats_clean.csv")
+    teams = pd.read_csv(teams_raw_path)
+    teams.columns = teams.columns.str.lower()
+
+    teams_column_map = {
+        "rk": "rank",
+        "season": "season",
+        "teamname": "team_name",
+        "teamid": "team_id",
+        "g": "games",
+        "mp": "minutes_played",
+        "fg": "field_goals_made",
+        "fga": "field_goals_attempted",
+        "fg%": "field_goal_pct",
+        "3p": "three_pointers_made",
+        "3pa": "three_pointers_attempted",
+        "3p%": "three_point_pct",
+        "2p": "two_pointers_made",
+        "2pa": "two_pointers_attempted",
+        "2p%": "two_point_pct",
+        "ft": "free_throws_made",
+        "fta": "free_throws_attempted",
+        "ft%": "free_throw_pct",
+        "orb": "offensive_rebounds",
+        "drb": "defensive_rebounds",
+        "trb": "total_rebounds",
+        "ast": "assists",
+        "stl": "steals",
+        "blk": "blocks",
+        "tov": "turnovers",
+        "pf": "personal_fouls",
+        "pts": "points",
+    }
+
+    teams = teams.rename(columns=teams_column_map)
+    season = teams["season"].str.strip().str.split("-", expand=True)[0].astype(int) + 1
+    teams["season"] = season.values
+
+    teams = teams[(teams["rank"].notna()) & (teams["season"] != 2026)]
+    print(teams.isna().sum())
+    teams = teams[teams["season"] >= 2000]
+    print("-" * 30)
+    print(teams.isna().sum())
+
+    team_lookup = teams.groupby("team_id")["team_name"].unique().reset_index()
+    team_lookup["team_name"] = (
+        team_lookup["team_name"].explode().groupby(level=0).first()
+    )
+
+    teams.drop(columns="team_name", axis=1, inplace=True)
+
+    team_lookup.to_csv(os.path.join(DATA_CLEAN_DIR, "team_lookup.csv"), index=False)
+
+    teams.to_csv(os.path.join(DATA_CLEAN_DIR, "teams_performance.csv"), index=False)
+
+
 def main() -> None:
     clean_players()
     clean_mvp_candidates()
     clean_mvp_winners()
     clean_player_stats()
     clean_seasons()
+    clean_team_stats()
 
 
-# if __name__ == "__main__":
-# main()
-
+if __name__ == "__main__":
+    main()
