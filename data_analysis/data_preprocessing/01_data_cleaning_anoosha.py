@@ -207,12 +207,39 @@ def clean_player_stats() -> None:
     )
 
 
+def clean_seasons():
+    seasons_raw_path = os.path.join(RAW_DATA_DIR, "seasons_table.xlsx")
+    seasons = pd.read_excel(seasons_raw_path)
+
+    seasons.columns = seasons.columns.str.lower()
+    seasons_column_map = {
+        "season year": "season",
+        "league": "league",
+        "champion name": "champion_name",
+        "mvp": "mvp",
+        "rookie of the year": "rookie_of_the_year",
+        "most points": "most_points",
+        "most rebounds": "most_rebounds",
+        "most assists": "most_assists",
+        "most winshares": "most_winshares",
+    }
+    seasons = seasons.rename(columns=seasons_column_map)
+    season = (
+        seasons["season"].str.strip().str.split("-", expand=True)[0].astype(int) + 1
+    )
+    seasons["season"] = season.values
+
+    seasons.to_csv(os.path.join(DATA_CLEAN_DIR, "season_stats.csv"), index=False)
+
+
 def main() -> None:
     clean_players()
     clean_mvp_candidates()
     clean_mvp_winners()
     clean_player_stats()
+    clean_seasons()
 
 
 # if __name__ == "__main__":
 # main()
+
