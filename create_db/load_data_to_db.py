@@ -19,8 +19,10 @@ from sqlalchemy import text
 ##########################################----
 
 clean_data_path = os.path.join(os.path.dirname(__file__), "..", "data", "data_clean")
+"""
+reading all our clean csv files as dataframes and keeping them in a dictionary
+"""
 
-##reading all our clean csv files as dataframes and keeping them in a dictionary
 dataframes = {}
 
 for file in os.listdir(clean_data_path):
@@ -35,12 +37,20 @@ for file in os.listdir(clean_data_path):
 
 
 def to_records(df: pd.DataFrame) -> list[dict]:
+    """
+    prepares dataframe objects for insertion into SQL database
+
+    """
     rows = []
     for row in df.to_dict(orient="records"):
         rows.append({col: (None if pd.isna(val) else val) for col, val in row.items()})
     return rows
 
 
+
+"""
+mapping table names to schemas 
+"""
 MODEL_BY_TABLE = {
     Team.__tablename__: Team,
     Player.__tablename__: Player,
@@ -54,6 +64,7 @@ MODEL_BY_TABLE = {
 }
 
 load_order = [table.name for table in Base.metadata.sorted_tables]
+
 ##order of tables is important when populating a relational database (because of foreign keys)
 
 
@@ -82,6 +93,7 @@ def populate_db():
                 raise RuntimeError(f"failed loading {table_name}: {exc.orig}") from exc
 
         session.commit()
+
     except SQLAlchemyError:
         session.rollback()
         raise

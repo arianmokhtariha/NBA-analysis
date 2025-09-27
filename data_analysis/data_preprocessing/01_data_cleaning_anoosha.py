@@ -239,7 +239,9 @@ def clean_player_stats() -> None:
     #! TOT is not a team. its season total (aggregated) across both teams. find the team from other tables
 
     player_stats["team_id"] = player_stats["team_id"].fillna("TOT")
-    player_stats = player_stats[player_stats["team_id"] == "TOT"].copy()
+    player_stats = player_stats.sort_values(
+        ["season", "player_id", "team_id"], key=lambda s: s != "TOT"
+    ).drop_duplicates(["season", "player_id"], keep="first")
 
     player_stats.to_csv(
         os.path.join(DATA_CLEAN_DIR, "player_stats.csv"),
