@@ -1598,3 +1598,74 @@ class BasketballScraper:
             },
         )
         p.close()
+
+    def players(self,url='https://www.basketball-reference.com/players/g/gilgesh01.html'):
+        page = self._fetch_page(url, way=1)
+        soup = BeautifulSoup(page , 'html.parser')
+        posts=[]
+
+        posts.append(
+            {
+                'player_id': url.split('/')[-1].split('.')[0],
+                'player_name': [node.text.strip() for node in soup.select("h1")],
+                'Position':[node.text.strip().split('\n\n\n  \n  ▪\n  \n  \n  ') for node in soup.select('#info #meta div p')][[node.text.split()[0] for node in soup.select('#info #meta div p')].index('Position:')][0].strip('Position:'),
+                'Shoots':[node.text.strip().split('\n\n\n  \n  ▪\n  \n  \n  ') for node in soup.select('#info #meta div p')][[node.text.split()[0] for node in soup.select('#info #meta div p')].index('Position:')][1].split('Shoots:\n  \n  ')[1],
+                'Height':[node.text.split() for node in soup.select('#info #meta div p')][[node.text.split()[0] for node in soup.select('#info #meta div p')].index('Position:')+1][0].replace(',',''),
+                'Weight':[node.text.split() for node in soup.select('#info #meta div p')][[node.text.split()[0] for node in soup.select('#info #meta div p')].index('Position:')+1][1].replace('lb',''),
+                'Birthday':[node.text.split() for node in soup.select('a[href*=birthdays]')][0][1],
+                'Birthmonth':[node.text.split() for node in soup.select('a[href*=birthdays]')][0][0],
+                'Birthyear':[node.text.split() for node in soup.select('a[href*=birthyears]')][0],
+                'College' : [node.text.split() for node in soup.select('a[href*=colleges]')][0],
+                'Last Season Games':[node.text.split() for node in soup.select('.p1 p')][0],
+                'Last Season Points':[node.text.split() for node in soup.select('.p1 p')][2],
+                'Last Season Total Rebound Percentage':[node.text.split() for node in soup.select('.p1 p')][4],
+                'Last Season Assists Percentage':[node.text.split() for node in soup.select('.p1 p')][6],
+
+                'Last Season Field Goal Percentage':[node.text.split() for node in soup.select('.p1 p')][0],
+                'Last Season 3pt Field Goal Percentage':[node.text.split() for node in soup.select('.p1 p')][2],
+                'Last Season TFree Throw Percentage':[node.text.split() for node in soup.select('.p1 p')][4],
+                'Last Season Effective Field Goal Percentage':[node.text.split() for node in soup.select('.p1 p')][6],
+
+                'Experience':[node.text.split() for node in soup.select('#info #meta div p')][[node.text.split()[0] for node in soup.select('#info #meta div p')].index('Experience:')][1],
+                'Career Games':[node.text.split() for node in soup.select('.p1 p')][1],
+                'Career Points':[node.text.split() for node in soup.select('.p1 p')][3],
+                'Career Total Rebound Percentage':[node.text.split() for node in soup.select('.p1 p')][5],
+                'Career Assists Percentage':[node.text.split() for node in soup.select('.p1 p')][7],
+
+                'Career Field Goal Percentage':[node.text.split() for node in soup.select('.p2 p')][1],
+                'Career 3pt Field Goal Percentage':[node.text.split() for node in soup.select('.p2 p')][3],
+                'Career Free Throw Percentage':[node.text.split() for node in soup.select('.p2 p')][5],
+                'Career Effective Field Goal Percentage':[node.text.split() for node in soup.select('.p2 p')][7],
+
+                })
+        self._save_to_csv('Players_table.csv',posts)
+        return posts
+        
+    def mvps(self,url='https://www.basketball-reference.com/awards/mvp.html'):
+        page = self._fetch_page(url, way=1)
+        soup = BeautifulSoup(page , 'html.parser')
+        posts = []
+        for i in range(70):
+            posts.append(
+                {
+                    'Season':[node.text.strip() for node in soup.select(f"#mvp_NBA > tbody > tr:nth-child({i+1}) > th")],
+                    'League':'NBA',
+                    'Player_id':[node.get_attribute_list('href')[0].split('/')[-1].split('.')[0] for node in soup.select(f"a[href*='players']")][i+1],
+                    'Age': [node.text.strip() for node in soup.select(f"#mvp_NBA > tbody > tr:nth-child({i+1}) > td:nth-child(5)")],
+                    'Team_id': [node.text.strip() for node in soup.select(f"#mvp_NBA > tbody > tr:nth-child({i+1}) > td:nth-child(6)")],
+                    'Game': [node.text.strip() for node in soup.select(f"#mvp_NBA > tbody > tr:nth-child({i+1}) > td:nth-child(7)")],
+                    'Minutes Played Per Game':[node.text.strip() for node in soup.select(f"#mvp_NBA > tbody > tr:nth-child({i+1}) > td:nth-child(8)")],
+                    'Points Per Game':[node.text.strip() for node in soup.select(f"#mvp_NBA > tbody > tr:nth-child({i+1}) > td:nth-child(9)")],
+                    'Total Rebounds Per Game':[node.text.strip() for node in soup.select(f"#mvp_NBA > tbody > tr:nth-child({i+1}) > td:nth-child(10)")],
+                    'Assists Per Game':[node.text.strip() for node in soup.select(f"#mvp_NBA > tbody > tr:nth-child({i+1}) > td:nth-child(11)")],
+                    'Steals Per Game':[node.text.strip() for node in soup.select(f"#mvp_NBA > tbody > tr:nth-child({i+1}) > td:nth-child(12)")],
+                    'Blocks Per Game':[node.text.strip() for node in soup.select(f"#mvp_NBA > tbody > tr:nth-child({i+1}) > td:nth-child(13)")],
+                    'Field Goal Percentage':[node.text.strip() for node in soup.select(f"#mvp_NBA > tbody > tr:nth-child({i+1}) > td:nth-child(14)")],
+                    '3-Point Field Goal Percentage':[node.text.strip() for node in soup.select(f"#mvp_NBA > tbody > tr:nth-child({i+1}) > td:nth-child(15)")],
+                    'Free Throw Percentage':[node.text.strip() for node in soup.select(f"#mvp_NBA > tbody > tr:nth-child({i+1}) > td:nth-child(16)")],
+                    'Win Shares':[node.text.strip() for node in soup.select(f"#mvp_NBA > tbody > tr:nth-child({i+1}) > td:nth-child(17)")],
+                    'Win Shares Per 48 Minutes':[node.text.strip() for node in soup.select(f"#mvp_NBA > tbody > tr:nth-child({i+1}) > td:nth-child(18)")],
+                }
+            )
+        self._save_to_csv('Mvp_table.csv',posts)
+        return posts
