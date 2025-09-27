@@ -1,0 +1,90 @@
+Season Year,League,Champion Name,MVP,Rookie of the Year,Most Points,Most Rebounds,Most Assists,Most Winshares
+,,,,,,,,
+2024-25,NBA,Oklahoma City Thunder,S. Gilgeous-Alexander,S. Castle,S. Gilgeous-Alexander,I. Zubac,T. Young,S. Gilgeous-Alexander
+2023-24,NBA,Boston Celtics,N. Jokić,V. Wembanyama,L. Dončić,D. Sabonis,T. Haliburton,N. Jokić
+2022-23,NBA,Denver Nuggets,J. Embiid,P. Banchero,J. Tatum,D. Sabonis,T. Young,N. Jokić
+2021-22,NBA,Golden State Warriors,N. Jokić,S. Barnes,T. Young,N. Jokić,T. Young,N. Jokić
+2020-21,NBA,Milwaukee Bucks,N. Jokić,L. Ball,S. Curry,R. Gobert,R. Westbrook,N. Jokić
+2019-20,NBA,Los Angeles Lakers,G. Antetokounmpo,J. Morant,J. Harden,R. Gobert,L. James,J. Harden
+2018-19,NBA,Toronto Raptors,G. Antetokounmpo,L. Dončić,J. Harden,A. Drummond,R. Westbrook,J. Harden
+2017-18,NBA,Golden State Warriors,J. Harden,B. Simmons,L. James,A. Drummond,R. Westbrook,J. Harden
+2016-17,NBA,Golden State Warriors,R. Westbrook,M. Brogdon,R. Westbrook,A. Drummond,J. Harden,J. Harden
+2015-16,NBA,Cleveland Cavaliers,S. Curry,K. Towns,J. Harden,A. Drummond,R. Rondo,S. Curry
+2014-15,NBA,Golden State Warriors,S. Curry,A. Wiggins,J. Harden,D. Jordan,C. Paul,J. Harden
+2013-14,NBA,San Antonio Spurs,K. Durant,M. Carter-Williams,K. Durant,D. Jordan,J. Wall,K. Durant
+2012-13,NBA,Miami Heat,L. James,D. Lillard,K. Durant,Ö. Aşık,G. Vásquez,L. James
+2011-12,NBA,Miami Heat,L. James,K. Irving,K. Durant,D. Howard,S. Nash,L. James
+2010-11,NBA,Dallas Mavericks,D. Rose,B. Griffin,K. Durant,K. Love,S. Nash,L. James
+2009-10,NBA,Los Angeles Lakers,L. James,T. Evans,K. Durant,D. Howard,S. Nash,L. James
+2008-09,NBA,Los Angeles Lakers,L. James,D. Rose,D. Wade,D. Howard,C. Paul,L. James
+2007-08,NBA,Boston Celtics,K. Bryant,K. Durant,K. Bryant,D. Howard,C. Paul,C. Paul
+2006-07,NBA,San Antonio Spurs,D. Nowitzki,B. Roy,K. Bryant,D. Howard,S. Nash,D. Nowitzki
+2005-06,NBA,Miami Heat,S. Nash,C. Paul,K. Bryant,D. Howard,S. Nash,D. Nowitzki
+2004-05,NBA,San Antonio Spurs,S. Nash,E. Okafor,A. Iverson,K. Garnett,S. Nash,K. Garnett
+2003-04,NBA,Detroit Pistons,K. Garnett,L. James,K. Garnett,K. Garnett,S. Marbury,K. Garnett
+2002-03,NBA,San Antonio Spurs,T. Duncan,A. Stoudemire,K. Bryant,B. Wallace,J. Kidd,T. Duncan
+2001-02,NBA,Los Angeles Lakers,T. Duncan,P. Gasol,P. Pierce,T. Duncan,A. Miller,T. Duncan
+2000-01,NBA,Los Angeles Lakers,A. Iverson,M. Miller,J. Stackhouse,B. Wallace,J. Kidd,S. O'Neal
+1999-00,NBA,Los Angeles Lakers,S. O'Neal,E. Brand,S. O'Neal,D. Mutombo,G. Payton,S. O'Neal
+1998-99,NBA,San Antonio Spurs,K. Malone,V. Carter,S. O'Neal,D. Mutombo,J. Kidd,K. Malone
+1997-98,NBA,Chicago Bulls,M. Jordan,T. Duncan,M. Jordan,D. Rodman,R. Strickland,K. Malone
+1996-97,NBA,Chicago Bulls,K. Malone,A. Iverson,M. Jordan,D. Mutombo,M. Jackson,M. Jordan
+1995-96,NBA,Chicago Bulls,M. Jordan,D. Stoudamire,M. Jordan,D. Robinson,J. Stockton,M. Jordan
+1994-95,NBA,Houston Rockets,D. Robinson,G. Hill,S. O'Neal,D. Mutombo,J. Stockton,D. Robinson
+1993-94,NBA,Houston Rockets,H. Olajuwon,C. Webber,D. Robinson,D. Rodman,J. Stockton,D. Robinson
+1992-93,NBA,Chicago Bulls,C. Barkley,S. O'Neal,M. Jordan,D. Rodman,J. Stockton,M. Jordan
+1991-92,NBA,Chicago Bulls,M. Jordan,L. Johnson,M. Jordan,D. Rodman,J. Stockton,M. Jordan
+1990-91,NBA,Chicago Bulls,M. Jordan,D. Coleman,M. Jordan,D. Robinson,J. Stockton,M. Jordan
+1989-90,NBA,Detroit Pistons,M. Johnson,D. Robinson,M. Jordan,H. Olajuwon,J. Stockton,M. Jordan
+1988-89,NBA,Detroit Pistons,M. Johnson,M. Richmond,M. Jordan,H. Olajuwon,J. Stockton,M. Jordan
+1987-88,NBA,Los Angeles Lakers,M. Jordan,M. Jackson,M. Jordan,C. Oakley,J. Stockton,M. Jordan
+1986-87,NBA,Los Angeles Lakers,M. Johnson,C. Person,M. Jordan,C. Oakley,M. Johnson,M. Jordan
+1985-86,NBA,Boston Celtics,L. Bird,P. Ewing,A. English,B. Laimbeer,M. Johnson,L. Bird
+1984-85,NBA,Los Angeles Lakers,L. Bird,M. Jordan,M. Jordan,M. Malone,I. Thomas,L. Bird
+1983-84,NBA,Boston Celtics,L. Bird,R. Sampson,A. Dantley,B. Laimbeer,N. Nixon,A. Dantley
+1982-83,NBA,Philadelphia 76ers,M. Malone,T. Cummings,A. English,M. Malone,M. Johnson,M. Malone
+1981-82,NBA,Los Angeles Lakers,M. Malone,B. Williams,G. Gervin,M. Malone,J. Moore,M. Malone
+1980-81,NBA,Boston Celtics,J. Erving,D. Griffith,A. Dantley,M. Malone,K. Porter,K. Abdul-Jabbar
+1979-80,NBA,Los Angeles Lakers,K. Abdul-Jabbar,L. Bird,G. Gervin,S. Nater,M. Richardson,K. Abdul-Jabbar
+1978-79,NBA,Seattle SuperSonics,M. Malone,P. Ford,G. Gervin,M. Malone,K. Porter,K. Abdul-Jabbar
+1977-78,NBA,Washington Bullets,B. Walton,W. Davis,G. Gervin,T. Robinson,K. Porter,D. Thompson
+1976-77,NBA,Portland Trail Blazers,K. Abdul-Jabbar,A. Dantley,P. Maravich,K. Abdul-Jabbar,D. Buse,K. Abdul-Jabbar
+1975-76,NBA,Boston Celtics,K. Abdul-Jabbar,A. Adams,B. McAdoo,K. Abdul-Jabbar,S. Watts,K. Abdul-Jabbar
+1975-76,ABA,New York Nets,J. Erving,D. Thompson,J. Erving,A. Gilmore,D. Buse,J. Erving
+1974-75,NBA,Golden State Warriors,B. McAdoo,J. Wilkes,B. McAdoo,B. McAdoo,K. Porter,B. McAdoo
+1974-75,ABA,Kentucky Colonels,J. Erving,M. Barnes,G. McGinnis,A. Gilmore,C. Williams,J. Erving
+1973-74,NBA,Boston Celtics,K. Abdul-Jabbar,E. DiGregorio,B. McAdoo,E. Hayes,E. DiGregorio,K. Abdul-Jabbar
+1973-74,ABA,New York Nets,J. Erving,S. Nater,J. Erving,A. Gilmore,A. Smith,J. Erving
+1972-73,NBA,New York Knicks,D. Cowens,B. McAdoo,T. Archibald,W. Chamberlain,T. Archibald,K. Abdul-Jabbar
+1972-73,ABA,Indiana Pacers,B. Cunningham,B. Taylor,D. Issel,A. Gilmore,C. Williams,A. Gilmore
+1971-72,NBA,Los Angeles Lakers,K. Abdul-Jabbar,S. Wicks,K. Abdul-Jabbar,W. Chamberlain,L. Wilkens,K. Abdul-Jabbar
+1971-72,ABA,Indiana Pacers,A. Gilmore,A. Gilmore,D. Issel,A. Gilmore,B. Melchionni,A. Gilmore
+1970-71,NBA,Milwaukee Bucks,K. Abdul-Jabbar,D. Cowens,K. Abdul-Jabbar,W. Chamberlain,N. Van Lier,K. Abdul-Jabbar
+1970-71,ABA,Utah Stars,M. Daniels,D. Issel,D. Issel,M. Daniels,B. Melchionni,Z. Beaty
+1969-70,NBA,New York Knicks,W. Reed,K. Abdul-Jabbar,K. Abdul-Jabbar,E. Hayes,L. Wilkens,J. West
+1969-70,ABA,Indiana Pacers,S. Haywood,S. Haywood,S. Haywood,S. Haywood,L. Brown,S. Haywood
+1968-69,NBA,Boston Celtics,W. Unseld,W. Unseld,E. Hayes,W. Chamberlain,O. Robertson,W. Reed
+1968-69,ABA,Oakland Oaks,M. Daniels,W. Jabali,L. Jones,M. Daniels,L. Brown,J. Jones
+1967-68,NBA,Boston Celtics,W. Chamberlain,E. Monroe,D. Bing,W. Chamberlain,W. Chamberlain,W. Chamberlain
+1967-68,ABA,Pittsburgh Pipers,C. Hawkins,M. Daniels,D. Moe,M. Daniels,L. Brown,C. Hawkins
+1966-67,NBA,Philadelphia 76ers,W. Chamberlain,D. Bing,R. Barry,W. Chamberlain,G. Rodgers,W. Chamberlain
+1965-66,NBA,Boston Celtics,W. Chamberlain,R. Barry,W. Chamberlain,W. Chamberlain,O. Robertson,W. Chamberlain
+1964-65,NBA,Boston Celtics,B. Russell,W. Reed,W. Chamberlain,B. Russell,O. Robertson,O. Robertson
+1963-64,NBA,Boston Celtics,O. Robertson,J. Lucas,W. Chamberlain,B. Russell,O. Robertson,W. Chamberlain
+1962-63,NBA,Boston Celtics,B. Russell,T. Dischinger,W. Chamberlain,W. Chamberlain,G. Rodgers,W. Chamberlain
+1961-62,NBA,Boston Celtics,B. Russell,W. Bellamy,W. Chamberlain,W. Chamberlain,O. Robertson,W. Chamberlain
+1960-61,NBA,Boston Celtics,B. Russell,O. Robertson,W. Chamberlain,W. Chamberlain,O. Robertson,W. Chamberlain
+1959-60,NBA,Boston Celtics,W. Chamberlain,W. Chamberlain,W. Chamberlain,W. Chamberlain,B. Cousy,W. Chamberlain
+1958-59,NBA,Boston Celtics,B. Pettit,E. Baylor,B. Pettit,B. Russell,B. Cousy,B. Pettit
+1957-58,NBA,St. Louis Hawks,B. Russell,W. Sauldsberry,G. Yardley,B. Russell,B. Cousy,D. Schayes
+1956-57,NBA,Boston Celtics,B. Cousy,T. Heinsohn,P. Arizin,M. Stokes,B. Cousy,N. Johnston
+1955-56,NBA,Philadelphia Warriors,B. Pettit,M. Stokes,B. Pettit,B. Pettit,B. Cousy,N. Johnston
+1954-55,NBA,Syracuse Nationals,,B. Pettit,N. Johnston,N. Johnston,B. Cousy,N. Johnston
+1953-54,NBA,Minneapolis Lakers,,R. Felix,N. Johnston,H. Gallatin,B. Cousy,N. Johnston
+1952-53,NBA,Minneapolis Lakers,,M. Meineke,N. Johnston,G. Mikan,B. Cousy,N. Johnston
+1951-52,NBA,Minneapolis Lakers,,M. Hutchins,P. Arizin,L. Foust,A. Phillip,P. Arizin
+1950-51,NBA,Rochester Royals,,P. Arizin,G. Mikan,D. Schayes,A. Phillip,G. Mikan
+1949-50,NBA,Minneapolis Lakers,,A. Groza,G. Mikan,,D. McGuire,G. Mikan
+1948-49,BAA,Minneapolis Lakers,,H. Shannon,G. Mikan,,B. Davies,G. Mikan
+1947-48,BAA,Baltimore Bullets,,P. Hoffman,M. Zaslofsky,,H. Dallmar,B. Feerick
+1946-47,BAA,Philadelphia Warriors,,,J. Fulks,,E. Calverley,B. Feerick

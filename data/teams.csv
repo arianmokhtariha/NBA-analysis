@@ -1,0 +1,45 @@
+link,team_full_name,location,team_names,seasons,seasons_count,seasons_range,record,playoff_appearances,championships
+https://www.basketball-reference.com/teams/OKC,Oklahoma City Thunder,"Oklahoma City, Oklahoma","Oklahoma City Thunder, Seattle SuperSonics",59; 1967-68 to 2025-26,59.0,1967-68 to 2025-26,"2538-2150, .541 W-L%",34,2
+https://www.basketball-reference.com/teams/BOS,Boston Celtics,"Boston, Massachusetts",Boston Celtics,80; 1946-47 to 2025-26,80.0,1946-47 to 2025-26,"3695-2501, .596 W-L%",62,18
+https://www.basketball-reference.com/teams/DEN,Denver Nuggets,"Denver, Colorado","Denver Nuggets, Denver Rockets",59 (50 NBA & 9 ABA); 1967-68 to 2025-26,,,"2417-2278, .515 W-L% (2004-1947 NBA & 413-331 ABA)",40 (31 NBA & 9 ABA),1 (1 NBA & 0 ABA)
+https://www.basketball-reference.com/teams/GSW,Golden State Warriors,"San Francisco, California","Golden State Warriors, San Francisco Warriors, Philadelphia Warriors",80; 1946-47 to 2025-26,80.0,1946-47 to 2025-26,"3017-3168, .488 W-L%",38,7
+https://www.basketball-reference.com/teams/MIL,Milwaukee Bucks,"Milwaukee, Wisconsin",Milwaukee Bucks,58; 1968-69 to 2025-26,58.0,1968-69 to 2025-26,"2437-2170, .529 W-L%",37,2
+https://www.basketball-reference.com/teams/LAL,Los Angeles Lakers,"Los Angeles, California","Los Angeles Lakers, Minneapolis Lakers",78; 1948-49 to 2025-26,78.0,1948-49 to 2025-26,"3600-2486, .592 W-L%",65,17
+https://www.basketball-reference.com/teams/TOR,Toronto Raptors,"Toronto, Canada",Toronto Raptors,31; 1995-96 to 2025-26,31.0,1995-96 to 2025-26,"1126-1266, .471 W-L%",13,1
+https://www.basketball-reference.com/teams/CLE,Cleveland Cavaliers,"Cleveland, Ohio",Cleveland Cavaliers,56; 1970-71 to 2025-26,56.0,1970-71 to 2025-26,"2096-2339, .473 W-L%",25,1
+https://www.basketball-reference.com/teams/SAS,San Antonio Spurs,"San Antonio, Texas","San Antonio Spurs, Texas Chaparrals, Dallas Chaparrals",59 (50 NBA & 9 ABA); 1967-68 to 2025-26,,,"2717-1976, .579 W-L% (2339-1610 NBA & 378-366 ABA)",47 (39 NBA & 8 ABA),5 (5 NBA & 0 ABA)
+https://www.basketball-reference.com/teams/MIA,Miami Heat,"Miami, Florida",Miami Heat,38; 1988-89 to 2025-26,38.0,1988-89 to 2025-26,"1558-1409, .525 W-L%",26,3
+https://www.basketball-reference.com/teams/DAL,Dallas Mavericks,"Dallas, Texas",Dallas Mavericks,46; 1980-81 to 2025-26,46.0,1980-81 to 2025-26,"1836-1789, .506 W-L%",25,1
+https://www.basketball-reference.com/teams/DET,Detroit Pistons,"Detroit, Michigan","Detroit Pistons, Fort Wayne Pistons",78; 1948-49 to 2025-26,78.0,1948-49 to 2025-26,"2871-3209, .472 W-L%",43,3
+https://www.basketball-reference.com/teams/CHI,Chicago Bulls,"Chicago, Illinois",Chicago Bulls,60; 1966-67 to 2025-26,60.0,1966-67 to 2025-26,"2422-2340, .509 W-L%",36,6
+https://www.basketball-reference.com/teams/HOU,Houston Rockets,"Houston, Texas","Houston Rockets, San Diego Rockets",59; 1967-68 to 2025-26,59.0,1967-68 to 2025-26,"2421-2267, .516 W-L%",35,2
+https://www.basketball-reference.com/teams/PHI,Philadelphia 76ers,"Philadelphia, Pennsylvania","Philadelphia 76ers, Syracuse Nationals",77; 1949-50 to 2025-26,77.0,1949-50 to 2025-26,"3125-2898, .519 W-L%",54,3
+https://www.basketball-reference.com/teams/SEA,,,,,,,,,
+https://www.basketball-reference.com/teams/WSB,,,,,,,,,
+https://www.basketball-reference.com/teams/POR,Portland Trail Blazers,"Portland, Oregon",Portland Trail Blazers,56; 1970-71 to 2025-26,56.0,1970-71 to 2025-26,"2328-2116, .524 W-L%",37,1
+https://www.basketball-reference.com/teams/NYA,,,,,,,,,
+https://www.basketball-reference.com/teams/KEN,Kentucky Colonels,"Louisville, Kentucky",Kentucky Colonels,9; 1967-68 to 1975-76,9.0,1967-68 to 1975-76,"448-296, .602 W-L%",9,1
+https://www.basketball-reference.com/teams/NYK,New York Knicks,"New York, New York",New York Knicks,80; 1946-47 to 2025-26,80.0,1946-47 to 2025-26,"3025-3162, .489 W-L%",46,2
+https://www.basketball-reference.com/teams/INA,,,,,,,,,
+https://www.basketball-reference.com/teams/UTS,Utah Stars,"Salt Lake City, Utah","Utah Stars, Los Angeles Stars, Anaheim Amigos",9; 1967-68 to 1975-76,9.0,1967-68 to 1975-76,"366-310, .541 W-L%",6,1
+https://www.basketball-reference.com/teams/OAK,,,,,,,,,
+https://www.basketball-reference.com/teams/PTP,,,,,,,,,
+https://www.basketball-reference.com/teams/STL,,,,,,,,,
+https://www.basketball-reference.com/teams/PHW,,,,,,,,,
+https://www.basketball-reference.com/teams/SYR,,,,,,,,,
+https://www.basketball-reference.com/teams/MNL,,,,,,,,,
+https://www.basketball-reference.com/teams/ROC,,,,,,,,,
+https://www.basketball-reference.com/teams/BLB,Baltimore Bullets,"Baltimore, Maryland",Baltimore Bullets,8; 1947-48 to 1954-55,8.0,1947-48 to 1954-55,"158-292, .351 W-L%",3,1
+https://www.basketball-reference.com/teams/BRK,,,,,,,,,
+https://www.basketball-reference.com/teams/IND,Indiana Pacers,"Indianapolis, Indiana",Indiana Pacers,59 (50 NBA & 9 ABA); 1967-68 to 2025-26,,,"2407-2287, .513 W-L% (1980-1970 NBA & 427-317 ABA)",38 (29 NBA & 9 ABA),3 (0 NBA & 3 ABA)
+https://www.basketball-reference.com/teams/ATL,Atlanta Hawks,"Atlanta, Georgia","Atlanta Hawks, St. Louis Hawks, Milwaukee Hawks, Tri-Cities Blackhawks",77; 1949-50 to 2025-26,77.0,1949-50 to 2025-26,"2967-3052, .493 W-L%",49,1
+https://www.basketball-reference.com/teams/CHO,,,,,,,,,
+https://www.basketball-reference.com/teams/WAS,Washington Wizards,"Washington, District of Columbia","Washington Wizards, Washington Bullets, Capital Bullets, Baltimore Bullets, Chicago Zephyrs, Chicago Packers",65; 1961-62 to 2025-26,65.0,1961-62 to 2025-26,"2290-2879, .443 W-L%",30,1
+https://www.basketball-reference.com/teams/ORL,Orlando Magic,"Orlando, Florida",Orlando Magic,37; 1989-90 to 2025-26,37.0,1989-90 to 2025-26,"1356-1529, .470 W-L%",18,0
+https://www.basketball-reference.com/teams/UTA,Utah Jazz,"Salt Lake City, Utah","Utah Jazz, New Orleans Jazz",52; 1974-75 to 2025-26,52.0,1974-75 to 2025-26,"2194-1920, .533 W-L%",31,0
+https://www.basketball-reference.com/teams/MIN,Minnesota Timberwolves,"Minneapolis, Minnesota",Minnesota Timberwolves,37; 1989-90 to 2025-26,37.0,1989-90 to 2025-26,"1196-1680, .416 W-L%",13,0
+https://www.basketball-reference.com/teams/LAC,Los Angeles Clippers,"Los Angeles, California","Los Angeles Clippers, San Diego Clippers, Buffalo Braves",56; 1970-71 to 2025-26,56.0,1970-71 to 2025-26,"1893-2549, .426 W-L%",19,0
+https://www.basketball-reference.com/teams/SAC,Sacramento Kings,"Sacramento, California","Sacramento Kings, Kansas City Kings, Kansas City-Omaha Kings, Cincinnati Royals, Rochester Royals",78; 1948-49 to 2025-26,78.0,1948-49 to 2025-26,"2788-3299, .458 W-L%",30,1
+https://www.basketball-reference.com/teams/PHO,Phoenix Suns,"Phoenix, Arizona",Phoenix Suns,58; 1968-69 to 2025-26,58.0,1968-69 to 2025-26,"2465-2142, .535 W-L%",33,0
+https://www.basketball-reference.com/teams/MEM,Memphis Grizzlies,"Memphis, Tennessee","Memphis Grizzlies, Vancouver Grizzlies",31; 1995-96 to 2025-26,31.0,1995-96 to 2025-26,"1046-1347, .437 W-L%",14,0
+https://www.basketball-reference.com/teams/NOP,,,,,,,,,

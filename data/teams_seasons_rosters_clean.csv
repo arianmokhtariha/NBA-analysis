@@ -1500,7 +1500,9 @@ Cleveland Cavaliers,2025-26,Sam Merrill,merrisa01,CLE,G,6-4,205,"May 15, 1996",u
 Cleveland Cavaliers,2025-26,Larry Nance Jr.,nancela02,CLE,F-C,6-8,245,"January 1, 1993",us US,10,Wyoming
 Cleveland Cavaliers,2025-26,Nae'Qwan Tomlin  (TW),tomlina01,CLE,F,6-10,205,"December 10, 2000",us US,1,"Monroe Community College, Chipola College, Kansas State, Memphis"
 Cleveland Cavaliers,2025-26,,,CLE,,,,,,,
-Indiana Pacers,2025-26,T.J. McConnell,mccontj01,IND,G,6-1,190,"March 25, 1992",us US,10,"Duquesne, Arizona"
+Indiana Pacers,2025-26,Jay Huff,huffja01,IND,F-C,7-1,240,"August 25, 1998",us US,4,Virginia
+Indiana Pacers,2025-26,Gabe McGlothan,mcgloga01,IND,F,6-7,235,"March 3, 1999",us US,R,"SE Missouri State, Grand Canyon University"
+Indiana Pacers,2025-26,Samson Johnson,johnssa01,IND,F,6-10,,"July 28, 2002",tg TG,R,UConn
 Indiana Pacers,2025-26,Jalen Slawson,slawsja01,IND,F,6-7,215,"October 22, 1999",us US,1,Furman University
 Indiana Pacers,2025-26,Taelon Peter  (TW),peterta01,IND,G,6-4,,"February 27, 2002",us US,R,"Tennessee Technological University, Arkansas Tech University, Liberty"
 Indiana Pacers,2025-26,RayJ Dennis  (TW),dennira01,IND,G,6-2,180,"March 30, 2001",us US,1,"Boise State, Toledo, Baylor"
@@ -1509,8 +1511,8 @@ Indiana Pacers,2025-26,Quenton Jackson  (TW),jacksqu01,IND,G,6-5,175,"Septembe
 Indiana Pacers,2025-26,James Wiseman,wisemja01,IND,C,7-0,240,"March 31, 2001",us US,4,Memphis
 Indiana Pacers,2025-26,Kam Jones,joneska03,IND,G,6-4,,"February 25, 2002",us US,R,Marquette
 Indiana Pacers,2025-26,Tony Bradley,bradlto01,IND,F-C,6-10,248,"January 8, 1998",us US,7,UNC
-Indiana Pacers,2025-26,Jay Huff,huffja01,IND,F-C,7-1,240,"August 25, 1998",us US,4,Virginia
 Indiana Pacers,2025-26,Bennedict Mathurin,mathube01,IND,G-F,6-6,210,"June 19, 2002",ca CA,3,Arizona
+Indiana Pacers,2025-26,T.J. McConnell,mccontj01,IND,G,6-1,190,"March 25, 1992",us US,10,"Duquesne, Arizona"
 Indiana Pacers,2025-26,Andrew Nembhard,nembhan01,IND,G,6-5,193,"January 16, 2000",ca CA,3,"Florida, Gonzaga"
 Indiana Pacers,2025-26,Obi Toppin,toppiob01,IND,F,6-9,220,"March 4, 1998",us US,5,Dayton
 Indiana Pacers,2025-26,Pascal Siakam,siakapa01,IND,F-C,6-8,230,"April 2, 1994",cm CM,9,New Mexico State
@@ -1541,18 +1543,17 @@ Detroit Pistons,2025-26,Marcus Sasser,sassema01,DET,G,6-2,195,"September 21, 200
 Detroit Pistons,2025-26,Ausar Thompson,thompau01,DET,G,6-7,215,"January 30, 2003",us US,2,
 Detroit Pistons,2025-26,Jalen Duren,durenja01,DET,C,6-10,250,"November 18, 2003",us US,3,Memphis
 Detroit Pistons,2025-26,,,DET,,,,,,,
-Chicago Bulls,2025-26,Jalen Smith,smithja04,CHI,F,6-10,215,"March 16, 2000",us US,5,Maryland
+Chicago Bulls,2025-26,Patrick Williams,willipa01,CHI,F,6-7,215,"August 26, 2001",us US,5,Florida State
 Chicago Bulls,2025-26,Mouhamadou Gueye,gueyemo01,CHI,F,6-9,210,"July 6, 1998",us US,1,"Monroe Community College, Stony Brook University, Pitt"
 Chicago Bulls,2025-26,Emanuel Miller  (TW),milleem01,CHI,F,6-7,215,"June 19, 2000",ca CA,1,"Texas A&M, TCU"
 Chicago Bulls,2025-26,Yuki Kawamura  (TW),kawamyu01,CHI,G,5-8,159,"May 2, 2001",jp JP,1,
-Chicago Bulls,2025-26,Wooga Poplar,poplawo01,CHI,G,6-5,,"January 5, 2003",us US,R,"Miami (FL), Villanova"
 Chicago Bulls,2025-26,Caleb Grill,grillca01,CHI,G,6-3,,"June 15, 2000",us US,R,"UNLV, Iowa State, Missouri"
 Chicago Bulls,2025-26,Tre Jones,jonestr01,CHI,G,6-1,185,"January 8, 2000",us US,5,Duke
 Chicago Bulls,2025-26,Noa Essengue,essenno01,CHI,F,6-9,,"December 18, 2006",fr FR,R,
 Chicago Bulls,2025-26,Lachlan Olbrich  (TW),olbrila01,CHI,F-C,6-10,,"December 30, 2003",au AU,R,"University of California, Riverside"
 Chicago Bulls,2025-26,Isaac Okoro,okorois01,CHI,G-F,6-5,225,"January 26, 2001",us US,5,Auburn
+Chicago Bulls,2025-26,Jalen Smith,smithja04,CHI,F,6-10,215,"March 16, 2000",us US,5,Maryland
 Chicago Bulls,2025-26,Kevin Huerter,huertke01,CHI,G,6-7,190,"August 27, 1998",us US,7,Maryland
-Chicago Bulls,2025-26,Patrick Williams,willipa01,CHI,F,6-7,215,"August 26, 2001",us US,5,Florida State
 Chicago Bulls,2025-26,Matas Buzelis,buzelma01,CHI,F,6-10,209,"October 13, 2004",us US,1,
 Chicago Bulls,2025-26,Zach Collins,colliza01,CHI,C-F,6-11,250,"November 19, 1997",us US,7,Gonzaga
 Chicago Bulls,2025-26,Ayo Dosunmu,dosunay01,CHI,G,6-5,200,"January 17, 2000",us US,4,Illinois
@@ -1586,7 +1587,6 @@ Milwaukee Bucks,2025-26,Andre Jackson Jr.,jacksan01,MIL,G,6-6,210,"November 13, 
 Milwaukee Bucks,2025-26,,,MIL,,,,,,,
 Miami Heat,2025-26,Keshad Johnson,johnske10,MIA,F,6-6,225,"June 23, 2001",us US,1,"San Diego State, Arizona"
 Miami Heat,2025-26,Jahmir Young,youngja05,MIA,G,6-2,185,"October 7, 2000",us US,1,"UNC Charlotte, Maryland"
-Miami Heat,2025-26,Gabe Madsen,madsega01,MIA,G,6-6,,"May 1, 2001",us US,R,"Cincinnati, Utah"
 Miami Heat,2025-26,Trevor Keels,keelstr01,MIA,G,6-5,221,"August 26, 2003",us US,1,Duke
 Miami Heat,2025-26,Dain Dainja,dainjda01,MIA,F,6-9,,"July 16, 2002",us US,R,"Baylor, Illinois, Memphis"
 Miami Heat,2025-26,Dru Smith,smithdr01,MIA,G,6-3,203,"December 30, 1997",us US,3,"University of Evansville, Missouri"
@@ -1606,7 +1606,9 @@ Miami Heat,2025-26,Nikola JoviÄ,jovicni01,MIA,G-F,6-10,209,"June 9, 2003",gb 
 Miami Heat,2025-26,Terry Rozier,roziete01,MIA,G,6-1,190,"March 17, 1994",us US,10,Louisville
 Miami Heat,2025-26,Norman Powell,powelno01,MIA,G,6-3,215,"May 25, 1993",us US,10,UCLA
 Miami Heat,2025-26,,,MIA,,,,,,,
-Atlanta Hawks,2025-26,Asa Newell,newelas01,ATL,F,6-11,,"October 5, 2005",us US,R,Georgia
+Atlanta Hawks,2025-26,Nickeil Alexander-Walker,alexani01,ATL,G,6-5,205,"September 2, 1998",ca CA,6,Virginia Tech
+Atlanta Hawks,2025-26,Malik Williams,willima11,ATL,C,6-11,250,"August 26, 1998",us US,1,Louisville
+Atlanta Hawks,2025-26,Lamont Butler,butlela02,ATL,G,6-2,,"June 9, 2002",us US,R,"San Diego State, Kentucky"
 Atlanta Hawks,2025-26,Kobe Johnson,johnsko01,ATL,F,6-6,,"January 15, 2003",us US,R,"USC, UCLA"
 Atlanta Hawks,2025-26,Charles Bassey,bassech01,ATL,C,6-10,235,"October 28, 2000",ng NG,4,Western Kentucky
 Atlanta Hawks,2025-26,Caleb Houstan,houstca01,ATL,G-F,6-8,205,"January 9, 2003",ca CA,3,Michigan
@@ -1615,8 +1617,8 @@ Atlanta Hawks,2025-26,Keaton Wallace  (TW),wallake01,ATL,G,6-3,195,"February 2
 Atlanta Hawks,2025-26,Jacob Toppin  (TW),toppija01,ATL,F,6-9,205,"May 8, 2000",us US,2,"Rhode Island, Kentucky"
 Atlanta Hawks,2025-26,Nikola Djurisic,djurini01,ATL,G,6-7,209,"February 23, 2004",be BE,R,
 Atlanta Hawks,2025-26,Luke Kennard,kennalu01,ATL,G,6-5,206,"June 24, 1996",us US,8,Duke
-Atlanta Hawks,2025-26,Nickeil Alexander-Walker,alexani01,ATL,G,6-5,205,"September 2, 1998",ca CA,6,Virginia Tech
 Atlanta Hawks,2025-26,Trae Young,youngtr01,ATL,G,6-1,164,"September 19, 1998",us US,7,Oklahoma
+Atlanta Hawks,2025-26,Asa Newell,newelas01,ATL,F,6-11,,"October 5, 2005",us US,R,Georgia
 Atlanta Hawks,2025-26,Eli Ndiaye  (TW),ndiayel01,ATL,C,6-8,,"June 26, 2004",sn SN,R,
 Atlanta Hawks,2025-26,Jalen Johnson,johnsja05,ATL,F,6-9,220,"December 18, 2001",us US,4,Duke
 Atlanta Hawks,2025-26,Vit Krejci,krejcvi01,ATL,G,6-8,195,"June 19, 2000",cz CZ,4,
@@ -1626,7 +1628,8 @@ Atlanta Hawks,2025-26,Kristaps PorziÅÄ£is,porzikr01,ATL,F-C,7-2,240,"August
 Atlanta Hawks,2025-26,Mouhamed Gueye,gueyemo02,ATL,F,6-11,210,"November 9, 2002",sn SN,2,Washington State
 Atlanta Hawks,2025-26,Dyson Daniels,daniedy01,ATL,G,6-8,199,"March 17, 2003",au AU,3,
 Atlanta Hawks,2025-26,,,ATL,,,,,,,
-Charlotte Hornets,2025-26,Moussa DiabatÃ©,diabamo01,CHO,F,6-11,210,"January 21, 2002",fr FR,3,Michigan
+Charlotte Hornets,2025-26,Ryan Kalkbrenner,kalkbry01,CHO,C,7-0,,"January 17, 2002",us US,R,Creighton
+Charlotte Hornets,2025-26,Isaih Moore,mooreis01,CHO,F,6-10,,"August 30, 2000",us US,R,"College of Charleston, St. John's, Southern Miss, Fresno State"
 Charlotte Hornets,2025-26,Antonio Reeves  (TW),reevean01,CHO,G,6-5,205,"November 20, 2000",us US,1,"Illinois State, Kentucky"
 Charlotte Hornets,2025-26,KJ Simpson  (TW),simpskj01,CHO,G,6-0,189,"August 8, 2002",us US,1,Colorado
 Charlotte Hornets,2025-26,Drew Peterson  (TW),peterdr01,CHO,G,6-9,205,"November 9, 1999",us US,2,"Rice University, USC"
@@ -1634,15 +1637,14 @@ Charlotte Hornets,2025-26,Mason Plumlee,plumlma01,CHO,C-F,6-10,254,"March 5, 199
 Charlotte Hornets,2025-26,Sion James,jamessi01,CHO,G,6-5,,"December 4, 2002",us US,R,"Tulane, Duke"
 Charlotte Hornets,2025-26,Kon Knueppel,knuepko01,CHO,G-F,6-7,,"August 3, 2005",us US,R,Duke
 Charlotte Hornets,2025-26,Liam McNeeley,mcneeli01,CHO,G-F,6-7,,"October 10, 2005",us US,R,UConn
-Charlotte Hornets,2025-26,Ryan Kalkbrenner,kalkbry01,CHO,C,7-0,,"January 17, 2002",us US,R,Creighton
 Charlotte Hornets,2025-26,Pat Connaughton,connapa01,CHO,G,6-5,209,"January 6, 1993",us US,10,Notre Dame
+Charlotte Hornets,2025-26,Moussa DiabatÃ©,diabamo01,CHO,F,6-11,210,"January 21, 2002",fr FR,3,Michigan
 Charlotte Hornets,2025-26,Miles Bridges,bridgmi02,CHO,G-F,6-7,225,"March 21, 1998",us US,6,Michigan State
 Charlotte Hornets,2025-26,Tidjane SalaÃ¼n,salauti01,CHO,F,6-9,207,"August 10, 2005",fr FR,1,
 Charlotte Hornets,2025-26,Josh Green,greenjo02,CHO,G-F,6-5,200,"November 16, 2000",au AU,5,Arizona
 Charlotte Hornets,2025-26,Grant Williams,willigr01,CHO,F,6-6,236,"November 30, 1998",us US,6,Tennessee
 Charlotte Hornets,2025-26,LaMelo Ball,ballla01,CHO,G,6-7,180,"August 22, 2001",us US,5,
 Charlotte Hornets,2025-26,Brandon Miller,millebr02,CHO,F-G,6-9,201,"November 22, 2002",us US,2,Alabama
-Charlotte Hornets,2025-26,Nick Smith Jr.,smithni01,CHO,G,6-2,185,"April 18, 2004",us US,2,Arkansas
 Charlotte Hornets,2025-26,Collin Sexton,sextoco01,CHO,G,6-3,190,"January 4, 1999",us US,7,Alabama
 Charlotte Hornets,2025-26,,,CHO,,,,,,,
 Washington Wizards,2025-26,Corey Kispert,kispeco01,WAS,G-F,6-7,220,"March 3, 1999",us US,4,Gonzaga
@@ -1768,6 +1770,7 @@ Denver Nuggets,2025-26,Peyton Watson,watsope01,DEN,G-F,6-8,200,"September 11, 20
 Denver Nuggets,2025-26,Christian Braun,braunch01,DEN,G,6-6,218,"April 17, 2001",us US,3,Kansas
 Denver Nuggets,2025-26,,,DEN,,,,,,,
 Minnesota Timberwolves,2025-26,Joe Ingles,inglejo01,MIN,F-G,6-8,220,"October 2, 1987",au AU,11,
+Minnesota Timberwolves,2025-26,Nate Santos,santona01,MIN,F,6-7,,"November 9, 2001",us US,R,"Pitt, Dayton"
 Minnesota Timberwolves,2025-26,Bones Hyland,hylanbo01,MIN,G,6-2,173,"September 14, 2000",us US,4,VCU
 Minnesota Timberwolves,2025-26,Tristen Newton  (TW),newtotr01,MIN,G,6-5,190,"April 26, 2001",us US,1,"East Carolina University, UConn"
 Minnesota Timberwolves,2025-26,Johnny Juzang,juzanjo01,MIN,G,6-7,215,"March 17, 2001",us US,3,"Kentucky, UCLA"
@@ -1904,8 +1907,7 @@ San Antonio Spurs,2025-26,Victor Wembanyama,wembavi01,SAS,C-F,7-3,235,"January 4
 San Antonio Spurs,2025-26,Keldon Johnson,johnske04,SAS,G,6-5,220,"October 11, 1999",us US,6,Kentucky
 San Antonio Spurs,2025-26,Jeremy Sochan,sochaje01,SAS,F-G,6-8,230,"May 20, 2003",us US,3,Baylor
 San Antonio Spurs,2025-26,,,SAS,,,,,,,
-Dallas Mavericks,2025-26,Brandon Williams,willibr03,DAL,G,6-1,190,"November 22, 1999",us US,3,Arizona
-Dallas Mavericks,2025-26,D'Moi Hodge,hodgedm01,DAL,G,6-4,188,"December 20, 1998",vg VG,1,"State College of Florida, Manatee-Sarasota, Cleveland State University, Missouri"
+Dallas Mavericks,2025-26,Jaden Hardy,hardyja02,DAL,G,6-4,198,"July 5, 2002",us US,3,
 Dallas Mavericks,2025-26,Dante Exum,exumda01,DAL,G,6-5,214,"July 13, 1995",au AU,8,
 Dallas Mavericks,2025-26,Moussa Cisse,cissemo01,DAL,C,6-10,,"September 10, 2002",gn GN,R,"Oklahoma State, Ole Miss, Memphis"
 Dallas Mavericks,2025-26,Matthew Cleveland,clevema01,DAL,G,6-7,,"September 15, 2002",us US,R,"Florida State, Miami (FL)"
@@ -1914,8 +1916,8 @@ Dallas Mavericks,2025-26,Kyrie Irving,irvinky01,DAL,G,6-2,195,"March 23, 1992",a
 Dallas Mavericks,2025-26,Ryan Nembhard  (TW),nembhry01,DAL,G,6-0,,"March 10, 2003",ca CA,R,"Creighton, Gonzaga"
 Dallas Mavericks,2025-26,Miles Kelly  (TW),kellymi02,DAL,G,6-6,,"January 26, 2003",us US,R,"Georgia Tech, Auburn"
 Dallas Mavericks,2025-26,Cooper Flagg,flaggco01,DAL,F,6-9,,"December 21, 2006",us US,R,Duke
+Dallas Mavericks,2025-26,Brandon Williams,willibr03,DAL,G,6-1,190,"November 22, 1999",us US,3,Arizona
 Dallas Mavericks,2025-26,Daniel Gafford,gaffoda01,DAL,C-F,6-10,234,"October 1, 1998",us US,6,Arkansas
-Dallas Mavericks,2025-26,Jaden Hardy,hardyja02,DAL,G,6-4,198,"July 5, 2002",us US,3,
 Dallas Mavericks,2025-26,Max Christie,chrisma02,DAL,G,6-6,190,"February 10, 2003",us US,3,Michigan State
 Dallas Mavericks,2025-26,Naji Marshall,marshna01,DAL,F,6-7,220,"January 24, 1998",us US,5,Xavier
 Dallas Mavericks,2025-26,Klay Thompson,thompkl01,DAL,G-F,6-5,215,"February 8, 1990",us US,12,Washington State
@@ -1926,6 +1928,7 @@ Dallas Mavericks,2025-26,Dwight Powell,poweldw01,DAL,F-C,6-10,240,"July 20, 1991
 Dallas Mavericks,2025-26,Dereck Lively II,livelde01,DAL,C,7-1,230,"February 12, 2004",us US,2,Duke
 Dallas Mavericks,2025-26,,,DAL,,,,,,,
 Memphis Grizzlies,2025-26,Cedric Coward,cowarce01,MEM,F-G,6-6,,"September 11, 2003",us US,R,"Willamette University, Eastern Washington, Washington State"
+Memphis Grizzlies,2025-26,Braxton Key,keybr01,MEM,F,6-8,230,"February 14, 1997",us US,4,"Alabama, Virginia"
 Memphis Grizzlies,2025-26,Lawson Lovering,loverla01,MEM,C,7-1,,"May 9, 2003",us US,R,"Colorado, Utah"
 Memphis Grizzlies,2025-26,Tyler Burton,burtoty01,MEM,F,6-7,,"February 11, 2000",us US,R,"Richmond, Villanova"
 Memphis Grizzlies,2025-26,Olivier-Maxence Prosper  (TW),prospol01,MEM,F,6-8,230,"July 3, 2002",ca CA,2,"Clemson, Marquette"
