@@ -4,3 +4,6 @@ pymysql
 requests
 selenium
 sqlalchemy
+urllib
+webdriver_manager
+tqdm
