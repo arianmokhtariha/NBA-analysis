@@ -32,36 +32,31 @@ SessionLocal = sessionmaker(bind=engine)
 
 class Player(Base):
     __tablename__ = "players"
+
     player_id = Column(String(20), primary_key=True)
     player_name = Column(String(50))
     shoots = Column(String(50))
-    last_season_games = Column("last season games", Integer)
-    last_season_points = Column("last season points", Float)
-    last_season_total_rebound_pct = Column(
-        "last season total rebound percentage", Float
-    )
-    last_season_assists_pct = Column("last season assists percentage", Float)
-    last_season_field_goal_pct = Column("last season field goal percentage", Float)
-    last_season_three_point_pct = Column("last season 3pt field goal percentage", Float)
-    last_season_free_throw_pct = Column("last season tfree throw percentage", Float)
-    last_season_effective_fg_pct = Column(
-        "last season effective field goal percentage", Float
-    )
-    last_season_player_efficiency_rating = Column(
-        "last season player efficiency rating", Float
-    )
-    last_season_win_shares = Column("last season win shares", Float)
+    last_season_games = Column(Integer)
+    last_season_points = Column(Float)
+    last_season_total_rebound_pct = Column(Float)
+    last_season_assists_pct = Column(Float)
+    last_season_field_goal_pct = Column(Float)
+    last_season_three_point_pct = Column(Float)
+    last_season_free_throw_pct = Column(Float)
+    last_season_effective_fg_pct = Column(Float)
+    last_season_player_efficiency_rating = Column(Float)
+    last_season_win_shares = Column(Float)
     experience = Column(String(20))
-    career_games = Column("career games", Integer)
-    career_points = Column("career points", Float)
-    career_total_rebound_pct = Column("career total rebound percentage", Float)
-    career_assists_pct = Column("career assists percentage", Float)
-    career_field_goal_pct = Column("career field goal percentage", Float)
-    career_three_point_pct = Column("career 3pt field goal percentage", Float)
-    career_free_throw_pct = Column("career free throw percentage", Float)
-    career_effective_fg_pct = Column("career effective field goal percentage", Float)
-    career_player_efficiency_rating = Column("career player efficiency rating", Float)
-    career_win_shares = Column("career win shares", Float)
+    career_games = Column(Integer)
+    career_points = Column(Float)
+    career_total_rebound_pct = Column(Float)
+    career_assists_pct = Column(Float)
+    career_field_goal_pct = Column(Float)
+    career_three_point_pct = Column(Float)
+    career_free_throw_pct = Column(Float)
+    career_effective_fg_pct = Column(Float)
+    career_player_efficiency_rating = Column(Float)
+    career_win_shares = Column(Float)
     pos1 = Column(String(50))
     pos2 = Column(String(50))
     pos3 = Column(String(50))
@@ -72,7 +67,7 @@ class Player(Base):
     weight_in_kg = Column(Float)
     age = Column(Integer)
 
-    stats = relationship(
+    playerstats = relationship(
         "PlayerStat", back_populates="player", cascade="all, delete-orphan"
     )
     mvp_finishes = relationship(
@@ -81,7 +76,12 @@ class Player(Base):
     mvp_titles = relationship(
         "MVPWinner", back_populates="player", cascade="all, delete-orphan"
     )
-    # roster_entries = relationship("Roster", back_populates="player", cascade="all, delete-orphan")
+    rosters = relationship(
+        "Roster", back_populates="player", cascade="all, delete-orphan"
+    )
+    advanced_stats = relationship(
+        "AdvancedStat", back_populates="player", cascade="all, delete-orphan"
+    )
 
 
 class Team(Base):
@@ -92,23 +92,23 @@ class Team(Base):
     performances = relationship(
         "TeamPerformance", back_populates="team", cascade="all, delete-orphan"
     )
-    # roster_entries = relationship(
-    #     "Roster", back_populates="team", cascade="all, delete-orphan"
-    # )
     player_stats = relationship("PlayerStat", back_populates="team")
-
+    roster_entries = relationship(
+        "Roster", back_populates="team", cascade="all, delete-orphan"
+    )
     mvp_titles = relationship("MVPWinner", back_populates="team")
-    mvp_finishes = relationship("MVPCandidate", back_populates="team_ref")
+    mvp_finishes = relationship("MVPCandidate", back_populates="team")
+    advanced_stats = relationship("AdvancedStat", back_populates="team")
 
 
 class PlayerStat(Base):
     __tablename__ = "player_stats"
 
     season = Column(Integer, primary_key=True)
-    player_id = Column(String(50), ForeignKey("players.player_id"), primary_key=True)
+    player_id = Column(String(20), ForeignKey("players.player_id"), primary_key=True)
     rank = Column(Integer)
     age = Column(Integer)
-    team_id = Column(String(50), ForeignKey("team_lookup.team_id"))
+    team_id = Column(String(20), ForeignKey("team_lookup.team_id"))
     position = Column(String(50))
     games_played = Column(Integer)
     games_started = Column(Integer)
@@ -137,7 +137,7 @@ class PlayerStat(Base):
     points = Column(Integer)
     triple_doubles = Column(Integer)
 
-    player = relationship("Player", back_populates="stats")
+    player = relationship("Player", back_populates="playerstats")
     team = relationship("Team", back_populates="player_stats")
 
 
@@ -146,7 +146,7 @@ class MVPWinner(Base):
 
     season = Column(Integer, primary_key=True)
     league = Column(String(20), primary_key=True)
-    player_id = Column(String(50), ForeignKey("players.player_id"))
+    player_id = Column(String(20), ForeignKey("players.player_id"))
     age = Column(Integer)
     team_id = Column(String(20), ForeignKey("team_lookup.team_id"))
     games = Column(Integer)
@@ -203,9 +203,7 @@ class SeasonStat(Base):
     __tablename__ = "season_stats"
     season = Column(Integer, primary_key=True)
     league = Column(String(20))
-    champion_team_name = Column(
-        "champion_name", String(100), ForeignKey("team_lookup.team_name")
-    )
+    champion_name = Column(String(50), ForeignKey("team_lookup.team_name"))
     mvp = Column(String(50))
     rookie_of_the_year = Column(String(50))
     most_points = Column(String(50))
@@ -218,23 +216,24 @@ class Roster(Base):
     __tablename__ = "rosters"
 
     season = Column(Integer, ForeignKey("season_stats.season"), primary_key=True)
-    player_id = Column(String(50), ForeignKey("players.player_id"), primary_key=True)
-    team_id = Column(String(50), ForeignKey("team_lookup.team_id"), primary_key=True)
+    player_id = Column(String(20), ForeignKey("players.player_id"), primary_key=True)
+    team_id = Column(String(20), ForeignKey("team_lookup.team_id"), primary_key=True)
     pos1 = Column(String(50))
     pos2 = Column(String(50))
-    player = relationship("Player", backref="roster_entries")
-    team = relationship("Team", backref="roster_entries")
+
+    player = relationship("Player", back_populates="rosters")
+    team = relationship("Team", back_populates="roster_entries")
 
 
 class AdvancedStat(Base):
     __tablename__ = "advanced_stats"
 
     season = Column(Integer, ForeignKey("season_stats.season"), primary_key=True)
-    player_id = Column(String(50), ForeignKey("players.player_id"), primary_key=True)
+    player_id = Column(String(20), ForeignKey("players.player_id"), primary_key=True)
 
     rank = Column(Integer)
     age = Column(Integer)
-    team = Column(String(50), ForeignKey("team_lookup.team_id"))
+    team_id = Column(String(20), ForeignKey("team_lookup.team_id"))
     position = Column(String(50))
     games = Column(Integer)
     games_started = Column(Integer)
@@ -264,19 +263,19 @@ class AdvancedStat(Base):
     defensive_box_plus_minus = Column(Float)
     value_over_replacement_player = Column(Float)
 
-    player = relationship("Player", backref="advanced_stats")
-    team_ref = relationship("Team", backref="advanced_stats", foreign_keys=[team])
+    player = relationship("Player", back_populates="advanced_stats")
+    team = relationship("Team", back_populates="advanced_stats")
 
 
 class MVPCandidate(Base):
     __tablename__ = "mvp_candidates"
 
     year = Column(Integer, primary_key=True)
-    player_id = Column(String(50), ForeignKey("players.player_id"), primary_key=True)
+    player_id = Column(String(20), ForeignKey("players.player_id"), primary_key=True)
     rank = Column(Integer)
     tie = Column(Boolean)
     age = Column(Integer)
-    team = Column(String(20), ForeignKey("team_lookup.team_id"))
+    team_id = Column(String(20), ForeignKey("team_lookup.team_id"))
     first_place_votes = Column(Integer)
     points_won = Column(Integer)
     points_max = Column(Integer)
@@ -295,7 +294,7 @@ class MVPCandidate(Base):
     ws_per_48 = Column(Float)
 
     player = relationship("Player", back_populates="mvp_finishes")
-    team_ref = relationship("Team", back_populates="mvp_finishes", foreign_keys=[team])
+    team = relationship("Team", back_populates="mvp_finishes")
 
 
 def create_schema() -> None:
