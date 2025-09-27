@@ -321,6 +321,9 @@ def clean_team_stats() -> None:
     team_lookup["team_name"] = (
         team_lookup["team_name"].explode().groupby(level=0).first()
     )
+    team_lookup.loc[team_lookup["team_id"] == "CHO", "team_name"] = (
+        "Charlotte Hornets (2014-)"
+    )
 
     teams.drop(columns="team_name", axis=1, inplace=True)
 
