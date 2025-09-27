@@ -11,6 +11,8 @@ from create_db.data_classes import (
     MVPWinner,
     SeasonStat,
     MVPCandidate,
+    Roster,
+    AdvancedStat,
 )
 from sqlalchemy import text
 
@@ -47,13 +49,12 @@ MODEL_BY_TABLE = {
     MVPWinner.__tablename__: MVPWinner,
     SeasonStat.__tablename__: SeasonStat,
     MVPCandidate.__tablename__: MVPCandidate,
+    Roster.__tablename__: Roster,
+    AdvancedStat.__tablename__: AdvancedStat,
 }
 
 load_order = [table.name for table in Base.metadata.sorted_tables]
 ##order of tables is important when populating a relational database (because of foreign keys)
-
-
-
 
 
 def populate_db():

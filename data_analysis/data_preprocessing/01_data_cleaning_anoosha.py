@@ -269,6 +269,8 @@ def clean_seasons() -> None:
     )
     seasons["season"] = season.values
 
+    seasons = seasons[seasons["season"] >= 2000]
+
     seasons.to_csv(os.path.join(DATA_CLEAN_DIR, "season_stats.csv"), index=False)
 
 

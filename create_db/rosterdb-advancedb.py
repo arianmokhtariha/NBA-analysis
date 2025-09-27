@@ -6,8 +6,6 @@ class Roster(Base):
     team_id = Column(String(50), ForeignKey("team_lookup.team_id"), primary_key=True)
     pos1 = Column(String(50))
     pos2 = Column(String(50))
-
-    
     player = relationship("Player", backref="roster_entries")
     team = relationship("Team", backref="roster_entries")
 
