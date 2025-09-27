@@ -87,7 +87,7 @@ class Player(Base):
 class Team(Base):
     __tablename__ = "team_lookup"
     team_id = Column(String(20), primary_key=True)
-    team_name = Column(String(50), nullable=False)
+    team_name = Column(String(50), nullable=False, unique=True)
 
     performances = relationship(
         "TeamPerformance", back_populates="team", cascade="all, delete-orphan"
@@ -205,7 +205,7 @@ class SeasonStat(Base):
     season = Column(Integer, primary_key=True)
     league = Column(String(20), primary_key=True)
     champion_team_name = Column(
-        "champion_name", String, ForeignKey("team_lookup.team_name")
+        "champion_name", String(100), ForeignKey("team_lookup.team_name")
     )
     mvp = Column(String(50))
     rookie_of_the_year = Column(String(50))
@@ -251,4 +251,9 @@ class MVPCandidate(Base):
 
 
 def create_schema() -> None:
+    Base.metadata.create_all(bind=engine)
+
+
+def reset_schema() -> None:
+    Base.metadata.drop_all(bind=engine)
     Base.metadata.create_all(bind=engine)
