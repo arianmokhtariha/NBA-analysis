@@ -189,10 +189,9 @@ def clean_mvp_winners() -> None:
     )
 
 
-def clean_player_stats() -> None:
-    player_stats_raw_path = os.path.join(RAW_DATA_DIR, "player_stats.xlsx")
-    player_stats = pd.read_excel(player_stats_raw_path)
-
+def clean_player_stats() -> pd.DataFrame:
+    player_stats_raw_path = os.path.join(RAW_DATA_DIR, "player_stats.csv")
+    player_stats = pd.read_csv(player_stats_raw_path)
     player_stats.columns = player_stats.columns.str.lower()
 
     player_stats_column_map = {
@@ -239,14 +238,17 @@ def clean_player_stats() -> None:
     #! TOT is not a team. its season total (aggregated) across both teams. find the team from other tables
 
     player_stats["team_id"] = player_stats["team_id"].fillna("TOT")
+
     player_stats = player_stats.sort_values(
         ["season", "player_id", "team_id"], key=lambda s: s != "TOT"
     ).drop_duplicates(["season", "player_id"], keep="first")
 
-    player_stats.to_csv(
-        os.path.join(DATA_CLEAN_DIR, "player_stats.csv"),
-        index=False,
-    )
+    return player_stats
+
+    # player_stats.to_csv(
+    #     os.path.join(DATA_CLEAN_DIR, "player_stats.csv"),
+    #     index=False,
+    # )
 
 
 def clean_seasons() -> None:

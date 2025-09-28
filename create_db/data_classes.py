@@ -231,14 +231,6 @@ class AdvancedStat(Base):
     season = Column(Integer, ForeignKey("season_stats.season"), primary_key=True)
     player_id = Column(String(20), ForeignKey("players.player_id"), primary_key=True)
 
-    rank = Column(Integer)
-    age = Column(Integer)
-    team_id = Column(String(20), ForeignKey("team_lookup.team_id"))
-    position = Column(String(50))
-    games = Column(Integer)
-    games_started = Column(Integer)
-    minute_played = Column(Float)
-
     player_efficiency_rate = Column(Float)
     true_shooting_percentage = Column(Float)
     three_point_attempt_rate = Column(Float)
@@ -264,7 +256,6 @@ class AdvancedStat(Base):
     value_over_replacement_player = Column(Float)
 
     player = relationship("Player", back_populates="advanced_stats")
-    team = relationship("Team", back_populates="advanced_stats")
 
 
 class MVPCandidate(Base):
