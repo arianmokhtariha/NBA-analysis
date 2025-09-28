@@ -111,6 +111,7 @@ def clean_mvp_candidates() -> None:
         "3p%": "three_pct",
         "ft%": "ft_pct",
         "ws/48": "ws_per_48",
+        "team": "team_id",
     }
 
     mvp_candidates_df = mvp_candidates_df.rename(columns=mvp_candidates_df_col_names)
@@ -132,7 +133,7 @@ def clean_mvp_candidates() -> None:
         "rank",
         "tie",
         "age",
-        "team",
+        "team_id",
         "first_place_votes",
         "points_won",
         "points_max",
@@ -460,7 +461,7 @@ def clean_merge_players_v2():
         "player_id": "player_id",
         "player_name": "player_name",
         "shoots": "shoots",
-        "draft team": "draft_team_id",
+        "draft team": "draft_team_name",
         "experience": "experience",
         "nba debut": "nba_debut",
         "p1": "position_1",
@@ -491,10 +492,8 @@ def clean_merge_players_v2():
 
 
 def normalize_advanced_and_roster() -> None:
-    advanced_stats = pd.read_csv(
-        os.path.join(DATA_CLEAN_DIR, "advanced_stats.csv"), index_col=0
-    )
-    rosters = pd.read_csv(os.path.join(DATA_CLEAN_DIR, "rosters.csv"), index_col=0)
+    advanced_stats = pd.read_csv(os.path.join(DATA_CLEAN_DIR, "advanced_stats.csv"))
+    rosters = pd.read_csv(os.path.join(DATA_CLEAN_DIR, "rosters.csv"))
     rosters = normalize_object_columns(rosters)
     advanced_stats = normalize_object_columns(advanced_stats)
     rosters.to_csv(os.path.join(DATA_CLEAN_DIR, "rosters.csv"), index=False)
