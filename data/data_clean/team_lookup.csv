@@ -1,38 +1,38 @@
 team_id,team_name
-ATL,Atlanta Hawks
-BOS,Boston Celtics
-BRK,Brooklyn Nets
-CHA,Charlotte Bobcats
-CHH,Charlotte Hornets
-CHI,Chicago Bulls
-CHO,Charlotte Hornets (2014-)
-CLE,Cleveland Cavaliers
-DAL,Dallas Mavericks
-DEN,Denver Nuggets
-DET,Detroit Pistons
-GSW,Golden State Warriors
-HOU,Houston Rockets
-IND,Indiana Pacers
-LAC,Los Angeles Clippers
-LAL,Los Angeles Lakers
-MEM,Memphis Grizzlies
-MIA,Miami Heat
-MIL,Milwaukee Bucks
-MIN,Minnesota Timberwolves
-NJN,New Jersey Nets
-NOH,New Orleans Hornets
-NOK,New Orleans/Oklahoma City Hornets
-NOP,New Orleans Pelicans
-NYK,New York Knicks
-OKC,Oklahoma City Thunder
-ORL,Orlando Magic
-PHI,Philadelphia 76ers
-PHO,Phoenix Suns
-POR,Portland Trail Blazers
-SAC,Sacramento Kings
-SAS,San Antonio Spurs
-SEA,Seattle SuperSonics
-TOR,Toronto Raptors
-UTA,Utah Jazz
-VAN,Vancouver Grizzlies
-WAS,Washington Wizards
+atl,atlanta hawks
+bos,boston celtics
+brk,brooklyn nets
+cha,charlotte bobcats
+chh,charlotte hornets
+chi,chicago bulls
+cho,charlotte hornets (2014-)
+cle,cleveland cavaliers
+dal,dallas mavericks
+den,denver nuggets
+det,detroit pistons
+gsw,golden state warriors
+hou,houston rockets
+ind,indiana pacers
+lac,los angeles clippers
+lal,los angeles lakers
+mem,memphis grizzlies
+mia,miami heat
+mil,milwaukee bucks
+min,minnesota timberwolves
+njn,new jersey nets
+noh,new orleans hornets
+nok,new orleans/oklahoma city hornets
+nop,new orleans pelicans
+nyk,new york knicks
+okc,oklahoma city thunder
+orl,orlando magic
+phi,philadelphia 76ers
+pho,phoenix suns
+por,portland trail blazers
+sac,sacramento kings
+sas,san antonio spurs
+sea,seattle supersonics
+tor,toronto raptors
+uta,utah jazz
+van,vancouver grizzlies
+was,washington wizards

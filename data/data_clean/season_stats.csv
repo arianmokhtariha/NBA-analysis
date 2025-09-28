@@ -1,27 +1,27 @@
 season,league,champion_name,mvp,rookie_of_the_year,most_points,most_rebounds,most_assists,most_winshares
-2025,NBA,Oklahoma City Thunder,S. Gilgeous-Alexander,S. Castle,S. Gilgeous-Alexander,I. Zubac,T. Young,S. Gilgeous-Alexander
-2024,NBA,Boston Celtics,N. Jokić,V. Wembanyama,L. Dončić,D. Sabonis,T. Haliburton,N. Jokić
-2023,NBA,Denver Nuggets,J. Embiid,P. Banchero,J. Tatum,D. Sabonis,T. Young,N. Jokić
-2022,NBA,Golden State Warriors,N. Jokić,S. Barnes,T. Young,N. Jokić,T. Young,N. Jokić
-2021,NBA,Milwaukee Bucks,N. Jokić,L. Ball,S. Curry,R. Gobert,R. Westbrook,N. Jokić
-2020,NBA,Los Angeles Lakers,G. Antetokounmpo,J. Morant,J. Harden,R. Gobert,L. James,J. Harden
-2019,NBA,Toronto Raptors,G. Antetokounmpo,L. Dončić,J. Harden,A. Drummond,R. Westbrook,J. Harden
-2018,NBA,Golden State Warriors,J. Harden,B. Simmons,L. James,A. Drummond,R. Westbrook,J. Harden
-2017,NBA,Golden State Warriors,R. Westbrook,M. Brogdon,R. Westbrook,A. Drummond,J. Harden,J. Harden
-2016,NBA,Cleveland Cavaliers,S. Curry,K. Towns,J. Harden,A. Drummond,R. Rondo,S. Curry
-2015,NBA,Golden State Warriors,S. Curry,A. Wiggins,J. Harden,D. Jordan,C. Paul,J. Harden
-2014,NBA,San Antonio Spurs,K. Durant,M. Carter-Williams,K. Durant,D. Jordan,J. Wall,K. Durant
-2013,NBA,Miami Heat,L. James,D. Lillard,K. Durant,Ö. Aşık,G. Vásquez,L. James
-2012,NBA,Miami Heat,L. James,K. Irving,K. Durant,D. Howard,S. Nash,L. James
-2011,NBA,Dallas Mavericks,D. Rose,B. Griffin,K. Durant,K. Love,S. Nash,L. James
-2010,NBA,Los Angeles Lakers,L. James,T. Evans,K. Durant,D. Howard,S. Nash,L. James
-2009,NBA,Los Angeles Lakers,L. James,D. Rose,D. Wade,D. Howard,C. Paul,L. James
-2008,NBA,Boston Celtics,K. Bryant,K. Durant,K. Bryant,D. Howard,C. Paul,C. Paul
-2007,NBA,San Antonio Spurs,D. Nowitzki,B. Roy,K. Bryant,D. Howard,S. Nash,D. Nowitzki
-2006,NBA,Miami Heat,S. Nash,C. Paul,K. Bryant,D. Howard,S. Nash,D. Nowitzki
-2005,NBA,San Antonio Spurs,S. Nash,E. Okafor,A. Iverson,K. Garnett,S. Nash,K. Garnett
-2004,NBA,Detroit Pistons,K. Garnett,L. James,K. Garnett,K. Garnett,S. Marbury,K. Garnett
-2003,NBA,San Antonio Spurs,T. Duncan,A. Stoudemire,K. Bryant,B. Wallace,J. Kidd,T. Duncan
-2002,NBA,Los Angeles Lakers,T. Duncan,P. Gasol,P. Pierce,T. Duncan,A. Miller,T. Duncan
-2001,NBA,Los Angeles Lakers,A. Iverson,M. Miller,J. Stackhouse,B. Wallace,J. Kidd,S. O'Neal
-2000,NBA,Los Angeles Lakers,S. O'Neal,E. Brand,S. O'Neal,D. Mutombo,G. Payton,S. O'Neal
+2025,nba,oklahoma city thunder,s. gilgeous-alexander,s. castle,s. gilgeous-alexander,i. zubac,t. young,s. gilgeous-alexander
+2024,nba,boston celtics,n. jokić,v. wembanyama,l. dončić,d. sabonis,t. haliburton,n. jokić
+2023,nba,denver nuggets,j. embiid,p. banchero,j. tatum,d. sabonis,t. young,n. jokić
+2022,nba,golden state warriors,n. jokić,s. barnes,t. young,n. jokić,t. young,n. jokić
+2021,nba,milwaukee bucks,n. jokić,l. ball,s. curry,r. gobert,r. westbrook,n. jokić
+2020,nba,los angeles lakers,g. antetokounmpo,j. morant,j. harden,r. gobert,l. james,j. harden
+2019,nba,toronto raptors,g. antetokounmpo,l. dončić,j. harden,a. drummond,r. westbrook,j. harden
+2018,nba,golden state warriors,j. harden,b. simmons,l. james,a. drummond,r. westbrook,j. harden
+2017,nba,golden state warriors,r. westbrook,m. brogdon,r. westbrook,a. drummond,j. harden,j. harden
+2016,nba,cleveland cavaliers,s. curry,k. towns,j. harden,a. drummond,r. rondo,s. curry
+2015,nba,golden state warriors,s. curry,a. wiggins,j. harden,d. jordan,c. paul,j. harden
+2014,nba,san antonio spurs,k. durant,m. carter-williams,k. durant,d. jordan,j. wall,k. durant
+2013,nba,miami heat,l. james,d. lillard,k. durant,ö. aşık,g. vásquez,l. james
+2012,nba,miami heat,l. james,k. irving,k. durant,d. howard,s. nash,l. james
+2011,nba,dallas mavericks,d. rose,b. griffin,k. durant,k. love,s. nash,l. james
+2010,nba,los angeles lakers,l. james,t. evans,k. durant,d. howard,s. nash,l. james
+2009,nba,los angeles lakers,l. james,d. rose,d. wade,d. howard,c. paul,l. james
+2008,nba,boston celtics,k. bryant,k. durant,k. bryant,d. howard,c. paul,c. paul
+2007,nba,san antonio spurs,d. nowitzki,b. roy,k. bryant,d. howard,s. nash,d. nowitzki
+2006,nba,miami heat,s. nash,c. paul,k. bryant,d. howard,s. nash,d. nowitzki
+2005,nba,san antonio spurs,s. nash,e. okafor,a. iverson,k. garnett,s. nash,k. garnett
+2004,nba,detroit pistons,k. garnett,l. james,k. garnett,k. garnett,s. marbury,k. garnett
+2003,nba,san antonio spurs,t. duncan,a. stoudemire,k. bryant,b. wallace,j. kidd,t. duncan
+2002,nba,los angeles lakers,t. duncan,p. gasol,p. pierce,t. duncan,a. miller,t. duncan
+2001,nba,los angeles lakers,a. iverson,m. miller,j. stackhouse,b. wallace,j. kidd,s. o'neal
+2000,nba,los angeles lakers,s. o'neal,e. brand,s. o'neal,d. mutombo,g. payton,s. o'neal
