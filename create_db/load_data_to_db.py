@@ -29,7 +29,7 @@ for file in os.listdir(clean_data_path):
     if file.endswith(".csv"):
         file_path = os.path.join(clean_data_path, file)
         key = os.path.splitext(file)[0]
-        dataframes[key] = pd.read_csv(file_path, encoding="latin1")
+        dataframes[key] = pd.read_csv(file_path, encoding="utf-8")
 
 # for key, val in dataframes.items():
 #     print(key)
@@ -45,7 +45,6 @@ def to_records(df: pd.DataFrame) -> list[dict]:
     for row in df.to_dict(orient="records"):
         rows.append({col: (None if pd.isna(val) else val) for col, val in row.items()})
     return rows
-
 
 
 """
