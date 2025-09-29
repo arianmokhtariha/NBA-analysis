@@ -14,7 +14,6 @@ from datetime import date, timedelta
 from sqlalchemy import select, func, case, literal_column, text
 from sqlalchemy.orm import aliased
 
-
 session = SessionLocal()
 ```
 
