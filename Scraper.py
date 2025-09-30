@@ -1002,7 +1002,7 @@ class BasketballScraper:
                 else ""
             ):
                 continue
-            if counter == 70:
+            if counter == 1000:
                 break
             year.append(year_range[i])
             rank.append(
