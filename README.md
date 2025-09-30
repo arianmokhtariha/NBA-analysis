@@ -7,7 +7,25 @@
 
 - **Stage 3** – Data Architecture & Relational Management: A MySQL warehouse was defined via create_db/data_classes.py, loaded through the companion ETL scripts, and documented with ER diagrams.
 
-- **Stage 4** – Data Analysis & Visualization: --
+- **Stage 4** – Data Analysis & Visualization:
+
+
+-----
+- `Data-Analysis-Projects-2-Basketball`/
+  - `data/` — Source tables (raw and curated) for seasons, players, rosters, MVP candidates.
+    - `data_clean/` — Outputs of the data-cleaning pipeline; feeds analysis notebooks and DB loader.
+  - `data_analysis/` — Exploratory and statistical investigations by team members.
+    - `data_preprocessing/` — Core cleaning scripts, incl. `01_data_cleaning_anoosha.py` pipeline.
+  - `create_db/` — Scripts and configs for loading cleaned data into the local database.
+  - `archive/` — Legacy scrapers and exploratory prototypes kept for reference.
+  - `docs/` — Project documentation (schema diagrams, SQLAlchemy cheat sheet).
+  - `main.py` — Orchestrates scraping/analysis workflows with shared utilities.
+  - `Scraper.py` / `main_scraper.ipynb` — High-level scraper interface and interactive runner.
+  - `presentation_utils.py` — Shared plotting helpers used across notebooks.
+  - `presentation.ipynb` — **Final storytelling notebook**
+  - `requirements.txt` — Python dependencies for the project environment.
+
+
 
 
 
