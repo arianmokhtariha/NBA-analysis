@@ -18,6 +18,19 @@ from scipy.stats import pearsonr
 
 ### Mona
 
+def snake_to_camel(s: str):
+    parts = s.split("_")
+    return parts[0].lower() + "".join(word.capitalize() for word in parts[1:])
+
+def format_column_name(col: str) -> str:
+    parts = col.split("_")
+    if len(parts) > 1 and len(parts[-1]) <= 5: 
+        name = " ".join(parts[:-1])
+        unit = parts[-1]
+        return f"{name} ({unit})"
+    else:
+        return snake_to_camel(col)
+
 
 def hist_plot(columns_list: list[str], dataframe: pd.DataFrame, x, y) -> None:
     N = len(columns_list)
@@ -33,7 +46,7 @@ def hist_plot(columns_list: list[str], dataframe: pd.DataFrame, x, y) -> None:
     for i, col in enumerate(columns_list):
         sns.histplot(ax=axes[i], x=col, data=dataframe, hue="group_label")
 
-        axes[i].set_title(f"{col}")
+        axes[i].set_title(f"{format_column_name(col)}")
         axes[i].set_ylabel("")
         axes[i].set_xlabel("")
         axes[i].tick_params(axis="y")
@@ -69,7 +82,7 @@ def kde_plot(columns_list: list[str], dataframe: pd.DataFrame, x: int, y: int) -
             common_norm=True,
         )
 
-        axes[i].set_title(f"{col}")
+        axes[i].set_title(f"{format_column_name(col)}")
         axes[i].set_ylabel("")
         axes[i].set_xlabel("")
         axes[i].tick_params(axis="y")
@@ -78,7 +91,7 @@ def kde_plot(columns_list: list[str], dataframe: pd.DataFrame, x: int, y: int) -
         sns.despine(ax=axes[i], top=True, right=True)
 
     fig.suptitle(
-        f"Distribution of: {', '.join(columns_list)} by group", fontweight="bold"
+        f"Distribution of: {', '.join(format_column_name(cl) for cl in columns_list)} by group", fontweight="bold"
     )
 
     for j in range(N, len(axes)):
@@ -105,7 +118,7 @@ def box_plot(
         sns.boxplot(ax=axes[i], data=dataframe, x="group_label", y=col)
         axes[i].set_title("")
         axes[i].set_ylabel("")
-        axes[i].set_xlabel(f"{col}")
+        axes[i].set_xlabel(f"{format_column_name(col)}")
         axes[i].grid(axis="y", linestyle="--", linewidth=0.5, alpha=0.3)
         axes[i].tick_params(axis="both")
         sns.despine(ax=axes[i], top=True, right=True)
