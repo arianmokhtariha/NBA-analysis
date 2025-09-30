@@ -18,13 +18,15 @@ from scipy.stats import pearsonr
 
 ### Mona
 
+
 def snake_to_camel(s: str):
     parts = s.split("_")
     return parts[0].lower() + "".join(word.capitalize() for word in parts[1:])
 
+
 def format_column_name(col: str) -> str:
     parts = col.split("_")
-    if len(parts) > 1 and len(parts[-1]) <= 5: 
+    if len(parts) > 1 and len(parts[-1]) <= 5:
         name = " ".join(parts[:-1])
         unit = parts[-1]
         return f"{name} ({unit})"
@@ -43,8 +45,18 @@ def hist_plot(columns_list: list[str], dataframe: pd.DataFrame, x, y) -> None:
     else:
         axes = axes.flatten()
 
+    palette = ["#2A9D8F", "#E76F51"]
+
     for i, col in enumerate(columns_list):
-        sns.histplot(ax=axes[i], x=col, data=dataframe, hue="group_label")
+        sns.histplot(
+            ax=axes[i],
+            x=col,
+            data=dataframe,
+            hue="group_label",
+            palette=palette,
+            alpha=0.65,
+            edgecolor="none",
+        )
 
         axes[i].set_title(f"{format_column_name(col)}")
         axes[i].set_ylabel("")
@@ -72,6 +84,8 @@ def kde_plot(columns_list: list[str], dataframe: pd.DataFrame, x: int, y: int) -
     else:
         axes = axes.flatten()
 
+    palette = ["#1D3557", "#E63946"]
+
     for i, col in enumerate(columns_list):
         sns.kdeplot(
             ax=axes[i],
@@ -80,6 +94,9 @@ def kde_plot(columns_list: list[str], dataframe: pd.DataFrame, x: int, y: int) -
             hue="group_label",
             fill=True,
             common_norm=True,
+            palette=palette,
+            alpha=0.35,
+            linewidth=1.0,
         )
 
         axes[i].set_title(f"{format_column_name(col)}")
@@ -91,7 +108,8 @@ def kde_plot(columns_list: list[str], dataframe: pd.DataFrame, x: int, y: int) -
         sns.despine(ax=axes[i], top=True, right=True)
 
     fig.suptitle(
-        f"Distribution of: {', '.join(format_column_name(cl) for cl in columns_list)} by group", fontweight="bold"
+        f"Distribution of: {', '.join(format_column_name(cl) for cl in columns_list)} by group",
+        fontweight="bold",
     )
 
     for j in range(N, len(axes)):
@@ -114,8 +132,19 @@ def box_plot(
     else:
         axes = axes.flatten()
 
+    palette = ["#2A9D8F", "#E76F51"]
+
     for i, col in enumerate(columns_list):
-        sns.boxplot(ax=axes[i], data=dataframe, x="group_label", y=col)
+        sns.boxplot(
+            ax=axes[i],
+            data=dataframe,
+            x="group_label",
+            y=col,
+            palette=palette,
+            linewidth=1.2,
+            boxprops={"alpha": 0.8},
+            medianprops={"color": "#1D3557", "linewidth": 1.4},
+        )
         axes[i].set_title("")
         axes[i].set_ylabel("")
         axes[i].set_xlabel(f"{format_column_name(col)}")
