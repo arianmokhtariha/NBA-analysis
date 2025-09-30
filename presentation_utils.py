@@ -544,7 +544,7 @@ def team_performance_metrics(team_df: pd.DataFrame, season):
         axes.yaxis.set_major_formatter(PercentFormatter(xmax=100, decimals=0))
 
     sns.despine(fig=fig)
-    # fig.tight_layout(rect=[0, 0.05, 1, 0.98])
+    fig.tight_layout(rect=(0, 0.05, 1, 0.98))
     fig.tight_layout()
 
     fig.suptitle(
@@ -558,8 +558,8 @@ def team_performance_metrics(team_df: pd.DataFrame, season):
 
     fig.supxlabel(
         "Rank",
-        x=0.5,
-        y=0.03,
+        x=0.51,
+        y=-0.01,
         fontsize=13,
         fontweight="bold",
         backgroundcolor="lightgrey",
@@ -590,11 +590,11 @@ def compare_metric_correlations(team_2024, team_2025):
     fig, axes = plt.subplots(1, 2, figsize=(12, 4), sharey=True, sharex=True)
 
     axes[0].barh(metrics, corr_2024, height=0.6, alpha=0.6, color="darkblue")
-    axes[0].set_title("2024", fontweight="bold")
+    axes[0].set_title("2024 Team Performance Metrics", fontweight="bold")
     axes[0].set_xlabel("Correlation")
 
     axes[1].barh(metrics, corr_2025, height=0.6, alpha=0.6, color="darkblue")
-    axes[1].set_title("2025", fontweight="bold")
+    axes[1].set_title("2025 Team Performance Metrics", fontweight="bold")
     axes[1].set_xlabel("Correlation")
 
     axes[0].set_yticklabels(
@@ -615,7 +615,6 @@ def compare_metric_correlations(team_2024, team_2025):
 
     sns.despine(fig=fig)
     fig.tight_layout()
-    fig.suptitle("Correlation Strength", y=-0.05, fontweight="bold")
     plt.show()
 
 
@@ -781,7 +780,7 @@ def ct_2var(col1_name: str, col2_name: str, df: pd.DataFrame):
 def continuous_vs_binary(
     Dataframe: pd.DataFrame, continuous_Column: str, Binary_Column: str, log_scale=False
 ):
-    fig, ax = plt.subplots(2, 3, figsize=(20, 20))
+    fig, ax = plt.subplots(2, 3, figsize=(20, 15))
     ax = ax.flatten()
 
     sns.boxplot(
