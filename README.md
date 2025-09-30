@@ -12,7 +12,8 @@
 
 
 -----
-#### Project Ownership
+#### Project Repo
+- https://github.com/AlirezaNyi/Data-Analysis-Projects-2-Basketball
 ----
 ##### Data Collection / Web Scraping 
 
@@ -54,7 +55,60 @@
   - `create_db/load_data_to_db.py`
   - Database launch scripts, ER diagrams, and supporting docs
 
-##### Data Analysis
+##### Project Tree
+```bash
+.
+├── archive
+│   ├── Advanced_Stats_Scraper.py
+│   ├── Basketball_Crawler.ipynb
+│   ├── new_mvp_candidate_scraper.py
+│   ├── Player_Scraper.py
+│   ├── player_stats_scraper.py
+│   ├── seasons_scraper.py
+│   └── Utilies.py
+├── create_db
+│   ├── __init__.py
+│   ├── config_local.py
+│   ├── config_local.sample
+│   ├── data_classes.py
+│   ├── load_data_to_db.py
+│   └── rosterdb-advancedb.py
+├── data
+│   ├── Advanced_stats.csv
+│   ├── data_clean
+│   ├── Mvp_table.csv
+│   ├── new_mvp_candidates.xlsx
+│   ├── player_stats.csv
+│   ├── Player_table.csv
+│   ├── Players_table.csv
+│   ├── seasons_table.xlsx
+│   ├── seasons_teams_total_stats_clean.csv
+│   └── teams_seasons_rosters_clean.csv
+├── data_analysis
+│   ├── Alireza
+│   ├── Anoosha
+│   ├── Arian
+│   ├── data_preprocessing
+│   ├── Mohsen
+│   └── Mona
+├── database_diagram.pdf
+├── docs
+│   ├── schema.md
+│   └── sqlalchemy_cheatsheet.md
+├── main_scraper.ipynb
+├── main.py
+├── presentation_utils.py
+├── presentation.ipynb
+├── README.md
+├── requirements.txt
+├── Scraper.py
+├── temp
+│   ├── seasons_link.csv
+│   └── teams_link.csv
+└── Utilies.py
+
+14 directories, 35 files
+
 
 
 
