@@ -4,6 +4,8 @@
 ![SQLAlchemy](https://img.shields.io/badge/SQLAlchemy-ORM-red)
 ![MySQL](https://img.shields.io/badge/Database-MySQL-00618a)
 ![Scraping](https://img.shields.io/badge/Scraping-Selenium%20%7C%20BS4%20%7C%20Requests-green)
+![Visualization](https://img.shields.io/badge/Visualization-Matplotlib%20%7C%20Seaborn-ff69b4)
+![Stats](https://img.shields.io/badge/Statistical_Analysis-Mann--Whitney%20%7C%20Shapiro--Wilk%20%7C%20Yeo--Johnson-blueviolet)
 ![Status](https://img.shields.io/badge/Status-In%20Progress-yellow)
 
 > **Credit & Collaboration Note:**  
@@ -27,7 +29,7 @@ Unlike simple CSV analysis, this project builds a robust **Data Warehouse** usin
 The project is divided into four distinct engineering stages:
 
 ### 1. Data Collection (Web Scraping)
-*   **Tools:** `Selenium`, `BeautifulSoup4`, `Requests`
+*   **Tools:** `Selenium`, `BeautifulSoup4` (BS4), `Requests`
 *   **Logic:** A custom `BasketballScraper` class (`Scraper.py`) automates the extraction of:
     *   Player bios and career stats (1980-2025).
     *   Season-by-season rosters and MVP voting results.
@@ -51,12 +53,16 @@ The project is divided into four distinct engineering stages:
     *   `mvp_winners` & `mvp_candidates`: Historical award tracking.
     *   `advanced_stats`: Sabermetrics (VORP, WS/48).
 
-### 4. Analysis & Visualization
-*   **Tools:** `Matplotlib`, `Seaborn`, `SciPy`
-*   **Key Insights:**
-    *   **"The Superstar Tax":** Analysis of Usage Rate vs. True Shooting % for top players (Giannis, Harden, Tatum).
-    *   **Draft Value:** Correlation between Draft Pick Number and Career VORP.
-    *   **Team Performance:** Statistical tests on factors contributing to team winning percentages.
+### 4. Statistical Analysis & Methodology
+*   **Tools:** `SciPy`, `Statsmodels`, `Seaborn`
+*   **Normalization & Distributions:**
+    *   Applied **Yeo-Johnson transformations** to stabilize variance and normalize non-Gaussian distributions (e.g., Salary data, Win Shares).
+    *   Validated distributional assumptions using **Shapiro-Wilk** tests and visualized results via **Q-Q Plots**.
+*   **Hypothesis Testing:**
+    *   **Mann-Whitney U Test:** Conducted non-parametric tests to compare median performance metrics (e.g., VORP) across distinct player clusters (e.g., Top 5 Draft Picks vs. Late Round Picks).
+    *   **Pearson Correlation:** Calculated coefficients ($r$) and p-values to quantify the "Superstar Tax" (relationship between Usage Rate and True Shooting Percentage).
+*   **Feature Engineering:**
+    *   Derived "Availability" metrics by joining Roster data with Team Performance tables to calculate game participation ratios.
 
 ---
 
