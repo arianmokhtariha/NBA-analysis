@@ -1,132 +1,135 @@
-#### Data-Analysis-Projects-2-Basketball
-----
+# 🏀 NBA Data Engineering & Analytics Pipeline
 
-- **Stage 1** – Data Scraping: Player, team, roster, and award datasets were scraped from basketball-reference.com into the raw data/ directory
+![Python](https://img.shields.io/badge/Python-3.9%2B-blue)
+![SQLAlchemy](https://img.shields.io/badge/SQLAlchemy-ORM-red)
+![MySQL](https://img.shields.io/badge/Database-MySQL-00618a)
+![Scraping](https://img.shields.io/badge/Scraping-Selenium%20%7C%20BS4%20%7C%20Requests-green)
+![Status](https://img.shields.io/badge/Status-In%20Progress-yellow)
 
-- **Stage 2** – Data Cleaning & Schema Creation: The raw files were normalized in data_analysis/data_preprocessing/, where identifiers, positions, and metrics were made consistent.
+> **Credit & Collaboration Note:**  
+> This project was originally developed as a group effort for Quera's Data Analysis bootcamp. This repository is a **continuation/fork** containing my own refactored code, database optimizations, and extended analysis.  
+> **Original Team:** 
+  [@AlirezaNyi](https://github.com/AlirezaNyi)
+  [@arianmokhtariha](https://github.com/arianmokhtariha)
+  [@mohsen20roohi-hue](https://github.com/mohsen20roohi-hue)
+  [@MonaKheirieh](https://github.com/MonaKheirieh)
+  [@anooshanth](https://github.com/anooshanth)
 
-- **Stage 3** – Data Architecture & Relational Management: A MySQL warehouse was defined via create_db/data_classes.py, loaded through the companion ETL scripts, and documented with ER diagrams.
+---
 
-- **Stage 4** – Data Analysis & Visualization:
+## 📖 Project Overview
+This project is an end-to-end data pipeline that extracts historical NBA data, normalizes it into a relational database, and performs statistical analysis to identify player performance trends.
 
+Unlike simple CSV analysis, this project builds a robust **Data Warehouse** using **MySQL** and **SQLAlchemy**, featuring a custom-built Object-Oriented Web Scraper and a normalized Star Schema database design.
 
------
-- `Data-Analysis-Projects-2-Basketball`/
-  - `data/` — Source tables (raw and curated) for seasons, players, rosters, MVP candidates.
-    - `data_clean/` — Outputs of the data-cleaning pipeline; feeds analysis notebooks and DB loader.
-  - `data_analysis/` — Exploratory and statistical investigations by team members.
-    - `data_preprocessing/` — Core cleaning scripts, incl. `01_data_cleaning_anoosha.py` pipeline.
-  - `create_db/` — Scripts and configs for loading cleaned data into the local database.
-  - `archive/` — Legacy scrapers and exploratory prototypes kept for reference.
-  - `docs/` — Project documentation (schema diagrams, SQLAlchemy cheat sheet).
-  - `main.py` — Orchestrates scraping/analysis workflows with shared utilities.
-  - `Scraper.py` / `main_scraper.ipynb` — High-level scraper interface and interactive runner.
-  - `presentation_utils.py` — Shared plotting helpers used across notebooks.
-  - `presentation.ipynb` — **Final storytelling notebook**
-  - `requirements.txt` — Python dependencies for the project environment.
+## 🏗️ Architecture & Workflow
 
+The project is divided into four distinct engineering stages:
 
+### 1. Data Collection (Web Scraping)
+*   **Tools:** `Selenium`, `BeautifulSoup4`, `Requests`
+*   **Logic:** A custom `BasketballScraper` class (`Scraper.py`) automates the extraction of:
+    *   Player bios and career stats (1980-2025).
+    *   Season-by-season rosters and MVP voting results.
+    *   Advanced metrics (PER, Win Shares, VORP).
+    *   *Includes anti-bot detection handling and user-agent rotation.*
 
+### 2. Data Cleaning & Normalization
+*   **Tools:** `Pandas`, `NumPy`
+*   **Process:** 
+    *   Standardized player names and resolved ID conflicts.
+    *   Converted imperial measurements (height/weight) to metric.
+    *   Handled missing values for historical data (e.g., pre-3-point era).
+    *   Output: Cleaned CSVs ready for database ingestion.
 
+### 3. Database Architecture (Data Warehousing)
+*   **Tools:** `MySQL`, `SQLAlchemy` (ORM)
+*   **Schema:** Designed a Relational Database with Foreign Key constraints to ensure data integrity.
+*   **Key Tables:**
+    *   `players` (Dimension): Static player details.
+    *   `player_stats` (Fact): Per-season performance.
+    *   `mvp_winners` & `mvp_candidates`: Historical award tracking.
+    *   `advanced_stats`: Sabermetrics (VORP, WS/48).
 
------
-#### Project Repo
-- https://github.com/AlirezaNyi/Data-Analysis-Projects-2-Basketball
-----
-##### Data Collection / Web Scraping 
+### 4. Analysis & Visualization
+*   **Tools:** `Matplotlib`, `Seaborn`, `SciPy`
+*   **Key Insights:**
+    *   **"The Superstar Tax":** Analysis of Usage Rate vs. True Shooting % for top players (Giannis, Harden, Tatum).
+    *   **Draft Value:** Correlation between Draft Pick Number and Career VORP.
+    *   **Team Performance:** Statistical tests on factors contributing to team winning percentages.
 
-- [@AlirezaNyi](https://github.com/AlirezaNyi)
-  - `Scraper.py`
-  - `data/seasons_teams_total_stats_clean.csv`
-  - `data/teams_seasons_rosters_clean.csv`
-- [@arianmokhtariha](https://github.com/arianmokhtariha)
-  - `data/new_mvp_candidates.xlsx`
-  - `data/seasons_table.xlsx`
-  - `data/player_stats.csv`
-- [@mohsen20roohi-hue](https://github.com/mohsen20roohi-hue)
-  - `data/Player_table.csv`
-  - `data/Players_table.csv`
-  - `data/Mvp_table.csv`
-  - `data/Advanced_stats.csv`
+---
 
-##### Data Cleaning & Schema Creation 
+## 📂 Project Structure
 
-- [@MonaKheirieh](https://github.com/MonaKheirieh)
-  - `data/data_clean/rosters.csv`
-  - `data/data_clean/advanced_stats.csv`
-  - `create_db/rosterdb-advancedb.py`
-  - `data_analysis/data_preprocessing/advance_teamclean-mona.ipynb`
-- [@anooshanth](https://github.com/anooshanth)
-  - `data_analysis/data_preprocessing/01_data_cleaning_anoosha.py`
-  - `data/data_clean/players.csv`
-  - `data/data_clean/player_stats.csv`
-  - `data/data_clean/mvp_candidates.csv`
-  - `data/data_clean/mvp_winners.csv`
-  - `data/data_clean/season_stats.csv`
-  - `data/data_clean/team_lookup.csv`
-  - `data/data_clean/teams_performance.csv`
-  - `docs/schema.md`
+```text
+├── Scraper.py                   # Main OO-Scraper Class
+├── create_db/
+│   ├── data_classes.py          # SQLAlchemy ORM Models (Schema Definition)
+│   ├── load_data_to_db.py       # ETL Script (CSV -> MySQL)
+│   └── config_local.sample      # Database connection config
+├── data_analysis/
+│   └── data_preprocessing/      # Cleaning pipelines
+├── presentation.ipynb           # 🚀 FINAL ANALYSIS & STORYTELLING
+├── presentation_utils.py        # Helper functions for plotting & stats
+├── docs/                        # Schema diagrams & Documentation
+└── requirements.txt             # Dependencies
+```
 
-##### Database Architecture & Documentation
-- [@anooshanth](https://github.com/anooshanth)
-  - `create_db/data_classes.py`
-  - `create_db/load_data_to_db.py`
-  - Database launch scripts, ER diagrams, and supporting docs
+## 📊 Database Schema
+The project uses a normalized schema defined in Python using SQLAlchemy. Below is a high-level view:
 
-##### Project Tree
+| Table | Description |
+| :--- | :--- |
+| **Players** | Primary dimension table. Contains biological info, draft history, and physical stats. |
+| **Player_Stats** | Fact table linking Players to Seasons. Contains box score data (PTS, AST, REB). |
+| **Advanced_Stats** | Analytical metrics including PER, Win Shares, and Box Plus/Minus. |
+| **Rosters** | Link table tracking which team a player played for in a specific season. |
+| **MVP_Candidates** | Voting shares and ranks for historical MVP races. |
+
+---
+
+## 🚀 How to Run
+
+### 1. Prerequisites
+*   Python 3.9+
+*   MySQL Server installed locally.
+*   Chrome Driver (managed automatically by `webdriver_manager`).
+
+### 2. Setup
+Clone the repository and install dependencies:
 ```bash
-.
-├── archive
-│   ├── Advanced_Stats_Scraper.py
-│   ├── Basketball_Crawler.ipynb
-│   ├── new_mvp_candidate_scraper.py
-│   ├── Player_Scraper.py
-│   ├── player_stats_scraper.py
-│   ├── seasons_scraper.py
-│   └── Utilies.py
-├── create_db
-│   ├── __init__.py
-│   ├── config_local.py
-│   ├── config_local.sample
-│   ├── data_classes.py
-│   ├── load_data_to_db.py
-│   └── rosterdb-advancedb.py
-├── data
-│   ├── Advanced_stats.csv
-│   ├── data_clean
-│   ├── Mvp_table.csv
-│   ├── new_mvp_candidates.xlsx
-│   ├── player_stats.csv
-│   ├── Player_table.csv
-│   ├── Players_table.csv
-│   ├── seasons_table.xlsx
-│   ├── seasons_teams_total_stats_clean.csv
-│   └── teams_seasons_rosters_clean.csv
-├── data_analysis
-│   ├── Alireza
-│   ├── Anoosha
-│   ├── Arian
-│   ├── data_preprocessing
-│   ├── Mohsen
-│   └── Mona
-├── database_diagram.pdf
-├── docs
-│   ├── schema.md
-│   └── sqlalchemy_cheatsheet.md
-├── main_scraper.ipynb
-├── main.py
-├── presentation_utils.py
-├── presentation.ipynb
-├── README.md
-├── requirements.txt
-├── Scraper.py
-├── temp
-│   ├── seasons_link.csv
-│   └── teams_link.csv
-└── Utilies.py
+git clone https://github.com/YourUsername/NBA-Data-Pipeline.git
+pip install -r requirements.txt
+```
 
-14 directories, 35 files
+### 3. Database Configuration
+1.  Navigate to `create_db/`.
+2.  Rename `config_local.sample` to `config_local.py`.
+3.  Update the file with your MySQL credentials:
+    ```python
+    DB_USER = "root"
+    DB_PASSWORD = "yourpassword"
+    DB_NAME = "basketball_stats"
+    ```
 
+### 4. Run the Pipeline
+**To Scrape Data (Optional - data is already in `data/`):**
+```bash
+# Runs the interactive scraper notebook
+jupyter notebook main_scraper.ipynb
+```
 
+**To Load Database:**
+```bash
+# Creates tables and loads clean CSVs into MySQL
+python main.py load_data
+```
 
+**To View Analysis:**
+Open `presentation.ipynb` in Jupyter Notebook/Lab to see the visualizations and statistical breakdown.
 
+---
+
+## 📈 Future Improvements
+*   **Predictive Modeling:** Train a model to predict the next season's MVP based on the `mvp_candidates` historical data.
