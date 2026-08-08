@@ -10,10 +10,17 @@ build/
 .env
 .venv
 .ipynb_checkpoints/
+
 # VS Code
 .vscode/
+
 # MacOS
 .DS_Store
+
 # Jupyter
 .ipynb_checkpoints/
 config_local.py
+
+# claude
+.claude/ 
+CLAUDE.md
