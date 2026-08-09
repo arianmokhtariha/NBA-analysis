@@ -1,0 +1,43 @@
+# Curated environment for this project.
+# Versions are pinned to those verified in the `analyst_313` env used to build it.
+#
+#   conda env create -f environment.yml
+#   conda activate nba-analysis
+#
+# If you already work in `analyst_313`, everything here is present — no action needed.
+name: nba-analysis
+
+channels:
+  - conda-forge
+
+dependencies:
+  - python=3.13
+
+  # data handling
+  - pandas=3.0.1
+  - numpy=2.4.2
+  - pyarrow=24.0.0
+  - openpyxl=3.1.5          # reads the .xlsx sources in data/raw/
+
+  # database
+  - psycopg2=2.9.12
+  - sqlalchemy=2.0.46
+  - python-dotenv
+
+  # scraping
+  - requests=2.32.5
+  - beautifulsoup4=4.14.3
+  - lxml                    # faster/stricter parser than the html.parser fallback
+  - tqdm=4.67.3
+  - selenium=4.41.0         # only needed if the season-summary page resists plain requests
+
+  # analysis and plotting
+  - scipy=1.17.0
+  - statsmodels=0.14.6
+  - matplotlib=3.10.8
+  - seaborn=0.13.2
+  - pillow=11.3.0           # player photos in the superstar-tax chart
+
+  # notebooks
+  - jupyterlab
+  - ipykernel
