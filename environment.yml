@@ -29,7 +29,6 @@ dependencies:
   - beautifulsoup4=4.14.3
   - lxml                    # faster/stricter parser than the html.parser fallback
   - tqdm=4.67.3
-  - selenium=4.41.0         # only needed if the season-summary page resists plain requests
 
   # analysis and plotting
   - scipy=1.17.0
