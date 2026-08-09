@@ -293,9 +293,10 @@ ported unchanged.
 
 ---
 
-## 7. Follow-up not done here
+## 7. Follow-up
 
-`docs/schema.md` still describes the old `data/data_clean/` tables and points
+`docs/schema.md` used to describe the old `data/data_clean/` tables and point
 at `data_analysis/data_preprocessing/01_data_cleaning_anoosha.py`, which this
-change deletes. It needs rewriting against the 11 tables above before the
-PostgreSQL loader is updated.
+change deletes. It has since been rewritten against the 11 tables above, and
+now documents the `processed` schema as loaded into PostgreSQL. See also
+`docs/data_dictionary.md` for the `analyst_ready` marts built on top of it.
