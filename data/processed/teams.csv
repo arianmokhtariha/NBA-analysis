@@ -1,0 +1,76 @@
+team_id,team_name,is_aggregate,has_detail
+and,Anderson Packers,False,True
+atl,Atlanta Hawks,False,True
+bal,Baltimore Bullets,False,True
+blb,Baltimore Bullets,False,True
+bos,Boston Celtics,False,True
+brk,Brooklyn Nets,False,True
+buf,Buffalo Braves,False,True
+cap,Capital Bullets,False,True
+cha,Charlotte Bobcats,False,True
+chh,Charlotte Hornets,False,True
+chi,Chicago Bulls,False,True
+cho,Charlotte Hornets,False,True
+chp,Chicago Packers,False,True
+chs,Chicago Stags,False,True
+chz,Chicago Zephyrs,False,True
+cin,Cincinnati Royals,False,True
+cle,Cleveland Cavaliers,False,True
+dal,Dallas Mavericks,False,True
+den,Denver Nuggets,False,True
+det,Detroit Pistons,False,True
+dnn,Denver Nuggets,False,True
+ftw,Fort Wayne Pistons,False,True
+gsw,Golden State Warriors,False,True
+hou,Houston Rockets,False,True
+ina,Indiana Pacers,False,False
+ind,Indiana Pacers,False,True
+ino,Indianapolis Olympians,False,True
+kck,Kansas City Kings,False,True
+kco,Kansas City-Omaha Kings,False,True
+ken,Kentucky Colonels,False,False
+lac,Los Angeles Clippers,False,True
+lal,Los Angeles Lakers,False,True
+mem,Memphis Grizzlies,False,True
+mia,Miami Heat,False,True
+mil,Milwaukee Bucks,False,True
+min,Minnesota Timberwolves,False,True
+mlh,Milwaukee Hawks,False,True
+mnl,Minneapolis Lakers,False,True
+njn,New Jersey Nets,False,True
+noh,New Orleans Hornets,False,True
+noj,New Orleans Jazz,False,True
+nok,New Orleans/Oklahoma City Hornets,False,True
+nop,New Orleans Pelicans,False,True
+nya,New York Nets,False,False
+nyk,New York Knicks,False,True
+nyn,New York Nets,False,True
+oak,Oakland Oaks,False,False
+okc,Oklahoma City Thunder,False,True
+orl,Orlando Magic,False,True
+phi,Philadelphia 76ers,False,True
+pho,Phoenix Suns,False,True
+phw,Philadelphia Warriors,False,True
+por,Portland Trail Blazers,False,True
+ptp,Pittsburgh Pipers,False,False
+roc,Rochester Royals,False,True
+sac,Sacramento Kings,False,True
+sas,San Antonio Spurs,False,True
+sdc,San Diego Clippers,False,True
+sdr,San Diego Rockets,False,True
+sea,Seattle SuperSonics,False,True
+sfw,San Francisco Warriors,False,True
+she,Sheboygan Red Skins,False,True
+stb,St. Louis Bombers,False,True
+stl,St. Louis Hawks,False,True
+syr,Syracuse Nationals,False,True
+tor,Toronto Raptors,False,True
+tot,Multiple Teams (season total),True,False
+tri,Tri-Cities Blackhawks,False,True
+uta,Utah Jazz,False,True
+uts,Utah Stars,False,False
+van,Vancouver Grizzlies,False,True
+was,Washington Wizards,False,True
+wat,Waterloo Hawks,False,True
+wsb,Washington Bullets,False,True
+wsc,Washington Capitols,False,True

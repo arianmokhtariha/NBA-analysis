@@ -1,0 +1,1874 @@
+season,team_id,player_id,player_name,roster_note,position,position_primary,position_secondary,height_cm,weight_kg,birth_date,birth_country,experience_seasons,college
+1947,phw,dallmho01,Howie Dallmar,,F,F,,193.0,90.7,1922-05-24,US,0,Stanford
+1947,phw,fleisje01,Jerry Fleishman,,SG,SG,,188.0,86.2,1922-02-14,US,0,NYU
+1947,phw,fulksjo01,Joe Fulks,,PF,PF,,195.6,86.2,1921-10-26,US,0,"Millsaps College, Murray State"
+1947,phw,guokama01,Matt Guokas,,F,F,,190.5,88.5,1915-11-11,US,0,Saint Joseph's
+1947,phw,hillhar01,Art Hillhouse,,C,C,,200.7,99.8,1916-06-12,US,0,Long Island University
+1947,phw,kaplora01,Ralph Kaplowitz,,G-F,G,F,188.0,77.1,1919-05-18,US,0,NYU
+1947,phw,murphjo01,John Murphy,,F,F,,188.0,79.4,1924-09-13,US,0,
+1947,phw,musian01,Angelo Musi,,G,G,,175.3,65.8,1918-07-25,US,0,Temple
+1947,phw,rosenpe01,Petey Rosenberg,,G,G,,177.8,74.8,1918-04-07,US,0,Saint Joseph's
+1947,phw,rulloje01,Jerry Rullo,,G,G,,177.8,74.8,1923-06-23,US,0,Temple
+1947,phw,senesge01,George Senesky,,PG,PG,,188.0,81.2,1922-04-04,US,0,Saint Joseph's
+1947,phw,shefffr01,Fred Sheffield,,F,F,,188.0,74.8,1923-11-05,US,0,Utah
+1948,blb,abramjo01,John Abramovic,,F,F,,190.5,88.5,1919-02-09,US,1,Salem University
+1948,blb,bloommi01,Mike Bloom,,F-C,F,C,198.1,86.2,1915-01-14,US,0,Temple
+1948,blb,fuetshe01,Herm Fuetsch,,G,G,,182.9,77.1,1918-07-06,US,0,
+1948,blb,gaineel01,Elmer Gainer,,F-C,F,C,198.1,88.5,1918-11-22,US,0,DePaul
+1948,blb,hermskl01,Kleggie Hermsen,,C-F,C,F,205.7,102.1,1923-03-12,US,1,Minnesota
+1948,blb,hoffmpa01,Paul Hoffman,,G-F,G,F,188.0,88.5,1925-05-05,US,0,Purdue
+1948,blb,jeannbu01,Buddy Jeannette,,G,G,,180.3,79.4,1917-09-15,US,0,Washington & Jefferson College
+1948,blb,jorgejo01,Johnny Jorgensen,,G-F,G,F,188.0,83.9,1921-12-28,US,0,DePaul
+1948,blb,klotzhe01,Red Klotz,,G,G,,170.2,68.0,1920-10-21,US,0,Villanova
+1948,blb,lewisgr01,Grady Lewis,,F-C,F,C,200.7,97.5,1917-03-25,US,1,Oklahoma
+1948,blb,mcnabch01,Chet McNabb,,F,F,,188.0,90.7,1920-09-19,US,0,Arizona State
+1948,blb,meinhca01,Carl Meinhold,,G-F,G,F,188.0,83.9,1926-03-29,US,0,Long Island University
+1948,blb,reisech01,Chick Reiser,,G-F,G,F,180.3,74.8,1914-12-17,US,0,NYU
+1948,blb,rotheir01,Irv Rothenberg,,C,C,,200.7,97.5,1921-12-31,US,1,Long Island University
+1948,blb,rulloje01,Jerry Rullo,,G,G,,177.8,74.8,1923-06-23,US,1,Temple
+1948,blb,schuldi01,Dick Schulz,,F-G,F,G,188.0,87.1,1917-01-03,US,1,Wisconsin
+1948,blb,seymopa01,Paul Seymour,,G-F,G,F,185.4,81.6,1928-01-30,US,0,Toledo
+1948,blb,simmoco01,Connie Simmons,,C-F,C,F,203.2,100.7,1925-03-15,US,1,
+1949,mnl,bloommi01,Mike Bloom,,F-C,F,C,198.1,86.2,1915-01-14,US,1,Temple
+1949,mnl,carlsdo01,Don Carlson,,G-F,G,F,182.9,77.1,1919-03-22,US,1,Minnesota
+1949,mnl,dwanja01,Jack Dwan,,F-G,F,G,193.0,90.7,1921-05-03,US,0,Loyola Chicago
+1949,mnl,ellefra01,Ray Ellefson,,C,C,,203.2,104.3,1922-11-18,US,0,West Texas A&M University
+1949,mnl,ferriar01,Arnie Ferrin,,F-G,F,G,188.0,81.6,1925-07-29,US,0,Utah
+1949,mnl,formado01,Donnie Forman,,G,G,,177.8,79.4,1926-01-17,US,0,NYU
+1949,mnl,gardnea01,Earl Gardner,,F,F,,190.5,88.5,1923-09-18,US,0,DePauw University
+1949,mnl,jarosto01,Tony Jaros,,F-G,F,G,190.5,83.9,1920-02-22,US,1,Minnesota
+1949,mnl,jorgejo01,Johnny Jorgensen,,G-F,G,F,188.0,83.9,1921-12-28,US,1,DePaul
+1949,mnl,kachawh01,Whitey Kachan,,G,G,,188.0,79.4,1925-09-15,US,0,DePaul
+1949,mnl,mikange01,George Mikan,,C,C,,208.3,111.1,1924-06-18,US,0,DePaul
+1949,mnl,pollaji01,Jim Pollard,,SF,SF,,193.0,83.9,1922-07-09,US,0,Stanford
+1949,mnl,schaehe01,Herm Schaefer,,G-F,G,F,182.9,79.4,1918-12-20,US,0,Indiana
+1949,mnl,smithdo01,Don Smith,,G-F,G,F,188.0,86.2,1920-07-27,US,0,Minnesota
+1949,mnl,tinglja01,Jack Tingle,,F,F,,193.0,93.0,1924-12-30,US,1,Kentucky
+1950,mnl,carlsdo01,Don Carlson,,G-F,G,F,182.9,77.1,1919-03-22,US,2,Minnesota
+1950,mnl,ferriar01,Arnie Ferrin,,F-G,F,G,188.0,81.6,1925-07-29,US,1,Utah
+1950,mnl,glickno01,Normie Glick,,F,F,,200.7,86.2,1927-11-10,US,0,Loyola Marymount
+1950,mnl,grantbu01,Bud Grant,,F,F,,190.5,88.5,1927-05-20,US,0,Minnesota
+1950,mnl,harribo02,Bob Harrison,,G,G,,185.4,86.2,1927-08-12,US,0,Michigan
+1950,mnl,hassebi01,Billy Hassett,,G,G,,180.3,81.6,1921-10-21,US,0,Notre Dame
+1950,mnl,jarosto01,Tony Jaros,,F-G,F,G,190.5,83.9,1920-02-22,US,2,Minnesota
+1950,mnl,martisl01,Slater Martin,,PG,PG,,177.8,77.1,1925-10-22,US,0,Texas
+1950,mnl,mikange01,George Mikan,,C,C,,208.3,111.1,1924-06-18,US,1,DePaul
+1950,mnl,mikkeve01,Vern Mikkelsen,,PF,PF,,200.7,104.3,1928-10-21,US,0,Hamline University
+1950,mnl,pollaji01,Jim Pollard,,SF,SF,,193.0,83.9,1922-07-09,US,1,Stanford
+1950,mnl,schaehe01,Herm Schaefer,,G-F,G,F,182.9,79.4,1918-12-20,US,1,Indiana
+1950,mnl,stumpge01,Gene Stump,,F-G,F,G,188.0,83.9,1925-08-09,US,2,DePaul
+1950,mnl,walthpa01,Paul Walther,,SG,SG,,188.0,72.6,1927-03-23,US,0,Tennessee
+1951,roc,calhobi01,Bill Calhoun,,SG,SG,,190.5,81.6,1927-11-04,US,2,City College of San Francisco
+1951,roc,colemja01,Jack Coleman,,PF,PF,,200.7,88.5,1924-05-23,US,1,Louisville
+1951,roc,daviebo01,Bob Davies,,PG,PG,,185.4,79.4,1920-01-15,US,2,Seton Hall
+1951,roc,holzmre01,Red Holzman,,PG,PG,,177.8,79.4,1920-08-10,US,2,City College of New York
+1951,roc,johnsar01,Arnie Johnson,,SF,SF,,195.6,107.0,1920-05-16,US,2,Bemidji State University
+1951,roc,mcnamjo01,Joe McNamee,,SF,SF,,198.1,95.3,1926-09-24,US,0,San Francisco
+1951,roc,mikaned01,Ed Mikan,,C,C,,203.2,104.3,1925-10-20,US,2,DePaul
+1951,roc,noelpa01,Paul Noel,,F,F,,193.0,83.9,1924-08-17,US,3,Kentucky
+1951,roc,risenar01,Arnie Risen,,C,C,,205.7,90.7,1924-10-09,US,2,"Eastern Kentucky University, Ohio State"
+1951,roc,saulpe01,Pep Saul,,SG,SG,,188.0,83.9,1924-02-16,US,1,Seton Hall
+1951,roc,wanzebo01,Bobby Wanzer,,G,G,,182.9,77.1,1921-06-04,US,2,Seton Hall
+1952,mnl,harribo02,Bob Harrison,,SG,SG,,185.4,86.2,1927-08-12,US,2,Michigan
+1952,mnl,hitchle01,Lew Hitch,,PF,PF,,203.2,90.7,1929-07-16,US,0,Kansas State
+1952,mnl,huttojo01,Joe Hutton,,SG,SG,,185.4,77.1,1928-10-06,US,1,Hamline University
+1952,mnl,martisl01,Slater Martin,,PG,PG,,177.8,77.1,1925-10-22,US,2,Texas
+1952,mnl,mikange01,George Mikan,,C,C,,208.3,111.1,1924-06-18,US,3,DePaul
+1952,mnl,mikkeve01,Vern Mikkelsen,,PF,PF,,200.7,104.3,1928-10-21,US,2,Hamline University
+1952,mnl,pilchjo01,John Pilch,,F,F,,190.5,83.9,1925-07-11,US,0,Wyoming
+1952,mnl,pollaji01,Jim Pollard,,SF,SF,,193.0,83.9,1922-07-09,US,3,Stanford
+1952,mnl,saulpe01,Pep Saul,,SG,SG,,188.0,83.9,1924-02-16,US,2,Seton Hall
+1952,mnl,schulho01,Howie Schultz,,PF,PF,,198.1,90.7,1922-07-03,US,1,Hamline University
+1952,mnl,skoogwh01,Whitey Skoog,,SG,SG,,180.3,81.6,1926-11-02,US,0,Minnesota
+1953,mnl,harribo02,Bob Harrison,,SG,SG,,185.4,86.2,1927-08-12,US,3,Michigan
+1953,mnl,hitchle01,Lew Hitch,,PF,PF,,203.2,90.7,1929-07-16,US,1,Kansas State
+1953,mnl,holstji01,Jim Holstein,,SF,SF,,190.5,81.6,1930-09-24,US,0,Cincinnati
+1953,mnl,martisl01,Slater Martin,,PG,PG,,177.8,77.1,1925-10-22,US,3,Texas
+1953,mnl,mikange01,George Mikan,,C,C,,208.3,111.1,1924-06-18,US,4,DePaul
+1953,mnl,mikkeve01,Vern Mikkelsen,,PF,PF,,200.7,104.3,1928-10-21,US,3,Hamline University
+1953,mnl,pollaji01,Jim Pollard,,SF,SF,,193.0,83.9,1922-07-09,US,4,Stanford
+1953,mnl,saulpe01,Pep Saul,,SG,SG,,188.0,83.9,1924-02-16,US,3,Seton Hall
+1953,mnl,schnidi01,Dick Schnittker,,F,F,,195.6,90.7,1928-05-27,US,1,Ohio State
+1953,mnl,schulho01,Howie Schultz,,PF,PF,,198.1,90.7,1922-07-03,US,2,Hamline University
+1953,mnl,skoogwh01,Whitey Skoog,,SG,SG,,180.3,81.6,1926-11-02,US,1,Minnesota
+1954,mnl,fritsji01,Jim Fritsche,,PF,PF,,203.2,95.3,1931-12-10,US,0,Hamline University
+1954,mnl,harribo02,Bob Harrison,,G,G,,185.4,86.2,1927-08-12,US,4,Michigan
+1954,mnl,holstji01,Jim Holstein,,SF,SF,,190.5,81.6,1930-09-24,US,1,Cincinnati
+1954,mnl,lovelcl01,Clyde Lovellette,,C,C,,205.7,106.1,1929-09-07,US,0,Kansas
+1954,mnl,martisl01,Slater Martin,,PG,PG,,177.8,77.1,1925-10-22,US,4,Texas
+1954,mnl,mikange01,George Mikan,,C,C,,208.3,111.1,1924-06-18,US,5,DePaul
+1954,mnl,mikkeve01,Vern Mikkelsen,,PF,PF,,200.7,104.3,1928-10-21,US,4,Hamline University
+1954,mnl,pollaji01,Jim Pollard,,SF,SF,,193.0,83.9,1922-07-09,US,5,Stanford
+1954,mnl,saulpe01,Pep Saul,,SG,SG,,188.0,83.9,1924-02-16,US,4,Seton Hall
+1954,mnl,schnidi01,Dick Schnittker,,SF,SF,,195.6,90.7,1928-05-27,US,2,Ohio State
+1954,mnl,skoogwh01,Whitey Skoog,,SG,SG,,180.3,81.6,1926-11-02,US,2,Minnesota
+1955,syr,farledi01,Dick Farley,,SG,SG,,193.0,86.2,1932-04-13,US,0,Indiana
+1955,syr,gaborbi01,Bill Gabor,,SG,SG,,180.3,77.1,1922-05-13,US,5,Syracuse
+1955,syr,kenvibi01,Billy Kenville,,SG,SG,,188.0,84.8,1930-12-01,US,1,St. Bonaventure
+1955,syr,kerrre01,Red Kerr,,C,C,,205.7,104.3,1932-07-17,US,0,Illinois
+1955,syr,kingge01,George King,,PG,PG,,182.9,79.4,1928-08-16,US,3,University of Charleston
+1955,syr,lloydea01,Earl Lloyd,,SF,SF,,195.6,90.7,1928-04-03,US,3,West Virginia State University
+1955,syr,mooreja01,Jackie Moore,,SF,SF,,195.6,81.6,1932-09-24,US,0,La Salle
+1955,syr,osterwa01,Wally Osterkorn,,SF,SF,,195.6,97.5,1928-07-06,US,3,Illinois
+1955,syr,rochare01,Red Rocha,,C,C,,205.7,83.9,1923-09-18,US,6,Oregon State
+1955,syr,schaydo01,Dolph Schayes,,PF,PF,,203.2,99.8,1928-05-19,US,5,NYU
+1955,syr,seymopa01,Paul Seymour,,SG,SG,,185.4,81.6,1928-01-30,US,6,Toledo
+1955,syr,simmoco01,Connie Simmons,,C,C,,203.2,100.7,1925-03-15,US,8,
+1955,syr,tuckeji01,Jim Tucker,,PF,PF,,200.7,83.9,1932-12-11,US,0,Duquesne
+1956,phw,arizipa01,Paul Arizin,,SF,SF,,193.0,86.2,1928-04-09,US,3,Villanova
+1956,phw,becker01,Ernie Beck,,SG,SG,,193.0,86.2,1931-12-11,US,1,Penn
+1956,phw,daviswa01,Walt Davis,,PF,PF,,203.2,93.0,1931-01-05,US,2,Texas A&M
+1956,phw,dempsge01,George Dempsey,,PG,PG,,188.0,86.2,1929-07-19,US,1,King's College
+1956,phw,georgja01,Jack George,,PG,PG,,188.0,86.2,1928-11-13,US,2,La Salle
+1956,phw,golato01,Tom Gola,,SG,SG,,198.1,93.0,1933-01-13,US,0,La Salle
+1956,phw,grabojo01,Joe Graboski,,PF,PF,,200.7,88.5,1930-01-15,US,6,
+1956,phw,hennela01,Larry Hennessy,,SG,SG,,190.5,83.9,1929-05-20,US,0,Villanova
+1956,phw,johnsne01,Neil Johnston,,C,C,,203.2,95.3,1929-02-04,US,4,Ohio State
+1956,phw,mooreja01,Jackie Moore,,SF,SF,,195.6,81.6,1932-09-24,US,1,La Salle
+1956,phw,schafbo01,Bob Schafer,,SG,SG,,190.5,88.5,1933-03-29,US,0,Villanova
+1957,bos,cousybo01,Bob Cousy,,PG,PG,,185.4,79.4,1928-08-09,US,6,Holy Cross
+1957,bos,heinsto01,Tom Heinsohn,,PF,PF,,200.7,98.9,1934-08-26,US,0,Holy Cross
+1957,bos,hemridi01,Dick Hemric,,PF,PF,,198.1,99.8,1933-08-29,US,1,Wake Forest
+1957,bos,loscuji01,Jim Loscutoff,,SF,SF,,195.6,99.8,1930-02-04,US,1,Oregon
+1957,bos,nichoja01,Jack Nichols,,PF,PF,,200.7,100.7,1926-04-09,US,7,Washington
+1957,bos,palazto01,Togo Palazzi,,SF,SF,,193.0,93.0,1932-08-08,US,2,Holy Cross
+1957,bos,phillan01,Andy Phillip,,PG,PG,,188.0,88.5,1922-03-07,US,9,Illinois
+1957,bos,ramsefr01,Frank Ramsey,,SG,SG,,190.5,86.2,1931-07-13,US,1,Kentucky
+1957,bos,risenar01,Arnie Risen,,C,C,,205.7,90.7,1924-10-09,US,8,"Eastern Kentucky University, Ohio State"
+1957,bos,russebi01,Bill Russell,,C,C,,208.3,97.5,1934-02-12,US,0,San Francisco
+1957,bos,sharmbi01,Bill Sharman,,SG,SG,,185.4,79.4,1926-05-25,US,6,USC
+1957,bos,tsiorlo01,Lou Tsioropoulos,,SF,SF,,195.6,86.2,1930-08-31,US,0,Kentucky
+1958,stl,colemja01,Jack Coleman,,PF,PF,,200.7,88.5,1924-05-23,US,8,Louisville
+1958,stl,daviswa01,Walt Davis,,PF,PF,,203.2,93.0,1931-01-05,US,4,Texas A&M
+1958,stl,hagancl01,Cliff Hagan,,SF,SF,,193.0,95.3,1931-12-09,US,1,Kentucky
+1958,stl,macaued01,Ed Macauley,,C,C,,203.2,83.9,1928-03-22,US,8,Saint Louis
+1958,stl,martisl01,Slater Martin,,PG,PG,,177.8,77.1,1925-10-22,US,8,Texas
+1958,stl,mcmahja01,Jack McMahon,,SG,SG,,185.4,83.9,1928-12-03,US,5,St. John's
+1958,stl,morrire01,Red Morrison,,C,C,,203.2,99.8,1932-04-26,US,2,Idaho
+1958,stl,parkme01,Med Park,,SG,SG,,188.0,93.0,1933-04-11,US,2,Missouri
+1958,stl,pattewo01,Worthy Patterson,,G,G,,188.0,79.4,1931-06-17,US,0,UConn
+1958,stl,pettibo01,Bob Pettit,,PF,PF,,205.7,93.0,1932-12-12,US,3,LSU
+1958,stl,selvyfr01,Frank Selvy,,G-F,G,F,190.5,81.6,1932-11-09,US,2,Furman University
+1958,stl,sharech01,Chuck Share,,C,C,,210.8,106.6,1927-03-14,US,6,Bowling Green
+1958,stl,wilfowi01,Win Wilfong,,PG,PG,,188.0,83.9,1933-03-18,US,0,Memphis
+1959,bos,conlege01,Gene Conley,,PF,PF,,203.2,102.1,1930-11-10,US,1,Washington State
+1959,bos,cousybo01,Bob Cousy,,PG,PG,,185.4,79.4,1928-08-09,US,8,Holy Cross
+1959,bos,heinsto01,Tom Heinsohn,,PF,PF,,200.7,98.9,1934-08-26,US,2,Holy Cross
+1959,bos,joneskc01,K.C. Jones,,PG,PG,,185.4,90.7,1932-05-25,US,0,San Francisco
+1959,bos,jonessa01,Sam Jones,,SG,SG,,193.0,89.8,1933-06-24,US,1,NC Central
+1959,bos,loscuji01,Jim Loscutoff,,SF,SF,,195.6,99.8,1930-02-04,US,3,Oregon
+1959,bos,ramsefr01,Frank Ramsey,,SG,SG,,190.5,86.2,1931-07-13,US,3,Kentucky
+1959,bos,russebi01,Bill Russell,,C,C,,208.3,97.5,1934-02-12,US,2,San Francisco
+1959,bos,sharmbi01,Bill Sharman,,SG,SG,,185.4,79.4,1926-05-25,US,8,USC
+1959,bos,swainbe01,Bennie Swain,,PF,PF,,203.2,99.8,1933-12-16,US,0,Texas Southern
+1959,bos,tsiorlo01,Lou Tsioropoulos,,SF,SF,,195.6,86.2,1930-08-31,US,2,Kentucky
+1960,bos,conlege01,Gene Conley,,PF,PF,,203.2,102.1,1930-11-10,US,2,Washington State
+1960,bos,cousybo01,Bob Cousy,,PG,PG,,185.4,79.4,1928-08-09,US,9,Holy Cross
+1960,bos,guarige01,Gene Guarilia,,SF,SF,,195.6,99.8,1937-09-13,US,0,George Washington
+1960,bos,heinsto01,Tom Heinsohn,,PF,PF,,200.7,98.9,1934-08-26,US,3,Holy Cross
+1960,bos,joneskc01,K.C. Jones,,PG,PG,,185.4,90.7,1932-05-25,US,1,San Francisco
+1960,bos,jonessa01,Sam Jones,,SG,SG,,193.0,89.8,1933-06-24,US,2,NC Central
+1960,bos,kingma01,Maurice King,,PG,PG,,188.0,88.5,1935-03-12,US,0,Kansas
+1960,bos,loscuji01,Jim Loscutoff,,SF,SF,,195.6,99.8,1930-02-04,US,4,Oregon
+1960,bos,ramsefr01,Frank Ramsey,,SG,SG,,190.5,86.2,1931-07-13,US,4,Kentucky
+1960,bos,richtjo01,John Richter,,C,C,,205.7,102.1,1937-03-12,US,0,NC State
+1960,bos,russebi01,Bill Russell,,C,C,,208.3,97.5,1934-02-12,US,3,San Francisco
+1960,bos,sharmbi01,Bill Sharman,,SG,SG,,185.4,79.4,1926-05-25,US,9,USC
+1961,bos,conlege01,Gene Conley,,PF,PF,,203.2,102.1,1930-11-10,US,3,Washington State
+1961,bos,cousybo01,Bob Cousy,,PG,PG,,185.4,79.4,1928-08-09,US,10,Holy Cross
+1961,bos,guarige01,Gene Guarilia,,SF,SF,,195.6,99.8,1937-09-13,US,1,George Washington
+1961,bos,heinsto01,Tom Heinsohn,,PF,PF,,200.7,98.9,1934-08-26,US,4,Holy Cross
+1961,bos,joneskc01,K.C. Jones,,PG,PG,,185.4,90.7,1932-05-25,US,2,San Francisco
+1961,bos,jonessa01,Sam Jones,,SG,SG,,193.0,89.8,1933-06-24,US,3,NC Central
+1961,bos,loscuji01,Jim Loscutoff,,SF,SF,,195.6,99.8,1930-02-04,US,5,Oregon
+1961,bos,ramsefr01,Frank Ramsey,,SG,SG,,190.5,86.2,1931-07-13,US,5,Kentucky
+1961,bos,russebi01,Bill Russell,,C,C,,208.3,97.5,1934-02-12,US,4,San Francisco
+1961,bos,sandeto01,Tom Sanders,,SF,SF,,198.1,95.3,1938-11-08,US,0,NYU
+1961,bos,sharmbi01,Bill Sharman,,SG,SG,,185.4,79.4,1926-05-25,US,10,USC
+1962,bos,braunca01,Carl Braun,,PG,PG,,195.6,81.6,1927-09-25,US,12,Colgate
+1962,bos,butleal01,Al Butler,,PG,PG,,188.0,79.4,1938-07-09,US,0,Niagara University
+1962,bos,cousybo01,Bob Cousy,,PG,PG,,185.4,79.4,1928-08-09,US,11,Holy Cross
+1962,bos,guarige01,Gene Guarilia,,SF,SF,,195.6,99.8,1937-09-13,US,2,George Washington
+1962,bos,heinsto01,Tom Heinsohn,,PF,PF,,200.7,98.9,1934-08-26,US,5,Holy Cross
+1962,bos,joneskc01,K.C. Jones,,PG,PG,,185.4,90.7,1932-05-25,US,3,San Francisco
+1962,bos,jonessa01,Sam Jones,,SG,SG,,193.0,89.8,1933-06-24,US,4,NC Central
+1962,bos,loscuji01,Jim Loscutoff,,SF,SF,,195.6,99.8,1930-02-04,US,6,Oregon
+1962,bos,phillga01,Gary Phillips,,PG,PG,,190.5,85.7,1939-12-07,US,0,Houston
+1962,bos,ramsefr01,Frank Ramsey,,SG,SG,,190.5,86.2,1931-07-13,US,6,Kentucky
+1962,bos,russebi01,Bill Russell,,C,C,,208.3,97.5,1934-02-12,US,5,San Francisco
+1962,bos,sandeto01,Tom Sanders,,SF,SF,,198.1,95.3,1938-11-08,US,1,NYU
+1963,bos,cousybo01,Bob Cousy,,PG,PG,,185.4,79.4,1928-08-09,US,12,Holy Cross
+1963,bos,foleyja01,Jack Foley,,F,F,,190.5,77.1,1939-04-19,US,0,Holy Cross
+1963,bos,guarige01,Gene Guarilia,,SF,SF,,195.6,99.8,1937-09-13,US,3,George Washington
+1963,bos,havlijo01,John Havlicek,,SF,SF,,195.6,92.1,1940-04-08,US,0,Ohio State
+1963,bos,heinsto01,Tom Heinsohn,,PF,PF,,200.7,98.9,1934-08-26,US,6,Holy Cross
+1963,bos,joneskc01,K.C. Jones,,PG,PG,,185.4,90.7,1932-05-25,US,4,San Francisco
+1963,bos,jonessa01,Sam Jones,,SG,SG,,193.0,89.8,1933-06-24,US,5,NC Central
+1963,bos,loscuji01,Jim Loscutoff,,SF,SF,,195.6,99.8,1930-02-04,US,7,Oregon
+1963,bos,lovelcl01,Clyde Lovellette,,C,C,,205.7,106.1,1929-09-07,US,9,Kansas
+1963,bos,ramsefr01,Frank Ramsey,,SG,SG,,190.5,86.2,1931-07-13,US,7,Kentucky
+1963,bos,russebi01,Bill Russell,,C,C,,208.3,97.5,1934-02-12,US,6,San Francisco
+1963,bos,sandeto01,Tom Sanders,,SF,SF,,198.1,95.3,1938-11-08,US,2,NYU
+1963,bos,swartda01,Dan Swartz,,SF,SF,,193.0,97.5,1934-12-23,US,0,Morehead State University
+1964,bos,havlijo01,John Havlicek,,SF,SF,,195.6,92.1,1940-04-08,US,1,Ohio State
+1964,bos,heinsto01,Tom Heinsohn,,PF,PF,,200.7,98.9,1934-08-26,US,7,Holy Cross
+1964,bos,joneskc01,K.C. Jones,,PG,PG,,185.4,90.7,1932-05-25,US,5,San Francisco
+1964,bos,jonessa01,Sam Jones,,SG,SG,,193.0,89.8,1933-06-24,US,6,NC Central
+1964,bos,loscuji01,Jim Loscutoff,,SF,SF,,195.6,99.8,1930-02-04,US,8,Oregon
+1964,bos,lovelcl01,Clyde Lovellette,,C,C,,205.7,106.1,1929-09-07,US,10,Kansas
+1964,bos,mccarjo01,Johnny McCarthy,,PG,PG,,185.4,83.9,1934-04-25,US,5,Canisius
+1964,bos,naullwi01,Willie Naulls,,SF,SF,,198.1,102.1,1934-10-07,US,7,UCLA
+1964,bos,ramsefr01,Frank Ramsey,,SG,SG,,190.5,86.2,1931-07-13,US,8,Kentucky
+1964,bos,russebi01,Bill Russell,,C,C,,208.3,97.5,1934-02-12,US,7,San Francisco
+1964,bos,sandeto01,Tom Sanders,,PF,PF,,198.1,95.3,1938-11-08,US,3,NYU
+1964,bos,siegfla01,Larry Siegfried,,SG,SG,,190.5,86.2,1939-05-22,US,0,Ohio State
+1965,bos,bonharo01,Ron Bonham,,SF,SF,,195.6,87.1,1942-05-31,US,0,Cincinnati
+1965,bos,countme01,Mel Counts,,C,C,,213.4,104.3,1941-10-16,US,0,Oregon State
+1965,bos,havlijo01,John Havlicek,,SG,SG,,195.6,92.1,1940-04-08,US,2,Ohio State
+1965,bos,heinsto01,Tom Heinsohn,,SF,SF,,200.7,98.9,1934-08-26,US,8,Holy Cross
+1965,bos,joneskc01,K.C. Jones,,PG,PG,,185.4,90.7,1932-05-25,US,6,San Francisco
+1965,bos,jonessa01,Sam Jones,,SG,SG,,193.0,89.8,1933-06-24,US,7,NC Central
+1965,bos,naullwi01,Willie Naulls,,SF,SF,,198.1,102.1,1934-10-07,US,8,UCLA
+1965,bos,nordmbe01,Bevo Nordmann,,C,C,,208.3,102.1,1939-12-11,US,3,Saint Louis
+1965,bos,russebi01,Bill Russell,,C,C,,208.3,97.5,1934-02-12,US,8,San Francisco
+1965,bos,sandeto01,Tom Sanders,,PF,PF,,198.1,95.3,1938-11-08,US,4,NYU
+1965,bos,siegfla01,Larry Siegfried,,SG,SG,,190.5,86.2,1939-05-22,US,1,Ohio State
+1965,bos,thompjo01,John Thompson,,PF,PF,,208.3,102.1,1941-09-02,US,0,Providence
+1965,bos,wardge01,Gerry Ward,,SG,SG,,193.0,88.5,1941-09-06,US,1,Boston College
+1966,bos,bonharo01,Ron Bonham,,SG,SG,,195.6,87.1,1942-05-31,US,1,Cincinnati
+1966,bos,countme01,Mel Counts,,C,C,,213.4,104.3,1941-10-16,US,1,Oregon State
+1966,bos,greensi01,Si Green,,G-F,G,F,188.0,83.9,1933-08-20,US,8,Duquesne
+1966,bos,havlijo01,John Havlicek,,SF,SF,,195.6,92.1,1940-04-08,US,3,Ohio State
+1966,bos,joneskc01,K.C. Jones,,PG,PG,,185.4,90.7,1932-05-25,US,7,San Francisco
+1966,bos,jonessa01,Sam Jones,,SG,SG,,193.0,89.8,1933-06-24,US,8,NC Central
+1966,bos,naullwi01,Willie Naulls,,SF,SF,,198.1,102.1,1934-10-07,US,9,UCLA
+1966,bos,nelsodo01,Don Nelson,,SF,SF,,198.1,95.3,1940-05-15,US,3,Iowa
+1966,bos,russebi01,Bill Russell,,C,C,,208.3,97.5,1934-02-12,US,9,San Francisco
+1966,bos,sandeto01,Tom Sanders,,PF,PF,,198.1,95.3,1938-11-08,US,5,NYU
+1966,bos,sauldwo01,Woody Sauldsberry,,PF,PF,,200.7,99.8,1934-07-11,US,6,Texas Southern
+1966,bos,siegfla01,Larry Siegfried,,PG,PG,,190.5,86.2,1939-05-22,US,2,Ohio State
+1966,bos,thompjo01,John Thompson,,C,C,,208.3,102.1,1941-09-02,US,1,Providence
+1966,bos,wattsro01,Ron Watts,,F,F,,198.1,95.3,1943-05-21,US,0,Wake Forest
+1967,phi,chambwi01,Wilt Chamberlain,,C,C,,215.9,124.7,1936-08-21,US,7,Kansas
+1967,phi,costela01,Larry Costello,,PG,PG,,185.4,84.4,1931-07-02,US,10,Niagara University
+1967,phi,cunnibi01,Billy Cunningham,,SF,SF,,198.1,95.3,1943-06-03,US,1,UNC
+1967,phi,gambeda01,Dave Gambee,,SF,SF,,198.1,97.5,1937-04-16,US,8,Oregon State
+1967,phi,greerha01,Hal Greer,,SG,SG,,188.0,79.4,1936-06-26,US,8,Marshall
+1967,phi,guokama02,Matt Guokas,,SG,SG,,195.6,79.4,1944-02-25,US,0,Saint Joseph's
+1967,phi,jackslu01,Luke Jackson,,PF,PF,,205.7,108.9,1941-10-31,US,2,University of Texas Rio Grande Valley
+1967,phi,joneswa02,Wali Jones,,PG,PG,,188.0,81.6,1942-02-14,US,2,Villanova
+1967,phi,melchbi01,Bill Melchionni,,PG,PG,,185.4,74.8,1944-10-19,US,0,Villanova
+1967,phi,walkech01,Chet Walker,,SF,SF,,200.7,96.2,1940-02-22,US,4,Bradley
+1967,phi,weissbo01,Bob Weiss,,PG,PG,,190.5,81.6,1942-05-07,US,1,Penn State
+1968,bos,embrywa01,Wayne Embry,,C,C,,203.2,108.9,1937-03-26,US,9,Miami University
+1968,bos,grahama01,Mal Graham,,PG,PG,,185.4,83.9,1945-02-23,US,0,NYU
+1968,bos,havlijo01,John Havlicek,,SG,SG,,195.6,92.1,1940-04-08,US,5,Ohio State
+1968,bos,howelba01,Bailey Howell,,PF,PF,,200.7,95.3,1937-01-20,US,8,Mississippi State
+1968,bos,jonesjo01,Johnny Jones,,SF,SF,,200.7,93.0,1943-03-12,US,0,"California State University, Los Angeles"
+1968,bos,jonessa01,Sam Jones,,SG,SG,,193.0,89.8,1933-06-24,US,10,NC Central
+1968,bos,nelsodo01,Don Nelson,,SF,SF,,198.1,95.3,1940-05-15,US,5,Iowa
+1968,bos,russebi01,Bill Russell,,C,C,,208.3,97.5,1934-02-12,US,11,San Francisco
+1968,bos,sandeto01,Tom Sanders,,SF,SF,,198.1,95.3,1938-11-08,US,7,NYU
+1968,bos,siegfla01,Larry Siegfried,,PG,PG,,190.5,86.2,1939-05-22,US,4,Ohio State
+1968,bos,thackto01,Tom Thacker,,SG,SG,,188.0,77.1,1939-11-02,US,3,Cincinnati
+1968,bos,weitzri01,Rick Weitzman,,SG,SG,,188.0,79.4,1946-04-30,US,0,Northeastern University
+1968,ptp,dillcr01,Craig Dill,,C,C,,210.8,97.5,1944-12-17,US,0,Michigan
+1968,ptp,grahaca01,Calvin Graham,,G,G,,188.0,88.5,1944-06-07,US,0,Gannon University
+1968,ptp,hargeir01,Ira Harge,,C,C,,205.7,102.1,1941-03-14,US,0,"Southeastern Iowa Community College, West Burlington Campus, New Mexico"
+1968,ptp,hawkico01,Connie Hawkins,,C,C,,203.2,95.3,1942-07-17,US,0,Iowa
+1968,ptp,heymaar01,Art Heyman,,SF,SF,,195.6,93.0,1941-06-24,US,3,Duke
+1968,ptp,hogsebo01,Bob Hogsett,,F,F,,200.7,104.3,1941-01-29,US,1,Tennessee
+1968,ptp,jarviji01,Jim Jarvis,,PG,PG,,185.4,79.4,1943-03-03,US,0,Oregon State
+1968,ptp,kellyar01,Arvesta Kelly,,G,G,,188.0,79.4,1945-11-20,US,0,Lincoln University of Missouri
+1968,ptp,kerwito01,Tom Kerwin,,F,F,,200.7,95.3,1944-07-19,US,0,Centenary (LA)
+1968,ptp,leiboba01,Barry Leibowitz,,SG,SG,,188.0,81.6,1945-09-10,US,0,Long Island University
+1968,ptp,meyerbi01,Bill Meyer,,G,G,,190.5,88.5,1943-08-30,US,0,Hiram College
+1968,ptp,parksri01,Rich Parks,,SF,SF,,200.7,106.6,1943-10-28,US,0,Saint Louis
+1968,ptp,portewi01,Willie Porter,,PF,PF,,200.7,93.0,1941-07-03,US,0,Tennessee State
+1968,ptp,postljo01,John Postley,,F,F,,195.6,99.8,1940-05-30,US,0,Bethune-Cookman College
+1968,ptp,turnehe01,Herschell Turner,,PG,PG,,188.0,88.5,1938-03-29,US,0,Nebraska
+1968,ptp,vacenst01,Steve Vacendak,,PG,PG,,185.4,83.9,1944-08-15,US,0,Duke
+1968,ptp,vaughch01,Chico Vaughn,,SG,SG,,188.0,86.2,1940-02-19,US,5,Southern Illinois
+1968,ptp,washitr01,Trooper Washington,,PF,PF,,200.7,97.5,1944-04-21,US,0,Cheyney (PA)
+1968,ptp,westbde01,Dexter Westbrook,,F,F,,203.2,86.2,,US,0,Providence
+1968,ptp,willich01,Charlie Williams,,PG,PG,,182.9,74.8,1943-09-05,US,0,Seattle University
+1968,ptp,wrighle01,Leroy Wright,,PF,PF,,205.7,97.5,1938-05-06,US,0,University of the Pacific
+1969,bos,barneji01,Jim Barnes,,C,C,,203.2,95.3,1941-04-13,US,4,Texas-El Paso
+1969,bos,bryanem01,Em Bryant,,PG,PG,,185.4,79.4,1938-11-04,US,4,DePaul
+1969,bos,chanedo01,Don Chaney,,SG,SG,,195.6,95.3,1946-03-22,US,0,Houston
+1969,bos,grahama01,Mal Graham,,PG,PG,,185.4,83.9,1945-02-23,US,1,NYU
+1969,bos,havlijo01,John Havlicek,,SG,SG,,195.6,92.1,1940-04-08,US,6,Ohio State
+1969,bos,howelba01,Bailey Howell,,PF,PF,,200.7,95.3,1937-01-20,US,9,Mississippi State
+1969,bos,johnsri01,Rich Johnson,,C,C,,200.7,95.3,1946-12-18,US,0,Grambling State University
+1969,bos,jonessa01,Sam Jones,,SG,SG,,193.0,89.8,1933-06-24,US,11,NC Central
+1969,bos,nelsodo01,Don Nelson,,SF,SF,,198.1,95.3,1940-05-15,US,6,Iowa
+1969,bos,olsenbu01,Bud Olsen,,PF,PF,,203.2,99.8,1940-07-25,US,6,Louisville
+1969,bos,russebi01,Bill Russell,,C,C,,208.3,97.5,1934-02-12,US,12,San Francisco
+1969,bos,sandeto01,Tom Sanders,,SF,SF,,198.1,95.3,1938-11-08,US,8,NYU
+1969,bos,siegfla01,Larry Siegfried,,PG,PG,,190.5,86.2,1939-05-22,US,5,Ohio State
+1969,oak,anderan01,Andy Anderson,,G,G,,188.0,83.5,1945-07-06,US,1,Canisius
+1969,oak,barryri01,Rick Barry,,SF,SF,,200.7,93.0,1944-03-28,US,2,Miami (FL)
+1969,oak,braddga01,Gary Bradds,,PF,PF,,203.2,95.3,1942-07-26,US,3,Ohio State
+1969,oak,brownla01,Larry Brown,,PG,PG,,175.3,72.6,1940-09-14,US,1,UNC
+1969,oak,clawsjo01,John Clawson,,SF,SF,,193.0,90.7,1944-05-15,US,0,Michigan
+1969,oak,critcru01,Russ Critchfield,,PG,PG,,177.8,68.0,1946-06-27,US,0,California
+1969,oak,eakinji01,Jim Eakins,,C,C,,210.8,97.5,1946-05-24,US,0,BYU
+1969,oak,hargeir01,Ira Harge,,C,C,,205.7,102.1,1941-03-14,US,1,"Southeastern Iowa Community College, West Burlington Campus, New Mexico"
+1969,oak,jabalwa01,Warren Jabali,,SG,SG,,188.0,90.7,1946-08-29,US,0,Wichita State
+1969,oak,loganhe01,Henry Logan,,PG,PG,,182.9,81.6,1946-03-14,US,0,Western Carolina University
+1969,oak,moedo01,Doug Moe,,SF,SF,,195.6,97.5,1938-09-21,US,1,UNC
+1969,oak,peterme01,Mel Peterson,,SG,SG,,193.0,83.9,1938-03-23,US,2,Wheaton College
+1970,ina,barnhjo01,John Barnhill,,SG,SG,,185.4,81.6,1938-03-20,US,7,Tennessee State
+1970,ina,beckear01,Art Becker,,PF,PF,,200.7,93.0,1942-01-12,US,2,Arizona State
+1970,ina,brownro01,Roger Brown,,SF,SF,,195.6,93.0,1942-05-22,US,2,Dayton
+1970,ina,chubist01,Steve Chubin,,SG,SG,,188.0,90.7,1944-02-08,US,2,Rhode Island
+1970,ina,danieme01,Mel Daniels,,C,C,,205.7,99.8,1944-07-20,US,2,"Southeastern Iowa Community College, West Burlington Campus, New Mexico"
+1970,ina,dardeol01,Ollie Darden,,PF,PF,,200.7,106.6,1944-07-28,US,2,Michigan
+1970,ina,edmonbo01,Bobby Edmonds,,SF,SF,,198.1,99.8,1941-03-08,US,1,Tennessee State
+1970,ina,faircjo01,John Fairchild,,SF,SF,,203.2,93.0,1943-04-28,US,3,"Palomar College, BYU"
+1970,ina,grubadi01,Dick Grubar,,G,G,,193.0,83.5,1947-07-26,US,0,UNC
+1970,ina,kellebi01,Bill Keller,,SG,SG,,177.8,80.3,1947-08-30,US,0,Purdue
+1970,ina,lewisfr02,Freddie Lewis,,PG,PG,,182.9,79.4,1943-07-01,US,3,"Eastern Arizona College, Arizona State"
+1970,ina,mckeeje01,Jerry McKee,,G,G,,190.5,86.2,1946-08-04,US,0,Ohio University
+1970,ina,milleja01,Jay Miller,,SF,SF,,195.6,93.0,1943-07-19,US,2,Notre Dame
+1970,ina,netolbo01,Bob Netolicky,,PF,PF,,205.7,99.8,1942-08-02,US,2,Drake University
+1970,ina,ormsba01,Barry Orms,,PG,PG,,190.5,86.2,1946-05-01,US,1,Saint Louis
+1970,ina,thackto01,Tom Thacker,,PG,PG,,188.0,77.1,1939-11-02,US,5,Cincinnati
+1970,nyk,barnedi01,Dick Barnett,,SG,SG,,193.0,86.2,1936-10-02,US,9,Tennessee State
+1970,nyk,bowmana01,Nate Bowman,,C,C,,208.3,104.3,1943-03-19,US,3,Wichita State
+1970,nyk,bradlbi01,Bill Bradley,,SF,SF,,195.6,93.0,1943-07-28,US,2,Princeton
+1970,nyk,debusda01,Dave DeBusschere,,PF,PF,,198.1,99.8,1940-10-16,US,7,Detroit Mercy
+1970,nyk,fraziwa01,Walt Frazier,,PG,PG,,193.0,90.7,1945-03-29,US,2,Southern Illinois
+1970,nyk,hoskebi01,Bill Hosket,,PF,PF,,203.2,102.1,1946-12-20,US,1,Ohio State
+1970,nyk,maydo01,Don May,,SF,SF,,193.0,90.7,1946-01-03,US,1,Dayton
+1970,nyk,reedwi01,Willis Reed,,C,C,,208.3,106.6,1942-06-25,US,5,Grambling State University
+1970,nyk,riordmi01,Mike Riordan,,SG,SG,,193.0,90.7,1945-07-09,US,1,Providence
+1970,nyk,russeca01,Cazzie Russell,,SF,SF,,195.6,98.9,1944-06-07,US,3,Michigan
+1970,nyk,stallda01,Dave Stallworth,,SF,SF,,200.7,90.7,1941-12-20,US,2,Wichita State
+1970,nyk,warrejo01,John Warren,,SG,SG,,190.5,81.6,1947-07-07,US,0,St. John's
+1971,mil,abdulka01,Kareem Abdul-Jabbar,,C,C,,218.4,102.1,1947-04-16,US,1,UCLA
+1971,mil,allenlu01,Lucius Allen,,PG,PG,,188.0,79.4,1947-09-26,US,1,UCLA
+1971,mil,boozebo01,Bob Boozer,,PF,PF,,203.2,97.5,1937-04-26,US,10,Kansas State
+1971,mil,cunnidi01,Dick Cunningham,,C,C,,208.3,111.1,1946-07-11,US,2,Murray State
+1971,mil,dandrbo01,Bob Dandridge,,SF,SF,,198.1,88.5,1947-11-15,US,1,Norfolk State
+1971,mil,freemga01,Gary Freeman,,SF,SF,,205.7,95.3,1948-07-25,US,0,Oregon State
+1971,mil,greacbo01,Bob Greacen,,SF,SF,,200.7,93.4,1947-09-15,US,1,Rutgers University
+1971,mil,mcglojo01,Jon McGlocklin,,SG,SG,,195.6,93.0,1943-06-10,US,5,Indiana
+1971,mil,mclemmc01,McCoy McLemore,,SF,SF,,200.7,104.3,1942-04-03,US,6,Drake University
+1971,mil,roberos01,Oscar Robertson,,PG,PG,,195.6,93.0,1938-11-24,US,10,Cincinnati
+1971,mil,smithgr01,Greg Smith,,PF,PF,,195.6,88.5,1947-01-28,US,2,Western Kentucky
+1971,mil,webbje01,Jeff Webb,,SG,SG,,193.0,77.1,1948-07-06,US,0,Kansas State
+1971,mil,winklma01,Marv Winkler,,G,G,,185.4,74.4,1948-02-18,US,0,Louisiana
+1971,mil,zopfbi01,Bill Zopf,,PG,PG,,185.4,77.1,1948-06-07,US,0,Duquesne
+1971,uts,beatyze01,Zelmo Beaty,,C,C,,205.7,102.1,1939-10-25,US,7,Prairie View A&M University
+1971,uts,boonero01,Ron Boone,,SG,SG,,188.0,90.7,1946-09-06,US,2,"Iowa Western Community College, Clarinda Campus, Idaho State University"
+1971,uts,butlemi01,Mike Butler,,SG,SG,,188.0,77.1,1946-10-22,US,2,Memphis
+1971,uts,combsgl01,Glen Combs,,SG,SG,,188.0,83.9,1946-10-30,US,2,Virginia Tech
+1971,uts,congdje01,Jeff Congdon,,PG,PG,,185.4,81.6,1943-10-17,US,3,BYU
+1971,uts,freemdo01,Donnie Freeman,,SG,SG,,190.5,83.9,1944-07-18,US,3,Illinois
+1971,uts,hightwa01,Wayne Hightower,,PF,PF,,203.2,87.1,1940-01-14,US,8,Kansas
+1971,uts,jacksme01,Merv Jackson,,PG,PG,,190.5,79.4,1946-08-15,US,2,Utah
+1971,uts,mcdonro01,Rod McDonald,,PF,PF,,198.1,93.0,1945-04-09,US,0,Whitworth
+1971,uts,nemeldi01,Dick Nemelka,,SG,SG,,182.9,79.4,1943-10-01,US,0,BYU
+1971,uts,robbire01,Red Robbins,,PF,PF,,203.2,86.2,1944-09-30,US,3,"Chipola College, Tennessee"
+1971,uts,smithsa01,Sam Smith,,SF,SF,,200.7,104.3,1944-01-27,US,3,"Louisville, Kentucky Wesleyan College"
+1971,uts,stonege01,George Stone,,SF,SF,,200.7,88.5,1946-02-09,US,2,Marshall
+1971,uts,wisewi01,Willie Wise,,SF,SF,,195.6,95.3,1947-03-03,US,1,"City College of San Francisco, Drake University"
+1971,uts,workmto01,Tom Workman,,F-C,F,C,200.7,98.9,1944-11-14,US,3,Seattle University
+1972,ina,barnhjo01,John Barnhill,,PG,PG,,185.4,81.6,1938-03-20,US,9,Tennessee State
+1972,ina,brownro01,Roger Brown,,SF,SF,,195.6,93.0,1942-05-22,US,4,Dayton
+1972,ina,cannola01,Larry Cannon,,SG,SG,,193.0,88.5,1947-04-12,US,2,La Salle
+1972,ina,chapmwa01,Wayne Chapman,,SF,SF,,198.1,86.2,1945-06-15,US,3,Western Kentucky
+1972,ina,danieme01,Mel Daniels,,C,C,,205.7,99.8,1944-07-20,US,4,"Southeastern Iowa Community College, West Burlington Campus, New Mexico"
+1972,ina,hillmda01,Darnell Hillman,,PF,PF,,205.7,97.5,1949-08-29,US,0,San Jose State
+1972,ina,kellebi01,Bill Keller,,PG,PG,,177.8,80.3,1947-08-30,US,2,Purdue
+1972,ina,kellyar01,Arvesta Kelly,,SG,SG,,188.0,79.4,1945-11-20,US,4,Lincoln University of Missouri
+1972,ina,lewisfr02,Freddie Lewis,,PG,PG,,182.9,79.4,1943-07-01,US,5,"Eastern Arizona College, Arizona State"
+1972,ina,mcginge01,George McGinnis,,SF,SF,,203.2,106.6,1950-08-12,US,0,Indiana
+1972,ina,mountri01,Rick Mount,,SG,SG,,190.5,79.4,1947-01-05,US,1,Purdue
+1972,ina,netolbo01,Bob Netolicky,,PF,PF,,205.7,99.8,1942-08-02,US,4,Drake University
+1972,ina,pricemi01,Mike Price,,SG,SG,,190.5,90.7,1948-09-11,US,1,Illinois
+1972,ina,sidledo01,Don Sidle,,C,C,,203.2,97.5,1946-06-21,US,3,Oklahoma
+1972,ina,winklma01,Marv Winkler,,SG,SG,,185.4,74.4,1948-02-18,US,1,Louisiana
+1972,lal,bayloel01,Elgin Baylor,,SF,SF,,195.6,102.1,1934-09-16,US,13,"College of Idaho, Seattle University"
+1972,lal,chambwi01,Wilt Chamberlain,,C,C,,215.9,124.7,1936-08-21,US,12,Kansas
+1972,lal,cleamji01,Jim Cleamons,,PG,PG,,190.5,83.9,1949-09-13,US,0,Ohio State
+1972,lal,ellisle01,Leroy Ellis,,C,C,,210.8,95.3,1940-03-10,US,9,St. John's
+1972,lal,erickke01,Keith Erickson,,SF,SF,,195.6,88.5,1944-04-19,US,6,UCLA
+1972,lal,goodrga01,Gail Goodrich,,SG,SG,,185.4,77.1,1943-04-23,US,6,UCLA
+1972,lal,hairsha01,Happy Hairston,,PF,PF,,200.7,102.1,1942-05-31,US,7,NYU
+1972,lal,mcmilji01,Jim McMillian,,SF,SF,,195.6,97.5,1948-03-11,US,1,Columbia University
+1972,lal,rileypa01,Pat Riley,,SG,SG,,193.0,93.0,1945-03-20,US,4,Kentucky
+1972,lal,robinfl01,Flynn Robinson,,SG,SG,,185.4,83.9,1941-04-28,US,5,"Southern Illinois, Casper College, Wyoming"
+1972,lal,trappjo01,John Trapp,,SF,SF,,200.7,95.3,1945-10-02,US,3,"Voorhees College, Pasadena City College, UNLV"
+1972,lal,westje01,Jerry West,,PG,PG,,190.5,79.4,1938-05-28,US,11,West Virginia
+1973,ina,arnzebo01,Bob Arnzen,,SF,SF,,195.6,93.0,1947-11-03,US,2,Notre Dame
+1973,ina,brownro01,Roger Brown,,SF,SF,,195.6,93.0,1942-05-22,US,5,Dayton
+1973,ina,busedo01,Don Buse,,PG,PG,,193.0,86.2,1950-08-10,US,0,University of Evansville
+1973,ina,danieme01,Mel Daniels,,C,C,,205.7,99.8,1944-07-20,US,5,"Southeastern Iowa Community College, West Burlington Campus, New Mexico"
+1973,ina,freemdo01,Donnie Freeman,,SG,SG,,190.5,83.9,1944-07-18,US,5,Illinois
+1973,ina,hillmda01,Darnell Hillman,,PF,PF,,205.7,97.5,1949-08-29,US,1,San Jose State
+1973,ina,johnsgu01,Gus Johnson,,SF,SF,,198.1,104.3,1938-12-13,US,9,"Boise State, Idaho"
+1973,ina,kellebi01,Bill Keller,,PG,PG,,177.8,80.3,1947-08-30,US,3,Purdue
+1973,ina,lewisfr02,Freddie Lewis,,SG,SG,,182.9,79.4,1943-07-01,US,6,"Eastern Arizona College, Arizona State"
+1973,ina,mcginge01,George McGinnis,,PF,PF,,203.2,106.6,1950-08-12,US,1,Indiana
+1973,ina,newtobi01,Bill Newton,,PF,PF,,205.7,99.8,1950-12-22,US,0,LSU
+1973,ina,peeplge01,George Peeples,,C,C,,200.7,86.2,1943-10-30,US,5,Iowa
+1973,ina,raymocr01,Craig Raymond,,C,C,,210.8,106.6,1945-04-05,US,4,BYU
+1973,nyk,barnedi01,Dick Barnett,,SG,SG,,193.0,86.2,1936-10-02,US,12,Tennessee State
+1973,nyk,bibbyhe01,Henry Bibby,,PG,PG,,185.4,83.9,1949-11-24,US,0,UCLA
+1973,nyk,bradlbi01,Bill Bradley,,SF,SF,,195.6,93.0,1943-07-28,US,5,Princeton
+1973,nyk,debusda01,Dave DeBusschere,,PF,PF,,198.1,99.8,1940-10-16,US,10,Detroit Mercy
+1973,nyk,fraziwa01,Walt Frazier,,PG,PG,,193.0,90.7,1945-03-29,US,5,Southern Illinois
+1973,nyk,gianejo01,John Gianelli,,C,C,,208.3,99.8,1950-06-10,US,0,University of the Pacific
+1973,nyk,jacksph01,Phil Jackson,,PF,PF,,203.2,99.8,1945-09-17,US,4,University of North Dakota
+1973,nyk,lucasje01,Jerry Lucas,,PF,PF,,203.2,104.3,1940-03-30,US,9,Ohio State
+1973,nyk,meminde01,Dean Meminger,,SG,SG,,182.9,79.4,1948-05-13,US,1,Marquette
+1973,nyk,monroea01,Earl Monroe,,SG,SG,,190.5,83.9,1944-11-21,US,5,Winston-Salem State
+1973,nyk,rackllu01,Luther Rackley,,C,C,,208.3,99.8,1946-06-11,US,3,Xavier
+1973,nyk,reedwi01,Willis Reed,,C,C,,208.3,106.6,1942-06-25,US,8,Grambling State University
+1973,nyk,rikerto01,Tom Riker,,C,C,,208.3,102.1,1950-02-28,US,0,South Carolina
+1973,nyk,wingoha01,Harthorne Wingo,,PF,PF,,198.1,95.3,1947-09-09,US,0,Friendship Junior College
+1974,bos,chanedo01,Don Chaney,,SG,SG,,195.6,95.3,1946-03-22,US,5,Houston
+1974,bos,cowenda01,Dave Cowens,,C,C,,205.7,104.3,1948-10-25,US,3,Florida State
+1974,bos,downist01,Steve Downing,,C,C,,203.2,102.1,1950-09-09,US,0,Indiana
+1974,bos,finkeha01,Hank Finkel,,C,C,,213.4,108.9,1942-04-20,US,7,Dayton
+1974,bos,hankiph01,Phil Hankinson,,SF,SF,,203.2,88.5,1951-07-26,US,0,Penn
+1974,bos,havlijo01,John Havlicek,,SF,SF,,195.6,92.1,1940-04-08,US,11,Ohio State
+1974,bos,kuberst01,Steve Kuberski,,PF,PF,,203.2,97.5,1947-11-06,US,4,Bradley
+1974,bos,nelsodo01,Don Nelson,,SF,SF,,198.1,95.3,1940-05-15,US,11,Iowa
+1974,bos,silaspa01,Paul Silas,,PF,PF,,200.7,99.8,1943-07-12,US,9,Creighton
+1974,bos,westppa01,Paul Westphal,,SG,SG,,193.0,88.5,1950-11-30,US,1,USC
+1974,bos,whitejo01,Jo Jo White,,PG,PG,,190.5,86.2,1946-11-16,US,4,Kansas
+1974,bos,williar01,Art Williams,,PG,PG,,185.4,81.6,1939-09-29,US,6,Cal Poly Pomona
+1974,nya,ervinju01,Julius Erving,,SF,SF,,200.7,95.3,1950-02-22,US,2,UMass
+1974,nya,galemi01,Mike Gale,,PG,PG,,193.0,83.9,1950-07-18,US,2,Elizabeth City State University
+1974,nya,gregoga01,Gary Gregor,,SF,SF,,200.7,102.1,1945-08-13,US,5,South Carolina
+1974,nya,kenonla01,Larry Kenon,,PF,PF,,205.7,93.0,1952-12-13,US,0,"Amarillo College, Memphis"
+1974,nya,lackebo01,Bob Lackey,,SG,SG,,195.6,90.7,1949-04-04,US,1,"Casper College, Marquette"
+1974,nya,ladnewe01,Wendell Ladner,,SF,SF,,195.6,99.8,1948-10-06,US,3,Southern Miss
+1974,nya,melchbi01,Bill Melchionni,,PG,PG,,185.4,74.8,1944-10-19,US,6,Villanova
+1974,nya,obrieji02,Jim O'Brien,,SF,SF,,200.7,90.7,1951-11-07,US,0,Maryland
+1974,nya,paultbi01,Billy Paultz,,C,C,,210.8,106.6,1948-07-30,US,3,"Cameron University, St. John's"
+1974,nya,rinalri01,Rich Rinaldi,,SG,SG,,190.5,88.5,1949-08-03,US,2,Saint Peter's College
+1974,nya,rochejo01,John Roche,,SG,SG,,190.5,77.1,1949-09-26,US,2,South Carolina
+1974,nya,schaebi01,Billy Schaeffer,,SF,SF,,195.6,90.7,1951-12-11,US,0,St. John's
+1974,nya,sojouwi01,Willie Sojourner,,C,C,,203.2,102.1,1948-09-10,US,2,Weber State
+1974,nya,taylobr01,Brian Taylor,,PG,PG,,188.0,83.9,1951-06-09,US,1,Princeton
+1974,nya,taylool01,Ollie Taylor,,SG,SG,,188.0,88.0,1947-03-07,US,3,"San Jacinto College, Houston"
+1974,nya,willijo01,John Williamson,,SG,SG,,188.0,83.9,1951-11-10,US,0,New Mexico State
+1975,gsw,barryri01,Rick Barry,,SF,SF,,200.7,93.0,1944-03-28,US,8,Miami (FL)
+1975,gsw,beardbu01,Butch Beard,,PG,PG,,190.5,83.9,1947-05-04,US,4,Louisville
+1975,gsw,bracest01,Steve Bracey,,SG,SG,,185.4,79.4,1950-08-01,US,2,Tulsa
+1975,gsw,bridgbi01,Bill Bridges,,PF,PF,,198.1,103.4,1939-04-04,US,12,Kansas
+1975,gsw,dickede01,Derrek Dickey,,PF,PF,,200.7,98.9,1951-03-20,US,1,Cincinnati
+1975,gsw,dudlech01,Charles Dudley,,PG,PG,,188.0,81.6,1950-03-05,US,1,Washington
+1975,gsw,johnsch01,Charles Johnson,,SG,SG,,182.9,77.1,1949-03-31,US,2,California
+1975,gsw,johnsge02,George Johnson,,C,C,,210.8,93.0,1948-12-18,US,2,Dillard University
+1975,gsw,kendrfr01,Frank Kendrick,,SF,SF,,198.1,89.8,1950-09-11,US,0,Purdue
+1975,gsw,mullije01,Jeff Mullins,,SG,SG,,193.0,86.2,1942-03-18,US,10,Duke
+1975,gsw,raycl01,Clifford Ray,,C,C,,205.7,104.3,1949-01-21,US,3,Oklahoma
+1975,gsw,smithph01,Phil Smith,,SG,SG,,193.0,83.9,1952-04-22,US,0,San Francisco
+1975,gsw,wilkeja01,Jamaal Wilkes,,SF,SF,,198.1,86.2,1953-05-02,US,0,UCLA
+1975,ken,averibi01,Bird Averitt,,SG,SG,,185.4,77.1,1952-07-22,US,1,Pepperdine
+1975,ken,bradlji01,Jim Bradley,,PF,PF,,203.2,97.5,1952-03-16,US,1,Northern Illinois
+1975,ken,dampilo01,Louie Dampier,,PG,PG,,182.9,77.1,1944-11-20,US,7,Kentucky
+1975,ken,gilmoar01,Artis Gilmore,,C,C,,218.4,108.9,1949-09-21,US,3,"Gardner-Webb University, Jacksonville University"
+1975,ken,hamiljo01,Joe Hamilton,,PG,PG,,177.8,72.6,1948-07-05,US,4,"Southwestern Christian College, University of North Texas"
+1975,ken,isselda01,Dan Issel,,PF,PF,,205.7,106.6,1948-10-25,US,4,Kentucky
+1975,ken,joneswi02,Wil Jones,,SF,SF,,203.2,93.0,1947-02-27,US,5,Albany State University
+1975,ken,littlge01,Gene Littles,,PG,PG,,182.9,72.6,1943-06-29,US,5,High Point University
+1975,ken,mcclate01,Ted McClain,,SG,SG,,185.4,81.6,1946-08-30,US,3,Tennessee State
+1975,ken,robbire01,Red Robbins,,C,C,,203.2,86.2,1944-09-30,US,7,"Chipola College, Tennessee"
+1975,ken,roberma01,Marv Roberts,,SF,SF,,203.2,90.7,1950-01-29,US,3,Utah State University
+1975,ken,rochejo01,John Roche,,SG,SG,,190.5,77.1,1949-09-26,US,3,South Carolina
+1975,ken,thomaro01,Ron Thomas,,PF,PF,,198.1,97.5,1950-11-19,US,2,"Trinity Valley CC, Louisville"
+1976,bos,anderje01,Jerome Anderson,,SG,SG,,195.6,88.5,1953-10-09,US,0,West Virginia
+1976,bos,ardji01,Jim Ard,,C,C,,203.2,97.5,1948-09-19,US,5,Cincinnati
+1976,bos,bosweto01,Tom Boswell,,PF,PF,,205.7,99.8,1953-10-02,US,0,"South Carolina State, South Carolina"
+1976,bos,cowenda01,Dave Cowens,,C,C,,205.7,104.3,1948-10-25,US,5,Florida State
+1976,bos,havlijo01,John Havlicek,,SF,SF,,195.6,92.1,1940-04-08,US,13,Ohio State
+1976,bos,kuberst01,Steve Kuberski,,C,C,,203.2,97.5,1947-11-06,US,6,Bradley
+1976,bos,mcdongl01,Glenn McDonald,,SF,SF,,198.1,86.2,1952-03-18,US,1,Cal State Long Beach
+1976,bos,nelsodo01,Don Nelson,,SF,SF,,198.1,95.3,1940-05-15,US,13,Iowa
+1976,bos,scottch01,Charlie Scott,,SG,SG,,195.6,79.4,1948-12-15,US,5,UNC
+1976,bos,searced01,Ed Searcy,,SF,SF,,198.1,95.3,1952-04-17,US,0,St. John's
+1976,bos,silaspa01,Paul Silas,,PF,PF,,200.7,99.8,1943-07-12,US,11,Creighton
+1976,bos,stacoke01,Kevin Stacom,,SG,SG,,190.5,83.9,1951-09-04,US,1,"Holy Cross, Providence"
+1976,bos,whitejo01,Jo Jo White,,PG,PG,,190.5,86.2,1946-11-16,US,6,Kansas
+1976,nya,basseti01,Tim Bassett,,PF,PF,,203.2,102.1,1951-04-01,US,2,"College of Southern Idaho, Georgia"
+1976,nya,buccige01,George Bucci,,SG,SG,,190.5,90.7,1953-07-09,US,0,Manhattan University
+1976,nya,eakinji01,Jim Eakins,,C,C,,210.8,97.5,1946-05-24,US,7,BYU
+1976,nya,ervinju01,Julius Erving,,SF,SF,,200.7,95.3,1950-02-22,US,4,UMass
+1976,nya,hugheki01,Kim Hughes,,C,C,,210.8,99.8,1952-06-04,US,0,Wisconsin
+1976,nya,jonesri01,Rich Jones,,PF,PF,,198.1,99.8,1946-12-27,US,6,"Illinois, Memphis"
+1976,nya,mcclate01,Ted McClain,,SG,SG,,185.4,81.6,1946-08-30,US,4,Tennessee State
+1976,nya,melchbi01,Bill Melchionni,,PG,PG,,185.4,74.8,1944-10-19,US,8,Villanova
+1976,nya,natersw01,Swen Nater,,C,C,,210.8,108.9,1950-01-14,NL,2,"Cypress College, UCLA"
+1976,nya,schaebi01,Billy Schaeffer,,SF,SF,,195.6,90.7,1951-12-11,US,2,St. John's
+1976,nya,skinnal01,Al Skinner,,SG,SG,,190.5,86.2,1952-06-16,US,1,UMass
+1976,nya,taylobr01,Brian Taylor,,PG,PG,,188.0,83.9,1951-06-09,US,3,Princeton
+1976,nya,terrych01,Chuck Terry,,SF,SF,,198.1,97.5,1950-09-27,US,3,Cal State Long Beach
+1976,nya,willijo01,John Williamson,,SG,SG,,188.0,83.9,1951-11-10,US,2,New Mexico State
+1977,por,calhoco01,Corky Calhoun,,SF,SF,,200.7,95.3,1950-11-01,US,4,Penn
+1977,por,davisjo01,Johnny Davis,,SG,SG,,188.0,77.1,1955-10-21,US,0,Dayton
+1977,por,gillihe01,Herm Gilliam,,SG,SG,,190.5,86.2,1946-05-05,US,7,Purdue
+1977,por,grossbo01,Bob Gross,,SF,SF,,198.1,90.7,1953-08-03,US,1,"Seattle University, Cal State Long Beach"
+1977,por,hollili01,Lionel Hollins,,PG,PG,,190.5,83.9,1953-10-19,US,1,"Dixie State (UT), Arizona State"
+1977,por,jonesro01,Robin Jones,,C,C,,205.7,102.1,1954-02-02,US,0,Saint Louis
+1977,por,lucasma01,Maurice Lucas,,PF,PF,,205.7,97.5,1952-02-18,US,2,Marquette
+1977,por,mayescl01,Clyde Mayes,,PF,PF,,203.2,102.1,1953-03-17,US,1,Furman University
+1977,por,nealll01,Lloyd Neal,,PF,PF,,200.7,102.1,1950-12-10,US,4,Tennessee State
+1977,por,steella01,Larry Steele,,SG,SG,,195.6,81.6,1949-05-05,US,5,Kentucky
+1977,por,twardda01,Dave Twardzik,,PG,PG,,185.4,79.4,1950-09-20,US,4,Old Dominion
+1977,por,walkewa01,Wally Walker,,SF,SF,,200.7,86.2,1954-07-18,US,0,Virginia
+1977,por,waltobi01,Bill Walton,,C,C,,210.8,95.3,1952-11-05,US,2,UCLA
+1978,wsb,ballagr01,Greg Ballard,,SF,SF,,200.7,97.5,1955-01-29,US,0,Oregon
+1978,wsb,cheniph01,Phil Chenier,,SG,SG,,190.5,81.6,1950-10-30,US,6,California
+1978,wsb,dandrbo01,Bob Dandridge,,SF,SF,,198.1,88.5,1947-11-15,US,8,Norfolk State
+1978,wsb,greveke01,Kevin Grevey,,SF,SF,,195.6,95.3,1953-05-12,US,2,Kentucky
+1978,wsb,hayesel01,Elvin Hayes,,PF,PF,,205.7,106.6,1945-11-17,US,9,Houston
+1978,wsb,hendeto01,Tom Henderson,,PG,PG,,190.5,86.2,1952-01-26,US,3,Hawaii
+1978,wsb,johnsch01,Charles Johnson,,SG,SG,,182.9,77.1,1949-03-31,US,5,California
+1978,wsb,kupchmi01,Mitch Kupchak,,PF,PF,,205.7,104.3,1954-05-24,US,1,UNC
+1978,wsb,pacejo01,Joe Pace,,C,C,,208.3,99.8,1953-12-18,US,1,Coppin State University
+1978,wsb,unselwe01,Wes Unseld,,C,C,,200.7,111.1,1946-03-14,US,9,Louisville
+1978,wsb,walkeph01,Phil Walker,,SG,SG,,190.5,81.6,1956-03-20,US,0,Millersville
+1978,wsb,wrighla01,Larry Wright,,PG,PG,,185.4,72.6,1954-11-23,US,1,Grambling State University
+1979,sea,awtrede01,Dennis Awtrey,,C,C,,208.3,106.6,1948-02-22,US,8,Santa Clara
+1979,sea,brownfr01,Fred Brown,,PG,PG,,190.5,82.6,1948-08-07,US,7,"Southeastern Iowa Community College, West Burlington Campus, Iowa"
+1979,sea,hansela01,Lars Hansen,,C,C,,208.3,102.1,1954-09-14,DK,0,Washington
+1979,sea,hassejo01,Joe Hassett,,SG,SG,,195.6,81.6,1955-09-11,US,1,Providence
+1979,sea,johnsde01,Dennis Johnson,,SG,SG,,193.0,83.9,1954-09-18,US,2,"Harbor College, Pepperdine"
+1979,sea,johnsjo01,John Johnson,,SF,SF,,200.7,90.7,1947-10-18,US,8,"Northwest College, Iowa"
+1979,sea,lagarto01,Tom LaGarde,,C,C,,208.3,99.8,1955-02-10,US,1,UNC
+1979,sea,robinja01,Jackie Robinson,,SF,SF,,198.1,95.3,1955-05-20,US,0,UNLV
+1979,sea,sheltlo01,Lonnie Shelton,,PF,PF,,203.2,108.9,1955-10-19,US,2,Oregon State
+1979,sea,sikmaja01,Jack Sikma,,C,C,,210.8,104.3,1955-11-14,US,1,Illinois Wesleyan University
+1979,sea,silaspa01,Paul Silas,,PF,PF,,200.7,99.8,1943-07-12,US,14,Creighton
+1979,sea,snydedi01,Dick Snyder,,SG,SG,,195.6,93.9,1944-02-01,US,12,Davidson
+1979,sea,walkewa01,Wally Walker,,SF,SF,,200.7,86.2,1954-07-18,US,2,Virginia
+1979,sea,willigu01,Gus Williams,,PG,PG,,188.0,79.4,1953-10-10,US,3,USC
+1980,lal,abdulka01,Kareem Abdul-Jabbar,,C,C,,218.4,102.1,1947-04-16,US,10,UCLA
+1980,lal,boonero01,Ron Boone,,SG,SG,,188.0,90.7,1946-09-06,US,11,"Iowa Western Community College, Clarinda Campus, Idaho State University"
+1980,lal,byrnema01,Marty Byrnes,,SF,SF,,200.7,97.5,1956-04-30,US,1,Syracuse
+1980,lal,carrke01,Kenny Carr,,PF,PF,,200.7,99.8,1955-08-15,US,2,NC State
+1980,lal,choneji01,Jim Chones,,C,C,,210.8,99.8,1949-11-30,US,7,Marquette
+1980,lal,coopemi01,Michael Cooper,,SG,SG,,200.7,77.1,1956-04-15,US,1,New Mexico
+1980,lal,forddo01,Don Ford,,SF,SF,,205.7,97.5,1952-12-31,US,4,"New Mexico, UC Santa Barbara"
+1980,lal,haywosp01,Spencer Haywood,,PF,PF,,203.2,102.1,1949-04-22,US,10,"Trinidad State Junior College, Detroit Mercy"
+1980,lal,hollabr01,Brad Holland,,SG,SG,,190.5,81.6,1956-12-06,US,0,UCLA
+1980,lal,johnsma02,Magic Johnson,,SG,SG,,205.7,97.5,1959-08-14,US,0,Michigan State
+1980,lal,landsma01,Mark Landsberger,,C,C,,203.2,97.5,1955-05-21,US,2,"Minnesota, Arizona State"
+1980,lal,leebu01,Butch Lee,,PG,PG,,182.9,83.9,1956-12-05,PR,1,Marquette
+1980,lal,mackol01,Ollie Mack,,SG,SG,,190.5,83.9,1957-06-06,US,0,East Carolina University
+1980,lal,nixonno01,Norm Nixon,,PG,PG,,188.0,77.1,1955-10-11,US,2,Duquesne
+1980,lal,wilkeja01,Jamaal Wilkes,,SF,SF,,198.1,86.2,1953-05-02,US,5,UCLA
+1981,bos,architi01,Tiny Archibald,,PG,PG,,185.4,68.0,1948-09-02,US,9,"Arizona Western College, Texas-El Paso"
+1981,bos,birdla01,Larry Bird,,PF,PF,,205.7,99.8,1956-12-07,US,1,Indiana State University
+1981,bos,carrml01,M.L. Carr,,SF,SF,,198.1,93.0,1951-01-09,US,5,Guilford College
+1981,bos,duerote01,Terry Duerod,,SG,SG,,188.0,81.6,1956-07-29,US,1,Detroit Mercy
+1981,bos,fernser01,Eric Fernsten,,C,C,,208.3,93.0,1953-11-01,US,3,San Francisco
+1981,bos,fordch01,Chris Ford,,SG,SG,,195.6,86.2,1949-01-11,US,8,Villanova
+1981,bos,hendege01,Gerald Henderson,,PG,PG,,188.0,79.4,1956-01-16,US,1,VCU
+1981,bos,kreklwa01,Wayne Kreklow,,SG,SG,,193.0,79.4,1957-01-04,US,0,Drake University
+1981,bos,maxwece01,Cedric Maxwell,,SF,SF,,203.2,93.0,1955-11-21,US,3,UNC Charlotte
+1981,bos,mchalke01,Kevin McHale,,PF,PF,,208.3,95.3,1957-12-19,US,0,Minnesota
+1981,bos,parisro01,Robert Parish,,C,C,,215.9,104.3,1953-08-30,US,4,Centenary (LA)
+1981,bos,robeyri01,Rick Robey,,C,C,,210.8,104.3,1956-01-30,US,2,Kentucky
+1982,lal,abdulka01,Kareem Abdul-Jabbar,,C,C,,218.4,102.1,1947-04-16,US,12,UCLA
+1982,lal,breweji01,Jim Brewer,,PF,PF,,205.7,95.3,1951-12-03,US,8,Minnesota
+1982,lal,coopemi01,Michael Cooper,,SG,SG,,200.7,77.1,1956-04-15,US,3,New Mexico
+1982,lal,johnscl02,Clay Johnson,,SG,SG,,193.0,79.4,1956-07-18,US,0,Missouri
+1982,lal,johnsma02,Magic Johnson,,SG,SG,,205.7,97.5,1959-08-14,US,2,Michigan State
+1982,lal,jordaed01,Eddie Jordan,,PG,PG,,185.4,77.1,1955-01-29,US,4,Rutgers University
+1982,lal,kupchmi01,Mitch Kupchak,,PF,PF,,205.7,104.3,1954-05-24,US,5,UNC
+1982,lal,landsma01,Mark Landsberger,,PF,PF,,203.2,97.5,1955-05-21,US,4,"Minnesota, Arizona State"
+1982,lal,mcadobo01,Bob McAdoo,,C,C,,205.7,95.3,1951-09-25,US,9,"Vincennes University, UNC"
+1982,lal,mcgeemi01,Mike McGee,,SF,SF,,195.6,86.2,1959-07-29,US,0,Michigan
+1982,lal,mckenke01,Kevin McKenna,,SG,SG,,195.6,88.5,1959-01-08,US,0,Creighton
+1982,lal,nixonno01,Norm Nixon,,PG,PG,,188.0,77.1,1955-10-11,US,4,Duquesne
+1982,lal,rambiku01,Kurt Rambis,,PF,PF,,203.2,96.6,1958-02-25,US,0,Santa Clara
+1982,lal,wilkeja01,Jamaal Wilkes,,SF,SF,,198.1,86.2,1953-05-02,US,7,UCLA
+1983,phi,anderjj01,J.J. Anderson,,SF,SF,,203.2,88.5,1960-09-23,US,0,Bradley
+1983,phi,cheekma01,Maurice Cheeks,,PG,PG,,185.4,81.6,1956-09-08,US,4,West Texas A&M University
+1983,phi,curetea01,Earl Cureton,,C,C,,205.7,95.3,1957-09-03,US,2,"Robert Morris University (PA), Detroit Mercy"
+1983,phi,edwarfr01,Franklin Edwards,,PG,PG,,185.4,77.1,1959-02-02,US,1,Cleveland State University
+1983,phi,ervinju01,Julius Erving,,SF,SF,,200.7,95.3,1950-02-22,US,11,UMass
+1983,phi,iavarma01,Marc Iavaroni,,PF,PF,,208.3,102.1,1956-09-15,US,0,Virginia
+1983,phi,johnscl01,Clemon Johnson,,C,C,,208.3,108.9,1956-09-12,US,4,Florida A&M
+1983,phi,johnsre01,Reggie Johnson,,SF,SF,,205.7,93.0,1957-06-25,US,2,Tennessee
+1983,phi,jonesbo01,Bobby Jones,,PF,PF,,205.7,95.3,1951-12-18,US,8,UNC
+1983,phi,malonmo01,Moses Malone,,C,C,,208.3,97.5,1955-03-23,US,8,
+1983,phi,mcnamma01,Mark McNamara,,C,C,,210.8,106.6,1959-06-08,US,0,"Santa Clara, California"
+1983,phi,richacl01,Clint Richardson,,SG,SG,,190.5,88.5,1956-08-07,US,3,Seattle University
+1983,phi,schoeru01,Russ Schoene,,PF,PF,,208.3,95.3,1960-04-16,US,0,Chattanooga
+1983,phi,toneyan01,Andrew Toney,,SG,SG,,190.5,80.7,1957-11-23,US,2,Louisiana
+1984,bos,aingeda01,Danny Ainge,,SG,SG,,195.6,83.9,1959-03-17,US,2,BYU
+1984,bos,birdla01,Larry Bird,,PF,PF,,205.7,99.8,1956-12-07,US,4,Indiana State University
+1984,bos,bucknqu01,Quinn Buckner,,PG,PG,,190.5,86.2,1954-08-20,US,7,Indiana
+1984,bos,carrml01,M.L. Carr,,SF,SF,,198.1,93.0,1951-01-09,US,8,Guilford College
+1984,bos,clarkca01,Carlos Clark,,SG,SG,,193.0,95.3,1960-08-10,US,0,Ole Miss
+1984,bos,hendege01,Gerald Henderson,,PG,PG,,188.0,79.4,1956-01-16,US,4,VCU
+1984,bos,johnsde01,Dennis Johnson,,SG,SG,,193.0,83.9,1954-09-18,US,7,"Harbor College, Pepperdine"
+1984,bos,kitegr01,Greg Kite,,C,C,,210.8,113.4,1961-08-05,US,0,BYU
+1984,bos,maxwece01,Cedric Maxwell,,SF,SF,,203.2,93.0,1955-11-21,US,6,UNC Charlotte
+1984,bos,mchalke01,Kevin McHale,,PF,PF,,208.3,95.3,1957-12-19,US,3,Minnesota
+1984,bos,parisro01,Robert Parish,,C,C,,215.9,104.3,1953-08-30,US,7,Centenary (LA)
+1984,bos,wedmasc01,Scott Wedman,,SF,SF,,200.7,97.5,1952-07-29,US,9,Colorado
+1985,lal,abdulka01,Kareem Abdul-Jabbar,,C,C,,218.4,102.1,1947-04-16,US,15,UCLA
+1985,lal,coopemi01,Michael Cooper,,SG,SG,,200.7,77.1,1956-04-15,US,6,New Mexico
+1985,lal,johnsma02,Magic Johnson,,PG,PG,,205.7,97.5,1959-08-14,US,5,Michigan State
+1985,lal,jonesea01,Earl Jones,,C,C,,213.4,95.3,1961-01-13,US,0,University of the District of Columbia
+1985,lal,kupchmi01,Mitch Kupchak,,PF,PF,,205.7,104.3,1954-05-24,US,7,UNC
+1985,lal,lestero01,Ronnie Lester,,PG,PG,,188.0,79.4,1959-01-01,US,4,Iowa
+1985,lal,mcadobo01,Bob McAdoo,,C,C,,205.7,95.3,1951-09-25,US,12,"Vincennes University, UNC"
+1985,lal,mcgeemi01,Mike McGee,,SF,SF,,195.6,86.2,1959-07-29,US,3,Michigan
+1985,lal,nevitch01,Chuck Nevitt,,C,C,,226.1,98.4,1959-06-13,US,1,NC State
+1985,lal,rambiku01,Kurt Rambis,,PF,PF,,203.2,96.6,1958-02-25,US,3,Santa Clara
+1985,lal,scottby01,Byron Scott,,SG,SG,,193.0,90.7,1961-03-28,US,1,Arizona State
+1985,lal,sprigla01,Larry Spriggs,,PF,PF,,200.7,104.3,1959-09-08,US,3,Howard University
+1985,lal,wilkeja01,Jamaal Wilkes,,SF,SF,,198.1,86.2,1953-05-02,US,10,UCLA
+1985,lal,worthja01,James Worthy,,SF,SF,,205.7,102.1,1961-02-27,US,2,UNC
+1986,bos,aingeda01,Danny Ainge,,SG,SG,,195.6,83.9,1959-03-17,US,4,BYU
+1986,bos,birdla01,Larry Bird,,SF,SF,,205.7,99.8,1956-12-07,US,6,Indiana State University
+1986,bos,carliri01,Rick Carlisle,,SG,SG,,195.6,95.3,1959-10-27,US,1,"University of Maine, Virginia"
+1986,bos,johnsde01,Dennis Johnson,,PG,PG,,193.0,83.9,1954-09-18,US,9,"Harbor College, Pepperdine"
+1986,bos,kitegr01,Greg Kite,,C,C,,210.8,113.4,1961-08-05,US,2,BYU
+1986,bos,mchalke01,Kevin McHale,,PF,PF,,208.3,95.3,1957-12-19,US,5,Minnesota
+1986,bos,parisro01,Robert Parish,,C,C,,215.9,104.3,1953-08-30,US,9,Centenary (LA)
+1986,bos,sichtje01,Jerry Sichting,,PG,PG,,185.4,76.2,1956-11-29,US,5,Purdue
+1986,bos,thirdda01,David Thirdkill,,PF,PF,,200.7,88.5,1960-04-12,US,3,Bradley
+1986,bos,vincesa01,Sam Vincent,,SG,SG,,188.0,83.9,1963-05-18,US,0,Michigan State
+1986,bos,waltobi01,Bill Walton,,C,C,,210.8,95.3,1952-11-05,US,8,UCLA
+1986,bos,wedmasc01,Scott Wedman,,SF,SF,,200.7,97.5,1952-07-29,US,11,Colorado
+1986,bos,willisl01,Sly Williams,,SF,SF,,200.7,95.3,1958-01-26,US,6,Rhode Island
+1987,lal,abdulka01,Kareem Abdul-Jabbar,,C,C,,218.4,102.1,1947-04-16,US,17,UCLA
+1987,lal,brancad01,Adrian Branch,,SF,SF,,200.7,83.9,1963-11-17,US,0,Maryland
+1987,lal,brickfr01,Frank Brickowski,,PF,PF,,205.7,108.9,1959-08-14,US,2,Penn State
+1987,lal,coopemi01,Michael Cooper,,SG,SG,,200.7,77.1,1956-04-15,US,8,New Mexico
+1987,lal,greenac01,A.C. Green,,PF,PF,,205.7,99.8,1963-10-04,US,1,Oregon State
+1987,lal,johnsma02,Magic Johnson,,PG,PG,,205.7,97.5,1959-08-14,US,7,Michigan State
+1987,lal,matthwe01,Wes Matthews,,PG,PG,,185.4,77.1,1959-08-24,US,6,Wisconsin
+1987,lal,rambiku01,Kurt Rambis,,PF,PF,,203.2,96.6,1958-02-25,US,5,Santa Clara
+1987,lal,scottby01,Byron Scott,,SG,SG,,193.0,90.7,1961-03-28,US,3,Arizona State
+1987,lal,smrekmi01,Mike Smrek,,C,C,,213.4,113.4,1962-08-31,CA,1,Canisius
+1987,lal,thompbi01,Billy Thompson,,SF,SF,,200.7,88.5,1963-12-01,US,0,Louisville
+1987,lal,thompmy01,Mychal Thompson,,PF,PF,,208.3,102.5,1955-01-30,BS,7,Minnesota
+1987,lal,worthja01,James Worthy,,SF,SF,,205.7,102.1,1961-02-27,US,4,UNC
+1988,lal,abdulka01,Kareem Abdul-Jabbar,,C,C,,218.4,102.1,1947-04-16,US,18,UCLA
+1988,lal,campbto01,Tony Campbell,,SF,SF,,200.7,97.5,1962-05-07,US,3,Ohio State
+1988,lal,coopemi01,Michael Cooper,,SG,SG,,200.7,77.1,1956-04-15,US,9,New Mexico
+1988,lal,greenac01,A.C. Green,,PF,PF,,205.7,99.8,1963-10-04,US,2,Oregon State
+1988,lal,johnsma02,Magic Johnson,,PG,PG,,205.7,97.5,1959-08-14,US,8,Michigan State
+1988,lal,lampje01,Jeff Lamp,,SF,SF,,198.1,88.5,1959-03-09,US,4,Virginia
+1988,lal,matthwe01,Wes Matthews,,PG,PG,,185.4,77.1,1959-08-24,US,7,Wisconsin
+1988,lal,rambiku01,Kurt Rambis,,PF,PF,,203.2,96.6,1958-02-25,US,6,Santa Clara
+1988,lal,scottby01,Byron Scott,,SG,SG,,193.0,90.7,1961-03-28,US,4,Arizona State
+1988,lal,smrekmi01,Mike Smrek,,C,C,,213.4,113.4,1962-08-31,CA,2,Canisius
+1988,lal,thompbi01,Billy Thompson,,SF,SF,,200.7,88.5,1963-12-01,US,1,Louisville
+1988,lal,thompmy01,Mychal Thompson,,C,C,,208.3,102.5,1955-01-30,BS,8,Minnesota
+1988,lal,tolbera01,Ray Tolbert,,PF,PF,,205.7,102.1,1958-09-10,US,3,Indiana
+1988,lal,wagnemi01,Milt Wagner,,SG,SG,,195.6,83.9,1963-02-20,US,0,Louisville
+1988,lal,worthja01,James Worthy,,SF,SF,,205.7,102.1,1961-02-27,US,5,UNC
+1989,det,aguirma01,Mark Aguirre,,SF,SF,,198.1,105.2,1959-12-10,US,7,DePaul
+1989,det,dantlad01,Adrian Dantley,,SF,SF,,195.6,94.3,1955-02-28,US,12,Notre Dame
+1989,det,dawkida01,Darryl Dawkins,,C,C,,210.8,113.9,1957-01-11,US,13,
+1989,det,dembofe01,Fennis Dembo,,SF,SF,,195.6,97.5,1966-01-24,US,0,Wyoming
+1989,det,dumarjo01,Joe Dumars,,SG,SG,,190.5,86.2,1963-05-24,US,3,McNeese State University
+1989,det,edwarja01,James Edwards,,C,C,,215.9,114.3,1955-11-22,US,11,Washington
+1989,det,harrist01,Steve Harris,,SG,SG,,195.6,88.5,1963-10-15,US,3,Tulsa
+1989,det,johnsvi01,Vinnie Johnson,,SG,SG,,188.0,90.7,1956-09-01,US,9,Baylor
+1989,det,laimbbi01,Bill Laimbeer,,C,C,,210.8,111.1,1957-05-19,US,8,Notre Dame
+1989,det,longjo01,John Long,,SG,SG,,195.6,88.5,1956-08-28,US,10,Detroit Mercy
+1989,det,mahorri01,Rick Mahorn,,PF,PF,,208.3,108.9,1958-09-21,US,8,Hampton
+1989,det,mannipa01,Pace Mannion,,SF,SF,,200.7,86.2,1960-09-22,US,5,Utah
+1989,det,rodmade01,Dennis Rodman,,SF,SF,,200.7,95.3,1961-05-13,US,2,"North Central Texas College, Southeastern Oklahoma State University"
+1989,det,rowinji01,Jim Rowinski,,PF,PF,,203.2,113.4,1961-01-04,US,0,Purdue
+1989,det,sallejo01,John Salley,,PF,PF,,210.8,104.3,1964-05-16,US,2,Georgia Tech
+1989,det,thomais01,Isiah Thomas,,PG,PG,,185.4,81.6,1961-04-30,US,7,Indiana
+1989,det,willimi02,Micheal Williams,,PG,PG,,188.0,79.4,1966-07-23,US,0,Baylor
+1990,det,aguirma01,Mark Aguirre,,SF,SF,,198.1,105.2,1959-12-10,US,8,DePaul
+1990,det,bedfowi01,William Bedford,,C,C,,213.4,102.1,1963-12-14,US,2,Memphis
+1990,det,dumarjo01,Joe Dumars,,SG,SG,,190.5,86.2,1963-05-24,US,4,McNeese State University
+1990,det,edwarja01,James Edwards,,C,C,,215.9,114.3,1955-11-22,US,12,Washington
+1990,det,greenda01,Dave Greenwood,,PF,PF,,205.7,100.7,1957-05-27,US,10,UCLA
+1990,det,hastisc01,Scott Hastings,,PF,PF,,208.3,106.6,1960-06-03,US,7,Arkansas
+1990,det,hendege01,Gerald Henderson,,PG,PG,,188.0,79.4,1956-01-16,US,10,VCU
+1990,det,johnsvi01,Vinnie Johnson,,SG,SG,,188.0,90.7,1956-09-01,US,10,Baylor
+1990,det,kimbrst01,Stan Kimbrough,,PG,PG,,180.3,69.4,1966-04-24,US,0,"Central Florida, Xavier"
+1990,det,laimbbi01,Bill Laimbeer,,C,C,,210.8,111.1,1957-05-19,US,9,Notre Dame
+1990,det,lewisra01,Ralph Lewis,,SG,SG,,198.1,90.7,1963-03-28,US,2,La Salle
+1990,det,rodmade01,Dennis Rodman,,SF,SF,,200.7,95.3,1961-05-13,US,3,"North Central Texas College, Southeastern Oklahoma State University"
+1990,det,sallejo01,John Salley,,PF,PF,,210.8,104.3,1964-05-16,US,3,Georgia Tech
+1990,det,thomais01,Isiah Thomas,,PG,PG,,185.4,81.6,1961-04-30,US,8,Indiana
+1991,chi,armstbj01,B.J. Armstrong,,PG,PG,,188.0,79.4,1967-09-09,US,1,Iowa
+1991,chi,cartwbi01,Bill Cartwright,,C,C,,215.9,111.1,1957-07-30,US,10,San Francisco
+1991,chi,grantho01,Horace Grant,,PF,PF,,208.3,97.5,1965-07-04,US,3,Clemson
+1991,chi,hodgecr01,Craig Hodges,,SG,SG,,188.0,86.2,1960-06-27,US,8,Cal State Long Beach
+1991,chi,hopsode01,Dennis Hopson,,SF,SF,,195.6,90.7,1965-04-22,US,3,Ohio State
+1991,chi,jordami01,Michael Jordan,,SG,SG,,198.1,89.8,1963-02-17,US,6,UNC
+1991,chi,kingst01,Stacey King,,PF,PF,,210.8,104.3,1967-01-29,US,1,Oklahoma
+1991,chi,levincl01,Cliff Levingston,,PF,PF,,203.2,95.3,1961-01-04,US,8,Wichita State
+1991,chi,paxsojo01,John Paxson,,PG,PG,,188.0,83.9,1960-09-29,US,7,Notre Dame
+1991,chi,perduwi01,Will Perdue,,C,C,,213.4,108.9,1965-08-29,US,2,Vanderbilt
+1991,chi,pippesc01,Scottie Pippen,,SF,SF,,203.2,95.3,1965-09-25,US,3,University of Central Arkansas
+1991,chi,willisc01,Scott Williams,,PF,PF,,208.3,104.3,1968-03-21,US,0,UNC
+1992,chi,armstbj01,B.J. Armstrong,,PG,PG,,188.0,79.4,1967-09-09,US,2,Iowa
+1992,chi,cartwbi01,Bill Cartwright,,C,C,,215.9,111.1,1957-07-30,US,11,San Francisco
+1992,chi,grantho01,Horace Grant,,PF,PF,,208.3,97.5,1965-07-04,US,4,Clemson
+1992,chi,hansebo01,Bob Hansen,,SG,SG,,198.1,86.2,1961-01-18,US,8,Iowa
+1992,chi,hodgecr01,Craig Hodges,,SG,SG,,188.0,86.2,1960-06-27,US,9,Cal State Long Beach
+1992,chi,hopsode01,Dennis Hopson,,SG,SG,,195.6,90.7,1965-04-22,US,4,Ohio State
+1992,chi,jordami01,Michael Jordan,,SG,SG,,198.1,89.8,1963-02-17,US,7,UNC
+1992,chi,kingst01,Stacey King,,PF,PF,,210.8,104.3,1967-01-29,US,2,Oklahoma
+1992,chi,levincl01,Cliff Levingston,,PF,PF,,203.2,95.3,1961-01-04,US,9,Wichita State
+1992,chi,nevitch01,Chuck Nevitt,,C,C,,226.1,98.4,1959-06-13,US,7,NC State
+1992,chi,paxsojo01,John Paxson,,PG,PG,,188.0,83.9,1960-09-29,US,8,Notre Dame
+1992,chi,perduwi01,Will Perdue,,C,C,,213.4,108.9,1965-08-29,US,3,Vanderbilt
+1992,chi,pippesc01,Scottie Pippen,,SF,SF,,203.2,95.3,1965-09-25,US,4,University of Central Arkansas
+1992,chi,randama01,Mark Randall,,PF,PF,,203.2,106.6,1967-09-30,US,0,Kansas
+1992,chi,sparrro01,Rory Sparrow,,PG,PG,,188.0,79.4,1958-06-12,US,11,Villanova
+1992,chi,willisc01,Scott Williams,,PF,PF,,208.3,104.3,1968-03-21,US,1,UNC
+1993,chi,armstbj01,B.J. Armstrong,,PG,PG,,188.0,79.4,1967-09-09,US,3,Iowa
+1993,chi,blantri01,Ricky Blanton,,SF,SF,,200.7,97.5,1966-04-21,US,0,LSU
+1993,chi,cartwbi01,Bill Cartwright,,C,C,,215.9,111.1,1957-07-30,US,12,San Francisco
+1993,chi,courtjo01,Joe Courtney,,PF,PF,,203.2,106.6,1969-10-17,US,0,"Mississippi State, Southern Miss"
+1993,chi,englijo01,Jo Jo English,,SG,SG,,193.0,88.5,1970-02-04,DE,0,South Carolina
+1993,chi,grantho01,Horace Grant,,PF,PF,,208.3,97.5,1965-07-04,US,5,Clemson
+1993,chi,jordami01,Michael Jordan,,SG,SG,,198.1,89.8,1963-02-17,US,8,UNC
+1993,chi,kingst01,Stacey King,,C,C,,210.8,104.3,1967-01-29,US,3,Oklahoma
+1993,chi,mccraro01,Rodney McCray,,SF,SF,,200.7,99.8,1961-08-29,US,9,Louisville
+1993,chi,nealyed01,Ed Nealy,,PF,PF,,200.7,108.0,1960-02-19,US,9,Kansas State
+1993,chi,paxsojo01,John Paxson,,PG,PG,,188.0,83.9,1960-09-29,US,9,Notre Dame
+1993,chi,perduwi01,Will Perdue,,C,C,,213.4,108.9,1965-08-29,US,4,Vanderbilt
+1993,chi,pippesc01,Scottie Pippen,,SF,SF,,203.2,95.3,1965-09-25,US,5,University of Central Arkansas
+1993,chi,tucketr01,Trent Tucker,,SG,SG,,195.6,87.5,1959-12-20,US,10,Minnesota
+1993,chi,walkeda01,Darrell Walker,,PG,PG,,193.0,81.6,1961-03-09,US,9,Arkansas
+1993,chi,willico01,Corey Williams,,PG,PG,,188.0,86.2,1970-04-24,US,0,Oklahoma State
+1993,chi,willisc01,Scott Williams,,PF,PF,,208.3,104.3,1968-03-21,US,2,UNC
+1994,hou,brooksc01,Scott Brooks,,PG,PG,,180.3,74.8,1965-07-31,US,5,"TCU, University of California, Irvine"
+1994,hou,bullama01,Matt Bullard,,PF,PF,,208.3,97.5,1967-06-05,US,3,"Colorado, Iowa"
+1994,hou,cassesa01,Sam Cassell,,PG,PG,,190.5,83.9,1969-11-18,US,0,Florida State
+1994,hou,curetea01,Earl Cureton,,PF,PF,,205.7,95.3,1957-09-03,US,10,"Robert Morris University (PA), Detroit Mercy"
+1994,hou,eliema01,Mario Elie,,SF,SF,,195.6,95.3,1963-11-26,US,3,American International College
+1994,hou,herreca01,Carl Herrera,,PF,PF,,205.7,97.5,1966-12-14,TT,2,"Jacksonville College, Houston"
+1994,hou,horryro01,Robert Horry,,SF,SF,,208.3,108.9,1970-08-25,US,1,Alabama
+1994,hou,jentch01,Chris Jent,,SF,SF,,200.7,99.8,1970-01-11,US,0,Ohio State
+1994,hou,maxweve01,Vernon Maxwell,,SG,SG,,193.0,81.6,1965-09-12,US,5,Florida
+1994,hou,olajuha01,Hakeem Olajuwon,,C,C,,213.4,115.7,1963-01-21,NG,9,Houston
+1994,hou,petruri01,Richard Petruška,,C,C,,208.3,117.9,1969-01-25,SK,0,"Loyola Marymount, UCLA"
+1994,hou,rileyer01,Eric Riley,,C,C,,213.4,111.1,1970-06-02,US,0,Michigan
+1994,hou,robinla01,Larry Robinson,,SG,SG,,190.5,81.6,1968-01-11,US,3,Centenary (LA)
+1994,hou,smithke01,Kenny Smith,,PG,PG,,190.5,77.1,1965-03-08,US,6,UNC
+1994,hou,thorpot01,Otis Thorpe,,PF,PF,,208.3,112.5,1962-08-05,US,9,Providence
+1995,hou,breauti01,Tim Breaux,,SF,SF,,200.7,97.5,1970-09-19,US,0,Wyoming
+1995,hou,brooksc01,Scott Brooks,,PG,PG,,180.3,74.8,1965-07-31,US,6,"TCU, University of California, Irvine"
+1995,hou,brownch01,Chucky Brown,,SF,SF,,200.7,97.1,1968-02-29,US,5,NC State
+1995,hou,caldwad01,Adrian Caldwell,,PF,PF,,203.2,120.2,1966-07-04,US,2,"SMU, Lamar"
+1995,hou,cassesa01,Sam Cassell,,PG,PG,,190.5,83.9,1969-11-18,US,1,Florida State
+1995,hou,chilcpe01,Pete Chilcutt,,PF,PF,,208.3,104.3,1968-09-14,US,3,UNC
+1995,hou,drexlcl01,Clyde Drexler,,SG,SG,,200.7,95.3,1962-06-22,US,11,Houston
+1995,hou,eliema01,Mario Elie,,SF,SF,,195.6,95.3,1963-11-26,US,4,American International College
+1995,hou,herreca01,Carl Herrera,,PF,PF,,205.7,97.5,1966-12-14,TT,3,"Jacksonville College, Houston"
+1995,hou,horryro01,Robert Horry,,PF,PF,,208.3,108.9,1970-08-25,US,2,Alabama
+1995,hou,jonesch01,Charles Jones,,PF,PF,,205.7,97.5,1957-04-03,US,11,Albany State University
+1995,hou,maxweve01,Vernon Maxwell,,SG,SG,,193.0,81.6,1965-09-12,US,6,Florida
+1995,hou,murratr01,Tracy Murray,,SF,SF,,200.7,102.1,1971-07-25,US,2,UCLA
+1995,hou,olajuha01,Hakeem Olajuwon,,C,C,,213.4,115.7,1963-01-21,NG,10,Houston
+1995,hou,smithke01,Kenny Smith,,PG,PG,,190.5,77.1,1965-03-08,US,7,UNC
+1995,hou,tabakza01,Žan Tabak,,C,C,,213.4,111.1,1970-06-15,HR,0,
+1995,hou,thorpot01,Otis Thorpe,,PF,PF,,208.3,112.5,1962-08-05,US,10,Providence
+1996,chi,brownra02,Randy Brown,,PG,PG,,188.0,86.2,1968-05-22,US,4,"Houston, New Mexico State"
+1996,chi,buechju01,Jud Buechler,,SF,SF,,198.1,99.8,1968-06-19,US,5,Arizona
+1996,chi,caffeja01,Jason Caffey,,PF,PF,,203.2,115.7,1973-06-12,US,0,Alabama
+1996,chi,edwarja01,James Edwards,,C,C,,215.9,114.3,1955-11-22,US,18,Washington
+1996,chi,haleyja01,Jack Haley,,C,C,,208.3,108.9,1964-01-27,US,6,UCLA
+1996,chi,harpero01,Ron Harper,,PG,PG,,198.1,83.9,1964-01-20,US,9,Miami University
+1996,chi,jordami01,Michael Jordan,,SG,SG,,198.1,89.8,1963-02-17,US,10,UNC
+1996,chi,kerrst01,Steve Kerr,,PG,PG,,190.5,79.4,1965-09-27,LB,7,Arizona
+1996,chi,kukocto01,Toni Kukoč,,SF,SF,,208.3,87.1,1968-09-18,HR,2,
+1996,chi,longllu01,Luc Longley,,C,C,,218.4,120.2,1969-01-19,AU,4,New Mexico
+1996,chi,pippesc01,Scottie Pippen,,SF,SF,,203.2,95.3,1965-09-25,US,8,University of Central Arkansas
+1996,chi,rodmade01,Dennis Rodman,,PF,PF,,200.7,95.3,1961-05-13,US,9,"North Central Texas College, Southeastern Oklahoma State University"
+1996,chi,sallejo01,John Salley,,PF,PF,,210.8,104.3,1964-05-16,US,9,Georgia Tech
+1996,chi,simpkdi01,Dickey Simpkins,,PF,PF,,205.7,112.5,1972-04-06,US,1,Providence
+1996,chi,wennibi01,Bill Wennington,,C,C,,213.4,111.1,1963-04-26,CA,8,St. John's
+1997,chi,brownra02,Randy Brown,,PG,PG,,188.0,86.2,1968-05-22,US,5,"Houston, New Mexico State"
+1997,chi,buechju01,Jud Buechler,,SF,SF,,198.1,99.8,1968-06-19,US,6,Arizona
+1997,chi,caffeja01,Jason Caffey,,PF,PF,,203.2,115.7,1973-06-12,US,1,Alabama
+1997,chi,delebi01,Bison Dele,,C,C,,210.8,117.9,1969-04-06,US,5,"Maryland, Arizona"
+1997,chi,harpero01,Ron Harper,,PG,PG,,198.1,83.9,1964-01-20,US,10,Miami University
+1997,chi,jordami01,Michael Jordan,,SG,SG,,198.1,89.8,1963-02-17,US,11,UNC
+1997,chi,kerrst01,Steve Kerr,,PG,PG,,190.5,79.4,1965-09-27,LB,8,Arizona
+1997,chi,kukocto01,Toni Kukoč,,SF,SF,,208.3,87.1,1968-09-18,HR,3,
+1997,chi,longllu01,Luc Longley,,C,C,,218.4,120.2,1969-01-19,AU,5,New Mexico
+1997,chi,parisro01,Robert Parish,,C,C,,215.9,104.3,1953-08-30,US,20,Centenary (LA)
+1997,chi,pippesc01,Scottie Pippen,,SF,SF,,203.2,95.3,1965-09-25,US,9,University of Central Arkansas
+1997,chi,rodmade01,Dennis Rodman,,PF,PF,,200.7,95.3,1961-05-13,US,10,"North Central Texas College, Southeastern Oklahoma State University"
+1997,chi,simpkdi01,Dickey Simpkins,,PF,PF,,205.7,112.5,1972-04-06,US,2,Providence
+1997,chi,steigma01,Matt Steigenga,,SF,SF,,200.7,102.1,1970-03-27,US,0,Michigan State
+1997,chi,wennibi01,Bill Wennington,,C,C,,213.4,111.1,1963-04-26,CA,9,St. John's
+1998,chi,boothke01,Keith Booth,,SF,SF,,198.1,102.5,1974-10-09,US,0,Maryland
+1998,chi,brownra02,Randy Brown,,PG,PG,,188.0,86.2,1968-05-22,US,6,"Houston, New Mexico State"
+1998,chi,buechju01,Jud Buechler,,SF,SF,,198.1,99.8,1968-06-19,US,7,Arizona
+1998,chi,burresc01,Scott Burrell,,SF,SF,,200.7,98.9,1971-01-12,US,4,UConn
+1998,chi,caffeja01,Jason Caffey,,PF,PF,,203.2,115.7,1973-06-12,US,2,Alabama
+1998,chi,harpero01,Ron Harper,,PG,PG,,198.1,83.9,1964-01-20,US,11,Miami University
+1998,chi,jordami01,Michael Jordan,,SG,SG,,198.1,89.8,1963-02-17,US,12,UNC
+1998,chi,kerrst01,Steve Kerr,,PG,PG,,190.5,79.4,1965-09-27,LB,9,Arizona
+1998,chi,kleinjo01,Joe Kleine,,C,C,,210.8,115.7,1962-01-04,US,12,"Notre Dame, Arkansas"
+1998,chi,kukocto01,Toni Kukoč,,SF,SF,,208.3,87.1,1968-09-18,HR,4,
+1998,chi,larueru01,Rusty LaRue,,PG,PG,,188.0,95.3,1973-12-10,US,0,Wake Forest
+1998,chi,longllu01,Luc Longley,,C,C,,218.4,120.2,1969-01-19,AU,6,New Mexico
+1998,chi,pippesc01,Scottie Pippen,,SF,SF,,203.2,95.3,1965-09-25,US,10,University of Central Arkansas
+1998,chi,rodmade01,Dennis Rodman,,PF,PF,,200.7,95.3,1961-05-13,US,11,"North Central Texas College, Southeastern Oklahoma State University"
+1998,chi,simpkdi01,Dickey Simpkins,,PF,PF,,205.7,112.5,1972-04-06,US,3,Providence
+1998,chi,vaughda02,David Vaughn,,PF,PF,,205.7,108.9,1973-03-23,US,2,Memphis
+1998,chi,wennibi01,Bill Wennington,,C,C,,213.4,111.1,1963-04-26,CA,10,St. John's
+1999,sas,daniean01,Antonio Daniels,,PG,PG,,193.0,88.5,1975-03-19,US,1,Bowling Green
+1999,sas,duncati01,Tim Duncan,,PF,PF,,210.8,113.4,1976-04-25,VI,1,Wake Forest
+1999,sas,eliema01,Mario Elie,,SG,SG,,195.6,95.3,1963-11-26,US,8,American International College
+1999,sas,elliose01,Sean Elliott,,SF,SF,,203.2,93.0,1968-02-02,US,9,Arizona
+1999,sas,gazean01,Andrew Gaze,,SG,SG,,200.7,93.0,1965-07-24,AU,1,Seton Hall
+1999,sas,jacksja01,Jaren Jackson,,SG,SG,,193.0,86.2,1967-10-27,US,8,Georgetown
+1999,sas,johnsav01,Avery Johnson,,PG,PG,,177.8,79.4,1965-03-25,US,10,"Cameron University, Southern University and A&M College"
+1999,sas,kerrst01,Steve Kerr,,PG,PG,,190.5,79.4,1965-09-27,LB,10,Arizona
+1999,sas,kerseje01,Jerome Kersey,,SF,SF,,200.7,97.5,1962-06-26,US,14,Longwood University
+1999,sas,kingge02,Gerard King,,SF,SF,,205.7,104.3,1972-11-25,US,0,Nicholls State
+1999,sas,perduwi01,Will Perdue,,C,C,,213.4,108.9,1965-08-29,US,10,Vanderbilt
+1999,sas,robinda01,David Robinson,,C,C,,215.9,106.6,1965-08-06,US,9,United States Naval Academy
+1999,sas,rosema01,Malik Rose,,PF,PF,,200.7,113.4,1974-11-23,US,2,Drexel
+1999,sas,willibr01,Brandon Williams,,SG,SG,,198.1,97.5,1975-02-27,US,1,Davidson
+2000,lal,bryanko01,Kobe Bryant,,SG,SG,,198.1,96.2,1978-08-23,US,3,
+2000,lal,celesjo01,John Celestand,,PG,PG,,193.0,80.7,1977-03-06,US,0,Villanova
+2000,lal,fishede01,Derek Fisher,,PG,PG,,185.4,90.7,1974-08-09,US,3,Little Rock
+2000,lal,foxri01,Rick Fox,,SF,SF,,200.7,104.3,1969-07-24,CA,8,UNC
+2000,lal,georgde01,Devean George,,SF,SF,,203.2,99.8,1977-08-29,US,0,Augsburg College
+2000,lal,greenac01,A.C. Green,,PF,PF,,205.7,99.8,1963-10-04,US,14,Oregon State
+2000,lal,harpero01,Ron Harper,,PG,PG,,198.1,83.9,1964-01-20,US,13,Miami University
+2000,lal,horryro01,Robert Horry,,PF,PF,,208.3,108.9,1970-08-25,US,7,Alabama
+2000,lal,jacobsa01,Sam Jacobson,,PG,PG,,193.0,97.5,1975-07-22,US,1,Minnesota
+2000,lal,knightr01,Travis Knight,,C,C,,213.4,106.6,1974-09-13,US,3,UConn
+2000,lal,luety01,Tyronn Lue,,PG,PG,,182.9,79.4,1977-05-03,US,1,Nebraska
+2000,lal,onealsh01,Shaquille O'Neal,,C,C,,215.9,147.4,1972-03-06,US,7,LSU
+2000,lal,ricegl01,Glen Rice,,SF,SF,,203.2,97.5,1967-05-28,US,10,Michigan
+2000,lal,sallejo01,John Salley,,C,C,,210.8,104.3,1964-05-16,US,10,Georgia Tech
+2000,lal,shawbr01,Brian Shaw,,SG,SG,,198.1,86.2,1966-03-22,US,10,"Saint Mary's, UC Santa Barbara"
+2001,lal,bryanko01,Kobe Bryant,,SG,SG,,198.1,96.2,1978-08-23,US,4,
+2001,lal,fishede01,Derek Fisher,,PG,PG,,185.4,90.7,1974-08-09,US,4,Little Rock
+2001,lal,fostegr01,Greg Foster,,C,C,,210.8,108.9,1968-10-03,US,10,"UCLA, Texas-El Paso"
+2001,lal,foxri01,Rick Fox,,SF,SF,,200.7,104.3,1969-07-24,CA,9,UNC
+2001,lal,georgde01,Devean George,,SF,SF,,203.2,99.8,1977-08-29,US,1,Augsburg College
+2001,lal,grantho01,Horace Grant,,PF,PF,,208.3,97.5,1965-07-04,US,13,Clemson
+2001,lal,harpero01,Ron Harper,,PG,PG,,198.1,83.9,1964-01-20,US,14,Miami University
+2001,lal,horryro01,Robert Horry,,PF,PF,,208.3,108.9,1970-08-25,US,8,Alabama
+2001,lal,luety01,Tyronn Lue,,PG,PG,,182.9,79.4,1977-05-03,US,2,Nebraska
+2001,lal,madsema01,Mark Madsen,,PF,PF,,205.7,108.9,1976-01-28,US,0,Stanford
+2001,lal,medvest01,Stanislav Medvedenko,,PF,PF,,208.3,113.4,1979-04-04,UA,0,
+2001,lal,onealsh01,Shaquille O'Neal,,C,C,,215.9,147.4,1972-03-06,US,8,LSU
+2001,lal,penbemi01,Mike Penberthy,,PG,PG,,190.5,83.9,1974-11-29,US,0,Master's College
+2001,lal,rideris01,Isaiah Rider,,SG,SG,,195.6,97.5,1971-03-12,US,7,UNLV
+2001,lal,shawbr01,Brian Shaw,,SG,SG,,198.1,86.2,1966-03-22,US,11,"Saint Mary's, UC Santa Barbara"
+2002,lal,bryanko01,Kobe Bryant,,SG,SG,,198.1,96.2,1978-08-23,US,5,
+2002,lal,crispjo01,Joe Crispin,,PG,PG,,182.9,83.9,1979-07-18,US,0,Penn State
+2002,lal,fishede01,Derek Fisher,,PG,PG,,185.4,90.7,1974-08-09,US,5,Little Rock
+2002,lal,foxri01,Rick Fox,,SF,SF,,200.7,104.3,1969-07-24,CA,10,UNC
+2002,lal,georgde01,Devean George,,SF,SF,,203.2,99.8,1977-08-29,US,2,Augsburg College
+2002,lal,horryro01,Robert Horry,,PF,PF,,208.3,108.9,1970-08-25,US,9,Alabama
+2002,lal,hunteli01,Lindsey Hunter,,PG,PG,,188.0,77.1,1970-12-03,US,8,"Alcorn State, Jackson State University"
+2002,lal,madsema01,Mark Madsen,,PF,PF,,205.7,108.9,1976-01-28,US,1,Stanford
+2002,lal,mccoyje01,Jelani McCoy,,C,C,,208.3,111.1,1977-12-06,US,3,UCLA
+2002,lal,medvest01,Stanislav Medvedenko,,C,C,,208.3,113.4,1979-04-04,UA,1,
+2002,lal,onealsh01,Shaquille O'Neal,,C,C,,215.9,147.4,1972-03-06,US,9,LSU
+2002,lal,penbemi01,Mike Penberthy,,PG,PG,,190.5,83.9,1974-11-29,US,1,Master's College
+2002,lal,richmmi01,Mitch Richmond,,SG,SG,,195.6,97.5,1965-06-30,US,13,"Moberly Area Community College, Kansas State"
+2002,lal,shawbr01,Brian Shaw,,PG,PG,,198.1,86.2,1966-03-22,US,12,"Saint Mary's, UC Santa Barbara"
+2002,lal,walkesa01,Samaki Walker,,PF,PF,,205.7,108.9,1976-02-25,US,5,Louisville
+2003,sas,bateeme01,Mengke Bateer,,C,C,,210.8,131.5,1975-11-20,CN,1,
+2003,sas,bowenbr01,Bruce Bowen,,SF,SF,,200.7,83.9,1971-06-14,US,6,Cal State Fullerton
+2003,sas,brownde02,Devin Brown,,SG,SG,,195.6,99.8,1978-12-30,US,0,Texas-San Antonio
+2003,sas,claxtsp01,Speedy Claxton,,PG,PG,,180.3,75.3,1978-05-08,US,1,Hofstra
+2003,sas,duncati01,Tim Duncan,,PF,PF,,210.8,113.4,1976-04-25,VI,5,Wake Forest
+2003,sas,ferryda01,Danny Ferry,,SF,SF,,208.3,104.3,1966-10-17,US,12,Duke
+2003,sas,ginobma01,Manu Ginóbili,,SG,SG,,198.1,93.0,1977-07-28,AR,0,
+2003,sas,goldwan01,Anthony Goldwire,,PG,PG,,185.4,82.6,1971-09-06,US,4,Houston
+2003,sas,jacksst02,Stephen Jackson,,SG,SG,,203.2,98.9,1978-04-05,US,2,Butler County Community College
+2003,sas,kerrst01,Steve Kerr,,PG,PG,,190.5,79.4,1965-09-27,LB,14,Arizona
+2003,sas,parketo01,Tony Parker,,PG,PG,,188.0,83.9,1982-05-17,BE,1,
+2003,sas,robinda01,David Robinson,,C,C,,215.9,106.6,1965-08-06,US,13,United States Naval Academy
+2003,sas,rosema01,Malik Rose,,PF,PF,,200.7,113.4,1974-11-23,US,6,Drexel
+2003,sas,smithst01,Steve Smith,,SG,SG,,203.2,90.7,1969-03-31,US,11,Michigan State
+2003,sas,willike02,Kevin Willis,,C,C,,213.4,99.8,1962-09-06,US,17,Michigan State
+2004,det,atkinch01,Chucky Atkins,,PG,PG,,180.3,72.6,1974-08-14,US,4,South Florida
+2004,det,billuch01,Chauncey Billups,,PG,PG,,190.5,91.6,1976-09-25,US,6,Colorado
+2004,det,campbel01,Elden Campbell,,C,C,,210.8,97.5,1968-07-23,US,13,Clemson
+2004,det,davishu01,Hubert Davis,,SG,SG,,195.6,83.0,1970-05-17,US,11,UNC
+2004,det,fowlktr01,Tremaine Fowlkes,,SF,SF,,203.2,99.8,1976-04-11,US,2,"California, Fresno State"
+2004,det,hamda01,Darvin Ham,,SF,SF,,200.7,99.8,1973-07-23,US,6,Texas Tech
+2004,det,hamilri01,Richard Hamilton,,SG,SG,,200.7,83.9,1978-02-14,US,4,UConn
+2004,det,hunteli01,Lindsey Hunter,,SG,SG,,188.0,77.1,1970-12-03,US,10,"Alcorn State, Jackson State University"
+2004,det,jamesmi01,Mike James,,PG,PG,,188.0,85.3,1975-06-23,US,2,Duquesne
+2004,det,milicda01,Darko Miličić,,C,C,,213.4,113.4,1985-06-20,RS,0,
+2004,det,okurme01,Mehmet Okur,,PF,PF,,210.8,112.9,1979-05-26,TR,1,
+2004,det,princta01,Tayshaun Prince,,SF,SF,,205.7,96.2,1980-02-28,US,1,Kentucky
+2004,det,rebraze01,Željko Rebrača,,C,C,,213.4,116.6,1972-04-09,RS,2,
+2004,det,surabo01,Bob Sura,,SG,SG,,195.6,90.7,1973-03-25,US,8,Florida State
+2004,det,wallabe01,Ben Wallace,,C,C,,205.7,108.9,1974-09-10,US,7,"Cuyahoga Community College, Virginia Union University"
+2004,det,wallara01,Rasheed Wallace,,PF,PF,,210.8,102.1,1974-09-17,US,8,UNC
+2004,det,willico02,Corliss Williamson,,PF,PF,,200.7,111.1,1973-12-04,US,8,Arkansas
+2005,sas,barrybr01,Brent Barry,,SG,SG,,198.1,83.9,1971-12-31,US,9,Oregon State
+2005,sas,bowenbr01,Bruce Bowen,,SF,SF,,200.7,83.9,1971-06-14,US,8,Cal State Fullerton
+2005,sas,brownde02,Devin Brown,,SG,SG,,195.6,99.8,1978-12-30,US,2,Texas-San Antonio
+2005,sas,duncati01,Tim Duncan,,PF,PF,,210.8,113.4,1976-04-25,VI,7,Wake Forest
+2005,sas,ginobma01,Manu Ginóbili,,SG,SG,,198.1,93.0,1977-07-28,AR,2,
+2005,sas,glovedi01,Dion Glover,,SG,SG,,195.6,103.4,1978-10-22,US,5,Georgia Tech
+2005,sas,horryro01,Robert Horry,,PF,PF,,208.3,108.9,1970-08-25,US,12,Alabama
+2005,sas,johnsli01,Linton Johnson,,SF,SF,,203.2,93.0,1980-06-13,US,1,Tulane
+2005,sas,marksse01,Sean Marks,,PF,PF,,208.3,113.4,1975-08-23,NZ,4,California
+2005,sas,masseto01,Tony Massenburg,,PF,PF,,205.7,99.8,1967-07-31,US,12,Maryland
+2005,sas,mohamna01,Nazr Mohammed,,C,C,,208.3,100.2,1977-09-05,US,6,Kentucky
+2005,sas,nestera01,Rasho Nesterović,,C,C,,213.4,112.5,1976-05-30,SI,6,
+2005,sas,parketo01,Tony Parker,,PG,PG,,188.0,83.9,1982-05-17,BE,3,
+2005,sas,robingl01,Glenn Robinson,,SF,SF,,200.7,102.1,1973-01-10,US,10,Purdue
+2005,sas,rosema01,Malik Rose,,PF,PF,,200.7,113.4,1974-11-23,US,8,Drexel
+2005,sas,udrihbe01,Beno Udrih,,PG,PG,,190.5,93.0,1982-07-05,SI,0,
+2005,sas,wilksmi01,Mike Wilks,,PG,PG,,177.8,83.9,1979-05-07,US,2,Rice University
+2006,mia,anderde01,Derek Anderson,,SG,SG,,195.6,88.0,1974-07-18,US,8,"Ohio State, Kentucky"
+2006,mia,andersh01,Shandon Anderson,,SF,SF,,198.1,94.3,1973-12-31,US,9,Georgia
+2006,mia,barroea01,Earl Barron,,C,C,,213.4,113.4,1981-08-14,US,0,Memphis
+2006,mia,doleami01,Michael Doleac,,C,C,,210.8,118.8,1977-06-15,US,7,Utah
+2006,mia,fitchge01,Gerald Fitch,,PG,PG,,190.5,85.3,1982-08-12,US,0,Kentucky
+2006,mia,hasleud01,Udonis Haslem,,PF,PF,,203.2,106.6,1980-06-09,US,2,Florida
+2006,mia,kaponja01,Jason Kapono,,SF,SF,,203.2,96.6,1981-02-04,US,2,UCLA
+2006,mia,mournal01,Alonzo Mourning,,C,C,,208.3,108.9,1970-02-08,US,12,Georgetown
+2006,mia,onealsh01,Shaquille O'Neal,,C,C,,215.9,147.4,1972-03-06,US,13,LSU
+2006,mia,paytoga01,Gary Payton,,PG,PG,,193.0,81.6,1968-07-23,US,15,Oregon State
+2006,mia,poseyja01,James Posey,,SF,SF,,203.2,97.5,1977-01-13,US,6,Xavier
+2006,mia,simiewa01,Wayne Simien,,PF,PF,,205.7,115.7,1983-03-09,US,0,Kansas
+2006,mia,wadedw01,Dwyane Wade,,SG,SG,,193.0,99.8,1982-01-17,US,2,Marquette
+2006,mia,walkean02,Antoine Walker,,PF,PF,,205.7,101.6,1976-08-12,US,9,Kentucky
+2006,mia,walshma01,Matt Walsh,,SG,SG,,198.1,93.0,1982-12-02,US,0,Florida
+2006,mia,willija02,Jason Williams,,PG,PG,,185.4,86.2,1975-11-18,US,7,"Marshall, Florida"
+2006,mia,wrighdo01,Dorell Wright,,SF,SF,,205.7,93.0,1985-12-02,US,1,
+2007,sas,barrybr01,Brent Barry,,SG,SG,,198.1,83.9,1971-12-31,US,11,Oregon State
+2007,sas,bonnema01,Matt Bonner,,PF,PF,,208.3,106.6,1980-04-05,US,2,Florida
+2007,sas,bowenbr01,Bruce Bowen,,SF,SF,,200.7,83.9,1971-06-14,US,10,Cal State Fullerton
+2007,sas,butleja01,Jackie Butler,,C,C,,208.3,113.4,1985-03-10,US,2,
+2007,sas,duncati01,Tim Duncan,,C,C,,210.8,113.4,1976-04-25,VI,9,Wake Forest
+2007,sas,elsonfr01,Francisco Elson,,C,C,,213.4,106.6,1976-02-28,NL,3,California
+2007,sas,elyme01,Melvin Ely,,C,C,,208.3,117.9,1978-05-02,US,4,Fresno State
+2007,sas,finlemi01,Michael Finley,,SF,SF,,200.7,97.5,1973-03-06,US,11,Wisconsin
+2007,sas,ginobma01,Manu Ginóbili,,SG,SG,,198.1,93.0,1977-07-28,AR,4,
+2007,sas,horryro01,Robert Horry,,PF,PF,,208.3,108.9,1970-08-25,US,14,Alabama
+2007,sas,obertfa01,Fabricio Oberto,,C,C,,208.3,111.1,1975-03-21,AR,1,
+2007,sas,parketo01,Tony Parker,,PG,PG,,188.0,83.9,1982-05-17,BE,5,
+2007,sas,udrihbe01,Beno Udrih,,PG,PG,,190.5,93.0,1982-07-05,SI,2,
+2007,sas,vaughja01,Jacque Vaughn,,PG,PG,,185.4,86.2,1975-02-11,US,9,Kansas
+2007,sas,whiteja02,James White,,SG,SG,,200.7,90.7,1982-10-21,US,0,"Florida, Cincinnati"
+2007,sas,willier01,Eric Williams,,SF,SF,,203.2,99.8,1972-07-17,US,11,"Vincennes University, Providence"
+2008,bos,allenra02,Ray Allen,,SG,SG,,195.6,93.0,1975-07-20,US,11,UConn
+2008,bos,allento01,Tony Allen,,SG,SG,,193.0,96.6,1982-01-11,US,3,"Butler County Community College, Oklahoma State"
+2008,bos,brownpj01,P.J. Brown,,PF,PF,,210.8,102.1,1969-10-14,US,14,Louisiana Tech
+2008,bos,cassesa01,Sam Cassell,,PG,PG,,190.5,83.9,1969-11-18,US,14,Florida State
+2008,bos,davisgl01,Glen Davis,,C,C,,205.7,131.1,1986-01-01,US,0,LSU
+2008,bos,garneke01,Kevin Garnett,,PF,PF,,210.8,108.9,1976-05-19,US,12,
+2008,bos,houseed01,Eddie House,,PG,PG,,185.4,81.6,1978-05-14,US,7,Arizona State
+2008,bos,perkike01,Kendrick Perkins,,C,C,,208.3,122.5,1984-11-10,US,4,
+2008,bos,piercpa01,Paul Pierce,,SF,SF,,200.7,106.6,1977-10-13,US,9,Kansas
+2008,bos,pollasc01,Scot Pollard,,C,C,,210.8,120.2,1975-02-12,US,10,Kansas
+2008,bos,poseyja01,James Posey,,PF,PF,,203.2,97.5,1977-01-13,US,8,Xavier
+2008,bos,powele01,Leon Powe,,C,C,,203.2,108.9,1984-01-22,US,1,California
+2008,bos,pruitga01,Gabe Pruitt,,PG,PG,,193.0,77.1,1986-04-19,US,0,USC
+2008,bos,rondora01,Rajon Rondo,,PG,PG,,185.4,81.6,1986-02-22,US,1,Kentucky
+2008,bos,scalabr01,Brian Scalabrine,,PF,PF,,205.7,109.3,1978-03-18,US,6,USC
+2009,lal,arizatr01,Trevor Ariza,,SF,SF,,203.2,97.5,1985-06-30,US,4,UCLA
+2009,lal,brownsh01,Shannon Brown,,SG,SG,,193.0,93.0,1985-11-29,US,2,Michigan State
+2009,lal,bryanko01,Kobe Bryant,,SG,SG,,198.1,96.2,1978-08-23,US,12,
+2009,lal,bynuman01,Andrew Bynum,,C,C,,213.4,129.3,1987-10-27,US,3,
+2009,lal,farmajo01,Jordan Farmar,,PG,PG,,188.0,81.6,1986-11-30,US,2,UCLA
+2009,lal,fishede01,Derek Fisher,,PG,PG,,185.4,90.7,1974-08-09,US,12,Little Rock
+2009,lal,gasolpa01,Pau Gasol,,C,C,,213.4,113.4,1980-07-06,ES,7,
+2009,lal,mbengdj01,D.J. Mbenga,,C,C,,213.4,111.1,1980-12-30,CD,4,
+2009,lal,mihmch01,Chris Mihm,,C,C,,213.4,120.2,1979-07-16,US,7,Texas
+2009,lal,morriad01,Adam Morrison,,SF,SF,,203.2,93.0,1984-07-19,US,1,Gonzaga
+2009,lal,odomla01,Lamar Odom,,PF,PF,,208.3,99.8,1979-11-06,US,9,Rhode Island
+2009,lal,poweljo01,Josh Powell,,PF,PF,,205.7,102.1,1983-01-25,US,3,NC State
+2009,lal,radmavl01,Vladimir Radmanović,,SF,SF,,208.3,103.0,1980-11-19,BA,7,
+2009,lal,vujacsa01,Sasha Vujačić,,SG,SG,,200.7,88.5,1984-03-08,SI,4,
+2009,lal,waltolu01,Luke Walton,,SF,SF,,203.2,106.6,1980-03-28,US,5,Arizona
+2009,lal,yuesu01,Sun Yue,,SG,SG,,205.7,93.0,1985-11-06,CN,0,
+2010,lal,artesro01,Metta World Peace,,SF,SF,,200.7,117.9,1979-11-13,US,10,St. John's
+2010,lal,brownsh01,Shannon Brown,,SG,SG,,193.0,93.0,1985-11-29,US,3,Michigan State
+2010,lal,bryanko01,Kobe Bryant,,SG,SG,,198.1,96.2,1978-08-23,US,13,
+2010,lal,bynuman01,Andrew Bynum,,C,C,,213.4,129.3,1987-10-27,US,4,
+2010,lal,farmajo01,Jordan Farmar,,PG,PG,,188.0,81.6,1986-11-30,US,3,UCLA
+2010,lal,fishede01,Derek Fisher,,PG,PG,,185.4,90.7,1974-08-09,US,13,Little Rock
+2010,lal,gasolpa01,Pau Gasol,,C,C,,213.4,113.4,1980-07-06,ES,8,
+2010,lal,mbengdj01,D.J. Mbenga,,C,C,,213.4,111.1,1980-12-30,CD,5,
+2010,lal,morriad01,Adam Morrison,,SF,SF,,203.2,93.0,1984-07-19,US,2,Gonzaga
+2010,lal,odomla01,Lamar Odom,,PF,PF,,208.3,99.8,1979-11-06,US,10,Rhode Island
+2010,lal,poweljo01,Josh Powell,,PF,PF,,205.7,102.1,1983-01-25,US,4,NC State
+2010,lal,vujacsa01,Sasha Vujačić,,SG,SG,,200.7,88.5,1984-03-08,SI,5,
+2010,lal,waltolu01,Luke Walton,,SF,SF,,203.2,106.6,1980-03-28,US,6,Arizona
+2011,dal,ajincal01,Alexis Ajinça,,C,C,,218.4,112.5,1988-05-06,FR,2,
+2011,dal,bareajo01,J.J. Barea,,PG,PG,,177.8,81.6,1984-06-26,PR,4,Northeastern University
+2011,dal,beaubro01,Rodrigue Beaubois,,PG,PG,,182.9,77.1,1988-02-24,GP,1,
+2011,dal,breweco01,Corey Brewer,,SG,SG,,205.7,84.4,1986-03-05,US,3,Florida
+2011,dal,butleca01,Caron Butler,,SF,SF,,200.7,103.4,1980-03-13,US,8,UConn
+2011,dal,cardibr01,Brian Cardinal,,SF,SF,,203.2,111.1,1977-05-02,US,10,Purdue
+2011,dal,chandty01,Tyson Chandler,,C,C,,213.4,106.6,1982-10-02,US,9,
+2011,dal,haywobr01,Brendan Haywood,,C,C,,213.4,121.6,1979-11-27,US,9,UNC
+2011,dal,jonesdo02,Dominique Jones,,SG,SG,,193.0,97.5,1988-10-15,US,0,South Florida
+2011,dal,kiddja01,Jason Kidd,,PG,PG,,193.0,93.0,1973-03-23,US,16,California
+2011,dal,mahinia01,Ian Mahinmi,,C,C,,210.8,118.8,1986-11-05,FR,2,
+2011,dal,mariosh01,Shawn Marion,,SF,SF,,200.7,99.8,1978-05-07,US,11,"Vincennes University, UNLV"
+2011,dal,novakst01,Steve Novak,,SF,SF,,208.3,102.1,1983-06-13,US,4,Marquette
+2011,dal,nowitdi01,Dirk Nowitzki,,PF,PF,,213.4,111.1,1978-06-19,DE,12,
+2011,dal,pavloal01,Sasha Pavlović,,SF,SF,,203.2,99.8,1983-11-15,ME,7,
+2011,dal,stevede01,DeShawn Stevenson,,SG,SG,,195.6,95.3,1981-04-03,US,10,
+2011,dal,stojape01,Peja Stojaković,,SF,SF,,208.3,103.9,1977-06-09,HR,12,
+2011,dal,terryja01,Jason Terry,,SG,SG,,188.0,83.9,1977-09-15,US,11,Arizona
+2012,mia,anthojo01,Joel Anthony,,C,C,,205.7,111.1,1982-08-09,CA,4,UNLV
+2012,mia,battish01,Shane Battier,,SF,SF,,203.2,99.8,1978-09-09,US,10,Duke
+2012,mia,boshch01,Chris Bosh,,PF,PF,,210.8,106.6,1984-03-24,US,8,Georgia Tech
+2012,mia,chalmma01,Mario Chalmers,,PG,PG,,188.0,86.2,1986-05-19,US,3,Kansas
+2012,mia,coleno01,Norris Cole,,PG,PG,,188.0,79.4,1988-10-13,US,0,Cleveland State University
+2012,mia,curryed01,Eddy Curry,,C,C,,213.4,133.8,1982-12-05,US,9,
+2012,mia,gladnmi01,Mickell Gladness,,PF,PF,,210.8,99.8,1986-07-26,US,0,Alabama A&M University
+2012,mia,harrite01,Terrel Harris,,SG,SG,,195.6,86.2,1987-08-10,US,0,Oklahoma State
+2012,mia,hasleud01,Udonis Haslem,,PF,PF,,203.2,106.6,1980-06-09,US,8,Florida
+2012,mia,howarju01,Juwan Howard,,PF,PF,,205.7,108.9,1973-02-07,US,17,Michigan
+2012,mia,jamesle01,LeBron James,,SF,SF,,205.7,113.4,1984-12-30,US,8,
+2012,mia,jonesja02,James Jones,,SG,SG,,203.2,98.9,1980-10-04,US,8,Miami (FL)
+2012,mia,millemi01,Mike Miller,,SG,SG,,203.2,98.9,1980-02-19,US,11,Florida
+2012,mia,pittmde01,Dexter Pittman,,C,C,,210.8,139.7,1988-03-02,US,1,Texas
+2012,mia,turiaro01,Ronny Turiaf,,C,C,,208.3,112.9,1983-01-13,MQ,6,Gonzaga
+2012,mia,wadedw01,Dwyane Wade,,SG,SG,,193.0,99.8,1982-01-17,US,8,Marquette
+2013,mia,allenra02,Ray Allen,,SG,SG,,195.6,93.0,1975-07-20,US,16,UConn
+2013,mia,anderch01,Chris Andersen,,C,C,,208.3,111.1,1978-07-07,US,10,Blinn College
+2013,mia,anthojo01,Joel Anthony,,C,C,,205.7,111.1,1982-08-09,CA,5,UNLV
+2013,mia,battish01,Shane Battier,,SF,SF,,203.2,99.8,1978-09-09,US,11,Duke
+2013,mia,boshch01,Chris Bosh,,C,C,,210.8,106.6,1984-03-24,US,9,Georgia Tech
+2013,mia,chalmma01,Mario Chalmers,,PG,PG,,188.0,86.2,1986-05-19,US,4,Kansas
+2013,mia,coleno01,Norris Cole,,PG,PG,,188.0,79.4,1988-10-13,US,1,Cleveland State University
+2013,mia,harrejo01,Josh Harrellson,,C,C,,208.3,124.7,1989-02-12,US,1,Kentucky
+2013,mia,harrite01,Terrel Harris,,SG,SG,,195.6,86.2,1987-08-10,US,1,Oklahoma State
+2013,mia,hasleud01,Udonis Haslem,,PF,PF,,203.2,106.6,1980-06-09,US,9,Florida
+2013,mia,howarju01,Juwan Howard,,PF,PF,,205.7,108.9,1973-02-07,US,18,Michigan
+2013,mia,jamesle01,LeBron James,,PF,PF,,205.7,113.4,1984-12-30,US,9,
+2013,mia,jonesja02,James Jones,,SF,SF,,203.2,98.9,1980-10-04,US,9,Miami (FL)
+2013,mia,lewisra02,Rashard Lewis,,PF,PF,,208.3,97.5,1979-08-08,US,14,
+2013,mia,millemi01,Mike Miller,,SF,SF,,203.2,98.9,1980-02-19,US,12,Florida
+2013,mia,pittmde01,Dexter Pittman,,C,C,,210.8,139.7,1988-03-02,US,2,Texas
+2013,mia,varnaja01,Jarvis Varnado,,PF,PF,,205.7,104.3,1988-03-01,US,0,Mississippi State
+2013,mia,wadedw01,Dwyane Wade,,SG,SG,,193.0,99.8,1982-01-17,US,9,Marquette
+2014,sas,baynear01,Aron Baynes,,C,C,,208.3,117.9,1986-12-09,NZ,1,Washington State
+2014,sas,belinma01,Marco Belinelli,,SF,SF,,195.6,99.8,1986-03-25,IT,6,
+2014,sas,bonnema01,Matt Bonner,,PF,PF,,208.3,106.6,1980-04-05,US,9,Florida
+2014,sas,brownsh01,Shannon Brown,,SG,SG,,193.0,93.0,1985-11-29,US,7,Michigan State
+2014,sas,dayeau01,Austin Daye,,SF,SF,,210.8,99.8,1988-06-05,US,4,Gonzaga
+2014,sas,decolna01,Nando De Colo,,SF,SF,,195.6,90.7,1987-06-23,FR,1,
+2014,sas,diawbo01,Boris Diaw,,PF,PF,,203.2,113.4,1982-04-16,FR,10,
+2014,sas,duncati01,Tim Duncan,,C,C,,210.8,113.4,1976-04-25,VI,16,Wake Forest
+2014,sas,ginobma01,Manu Ginóbili,,SG,SG,,198.1,93.0,1977-07-28,AR,11,
+2014,sas,greenda02,Danny Green,,SG,SG,,198.1,97.5,1987-06-22,US,4,UNC
+2014,sas,jamesda01,Damion James,,SF,SF,,200.7,102.1,1987-10-07,US,3,Texas
+2014,sas,jeffeot01,Othyus Jeffers,,SG,SG,,195.6,90.7,1985-08-05,US,2,"University of Illinois at Chicago, Robert Morris University (IL)"
+2014,sas,josepco01,Cory Joseph,,SG,SG,,188.0,90.7,1991-08-20,CA,2,Texas
+2014,sas,leonaka01,Kawhi Leonard,,SF,SF,,200.7,102.1,1991-06-29,US,2,San Diego State
+2014,sas,millspa02,Patty Mills,,PG,PG,,188.0,81.6,1988-08-11,AU,4,Saint Mary's
+2014,sas,parketo01,Tony Parker,,PG,PG,,188.0,83.9,1982-05-17,BE,12,
+2014,sas,pendeje02,Jeff Ayres,,PF,PF,,205.7,108.9,1987-04-29,US,3,Arizona State
+2014,sas,splitti01,Tiago Splitter,,C,C,,210.8,111.1,1985-01-01,BR,3,
+2014,sas,thomama01,Malcolm Thomas,,PF,PF,,205.7,102.1,1988-11-08,US,2,"Pepperdine, San Diego State"
+2015,gsw,barbole01,Leandro Barbosa,,SG,SG,,190.5,88.0,1982-11-28,BR,11,
+2015,gsw,barneha02,Harrison Barnes,,SF,SF,,203.2,102.1,1992-05-30,US,2,UNC
+2015,gsw,bogutan01,Andrew Bogut,,C,C,,213.4,117.9,1984-11-28,AU,9,Utah
+2015,gsw,curryst01,Stephen Curry,,PG,PG,,188.0,83.9,1988-03-14,US,5,Davidson
+2015,gsw,ezelife01,Festus Ezeli,,C,C,,210.8,115.7,1989-10-21,NG,1,Vanderbilt
+2015,gsw,greendr01,Draymond Green,,PF,PF,,198.1,104.3,1990-03-04,US,2,Michigan State
+2015,gsw,holidju01,Justin Holiday,,SG,SG,,198.1,81.6,1989-04-05,US,1,Washington
+2015,gsw,iguodan01,Andre Iguodala,,SF,SF,,198.1,97.5,1984-01-28,US,10,Arizona
+2015,gsw,kuzmiog01,Ognjen Kuzmić,,C,C,,215.9,113.9,1990-05-16,BA,1,
+2015,gsw,leeda02,David Lee,,PF,PF,,205.7,111.1,1983-04-29,US,9,Florida
+2015,gsw,livinsh01,Shaun Livingston,,PG,PG,,200.7,87.1,1985-09-11,US,9,
+2015,gsw,mcadoja01,James Michael McAdoo,,PF,PF,,205.7,104.3,1993-01-04,US,0,UNC
+2015,gsw,rushbr01,Brandon Rush,,SG,SG,,198.1,99.8,1985-07-07,US,6,Kansas
+2015,gsw,speigma01,Marreese Speights,,C,C,,208.3,115.7,1987-08-04,US,6,Florida
+2015,gsw,thompkl01,Klay Thompson,,SG,SG,,195.6,97.5,1990-02-08,US,3,Washington State
+2016,cle,cunnija01,Jared Cunningham,,SG,SG,,193.0,88.5,1991-05-22,US,3,Oregon State
+2016,cle,dellama01,Matthew Dellavedova,,PG,PG,,190.5,90.7,1990-09-08,AU,2,Saint Mary's
+2016,cle,fryech01,Channing Frye,,C,C,,213.4,115.7,1983-05-17,US,9,Arizona
+2016,cle,harrijo01,Joe Harris,,SG,SG,,198.1,99.8,1991-09-06,US,1,Virginia
+2016,cle,irvinky01,Kyrie Irving,,PG,PG,,188.0,88.5,1992-03-23,AU,4,Duke
+2016,cle,jamesle01,LeBron James,,SF,SF,,205.7,113.4,1984-12-30,US,12,
+2016,cle,jefferi01,Richard Jefferson,,SF,SF,,200.7,105.7,1980-06-21,US,14,Arizona
+2016,cle,jonesda02,Dahntay Jones,,SF,SF,,198.1,102.1,1980-12-27,US,11,"Rutgers University, Duke"
+2016,cle,jonesja02,James Jones,,SF,SF,,203.2,98.9,1980-10-04,US,12,Miami (FL)
+2016,cle,kaunsa01,Sasha Kaun,,C,C,,210.8,117.9,1985-05-08,RU,0,Kansas
+2016,cle,loveke01,Kevin Love,,PF,PF,,203.2,113.9,1988-09-07,US,7,UCLA
+2016,cle,mcraejo01,Jordan McRae,,PG,PG,,195.6,81.2,1991-03-28,US,0,Tennessee
+2016,cle,mozgoti01,Timofey Mozgov,,C,C,,215.9,124.7,1986-07-16,RU,5,
+2016,cle,shumpim01,Iman Shumpert,,SG,SG,,195.6,97.5,1990-06-26,US,4,Georgia Tech
+2016,cle,smithjr01,J.R. Smith,,SG,SG,,198.1,102.1,1985-09-09,US,11,North Carolina A&T
+2016,cle,thomptr01,Tristan Thompson,,PF,PF,,205.7,115.2,1991-03-13,CA,4,Texas
+2016,cle,varejan01,Anderson Varejão,,C,C,,210.8,123.8,1982-09-28,BR,11,
+2016,cle,willima01,Mo Williams,,PG,PG,,185.4,89.8,1982-12-19,US,12,Alabama
+2017,gsw,barnema02,Matt Barnes,,SF,SF,,200.7,102.5,1980-03-09,US,13,UCLA
+2017,gsw,clarkia01,Ian Clark,,SG,SG,,190.5,79.4,1991-03-07,US,3,Belmont
+2017,gsw,curryst01,Stephen Curry,,PG,PG,,188.0,83.9,1988-03-14,US,7,Davidson
+2017,gsw,duranke01,Kevin Durant,,PF,PF,,210.8,108.9,1988-09-29,US,9,Texas
+2017,gsw,greendr01,Draymond Green,,PF,PF,,198.1,104.3,1990-03-04,US,4,Michigan State
+2017,gsw,iguodan01,Andre Iguodala,,SF,SF,,198.1,97.5,1984-01-28,US,12,Arizona
+2017,gsw,jonesda03,Damian Jones,,C,C,,210.8,111.1,1995-06-30,US,0,Vanderbilt
+2017,gsw,livinsh01,Shaun Livingston,,PG,PG,,200.7,87.1,1985-09-11,US,11,
+2017,gsw,looneke01,Kevon Looney,,C,C,,205.7,100.7,1996-02-06,US,1,UCLA
+2017,gsw,mcadoja01,James Michael McAdoo,,PF,PF,,205.7,104.3,1993-01-04,US,2,UNC
+2017,gsw,mccawpa01,Patrick McCaw,,SG,SG,,200.7,82.1,1995-10-25,US,0,UNLV
+2017,gsw,mcgeeja01,JaVale McGee,,C,C,,213.4,122.5,1988-01-19,US,8,Nevada
+2017,gsw,pachuza01,Zaza Pachulia,,C,C,,210.8,122.5,1984-02-10,GE,13,
+2017,gsw,thompkl01,Klay Thompson,,SG,SG,,195.6,97.5,1990-02-08,US,5,Washington State
+2017,gsw,varejan01,Anderson Varejão,,C,C,,210.8,123.8,1982-09-28,BR,12,
+2017,gsw,weberbr01,Briante Weber,,PG,PG,,188.0,74.8,1992-12-29,US,1,VCU
+2017,gsw,westda01,David West,,C,C,,205.7,113.4,1980-08-29,US,13,Xavier
+2018,gsw,belljo01,Jordan Bell,,C,C,,203.2,98.0,1995-01-07,US,0,Oregon
+2018,gsw,bouchch01,Chris Boucher,,PF,PF,,205.7,90.7,1993-01-11,LC,0,"New Mexico Junior College, Northwest College, Oregon"
+2018,gsw,casspom01,Omri Casspi,,SF,SF,,205.7,102.1,1988-06-22,IL,8,
+2018,gsw,cookqu01,Quinn Cook,,PG,PG,,185.4,81.6,1993-03-23,US,1,Duke
+2018,gsw,curryst01,Stephen Curry,,PG,PG,,188.0,83.9,1988-03-14,US,8,Davidson
+2018,gsw,duranke01,Kevin Durant,,SF,SF,,210.8,108.9,1988-09-29,US,10,Texas
+2018,gsw,greendr01,Draymond Green,,PF,PF,,198.1,104.3,1990-03-04,US,5,Michigan State
+2018,gsw,iguodan01,Andre Iguodala,,SF,SF,,198.1,97.5,1984-01-28,US,13,Arizona
+2018,gsw,jonesda03,Damian Jones,,C,C,,210.8,111.1,1995-06-30,US,1,Vanderbilt
+2018,gsw,livinsh01,Shaun Livingston,,PG,PG,,200.7,87.1,1985-09-11,US,12,
+2018,gsw,looneke01,Kevon Looney,,C,C,,205.7,100.7,1996-02-06,US,2,UCLA
+2018,gsw,mccawpa01,Patrick McCaw,,SG,SG,,200.7,82.1,1995-10-25,US,1,UNLV
+2018,gsw,mcgeeja01,JaVale McGee,,C,C,,213.4,122.5,1988-01-19,US,9,Nevada
+2018,gsw,pachuza01,Zaza Pachulia,,C,C,,210.8,122.5,1984-02-10,GE,14,
+2018,gsw,thompkl01,Klay Thompson,,SG,SG,,195.6,97.5,1990-02-08,US,6,Washington State
+2018,gsw,westda01,David West,,C,C,,205.7,113.4,1980-08-29,US,14,Xavier
+2018,gsw,youngni01,Nick Young,,SG,SG,,200.7,95.3,1985-06-01,US,10,USC
+2019,tor,anunoog01,OG Anunoby,,SF,SF,,200.7,105.2,1997-07-17,GB,1,Indiana
+2019,tor,bouchch01,Chris Boucher,,PF,PF,,205.7,90.7,1993-01-11,LC,1,"New Mexico Junior College, Northwest College, Oregon"
+2019,tor,brownlo01,Lorenzo Brown,,PG,PG,,195.6,85.7,1990-08-26,US,4,NC State
+2019,tor,gasolma01,Marc Gasol,,C,C,,210.8,115.7,1985-01-29,ES,10,
+2019,tor,greenda02,Danny Green,,SG,SG,,198.1,97.5,1987-06-22,US,9,UNC
+2019,tor,ibakase01,Serge Ibaka,,C,C,,210.8,106.6,1989-09-18,CG,9,
+2019,tor,leonaka01,Kawhi Leonard,,SF,SF,,200.7,102.1,1991-06-29,US,7,San Diego State
+2019,tor,linje01,Jeremy Lin,,PG,PG,,190.5,90.7,1988-08-23,US,8,Harvard University
+2019,tor,lowryky01,Kyle Lowry,,PG,PG,,182.9,88.9,1986-03-25,US,12,Villanova
+2019,tor,loydjo01,Jordan Loyd,,PG,PG,,193.0,95.3,1993-07-27,US,0,"Furman University, University of Indianapolis"
+2019,tor,mccawpa01,Patrick McCaw,,SG,SG,,200.7,82.1,1995-10-25,US,2,UNLV
+2019,tor,meeksjo01,Jodie Meeks,,SG,SG,,193.0,95.3,1987-08-21,US,9,Kentucky
+2019,tor,milescj01,C.J. Miles,,SF,SF,,198.1,99.8,1987-03-18,US,13,
+2019,tor,millema01,Malcolm Miller,,SF,SF,,200.7,95.3,1993-03-06,US,1,Holy Cross
+2019,tor,monrogr01,Greg Monroe,,C,C,,210.8,120.2,1990-06-04,US,8,Georgetown
+2019,tor,moreler01,Eric Moreland,,PF,PF,,208.3,108.0,1991-12-24,US,3,Oregon State
+2019,tor,powelno01,Norman Powell,,SG,SG,,190.5,97.5,1993-05-25,US,3,UCLA
+2019,tor,richama01,Malachi Richardson,,SG,SG,,198.1,93.0,1996-01-05,US,2,Syracuse
+2019,tor,siakapa01,Pascal Siakam,,PF,PF,,203.2,104.3,1994-04-02,CM,2,New Mexico State
+2019,tor,valanjo01,Jonas Valančiūnas,,C,C,,210.8,120.2,1992-05-06,LT,6,
+2019,tor,vanvlfr01,Fred VanVleet,,PG,PG,,182.9,89.4,1994-02-25,US,2,Wichita State
+2019,tor,wrighde01,Delon Wright,,PG,PG,,195.6,83.9,1992-04-26,US,3,Utah
+2020,lal,antetko01,Kostas Antetokounmpo,,PF,PF,,208.3,90.7,1997-11-20,GR,1,Dayton
+2020,lal,bradlav01,Avery Bradley,,SG,SG,,190.5,81.6,1990-11-26,US,9,Texas
+2020,lal,cacokde01,Devontae Cacok,,C,C,,200.7,108.9,1996-10-08,US,0,UNC Wilmington
+2020,lal,caldwke01,Kentavious Caldwell-Pope,,SG,SG,,195.6,92.5,1993-02-18,US,6,Georgia
+2020,lal,carusal01,Alex Caruso,,PG,PG,,195.6,84.4,1994-02-28,US,2,Texas A&M
+2020,lal,cookqu01,Quinn Cook,,PG,PG,,185.4,81.6,1993-03-23,US,3,Duke
+2020,lal,danietr01,Troy Daniels,,SG,SG,,193.0,90.7,1991-07-15,US,6,VCU
+2020,lal,davisan02,Anthony Davis,,PF,PF,,208.3,114.8,1993-03-11,US,7,Kentucky
+2020,lal,dudleja01,Jared Dudley,,PF,PF,,198.1,107.5,1985-07-10,US,12,Boston College
+2020,lal,greenda02,Danny Green,,SG,SG,,198.1,97.5,1987-06-22,US,10,UNC
+2020,lal,hortota01,Talen Horton-Tucker,,SG,SG,,193.0,106.1,2000-11-25,US,0,Iowa State
+2020,lal,howardw01,Dwight Howard,,C,C,,208.3,120.2,1985-12-08,US,15,
+2020,lal,jamesle01,LeBron James,,PG,PG,,205.7,113.4,1984-12-30,US,16,
+2020,lal,kuzmaky01,Kyle Kuzma,,PF,PF,,205.7,100.2,1995-07-24,US,2,Utah
+2020,lal,mcgeeja01,JaVale McGee,,C,C,,213.4,122.5,1988-01-19,US,11,Nevada
+2020,lal,morrima02,Markieff Morris,,PF,PF,,205.7,111.1,1989-09-02,US,8,Kansas
+2020,lal,norveza01,Zach Norvell,,SG,SG,,195.6,93.4,1997-12-09,US,0,Gonzaga
+2020,lal,rondora01,Rajon Rondo,,PG,PG,,185.4,81.6,1986-02-22,US,13,Kentucky
+2020,lal,smithjr01,J.R. Smith,,SG,SG,,198.1,102.1,1985-09-09,US,15,North Carolina A&T
+2020,lal,waitedi01,Dion Waiters,,SG,SG,,190.5,97.5,1991-12-10,US,7,Syracuse
+2021,mil,adamsja01,Jaylen Adams,,PG,PG,,182.9,102.1,1996-05-04,US,2,St. Bonaventure
+2021,mil,antetgi01,Giannis Antetokounmpo,,PF,PF,,210.8,109.8,1994-12-06,GR,7,
+2021,mil,antetth01,Thanasis Antetokounmpo,,SF,SF,,200.7,99.3,1992-07-18,GR,2,
+2021,mil,augusdj01,D.J. Augustin,,PG,PG,,180.3,83.0,1987-11-10,US,12,Texas
+2021,mil,bryanel01,Elijah Bryant,,SG,SG,,195.6,95.3,1995-04-19,US,0,"Elon University, BYU"
+2021,mil,connapa01,Pat Connaughton,,SG,SG,,195.6,94.8,1993-01-06,US,5,Notre Dame
+2021,mil,craigto01,Torrey Craig,,SF,SF,,200.7,100.2,1990-12-19,US,3,USC Upstate
+2021,mil,diakima01,Mamadi Diakite,,PF,PF,,205.7,103.4,1997-01-21,GN,0,Virginia
+2021,mil,divindo01,Donte DiVincenzo,,SG,SG,,193.0,92.1,1997-01-31,US,2,Villanova
+2021,mil,forbebr01,Bryn Forbes,,SG,SG,,188.0,93.0,1993-07-23,US,4,Michigan State
+2021,mil,holidjr01,Jrue Holiday,,PG,PG,,193.0,93.0,1990-06-12,US,11,UCLA
+2021,mil,jacksju01,Justin Jackson,,SF,SF,,203.2,99.8,1995-03-28,US,3,UNC
+2021,mil,kurucro01,Rodions Kurucs,,SF,SF,,205.7,103.4,1998-02-05,LV,2,
+2021,mil,lopezbr01,Brook Lopez,,C,C,,215.9,127.9,1988-04-01,US,12,Stanford
+2021,mil,merrisa01,Sam Merrill,,SG,SG,,193.0,93.0,1996-05-15,US,0,Utah State University
+2021,mil,middlkh01,Khris Middleton,,SF,SF,,200.7,100.7,1991-08-12,US,8,Texas A&M
+2021,mil,nworajo01,Jordan Nwora,,SF,SF,,203.2,102.1,1998-09-09,US,0,Louisville
+2021,mil,portibo01,Bobby Portis,,C,C,,208.3,113.4,1995-02-10,US,5,Arkansas
+2021,mil,teaguje01,Jeff Teague,,PG,PG,,190.5,88.5,1988-06-10,US,11,Wake Forest
+2021,mil,toupaax01,Axel Toupane,,SF,SF,,200.7,89.4,1992-07-23,FR,2,
+2021,mil,tuckepj01,P.J. Tucker,,PF,PF,,195.6,111.1,1985-05-05,US,9,Texas
+2021,mil,wilsodj01,D.J. Wilson,,PF,PF,,208.3,104.8,1996-02-19,US,3,Michigan
+2022,gsw,bjeline01,Nemanja Bjelica,,C,C,,208.3,106.1,1988-05-09,RS,6,
+2022,gsw,chiozch01,Chris Chiozza,,PG,PG,,180.3,79.4,1995-11-21,US,3,Florida
+2022,gsw,curryst01,Stephen Curry,,PG,PG,,188.0,83.9,1988-03-14,US,12,Davidson
+2022,gsw,dowtije01,Jeff Dowtin Jr.,,PG,PG,,190.5,83.9,1997-05-10,US,0,Rhode Island
+2022,gsw,greendr01,Draymond Green,,PF,PF,,198.1,104.3,1990-03-04,US,9,Michigan State
+2022,gsw,iguodan01,Andre Iguodala,,SF,SF,,198.1,97.5,1984-01-28,US,17,Arizona
+2022,gsw,kuminjo01,Jonathan Kuminga,,SF,SF,,203.2,95.3,2002-10-06,CD,0,
+2022,gsw,leeda03,Damion Lee,,SG,SG,,195.6,95.3,1992-10-21,US,4,"Drexel, Louisville"
+2022,gsw,looneke01,Kevon Looney,,C,C,,205.7,100.7,1996-02-06,US,6,UCLA
+2022,gsw,moodymo01,Moses Moody,,SG,SG,,195.6,93.0,2002-05-31,US,0,Arkansas
+2022,gsw,paytoga02,Gary Payton II,,SG,SG,,188.0,86.2,1992-12-01,US,5,Oregon State
+2022,gsw,poolejo01,Jordan Poole,,SG,SG,,193.0,88.0,1999-06-19,US,2,Michigan
+2022,gsw,porteot01,Otto Porter Jr.,,PF,PF,,203.2,89.8,1993-06-03,US,8,Georgetown
+2022,gsw,thompkl01,Klay Thompson,,SG,SG,,195.6,97.5,1990-02-08,US,8,Washington State
+2022,gsw,toscaju01,Juan Toscano-Anderson,,SF,SF,,198.1,94.8,1993-04-10,US,2,Marquette
+2022,gsw,weathqu01,Quinndary Weatherspoon,,SG,SG,,190.5,93.0,1996-09-10,US,2,Mississippi State
+2022,gsw,wiggian01,Andrew Wiggins,,SF,SF,,200.7,89.4,1995-02-23,CA,7,Kansas
+2023,den,braunch01,Christian Braun,,SG,SG,,198.1,98.9,2001-04-17,US,0,Kansas
+2023,den,brownbr01,Bruce Brown,,SF,SF,,193.0,91.6,1996-08-15,US,4,Miami (FL)
+2023,den,bryanth01,Thomas Bryant,,C,C,,208.3,112.5,1997-07-31,US,5,Indiana
+2023,den,caldwke01,Kentavious Caldwell-Pope,,SG,SG,,195.6,92.5,1993-02-18,US,9,Georgia
+2023,den,cancavl01,Vlatko Čančar,,PF,PF,,203.2,107.0,1997-04-10,SI,3,
+2023,den,gordoaa01,Aaron Gordon,,PF,PF,,203.2,106.6,1995-09-16,US,8,Arizona
+2023,den,greenje02,Jeff Green,,PF,PF,,203.2,106.6,1986-08-28,US,14,Georgetown
+2023,den,hylanbo01,Bones Hyland,,PG,PG,,188.0,78.5,2000-09-14,US,1,VCU
+2023,den,jacksre01,Reggie Jackson,,PG,PG,,188.0,94.3,1990-04-16,IT,11,Boston College
+2023,den,jokicni01,Nikola Jokić,,C,C,,210.8,128.8,1995-02-19,RS,7,
+2023,den,jordade01,DeAndre Jordan,,C,C,,210.8,120.2,1988-07-21,US,14,Texas A&M
+2023,den,murraja01,Jamal Murray,,PG,PG,,193.0,97.5,1997-02-23,CA,5,Kentucky
+2023,den,nnajize01,Zeke Nnaji,,PF,PF,,205.7,108.9,2001-01-09,US,2,Arizona
+2023,den,portemi01,Michael Porter Jr.,,SF,SF,,208.3,98.9,1998-06-29,US,3,Missouri
+2023,den,reedda01,Davon Reed,,SG,SG,,195.6,94.3,1995-06-11,US,3,Miami (FL)
+2023,den,smithis01,Ish Smith,,PG,PG,,182.9,79.4,1988-07-05,US,12,Wake Forest
+2023,den,watsope01,Peyton Watson,,SG,SG,,203.2,90.7,2002-09-11,US,0,UCLA
+2023,den,whiteja03,Jack White,,SF,SF,,200.7,102.1,1997-08-05,AU,0,Duke
+2024,bos,bantoda01,Dalano Banton,,PG,PG,,205.7,92.5,1999-11-07,CA,2,Nebraska
+2024,bos,brissos01,Oshae Brissett,,SF,SF,,200.7,95.3,1998-06-20,CA,4,Syracuse
+2024,bos,brownja02,Jaylen Brown,,SF,SF,,198.1,101.2,1996-10-24,US,7,California
+2024,bos,davisjd01,JD Davison,,SG,SG,,185.4,88.5,2002-10-03,US,1,Alabama
+2024,bos,hausesa01,Sam Hauser,,SF,SF,,203.2,97.5,1997-12-08,US,2,"Marquette, Virginia"
+2024,bos,holidjr01,Jrue Holiday,,PG,PG,,193.0,93.0,1990-06-12,US,14,UCLA
+2024,bos,horfoal01,Al Horford,,C,C,,205.7,108.9,1986-06-03,DO,16,Florida
+2024,bos,kornelu01,Luke Kornet,,C,C,,218.4,113.4,1995-07-15,US,6,Vanderbilt
+2024,bos,mykhasv01,Svi Mykhailiuk,,SF,SF,,200.7,93.0,1997-06-10,UA,5,Kansas
+2024,bos,peterdr01,Drew Peterson,,PF,PF,,205.7,93.0,1999-11-09,US,0,"Rice University, USC"
+2024,bos,porzikr01,Kristaps Porziņģis,,C,C,,218.4,108.9,1995-08-02,LV,7,
+2024,bos,pritcpa01,Payton Pritchard,,PG,PG,,185.4,88.5,1998-01-28,US,3,Oregon
+2024,bos,quetane01,Neemias Queta,,C,C,,213.4,111.1,1999-07-13,PT,2,Utah State University
+2024,bos,sprinja01,Jaden Springer,,SG,SG,,193.0,92.5,2002-09-25,US,2,Tennessee
+2024,bos,stevela01,Lamar Stevens,,PF,PF,,198.1,104.3,1997-07-09,US,3,Penn State
+2024,bos,tatumja01,Jayson Tatum,,PF,PF,,203.2,95.3,1998-03-03,US,6,Duke
+2024,bos,tillmxa01,Xavier Tillman Sr.,,PF,PF,,203.2,111.1,1999-01-12,US,3,Michigan State
+2024,bos,walshjo01,Jordan Walsh,,SF,SF,,200.7,93.0,2004-03-03,US,0,Arkansas
+2024,bos,whitede01,Derrick White,,SG,SG,,193.0,86.2,1994-07-02,US,6,"Colorado-Colorado Springs, Colorado"
+2025,okc,carlsbr01,Branden Carlson,,C,C,,213.4,99.8,1999-06-14,US,0,Utah
+2025,okc,carusal01,Alex Caruso,,SG,SG,,195.6,84.4,1994-02-28,US,7,Texas A&M
+2025,okc,diengou01,Ousmane Dieng,,C,C,,208.3,100.7,2003-05-21,FR,2,
+2025,okc,dortlu01,Luguentz Dort,,SF,SF,,193.0,99.8,1999-04-19,CA,5,Arizona State
+2025,okc,ducasal01,Alex Ducas,,SG,SG,,198.1,100.7,2000-12-11,AU,0,Saint Mary's
+2025,okc,flaglad01,Adam Flagler,,SG,SG,,190.5,88.5,1999-12-01,US,1,"Presbyterian College, Baylor"
+2025,okc,gilgesh01,Shai Gilgeous-Alexander,,PG,PG,,198.1,90.7,1998-07-12,CA,6,Kentucky
+2025,okc,harteis01,Isaiah Hartenstein,,C,C,,213.4,115.7,1998-05-05,US,6,
+2025,okc,holmgch01,Chet Holmgren,,C,C,,215.9,96.6,2002-05-01,US,1,Gonzaga
+2025,okc,joeis01,Isaiah Joe,,SG,SG,,195.6,82.1,1999-07-02,US,4,Arkansas
+2025,okc,jonesdi01,Dillon Jones,,SF,SF,,195.6,108.9,2001-10-29,US,0,Weber State
+2025,okc,leonsma01,Malevy Leons,,SF,SF,,205.7,93.0,1999-09-23,NL,0,"Mineral Area College, Bradley"
+2025,okc,mitchaj01,Ajay Mitchell,,SG,SG,,195.6,90.7,2002-06-25,BE,0,UC Santa Barbara
+2025,okc,reeseal01,Alex Reese,,PF,PF,,205.7,111.1,1999-05-21,US,0,Alabama
+2025,okc,wallaca01,Cason Wallace,,SG,SG,,193.0,93.0,2003-11-07,US,1,Kentucky
+2025,okc,wiggiaa01,Aaron Wiggins,,SG,SG,,198.1,90.7,1999-01-02,US,3,Maryland
+2025,okc,willija06,Jalen Williams,,SG,SG,,198.1,99.8,2001-04-14,US,2,Santa Clara
+2025,okc,willija07,Jaylin Williams,,PF,PF,,203.2,113.4,2002-06-29,US,2,Arkansas
+2025,okc,willike04,Kenrich Williams,,PF,PF,,200.7,95.3,1994-12-02,US,6,TCU
+2026,atl,alexani01,Nickeil Alexander-Walker,,G,G,,195.6,93.0,1998-09-02,CA,6,Virginia Tech
+2026,atl,bassech01,Charles Bassey,,C,C,,208.3,106.6,2000-10-28,NG,4,Western Kentucky
+2026,atl,butlela02,Lamont Butler,,G,G,,188.0,,2002-06-09,US,0,"San Diego State, Kentucky"
+2026,atl,daniedy01,Dyson Daniels,,G,G,,203.2,90.3,2003-03-17,AU,3,
+2026,atl,djurini01,Nikola Djurisic,,G,G,,200.7,94.8,2004-02-23,BE,0,
+2026,atl,gueyemo02,Mouhamed Gueye,,F,F,,210.8,95.3,2002-11-09,SN,2,Washington State
+2026,atl,houstca01,Caleb Houstan,,G-F,G,F,203.2,93.0,2003-01-09,CA,3,Michigan
+2026,atl,johnsja05,Jalen Johnson,,F,F,,205.7,99.8,2001-12-18,US,4,Duke
+2026,atl,johnsko01,Kobe Johnson,,F,F,,198.1,,2003-01-15,US,0,"USC, UCLA"
+2026,atl,kennalu01,Luke Kennard,,G,G,,195.6,93.4,1996-06-24,US,8,Duke
+2026,atl,krejcvi01,Vit Krejci,,G,G,,203.2,88.5,2000-06-19,CZ,4,
+2026,atl,ndiayel01,Eli Ndiaye,TW,C,C,,203.2,,2004-06-26,SN,0,
+2026,atl,newelas01,Asa Newell,,F,F,,210.8,,2005-10-05,US,0,Georgia
+2026,atl,nfalyda01,N'Faly Dante,,C,C,,210.8,104.3,2001-10-19,ML,1,Oregon
+2026,atl,okongon01,Onyeka Okongwu,,F,F,,203.2,106.6,2000-12-11,US,5,USC
+2026,atl,porzikr01,Kristaps Porziņģis,,F-C,F,C,218.4,108.9,1995-08-02,LV,9,
+2026,atl,risacza01,Zaccharie Risacher,,F,F,,203.2,90.7,2005-04-08,ES,1,
+2026,atl,toppija01,Jacob Toppin,TW,F,F,,205.7,93.0,2000-05-08,US,2,"Rhode Island, Kentucky"
+2026,atl,wallake01,Keaton Wallace,TW,G,G,,190.5,88.5,1999-02-26,US,1,Texas-San Antonio
+2026,atl,willima11,Malik Williams,,C,C,,210.8,113.4,1998-08-26,US,1,Louisville
+2026,atl,youngtr01,Trae Young,,G,G,,185.4,74.4,1998-09-19,US,7,Oklahoma
+2026,bos,bouchch01,Chris Boucher,,F,F,,205.7,90.7,1993-01-11,LC,8,"New Mexico Junior College, Northwest College, Oregon"
+2026,bos,bridgja01,Jalen Bridges,,F,F,,203.2,102.1,2001-05-14,US,1,"West Virginia, Baylor"
+2026,bos,brownja02,Jaylen Brown,,F-G,F,G,198.1,101.2,1996-10-24,US,9,California
+2026,bos,brownke03,Kendall Brown,,G-F,G,F,203.2,93.0,2003-05-11,US,2,Baylor
+2026,bos,garzalu01,Luka Garza,,F-C,F,C,208.3,106.6,1998-12-27,US,4,Iowa
+2026,bos,gonzahu01,Hugo González,,G-F,G,F,198.1,,2006-02-05,ES,0,
+2026,bos,harpero02,Ron Harper Jr.,,G-F,G,F,198.1,111.1,2000-04-12,US,3,Rutgers University
+2026,bos,hausesa01,Sam Hauser,,F,F,,203.2,97.5,1997-12-08,US,4,"Marquette, Virginia"
+2026,bos,minotjo01,Josh Minott,,F,F,,203.2,93.0,2002-11-25,US,3,Memphis
+2026,bos,pritcpa01,Payton Pritchard,,G,G,,185.4,88.5,1998-01-28,US,5,Oregon
+2026,bos,quetane01,Neemias Queta,,C,C,,213.4,111.1,1999-07-13,PT,4,Utah State University
+2026,bos,scheiba01,Baylor Scheierman,,G,G,,198.1,93.0,2000-09-26,US,1,"South Dakota State, Creighton"
+2026,bos,shulgma01,Max Shulga,TW,G,G,,193.0,,2002-06-25,UA,0,"Utah State University, VCU"
+2026,bos,simonan01,Anfernee Simons,,G,G,,190.5,82.1,1999-06-08,US,7,
+2026,bos,tatumja01,Jayson Tatum,,F,F,,203.2,95.3,1998-03-03,US,8,Duke
+2026,bos,tillmxa01,Xavier Tillman Sr.,,F,F,,203.2,111.1,1999-01-12,US,5,Michigan State
+2026,bos,walshjo01,Jordan Walsh,,G-F,G,F,200.7,93.0,2004-03-03,US,2,Arkansas
+2026,bos,whitede01,Derrick White,,G,G,,193.0,86.2,1994-07-02,US,8,"Colorado-Colorado Springs, Colorado"
+2026,bos,william01,Amari Williams,TW,F,F,,208.3,,2002-01-28,GB,0,"Drexel, Kentucky"
+2026,brk,bufkiko01,Kobe Bufkin,,G,G,,193.0,88.5,2003-09-21,US,2,Michigan
+2026,brk,claxtni01,Nic Claxton,,C,C,,210.8,97.5,1999-04-17,US,6,Georgia
+2026,brk,clownno01,Noah Clowney,,F,F,,208.3,95.3,2004-07-14,US,2,Alabama
+2026,brk,demineg01,Egor Demin,,G,G,,205.7,,2006-03-03,RU,0,BYU
+2026,brk,etienty01,Tyson Etienne,TW,G,G,,188.0,92.1,1999-09-17,US,1,Wichita State
+2026,brk,highsha01,Haywood Highsmith,,F,F,,200.7,99.8,1996-12-09,US,5,Wheeling University
+2026,brk,liddeej01,E.J. Liddell,TW,F,F,,200.7,108.9,2000-12-18,US,2,Ohio State
+2026,brk,mannte01,Terance Mann,,G-F,G,F,195.6,97.5,1996-10-18,US,6,Florida State
+2026,brk,martity01,Tyrese Martin,,G,G,,198.1,97.5,1999-03-07,US,2,"Rhode Island, UConn"
+2026,brk,portemi01,Michael Porter Jr.,,F,F,,208.3,98.9,1998-06-29,US,6,Missouri
+2026,brk,poweldr01,Drake Powell,,G-F,G,F,198.1,,2005-09-08,US,0,UNC
+2026,brk,sarafbe01,Ben Saraf,,G,G,,198.1,,2006-04-14,ZA,0,
+2026,brk,sharpda01,Day'Ron Sharpe,,C,C,,210.8,120.2,2001-11-06,US,4,UNC
+2026,brk,thomaca02,Cam Thomas,,G,G,,193.0,95.3,2001-10-13,JP,4,LSU
+2026,brk,timmedr01,Drew Timme,,F,F,,208.3,106.6,2000-09-09,US,1,Gonzaga
+2026,brk,traorno01,Nolan Traoré,,G,G,,190.5,,2006-05-28,FR,0,
+2026,brk,whiteda01,Dariq Whitehead,,F,F,,200.7,99.8,2004-08-01,US,2,Duke
+2026,brk,willizi02,Ziaire Williams,,F,F,,205.7,97.5,2001-09-12,US,4,Stanford
+2026,brk,wilsoja03,Jalen Wilson,,F,F,,203.2,102.1,2000-11-04,US,2,Kansas
+2026,brk,wolfda01,Danny Wolf,,F-C,F,C,213.4,,2004-05-05,US,0,"Yale, Michigan"
+2026,brk,zengfa01,Fanbo Zeng,,F,F,,210.8,,2003-01-11,CN,0,
+2026,chi,buzelma01,Matas Buzelis,,F,F,,208.3,94.8,2004-10-13,US,1,
+2026,chi,carteje01,Jevon Carter,,G,G,,185.4,90.7,1995-09-14,US,7,West Virginia
+2026,chi,colliza01,Zach Collins,,C-F,C,F,210.8,113.4,1997-11-19,US,7,Gonzaga
+2026,chi,dosunay01,Ayo Dosunmu,,G,G,,195.6,90.7,2000-01-17,US,4,Illinois
+2026,chi,essenno01,Noa Essengue,,F,F,,205.7,,2006-12-18,FR,0,
+2026,chi,grillca01,Caleb Grill,,G,G,,190.5,,2000-06-15,US,0,"UNLV, Iowa State, Missouri"
+2026,chi,gueyemo01,Mouhamadou Gueye,,F,F,,205.7,95.3,1998-07-06,US,1,"Monroe Community College, Stony Brook University, Pitt"
+2026,chi,huertke01,Kevin Huerter,,G,G,,200.7,86.2,1998-08-27,US,7,Maryland
+2026,chi,jonestr01,Tre Jones,,G,G,,185.4,83.9,2000-01-08,US,5,Duke
+2026,chi,kawamyu01,Yuki Kawamura,TW,G,G,,172.7,72.1,2001-05-02,JP,1,
+2026,chi,milleem01,Emanuel Miller,TW,F,F,,200.7,97.5,2000-06-19,CA,1,"Texas A&M, TCU"
+2026,chi,okorois01,Isaac Okoro,,G-F,G,F,195.6,102.1,2001-01-26,US,5,Auburn
+2026,chi,olbrila01,Lachlan Olbrich,TW,F-C,F,C,208.3,,2003-12-30,AU,0,"University of California, Riverside"
+2026,chi,phillju01,Julian Phillips,,F,F,,203.2,89.8,2003-11-05,US,2,Tennessee
+2026,chi,smithja04,Jalen Smith,,F,F,,208.3,97.5,2000-03-16,US,5,Maryland
+2026,chi,terryda01,Dalen Terry,,G,G,,200.7,88.5,2002-07-12,US,3,Arizona
+2026,chi,vucevni01,Nikola Vučević,,C,C,,208.3,117.9,1990-10-24,CH,14,USC
+2026,chi,whiteco01,Coby White,,G,G,,195.6,88.5,2000-02-16,US,6,UNC
+2026,chi,willipa01,Patrick Williams,,F,F,,200.7,97.5,2001-08-26,US,5,Florida State
+2026,cho,ballla01,LaMelo Ball,,G,G,,200.7,81.6,2001-08-22,US,5,
+2026,cho,bridgmi02,Miles Bridges,,G-F,G,F,200.7,102.1,1998-03-21,US,6,Michigan State
+2026,cho,connapa01,Pat Connaughton,,G,G,,195.6,94.8,1993-01-06,US,10,Notre Dame
+2026,cho,diabamo01,Moussa Diabaté,,F,F,,210.8,95.3,2002-01-21,FR,3,Michigan
+2026,cho,greenjo02,Josh Green,,G-F,G,F,195.6,90.7,2000-11-16,AU,5,Arizona
+2026,cho,jamessi01,Sion James,,G,G,,195.6,,2002-12-04,US,0,"Tulane, Duke"
+2026,cho,kalkbry01,Ryan Kalkbrenner,,C,C,,213.4,,2002-01-17,US,0,Creighton
+2026,cho,knuepko01,Kon Knueppel,,G-F,G,F,200.7,,2005-08-03,US,0,Duke
+2026,cho,mcneeli01,Liam McNeeley,,G-F,G,F,200.7,,2005-10-10,US,0,UConn
+2026,cho,millebr02,Brandon Miller,,F-G,F,G,205.7,91.2,2002-11-22,US,2,Alabama
+2026,cho,mooreis01,Isaih Moore,,F,F,,208.3,,2000-08-30,US,0,"College of Charleston, St. John's, Southern Miss, Fresno State"
+2026,cho,peterdr01,Drew Peterson,TW,G,G,,205.7,93.0,1999-11-09,US,2,"Rice University, USC"
+2026,cho,plumlma01,Mason Plumlee,,C-F,C,F,208.3,115.2,1990-03-05,US,12,Duke
+2026,cho,reevean01,Antonio Reeves,TW,G,G,,195.6,93.0,2000-11-20,US,1,"Illinois State, Kentucky"
+2026,cho,salauti01,Tidjane Salaün,,F,F,,205.7,93.9,2005-08-10,FR,1,
+2026,cho,sextoco01,Collin Sexton,,G,G,,190.5,86.2,1999-01-04,US,7,Alabama
+2026,cho,simpskj01,KJ Simpson,TW,G,G,,182.9,85.7,2002-08-08,US,1,Colorado
+2026,cho,willigr01,Grant Williams,,F,F,,198.1,107.0,1998-11-30,US,6,Tennessee
+2026,cle,allenja01,Jarrett Allen,,C-F,C,F,210.8,110.2,1998-04-21,US,8,Texas
+2026,cle,balllo01,Lonzo Ball,,G,G,,198.1,86.2,1997-10-27,US,6,UCLA
+2026,cle,garlada01,Darius Garland,,G,G,,185.4,87.1,2000-01-26,US,6,Vanderbilt
+2026,cle,huntede01,De'Andre Hunter,,F,F,,203.2,102.1,1997-12-02,US,6,Virginia
+2026,cle,merrisa01,Sam Merrill,,G,G,,193.0,93.0,1996-05-15,US,5,Utah State University
+2026,cle,mitchdo01,Donovan Mitchell,,G,G,,190.5,97.5,1996-09-07,US,8,Louisville
+2026,cle,mobleev01,Evan Mobley,,F-C,F,C,210.8,97.5,2001-06-18,US,4,USC
+2026,cle,nancela02,Larry Nance Jr.,,F-C,F,C,203.2,111.1,1993-01-01,US,10,Wyoming
+2026,cle,okekech01,Chuma Okeke,,F,F,,198.1,103.9,1998-08-18,US,5,Auburn
+2026,cle,portecr01,Craig Porter Jr.,,G,G,,188.0,84.4,2000-02-26,US,2,"Vincennes University, Wichita State"
+2026,cle,proctty01,Tyrese Proctor,,G,G,,195.6,,2004-04-01,AU,0,Duke
+2026,cle,strusma01,Max Strus,,G,G,,195.6,97.5,1996-03-28,US,6,"Lewis (IL), DePaul"
+2026,cle,tomlina01,Nae'Qwan Tomlin,TW,F,F,,208.3,93.0,2000-12-10,US,1,"Monroe Community College, Chipola College, Kansas State, Memphis"
+2026,cle,travelu01,Luke Travers,TW,G,G,,203.2,90.3,2001-09-03,AU,1,
+2026,cle,tysonja01,Jaylon Tyson,,G,G,,198.1,97.5,2002-12-02,US,1,"Texas, Texas Tech, California"
+2026,cle,wadede01,Dean Wade,,F,F,,205.7,103.4,1996-11-20,US,6,Kansas State
+2026,dal,chrisma02,Max Christie,,G,G,,198.1,86.2,2003-02-10,US,3,Michigan State
+2026,dal,cissemo01,Moussa Cisse,,C,C,,208.3,,2002-09-10,GN,0,"Oklahoma State, Ole Miss, Memphis"
+2026,dal,clevema01,Matthew Cleveland,,G,G,,200.7,,2002-09-15,US,0,"Florida State, Miami (FL)"
+2026,dal,davisan02,Anthony Davis,,F-C,F,C,208.3,114.8,1993-03-11,US,13,Kentucky
+2026,dal,exumda01,Dante Exum,,G,G,,195.6,97.1,1995-07-13,AU,8,
+2026,dal,flaggco01,Cooper Flagg,,F,F,,205.7,,2006-12-21,US,0,Duke
+2026,dal,gaffoda01,Daniel Gafford,,C-F,C,F,208.3,106.1,1998-10-01,US,6,Arkansas
+2026,dal,hardyja02,Jaden Hardy,,G,G,,193.0,89.8,2002-07-05,US,3,
+2026,dal,irvinky01,Kyrie Irving,,G,G,,188.0,88.5,1992-03-23,AU,14,Duke
+2026,dal,kellymi02,Miles Kelly,TW,G,G,,198.1,,2003-01-26,US,0,"Georgia Tech, Auburn"
+2026,dal,livelde01,Dereck Lively II,,C,C,,215.9,104.3,2004-02-12,US,2,Duke
+2026,dal,marshna01,Naji Marshall,,F,F,,200.7,99.8,1998-01-24,US,5,Xavier
+2026,dal,martica02,Caleb Martin,,F,F,,195.6,93.0,1995-09-28,US,6,"NC State, Nevada"
+2026,dal,nembhry01,Ryan Nembhard,TW,G,G,,182.9,,2003-03-10,CA,0,"Creighton, Gonzaga"
+2026,dal,poweldw01,Dwight Powell,,F-C,F,C,208.3,108.9,1991-07-20,CA,11,Stanford
+2026,dal,russeda01,D'Angelo Russell,,G,G,,190.5,87.5,1996-02-23,US,10,Ohio State
+2026,dal,thompkl01,Klay Thompson,,G-F,G,F,195.6,97.5,1990-02-08,US,12,Washington State
+2026,dal,washipj01,P.J. Washington,,F,F,,200.7,104.3,1998-08-23,US,6,Kentucky
+2026,dal,willibr03,Brandon Williams,,G,G,,185.4,86.2,1999-11-22,US,3,Arizona
+2026,den,batesta01,Tamar Bates,TW,G,G,,195.6,,2003-02-21,US,0,"Indiana, Missouri"
+2026,den,braunch01,Christian Braun,,G,G,,198.1,98.9,2001-04-17,US,3,Kansas
+2026,den,brownbr01,Bruce Brown,,G-F,G,F,193.0,91.6,1996-08-15,US,7,Miami (FL)
+2026,den,brownmo01,Moses Brown,,C,C,,218.4,111.1,1999-10-13,US,6,UCLA
+2026,den,edwarke02,Kessler Edwards,,F,F,,203.2,97.5,2000-08-09,US,4,Pepperdine
+2026,den,gordoaa01,Aaron Gordon,,F,F,,203.2,106.6,1995-09-16,US,11,Arizona
+2026,den,hardati02,Tim Hardaway Jr.,,G,G,,195.6,93.0,1992-03-16,US,12,Michigan
+2026,den,holmeda01,DaRon Holmes,,F,F,,208.3,102.1,2002-08-15,US,0,Dayton
+2026,den,johnsca02,Cameron Johnson,,F,F,,203.2,95.3,1996-03-03,US,6,"Pitt, UNC"
+2026,den,jokicni01,Nikola Jokić,,C-F,C,F,210.8,128.8,1995-02-19,RS,10,
+2026,den,jonescu01,Curtis Jones,TW,G,G,,195.6,,2001-12-04,US,0,"Indian Hills Community College, Buffalo, Iowa State"
+2026,den,jonessp01,Spencer Jones,TW,F,F,,200.7,102.1,2001-06-14,US,1,Stanford
+2026,den,murraja01,Jamal Murray,,G,G,,193.0,97.5,1997-02-23,CA,8,Kentucky
+2026,den,nnajize01,Zeke Nnaji,,F,F,,205.7,108.9,2001-01-09,US,5,Arizona
+2026,den,pickeja02,Jalen Pickett,,G,G,,193.0,94.8,1999-10-22,US,2,"Siena College, Penn State"
+2026,den,strawju01,Julian Strawther,,F,F,,200.7,93.0,2002-04-18,US,2,Gonzaga
+2026,den,tysonhu01,Hunter Tyson,,F,F,,203.2,97.5,2000-06-13,US,2,Clemson
+2026,den,valanjo01,Jonas Valančiūnas,,C,C,,210.8,120.2,1992-05-06,LT,13,
+2026,den,watsope01,Peyton Watson,,G-F,G,F,203.2,90.7,2002-09-11,US,3,UCLA
+2026,det,bediach01,Charles Bediako,,C,C,,213.4,102.1,2002-03-10,CA,0,Alabama
+2026,det,cunnica01,Cade Cunningham,,G,G,,198.1,99.8,2001-09-25,US,4,Oklahoma State
+2026,det,durenja01,Jalen Duren,,C,C,,208.3,113.4,2003-11-18,US,3,Memphis
+2026,det,garcida01,Dawson Garcia,,F,F,,210.8,,2001-09-20,US,0,"Marquette, UNC, Minnesota"
+2026,det,greenja02,Javonte Green,,F,F,,193.0,93.0,1993-07-23,US,6,Radford
+2026,det,harrito02,Tobias Harris,,F,F,,203.2,102.5,1992-07-15,US,14,Tennessee
+2026,det,hollaro01,Ron Holland,,F,F,,203.2,93.4,2005-07-07,US,1,
+2026,det,iveyja01,Jaden Ivey,,G,G,,193.0,88.5,2002-02-13,US,3,Purdue
+2026,det,jenkida01,Daniss Jenkins,TW,G,G,,190.5,74.8,2001-08-17,US,1,"University of the Pacific, Iona College, St. John's"
+2026,det,jonesco02,Colby Jones,TW,G,G,,198.1,93.0,2002-05-28,US,2,Xavier
+2026,det,klintbo01,Bobi Klintman,,F,F,,205.7,102.1,2003-03-06,SE,1,Wake Forest
+2026,det,laniech01,Chaz Lanier,,G,G,,193.0,,2001-12-19,US,0,"University of North Florida, Tennessee"
+2026,det,leverca01,Caris LeVert,,G-F,G,F,198.1,93.0,1994-08-25,US,9,Michigan
+2026,det,reedpa01,Paul Reed,,F,F,,205.7,95.3,1999-06-14,US,5,DePaul
+2026,det,robindu01,Duncan Robinson,,G-F,G,F,200.7,97.5,1994-04-22,US,7,"Williams, Michigan"
+2026,det,sassema01,Marcus Sasser,,G,G,,188.0,88.5,2000-09-21,US,2,Houston
+2026,det,smithto05,Tolu Smith,TW,F,F,,208.3,115.2,2000-07-26,US,1,"Western Kentucky, Mississippi State"
+2026,det,stewais01,Isaiah Stewart,,F-C,F,C,203.2,113.4,2001-05-22,US,5,Washington
+2026,det,thompau01,Ausar Thompson,,G,G,,200.7,97.5,2003-01-30,US,2,
+2026,det,willibr05,Brice Williams,,G,G,,200.7,,2001-07-05,US,0,"UNC Charlotte, Nebraska"
+2026,gsw,butleji01,Jimmy Butler,,F-G,F,G,200.7,104.3,1989-09-14,US,14,"Tyler Junior College, Marquette"
+2026,gsw,curryst01,Stephen Curry,,G,G,,188.0,83.9,1988-03-14,US,16,Davidson
+2026,gsw,greendr01,Draymond Green,,F,F,,198.1,104.3,1990-03-04,US,13,Michigan State
+2026,gsw,hieldbu01,Buddy Hield,,G-F,G,F,193.0,99.8,1992-12-17,BS,9,Oklahoma
+2026,gsw,jackstr02,Trayce Jackson-Davis,,F,F,,205.7,111.1,2000-02-22,US,2,Indiana
+2026,gsw,moodymo01,Moses Moody,,G,G,,195.6,93.0,2002-05-31,US,4,Arkansas
+2026,gsw,podzibr01,Brandin Podziemski,,G,G,,195.6,93.0,2003-02-25,US,2,"Illinois, Santa Clara"
+2026,gsw,postqu01,Quinten Post,,F,F,,213.4,108.0,2000-03-21,NL,1,"Mississippi State, Boston College"
+2026,gsw,roweja01,Jackson Rowe,TW,F,F,,200.7,95.3,1997-01-04,CA,1,Cal State Fullerton
+2026,gsw,santogu01,Gui Santos,,F,F,,203.2,94.8,2002-06-22,BR,2,
+2026,hou,adamsst01,Steven Adams,,C,C,,210.8,120.2,1993-07-20,NZ,11,Pitt
+2026,hou,capelca01,Clint Capela,,C,C,,208.3,108.9,1994-05-18,CH,11,
+2026,hou,crawfis01,Isaiah Crawford,TW,F,F,,198.1,99.8,2001-11-01,US,1,Louisiana Tech
+2026,hou,davisjd01,JD Davison,TW,G,G,,185.4,88.5,2002-10-03,US,3,Alabama
+2026,hou,duranke01,Kevin Durant,,F-G,F,G,210.8,108.9,1988-09-29,US,17,Texas
+2026,hou,easonta01,Tari Eason,,F,F,,203.2,98.0,2001-05-10,US,3,"Cincinnati, LSU"
+2026,hou,finnedo01,Dorian Finney-Smith,,F,F,,200.7,99.8,1993-05-04,US,9,Florida
+2026,hou,greenje02,Jeff Green,,F,F,,203.2,106.6,1986-08-28,US,17,Georgetown
+2026,hou,harrike01,Kevon Harris,TW,G,G,,195.6,98.0,1997-06-24,US,2,Stephen F. Austin
+2026,hou,holidaa01,Aaron Holiday,,G,G,,182.9,83.9,1996-09-30,US,7,UCLA
+2026,hou,matthca01,Cameron Matthews,,F,F,,200.7,,2001-12-23,US,0,Mississippi State
+2026,hou,okogijo01,Josh Okogie,,G,G,,193.0,96.6,1998-09-01,NG,7,Georgia Tech
+2026,hou,sengual01,Alperen Şengün,,C-F,C,F,210.8,106.6,2002-07-25,TR,4,
+2026,hou,sheppre01,Reed Sheppard,,G,G,,188.0,83.9,2004-06-24,US,1,Kentucky
+2026,hou,smithja05,Jabari Smith Jr.,,F,F,,210.8,99.8,2003-05-13,US,3,Auburn
+2026,hou,tateja01,Jae'Sean Tate,,F,F,,193.0,104.3,1995-10-28,US,5,Ohio State
+2026,hou,thompam01,Amen Thompson,,G,G,,200.7,94.8,2003-01-30,US,2,
+2026,hou,vanvlfr01,Fred VanVleet,,G,G,,182.9,89.4,1994-02-25,US,9,Wichita State
+2026,ind,bradlto01,Tony Bradley,,F-C,F,C,208.3,112.5,1998-01-08,US,7,UNC
+2026,ind,dennira01,RayJ Dennis,TW,G,G,,188.0,81.6,2001-03-30,US,1,"Boise State, Toledo, Baylor"
+2026,ind,furphjo01,Johnny Furphy,,G-F,G,F,203.2,90.7,2004-12-08,AU,1,Kansas
+2026,ind,halibty01,Tyrese Haliburton,,G,G,,195.6,83.9,2000-02-29,US,5,Iowa State
+2026,ind,huffja01,Jay Huff,,F-C,F,C,215.9,108.9,1998-08-25,US,4,Virginia
+2026,ind,jacksis01,Isaiah Jackson,,C-F,C,F,208.3,93.4,2002-01-10,US,4,Kentucky
+2026,ind,jacksqu01,Quenton Jackson,TW,G,G,,195.6,79.4,1998-09-15,US,3,Texas A&M
+2026,ind,johnssa01,Samson Johnson,,F,F,,208.3,,2002-07-28,TG,0,UConn
+2026,ind,joneska03,Kam Jones,,G,G,,193.0,,2002-02-25,US,0,Marquette
+2026,ind,mathube01,Bennedict Mathurin,,G-F,G,F,198.1,95.3,2002-06-19,CA,3,Arizona
+2026,ind,mccontj01,T.J. McConnell,,G,G,,185.4,86.2,1992-03-25,US,10,"Duquesne, Arizona"
+2026,ind,mcgloga01,Gabe McGlothan,,F,F,,200.7,106.6,1999-03-03,US,0,"SE Missouri State, Grand Canyon University"
+2026,ind,nembhan01,Andrew Nembhard,,G,G,,195.6,87.5,2000-01-16,CA,3,"Florida, Gonzaga"
+2026,ind,nesmiaa01,Aaron Nesmith,,G-F,G,F,195.6,97.5,1999-10-16,US,5,Vanderbilt
+2026,ind,peterta01,Taelon Peter,TW,G,G,,193.0,,2002-02-27,US,0,"Tennessee Technological University, Arkansas Tech University, Liberty"
+2026,ind,sheppbe01,Ben Sheppard,,G,G,,198.1,86.2,2001-07-16,US,2,Belmont
+2026,ind,siakapa01,Pascal Siakam,,F-C,F,C,203.2,104.3,1994-04-02,CM,9,New Mexico State
+2026,ind,slawsja01,Jalen Slawson,,F,F,,200.7,97.5,1999-10-22,US,1,Furman University
+2026,ind,toppiob01,Obi Toppin,,F,F,,205.7,99.8,1998-03-04,US,5,Dayton
+2026,ind,walkeja02,Jarace Walker,,F,F,,203.2,108.9,2003-09-04,US,2,Houston
+2026,ind,wisemja01,James Wiseman,,C,C,,213.4,108.9,2001-03-31,US,4,Memphis
+2026,lac,baldwpa01,Patrick Baldwin Jr.,,G-F,G,F,205.7,99.8,2002-11-18,US,3,UW-Milwaukee
+2026,lac,batumni01,Nicolas Batum,,F-G,F,G,203.2,104.3,1988-12-14,FR,17,
+2026,lac,bealbr01,Bradley Beal,,G,G,,193.0,93.9,1993-06-28,US,13,Florida
+2026,lac,bogdabo01,Bogdan Bogdanović,,G,G,,195.6,99.8,1992-08-18,RS,8,
+2026,lac,brownko01,Kobe Brown,,G-F,G,F,200.7,113.4,2000-01-01,US,2,Missouri
+2026,lac,chrisca02,Cam Christie,,G,G,,195.6,86.2,2005-07-24,US,1,Minnesota
+2026,lac,collijo01,John Collins,,F,F,,205.7,106.6,1997-09-23,US,8,Wake Forest
+2026,lac,dunnkr01,Kris Dunn,,G,G,,190.5,93.0,1994-03-18,US,9,Providence
+2026,lac,flowetr01,Trentyn Flowers,TW,G-F,G,F,200.7,83.9,2005-03-08,US,1,
+2026,lac,freemza01,Zach Freemantle,,F-C,F,C,205.7,,2000-10-18,US,0,Xavier
+2026,lac,hardeja01,James Harden,,G,G,,195.6,99.8,1989-08-26,US,16,Arizona State
+2026,lac,jonesde02,Derrick Jones Jr.,,F,F,,195.6,95.3,1997-02-15,US,9,UNLV
+2026,lac,konanya01,Yanic Konan Niederhauser,,F,F,,208.3,,2003-03-14,CH,0,"Northern Illinois, Penn State"
+2026,lac,leonaka01,Kawhi Leonard,,F,F,,200.7,102.1,1991-06-29,US,13,San Diego State
+2026,lac,lopezbr01,Brook Lopez,,C,C,,215.9,127.9,1988-04-01,US,17,Stanford
+2026,lac,millejo02,Jordan Miller,TW,G,G,,200.7,88.5,2000-01-23,US,2,"George Mason, Miami (FL)"
+2026,lac,paulch01,Chris Paul,,G,G,,182.9,79.4,1985-05-06,US,20,Wake Forest
+2026,lac,prestja01,Jason Preston,,G,G,,193.0,84.8,1999-08-10,US,2,Ohio University
+2026,lac,sandeko01,Kobe Sanders,TW,G,G,,198.1,,2002-05-30,US,0,"Cal Poly, Nevada"
+2026,lac,washity02,TyTy Washington Jr.,,G,G,,190.5,89.4,2001-11-15,US,3,Kentucky
+2026,lac,zubaciv01,Ivica Zubac,,C,C,,213.4,108.9,1997-03-18,BA,9,
+2026,lal,aytonde01,Deandre Ayton,,C,C,,213.4,113.4,1998-07-23,BS,7,Arizona
+2026,lal,davisrj01,RJ Davis,,G,G,,182.9,,2001-10-21,US,0,UNC
+2026,lal,dixoner01,Eric Dixon,,F,F,,203.2,,2001-01-26,US,0,Villanova
+2026,lal,doncilu01,Luka Dončić,,G-F,G,F,198.1,104.3,1999-02-28,SI,7,
+2026,lal,hachiru01,Rui Hachimura,,F,F,,203.2,104.3,1998-02-08,JP,6,Gonzaga
+2026,lal,hayesja02,Jaxson Hayes,,F,F,,213.4,99.8,2000-05-23,US,6,Texas
+2026,lal,jamesbr02,Bronny James,,G,G,,188.0,95.3,2004-10-06,US,1,USC
+2026,lal,jamesle01,LeBron James,,F-G,F,G,205.7,113.4,1984-12-30,US,22,
+2026,lal,kalumar01,Arthur Kaluma,,F,F,,200.7,,2002-03-01,US,0,"Creighton, Kansas State, Texas"
+2026,lal,kelleky01,Kylor Kelley,,F,F,,213.4,97.5,1997-08-26,US,1,Oregon State
+2026,lal,klebima01,Maxi Kleber,,F,F,,208.3,108.9,1992-01-29,DE,8,
+2026,lal,knechda01,Dalton Knecht,,G,G,,198.1,97.5,2001-04-19,US,1,"Northeastern Junior College, University of Northern Colorado, Tennessee"
+2026,lal,kolokch01,Christian Koloko,TW,C,C,,215.9,104.3,2000-06-20,CM,2,Arizona
+2026,lal,laravja01,Jake LaRavia,,F,F,,203.2,106.6,2001-11-03,US,3,"Indiana State University, Wake Forest"
+2026,lal,manonch01,Chris Mañon,TW,G,G,,195.6,,2001-12-09,US,0,"Cornell, Vanderbilt"
+2026,lal,marciau01,Augustas Marčiulionis,,G,G,,193.0,,2002-03-21,LT,0,Saint Mary's
+2026,lal,reaveau01,Austin Reaves,,G,G,,195.6,93.4,1998-05-29,US,4,"Wichita State, Oklahoma"
+2026,lal,smartma01,Marcus Smart,,G,G,,190.5,99.8,1994-03-06,US,11,Oklahoma State
+2026,lal,thierad01,Adou Thiero,,G-F,G,F,198.1,,2004-05-08,US,0,"Kentucky, Arkansas"
+2026,lal,vandeja01,Jarred Vanderbilt,,F,F,,203.2,97.1,1999-04-03,US,7,Kentucky
+2026,lal,vincega01,Gabe Vincent,,G,G,,190.5,88.5,1996-06-14,US,6,UC Santa Barbara
+2026,mem,aldamsa01,Santi Aldama,,F,F,,210.8,101.6,2001-01-10,ES,4,Loyola (MD)
+2026,mem,burtoty01,Tyler Burton,,F,F,,200.7,,2000-02-11,US,0,"Richmond, Villanova"
+2026,mem,caldwke01,Kentavious Caldwell-Pope,,G,G,,195.6,92.5,1993-02-18,US,12,Georgia
+2026,mem,clarkbr01,Brandon Clarke,,F,F,,203.2,97.5,1996-09-19,CA,6,"San Jose State, Gonzaga"
+2026,mem,cowarce01,Cedric Coward,,F-G,F,G,198.1,,2003-09-11,US,0,"Willamette University, Eastern Washington, Washington State"
+2026,mem,edeyza01,Zach Edey,,C,C,,223.5,138.3,2002-05-14,CA,1,Purdue
+2026,mem,hallpj01,PJ Hall,TW,F,F,,203.2,111.1,2002-02-21,US,1,Clemson
+2026,mem,jacksgg01,GG Jackson II,,F,F,,205.7,97.5,2004-12-17,US,2,South Carolina
+2026,mem,jacksja02,Jaren Jackson Jr.,,F,F,,208.3,109.8,1999-09-15,US,7,Michigan State
+2026,mem,jeromty01,Ty Jerome,,G,G,,195.6,88.5,1997-07-08,US,6,Virginia
+2026,mem,keybr01,Braxton Key,,F,F,,203.2,104.3,1997-02-14,US,4,"Alabama, Virginia"
+2026,mem,konchjo01,John Konchar,,G,G,,195.6,95.3,1996-03-22,US,6,Purdue-Fort Wayne
+2026,mem,landajo01,Jock Landale,,C,C,,210.8,116.1,1995-10-25,AU,4,Saint Mary's
+2026,mem,loverla01,Lawson Lovering,,C,C,,215.9,,2003-05-09,US,0,"Colorado, Utah"
+2026,mem,moranja01,Ja Morant,,G,G,,188.0,78.9,1999-08-10,US,6,Murray State
+2026,mem,pippesc02,Scotty Pippen Jr.,,G,G,,185.4,83.9,2000-11-10,US,3,Vanderbilt
+2026,mem,prospol01,Olivier-Maxence Prosper,TW,F,F,,203.2,104.3,2002-07-03,CA,2,"Clemson, Marquette"
+2026,mem,smallja01,Javon Small,TW,G,G,,188.0,,2002-12-19,US,0,"East Carolina University, Oklahoma State, West Virginia"
+2026,mem,spencca01,Cam Spencer,,G,G,,190.5,93.0,2000-04-06,US,1,"Loyola (MD), Rutgers University, UConn"
+2026,mem,wellsja01,Jaylen Wells,,F,F,,200.7,93.4,2003-08-26,US,1,"Sonoma State University, Washington State"
+2026,mem,willivi01,Vince Williams Jr.,,F,F,,193.0,93.0,2000-08-30,US,3,VCU
+2026,mia,adebaba01,Bam Adebayo,,C-F,C,F,205.7,115.7,1997-07-18,US,8,Kentucky
+2026,mia,dainjda01,Dain Dainja,,F,F,,205.7,,2002-07-16,US,0,"Baylor, Illinois, Memphis"
+2026,mia,fontesi01,Simone Fontecchio,,F,F,,203.2,94.8,1995-12-09,IT,3,
+2026,mia,gardnmy01,Myron Gardner,TW,G,G,,198.1,99.8,2001-05-21,US,0,"South Plains College, Georgetown, Little Rock"
+2026,mia,goldivl01,Vladislav Goldin,TW,F-C,F,C,215.9,,2001-05-12,RU,0,"Texas Tech, Florida Atlantic University, Michigan"
+2026,mia,herroty01,Tyler Herro,,G,G,,195.6,88.5,2000-01-20,US,6,Kentucky
+2026,mia,jakucka01,Kasparas Jakucionis,,G,G,,198.1,,2006-05-29,LT,0,Illinois
+2026,mia,jaqueja01,Jaime Jaquez Jr.,,G-F,G,F,198.1,102.1,2001-02-18,US,2,UCLA
+2026,mia,johnske10,Keshad Johnson,,F,F,,198.1,102.1,2001-06-23,US,1,"San Diego State, Arizona"
+2026,mia,jovicni01,Nikola Jović,,G-F,G,F,208.3,94.8,2003-06-09,GB,3,
+2026,mia,keelstr01,Trevor Keels,,G,G,,195.6,100.2,2003-08-26,US,1,Duke
+2026,mia,larsspe01,Pelle Larsson,,G,G,,195.6,97.5,2001-02-23,SE,1,"Utah, Arizona"
+2026,mia,mitchda01,Davion Mitchell,,G,G,,188.0,93.0,1998-09-05,US,4,"Auburn, Baylor"
+2026,mia,powelno01,Norman Powell,,G,G,,190.5,97.5,1993-05-25,US,10,UCLA
+2026,mia,roziete01,Terry Rozier,,G,G,,185.4,86.2,1994-03-17,US,10,Louisville
+2026,mia,smithdr01,Dru Smith,,G,G,,190.5,92.1,1997-12-30,US,3,"University of Evansville, Missouri"
+2026,mia,thompet01,Ethan Thompson,,G,G,,195.6,88.5,1999-05-04,US,0,Oregon State
+2026,mia,wareke01,Kel'el Ware,,C,C,,213.4,104.3,2004-04-20,US,1,"Oregon, Indiana"
+2026,mia,wiggian01,Andrew Wiggins,,F-G,F,G,200.7,89.4,1995-02-23,CA,11,Kansas
+2026,mia,youngja05,Jahmir Young,,G,G,,188.0,83.9,2000-10-07,US,1,"UNC Charlotte, Maryland"
+2026,mil,antetgi01,Giannis Antetokounmpo,,F-G,F,G,210.8,109.8,1994-12-06,GR,12,
+2026,mil,antetth01,Thanasis Antetokounmpo,,F,F,,200.7,99.3,1992-07-18,GR,6,
+2026,mil,anthoco01,Cole Anthony,,G,G,,188.0,83.9,2000-05-15,US,5,UNC
+2026,mil,bouyeja01,Jamaree Bouyea,TW,G,G,,188.0,81.6,1999-06-27,US,3,San Francisco
+2026,mil,coffeam01,Amir Coffey,,G,G,,200.7,95.3,1997-06-17,US,6,Minnesota
+2026,mil,greenaj01,A.J. Green,,G,G,,193.0,90.7,1999-09-27,US,3,University of Northern Iowa
+2026,mil,harriga01,Gary Harris,,G,G,,193.0,95.3,1994-09-14,US,11,Michigan State
+2026,mil,jacksan01,Andre Jackson Jr.,,G,G,,198.1,95.3,2001-11-13,US,2,UConn
+2026,mil,kuzmaky01,Kyle Kuzma,,F,F,,205.7,100.2,1995-07-24,US,8,Utah
+2026,mil,livinch01,Chris Livingston,,F,F,,198.1,99.8,2003-10-15,US,2,Kentucky
+2026,mil,nancepe01,Pete Nance,TW,F,F,,210.8,104.3,2000-02-19,US,2,"Northwestern, UNC"
+2026,mil,porteke02,Kevin Porter Jr.,,G,G,,193.0,92.1,2000-05-04,US,5,USC
+2026,mil,portibo01,Bobby Portis,,F,F,,208.3,113.4,1995-02-10,US,10,Arkansas
+2026,mil,princta02,Taurean Prince,,F,F,,198.1,98.9,1994-03-22,US,9,Baylor
+2026,mil,rolliry01,Ryan Rollins,,G,G,,193.0,81.6,2002-07-03,US,3,Toledo
+2026,mil,ryanco01,Cormac Ryan,,G,G,,195.6,88.5,1998-10-26,US,0,"Stanford, Notre Dame, UNC"
+2026,mil,searsma01,Mark Sears,TW,G,G,,185.4,,2002-02-19,US,0,"Ohio University, Alabama"
+2026,mil,simsje01,Jericho Sims,,F,F,,208.3,111.1,1998-10-20,US,4,Texas
+2026,mil,smithty02,Tyler Smith,,F,F,,210.8,101.6,2004-11-02,US,1,
+2026,mil,trentga02,Gary Trent Jr.,,G,G,,195.6,94.8,1999-01-18,US,7,Duke
+2026,mil,turnemy01,Myles Turner,,C-F,C,F,210.8,113.4,1996-03-24,US,10,Texas
+2026,min,berinjo01,Joan Beringer,,C,C,,208.3,,2006-11-06,FR,0,
+2026,min,clarkja02,Jaylen Clark,,G,G,,195.6,93.0,2001-10-13,US,1,UCLA
+2026,min,conlemi01,Mike Conley,,G,G,,182.9,79.4,1987-10-11,US,18,Ohio State
+2026,min,dilliro01,Rob Dillingham,,G,G,,185.4,79.8,2005-01-04,US,1,Kentucky
+2026,min,divindo01,Donte DiVincenzo,,G,G,,193.0,92.1,1997-01-31,US,7,Villanova
+2026,min,edwaran01,Anthony Edwards,,G-F,G,F,193.0,102.1,2001-08-05,US,5,Georgia
+2026,min,freemen01,Enrique Freeman,TW,F,F,,200.7,93.4,2000-07-29,US,1,University of Akron
+2026,min,goberru01,Rudy Gobert,,C,C,,215.9,117.0,1992-06-26,FR,12,
+2026,min,hylanbo01,Bones Hyland,,G,G,,188.0,78.5,2000-09-14,US,4,VCU
+2026,min,inglejo01,Joe Ingles,,F-G,F,G,203.2,99.8,1987-10-02,AU,11,
+2026,min,juzanjo01,Johnny Juzang,,G,G,,200.7,97.5,2001-03-17,US,3,"Kentucky, UCLA"
+2026,min,mcdanja02,Jaden McDaniels,,F,F,,205.7,83.9,2000-09-29,US,5,Washington
+2026,min,millele01,Leonard Miller,,F,F,,208.3,95.3,2003-11-26,CA,2,
+2026,min,newtotr01,Tristen Newton,TW,G,G,,195.6,86.2,2001-04-26,US,1,"East Carolina University, UConn"
+2026,min,randlju01,Julius Randle,,F-C,F,C,205.7,113.4,1994-11-29,US,11,Kentucky
+2026,min,reidna01,Naz Reid,,F,F,,205.7,119.7,1999-08-26,US,6,LSU
+2026,min,santona01,Nate Santos,,F,F,,200.7,,2001-11-09,US,0,"Pitt, Dayton"
+2026,min,shannte01,Terrence Shannon Jr.,,G,G,,198.1,97.5,2000-07-30,US,1,"Texas Tech, Illinois"
+2026,min,zikarro01,Rocco Zikarsky,TW,C,C,,218.4,,2006-07-11,AU,0,
+2026,nop,alexatr01,Trey Alexander,TW,G,G,,193.0,83.9,2003-05-02,US,1,Creighton
+2026,nop,alvarjo01,Jose Alvarado,,G,G,,182.9,81.2,1998-04-12,US,4,Georgia Tech
+2026,nop,beysa01,Saddiq Bey,,F,F,,200.7,97.5,1999-04-09,US,4,Villanova
+2026,nop,brookga01,Garrison Brooks,,F,F,,205.7,104.3,1999-06-26,US,0,"UNC, Mississippi State"
+2026,nop,dickihu01,Hunter Dickinson,TW,C,C,,218.4,,2000-11-25,US,0,"Michigan, Kansas"
+2026,nop,fearsje01,Jeremiah Fears,,G,G,,193.0,,2006-10-14,US,0,Oklahoma
+2026,nop,hawkijo01,Jordan Hawkins,,G,G,,195.6,88.5,2002-04-29,US,2,UConn
+2026,nop,joneshe01,Herbert Jones,,F,F,,203.2,95.3,1998-10-06,US,4,Alabama
+2026,nop,looneke01,Kevon Looney,,F-C,F,C,205.7,100.7,1996-02-06,US,10,UCLA
+2026,nop,matkoka01,Karlo Matković,,F-C,F,C,210.8,104.8,2001-03-30,BA,1,
+2026,nop,mcdanja01,Jalen McDaniels,,F,F,,205.7,93.0,1998-01-31,US,6,San Diego State
+2026,nop,mcgowbr01,Bryce McGowens,TW,G-F,G,F,200.7,81.2,2002-11-08,US,3,Nebraska
+2026,nop,missiyv01,Yves Missi,,C,C,,210.8,106.6,2004-05-14,BE,1,Baylor
+2026,nop,murphtr02,Trey Murphy III,,F,F,,203.2,93.4,2000-06-18,US,4,"Rice University, Virginia"
+2026,nop,murrade01,Dejounte Murray,,G,G,,195.6,81.6,1996-09-19,US,8,Washington
+2026,nop,peavymi01,Micah Peavy,,G,G,,200.7,,2001-07-16,US,0,"Texas Tech, TCU, Georgetown"
+2026,nop,poolejo01,Jordan Poole,,G,G,,193.0,88.0,1999-06-19,US,6,Michigan
+2026,nop,queende01,Derik Queen,,F-C,F,C,208.3,,2004-12-27,US,0,Maryland
+2026,nop,shumach01,Christian Shumate,,G-F,G,F,198.1,,2002-07-24,US,0,"Tulsa, McNeese State University"
+2026,nop,sprinja01,Jaden Springer,,G,G,,193.0,92.5,2002-09-25,US,4,Tennessee
+2026,nop,willizi01,Zion Williamson,,F-C,F,C,198.1,128.8,2000-07-06,US,5,Duke
+2026,nyk,anunoog01,OG Anunoby,,F,F,,200.7,105.2,1997-07-17,GB,8,Indiana
+2026,nyk,bridgmi01,Mikal Bridges,,F-G,F,G,198.1,94.8,1996-08-30,US,7,Villanova
+2026,nyk,brogdma01,Malcolm Brogdon,,G,G,,193.0,103.9,1992-12-11,US,9,Virginia
+2026,nyk,brunsja01,Jalen Brunson,,G,G,,188.0,86.2,1996-08-31,US,7,Villanova
+2026,nyk,clarkjo01,Jordan Clarkson,,G,G,,190.5,88.0,1992-06-07,US,11,"Tulsa, Missouri"
+2026,nyk,dadiepa01,Pacome Dadiet,,F,F,,200.7,95.3,2005-07-27,FR,1,
+2026,nyk,diawamo01,Mohamed Diawara,,F-C,F,C,205.7,,2005-04-29,FR,0,
+2026,nyk,evbuoto01,Tosan Evbuomwan,TW,F,F,,203.2,99.3,2001-02-16,UK,2,Princeton
+2026,nyk,hartjo01,Josh Hart,,G,G,,193.0,97.5,1995-03-06,US,8,Villanova
+2026,nyk,hukpoar01,Ariel Hukporti,,C,C,,213.4,111.6,2002-04-11,DE,1,
+2026,nyk,jemistr01,Trey Jemison,TW,C,C,,210.8,117.9,1999-11-28,US,2,"Clemson, UAB"
+2026,nyk,kolekty01,Tyler Kolek,,G,G,,185.4,88.5,2001-03-27,US,1,"George Mason, Marquette"
+2026,nyk,lenal01,Alex Len,,C,C,,213.4,113.4,1993-06-16,UA,12,Maryland
+2026,nyk,mathega01,Garrison Mathews,,G,G,,195.6,97.5,1996-10-24,US,6,Lipscomb
+2026,nyk,mcbrimi01,Miles McBride,,G,G,,188.0,90.7,2000-09-08,US,4,West Virginia
+2026,nyk,mcculke01,Kevin McCullar Jr.,TW,G,G,,198.1,95.3,2001-03-15,US,1,"Texas Tech, Kansas"
+2026,nyk,robinmi01,Mitchell Robinson,,C,C,,213.4,108.9,1998-04-01,US,7,Western Kentucky
+2026,nyk,ryanma01,Matt Ryan,,F,F,,198.1,97.5,1997-04-17,US,4,"Notre Dame, Vanderbilt, Chattanooga"
+2026,nyk,shamela01,Landry Shamet,,G,G,,193.0,86.2,1997-03-13,US,7,Wichita State
+2026,nyk,townska01,Karl-Anthony Towns,,C-F,C,F,213.4,112.5,1995-11-15,US,10,Kentucky
+2026,nyk,tuckepj01,P.J. Tucker,,F,F,,195.6,111.1,1985-05-05,US,14,Texas
+2026,nyk,yabusgu01,Guerschon Yabusele,,F-C,F,C,203.2,117.9,1995-12-17,FR,3,
+2026,okc,barnhbr01,Brooks Barnhizer,TW,G,G,,198.1,,2002-03-02,US,0,Northwestern
+2026,okc,carlsbr01,Branden Carlson,TW,C,C,,213.4,99.8,1999-06-14,US,1,Utah
+2026,okc,carusal01,Alex Caruso,,G,G,,195.6,84.4,1994-02-28,US,8,Texas A&M
+2026,okc,diengou01,Ousmane Dieng,,F,F,,208.3,100.7,2003-05-21,FR,3,
+2026,okc,dortlu01,Luguentz Dort,,G,G,,193.0,99.8,1999-04-19,CA,6,Arizona State
+2026,okc,gilgesh01,Shai Gilgeous-Alexander,,G,G,,198.1,90.7,1998-07-12,CA,7,Kentucky
+2026,okc,harteis01,Isaiah Hartenstein,,F,F,,213.4,115.7,1998-05-05,US,7,
+2026,okc,holmgch01,Chet Holmgren,,F-C,F,C,215.9,96.6,2002-05-01,US,2,Gonzaga
+2026,okc,joeis01,Isaiah Joe,,G,G,,195.6,82.1,1999-07-02,US,5,Arkansas
+2026,okc,leonsma01,Malevy Leons,,F,F,,205.7,93.0,1999-09-23,NL,1,"Mineral Area College, Bradley"
+2026,okc,mitchaj01,Ajay Mitchell,,G,G,,195.6,90.7,2002-06-25,BE,1,UC Santa Barbara
+2026,okc,sorbeth01,Thomas Sorber,,F,F,,208.3,,2005-12-25,US,0,Georgetown
+2026,okc,topicni01,Nikola Topić,,G,G,,198.1,91.2,2005-08-10,RS,0,
+2026,okc,wallaca01,Cason Wallace,,G,G,,193.0,93.0,2003-11-07,US,2,Kentucky
+2026,okc,wiggiaa01,Aaron Wiggins,,G,G,,198.1,90.7,1999-01-02,US,4,Maryland
+2026,okc,willija06,Jalen Williams,,G,G,,198.1,99.8,2001-04-14,US,3,Santa Clara
+2026,okc,willija07,Jaylin Williams,,F,F,,203.2,113.4,2002-06-29,US,3,Arkansas
+2026,okc,willike04,Kenrich Williams,,G-F,G,F,200.7,95.3,1994-12-02,US,7,TCU
+2026,orl,banchpa01,Paolo Banchero,,F,F,,208.3,113.4,2002-11-12,US,3,Duke
+2026,orl,banede01,Desmond Bane,,G,G,,195.6,97.5,1998-06-25,US,5,TCU
+2026,orl,beekmre01,Reece Beekman,,G,G,,185.4,86.2,2001-10-08,US,1,Virginia
+2026,orl,bitadgo01,Goga Bitadze,,C,C,,210.8,113.4,1999-07-20,GE,6,
+2026,orl,blackan01,Anthony Black,,G,G,,200.7,89.8,2004-01-20,US,2,Arkansas
+2026,orl,cainja01,Jamal Cain,TW,F,F,,200.7,86.6,1999-03-20,US,3,"Marquette, Oakland"
+2026,orl,cartewe01,Wendell Carter Jr.,,C,C,,208.3,122.5,1999-04-16,US,7,Duke
+2026,orl,castlco01,Colin Castleton,,F,F,,210.8,113.4,2000-05-25,US,2,"Michigan, Florida"
+2026,orl,dasiltr01,Tristan Da Silva,,F,F,,203.2,98.4,2001-05-15,DE,1,Colorado
+2026,orl,howarje01,Jett Howard,,G,G,,203.2,97.5,2003-09-14,US,2,Michigan
+2026,orl,isaacjo01,Jonathan Isaac,,F,F,,208.3,104.3,1997-10-03,US,6,Florida State
+2026,orl,jonesty01,Tyus Jones,,G,G,,185.4,88.9,1996-05-10,US,10,Duke
+2026,orl,minayju01,Justin Minaya,,F,F,,195.6,95.3,1999-03-26,US,3,
+2026,orl,pendano01,Noah Penda,,G-F,G,F,198.1,,2005-01-07,FR,0,
+2026,orl,quinole01,Lester Quiñones,,G,G,,195.6,94.3,2000-11-16,US,3,Memphis
+2026,orl,richaja02,Jase Richardson,,G,G,,190.5,,2005-10-16,US,0,Michigan State
+2026,orl,robinor01,Orlando Robinson,TW,F,F,,213.4,106.6,2000-07-10,US,3,Fresno State
+2026,orl,suggsja01,Jalen Suggs,,G,G,,195.6,93.0,2001-06-03,US,4,Gonzaga
+2026,orl,wagnefr01,Franz Wagner,,G-F,G,F,208.3,102.1,2001-08-27,DE,4,Michigan
+2026,orl,wagnemo01,Moritz Wagner,,F-C,F,C,210.8,111.1,1997-04-26,DE,7,Michigan
+2026,phi,barlodo01,Dominick Barlow,TW,F,F,,205.7,100.2,2003-05-26,US,3,
+2026,phi,batesem01,Emoni Bates,,G,G,,208.3,77.1,2004-01-28,US,2,"Memphis, Eastern Michigan"
+2026,phi,bonaad01,Adem Bona,,F-C,F,C,208.3,106.6,2003-03-28,NG,1,UCLA
+2026,phi,broomjo01,Johni Broome,,F,F,,208.3,,2002-07-19,US,0,"Morehead State University, Auburn"
+2026,phi,chandke01,Kennedy Chandler,,G,G,,182.9,77.6,2002-09-16,US,1,Tennessee
+2026,phi,drumman01,Andre Drummond,,C,C,,210.8,126.6,1993-08-10,US,13,UConn
+2026,phi,edgecvj01,VJ Edgecombe,,G,G,,195.6,,2005-07-30,BS,0,Baylor
+2026,phi,edwarju01,Justin Edwards,,G,G,,198.1,92.1,2003-12-16,US,1,Kentucky
+2026,phi,embiijo01,Joel Embiid,,C,C,,213.4,127.0,1994-03-16,CM,9,Kansas
+2026,phi,georgpa01,Paul George,,F-G,F,G,203.2,99.8,1990-05-02,US,15,Fresno State
+2026,phi,gordoer01,Eric Gordon,,G-F,G,F,190.5,97.5,1988-12-25,US,17,Indiana
+2026,phi,hillma01,Malcolm Hill,,F,F,,198.1,99.8,1995-10-26,US,2,Illinois
+2026,phi,lowryky01,Kyle Lowry,,G,G,,182.9,88.9,1986-03-25,US,19,Villanova
+2026,phi,maxeyty01,Tyrese Maxey,,G,G,,188.0,90.7,2000-11-04,US,5,Kentucky
+2026,phi,mccaija01,Jared McCain,,G,G,,188.0,88.5,2004-02-20,US,1,Duke
+2026,phi,milicig01,Igor Milicic,,G,G,,208.3,,2002-08-27,HR,0,"Virginia, UNC Charlotte, Tennessee"
+2026,phi,oubreke01,Kelly Oubre Jr.,,F,F,,203.2,92.1,1995-12-09,US,10,Kansas
+2026,phi,sallihu01,Hunter Sallis,TW,G,G,,195.6,,2003-03-26,US,0,"Gonzaga, Wake Forest"
+2026,phi,walkeja01,Jabari Walker,TW,F,F,,205.7,97.5,2002-07-30,US,3,Colorado
+2026,phi,walkelo01,Lonnie Walker IV,,G,G,,193.0,92.5,1998-12-14,US,7,Miami (FL)
+2026,phi,watfotr01,Trendon Watford,,F,F,,205.7,108.9,2000-11-09,US,4,LSU
+2026,pho,allengr01,Grayson Allen,,G,G,,193.0,89.8,1995-10-08,US,7,Duke
+2026,pho,baughda01,Damion Baugh,,G,G,,193.0,88.0,2000-08-03,US,1,"Memphis, TCU"
+2026,pho,bookede01,Devin Booker,,G,G,,198.1,93.4,1996-10-30,US,10,Kentucky
+2026,pho,breako01,Koby Brea,TW,G,G,,198.1,,2002-11-06,US,0,"Dayton, Kentucky"
+2026,pho,brookdi01,Dillon Brooks,,F-G,F,G,198.1,102.1,1996-01-22,CA,8,Oregon
+2026,pho,butleja02,Jared Butler,,G,G,,190.5,88.5,2000-08-25,US,4,Baylor
+2026,pho,dukeda01,David Duke Jr.,,G,G,,195.6,93.0,1999-10-13,US,4,Providence
+2026,pho,dunnry01,Ryan Dunn,,F,F,,198.1,98.0,2003-01-07,US,1,Virginia
+2026,pho,flemira01,Rasheer Fleming,,F,F,,205.7,,2004-07-10,US,0,Saint Joseph's
+2026,pho,gilleco01,Collin Gillespie,,G,G,,185.4,88.5,1999-06-25,US,2,Villanova
+2026,pho,goodwjo01,Jordan Goodwin,,G,G,,190.5,90.7,1998-10-23,US,4,Saint Louis
+2026,pho,greenja05,Jalen Green,,G,G,,193.0,80.7,2002-02-09,US,4,
+2026,pho,hayesni01,Nigel Hayes-Davis,,F,F,,203.2,115.2,1994-12-16,US,1,Wisconsin
+2026,pho,huntlcj01,CJ Huntley,TW,F,F,,210.8,,2002-01-06,US,0,Appalachian State University
+2026,pho,ighodos01,Oso Ighodaro,,F,F,,208.3,106.6,2002-07-14,US,1,Marquette
+2026,pho,liveris01,Isaiah Livers,TW,F,F,,200.7,104.3,1998-07-28,US,3,Michigan
+2026,pho,maluakh01,Khaman Maluach,,C,C,,218.4,,2006-09-14,SS,0,Duke
+2026,pho,onealro01,Royce O'Neale,,F,F,,193.0,102.5,1993-06-05,US,8,"Denver, Baylor"
+2026,pho,richani01,Nick Richards,,F-C,F,C,213.4,111.1,1997-11-29,JM,5,Kentucky
+2026,pho,samuety01,Tyrese Samuel,,F,F,,208.3,112.0,2000-03-10,CA,0,"Seton Hall, Florida"
+2026,pho,willima07,Mark Williams,,C,C,,213.4,109.3,2001-12-16,US,3,Duke
+2026,por,avdijde01,Deni Avdija,,G-F,G,F,205.7,95.3,2001-01-03,IL,5,
+2026,por,camarto01,Toumani Camara,,F,F,,203.2,99.8,2000-05-08,BE,2,Dayton
+2026,por,cissosi01,Sidy Cissoko,TW,G,G,,203.2,90.7,2004-04-02,FR,2,
+2026,por,clingdo01,Donovan Clingan,,C,C,,218.4,127.0,2004-02-23,US,1,UConn
+2026,por,grantje01,Jerami Grant,,F,F,,200.7,95.3,1994-03-12,US,11,Syracuse
+2026,por,hendesc01,Scoot Henderson,,G,G,,190.5,91.6,2004-02-03,US,2,
+2026,por,holidjr01,Jrue Holiday,,G,G,,193.0,93.0,1990-06-12,US,16,UCLA
+2026,por,lillada01,Damian Lillard,,G,G,,188.0,88.5,1990-07-15,US,13,Weber State
+2026,por,loveca01,Caleb Love,TW,G,G,,193.0,,2001-09-27,US,0,"UNC, Arizona"
+2026,por,murrakr01,Kris Murray,,F,F,,203.2,99.8,2000-08-19,US,2,Iowa
+2026,por,reathdu01,Duop Reath,,C,C,,210.8,111.1,1996-06-26,SS,2,"Lee College, LSU"
+2026,por,ruperra01,Rayan Rupert,,G,G,,198.1,93.0,2004-05-31,FR,2,
+2026,por,sharpsh01,Shaedon Sharpe,,G,G,,198.1,90.7,2003-05-30,CA,3,Kentucky
+2026,por,thybuma01,Matisse Thybulle,,G,G,,195.6,91.2,1997-03-04,US,6,Washington
+2026,por,weslebl01,Blake Wesley,,G,G,,195.6,83.9,2003-03-16,US,3,Notre Dame
+2026,por,williro04,Robert Williams,,C-F,C,F,205.7,107.5,1997-10-17,US,7,Texas A&M
+2026,por,yangha01,Yang Hansen,,C,C,,215.9,,2005-06-26,CN,0,
+2026,sac,cardwdy01,Dylan Cardwell,TW,C,C,,210.8,,2001-12-16,US,0,Auburn
+2026,sac,cartede02,Devin Carter,,G,G,,188.0,88.5,2002-03-18,US,1,"South Carolina, Providence"
+2026,sac,cliffni01,Nique Clifford,,G,G,,195.6,,2002-02-09,US,0,"Colorado, Colorado State"
+2026,sac,daviste02,Terence Davis,,G,G,,193.0,91.2,1997-05-16,US,5,Ole Miss
+2026,sac,derozde01,DeMar DeRozan,,G-F,G,F,198.1,99.8,1989-08-07,US,16,USC
+2026,sac,elliske01,Keon Ellis,,G,G,,198.1,79.4,2000-01-08,US,3,"Florida SouthWestern State College, Alabama"
+2026,sac,eubandr01,Drew Eubanks,,F,F,,205.7,111.1,1997-02-01,US,7,Oregon State
+2026,sac,jonesis01,Isaac Jones,,F,F,,203.2,111.1,2000-07-11,US,1,"Wenatchee Valley College, Idaho, Washington State"
+2026,sac,lavinza01,Zach LaVine,,G-F,G,F,195.6,90.7,1995-03-10,US,11,UCLA
+2026,sac,mcderdo01,Doug McDermott,,F,F,,198.1,102.1,1992-01-03,US,11,Creighton
+2026,sac,monkma01,Malik Monk,,G,G,,190.5,90.7,1998-02-04,US,8,Kentucky
+2026,sac,murrake02,Keegan Murray,,F,F,,203.2,97.5,2000-08-19,US,3,Iowa
+2026,sac,plowdda01,Daeqwon Plowden,TW,G,G,,198.1,97.5,1998-08-29,US,1,Bowling Green
+2026,sac,raynama01,Maxime Raynaud,,F,F,,215.9,,2003-04-07,FR,0,Stanford
+2026,sac,sabondo01,Domantas Sabonis,,C-F,C,F,208.3,108.9,1996-05-03,US,9,Gonzaga
+2026,sac,saricda01,Dario Šarić,,F-C,F,C,208.3,102.1,1994-04-08,HR,8,
+2026,sac,schrode01,Dennis Schröder,,G,G,,185.4,78.0,1993-09-15,DE,12,
+2026,sac,steveis01,Isaiah Stevens,TW,G,G,,182.9,83.9,2000-11-01,US,1,Colorado State
+2026,sas,barneha02,Harrison Barnes,,F,F,,203.2,102.1,1992-05-30,US,13,UNC
+2026,sas,biyombi01,Bismack Biyombo,,C-F,C,F,203.2,115.7,1992-08-28,CD,14,
+2026,sas,bryanca01,Carter Bryant,,G-F,G,F,203.2,,2005-11-26,US,0,Arizona
+2026,sas,castlst01,Stephon Castle,,G,G,,198.1,97.5,2004-11-01,US,1,UConn
+2026,sas,champju02,Julian Champagnie,,F,F,,203.2,99.8,2001-06-29,US,3,St. John's
+2026,sas,flaglad01,Adam Flagler,,G,G,,190.5,88.5,1999-12-01,US,2,"Presbyterian College, Baylor"
+2026,sas,foxde01,De'Aaron Fox,,G,G,,190.5,83.9,1997-12-20,US,8,Kentucky
+2026,sas,harpedy01,Dylan Harper,,G,G,,198.1,,2006-03-02,US,0,Rutgers University
+2026,sas,ingraha01,Harrison Ingram,TW,F,F,,195.6,104.3,2002-11-27,US,1,"Stanford, UNC"
+2026,sas,johnske04,Keldon Johnson,,G,G,,195.6,99.8,1999-10-11,US,6,Kentucky
+2026,sas,jonesda06,David Jones García,TW,F,F,,198.1,95.3,2001-11-24,DO,0,"DePaul, St. John's, Memphis"
+2026,sas,kornelu01,Luke Kornet,,C-F,C,F,218.4,113.4,1995-07-15,US,8,Vanderbilt
+2026,sas,mclaujo01,Jordan McLaughlin,,G,G,,182.9,83.9,1996-04-09,US,6,USC
+2026,sas,minixri01,Riley Minix,TW,G,G,,200.7,104.3,2000-09-22,US,1,"Southeastern University, Morehead State University"
+2026,sas,olynyke01,Kelly Olynyk,,C-F,C,F,210.8,108.9,1991-04-19,CA,12,Gonzaga
+2026,sas,pottemi01,Micah Potter,,C,C,,208.3,112.5,1998-04-06,US,4,"Ohio State, Wisconsin"
+2026,sas,sochaje01,Jeremy Sochan,,F-G,F,G,203.2,104.3,2003-05-20,US,3,Baylor
+2026,sas,umudest01,Stanley Umude,,G,G,,198.1,95.3,1999-04-12,US,3,"South Dakota, Arkansas"
+2026,sas,vassede01,Devin Vassell,,G-F,G,F,195.6,90.7,2000-08-23,US,5,Florida State
+2026,sas,waterli01,Lindy Waters III,,G,G,,198.1,97.5,1997-07-28,US,4,Oklahoma State
+2026,sas,wembavi01,Victor Wembanyama,,C-F,C,F,221.0,106.6,2004-01-04,FR,2,
+2026,tor,agbajoc01,Ochai Agbaji,,G,G,,195.6,97.5,2000-04-20,US,3,Kansas
+2026,tor,barnesc01,Scottie Barnes,,G-F,G,F,200.7,103.0,2001-08-01,US,4,Florida State
+2026,tor,barrerj01,RJ Barrett,,G-F,G,F,198.1,97.1,2000-06-14,CA,6,Duke
+2026,tor,battlja01,Jamison Battle,,F,F,,200.7,99.8,2001-05-10,US,1,"George Washington, Minnesota, Ohio State"
+2026,tor,chomcul01,Ulrich Chomche,TW,F-C,F,C,208.3,106.6,2005-12-30,CM,1,
+2026,tor,degenty01,Tyson Degenhart,,F,F,,203.2,,2002-10-13,US,0,Boise State
+2026,tor,dickgr01,Gradey Dick,,G,G,,198.1,93.0,2003-11-20,US,2,Kansas
+2026,tor,hepbuch01,Chucky Hepburn,TW,G,G,,188.0,,2003-02-09,US,0,"Wisconsin, Louisville"
+2026,tor,ingrabr01,Brandon Ingram,,F,F,,203.2,86.2,1997-09-02,US,9,Duke
+2026,tor,lawsoaj01,A.J. Lawson,,G,G,,198.1,81.2,2000-07-15,CA,3,South Carolina
+2026,tor,mamuksa01,Sandro Mamukelashvili,,C-F,C,F,210.8,108.9,1999-05-23,US,4,Seton Hall
+2026,tor,martial01,Alijah Martin,TW,G,G,,188.0,,2001-12-26,US,0,"Florida Atlantic University, Florida"
+2026,tor,mogbojo01,Jonathan Mogbo,,F,F,,205.7,102.1,2001-10-29,US,1,"Missouri State, San Francisco"
+2026,tor,murraco01,Collin Murray-Boyles,,F,F,,200.7,,2005-06-10,US,0,South Carolina
+2026,tor,poeltja01,Jakob Poeltl,,C,C,,213.4,111.1,1995-10-15,AT,9,Utah
+2026,tor,quickim01,Immanuel Quickley,,G,G,,190.5,86.2,1999-06-17,US,5,Kentucky
+2026,tor,roddyda01,David Roddy,,F,F,,193.0,115.7,2001-03-27,US,3,Colorado State
+2026,tor,sarrol01,Olivier Sarr,,C,C,,213.4,107.5,1999-02-20,FR,3,"Wake Forest, Kentucky"
+2026,tor,sheadja01,Jamal Shead,,G,G,,182.9,90.7,2002-06-24,US,1,Houston
+2026,tor,templga01,Garrett Temple,,G,G,,195.6,88.5,1986-05-08,US,15,LSU
+2026,tor,walteja01,Ja'Kobe Walter,,G,G,,195.6,81.6,2004-09-04,US,1,Baylor
+2026,uta,anderky01,Kyle Anderson,,F-G,F,G,205.7,104.3,1993-09-20,US,11,UCLA
+2026,uta,baileac01,Ace Bailey,,G-F,G,F,208.3,,2006-08-13,US,0,Rutgers University
+2026,uta,claytwa01,Walter Clayton,,G,G,,188.0,,2003-03-06,US,0,"Iona College, Florida"
+2026,uta,colliis01,Isaiah Collier,,G,G,,190.5,95.3,2004-10-08,US,1,USC
+2026,uta,crowlst01,Steven Crowl,,F-C,F,C,213.4,,2001-07-01,US,0,Wisconsin
+2026,uta,filipky01,Kyle Filipowski,,F-C,F,C,210.8,113.4,2003-11-07,US,1,Duke
+2026,uta,georgke01,Keyonte George,,G,G,,193.0,83.9,2003-11-08,US,2,Baylor
+2026,uta,harklej01,Elijah Harkless,TW,G,G,,190.5,88.5,2000-02-03,US,1,"Cal State Northridge, Oklahoma, UNLV"
+2026,uta,hendrta01,Taylor Hendricks,,F,F,,205.7,95.3,2003-11-22,US,2,Central Florida
+2026,uta,kesslwa01,Walker Kessler,,C,C,,213.4,111.1,2001-07-26,US,3,"UNC, Auburn"
+2026,uta,loveke01,Kevin Love,,F-C,F,C,203.2,113.9,1988-09-07,US,17,UCLA
+2026,uta,luisrj01,RJ Luis,TW,G-F,G,F,200.7,,2002-11-27,US,0,"UMass, St. John's"
+2026,uta,markkla01,Lauri Markkanen,,F-C,F,C,213.4,108.9,1997-05-22,FI,8,Arizona
+2026,uta,murrema01,Matthew Murrell,,G,G,,193.0,,2001-12-19,US,0,Ole Miss
+2026,uta,mykhasv01,Svi Mykhailiuk,,G-F,G,F,200.7,93.0,1997-06-10,UA,7,Kansas
+2026,uta,niangge01,Georges Niang,,F,F,,200.7,104.3,1993-06-17,US,9,Iowa State
+2026,uta,nurkiju01,Jusuf Nurkić,,C,C,,213.4,131.5,1994-08-23,BA,11,
+2026,uta,sensabr01,Brice Sensabaugh,,F,F,,198.1,106.6,2003-10-30,US,2,Ohio State
+2026,uta,tonjejo01,John Tonje,TW,G,G,,195.6,,2001-04-23,US,0,"Colorado State, Missouri, Wisconsin"
+2026,uta,tshieos01,Oscar Tshiebwe,TW,F,F,,205.7,117.9,1999-11-27,CD,2,"West Virginia, Kentucky"
+2026,uta,willico04,Cody Williams,,G-F,G,F,200.7,86.2,2004-11-20,US,1,Colorado
+2026,was,baglema01,Marvin Bagley III,,F-C,F,C,208.3,106.6,1999-03-14,US,7,Duke
+2026,was,branhma01,Malaki Branham,,G,G,,193.0,81.6,2003-05-12,US,3,Ohio State
+2026,was,carrica01,Bub Carrington,,G,G,,193.0,86.2,2005-07-21,US,1,Pitt
+2026,was,champju01,Justin Champagnie,,F,F,,198.1,90.7,2001-06-29,US,4,Pitt
+2026,was,coopesh01,Sharife Cooper,TW,G,G,,185.4,81.6,2001-06-11,US,1,Auburn
+2026,was,coulibi01,Bilal Coulibaly,,F,F,,203.2,88.5,2004-07-26,FR,2,
+2026,was,georgky01,Kyshawn George,,G,G,,200.7,90.7,2003-12-12,CH,1,Miami (FL)
+2026,was,gilbeke01,Keshon Gilbert,,G,G,,193.0,,2003-06-30,US,0,"UNLV, Iowa State"
+2026,was,gillan01,Anthony Gill,,F,F,,200.7,104.3,1992-10-17,US,5,"South Carolina, Virginia"
+2026,was,johnsaj01,AJ Johnson,,G,G,,193.0,72.6,2004-12-01,US,1,
+2026,was,johnstr03,Tre Johnson,,G,G,,198.1,,2006-03-07,US,0,Texas
+2026,was,jonesdi01,Dillon Jones,,F,F,,195.6,108.9,2001-10-29,US,1,Weber State
+2026,was,kispeco01,Corey Kispert,,G-F,G,F,200.7,99.8,1999-03-03,US,4,Gonzaga
+2026,was,mccolcj01,CJ McCollum,,G,G,,190.5,86.2,1991-09-19,US,12,Lehigh
+2026,was,middlkh01,Khris Middleton,,F-G,F,G,200.7,100.7,1991-08-12,US,13,Texas A&M
+2026,was,pierrjo01,Jonathan Pierre,,G,G,,205.7,,2003-04-20,US,0,"Memphis, Belmont"
+2026,was,rileywi01,Will Riley,,F,F,,203.2,,2006-02-10,CA,0,Illinois
+2026,was,sarral01,Alex Sarr,,F,F,,213.4,93.0,2005-04-26,FR,1,
+2026,was,vukcetr01,Tristan Vukcevic,TW,F-C,F,C,208.3,101.2,2003-03-11,IT,2,
+2026,was,watkija01,Jamir Watkins,TW,F-G,F,G,200.7,,2001-07-06,US,0,"VCU, Florida State"
+2026,was,whitmca01,Cam Whitmore,,F,F,,200.7,105.2,2004-07-08,US,2,Villanova
