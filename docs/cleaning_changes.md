@@ -83,7 +83,7 @@ attributes.
 
 This is why the dimensions grew and why **not one fact row and not one season
 of history had to be deleted**. Michael Jordan is in the database with his
-name (recovered from the championship rosters) and his six MVP awards; he
+name (recovered from the championship rosters) and his five MVP awards; he
 simply has no bio attributes.
 
 Result, from `python -m cleaning.verify`: **0 orphan foreign keys across all
