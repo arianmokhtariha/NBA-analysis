@@ -84,18 +84,51 @@ def build_session(extra_headers: dict[str, str] | None = None) -> requests.Sessi
     return session
 
 
+class BlockedError(RuntimeError):
+    """Raised when the site is turning us away rather than failing.
+
+    Kept separate from an ordinary error because the response is the
+    opposite: a network blip is worth retrying, a block is not. See
+    :func:`_is_challenge`.
+    """
+
+
+#: Markers in the body of Cloudflare's "checking your browser" page.
+#: It comes back as a 403 carrying real-looking HTML, so the status code
+#: alone cannot tell it apart from an ordinary refusal.
+_CHALLENGE_MARKERS: tuple[str, ...] = (
+    "Just a moment",
+    "challenge-platform",
+    "Enable JavaScript and cookies to continue",
+)
+
+
+def _is_challenge(response: requests.Response) -> bool:
+    """True if this response is a bot challenge rather than a page."""
+    if response.status_code not in (403, 503):
+        return False
+    return any(marker in response.text for marker in _CHALLENGE_MARKERS)
+
+
 def fetch_page(
     session: requests.Session,
     url: str,
     *,
     max_retries: int = 5,
-    delay: float = 3.0,
+    delay: float = 4.0,
 ) -> str | None:
     """Fetch `url` and return its HTML, or None if every attempt failed.
 
     Behaviour, in order of priority:
 
     - Rotates the `User-Agent` header on every attempt.
+    - On a bot challenge, gives up immediately by raising
+      :class:`BlockedError`. Retrying cannot help - the block is on the
+      IP, not the request - and quietly returning None instead would be
+      worse than useless: the caller would skip that page, carry on
+      through the remaining thousand, and write a CSV that looks fine
+      while silently missing every player fetched after the block.
+      Stopping loudly leaves the previous good file untouched.
     - On HTTP 429 (rate limited), waits `delay` seconds (plus jitter)
       and retries instead of giving up immediately.
     - On any other network error, also retries with the same backoff.
@@ -103,12 +136,24 @@ def fetch_page(
       what throttles a caller looping over many URLs - as long as
       every fetch goes through this function, consecutive requests to
       basketball-reference.com are always at least `delay` seconds
-      apart.
+      apart. The default of 4s is 15 requests a minute, deliberately
+      short of the 20 a minute the site is known to cut off at; 3s sits
+      exactly on that line with no room for timing drift.
     """
     for attempt in range(1, max_retries + 1):
         session.headers["User-Agent"] = random.choice(USER_AGENTS)
         try:
             response = session.get(url, timeout=30)
+            if _is_challenge(response):
+                raise BlockedError(
+                    f"basketball-reference.com served a bot challenge for "
+                    f"{url} (HTTP {response.status_code}). The IP is "
+                    f"blocked, so the run has stopped rather than skip "
+                    f"pages and write an incomplete file. Wait for the "
+                    f"block to lapse - usually minutes to a few hours - "
+                    f"then re-run. Raising `delay` above {delay}s makes "
+                    f"it less likely to happen again."
+                )
             if response.status_code == 429:
                 wait = delay + random.uniform(0, 2)
                 logger.warning(
