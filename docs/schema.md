@@ -147,8 +147,8 @@ of them: present, named, five MVPs recorded, no height or birth date.
 | `draft_overall_pick` | integer | yes | Overall pick number. |
 | `career_games` | integer | yes | Career totals below are present for 569 players — the source only shows them on some bio pages. |
 | `career_points` | numeric(5,1) | yes | Career points **per game**, not a total. |
-| `career_total_rebound_pct` | numeric(5,1) | yes | Share of available rebounds collected, 0-100. |
-| `career_assists_pct` | numeric(5,1) | yes | Share of teammates' field goals assisted, 0-100. |
+| `career_total_rebound_pct` | numeric(5,1) | yes | **Misnamed.** Career rebounds **per game**, not a percentage — Michael Jordan's 6.2 is 6.2 rebounds a game. The name comes from the original scrape and is kept so the pipeline's column names stay consistent end to end. |
+| `career_assists_pct` | numeric(5,1) | yes | **Misnamed** in the same way: career assists **per game**. Jordan's 5.3 is 5.3 assists a game. |
 | `career_field_goal_pct` | numeric(5,1) | yes | Career FG%, 0-100 on this table. |
 | `career_three_point_pct` | numeric(5,1) | yes | Career 3P%, 0-100. |
 | `career_free_throw_pct` | numeric(5,1) | yes | Career FT%, 0-100. |

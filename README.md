@@ -69,7 +69,8 @@ basketball/
 │   ├── team_season_totals.py
 │   ├── player_stats.py
 │   ├── advanced_stats.py
-│   ├── player_bios.py
+│   ├── player_bios.py            #   also writes player_career_stats.csv (same page)
+│   ├── player_career_stats.py
 │   ├── mvp_candidates.py
 │   ├── mvp_winners.py
 │   ├── season_summaries.py
@@ -110,7 +111,7 @@ basketball/
 │   └── _setup.py
 │
 ├── data/
-│   ├── raw/                      # scraped output, 9 files — committed, so scraping is optional
+│   ├── raw/                      # scraped output — committed, so scraping is optional
 │   └── processed/                # cleaned output, 11 CSVs — committed
 │
 ├── docs/
@@ -157,11 +158,25 @@ cp .env.example .env
 
 **3. (Optional) Re-scrape the raw data.** `data/raw/` is already committed
 to the repository, so this step can be skipped entirely unless you want
-fresher data. It is polite to the source site (retries, backing off, and
-throttling between requests), so a full run takes a while.
+fresher data. The scraper is polite to the source site — it throttles
+requests a few seconds apart and backs off when rate-limited — so a full
+run takes roughly an hour.
 
 ```bash
 python -m scrapers.run_all
+```
+
+Almost all of that hour is the last step, `player_bios`, which reads one
+page per player (well over a thousand of them) and writes both
+`player_bios.csv` and `player_career_stats.csv` from each. The other nine
+steps together are a couple of hundred requests and finish in minutes, so
+it is worth running them separately from the long one:
+
+```bash
+python -m scrapers.run_all --only teams,team_seasons,team_season_rosters,\
+team_season_totals,player_stats,advanced_stats,mvp_candidates,mvp_winners,\
+season_summaries
+python -m scrapers.run_all --only player_bios
 ```
 
 **4. Clean the raw data.** Fast — a few seconds. Also optional if you

@@ -4,6 +4,17 @@
 reads player ids from data/raw/team_season_rosters.csv by default), so
 it's kept last. Every other step is independent.
 
+It is also by far the longest step: one page per player, several
+hundred to over a thousand of them, throttled a few seconds apart. The
+other nine steps together are a couple of hundred requests. If a run
+has to be split, split it there.
+
+`player_bios` writes *two* files - player_bios.csv and
+player_career_stats.csv - because both come from the same player page
+and one fetch fills both. That is why there is no separate
+`player_career_stats` step here; running `scrapers.player_career_stats`
+directly would re-download every page for data this step already has.
+
 Usage (always from the repo root, so the `scrapers` package resolves):
 
     conda run -n analyst_313 python -m scrapers.run_all

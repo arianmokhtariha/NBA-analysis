@@ -16,14 +16,18 @@ hardcoded live browser cookie header - dropped entirely; it was
 specific to one logged-in session and not needed to read public pages.
 
 `Scraper.players()` is intentionally not ported: it scraped a
-*single hardcoded player id* (a bug called out in the refactor plan)
-and its "Last Season / Career" per-stat-split fields largely duplicate
-what `player_stats.py` and `advanced_stats.py` already cover season by
-season. This module instead takes a list of player ids - by default,
-every id already seen on a scraped roster (data/raw/team_season_rosters.csv).
+*single hardcoded player id* (a bug called out in the refactor plan).
+This module instead takes a list of player ids - by default, every id
+already seen on a scraped roster (data/raw/team_season_rosters.csv).
+
+Its career-stat half *is* reproduced, by `player_career_stats.py`. That
+table reads the summary box on this same page, so this module parses
+both out of one fetch and writes both files. Scraping them separately
+would double an already hour-long run for no benefit, which is why
+`run_all` lists only this step.
 
 Run directly (`python -m scrapers.player_bios`) to scrape and write
-data/raw/player_bios.csv.
+both data/raw/player_bios.csv and data/raw/player_career_stats.csv.
 """
 
 from __future__ import annotations
@@ -39,6 +43,8 @@ from tqdm import tqdm
 
 from scrapers.fetch import build_session, fetch_page
 from scrapers.parse import to_snake_case
+from scrapers.player_career_stats import parse_career_stats
+from scrapers.player_career_stats import OUTPUT_PATH as CAREER_OUTPUT_PATH
 
 logger = logging.getLogger(__name__)
 
@@ -136,17 +142,13 @@ def _draft_fields(meta: Tag) -> tuple[str | None, str | None, str | None]:
     return draft_team, draft_pick, draft
 
 
-def player_bio(
-    session: requests.Session, player_id: str
-) -> dict[str, object] | None:
-    """Scrape one player's bio box: name, position, measurements, birth
-    info, college, draft info, and NBA experience."""
-    url = PLAYER_URL.format(first_letter=player_id[0], id=player_id)
-    html = fetch_page(session, url)
-    if html is None:
-        return None
+def parse_bio(soup: BeautifulSoup, player_id: str) -> dict[str, object] | None:
+    """Read one player's bio box: name, position, measurements, birth
+    info, college, draft info, and NBA experience.
 
-    soup = BeautifulSoup(html, "html.parser")
+    Takes an already-parsed page rather than fetching one, so the same
+    download can also be handed to `parse_career_stats`.
+    """
     meta = soup.select_one("#info #meta")
     if meta is None:
         return None
@@ -207,6 +209,44 @@ def player_bio(
     }
 
 
+def player_page(
+    session: requests.Session, player_id: str
+) -> tuple[dict[str, object] | None, dict[str, object] | None]:
+    """Fetch one player's page once and read both tables out of it.
+
+    Returns (bio row, career-stats row); either may be None if that part
+    of the page is missing.
+    """
+    url = PLAYER_URL.format(first_letter=player_id[0], id=player_id)
+    html = fetch_page(session, url)
+    if html is None:
+        return None, None
+
+    soup = BeautifulSoup(html, "html.parser")
+    bio = parse_bio(soup, player_id)
+
+    stats = parse_career_stats(soup)
+    career: dict[str, object] | None = None
+    if stats:
+        career = {
+            "player_id": player_id,
+            "player_name": bio["player_name"] if bio else None,
+            # Seasons played is read off the bio box, not the summary
+            # box, so it is carried across rather than parsed twice.
+            "Experience": bio.get("Experience") if bio else None,
+            **stats,
+        }
+    return bio, career
+
+
+def player_bio(
+    session: requests.Session, player_id: str
+) -> dict[str, object] | None:
+    """Fetch and parse one player's bio box."""
+    bio, _ = player_page(session, player_id)
+    return bio
+
+
 def _player_ids_from_rosters(path: Path = ROSTERS_PATH) -> list[str]:
     """Default player-id universe: everyone who has appeared on an
     already-scraped team roster."""
@@ -214,29 +254,50 @@ def _player_ids_from_rosters(path: Path = ROSTERS_PATH) -> list[str]:
     return sorted(df["Player_id"].dropna().unique().tolist())
 
 
+def scrape_pages(
+    session: requests.Session | None = None,
+    player_ids: list[str] | None = None,
+) -> tuple[pd.DataFrame, pd.DataFrame]:
+    """Scrape every id once, returning (bios, career stats).
+
+    One pass over the player pages fills both tables; scraping them
+    separately would double the request count for identical data.
+    """
+    session = session or build_session()
+    ids = player_ids if player_ids is not None else []
+
+    bios: list[dict[str, object]] = []
+    careers: list[dict[str, object]] = []
+    for player_id in tqdm(ids, desc="player pages"):
+        bio, career = player_page(session, player_id)
+        if bio is not None:
+            bios.append(bio)
+        if career is not None:
+            careers.append(career)
+    return pd.DataFrame(bios), pd.DataFrame(careers)
+
+
 def scrape(
     session: requests.Session | None = None,
     player_ids: list[str] | None = None,
 ) -> pd.DataFrame:
     """Scrape a bio for every id in `player_ids` into one DataFrame."""
-    session = session or build_session()
-    ids = player_ids if player_ids is not None else []
-
-    bios: list[dict[str, object]] = []
-    for player_id in tqdm(ids, desc="player bios"):
-        bio = player_bio(session, player_id)
-        if bio is not None:
-            bios.append(bio)
-    return pd.DataFrame(bios)
+    bios, _ = scrape_pages(session=session, player_ids=player_ids)
+    return bios
 
 
 def main(player_ids: list[str] | None = None) -> None:
     logging.basicConfig(level=logging.INFO)
     ids = player_ids if player_ids is not None else _player_ids_from_rosters()
-    df = scrape(player_ids=ids)
+    bios, careers = scrape_pages(player_ids=ids)
+
     OUTPUT_PATH.parent.mkdir(parents=True, exist_ok=True)
-    df.to_csv(OUTPUT_PATH, index=False)
-    logger.info("Wrote %d rows to %s", len(df), OUTPUT_PATH)
+    bios.to_csv(OUTPUT_PATH, index=False)
+    logger.info("Wrote %d rows to %s", len(bios), OUTPUT_PATH)
+
+    CAREER_OUTPUT_PATH.parent.mkdir(parents=True, exist_ok=True)
+    careers.to_csv(CAREER_OUTPUT_PATH, index=False)
+    logger.info("Wrote %d rows to %s", len(careers), CAREER_OUTPUT_PATH)
 
 
 if __name__ == "__main__":
