@@ -5,13 +5,15 @@ From the repository root::
     python -m cleaning.verify
 
 It deletes ``data/processed`` outright, rebuilds it from ``data/raw``, and
-then prints four things:
+then prints five things:
 
 1. every expected file reappeared;
 2. orphan foreign keys per fact table (all must be 0 for the PostgreSQL
    loader to run with foreign keys enforced instead of switched off);
 3. duplicate primary keys per table (all must be 0);
-4. the rows-in / rows-out / rows-dropped audit table with the reason for
+4. every table against a minimum row count, which is the only check here
+   that can catch an incomplete scrape - see :data:`MINIMUM_ROWS`;
+5. the rows-in / rows-out / rows-dropped audit table with the reason for
    every drop.
 
 A short list of spot checks on the specific bugs this pipeline fixes is
@@ -41,6 +43,33 @@ EXPECTED_TABLES: tuple[str, ...] = (
     "team_season_stats",
     "teams",
 )
+
+#: table -> the fewest rows a healthy build should produce.
+#:
+#: Every other check here is structural: it asks whether the rows that
+#: exist are consistent with each other. None of them notice a build that
+#: is simply too small. A scrape that quietly returned 800 players instead
+#: of 1381 still has no orphan keys and no duplicate keys - it is a
+#: perfectly consistent, badly incomplete dataset, and it would pass.
+#:
+#: These are floors, not expected counts, set around 15% below the build
+#: they were taken from. That asymmetry is deliberate: the data grows every
+#: season, so growth must never raise an alarm, while a real shortfall
+#: (pages skipped, a scraper stopping early, a season missing) shows up
+#: immediately. They only need revisiting to make the check stricter.
+MINIMUM_ROWS: dict[str, int] = {
+    "mvp_candidates": 72,
+    "mvp_winners": 59,
+    "player_advanced_stats": 4271,
+    "player_positions": 1396,
+    "player_season_stats": 4271,
+    "players": 1690,
+    "rosters": 1592,
+    "season_awards": 74,
+    "seasons": 68,
+    "team_season_stats": 1439,
+    "teams": 63,
+}
 
 #: table -> primary key columns
 PRIMARY_KEYS: dict[str, tuple[str, ...]] = {
@@ -89,6 +118,26 @@ FOREIGN_KEYS: tuple[ForeignKey, ...] = (
     ForeignKey("team_season_stats", "season", "seasons", "season"),
     ForeignKey("season_awards", "season", "seasons", "season"),
     ForeignKey("season_awards", "champion_team_id", "teams", "team_id"),
+)
+
+#: Foreign keys spanning several columns at once, as
+#: (table, columns, parent table, parent columns).
+#:
+#: The advanced metrics and the box score are two halves of the same
+#: player-season, scraped from two different pages by two different
+#: modules - each with its own season range. Those ranges have drifted
+#: apart before. The database enforces this join, so a row of advanced
+#: stats for a season the box scores do not cover will stop the load; this
+#: check finds it here instead, in seconds.
+COMPOSITE_FOREIGN_KEYS: tuple[
+    tuple[str, tuple[str, ...], str, tuple[str, ...]], ...
+] = (
+    (
+        "player_advanced_stats",
+        ("season", "player_id", "stint"),
+        "player_season_stats",
+        ("season", "player_id", "stint"),
+    ),
 )
 
 
@@ -141,6 +190,23 @@ def check_foreign_keys(tables: dict[str, pd.DataFrame]) -> int:
         total += orphans
         label = f"{key.table}.{key.column} -> {key.parent_table}"
         print(f"  {label:60s} {orphans:5d}")
+
+    for table, columns, parent_table, parent_columns in COMPOSITE_FOREIGN_KEYS:
+        child_keys = tables[table][list(columns)].dropna()
+        parent_keys = set(
+            tables[parent_table][list(parent_columns)]
+            .dropna()
+            .itertuples(index=False, name=None)
+        )
+        orphans = sum(
+            1
+            for row in child_keys.itertuples(index=False, name=None)
+            if row not in parent_keys
+        )
+        total += orphans
+        label = f"{table}({', '.join(columns)}) -> {parent_table}"
+        print(f"  {label:60s} {orphans:5d}")
+
     print(f"  total orphans: {total}")
     return total
 
@@ -159,6 +225,31 @@ def check_primary_keys(tables: dict[str, pd.DataFrame]) -> int:
         print(f"  {label:60s} dup={duplicates:4d} null={nulls:4d}")
     print(f"  total key problems: {total}")
     return total
+
+
+def check_row_volume(tables: dict[str, pd.DataFrame]) -> int:
+    """Print each table's size against its floor; return the number too small.
+
+    Catches the one failure the other checks cannot see: a build that is
+    internally consistent but incomplete. See :data:`MINIMUM_ROWS`.
+    """
+    print("\n4. ROW VOLUME (each table against its minimum)")
+    print("-" * 70)
+    short = 0
+    for table_name, floor in MINIMUM_ROWS.items():
+        rows = len(tables[table_name])
+        ok = rows >= floor
+        short += 0 if ok else 1
+        marker = "ok" if ok else "TOO FEW"
+        change = f"{rows - floor:+d} vs floor"
+        print(f"  {table_name:26s} {rows:6d}  (min {floor:6d}, "
+              f"{change:>16s})  {marker}")
+    if short:
+        print(f"  {short} table(s) below the floor - the source data is "
+              f"probably incomplete, not the code")
+    else:
+        print("  every table is at or above its minimum")
+    return short
 
 
 def spot_checks(tables: dict[str, pd.DataFrame]) -> None:
@@ -256,19 +347,20 @@ def main() -> int:
     tables = load_processed()
     orphans = check_foreign_keys(tables)
     key_problems = check_primary_keys(tables)
+    undersized = check_row_volume(tables)
 
-    print("\n4. ROW COUNTS (rows in -> rows out, with the reason for drops)")
+    print("\n5. ROW COUNTS (rows in -> rows out, with the reason for drops)")
     print("-" * 70)
     print_report(build_all().reports)
 
     spot_checks(tables)
 
     print("\n" + "=" * 70)
-    failures = missing + orphans + key_problems
+    failures = missing + orphans + key_problems + undersized
     verdict = "PASS" if failures == 0 else "FAIL"
     print(
         f"{verdict}: missing files={missing}, orphan foreign keys={orphans}, "
-        f"primary-key problems={key_problems}"
+        f"primary-key problems={key_problems}, undersized tables={undersized}"
     )
     return 0 if failures == 0 else 1
 
