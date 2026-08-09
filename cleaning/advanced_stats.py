@@ -30,6 +30,7 @@ from cleaning.normalize import (
     normalize_text,
     read_source,
     to_season_end_year,
+    to_team_id,
     write_table,
 )
 
@@ -89,7 +90,9 @@ def build_player_advanced_stats(raw_dir: Path = RAW_DIR) -> BuildResult:
     advanced = normalize_text(advanced, columns=["player_id", "team_id"])
     advanced["season"] = to_season_end_year(advanced["season"])
     advanced["player_id"] = normalize_ids(advanced["player_id"])
-    advanced["team_id"] = normalize_ids(advanced["team_id"]).fillna(TOTAL_TEAM_ID)
+    # Folds every spelling of the combined "player was traded" line - blank,
+    # "TOT", "2TM"/"3TM"/... - onto one id. See normalize.to_team_id.
+    advanced["team_id"] = to_team_id(advanced["team_id"])
 
     advanced = add_stint_columns(advanced, "season", "player_id", "team_id")
 

@@ -22,7 +22,7 @@ from scrapers.parse import href_id, parse_stat_table
 
 logger = logging.getLogger(__name__)
 
-DEFAULT_SEASON_YEARS: range = range(2019, 2026)
+DEFAULT_SEASON_YEARS: range = range(2019, 2027)
 
 ADVANCED_URL = "https://www.basketball-reference.com/leagues/NBA_{year}_advanced.html"
 OUTPUT_PATH = Path("data/raw/advanced_stats.csv")

@@ -221,6 +221,34 @@ def normalize_ids(values: pd.Series) -> pd.Series:
     return values.astype("string").str.strip().str.lower()
 
 
+#: How the source marks a traded player's combined season line. It has used
+#: a blank cell and the literal "TOT" in the past, and now writes the team
+#: count instead - "2TM", "3TM", "4TM". All of them mean the same thing.
+_SEASON_TOTAL_TEAM = re.compile(r"^\d+tm$")
+
+
+def to_team_id(values: pd.Series) -> pd.Series:
+    """Normalise a team column, folding every "season total" spelling into
+    :data:`TOTAL_TEAM_ID`.
+
+    A traded player gets one combined row plus one row per team. The source
+    has changed how it labels that combined row at least twice: it used to
+    leave the cell blank, and now writes ``"2TM"``/``"3TM"``/``"4TM"``.
+    Recognising only one spelling is quietly dangerous rather than loudly
+    broken - the combined row stops being detected, so
+    :func:`add_stint_columns` marks a player's *first partial stint* as his
+    season line, and every traded player's totals come out too low. Matching
+    the count pattern as well means a future "5TM" needs no code change.
+    """
+    ids = normalize_ids(values)
+    is_total = (
+        ids.isna()
+        | (ids == TOTAL_TEAM_ID)
+        | ids.str.fullmatch(_SEASON_TOTAL_TEAM).fillna(False)
+    )
+    return ids.mask(is_total, TOTAL_TEAM_ID)
+
+
 # --------------------------------------------------------------------------
 # Unit and season conversions (ported verbatim from the original script)
 # --------------------------------------------------------------------------

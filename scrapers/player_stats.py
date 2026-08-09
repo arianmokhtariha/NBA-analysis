@@ -26,7 +26,7 @@ logger = logging.getLogger(__name__)
 # original scraper pulled a couple of extra seasons too; kept as one
 # overridable constant instead of the 7 independent hardcoded copies
 # the old Scraper.py had.
-DEFAULT_SEASON_YEARS: range = range(2019, 2026)
+DEFAULT_SEASON_YEARS: range = range(2019, 2027)
 
 TOTALS_URL = "https://www.basketball-reference.com/leagues/NBA_{year}_totals.html"
 OUTPUT_PATH = Path("data/raw/player_stats.csv")

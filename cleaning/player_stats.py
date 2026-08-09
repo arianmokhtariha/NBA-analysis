@@ -27,6 +27,7 @@ from cleaning.normalize import (
     normalize_text,
     read_source,
     to_season_end_year,
+    to_team_id,
     write_table,
 )
 
@@ -144,9 +145,9 @@ def build_player_season_stats(raw_dir: Path = RAW_DIR) -> BuildResult:
     stats = normalize_text(stats, columns=["player_id", "team_id", "position"])
     stats["season"] = to_season_end_year(stats["season"])
     stats["player_id"] = normalize_ids(stats["player_id"])
-    # A blank team means Basketball-Reference's combined "TOT" line for a
-    # player who changed team during the season.
-    stats["team_id"] = normalize_ids(stats["team_id"]).fillna(TOTAL_TEAM_ID)
+    # Folds every spelling of the combined "player was traded" line - blank,
+    # "TOT", "2TM"/"3TM"/... - onto one id. See normalize.to_team_id.
+    stats["team_id"] = to_team_id(stats["team_id"])
 
     stats = add_stint_columns(stats, "season", "player_id", "team_id")
 
