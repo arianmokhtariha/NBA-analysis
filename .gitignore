@@ -6,21 +6,19 @@ __pycache__/
 *.egg-info/
 dist/
 build/
-.DS_Store
+
+# Environments and secrets
 .env
 .venv
-.ipynb_checkpoints/
-
-# VS Code
-.vscode/
-
-# MacOS
-.DS_Store
+config_local.py
 
 # Jupyter
 .ipynb_checkpoints/
-config_local.py
 
-# claude
-.claude/ 
+# Editors / OS
+.vscode/
+.DS_Store
+
+# Claude
+.claude/
 CLAUDE.md
