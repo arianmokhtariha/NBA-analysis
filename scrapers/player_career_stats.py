@@ -19,7 +19,7 @@ and assists *per game*, not percentages, and "Career Points" is points
 per game rather than a career total. The names come from the original
 bootcamp scrape and flow through `cleaning/players.py` into the
 database, so renaming them here alone would quietly break that chain.
-See docs/schema.md, where the real meaning is documented.
+See docs/data_dictionary.md, where the real meaning is documented.
 """
 
 from __future__ import annotations

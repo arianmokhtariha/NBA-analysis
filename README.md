@@ -115,8 +115,8 @@ basketball/
 │   └── processed/                # cleaned output, 11 CSVs — committed
 │
 ├── docs/
-│   ├── schema.md                 #   the `processed` schema, column by column
-│   ├── data_dictionary.md        #   the `analyst_ready` schema, column by column
+│   ├── data_dictionary.md        #   every table and column of both schemas,
+│   │                             #   plus what each stat means in basketball
 │   └── cleaning_changes.md       #   what the cleaning rewrite changed, and why
 │
 ├── reports/                     # stakeholder write-up — in progress, see below
@@ -307,11 +307,11 @@ and conclusions will be presented.
 
 ## Documentation
 
-- [`docs/schema.md`](docs/schema.md) — the `processed` schema: every table,
-  every column, and the conventions that apply across all of them.
-- [`docs/data_dictionary.md`](docs/data_dictionary.md) — the
-  `analyst_ready` schema: what question each table answers, its grain, and
-  every column.
+- [`docs/data_dictionary.md`](docs/data_dictionary.md) — **the complete
+  reference.** Every table and every column of both schemas, the diagrams
+  showing how they connect, the conventions that apply across all of them,
+  and — for anyone who doesn't follow basketball — what each statistic
+  actually measures on a court.
 - [`docs/cleaning_changes.md`](docs/cleaning_changes.md) — exactly what the
   cleaning rewrite changed from the original bootcamp output, and why each
   change was made.
