@@ -28,15 +28,27 @@ TOTAL_TEAM_ID: str = "tot"
 TOTAL_TEAM_NAME: str = "Multiple Teams (season total)"
 
 #: Basketball-Reference spells positions out on the player bio page but uses
-#: two-letter codes on the season tables. This maps one vocabulary onto the
-#: other so both can be joined.
+#: short codes on the season and roster tables. This maps one vocabulary onto
+#: the other so both can be joined.
+#:
+#: "Guard" and "Forward" are not vague versions of the five modern positions:
+#: they are how the source lists players from before the five-position split,
+#: and the roster pages already write them as "G" and "F". Leaving them out
+#: of this map is what put the literal word "Forward" in a two-character
+#: column - see :func:`position_code`.
 POSITION_CODES: dict[str, str] = {
     "point guard": "PG",
     "shooting guard": "SG",
     "small forward": "SF",
     "power forward": "PF",
     "center": "C",
+    "guard": "G",
+    "forward": "F",
 }
+
+#: Every short code :func:`position_code` can return. Exported so a check can
+#: state the allowed values without restating the vocabulary.
+POSITION_SHORT_CODES: frozenset[str] = frozenset(POSITION_CODES.values())
 
 MONTH_NUMBERS: dict[str, int] = {
     "january": 1,
@@ -293,26 +305,66 @@ def weight_to_kg(values: pd.Series) -> pd.Series:
 # --------------------------------------------------------------------------
 # Position helpers
 # --------------------------------------------------------------------------
-def split_positions(value: str) -> list[str]:
-    """Split a bio position string into real positions, dropping empty slots.
+#: A bio page separates a player's positions with a comma ("Small Forward,
+#: Power Forward") or, for older players, with a slash ("Guard/Forward").
+_POSITION_SEPARATORS = re.compile(r"[,/]")
 
-    The scraped string sometimes contains an empty comma-separated token,
-    e.g. Paul George is ``"Small Forward, Power Forward, , Shooting Guard"``.
-    Splitting into fixed slots without removing that token pushes his third
-    position into the fourth slot, which is why the empty tokens are dropped
-    *before* anything is numbered.
+#: Matches a known position at the *start* of a token. Longest name first,
+#: because Python's alternation takes the first branch that matches and
+#: "Small Forward" must not be read as a bare "Forward".
+_POSITION_AT_START = re.compile(
+    r"^("
+    + "|".join(
+        re.escape(name) for name in sorted(POSITION_CODES, key=len, reverse=True)
+    )
+    + r")\b",
+    flags=re.IGNORECASE,
+)
+
+
+def split_positions(value: str) -> list[str]:
+    """Return the positions named in a bio ``Position`` cell, in source order.
+
+    Two things make this stricter than splitting on the separator.
+
+    *Empty slots.* The cell sometimes holds an empty token, e.g. Paul George
+    is ``"Small Forward, Power Forward, , Shooting Guard"``. Numbering the
+    tokens without dropping the empty one pushes his third position into the
+    fourth slot, so empties go *before* anything is numbered.
+
+    *Cells that are not a position list at all.* When the scraper's selector
+    misses, it captures the player's entire bio paragraph instead - the real
+    position, then his height, birthplace, and a block of the page's own
+    JavaScript, all comma-separated. Every token is therefore required to
+    **begin with a position this project knows**: the genuine position at the
+    front is kept and the rest of the paragraph is discarded. Recognising the
+    value rather than trusting the cell is the same rule
+    :func:`parse_shooting_hand` applies to the ``Shoots`` cell.
     """
     if not isinstance(value, str):
         return []
-    tokens = (token.strip() for token in value.split(","))
-    return [token for token in tokens if token]
+    names: list[str] = []
+    for token in _POSITION_SEPARATORS.split(value):
+        match = _POSITION_AT_START.match(token.strip())
+        if match is not None:
+            names.append(match.group(1))
+    return names
 
 
-def position_code(name: str) -> str:
-    """Map a spelled-out position to its two-letter code, or pass it through."""
+def position_code(name: str) -> str | None:
+    """Map a spelled-out position to its short code, or ``None`` if unknown.
+
+    Returning ``None`` instead of the text itself is the point. The old
+    pass-through turned any unrecognised cell into a position: the bio pages
+    of pre-1980 players say "Forward", and that word travelled all the way
+    into ``player_positions.position_code``, a two-character column, where it
+    failed the database load with a width error that named neither the player
+    nor the real cause. A value this function does not recognise is missing
+    data, and missing data is what it now returns.
+    """
     if not isinstance(name, str):
-        return name
-    return POSITION_CODES.get(name.strip().lower(), name.strip())
+        return None
+    return POSITION_CODES.get(name.strip().lower())
 
 
 def parse_shooting_hand(value: str) -> str | None:

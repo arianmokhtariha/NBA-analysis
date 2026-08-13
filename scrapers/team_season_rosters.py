@@ -7,6 +7,14 @@ from the refactor (see `parse.py` docstring): one table, one call,
 scalar values, instead of ~10 hand-written selectors per column that
 each built a one-item list.
 
+Which team-seasons get scraped is decided by
+`teams.list_team_season_links`, not by whatever the season index page
+happens to link. It used to be the latter, and the difference is not
+cosmetic: the index links a team-season only for champions, so once
+the in-progress season ended, this file collapsed from every team to
+one champion per season, taking `player_bios` (which takes its player
+ids from this file) down with it.
+
 Run directly (`python -m scrapers.team_season_rosters`) to scrape and
 write data/raw/team_season_rosters.csv.
 """
@@ -21,9 +29,10 @@ import requests
 from bs4 import BeautifulSoup
 from tqdm import tqdm
 
+from scrapers.config import DEFAULT_SEASON_YEARS
 from scrapers.fetch import build_session, fetch_page
 from scrapers.parse import href_id, parse_stat_table
-from scrapers.teams import TeamLink, list_team_links
+from scrapers.teams import TeamLink, list_team_season_links
 
 logger = logging.getLogger(__name__)
 
@@ -78,12 +87,22 @@ def team_season_roster(
 
 
 def scrape(
-    session: requests.Session | None = None, max_teams: int | None = None
+    session: requests.Session | None = None,
+    season_years: range = DEFAULT_SEASON_YEARS,
+    include_champions: bool = True,
+    max_teams: int | None = None,
 ) -> pd.DataFrame:
-    """Scrape every team-season's roster into one DataFrame."""
+    """Scrape every team-season's roster into one DataFrame.
+
+    Covers all teams of every season in `season_years` plus every
+    champion in league history - see
+    :func:`scrapers.teams.list_team_season_links`.
+    """
     session = session or build_session()
     seen: set[str] = set()
-    links = list_team_links(session)
+    links = list_team_season_links(
+        session, season_years=season_years, include_champions=include_champions
+    )
     if max_teams is not None:
         links = links[:max_teams]
 

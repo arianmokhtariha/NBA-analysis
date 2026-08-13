@@ -16,6 +16,23 @@ python -m cleaning.verify    # deletes data/processed, rebuilds, checks integrit
 Verified on the current raw inputs: deleting `data/processed/` and rebuilding
 produces **all 11 files, byte-for-byte identical** on repeat runs.
 
+> ### ⚠️ Read the row counts as a historical record
+>
+> This is an **acceptance record**: it compares the old bootcamp output against
+> what the rewritten pipeline produced *at the moment it replaced it*. The
+> reasoning in every row below still holds, and every fix described is still in
+> the code.
+>
+> The **numbers on the right-hand side of each `->` are frozen at that
+> comparison** and no longer describe the current build — the scrape has since
+> been widened (many more bio pages, league-wide rosters, and the 2025-26
+> season), so `players` is now 1,985 rather than 1,989, `player_season_stats`
+> 5,758 rather than 5,025, and so on.
+>
+> **For current counts, always use [`data_dictionary.md`](data_dictionary.md)**,
+> which is re-read from the live database. Updating the figures here would
+> falsify the comparison this document exists to record.
+
 ---
 
 ## 1. Why the old output could not be trusted
@@ -104,10 +121,10 @@ won a title, so they appear in neither the bios nor the championship rosters.
 | Change | Why |
 | --- | --- |
 | **49 player names repaired** (`nikola jokiä` -> `Nikola Jokić`, `luka donäiä` -> `Luka Dončić`, `dennis schrã¶der` -> `Dennis Schröder`) | The scrape stored UTF-8 bytes that were then read as Latin-1 (mojibake). `fix_mojibake` re-encodes to Latin-1 and decodes as UTF-8, keeping the original string whenever that round-trip fails or is a no-op — so correct text is never damaged and the fix is safe to run twice. |
-| **`position_1 ... position_6` replaced by `player_positions(player_id, slot, position, position_code)`** | Two problems in one. (a) A repeating group of six columns is not normalised. (b) The slots were **misaligned**: the raw string contains an empty token, e.g. Paul George is `"Small Forward, Power Forward, , Shooting Guard"`, so his third position landed in slot 4. Old fill counts were `{1: 1175, 2: 424, 3: 3, 4: 38, 5: 2, 6: 1}` — slot 3 nearly empty while slot 4 had 38. New counts are `{1: 1175, 2: 424, 3: 40, 4: 3, 5: 1}`, same 1,643 position facts, correctly ordered. Empty tokens are now dropped *before* slots are numbered. |
-| **`primary_position` added** | Convenience copy of slot 1, as a two-letter code (`PG`/`SG`/`SF`/`PF`/`C`) so it joins to the season tables, which use codes rather than the bio page's spelled-out names. |
+| **`position_1 ... position_6` replaced by `player_positions(player_id, slot, position, position_code)`** | Two problems in one. (a) A repeating group of six columns is not normalised. (b) The slots were **misaligned**: the raw string contains an empty token, e.g. Paul George is `"Small Forward, Power Forward, , Shooting Guard"`, so his third position landed in slot 4. Old fill counts were `{1: 1175, 2: 424, 3: 3, 4: 38, 5: 2, 6: 1}` — slot 3 nearly empty while slot 4 had 38. New counts at acceptance were `{1: 1175, 2: 424, 3: 40, 4: 3, 5: 1}`, same 1,643 position facts, correctly ordered. Empty tokens are now dropped *before* slots are numbered. **Later hardened — see §4.1a.** |
+| **`primary_position` added** | Convenience copy of slot 1, as the short code the season tables use, so the two vocabularies join. **Seven codes, not five:** `PG`/`SG`/`SF`/`PF`/`C`, plus `G`/`F` for players the source lists only at that coarser pre-1980 grain. See §4.1a. |
 | **`age` column dropped** | It was `2025 - birthyear`, hard-coded in two places. Age is not an attribute of a person, and this one silently becomes wrong on 1 January. `birth_year`, `birth_month`, `birth_day` and `birth_date` are stored instead; correct per-season age already exists in `player_season_stats.age`. |
-| **`shoots`: `"right_left"` -> `"both"`, and three hard-coded row patches removed** | The old code patched `.loc[169]`, `.loc[235]` and `.loc[884]` by row number — which breaks the moment the source file is re-scraped in a different order. Those rows are real data problems: `plumlma01` and `thomptr01` are genuinely both-handed and the scrape captured `"\n Shoots:\n \nRight Left"`, and for `vildolu01` the selector missed and dumped a whole bio paragraph into the field. All three are now covered by one rule: look for the words *Right* and *Left*; both -> `both`, one -> that hand, neither -> NULL. Result: 1,066 right, 106 left, 2 both, 1 NULL (plus the 814 bio-less players). |
+| **`shoots`: `"right_left"` -> `"both"`, and three hard-coded row patches removed** | The old code patched `.loc[169]`, `.loc[235]` and `.loc[884]` by row number — which breaks the moment the source file is re-scraped in a different order. Those rows are real data problems: `plumlma01` and `thomptr01` are genuinely both-handed and the scrape captured `"\n Shoots:\n \nRight Left"`, and for `vildolu01` the selector missed and dumped a whole bio paragraph into the field. All three are now covered by one rule: look for the words *Right* and *Left*; both -> `both`, one -> that hand, neither -> NULL. Result: 1,066 right, 106 left, 2 both, 1 NULL (plus the 814 bio-less players). **Note:** in a later scrape that same `vildolu01` paragraph landed in the `Position` cell instead — same broken selector, different field. See §4.1a. |
 | **`draft_round` added; `draft_round_pick_rank`/`draft_overall_pick_rank` renamed to `draft_round_pick`/`draft_overall_pick`** | The round number was parsed away and discarded; `"1st round (10th pick 10th overall)"` carries three facts, not two. |
 | **`college` restored** | The old pipeline dropped it. It is also repaired: the scraper joined multi-word names with a comma (`"Arizona,State"` -> `"Arizona State"`, 349 rows) and wrote the literal word `"Colleges"` for the 169 players who never attended one, which is now NULL. |
 | **`nba_debut` (year) -> `nba_debut_date` + `nba_debut_year`** | The full date was in the source and was being thrown away. |
@@ -116,6 +133,39 @@ won a title, so they appear in neither the bios nor the championship rosters.
 | **`last_season_*` columns still excluded** | These describe whichever season happened to be most recent at scrape time. They are ambiguous and fully reproducible from `player_season_stats`. |
 | **Heights ±0.5 cm, weights up to ±0.7 kg different** | Height is now rounded to one decimal instead of whole centimetres, and pounds convert with the exact factor 0.45359237 instead of 0.453. |
 | **Names keep their real capitalisation** | The old pipeline lower-cased every text column, producing `"james harden"`. Only identifier columns (`player_id`, `team_id`) are lower-cased now — they are keys, so their case must be stable — while human-readable names keep their source spelling. |
+
+### 4.1a Position parsing, hardened after a failed database load
+
+Added after the original acceptance, when a widened scrape broke the load.
+
+`position_code()` used to fall back to passing text through unchanged when it
+did not recognise a position. That was silently wrong in two ways, and both
+surfaced at once when `player_positions.position_code` — a **two-character**
+column — was loaded into PostgreSQL:
+
+1. **Legitimate era-generic positions were unmapped.** Pre-1980 bio pages say
+   plain `Guard`, `Forward`, `Guard/Forward`. With no entry in the code map,
+   the literal word `"Forward"` was written to the column. 47 players.
+2. **A mangled scrape became data.** For `vildolu01` the bio selector missed
+   and captured the player's entire meta paragraph into the `Position` cell —
+   his height, birthplace, and a block of the page's JavaScript, all
+   comma-separated. He came out with eight "positions", among them `uniform`
+   and a `<script>` body.
+
+The load failed with `value too long for type character varying(2)`, an error
+naming neither the player nor the cause — and because `players` is the parent
+of five foreign keys, six further tables failed after it.
+
+| Change | Why |
+| --- | --- |
+| **`guard -> G` and `forward -> F` added to `POSITION_CODES`** | These are real positions, not vague ones: they are how the source lists the pre-five-position era, and `rosters.position_primary` already stored them that way. The database simply was not allowing the bio-derived columns to use a vocabulary it already held. |
+| **`split_positions` splits on `/` as well as `,`, and requires each token to *begin with a known position*** | One rule handles both problems. `"Guard/Forward"` becomes two properly numbered slots; the mangled paragraph collapses to the single real `Point Guard` at its front and the rest is discarded. This is the same principle `parse_shooting_hand` already applied to the `Shoots` cell: recognise the value, do not trust the cell. |
+| **`position_code` returns `None` for anything unrecognised** | Unrecognised text is missing data, and missing data is what it now returns. The old pass-through is what turned a bad scrape into a load failure several steps downstream instead of a visible gap at the point of cleaning. |
+| **`ck_players_primary_position` / `ck_player_positions_code` widened to seven codes** | `PG`, `SG`, `SF`, `PF`, `C`, `G`, `F`. Still a closed set, so the constraint keeps doing its job. |
+| **`cleaning/verify.py` gained a value-domain check** | Nothing in `verify` could see a value outside its vocabulary — every structural check passed and PostgreSQL found the problem three steps later. It now checks each categorical column against sets *imported* from `cleaning/normalize.py`, so the vocabulary has one definition and the check cannot drift from the code. |
+
+All 42 distinct `Position` cells in the raw bio file now resolve, and the whole
+pipeline loads with foreign keys enforced.
 
 ### 4.2 `team_lookup.csv` -> `teams.csv`
 
@@ -297,6 +347,6 @@ ported unchanged.
 
 `docs/schema.md` used to describe the old `data/data_clean/` tables and point
 at `data_analysis/data_preprocessing/01_data_cleaning_anoosha.py`, which this
-change deletes. It has since been rewritten against the 11 tables above, and
-now documents the `processed` schema as loaded into PostgreSQL. See also
-`docs/data_dictionary.md` for the `analyst_ready` marts built on top of it.
+change deletes. It has since been folded into `docs/data_dictionary.md`, which
+now documents both the `processed` schema as loaded into PostgreSQL and the
+`analyst_ready` analysis layer built on top of it.

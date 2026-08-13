@@ -17,16 +17,11 @@ import requests
 from bs4 import BeautifulSoup
 from tqdm import tqdm
 
+from scrapers.config import DEFAULT_SEASON_YEARS
 from scrapers.fetch import build_session, fetch_page
 from scrapers.parse import href_id, parse_stat_table
 
 logger = logging.getLogger(__name__)
-
-# The Phase 3 analysis only needs 2019-20 through 2023-24, but the
-# original scraper pulled a couple of extra seasons too; kept as one
-# overridable constant instead of the 7 independent hardcoded copies
-# the old Scraper.py had.
-DEFAULT_SEASON_YEARS: range = range(2019, 2027)
 
 TOTALS_URL = "https://www.basketball-reference.com/leagues/NBA_{year}_totals.html"
 OUTPUT_PATH = Path("data/raw/player_stats.csv")

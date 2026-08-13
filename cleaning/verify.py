@@ -5,7 +5,7 @@ From the repository root::
     python -m cleaning.verify
 
 It deletes ``data/processed`` outright, rebuilds it from ``data/raw``, and
-then prints five things:
+then prints six things:
 
 1. every expected file reappeared;
 2. orphan foreign keys per fact table (all must be 0 for the PostgreSQL
@@ -13,7 +13,9 @@ then prints five things:
 3. duplicate primary keys per table (all must be 0);
 4. every table against a minimum row count, which is the only check here
    that can catch an incomplete scrape - see :data:`MINIMUM_ROWS`;
-5. the rows-in / rows-out / rows-dropped audit table with the reason for
+5. every categorical column against the set of values it may hold - see
+   :data:`VALUE_DOMAINS`;
+6. the rows-in / rows-out / rows-dropped audit table with the reason for
    every drop.
 
 A short list of spot checks on the specific bugs this pipeline fixes is
@@ -27,7 +29,12 @@ from pathlib import Path
 
 import pandas as pd
 
-from cleaning.normalize import PROCESSED_DIR, RAW_DIR, read_table
+from cleaning.normalize import (
+    POSITION_SHORT_CODES,
+    PROCESSED_DIR,
+    RAW_DIR,
+    read_table,
+)
 from cleaning.run_all import build_all, print_report
 
 EXPECTED_TABLES: tuple[str, ...] = (
@@ -69,6 +76,39 @@ MINIMUM_ROWS: dict[str, int] = {
     "seasons": 68,
     "team_season_stats": 1439,
     "teams": 63,
+}
+
+#: table -> column -> every value that column is allowed to hold.
+#:
+#: The checks above are structural: they ask whether the rows agree with each
+#: other. None of them can see a value that is simply not a member of its
+#: vocabulary, and a categorical column with a foreign value is internally
+#: consistent right up until the database refuses it.
+#:
+#: That is not hypothetical. A scraper selector that missed put a player's
+#: whole bio paragraph in his position cell, and the word "Forward" (the
+#: source's spelling for a pre-1980 player) went straight into a two-character
+#: column. Every check here passed. PostgreSQL then failed the load with a
+#: column-width error naming neither the player nor the cause - and because
+#: players is the parent of five foreign keys, six further tables failed after
+#: it. Stating the vocabularies costs a few lines and moves that discovery
+#: back to the step that can actually fix it.
+#:
+#: The position sets are imported, not retyped, so the vocabulary has exactly
+#: one definition and this check cannot drift away from the cleaning code.
+VALUE_DOMAINS: dict[str, dict[str, frozenset[str]]] = {
+    "players": {
+        "primary_position": POSITION_SHORT_CODES,
+        "shoots": frozenset({"right", "left", "both"}),
+    },
+    "player_positions": {"position_code": POSITION_SHORT_CODES},
+    "player_season_stats": {"position": POSITION_SHORT_CODES},
+    "rosters": {
+        "position_primary": POSITION_SHORT_CODES,
+        "position_secondary": POSITION_SHORT_CODES,
+    },
+    "season_awards": {"league": frozenset({"NBA", "ABA", "BAA"})},
+    "mvp_winners": {"league": frozenset({"NBA", "ABA", "BAA"})},
 }
 
 #: table -> primary key columns
@@ -252,36 +292,93 @@ def check_row_volume(tables: dict[str, pd.DataFrame]) -> int:
     return short
 
 
+def check_value_domains(tables: dict[str, pd.DataFrame]) -> int:
+    """Print any value outside its column's vocabulary; return the total.
+
+    Missing values are not offences - most of these columns are legitimately
+    NULL - so only values that are present and unrecognised are counted. The
+    offending values are printed, because the whole point of running this
+    check here rather than at load time is to name what went wrong.
+    """
+    print("\n5. VALUE DOMAINS (all must be 0)")
+    print("-" * 70)
+    total = 0
+    for table_name, columns in VALUE_DOMAINS.items():
+        for column, allowed in columns.items():
+            values = tables[table_name][column].dropna().astype(str)
+            offenders = values[~values.isin(allowed)]
+            total += len(offenders)
+            label = f"{table_name}.{column}"
+            print(f"  {label:60s} {len(offenders):5d}")
+            for value, count in offenders.value_counts().head(3).items():
+                print(f"      not allowed: {value[:48]!r} x{count}")
+    print(f"  total values outside their domain: {total}")
+    return total
+
+
+def _raw_bios() -> pd.DataFrame:
+    """The raw bio file indexed by player id, ready for raw-vs-clean lookups."""
+    raw = read_table(RAW_DIR / "player_bios.csv")
+    raw["player_id"] = raw["player_id"].astype("string").str.strip().str.lower()
+    return raw.dropna(subset=["player_id"]).drop_duplicates("player_id").set_index(
+        "player_id"
+    )
+
+
 def spot_checks(tables: dict[str, pd.DataFrame]) -> None:
-    """Show the concrete bugs this pipeline fixes, on real rows."""
-    print("\n5. SPOT CHECKS ON THE FIXED BUGS")
+    """Show the concrete bugs this pipeline fixes, on real rows.
+
+    Every example below is *found in the data*, never named in the code.
+    The players that happen to illustrate a bug change with each scrape -
+    naming them here made this section crash on the first re-scrape that
+    dropped one of them.
+    """
+    print("\n7. SPOT CHECKS ON THE FIXED BUGS")
     print("-" * 70)
     players = tables["players"].set_index("player_id")
+    raw_bios = _raw_bios()
 
     print("  mojibake repaired (raw -> cleaned):")
-    raw_bios = read_table(RAW_DIR / "player_bios.csv").set_index("player_id")
-    for player_id in ("jokicni01", "doncilu01", "schrode01"):
-        raw_name = raw_bios.loc[player_id, "player_name"]
-        clean_name = players.loc[player_id, "player_name"]
-        print(f"    {player_id:12s} {raw_name!r} -> {clean_name!r}")
-
-    print("  position slots (Paul George: 3 real positions, no empty slot):")
-    positions = tables["player_positions"]
-    george = positions.loc[positions["player_id"] == "georgpa01"]
-    print(f"    raw: {raw_bios.loc['georgpa01', 'Position']!r}")
-    print(
-        "    slots: "
-        + ", ".join(
-            f"{row.slot}={row.position_code}" for row in george.itertuples()
+    shared = raw_bios.index.intersection(players.index)
+    raw_names = raw_bios.loc[shared, "player_name"]
+    clean_names = players.loc[shared, "player_name"]
+    repaired = shared[(raw_names != clean_names).to_numpy()]
+    print(f"    names changed by the repair: {len(repaired)}")
+    for player_id in repaired[:3]:
+        print(
+            f"    {player_id:12s} {raw_names[player_id]!r} -> "
+            f"{clean_names[player_id]!r}"
         )
-    )
+
+    print("  position slots (the players with the most positions):")
+    positions = tables["player_positions"]
+    slot_counts = positions.groupby("player_id")["slot"].max()
+    for player_id in slot_counts.nlargest(2).index:
+        slots = positions.loc[positions["player_id"] == player_id]
+        raw_value = (
+            raw_bios.loc[player_id, "Position"]
+            if player_id in raw_bios.index
+            else None
+        )
+        print(f"    {player_id:12s} raw: {raw_value!r}")
+        print(
+            "                 slots: "
+            + ", ".join(f"{row.slot}={row.position_code}" for row in slots.itertuples())
+        )
     counts = positions["slot"].value_counts().sort_index()
     print(f"    rows per slot: {counts.to_dict()}")
 
     print("  shooting hand derived by one regex rule (no row indices):")
-    for player_id in ("plumlma01", "thomptr01", "vildolu01"):
-        value = players.loc[player_id, "shoots"]
-        print(f"    {player_id:12s} -> {value!r}")
+    # The interesting cells are the malformed ones ("Shoots: Right Left", or a
+    # whole bio paragraph); a clean "Right" proves nothing.
+    raw_shoots = raw_bios["Shoots"].astype("string").str.strip()
+    messy = raw_shoots[~raw_shoots.isin(["Right", "Left"]) & raw_shoots.notna()]
+    print(f"    malformed source cells: {len(messy)}")
+    for player_id, raw_value in messy.head(3).items():
+        value = (
+            players.loc[player_id, "shoots"] if player_id in players.index else None
+        )
+        print(f"    {player_id:12s} {raw_value[:40]!r} -> {value!r}")
     print(f"    distribution: {tables['players']['shoots'].value_counts().to_dict()}")
 
     print("  'tot' handled as two different things:")
@@ -300,12 +397,14 @@ def spot_checks(tables: dict[str, pd.DataFrame]) -> None:
     )
 
     print("  traded players keep every stint:")
-    harris = stats.loc[
-        (stats["player_id"] == "harrito02") & (stats["season"] == 2019),
+    stint_counts = stats.groupby(["season", "player_id"])["stint"].count()
+    season, player_id = stint_counts.idxmax()
+    traded = stats.loc[
+        (stats["player_id"] == player_id) & (stats["season"] == season),
         ["season", "player_id", "stint", "is_primary", "team_id", "games_played",
          "points"],
     ]
-    print(harris.to_string(index=False).replace("\n", "\n    "))
+    print(traded.to_string(index=False).replace("\n", "\n    "))
 
     print("  one row per player-season is still available via is_primary:")
     for name in ("player_season_stats", "player_advanced_stats"):
@@ -323,9 +422,13 @@ def spot_checks(tables: dict[str, pd.DataFrame]) -> None:
         f"(has_bio={int(tables['players']['has_bio'].sum())}, "
         f"named={int(tables['players']['player_name'].notna().sum())})"
     )
-    for player_id in ("jordami01", "abdulka01", "birdla01", "johnsma02",
-                      "chambwi01"):
-        row = players.loc[player_id]
+    # Players with no bio page of their own are the point of this check: they
+    # are only known from a roster or an MVP listing, and they still get a row.
+    named_without_bio = players.loc[
+        ~players["has_bio"] & players["player_name"].notna()
+    ]
+    print(f"    named but never scraped a bio page: {len(named_without_bio)}")
+    for player_id, row in named_without_bio.head(5).iterrows():
         print(f"    {player_id:12s} {row['player_name']!r} has_bio={row['has_bio']}")
     print(
         f"    teams={len(tables['teams'])} "
@@ -348,19 +451,21 @@ def main() -> int:
     orphans = check_foreign_keys(tables)
     key_problems = check_primary_keys(tables)
     undersized = check_row_volume(tables)
+    bad_values = check_value_domains(tables)
 
-    print("\n5. ROW COUNTS (rows in -> rows out, with the reason for drops)")
+    print("\n6. ROW COUNTS (rows in -> rows out, with the reason for drops)")
     print("-" * 70)
     print_report(build_all().reports)
 
     spot_checks(tables)
 
     print("\n" + "=" * 70)
-    failures = missing + orphans + key_problems + undersized
+    failures = missing + orphans + key_problems + undersized + bad_values
     verdict = "PASS" if failures == 0 else "FAIL"
     print(
         f"{verdict}: missing files={missing}, orphan foreign keys={orphans}, "
-        f"primary-key problems={key_problems}, undersized tables={undersized}"
+        f"primary-key problems={key_problems}, undersized tables={undersized}, "
+        f"values outside their domain={bad_values}"
     )
     return 0 if failures == 0 else 1
 

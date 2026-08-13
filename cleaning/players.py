@@ -117,15 +117,26 @@ def _birth_frame(bios: pd.DataFrame) -> pd.DataFrame:
         },
         index=bios.index,
     )
-    parsed = pd.to_datetime(
-        {
-            "year": frame["birth_year"],
-            "month": frame["birth_month"],
-            "day": frame["birth_day"],
-        },
-        errors="coerce",
-    )
-    frame["birth_date"] = parsed.dt.strftime("%Y-%m-%d")
+    # A handful of old players have no birth date on their bio page at all.
+    # ``to_datetime`` cannot assemble a date from columns holding NA, so only
+    # the rows with all three parts are assembled; the rest stay empty.
+    complete = frame.notna().all(axis=1)
+    birth_date = pd.Series(pd.NA, index=frame.index, dtype="string")
+    if complete.any():
+        parsed = pd.to_datetime(
+            frame.loc[complete]
+            .rename(
+                columns={
+                    "birth_year": "year",
+                    "birth_month": "month",
+                    "birth_day": "day",
+                }
+            )
+            .astype("int64"),
+            errors="coerce",
+        )
+        birth_date.loc[complete] = parsed.dt.strftime("%Y-%m-%d")
+    frame["birth_date"] = birth_date
     return frame
 
 
@@ -155,16 +166,28 @@ def _draft_frame(bios: pd.DataFrame) -> pd.DataFrame:
 
 
 def _position_table(bios: pd.DataFrame) -> pd.DataFrame:
-    """Explode the bio position string into one row per player and slot."""
+    """Explode the bio position string into one row per player and slot.
+
+    Both output columns are ``not null`` in the database, so a name without a
+    code is skipped rather than written as a hole. :func:`split_positions`
+    already returns only recognised names, which leaves this as a guard: it
+    keeps the two functions independently correct instead of making this one
+    silently depend on the other's filtering.
+    """
     records: list[dict[str, object]] = []
     for player_id, raw_positions in zip(bios["player_id"], bios["position"]):
-        for slot, name in enumerate(split_positions(raw_positions), start=1):
+        slot = 0
+        for name in split_positions(raw_positions):
+            code = position_code(name)
+            if code is None:
+                continue
+            slot += 1
             records.append(
                 {
                     "player_id": player_id,
                     "slot": slot,
                     "position": name,
-                    "position_code": position_code(name),
+                    "position_code": code,
                 }
             )
     return pd.DataFrame.from_records(

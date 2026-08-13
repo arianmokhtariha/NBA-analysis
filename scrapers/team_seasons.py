@@ -21,9 +21,10 @@ import requests
 from bs4 import BeautifulSoup
 from tqdm import tqdm
 
+from scrapers.config import DEFAULT_SEASON_YEARS
 from scrapers.fetch import build_session, fetch_page
 from scrapers.parse import parse_meta_box
-from scrapers.teams import TeamLink, list_team_links
+from scrapers.teams import TeamLink, list_team_season_links
 
 logger = logging.getLogger(__name__)
 
@@ -70,12 +71,21 @@ def team_season_detail(
 
 
 def scrape(
-    session: requests.Session | None = None, max_teams: int | None = None
+    session: requests.Session | None = None,
+    season_years: range = DEFAULT_SEASON_YEARS,
+    include_champions: bool = True,
+    max_teams: int | None = None,
 ) -> pd.DataFrame:
-    """Scrape every team-season's "About" box into one DataFrame."""
+    """Scrape every team-season's "About" box into one DataFrame.
+
+    Same team-season coverage as the roster scraper - all teams of every
+    season in `season_years`, plus every champion ever.
+    """
     session = session or build_session()
     seen: set[str] = set()
-    links = list_team_links(session)
+    links = list_team_season_links(
+        session, season_years=season_years, include_champions=include_champions
+    )
     if max_teams is not None:
         links = links[:max_teams]
 
