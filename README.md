@@ -100,7 +100,6 @@ basketball/
 │
 ├── db_setup.py                  # Stage 3 — build `processed`, load the CSVs (slow, asks to confirm)
 ├── rebuild.py                   # Stage 4 — build `analyst_ready` from `processed` (fast)
-├── verify_db.py                 # checks the loaded database's structure and row counts
 ├── db_config.py                 # reads DB credentials from .env
 │
 ├── utils/
@@ -206,7 +205,6 @@ python rebuild.py
 That's the whole pipeline. To check the result:
 
 ```bash
-python verify_db.py       # checks the loaded database's structure
 python -m cleaning.verify # rebuilds data/processed/ from scratch and checks it
 ```
 
@@ -226,11 +224,12 @@ rather than "it worked once":
   keys, so nothing had to be relaxed to load it. (An earlier version of
   this project's database loader had to turn foreign-key checking off
   entirely to load the same data; that is no longer true.)
-- **`verify_db.py` checks the loaded database's structure**, not a
-  hard-coded list of expected numbers — it confirms every foreign key
-  actually resolves and every row count matches its source CSV. That means
-  it keeps working correctly after a future re-scrape changes the row
-  counts, and it exits with an error code so it can block a bad rebuild.
+- **`cleaning/verify.py` checks the data, not a hard-coded list of
+  expected numbers.** It deletes `data/processed/`, rebuilds it from
+  `data/raw/`, then confirms every foreign key resolves, every primary key
+  is unique, and no table came out implausibly small. It keeps working
+  after a re-scrape changes the row counts, and it exits with an error
+  code so it can block a bad build.
 - **Every analysis table's grain is a real primary key.** Each of the 13
   tables in `analyst_ready` states in a comment what one row of it means
   (e.g. "one row per player per season"); a Postgres primary key enforces
