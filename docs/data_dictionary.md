@@ -13,6 +13,13 @@ or `sql/analyst_ready/*.sql` ever disagree, the SQL is what shipped. Column
 types and row counts here were read from the live database and checked against
 the SQL that creates them.
 
+**Coverage: 1946-47 through 2025-26**, with the detailed stat tables spanning the
+eight seasons 2018-19 → 2025-26. Every count in this document was re-read from
+the database after the most recent scrape and load. Where a figure has changed
+enough that older notebooks may still assume the previous one, the old value is
+called out explicitly rather than quietly replaced — see convention 6, the
+`experience_seasons` note, and [the note on season windows](#one-thing-to-settle-before-you-query).
+
 ---
 
 ## Contents
@@ -100,6 +107,14 @@ questions — they correlate strongly with **height**. From smallest to tallest:
 | `PF` | Power forward | Plays closer to the hoop, rebounds, defends bigger opponents. | ~206 cm |
 | `C` | Centre | Tallest player. Protects the rim (blocks), dominates rebounds. | ~211 cm |
 
+**Two older codes also appear: `G` (guard) and `F` (forward).** The five-way
+split is modern; before roughly 1980 the league listed players simply as guard,
+forward or centre, and Basketball-Reference still writes them that way. So
+`players.primary_position` and `player_positions.position_code` carry seven
+values, not five — `G` and `F` on 47 historic players. They are a **coarser**
+label, not a missing one. The season and box-score tables only ever cover
+2018-19 onwards, so their `position` column is always one of the five.
+
 This is why the assignment's D3 question asks for a **point guard** when it
 wants "high basketball IQ" — that is genuinely the thinking position. And it is
 why comparing height distributions between two groups of players (D1, D2) is
@@ -140,9 +155,11 @@ He then has stats for two different teams in the same year. This one fact is
 responsible for the most complicated part of this database's design; see
 [convention 3](#part-2--seven-conventions-that-bite).
 
-**Two-way contract (`TW` in `rosters.roster_note`)** — a contract that splits a
-player's time between the NBA club and its minor-league affiliate. A marker of a
-fringe roster player.
+**Two-way contract (`TW`)** — a contract that splits a player's time between the
+NBA club and its minor-league affiliate. A marker of a fringe roster player.
+`rosters.roster_note` exists to hold this annotation, but **the current scrape
+captures none: the column is `NULL` on all 6,291 rows.** Read it as "not
+collected", never as "nobody is on a two-way contract."
 
 **Leagues** — `NBA` is the modern league. `BAA` was its original name
 (1946-1949). `ABA` was a rival league that ran 1967-1976 before merging into
@@ -173,7 +190,7 @@ flowchart LR
     RAW["data/raw/*.csv<br/><i>scraped, untouched</i>"]
     PROC["data/processed/*.csv<br/><i>cleaned in Python</i>"]
     S1[("processed<br/>11 tables")]
-    S2[("analyst_ready<br/>13 relations")]
+    S2[("analyst_ready<br/>5 relations")]
     NB["notebooks/"]
 
     BR -->|"scrapers/"| RAW
@@ -188,7 +205,7 @@ Two schemas, with deliberately different jobs:
 | Schema | What it is | Built by | When you use it |
 | --- | --- | --- | --- |
 | **`processed`** | The cleaned source data, one table per scraped CSV. Faithful, fully typed, fully constrained. Nothing is filtered or reshaped. | `python db_setup.py` (slow — it loads the data) | When you need the raw truth, the full 1947-2026 history, or a traded player's per-club splits. |
-| **`analyst_ready`** | Question-shaped tables built *from* `processed` — one relation per deliverable, plus shared dimensions. | `python rebuild.py` (fast, safe to re-run) | **Almost always.** This is what notebooks query. |
+| **`analyst_ready`** | Enriched, de-duplicated facts built *from* `processed`, plus shared dimensions. General-purpose: no question has a table of its own. | `python rebuild.py` (fast, safe to re-run) | **Almost always.** This is what notebooks query. |
 
 `rebuild.py` never touches `processed` and loads no data, so you can iterate on
 `analyst_ready` all day without reloading anything.
@@ -262,33 +279,39 @@ flowchart TD
     sa --> ds
     mw --> ds
 
-    dp --> psn["player_season<br/><b>the wide base fact</b>"]
+    dp --> psn["player_season<br/><b>one row per player-season</b>"]
     dt --> psn
     ds --> psn
     bx --> psn
     ad --> psn
     ts --> psn
+    mc --> psn
+    mw --> psn
 
-    psn --> d1["d1_height_sample"]
-    mc --> d1
-    psn --> d2["d2_champion_vs_top15"]
-    ro --> d2
-    psn --> d3["d3_point_guard_candidates"]
-    mc --> d3
-    psn --> h1["h1_agility"]
-    psn --> h2["h2_innate_ability"]
-    ro --> h2
-    psn --> ba["bonus_availability"]
-    mc --> ba
-    mw --> ba
-    psn --> bs["bonus_superstar_tax"]
-    psn --> bd["bonus_draft_picks"]
-    ts --> bf["bonus_team_four_factors"]
+    dt --> tsn["team_season<br/><b>one row per team-season</b>"]
+    ds --> tsn
+    ts --> tsn
+
+    psn --> Q["your queries<br/><i>notebooks, ad-hoc SQL</i>"]
+    tsn --> Q
+    ro --> Q
+    dp --> Q
 ```
 
-The shape to notice: **`player_season` is the hinge.** One join, written once,
-that every question mart is then a filter or an aggregate of. That is what stops
-two notebooks quietly using two different definitions of "a player-season."
+**Two wide facts and three dimensions — that is the whole layer.** Each fact is
+one join written once, so "what counts as a player-season" is decided in exactly
+one place and two notebooks cannot quietly disagree about it.
+
+**No question has a table here.** An earlier version of this schema carried one
+relation per deliverable (`d1_height_sample`, `h1_agility`, and so on); those
+have been removed. A question baked into a schema hides its own assumptions —
+"top 50 scorers" becomes an invisible row filter, and the next question that
+wants a different cut has nowhere to go. Questions are asked *of* this layer, in
+the notebook that owns them. The register of what we ask is
+[`analysis_questions.md`](analysis_questions.md).
+
+Note the last arrow: `processed.rosters` is queried **directly**. It holds the
+authoritative per-season experience figure, which nothing upstream flattens.
 
 ### Every relation at a glance
 
@@ -297,34 +320,42 @@ two notebooks quietly using two different definitions of "a player-season."
 | Table | Rows | One row is… | Covers |
 | --- | ---: | --- | --- |
 | `teams` | 75 | one franchise (or franchise era) | all NBA/BAA/ABA history |
-| `players` | 1,989 | one player | everyone referenced anywhere |
+| `players` | 1,985 | one player | everyone referenced anywhere |
 | `seasons` | 80 | one season | 1946-47 → 2025-26 |
-| `player_positions` | 1,643 | one listed position for one player | the 1,175 players with a bio |
-| `season_awards` | 88 | one season in one league | 1946-47 → 2024-25 |
-| `rosters` | 1,873 | one player on one team in one season | champions' rosters + all of 2025-26 |
-| `player_season_stats` | 5,025 | one player-season **stint** | 2018-19 → 2024-25 |
-| `player_advanced_stats` | 5,025 | the same stint, advanced metrics | 2018-19 → 2024-25 |
+| `player_positions` | 2,776 | one listed position for one player | the 1,981 players with a bio |
+| `season_awards` | 89 | one season in one league | 1946-47 → 2025-26 |
+| `rosters` | 6,291 | one player on one team in one season | champions only to 2017-18; all 30 clubs 2018-19 → 2025-26 |
+| `player_season_stats` | 5,758 | one player-season **stint** | 2018-19 → 2025-26 |
+| `player_advanced_stats` | 5,758 | the same stint, advanced metrics | 2018-19 → 2025-26 |
 | `team_season_stats` | 1,693 | one team-season | 1949-50 → 2025-26 |
-| `mvp_winners` | 70 | one season's MVP | 1955-56 → 2024-25 |
-| `mvp_candidates` | 85 | one player on one MVP ballot | 2018-19 → 2024-25 |
+| `mvp_winners` | 71 | one season's MVP | 1955-56 → 2025-26 |
+| `mvp_candidates` | 93 | one player on one MVP ballot | 2018-19 → 2025-26 |
 
-**`analyst_ready` — 13 relations**
+**`analyst_ready` — 5 relations**
 
-| Relation | Kind | Rows | One row is… | Answers |
-| --- | --- | ---: | --- | --- |
-| `dim_player` | view | 1,989 | one player | (shared dimension) |
-| `dim_team` | view | 75 | one franchise | (shared dimension) |
-| `dim_season` | view | 80 | one season | (shared dimension) |
-| `player_season` | table | 3,884 | one player-season, 2018-19 → 2024-25 | (shared base fact) |
-| `d1_height_sample` | table | 311 | one player, in one season, in one group | **D1** — height: MVP ballot vs. top-50 scorers |
-| `d2_champion_vs_top15` | table | 68 | one player, in one season, in one group | **D2** — champion roster vs. top-15 scorers |
-| `d3_point_guard_candidates` | table | 13 | one point guard | **D3** — which point guard should the club buy? |
-| `h1_agility` | table | 80 | one player, in one season | **H1** — has the top 20's "agility" increased? |
-| `h2_innate_ability` | table | 73 | one champion-roster player, in one season | **H2** — has champions' "innate ability" increased? |
-| `bonus_availability` | table | 3,884 | one player-season | **Bonus** — how much of the season do stars actually play? |
-| `bonus_superstar_tax` | table | 70 | one player-season | **Bonus** — does efficiency fall as usage rises? |
-| `bonus_team_four_factors` | table | 210 | one team-season | **Bonus** — Dean Oliver's four factors |
-| `bonus_draft_picks` | table | 188 | one player | **Bonus** — are picks 1-5 better than 6-10? |
+| Relation | Kind | Rows | One row is… |
+| --- | --- | ---: | --- |
+| `dim_player` | view | 1,985 | one player |
+| `dim_team` | view | 75 | one franchise |
+| `dim_season` | view | 80 | one season |
+| `player_season` | table | 4,466 | one player-season, 2018-19 → 2025-26 |
+| `team_season` | table | 1,693 | one team-season, 1949-50 → 2025-26 |
+
+That is the whole layer, and deliberately so. It holds no question-specific
+tables: see [the note above](#how-analyst_ready-is-derived) and
+[`analysis_questions.md`](analysis_questions.md).
+
+#### One thing to settle before you query
+
+The database now carries **2025-26 as a complete season** — 82 games, champion
+New York. It did not exist when this project's questions were first written, so
+any question phrased **"the last two seasons"** now means **2024-25 and 2025-26**
+(Oklahoma City, then New York), not the pair the original analysis used.
+
+That is a decision, not a bug: moving the window changes published findings.
+Decide per question whether to re-run against the newest season or to freeze the
+window deliberately — and say which. `analysis_questions.md` is where that
+choice gets recorded.
 
 ---
 
@@ -353,8 +384,8 @@ consequence of convention 2, and the one that most often double-counts:
 | Traded once, mid-season | 3 rows — `stint = 0` (combined, `team_id = 'tot'`, `is_primary = true`), `stint = 1` (first club), `stint = 2` (second club) |
 
 `is_primary` marks exactly one row per player-season: the combined row where one
-exists, otherwise the player's only row. `where is_primary` collapses 5,025 rows
-to **3,884**, one per player-season. There are 551 `tot` rows.
+exists, otherwise the player's only row. `where is_primary` collapses 5,758 rows
+to **4,466**, one per player-season. There are 623 `tot` rows.
 
 `analyst_ready.player_season` has already applied this filter — which is one
 reason to work there rather than in `processed`. If you genuinely need the
@@ -380,18 +411,26 @@ checking this is the most common way to get a chart that is wrong by 100×.**
 more than a two — so there is no mathematical ceiling at "100%". Expected, not an
 error. See the [glossary](#part-5--glossary-of-the-advanced-statistics).
 
-**6. 814 of the 1,989 players have no bio data.** They are real players that a
-roster, a box score or an MVP award refers to, but whose individual bio page was
-never scraped — so they have **no height, weight, birth date or draft
-information anywhere in this database.** `has_bio` tells the two apart. Michael
-Jordan is one of them: present, named, five MVPs on record, every bio column
-`NULL`.
+**6. 4 of the 1,985 players have no bio data — and `has_bio` still matters.**
+A player row exists for everyone a roster, a box score or an MVP award refers to.
+Where the individual bio page was also scraped, `has_bio` is `true` and the
+height, weight, birth date and draft columns are populated. Where it was not,
+every one of those columns is `NULL` and a check constraint enforces it.
 
-They were kept rather than deleted so that the foreign keys could be genuinely
-enforced instead of switched off, and so that no MVP winner silently vanishes.
-None of the 814 reach an MVP ballot or a top-50 scoring finish in the window this
-project studies, so no analysis here is missing a height because of it — but
-**any query that averages or filters by height should check `has_bio` first.**
+The bio scrape now reaches **1,981 of 1,985 players**, so this is a far smaller
+caveat than it once was: the four exceptions are early MVP winners (`barklch01`,
+`iversal01`, `malonka01`, `nashst01`) whose names appear nowhere in the raw data
+at all. They are kept rather than deleted so the foreign keys can be genuinely
+enforced instead of switched off, and so no MVP winner silently vanishes.
+
+> **This changed.** An earlier build had only 1,175 bio pages and 814 id-only
+> players — Michael Jordan among them. He now has a full bio (`SG`, 198.1 cm,
+> drafted 1984), and nothing is missing a height. **Any notebook that works
+> around absent heights by filtering `has_bio` is now filtering out four
+> nameless rows and nothing else.**
+
+Keep checking `has_bio` before averaging heights anyway — it is the honest guard,
+and the next re-scrape may not reach as far.
 
 **7. `rank` / `points_rank` is a SCORING rank, not a league standing.** Wherever
 this project says "the top 50 players of the season," it means the 50 highest
@@ -417,37 +456,38 @@ Primary key `team_id`.
 | `is_aggregate` | boolean | no | `true` **only for `tot`** — the traded-player season total (convention 2). Never a real club. |
 | `has_detail` | boolean | no | `true` when the team has at least one row in `team_season_stats` (68 of 75). The seven without are six ABA clubs known only from championship rosters, plus `tot`. |
 
-#### `players` — every player referenced anywhere (1,989 rows)
+#### `players` — every player referenced anywhere (1,985 rows)
 
-Primary key `player_id`. **1,175 have a scraped bio page; 814 do not** — see
-convention 6. Every attribute column below is `NULL` for those 814, and a check
+Primary key `player_id`. **1,981 have a scraped bio page; 4 do not** — see
+convention 6. Every attribute column below is `NULL` for those 4, and a check
 constraint enforces it.
 
 | Column | Type | Null? | Meaning |
 | --- | --- | --- | --- |
 | `player_id` | varchar(12) | no | Basketball-Reference's player code — surname, forename, sequence number (`jordami01` = Michael Jordan). **PK** |
-| `player_name` | text | yes | `NULL` for four MVP winners whose name appears nowhere in the raw data (`barklch01`, `iversal01`, `malonka01`, `nashst01`). |
-| `has_bio` | boolean | no | `true` when the bio page was scraped. **All columns below are `NULL` when this is `false`.** |
-| `primary_position` | varchar(2) | yes | Career-level position: `PG`/`SG`/`SF`/`PF`/`C`. Same as slot 1 of `player_positions`, duplicated here for convenience. |
+| `player_name` | text | yes | `NULL` for the same four MVP winners whose name appears nowhere in the raw data (`barklch01`, `iversal01`, `malonka01`, `nashst01`) — the only four without a bio. |
+| `has_bio` | boolean | no | `true` when the bio page was scraped — 1,981 of 1,985. **All columns below are `NULL` when this is `false`.** |
+| `primary_position` | varchar(2) | yes | Career-level position. Usually one of `PG`/`SG`/`SF`/`PF`/`C`, but **`G` or `F` for 47 pre-1980 players** the source lists only at that coarser grain (Part 0). Same as slot 1 of `player_positions`, duplicated here for convenience. Distribution: SG 491, SF 400, PG 361, PF 349, C 333, F 26, G 21, `NULL` 4. |
 | `shoots` | varchar(8) | yes | Shooting hand: `right`, `left` or `both`. Ambidextrous shooters are genuinely rare and worth noting — left-handers are also a known tactical wrinkle, since defences are drilled against right-handers. |
 | `height_cm` | numeric(5,1) | yes | Height in centimetres. The source publishes feet-and-inches; this is the converted value. |
 | `weight_kg` | numeric(5,1) | yes | Weight in kilograms, converted from pounds. |
 | `birth_year`, `birth_month`, `birth_day` | integer | yes | The source's three separate fields. |
 | `birth_date` | date | yes | The same fact as one date. Both forms kept; they always agree. |
-| `college` | text | yes | The US university he played for before turning professional — the traditional route into the NBA. `NULL` for the 169 players (with a bio) who never attended one: international players and those who went straight from high school. |
+| `college` | text | yes | The US university he played for before turning professional — the traditional route into the NBA. `NULL` for the 219 players (with a bio) who never attended one: international players and those who went straight from high school. |
 | `experience_seasons` | integer | yes | Total NBA seasons played **as of the scrape** — a career snapshot, not a per-season figure. For "how experienced was he *during* season X," use `player_season.experience_seasons` or `rosters.experience_seasons` instead. |
 | `nba_debut_date` | date | yes | Date of his first NBA game. |
 | `nba_debut_year` | integer | yes | The same, as a year. |
 | `draft_year` | integer | yes | The year he was drafted (his "draft class"). |
 | `draft_team_name` | text | yes | The drafting club as **free text — not a `team_id`**. The source names the club as it was called on draft night, which often no longer maps to a current franchise code. |
-| `draft_round` | integer | yes | 1 or 2. `NULL` for the 424 **undrafted** players (of those with a bio) — nobody selected them. |
+| `draft_round` | integer | yes | 1 or 2. `NULL` for the 579 **undrafted** players (of those with a bio) — nobody selected them. |
 | `draft_round_pick` | integer | yes | Position within that round. |
 | `draft_overall_pick` | integer | yes | Position overall — **1 means first player taken in the world that year.** This is what defines "top-10 pick" in the bonus draft analysis. |
 
-**Career totals from the bio page** — present for only **569** players, because
-the source shows this summary block on some bio pages and not others. All of
-these are **career-to-date as of the scrape**, and the percentages here are on a
-**0-100 scale**.
+**Career totals from the bio page** — present for **1,980** of the 1,981 players
+with a bio. (An earlier, thinner scrape reached only 569, so anything written
+against that build treats this block as sparse; it is now effectively universal.)
+All of these are **career-to-date as of the scrape**, and the percentages here
+are on a **0-100 scale**.
 
 | Column | Type | Null? | Meaning |
 | --- | --- | --- | --- |
@@ -472,27 +512,31 @@ including the very early seasons that have rosters but no other data.
 | `season` | integer | no | Ending year. `2025` = the 2024-25 season. **PK** |
 | `season_label` | varchar(8) | no | `'2024-25'`, for display. |
 | `start_year` | integer | no | Always `season - 1`; a check constraint enforces it. |
-| `has_awards` | boolean | no | `true` when the season has a row in `season_awards` (79 of 80). |
+| `has_awards` | boolean | no | `true` when the season has a row in `season_awards`. **Currently `true` for all 80**, so it separates nothing today — kept because the awards page and the season list are scraped separately and have disagreed before. |
 
 ### Children of the dimensions
 
-#### `player_positions` — the positions a player is listed at (1,643 rows)
+#### `player_positions` — the positions a player is listed at (2,776 rows)
 
-Primary key `(player_id, slot)`. Foreign key `player_id → players`.
+Primary key `(player_id, slot)`. Foreign key `player_id → players`. Covers all
+1,981 players with a bio.
 
 Many players are listed at more than one position, because modern basketball is
 positionally fluid — a tall guard may play three different roles depending on
 who else is on court. This table holds one row per position instead of six
 repeating columns.
 
+Rows per slot: **1 → 1,981** (everyone), 2 → 737, 3 → 54, 4 → 3, 5 → 1. So about
+37% of players carry a second position and almost nobody carries a fourth.
+
 | Column | Type | Null? | Meaning |
 | --- | --- | --- | --- |
 | `player_id` | varchar(12) | no | **PK**, FK → `players` |
 | `slot` | integer | no | `1` = primary position, `2` = secondary, and so on. **PK** |
 | `position` | varchar(16) | no | Spelled out as the bio page writes it: `Point Guard`. |
-| `position_code` | varchar(2) | no | The same position as `PG`/`SG`/`SF`/`PF`/`C`, so it joins to the season tables. |
+| `position_code` | varchar(2) | no | The short code, so it joins to `player_season_stats.position`. Seven values: SG 681, SF 579, PF 561, PG 458, C 437, **F 34, G 26**. The `F`/`G` rows are pre-1980 players (Part 0) who predate the season tables entirely, so they correctly join to nothing there. |
 
-#### `season_awards` — champion and statistical leaders per season (88 rows)
+#### `season_awards` — champion and statistical leaders per season (89 rows)
 
 Primary key `(season, league)`. Foreign keys `season → seasons`,
 `champion_team_id → teams`.
@@ -503,8 +547,8 @@ champions in the same year — one NBA, one ABA.
 | Column | Type | Null? | Meaning |
 | --- | --- | --- | --- |
 | `season` | integer | no | **PK**, FK → `seasons` |
-| `league` | varchar(4) | no | `NBA`, `ABA` or `BAA`. **PK** |
-| `champion_team_id` | varchar(4) | no | The club that won the Finals that season, as a real `team_id`. Never `NULL` — all 88 resolve. FK → `teams` |
+| `league` | varchar(4) | no | `NBA` (77 rows, 1949-50 → 2025-26), `ABA` (9, 1967-68 → 1975-76) or `BAA` (3, 1946-47 → 1948-49). **PK** |
+| `champion_team_id` | varchar(4) | no | The club that won the Finals that season, as a real `team_id`. Never `NULL` — all 89 resolve. FK → `teams` |
 | `rookie_of_the_year` | text | yes | Best first-year player. ⚠️ **Display text, not a key** — the source gives only an abbreviated name (`"S. Castle"`), which cannot be safely matched to a player. |
 | `most_points` | text | yes | Season scoring leader. Display text. |
 | `most_rebounds` | text | yes | Season rebounding leader. Display text. |
@@ -516,15 +560,21 @@ champions in the same year — one NBA, one ABA.
 
 ### Facts
 
-#### `rosters` — who was on which squad (1,873 rows)
+#### `rosters` — who was on which squad (6,291 rows)
 
 Primary key `(season, team_id, player_id)`. Foreign keys to all three dimensions.
 
-**Read this before using the table.** It is *not* a league-wide roster history.
-The scrape collected **the champion team's roster for every season from 1946-47
-onwards** (both champions in the ABA seasons), **plus all 30 rosters of the
-current 2025-26 season.** So "average height per team per season" from this table
-answers a question about champions, not about the league.
+**Read this before using the table — its coverage is deliberately uneven:**
+
+| Seasons | Teams per season | What you get |
+| --- | ---: | --- |
+| 1946-47 → 2017-18 | 1 | The **champion only** (both champions in the nine ABA seasons) |
+| 2018-19 → 2025-26 | 30 | **Every club** |
+
+So the table is league-wide over exactly the eight seasons the stat tables cover,
+and champions-only before that. "Average height per team per season" is a
+question about the whole league from 2018-19 on, and a question about *champions*
+before it. Slicing across the boundary without noticing is the easy mistake.
 
 Its unique value: it is the only place with an **authoritative per-season
 experience figure**, which is what H2 is built on.
@@ -535,23 +585,24 @@ experience figure**, which is what H2 is built on.
 | `team_id` | varchar(4) | no | **PK**, FK → `teams` |
 | `player_id` | varchar(12) | no | **PK**, FK → `players` |
 | `player_name` | text | no | Name as printed on the roster page. |
-| `roster_note` | varchar(8) | yes | The annotation the source appends to a name — `TW` marks a **two-way contract** (split between the NBA club and its minor-league affiliate). `NULL` for 1,793 of 1,873 entries. |
+| `roster_note` | varchar(8) | yes | Intended for the annotation the source appends to a name — `TW` marks a **two-way contract**. ⚠️ **`NULL` on all 6,291 rows**: the pages this scrape reads carry no annotations. Read as "not collected", not as "none exist". |
 | `position` | varchar(4) | no | As printed on the roster page, which uses looser codes than the stat pages: `G` (guard), `F` (forward), `C`, or hyphenated combinations like `F-C`. |
-| `position_primary` | varchar(2) | no | First position parsed out of that string. |
+| `position_primary` | varchar(2) | no | First position parsed out of that string — `PG`/`SG`/`SF`/`PF`/`C`/`G`/`F`. |
 | `position_secondary` | varchar(2) | yes | Second position; `NULL` when he is listed at only one. |
-| `height_cm` | numeric(5,1) | no | Centimetres. Verified identical to the bio-page height for all 615 overlapping rows. |
-| `weight_kg` | numeric(5,1) | yes | Kilograms; missing for 96 older entries. |
+| `height_cm` | numeric(5,1) | no | Centimetres. Verified identical to the bio-page height for **all 6,291 rows** — the two independent sources agree completely. |
+| `weight_kg` | numeric(5,1) | yes | Kilograms. Present on every row. |
 | `birth_date` | date | yes | Missing for one entry. |
 | `birth_country` | varchar(2) | no | Two-letter country code, parsed from the flag icon the source shows — this is the **nationality** field. The NBA has become heavily international; recent MVPs have come from Greece, Serbia, Cameroon and Slovenia. |
 | `experience_seasons` | integer | no | Seasons of NBA experience **before this one**. **`0` means rookie** (the source writes `R`). This is the authoritative per-season figure. |
-| `college` | text | yes | Missing for 165 entries. |
+| `college` | text | yes | Missing for 735 entries. |
 
-#### `player_season_stats` — season box-score totals per player (5,025 rows)
+#### `player_season_stats` — season box-score totals per player (5,758 rows)
 
 Primary key `(season, player_id, stint)`. Foreign keys `season → seasons`,
 `player_id → players`, `team_id → teams`.
 
-Seasons 2018-19 through 2024-25. **These are season TOTALS, not per-game
+Seasons 2018-19 through 2025-26 — eight seasons, between 651 and 812 stint rows
+each. **These are season TOTALS, not per-game
 averages** — divide by `games_played` yourself, or use `analyst_ready.player_season`,
 which has already done it. Read convention 3 on `stint` before querying.
 
@@ -565,18 +616,18 @@ which has already done it. Read convention 3 on `stint` before querying.
 | `rank` | integer | no | The source page's display order — which is the **ranking by total points scored** (convention 7). |
 | `age` | integer | no | Age **during that season**. The only correct age for a per-season comparison. |
 | `position` | varchar(2) | no | Position actually played **that season**. May differ from `players.primary_position`, which is career-level. |
-| `games_played` | integer | no | Games he appeared in, out of a maximum of 82 (75 in 2019-20, 72 in 2020-21). |
+| `games_played` | integer | no | Games he appeared in, out of a maximum of 82 (75 in 2019-20, 72 in 2020-21 — both COVID-shortened). |
 | `games_started` | integer | no | Of those, how many he started rather than coming off the bench — a status marker. Never exceeds `games_played` (enforced). |
 | `minutes_played` | integer | no | Total minutes on court across the season. |
 | `field_goals_made` / `_attempted` | integer | no | **Shots from open play — twos and threes combined.** Free throws excluded. Made never exceeds attempted (enforced, all four shot types). |
-| `field_goal_pct` | numeric(5,3) | yes | 0-1 fraction. ⚠️ **`NULL`, not `0`, when he took no shots of that kind** — zero attempts has no percentage. |
+| `field_goal_pct` | numeric(5,3) | yes | 0-1 fraction. ⚠️ **`NULL`, not `0`, when he took no shots of that kind** — zero attempts has no percentage. `NULL` for 43 rows. |
 | `three_pointers_made` / `_attempted` | integer | no | Shots from beyond the arc. Volume here has exploded league-wide since ~2015; it is the defining tactical shift of the modern game. |
-| `three_point_pct` | numeric(5,3) | yes | 0-1 fraction; `NULL` for 304 rows with no attempts. |
+| `three_point_pct` | numeric(5,3) | yes | 0-1 fraction; `NULL` for 355 rows with no attempts. |
 | `two_pointers_made` / `_attempted` | integer | no | Shots inside the arc. Always equals field goals minus three-pointers. |
 | `two_point_pct` | numeric(5,3) | yes | 0-1 fraction. Higher than 3P% for almost everyone, since the shot is closer. |
 | `effective_fg_pct` | numeric(5,3) | yes | [eFG%](#efg--effective-field-goal-percentage) — field-goal percentage weighted for a three being worth more than a two. **Can exceed 1.0.** |
 | `free_throws_made` / `_attempted` | integer | no | Unguarded shots awarded after a foul, worth 1 point each. |
-| `free_throw_pct` | numeric(5,3) | yes | 0-1 fraction; `NULL` for 340 rows. |
+| `free_throw_pct` | numeric(5,3) | yes | 0-1 fraction; `NULL` for 371 rows. |
 | `offensive_rebounds` | integer | no | Rebounds of his **own team's** misses — each one is a fresh possession, so they are scarce and valuable. |
 | `defensive_rebounds` | integer | no | Rebounds of the **opponent's** misses — routine, and far more numerous. |
 | `total_rebounds` | integer | no | The two added together. Always equals `offensive + defensive`. |
@@ -588,7 +639,7 @@ which has already done it. Read convention 3 on `stint` before querying.
 | `points` | integer | no | Total points scored. |
 | `triple_doubles` | integer | no | Games with 10+ in three box-score categories — the marker of all-round dominance (Part 0). Zero for most players. |
 
-#### `player_advanced_stats` — the same stints, derived metrics (5,025 rows)
+#### `player_advanced_stats` — the same stints, derived metrics (5,758 rows)
 
 Primary key `(season, player_id, stint)`. Foreign key
 `(season, player_id, stint) → player_season_stats`, plus the three dimension keys.
@@ -621,7 +672,7 @@ Full explanations of what each metric measures are in
 | `assist_percentage` | numeric(5,1) | no | [AST%](#rebound-assist-steal-block-and-turnover-percentages) — share of his teammates' baskets that he assisted while on court, 0-100. Point guards dominate this. |
 | `steal_percentage` | numeric(5,1) | no | STL% — share of opponent possessions he ended with a steal, 0-100. |
 | `block_percentage` | numeric(5,1) | no | BLK% — share of opponent two-point attempts he blocked, 0-100. Centres dominate this. |
-| `turnover_percentage` | numeric(5,1) | yes | TOV% — turnovers per 100 possessions he used. **Lower is better.** `NULL` for 33 rows. |
+| `turnover_percentage` | numeric(5,1) | yes | TOV% — turnovers per 100 possessions he used. **Lower is better.** `NULL` for 35 rows. |
 | `usage_percentage` | numeric(5,1) | no | [USG%](#usg--usage-percentage) — share of his team's possessions he finished while on court. **20% is exactly average** (five players share 100%); 30%+ marks a primary option. |
 | `offensive_win_shares` | numeric(5,1) | no | Wins credited to his offence. **Can be negative.** |
 | `defensive_win_shares` | numeric(5,1) | no | Wins credited to his defence. |
@@ -636,22 +687,31 @@ Full explanations of what each metric measures are in
 
 Primary key `(season, team_id)`. Foreign keys `season → seasons`, `team_id → teams`.
 
-Seasons 1949-50 through 2025-26. The same box-score columns as the player table,
-aggregated to the club. **Two traps:**
+Seasons 1949-50 through 2025-26, NBA clubs only (the ABA teams appear in
+`teams` and `rosters` but have no season totals). The same box-score columns as
+the player table, aggregated to the club. **Two things to know:**
 
-1. **The 30 rows for 2025-26 have `games = 0`** — the season has not been played
-   yet. Always `where games > 0` before averaging over team-seasons.
+1. **Every season here has now been played.** All 30 rows of 2025-26 carry a
+   full 82 games, and no row anywhere has `games = 0`. Earlier builds kept the
+   newest season as a `games = 0` placeholder, so older notebooks may still
+   open with `where games > 0` — that filter is now a harmless no-op rather
+   than a necessary correction.
 2. **`NULL` marks an era, not a gap in the scrape.** The league simply did not
    record every statistic from the start — steals and blocks were not official
    until 1973-74, and the three-point line did not exist until 1979-80:
 
-   | Column | First season with complete data |
-   | --- | --- |
-   | `total_rebounds` | 1950-51 |
-   | `minutes_played` | 1964-65 |
-   | `turnovers` | 1970-71 (one lone team has it in each of the two seasons before) |
-   | `offensive_rebounds`, `defensive_rebounds`, `steals`, `blocks` | 1973-74 |
-   | `three_pointers_made` / `_attempted` / `three_point_pct` | 1979-80 |
+   | Column | League-wide from | Stray earlier rows |
+   | --- | --- | --- |
+   | `total_rebounds` | 1950-51 | — |
+   | `minutes_played` | 1964-65 | — |
+   | `turnovers` | 1970-71 | one club in each of 1968-69, 1969-70 |
+   | `steals`, `blocks` | 1973-74 | one club in 1970-71, two in 1971-72 and 1972-73 |
+   | `offensive_rebounds`, `defensive_rebounds` | 1973-74 | — |
+   | `three_pointers_made` / `_attempted` / `three_point_pct` | 1979-80 | — |
+
+   ⚠️ Those stray rows are why **`min(season) where col is not null` is the wrong
+   way to find when a statistic starts** — it returns 1970-71 for steals. Test
+   completeness per season (`count(*) = count(col)`) instead.
 
    One further row (`blb`, 1954-55) has no statistics at all — the franchise
    folded mid-season. It is the only `NULL` in columns like `points` and `games`.
@@ -661,23 +721,23 @@ aggregated to the club. **Two traps:**
 | `season` | integer | no | **PK**, FK → `seasons` |
 | `team_id` | varchar(4) | no | **PK**, FK → `teams` |
 | `rank` | integer | no | The source page's display rank within the season — again a **scoring** order, not a standing (convention 7). |
-| `games` | integer | yes | Games played. `0` = season not yet played. |
+| `games` | integer | yes | Games played. `NULL` only for `blb` 1954-55; `0` is permitted by the check constraint but no row carries it. |
 | `minutes_played` | integer | yes | Team minutes — roughly `games × 240` (five players × 48 minutes), plus overtime. |
 | `field_goals_made` … `points` | integer / numeric | yes | The same 22 box-score columns as `player_season_stats`, summed over the squad. Percentages are `numeric(5,3)` 0-1 fractions. `two_pointers_*` and `three_pointers_*` are present; there is no `effective_fg_pct` or `triple_doubles` at team level. |
 
-#### `mvp_winners` — the Michael Jordan Trophy (70 rows)
+#### `mvp_winners` — the Michael Jordan Trophy (71 rows)
 
 Primary key `(season, league)`. Foreign keys `season → seasons`,
 `player_id → players`, `team_id → teams`.
 
-One row per season MVP from 1955-56 to 2024-25, with the **per-game** line the
+One row per season MVP from 1955-56 to 2025-26, with the **per-game** line the
 award was won on. Counting `player_id` gives a player's career MVP tally.
 
 | Column | Type | Null? | Meaning |
 | --- | --- | --- | --- |
 | `season` | integer | no | **PK**, FK → `seasons` |
 | `league` | varchar(4) | no | `NBA` for every current row. **PK** |
-| `player_id` | varchar(12) | no | FK → `players`. 37 distinct players won these 70 awards; 26 of them have `has_bio = false`, covering 52 of the rows — so most historic MVPs have no height on file. |
+| `player_id` | varchar(12) | no | FK → `players`. **37 distinct players won these 71 awards.** Only 4 of them lack a bio, covering 6 rows — so nearly every historic MVP now has a height on file. (An earlier build had 26 without a bio across 52 rows; anything written against that assumption is now over-cautious.) |
 | `team_id` | varchar(4) | no | The club he was with. FK → `teams` |
 | `age` | integer | no | Age during the MVP season. |
 | `games` | integer | no | Games played. |
@@ -685,23 +745,24 @@ award was won on. Counting `player_id` gives a player's career MVP tally.
 | `points_per_game` | numeric(5,1) | no | The headline number in most MVP arguments. |
 | `rebounds_per_game` | numeric(5,1) | no | |
 | `assists_per_game` | numeric(5,1) | no | |
-| `steals_per_game`, `blocks_per_game` | numeric(5,1) | yes | ⚠️ **`NULL` for 1955-56 → 1972-73** — the league did not record them before 1973-74. |
+| `steals_per_game`, `blocks_per_game` | numeric(5,1) | yes | ⚠️ **`NULL` for 1955-56 → 1972-73** — the league did not record them before 1973-74. 18 rows. |
 | `field_goal_pct`, `free_throw_pct` | numeric(5,3) | no | 0-1 fractions. |
-| `three_point_pct` | numeric(5,3) | yes | ⚠️ **`NULL` for 1955-56 → 1978-79** — there was no three-point line before 1979-80. |
+| `three_point_pct` | numeric(5,3) | yes | ⚠️ **`NULL` for 1955-56 → 1978-79** — there was no three-point line before 1979-80. 24 rows. |
 | `win_shares` | numeric(5,1) | no | [Win Shares](#ws--win-shares) that season. |
 | `win_shares_per_48` | numeric(5,3) | no | Normalised for playing time. |
 
-#### `mvp_candidates` — the MVP ballot (85 rows)
+#### `mvp_candidates` — the MVP ballot (93 rows)
 
 Primary key `(season, player_id)`. Foreign keys `season → seasons`,
 `player_id → players`, `team_id → teams`.
 
-Everyone who received at least one MVP vote, 2018-19 → 2024-25. **The winner
-also appears here, at rank 1** — the two tables overlap by design.
+Everyone who received at least one MVP vote, 2018-19 → 2025-26 — between 8 and
+15 names a season. **The winner also appears here, at rank 1** — the two tables
+overlap by design.
 
 Because this table is a *list* of honoured players (rather than a single winner)
 and covers the seasons this project studies, it is what "the Michael Jordan
-Trophy list" means in every question mart.
+Trophy list" means throughout this project.
 
 | Column | Type | Null? | Meaning |
 | --- | --- | --- | --- |
@@ -710,11 +771,11 @@ Trophy list" means in every question mart.
 | `rank` | integer | no | Final ballot position. `1` = won the award. |
 | `tie` | boolean | no | `true` when the position was shared. The source writes `"10T"`; the number and the tie flag are stored separately so `rank` stays numeric. |
 | `age` | integer | no | Age that season. |
-| `team_id` | varchar(4) | yes | FK → `teams`. `NULL` for two candidates the source lists without a club. |
+| `team_id` | varchar(4) | yes | FK → `teams`. Nullable because the source has listed a candidate without a club before; **all 93 current rows resolve.** |
 | `first_place_votes` | integer | no | How many of the ~100 voters ranked him first. |
 | `points_won` | integer | no | Voting points earned (10 for a 1st-place vote, then 7-5-3-1). Never exceeds `points_max` (enforced). |
 | `points_max` | integer | no | The maximum available that season — i.e. what a unanimous winner would score. |
-| `share` | numeric(5,3) | no | `points_won / points_max`. **`1.0` is a unanimous MVP** — it has happened once in NBA history. The cleanest single measure of how strong a candidacy was. |
+| `share` | numeric(5,3) | no | `points_won / points_max`. **`1.0` would be a unanimous MVP** — it has happened once in NBA history (2015-16), which is outside this window, so no row here reaches it. The cleanest single measure of how strong a candidacy was. |
 | `games` | integer | no | Games played. |
 | `mp`, `pts`, `trb`, `ast`, `stl`, `blk` | numeric(5,1) | no | **Per-game** minutes, points, rebounds, assists, steals, blocks — abbreviated exactly as the source names them. |
 | `fg_pct`, `ft_pct` | numeric(5,3) | no | 0-1 fractions. |
@@ -730,26 +791,32 @@ Built by `python rebuild.py`, which runs `sql/analyst_ready/*.sql` in order.
 Fast (seconds) and safe to re-run: it drops and rebuilds `analyst_ready` from
 scratch every time, and never touches `processed`.
 
-Every mart carries `has_bio`, `height_cm` and similar columns straight through
-from `dim_player`/`player_season` rather than re-deriving them, so joining marts
-back to each other on `player_id` and `season` is always safe.
+**This layer answers no question by itself, on purpose.** It exists to make
+querying easy: two wide facts with the joins and derived features already done,
+over three shared dimensions. Every question is a query written against it —
+see [`analysis_questions.md`](analysis_questions.md) for the register of what
+this project asks, and why each definition was chosen.
+
+Both facts carry `season` and the relevant ids straight through from the
+dimensions rather than re-deriving them, so joining them to each other, back to
+`processed`, or into a query of your own is always safe.
 
 ### Shared dimensions
 
-#### `dim_player` — one row per player (view, 1,989 rows)
+#### `dim_player` — one row per player (view, 1,985 rows)
 
 A readability rename over `processed.players`, plus one derived column.
 
 | Column | Type | Meaning |
 | --- | --- | --- |
 | `player_id`, `player_name` | varchar(12), text | |
-| `has_bio` | boolean | Convention 6. `false` for 814 of 1,989; every bio column below is `NULL` for them. |
-| `primary_position` | varchar(2) | Career-level position. |
+| `has_bio` | boolean | Convention 6. `false` for just 4 of 1,985; every bio column below is `NULL` for them. |
+| `primary_position` | varchar(2) | Career-level position; `G`/`F` for 47 pre-1980 players (Part 0). |
 | `shoots` | varchar(8) | `right`, `left`, `both`. |
 | `height_cm`, `weight_kg` | numeric(5,1) | |
 | `height_to_weight` | numeric | `height_cm ÷ weight_kg`, 4 dp. **This project's stand-in for "agility"** (H1's own definition): more centimetres per kilogram means a leaner frame. ~2.2 for a guard, ~1.9 for a centre. `NULL` if either half is missing. |
 | `birth_date`, `birth_year` | date, integer | |
-| `college` | text | `NULL` for the 169 bio'd players who never attended one. |
+| `college` | text | `NULL` for the 219 bio'd players who never attended one. |
 | `career_experience_seasons` | integer | Total NBA seasons **as of the scrape** — a career snapshot. For "experience *during* season X" use `player_season.experience_seasons`. |
 | `nba_debut_year` | integer | |
 | `draft_year`, `draft_round`, `draft_overall_pick` | integer | `NULL` for undrafted players. |
@@ -780,19 +847,32 @@ facts every question keeps asking for are one column away.
 | `season` | integer | Ending year. |
 | `season_label` | varchar(8) | `'2024-25'`. |
 | `start_year` | integer | Always `season - 1`. |
-| `champion_team_id` | varchar(4) | That season's **NBA** champion. The ABA champion is deliberately excluded so a season stays one row. `NULL` for a few very early seasons. |
+| `champion_team_id` | varchar(4) | That season's **NBA** champion. The ABA champion is deliberately excluded so a season stays one row. `NULL` for 3 very early seasons. |
 | `champion_team_name` | text | Same, as a name. |
 | `mvp_player_id` | varchar(12) | That season's MVP. `NULL` before the award existed (pre-1955-56). |
 | `mvp_player_name` | text | Same, as a name. |
-| `scheduled_games` | integer | **The longest schedule any team played that season** — 82 normally, 75 in 2019-20 and 72 in 2020-21 (both COVID-shortened). The fair denominator for "how much of the season was this player available for" when his own club is unknown. `NULL` for the unplayed 2025-26. |
-| `has_been_played` | boolean | `true` once `scheduled_games` is known. |
+| `scheduled_games` | integer | **The longest schedule any team played that season** — 82 normally, 75 in 2019-20 and 72 in 2020-21 (both COVID-shortened). The fair denominator for "how much of the season was this player available for" when his own club is unknown. |
+| `has_been_played` | boolean | `true` once `scheduled_games` is known. **Now `true` for every season including 2025-26**, which is complete at 82 games. |
 
-### `player_season` — the shared base fact (table, 3,884 rows)
+The eight seasons the analysis covers, for reference:
 
-**Grain: one row per player per season, 2018-19 through 2024-25.** Not itself
-the answer to a question — it is the single wide table every mart below is a
-filter or an aggregate of, so "what counts as a player-season" is decided here
-and nowhere else. The traded-player duplication of convention 3 is already
+| Season | Schedule | Champion | MVP |
+| --- | ---: | --- | --- |
+| 2018-19 | 82 | Toronto Raptors | Giannis Antetokounmpo |
+| 2019-20 | 75 | Los Angeles Lakers | Giannis Antetokounmpo |
+| 2020-21 | 72 | Milwaukee Bucks | Nikola Jokić |
+| 2021-22 | 82 | Golden State Warriors | Nikola Jokić |
+| 2022-23 | 82 | Denver Nuggets | Joel Embiid |
+| 2023-24 | 82 | Boston Celtics | Nikola Jokić |
+| 2024-25 | 82 | Oklahoma City Thunder | Shai Gilgeous-Alexander |
+| 2025-26 | 82 | New York Knicks | Shai Gilgeous-Alexander |
+
+### `player_season` — the shared base fact (table, 4,466 rows)
+
+**Grain: one row per player per season, 2018-19 through 2025-26.** Not itself
+the answer to a question — it is the single wide table a player question is
+then a filter or an aggregate of, so "what counts as a player-season" is decided
+here and nowhere else. The traded-player duplication of convention 3 is already
 resolved: `where is_primary`.
 
 **Keys and context**
@@ -820,8 +900,8 @@ resolved: `where is_primary`.
 | --- | --- | --- |
 | `games_played`, `games_started`, `minutes_played` | integer | Season totals. |
 | `team_games` | integer | Games his club played that season; for a traded player, the league's full schedule length instead. |
-| `games_basis` | text | `'own_team'` or `'league_schedule'` — which denominator `team_games` used. About 80 players a season are on the league basis. |
-| `availability` | numeric | `games_played ÷ team_games`, 4 dp. **`1.0` = never missed a game.** Two rows in seven seasons sit a shade above 1.0 (Mikal Bridges 2022-23, Buddy Hield 2023-24) — a traded player can exceed the schedule when his two clubs were at different points in theirs. Genuine, not an error. |
+| `games_basis` | text | `'own_team'` or `'league_schedule'` — which denominator `team_games` used. 623 rows in all, between 60 and 97 players a season, are on the league basis. |
+| `availability` | numeric | `games_played ÷ team_games`, 4 dp. **`1.0` = never missed a game.** Two rows in eight seasons sit a shade above 1.0 (Mikal Bridges 2022-23 at 1.0122, Buddy Hield 2023-24 at 1.0244) — a traded player can exceed the schedule when his two clubs were at different points in theirs. Genuine, not an error. |
 
 **Box score — season totals, then per-game**
 
@@ -851,234 +931,132 @@ resolved: `where is_primary`.
 | `offensive_box_plus_minus`, `defensive_box_plus_minus`, `box_plus_minus` | numeric(5,1) | [BPM](#bpm--box-plusminus) — points per 100 possessions above league average. `0.0` = average. |
 | `value_over_replacement_player` | numeric(5,1) | [VORP](#vorp--value-over-replacement-player) — cumulative value above a bench-level player. |
 
-**Bio attributes — `NULL` for the 814 players with `has_bio = false`**
+**Bio attributes** — every row here has `has_bio = true`, so none of these are
+missing for want of a bio page.
 
 | Column | Type | Meaning |
 | --- | --- | --- |
-| `has_bio`, `height_cm`, `weight_kg`, `height_to_weight` | | As in `dim_player`. |
+| `has_bio`, `height_cm`, `weight_kg`, `height_to_weight` | | As in `dim_player`. All 4,466 rows carry a height. |
 | `college`, `draft_year`, `draft_round`, `draft_overall_pick` | | As in `dim_player`. |
 | `career_experience_seasons` | integer | Career snapshot, not per-season. |
-| `experience_seasons` | integer | Seasons of experience **before** this one; `0` = rookie year. Rolled back from the career figure. Verified to agree exactly with the authoritative roster-page figure for every champion player in 2023-24 and 2024-25 and all 478 current-roster players; it drifts low for players who once sat out a whole season, since the career figure counts seasons *played*, not calendar years. **`NULL` for 603 of the 3,884 rows** — 291 bio pages simply omit the field, and nothing is invented to fill it. |
+| `experience_seasons` | integer | Seasons of experience **before** this one; `0` = rookie year. ⚠️ **The weakest column in this table — read the note below before using it.** |
 
-### The assigned questions
+> #### ⚠️ `experience_seasons` is derived, and it degrades with age
+>
+> There is no per-season experience figure on the box-score page, so this column
+> is **rolled back** from the career total: `career_experience − (latest season −
+> this season)`. That arithmetic is exact only if the player appeared in every
+> intervening season. It counts seasons *played*, not calendar years, so anyone
+> who missed a full year comes out **too low**, and the error grows the further
+> back you look.
+>
+> Measured against `rosters.experience_seasons` — the authoritative per-season
+> figure the source states directly — the two now disagree on **640 of 3,390
+> comparable rows (19%)**, by 1 to 7 seasons:
+>
+> | Season | Compared | Disagree |
+> | --- | ---: | ---: |
+> | 2018-19 | 201 | 54 |
+> | 2019-20 | 258 | 81 |
+> | 2020-21 | 327 | 105 |
+> | 2021-22 | 392 | 120 |
+> | 2022-23 | 439 | 97 |
+> | 2023-24 | 512 | 105 |
+> | 2024-25 | 601 | 78 |
+> | 2025-26 | 660 | **0** |
+>
+> The gradient is the tell: the newest season needs no roll-back and agrees
+> perfectly, and every step further back compounds. An earlier build asserted
+> the two agreed *exactly*; that was true when the data stopped at 2024-25 and
+> the roster table covered far fewer players, and it is no longer true.
+>
+> **Coverage is also thin and skewed the same way:** `NULL` on 1,437 of the
+> 4,466 rows (546 distinct players), because 1,248 bio pages omit the field
+> entirely and nothing is invented to fill it. By season the gaps run 347 (of
+> 530) in 2018-19 down to 1 (of 582) in 2025-26.
+>
+> **Prefer `rosters.experience_seasons` whenever the player is on a roster row**
+> — which, from 2018-19 on, is the whole league.
 
-#### D1 — `d1_height_sample`: height on the MVP ballot vs. the top 50 scorers (311 rows)
+### `team_season` — the shared team fact (table, 1,693 rows)
 
-> *Produce the height distribution of players on the Michael Jordan Trophy list
-> compared with the top 50 players of the season, 2019-20 through 2023-24.*
+**Grain: one row per club per season, 1949-50 through the latest season.** The
+team-side counterpart to `player_season`, and like it, an answer to no question
+on its own. Raw counts are not comparable between clubs or eras — a team that
+plays fast attempts more of everything — so this table carries the derived
+rates that make a comparison mean something.
 
-**Grain: one player, in one season, in one group.** 61 MVP ballot places + 5
-seasons × 50 scorers. The two groups **overlap by design** — most MVP candidates
-are also top-50 scorers, so ~60 players appear once in each group. A player is
-never listed twice *within* a group.
+Nothing is filtered to a window; the full history is here and a question
+narrows it. The `tot` pseudo-club never appears, having no team totals to
+aggregate.
 
-All 311 rows carry a height; none of the 814 bio-less players reach this list.
+**Two `NULL` patterns, both honest rather than filled:**
 
-| Column | Type | Meaning |
-| --- | --- | --- |
-| `group_label` | text | `'mvp_candidates'` or `'top_50'` — the comparison being made. |
-| `season`, `season_label` | integer, varchar(8) | |
-| `player_id`, `player_name` | varchar(12), text | |
-| `height_cm`, `weight_kg` | numeric(5,1) | The measured variables. |
-| `has_bio` | boolean | Kept so coverage stays visible after a re-scrape. |
-| `position` | varchar(2) | The real explanatory variable behind any height difference. |
-| `mvp_rank` | integer | Ballot position, for `mvp_candidates` rows. `NULL` on `top_50` rows for a player who wasn't also on the ballot. |
-| `points_rank` | integer | Scoring rank that season. |
-| `points_per_game` | numeric | |
+- **The era did not record the input.** No three-point data before 1979-80, no
+  offensive rebounds, steals or blocks before 1973-74. Any derived column
+  needing a missing input is `NULL` — `effective_fg_pct` is populated for 1,314
+  of the 1,693 rows, `offensive_rating` for 1,433.
+- **`games` is `NULL` or `0`.** One row (`blb`, 1954-55) has no statistics at
+  all — the franchise folded mid-season. Every rate divides through `nullif`,
+  so such a row yields `NULL` rather than an error. `has_been_played` marks it.
 
-#### D2 — `d2_champion_vs_top15`: champion roster vs. top-15 scorers (68 rows)
-
-> *Compare the distribution of experience of active players on the champion team,
-> and their height, over the last two seasons, with the top 15 players of that
-> season.*
-
-**Grain: one player, in one season, in one group.** 19+19 champion-roster players
-(Boston 2023-24, Oklahoma City 2024-25) and 15+15 top scorers. "Active" means he
-appeared in at least one game — in practice this excludes nobody, but it is the
-stated definition.
-
-| Column | Type | Meaning |
-| --- | --- | --- |
-| `group_label` | text | `'champion_team'` or `'top_15'`. |
-| `season`, `season_label` | integer, varchar(8) | |
-| `team_id`, `team_name` | varchar(4), text | The champion, for champion rows; the player's own club, for top-15 rows. |
-| `player_id`, `player_name` | varchar(12), text | |
-| `height_cm` | numeric(5,1) | All 68 rows have one. |
-| `has_bio` | boolean | |
-| `experience_seasons` | integer | Seasons **before** this one; `0` = rookie. |
-| `experience_source` | text | `'roster_page'` (the authoritative per-season figure, used for champion rows) or `'career_rolled_back'` (derived, used for top-15 rows). **The two methods agree exactly wherever they overlap, which is what licenses comparing them** — this column exists so that assumption stays auditable. |
-| `age` | integer | During that season. |
-| `position`, `games_played`, `points_rank` | | Context. |
-
-#### D3 — `d3_point_guard_candidates`: the point-guard shortlist (13 rows)
-
-> *The club's ability metric is presence on the Michael Jordan Trophy list, and a
-> player with more appearances has higher priority. Produce a list and present 3
-> recommendations.*
-
-**Grain: one point guard.** Every PG who received at least one MVP vote in
-2019-20 → 2023-24. "Point guard" means the position he **actually played that
-season**, so a player counts only for the seasons he was listed at PG.
-
-The brief gives no tie-break, and three names cannot be picked from a count alone
-(Dončić has 5 appearances; Curry and Paul have 3 each), so ties break on average
-ballot rank, then name — reproducible rather than arbitrary.
+**Keys and context**
 
 | Column | Type | Meaning |
 | --- | --- | --- |
-| `player_id`, `player_name` | varchar(12), text | |
-| `mvp_appearances` | bigint | Seasons on the MVP ballot **while listed at PG**. The club's stated ability metric. |
-| `avg_mvp_rank` | numeric | Mean ballot position across those seasons, 2 dp. **Lower is better** — the tie-break. |
-| `best_mvp_rank` | integer | Best single-season ballot position. |
-| `first_season`, `last_season` | integer | |
-| `seasons_listed` | text | Comma-separated season labels. |
-| `avg_points_per_game`, `avg_assists_per_game` | numeric | Averaged across the qualifying seasons. Assists matter here — it is the point guard's defining output. |
-| `most_recent_team_name` | text | His club in the most recent qualifying season. Context for a buying decision, not part of the ranking. |
-| `recommendation_rank` | bigint | `1` = top recommendation. Ordered by appearances desc, then avg rank asc, then name. |
-| `is_recommended` | boolean | `true` for the top 3 — what the club asked for. |
-
-#### H1 — `h1_agility`: has the top 20's agility increased? (80 rows)
-
-> *The average agility of the players in the top 20 of each season has increased
-> compared with the past. Agility = height / weight. Compare 2022-23…2023-24 with
-> 2020-21…2021-22.*
-
-**Grain: one player, in one season.** The 20 highest scorers in each of four
-seasons. All 80 rows have both height and weight.
-
-| Column | Type | Meaning |
-| --- | --- | --- |
-| `group_label` | text | `'past'` (2020-21, 2021-22) or `'recent'` (2022-23, 2023-24) — the two periods being compared. |
-| `season`, `season_label` | integer, varchar(8) | Kept so a per-season view is one `group by` away. |
-| `player_id`, `player_name` | varchar(12), text | |
-| `has_bio` | boolean | |
-| `points_rank` | integer | `<= 20` by construction. |
-| `position` | varchar(2) | The confounder to watch: agility as defined here is largely a position proxy. |
-| `height_cm`, `weight_kg` | numeric(5,1) | |
-| `agility` | numeric | `height_cm ÷ weight_kg`, 4 dp — **the hypothesis's own definition**, not a basketball-standard metric. Higher = leaner. |
-| `age` | integer | |
-
-#### H2 — `h2_innate_ability`: has champions' innate ability increased? (73 rows)
-
-> *An analyst defines innate ability as experience / age, and claims the average
-> for the champion team's players over the last 2 seasons is greater than over the
-> 2 seasons before.*
-
-**Grain: one champion-roster player, in one season.** The four most recent
-champion rosters: Golden State 2021-22, Denver 2022-23, Boston 2023-24, Oklahoma
-City 2024-25.
-
-| Column | Type | Meaning |
-| --- | --- | --- |
-| `group_label` | text | `'past'` (2021-22, 2022-23) or `'recent'` (2023-24, 2024-25). |
-| `season`, `season_label` | integer, varchar(8) | |
-| `team_id`, `team_name` | varchar(4), text | The champion that season. |
-| `player_id`, `player_name` | varchar(12), text | |
-| `experience_seasons` | integer | Seasons before this one, from the **roster page** — authoritative and populated for every entry. |
-| `age` | integer | **During that season**, from the box-score page. This matters: an earlier version of this project stored a single current age, which gives a 2021-22 player his 2025 age and flattens the very difference the hypothesis is about. |
-| `innate_ability` | numeric | `experience_seasons ÷ age`, 4 dp — **the hypothesis's own definition**. Rewards reaching the league young and staying: a 22-year-old with 4 seasons scores 0.18; a 34-year-old with 12 scores 0.35. |
-| `position`, `games_played`, `minutes_played`, `height_cm` | | Context; height is not part of this hypothesis. |
-
-### The bonus analyses
-
-Not on the assignment sheet — extra questions the team added, which the brief
-awards points for.
-
-#### `bonus_availability` — how much of the season do stars actually play? (3,884 rows)
-
-The idea: "availability is the best ability." Every player-season is kept, not
-just the honoured ones, so the MVP group can be compared against the league it
-came from.
-
-| Column | Type | Meaning |
-| --- | --- | --- |
-| `season`, `season_label`, `player_id`, `player_name`, `team_id`, `team_name` | | As in `player_season`. |
-| `is_multi_team_season` | boolean | |
-| `games_played`, `team_games`, `games_basis`, `availability` | | As in `player_season`. `availability` is a share of the **schedule**, not of minutes — a two-minute appearance counts as available. |
-| `minutes_played`, `minutes_per_game` | | |
-| `points_rank` | integer | |
-| `is_mvp_candidate` | boolean | On the MVP ballot that season. |
-| `mvp_rank` | integer | Ballot position, where applicable. |
-| `is_mvp_winner` | boolean | Won MVP that season. |
-| `mvp_group` | text | `'mvp_winner'` / `'mvp_candidate'` / `'other'`. The winner is *also* a candidate, so the two flags overlap; this column picks the higher honour to give exactly one category per row for charts. |
-
-#### `bonus_superstar_tax` — does efficiency fall as usage rises? (70 rows)
-
-The idea: [usage](#usg--usage-percentage) is how much of the offence a player is
-asked to carry; [true shooting](#ts--true-shooting-percentage) is how efficiently
-he does it. If carrying more costs accuracy, the two should trade off — and the
-players who stay efficient at high usage are the genuinely elite ones.
-
-**Grain: one player-season.** The top 10 scorers in each of the 7 seasons, all
-with 1,000+ minutes played.
-
-| Column | Type | Meaning |
-| --- | --- | --- |
-| `season`, `season_label`, `player_id`, `player_name`, `team_id`, `team_name`, `position` | | |
-| `points_rank` | integer | `<= 10` by construction. |
-| `minutes_played`, `points`, `points_per_game` | | |
-| `usage_percentage` | numeric(5,1) | **0-100**, as stored. |
-| `true_shooting_percentage` | numeric(5,3) | **0-1 fraction**, as stored; can exceed 1.0. |
-| `true_shooting_pct` | numeric | The same figure × 100, 1 dp, so it can share a chart axis with usage. Both are kept so the conversion is visible rather than assumed. |
-| `player_efficiency_rate`, `win_shares`, `box_plus_minus` | | Alternative quality measures, for cross-checking. |
-
-#### `bonus_team_four_factors` — Dean Oliver's four factors (210 rows)
-
-[The four factors](#the-four-factors) are the four things a team can do to win a
-basketball game, in descending order of importance: shoot well, avoid turnovers,
-rebound your own misses, and get to the free-throw line. They are rebuilt here
-from team totals, because the source publishes raw counts only.
-
-**Grain: one team-season.** 30 clubs × 2018-19 → 2024-25. The unplayed 2025-26
-rows are excluded — every formula below would divide by zero.
-
-| Column | Type | Meaning |
-| --- | --- | --- |
-| `season`, `season_label`, `team_id`, `team_name` | | |
-| `points_rank` | integer | Scoring rank that season — ⚠️ **not a league standing** (convention 7). This data has no wins column, so "what drives performance" here really means "what goes with scoring more." |
+| `season`, `season_label` | integer, varchar(8) | Convention 1. |
+| `team_id`, `team_name` | varchar(4), text | |
 | `is_champion` | boolean | `true` for that season's NBA champion. |
-| `games`, `points`, `points_per_game` | | |
-| `effective_fg_pct` | numeric | **Factor 1 — shooting.** `(FGM + 0.5 × 3PM) ÷ FGA × 100`. |
-| `estimated_possessions` | numeric | `FGA − ORB + TOV + 0.44 × FTA` — the standard approximation, since the source gives no possession count. The `0.44` is the accepted coefficient for how many free throws actually end a possession (an and-one or the first of two does not). |
-| `turnover_pct` | numeric | **Factor 2 — ball security.** Turnovers per 100 estimated possessions. **Lower is better.** |
-| `offensive_rebound_pct` | numeric | **Factor 3 — rebounding.** Share of the team's **own** missed shots it recovered: `ORB ÷ (FGA − FGM) × 100`. Each one is a free extra possession. |
-| `free_throw_rate` | numeric | **Factor 4 — free throws.** Attempts per 100 field-goal attempts — a proxy for how often the team attacks the hoop hard enough to draw fouls. |
+| `points_rank` | integer | The source page's rank within the season, which is by **total points scored**. ⚠️ **Not a league standing** (convention 7) — this database has no wins column anywhere. |
+| `has_been_played` | boolean | `games > 0`. `NULL` for the one row with no statistics at all. |
 
-#### `bonus_draft_picks` — are picks 1-5 better than picks 6-10? (188 rows)
-
-The scenario: the club cannot realistically land the first overall pick, so it
-wants to buy a player who *was* one. That pool is too small, so the search widens
-to the top 10 — and the question becomes whether the first five picks are
-measurably better than the next five.
-
-**Grain: one player.** Every top-10 pick with at least one season in the window.
-⚠️ **"Career" figures here mean totalled or averaged over the seasons in this
-database only** (2018-19 onwards), not a full career — a 20-year veteran and a
-4-year pro are summed over the same window, so `seasons_played` must always be
-read alongside them. Rates are averaged; counting stats are summed.
+**Raw season totals** — carried straight through from `processed.team_season_stats`
 
 | Column | Type | Meaning |
 | --- | --- | --- |
-| `player_id`, `player_name` | varchar(12), text | |
-| `draft_year`, `draft_overall_pick` | integer | |
-| `pick_group` | text | `'picks_1_5'` or `'picks_6_10'` — the comparison being tested. |
-| `is_top5_pick` | boolean | The same split, as a flag. |
-| `primary_position`, `height_cm`, `weight_kg` | | Career-level bio attributes. |
-| `latest_age` | integer | Age in his most recent season in the data — the database deliberately stores no single "current age," because an age is only meaningful attached to a season. |
-| `latest_season`, `latest_team_name` | | |
-| `career_experience_seasons` | integer | Context only; `NULL` for 49 of the 188. No tier depends on it. |
-| `seasons_played`, `first_season` | | Seasons actually present in this database. |
-| `triple_doubles` | bigint | Summed across those seasons. |
-| `avg_player_efficiency_rate` | numeric | [PER](#per--player-efficiency-rating) averaged across seasons, 2 dp. |
-| `total_win_shares` | numeric | [WS](#ws--win-shares) summed. |
-| `avg_total_rebound_pct`, `avg_assist_pct`, `avg_steal_pct`, `avg_block_pct`, `avg_usage_pct` | numeric | All **0-100**, averaged across seasons. |
-| `total_offensive_bpm`, `total_defensive_bpm` | numeric | [BPM](#bpm--box-plusminus) summed. `total_defensive_bpm` is what the defensive comparison runs on — ⚠️ **positive means points prevented above an average player, so higher is better.** |
-| `total_vorp` | numeric | [VORP](#vorp--value-over-replacement-player) summed. |
-| `avg_points_per_game` | numeric | |
-| `per_tier` | text | `'not_a_starter'` (avg PER ≤ 20), `'all-star_candidate'` (20-25), `'mvp_candidate'` (> 25). |
-| `vorp_tier` | text | `'high_vorp'` (total VORP ≥ 20) or `'low_vorp'`. |
-| `defense_tier` | text | `'great'` (positive `total_defensive_bpm`), `'decent'` (zero), `'bad'` (negative). ⚠️ Note the direction. The original analysis had this **backwards** — it labelled negative defensive BPM 'great', which would put the worst defenders at the top of a recommendation list. Corrected here. |
-| `age_group` | text | `'30-40'` (`latest_age >= 30`) or `'20-30'`. |
+| `games`, `minutes_played`, `points` | integer | Team minutes run roughly `games × 240` (five players × 48 minutes), plus overtime. |
+| `field_goals_made` / `_attempted` | integer | Open-play shots — twos and threes together, free throws excluded. |
+| `three_pointers_made` / `_attempted` | integer | |
+| `two_pointers_made` / `_attempted` | integer | |
+| `free_throws_made` / `_attempted` | integer | |
+| `offensive_rebounds`, `defensive_rebounds`, `total_rebounds` | integer | |
+| `assists`, `steals`, `blocks`, `turnovers`, `personal_fouls` | integer | |
+
+**Shooting percentages** — 0-1 fractions, as the source gives them
+
+| Column | Type | Meaning |
+| --- | --- | --- |
+| `field_goal_pct`, `three_point_pct`, `two_point_pct`, `free_throw_pct` | numeric(5,3) | |
+
+**Per-game rates**
+
+| Column | Type | Meaning |
+| --- | --- | --- |
+| `points_per_game`, `rebounds_per_game`, `assists_per_game`, `turnovers_per_game` | numeric | Totals ÷ `games`, 1 dp. |
+
+**Possessions and efficiency**
+
+| Column | Type | Meaning |
+| --- | --- | --- |
+| `estimated_possessions` | numeric | `FGA − ORB + TOV + 0.44 × FTA`. The standard approximation, since the source publishes no possession count. The `0.44` is the accepted estimate of how many free-throw attempts actually end a possession — an and-one, or the first of two, does not. |
+| `possessions_per_game` | numeric | The usual proxy for **how fast a club plays**. |
+| `offensive_rating` | numeric | **Points per 100 possessions** — the era-neutral way to say "good offence." This is the column that separates a genuinely efficient team from one that merely plays fast and therefore scores more. |
+
+**Dean Oliver's [four factors](#the-four-factors)** — all 0-100
+
+| Column | Type | Meaning |
+| --- | --- | --- |
+| `effective_fg_pct` | numeric | **1 — shooting.** `(FGM + 0.5 × 3PM) ÷ FGA × 100`, crediting a made three as 1.5 makes because it is worth 1.5 times as much. The heaviest of the four. |
+| `turnover_pct` | numeric | **2 — ball security.** Turnovers per 100 possessions. ⚠️ **Lower is better** — the one factor whose direction is inverted. |
+| `offensive_rebound_pct` | numeric | **3 — rebounding.** Share of the team's **own** missed shots it recovered: `ORB ÷ (FGA − FGM) × 100`. Each one is a fresh possession the opponent never got. |
+| `free_throw_rate` | numeric | **4 — free throws.** Attempts per 100 field-goal attempts — a proxy for how hard the club attacks the basket, since that is what draws fouls. |
+
+**Shot profile**
+
+| Column | Type | Meaning |
+| --- | --- | --- |
+| `three_point_attempt_rate` | numeric | Share of shots taken from three, 0-100. The single clearest number for the league's tactical shift since the mid-2010s. |
+| `assisted_fg_pct` | numeric | Share of made field goals that came off a pass, 0-100. High means a passing offence; low means one built on players creating their own shots. |
 
 ---
 
@@ -1140,7 +1118,7 @@ by shooting, by drawing a shooting foul, or by turning the ball over.
 
 Five players are on court, so **20% is exactly average.** It measures *how much
 of the offence runs through him*, not how well he does it — pair it with TS%,
-which is the whole point of the `bonus_superstar_tax` mart.
+which is why they are worth reading together.
 
 | USG% | Reads as |
 | ---: | --- |
@@ -1233,7 +1211,7 @@ importance (roughly 40 / 25 / 20 / 15 in weight):
 4. **Get to the free-throw line** — FT rate
 
 Each is a way of either creating extra possessions or making the ones you have
-count. `bonus_team_four_factors` computes all four from team season totals.
+count. `analyst_ready.team_season` carries all four, computed from team totals.
 
 ### Availability
 
@@ -1259,6 +1237,15 @@ build the three dimensions from **the union of every id referenced by any fact
 table**, with `has_bio` / `has_detail` marking which rows are id-only. That loses
 zero rows and makes the keys genuinely enforceable.
 
+The check constraints also do real work at load time. Two of them are the reason
+`players.primary_position` and `player_positions.position_code` are trustworthy:
+they restrict both columns to the seven codes in Part 0, so a bio cell the
+scraper mangled cannot enter the database as a position. (It has been tried —
+one player's bio page once delivered his whole meta paragraph, JavaScript
+included, into the position field.) `cleaning/verify.py` now checks the same
+vocabularies before the load, so that class of problem is caught in Python
+rather than by a column-width error in Postgres.
+
 The check constraints encode facts that must hold about basketball, so a bad load
 fails loudly rather than quietly:
 
@@ -1269,18 +1256,19 @@ fails loudly rather than quietly:
 - `points_won` never exceeds `points_max`; `share` lies between 0 and 1.
 - `season = start_year + 1`.
 - A player with `has_bio = false` carries no bio attributes.
+- Every position code is one of `PG`/`SG`/`SF`/`PF`/`C`/`G`/`F`.
 
 ### Indexes
 
-`sql/processed/10_indexes.sql` adds **16** indexes on top of the primary keys.
+`sql/processed/10_indexes.sql` adds **16** indexes on top of the 11 primary keys.
 Every PK already indexes its own columns, so the extra ones cover two things PKs
 miss: **the child side of each foreign key** (PostgreSQL does not index it
 automatically) and **the `where is_primary` filter**, which gets a partial index
-storing only the 3,884 rows that pass.
+storing only the 4,466 rows that pass. `analyst_ready` adds 24 more.
 
-These tables are small — the largest is 5,025 rows — so PostgreSQL will often
-scan them anyway. The indexes are cheap, they keep foreign-key maintenance fast,
-and they document which columns the analysis joins on.
+These tables are small — the largest is `rosters` at 6,291 rows — so PostgreSQL
+will often scan them anyway. The indexes are cheap, they keep foreign-key
+maintenance fast, and they document which columns the analysis joins on.
 
 ### Rebuilding from scratch
 

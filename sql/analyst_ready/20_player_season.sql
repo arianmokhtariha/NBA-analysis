@@ -1,9 +1,13 @@
 -- ============================================================================
 -- analyst_ready.player_season — THE wide player-season fact table.
 --
--- One join, written once. Every question mart below is a filter or an
--- aggregate over this table, so "what counts as a player-season" is decided
--- here and nowhere else.
+-- One join, written once. Box score, advanced metrics, bio, club and season
+-- context in a single row, so an analysis starts from `select ... from
+-- player_season where ...` instead of re-deriving the same five joins.
+--
+-- This table answers no question by itself. It is the enriched, de-duplicated
+-- base that questions are asked OF — every filter, grouping and comparison
+-- belongs in the query that asks, not here.
 --
 -- Grain: ONE ROW PER PLAYER PER SEASON, seasons 2018-19 through 2024-25
 --        (3,884 rows).
@@ -69,9 +73,19 @@ select
     -- against the data: it is the ranking by TOTAL POINTS SCORED, descending,
     -- with ties broken by the source's own order (the only disagreements with a
     -- recomputed points ranking are between players on identical point totals).
-    -- So "the top 50 players of the season" in this project means "the 50
-    -- highest scorers", which is the reading the original analysis used.
+    -- It is a SCORING rank, not a league standing — this data has no wins
+    -- column at all. Anything phrased "the top N players of the season" off
+    -- this column means "the N highest scorers", and should say so.
     box.rank                                       as points_rank,
+
+    -- ── season honours ──────────────────────────────────────────────────
+    -- Facts about the player-season, carried here so an analysis does not have
+    -- to re-join the two award tables. The winner is also on the ballot at
+    -- rank 1, so the two flags deliberately overlap.
+    (mc.player_id is not null)                     as is_mvp_candidate,
+    mc.rank                                        as mvp_rank,
+    mc.share                                       as mvp_vote_share,
+    (mw.player_id is not null)                     as is_mvp_winner,
 
     -- ── playing time and availability ───────────────────────────────────
     box.games_played,
@@ -148,7 +162,8 @@ select
     dp.has_bio,
     dp.height_cm,
     dp.weight_kg,
-    -- The project's "agility": taller per kilo means more agile.
+    -- Centimetres per kilogram — a build/leanness ratio. ~2.2 for a guard,
+    -- ~1.9 for a centre.
     dp.height_to_weight,
     dp.college,
     dp.draft_year,
@@ -191,4 +206,12 @@ join analyst_ready.dim_season as ds
 left join processed.team_season_stats as tss
     on tss.season = box.season
     and tss.team_id = box.team_id
+-- Left: the vast majority of player-seasons receive no MVP vote.
+left join processed.mvp_candidates as mc
+    on mc.season = box.season
+    and mc.player_id = box.player_id
+left join processed.mvp_winners as mw
+    on mw.season = box.season
+    and mw.player_id = box.player_id
+    and mw.league = 'NBA'
 where box.is_primary;

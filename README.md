@@ -52,8 +52,8 @@ Four stages, each owned by one part of the repo:
    database, applies the schema in `sql/processed/`, and loads the 11
    cleaned CSVs into it. This is the slow step; run it only when the data
    changes.
-4. **Build marts** (`rebuild.py`) — builds the `analyst_ready` schema (13
-   tables and views, one relation per project question) by running
+4. **Build the analysis layer** (`rebuild.py`) — builds the `analyst_ready`
+   schema (two wide facts and three dimensions) by running
    `sql/analyst_ready/*.sql` against `processed`. This is the fast step —
    it loads no data and never touches `processed` — so it is safe to
    re-run constantly while writing analysis queries.
@@ -92,12 +92,11 @@ basketball/
 │   ├── processed/                #   DDL for Stage 3 (the `processed` schema)
 │   │   ├── 00_schema.sql
 │   │   └── 10_indexes.sql
-│   └── analyst_ready/            #   DDL for Stage 4 (the `analyst_ready` marts)
+│   └── analyst_ready/            #   DDL for Stage 4 (the analysis layer)
 │       ├── 10_dimensions.sql
 │       ├── 20_player_season.sql
-│       ├── 30_question_marts.sql
-│       ├── 40_bonus_marts.sql
-│       └── 50_indexes.sql
+│       ├── 30_team_season.sql
+│       └── 40_indexes.sql
 │
 ├── db_setup.py                  # Stage 3 — build `processed`, load the CSVs (slow, asks to confirm)
 ├── rebuild.py                   # Stage 4 — build `analyst_ready` from `processed` (fast)
@@ -196,7 +195,7 @@ destructive operation.
 python db_setup.py
 ```
 
-**6. Build the analysis-ready marts.** Fast — seconds, not minutes. Safe to
+**6. Build the analysis layer.** Fast — seconds, not minutes. Safe to
 re-run as often as you like; it never modifies the database built in step
 5, only the derived tables layered on top of it.
 
@@ -248,12 +247,18 @@ rather than "it worked once":
 ## The questions this project answers
 
 Three descriptive-statistics questions and two hypothesis tests were
-assigned; four further analyses were added beyond that. Each has exactly
-one table in `analyst_ready` behind it — see
-[`docs/data_dictionary.md`](docs/data_dictionary.md) for the column-level
-detail and [`sql/analyst_ready/30_question_marts.sql`](sql/analyst_ready/30_question_marts.sql)
-/ [`40_bonus_marts.sql`](sql/analyst_ready/40_bonus_marts.sql) for the exact
-definitions and the reasoning behind each one.
+assigned; four further analyses were added beyond that.
+
+**No question has a table in the database.** `analyst_ready` is a
+general-purpose analytical layer, and every question is answered by
+querying it from the notebook that owns the question — so the definitions
+that decide an answer ("top 50 scorers", "experience") stay visible and
+arguable instead of being frozen into a schema.
+
+[`docs/analysis_questions.md`](docs/analysis_questions.md) is the register:
+what each question asks, what has to be decided before it can be answered,
+and what to watch out for. It is meant to grow — adding a question needs a
+notebook, not a migration.
 
 **Descriptive statistics**
 
@@ -291,7 +296,7 @@ and conclusions will be presented.
 
 ## Project status
 
-- **Scraping, cleaning, database, and analysis-ready marts are all built
+- **Scraping, cleaning, the database, and the analysis layer are all built
   and verified** — this is the part described above, and it works
   end-to-end.
 - **`notebooks/`** is set up (`_setup.py` gives every notebook the same
