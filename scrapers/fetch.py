@@ -115,7 +115,7 @@ def fetch_page(
     url: str,
     *,
     max_retries: int = 5,
-    delay: float = 4.0,
+    delay: float = 5.0,
 ) -> str | None:
     """Fetch `url` and return its HTML, or None if every attempt failed.
 

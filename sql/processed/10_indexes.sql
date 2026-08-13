@@ -14,9 +14,9 @@
 --
 --   2. The is_primary filter. Almost every player-level question starts with
 --      `where is_primary` to collapse traded players back to one row per
---      season. A partial index stores only those 3,884 rows.
+--      season. A partial index stores only those 4,466 rows.
 --
--- Honest note on size: the biggest table here is 5,025 rows, so PostgreSQL
+-- Honest note on size: the biggest table here is 6,291 rows, so PostgreSQL
 -- will often read the whole table anyway and ignore these. They are cheap,
 -- they keep foreign-key maintenance fast, and they document which columns the
 -- analysis actually joins on.

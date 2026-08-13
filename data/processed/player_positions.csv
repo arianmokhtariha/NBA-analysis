@@ -1,4 +1,6 @@
 player_id,slot,position,position_code
+abdulka01,1,Center,C
+abramjo01,1,Forward,F
 abrinal01,1,Shooting Guard,SG
 achiupr01,1,Center,C
 achiupr01,2,Power Forward,PF
@@ -10,6 +12,11 @@ adebaba01,1,Center,C
 adebaba01,2,Power Forward,PF
 adelde01,1,Small Forward,SF
 agbajoc01,1,Shooting Guard,SG
+aguirma01,1,Small Forward,SF
+aingeda01,1,Shooting Guard,SG
+aingeda01,2,Point Guard,PG
+ajincal01,1,Center,C
+ajincal01,2,Power Forward,PF
 akoonde01,1,Shooting Guard,SG
 aldamsa01,1,Power Forward,PF
 aldrila01,1,Power Forward,PF
@@ -22,17 +29,34 @@ alkinra01,1,Shooting Guard,SG
 allengr01,1,Shooting Guard,SG
 allenja01,1,Center,C
 allenka01,1,Point Guard,PG
+allenlu01,1,Point Guard,PG
+allenra02,1,Shooting Guard,SG
 allenti01,1,Small Forward,SF
+allento01,1,Shooting Guard,SG
+allento01,2,Small Forward,SF
+allento01,3,Point Guard,PG
 alvarjo01,1,Point Guard,PG
 aminual01,1,Power Forward,PF
 aminual01,2,Small Forward,SF
+anderan01,1,Shooting Guard,SG
+anderan01,2,Point Guard,PG
+anderch01,1,Center,C
+anderch01,2,Power Forward,PF
+anderde01,1,Shooting Guard,SG
+anderde01,2,Small Forward,SF
+anderde01,3,Point Guard,PG
+anderje01,1,Shooting Guard,SG
+anderjj01,1,Small Forward,SF
 anderju01,1,Small Forward,SF
 anderju01,2,Shooting Guard,SG
 anderky01,1,Small Forward,SF
 anderky01,2,Power Forward,PF
 anderry01,1,Power Forward,PF
 anderry01,2,Center,C
+andersh01,1,Shooting Guard,SG
+andersh01,2,Small Forward,SF
 anigbik01,1,Center,C
+antetal01,1,Small Forward,SF
 antetgi01,1,Power Forward,PF
 antetgi01,2,Small Forward,SF
 antetgi01,3,Point Guard,PG
@@ -44,26 +68,41 @@ antetth01,2,Power Forward,PF
 anthoca01,1,Small Forward,SF
 anthoca01,2,Power Forward,PF
 anthoco01,1,Point Guard,PG
+anthojo01,1,Center,C
+anthojo01,2,Power Forward,PF
 anunoog01,1,Small Forward,SF
 anunoog01,2,Power Forward,PF
+architi01,1,Point Guard,PG
 arcidry01,1,Point Guard,PG
+ardji01,1,Center,C
 arizatr01,1,Small Forward,SF
 arizatr01,2,Shooting Guard,SG
+arizipa01,1,Small Forward,SF
 armeltr01,1,Small Forward,SF
+armstbj01,1,Point Guard,PG
+arnzebo01,1,Small Forward,SF
+artesro01,1,Small Forward,SF
+atkinch01,1,Point Guard,PG
+atkinch01,2,Shooting Guard,SG
 augusdj01,1,Point Guard,PG
 avdijde01,1,Small Forward,SF
+averibi01,1,Shooting Guard,SG
+awtrede01,1,Center,C
 ayayijo01,1,Shooting Guard,SG
 aytonde01,1,Center,C
 azubuud01,1,Center,C
 bacondw01,1,Shooting Guard,SG
 badjiib01,1,Center,C
-baglema01,1,Center,C
-baglema01,2,Power Forward,PF
+baglema01,1,Power Forward,PF
+baglema01,2,Center,C
 baglema02,1,Small Forward,SF
+baileac01,1,Small Forward,SF
 baileam01,1,Point Guard,PG
 bakerro01,1,Shooting Guard,SG
+balad01,1,Shooting Guard,SG
 baldwpa01,1,Small Forward,SF
 baldwwa01,1,Point Guard,PG
+ballagr01,1,Small Forward,SF
 ballla01,1,Point Guard,PG
 balllo01,1,Point Guard,PG
 bambamo01,1,Center,C
@@ -71,24 +110,42 @@ banchpa01,1,Power Forward,PF
 banede01,1,Shooting Guard,SG
 bantoda01,1,Point Guard,PG
 barbeca01,1,Point Guard,PG
+barbole01,1,Shooting Guard,SG
+barbole01,2,Point Guard,PG
 bareajo01,1,Point Guard,PG
 bareajo01,2,Shooting Guard,SG
-barlodo01,1,Small Forward,SF
-barlodo01,2,Power Forward,PF
+barlodo01,1,Power Forward,PF
+barlodo01,2,Small Forward,SF
+barnedi01,1,Shooting Guard,SG
 barneha02,1,Power Forward,PF
 barneha02,2,Small Forward,SF
+barneji01,1,Power Forward,PF
+barneji01,2,Center,C
+barnema02,1,Small Forward,SF
+barnema02,2,Power Forward,PF
 barnesc01,1,Power Forward,PF
 barnesc01,2,Shooting Guard,SG
 barnesc01,3,Small Forward,SF
+barnhbr01,1,Shooting Guard,SG
+barnhjo01,1,Point Guard,PG
+barnhjo01,2,Shooting Guard,SG
 barrerj01,1,Shooting Guard,SG
 barrerj01,2,Small Forward,SF
+barroea01,1,Center,C
+barrybr01,1,Shooting Guard,SG
+barrybr01,2,Small Forward,SF
+barryri01,1,Small Forward,SF
 bartowi01,1,Shooting Guard,SG
 bartowi01,2,Small Forward,SF
 bassech01,1,Center,C
+basseti01,1,Power Forward,PF
 basspa01,1,Small Forward,SF
+bateeme01,1,Center,C
 batesem01,1,Small Forward,SF
 bateske01,1,Small Forward,SF
 bateske01,2,Power Forward,PF
+battish01,1,Small Forward,SF
+battish01,2,Shooting Guard,SG
 battlja01,1,Small Forward,SF
 batumni01,1,Small Forward,SF
 batumni01,2,Power Forward,PF
@@ -96,16 +153,25 @@ batumni01,3,Shooting Guard,SG
 baughda01,1,Shooting Guard,SG
 bayleje01,1,Point Guard,PG
 bayleje01,2,Shooting Guard,SG
+bayloel01,1,Small Forward,SF
 baynear01,1,Center,C
 bazemke01,1,Shooting Guard,SG
 bazemke01,2,Small Forward,SF
 bazleda01,1,Power Forward,PF
 bazleda01,2,Center,C
 bealbr01,1,Shooting Guard,SG
+beardbu01,1,Point Guard,PG
 beaslma01,1,Shooting Guard,SG
 beaslmi01,1,Power Forward,PF
 beaslmi01,2,Small Forward,SF
+beatyze01,1,Center,C
+beatyze01,2,Power Forward,PF
+beaubro01,1,Point Guard,PG
 beaucma01,1,Small Forward,SF
+beckear01,1,Power Forward,PF
+beckear01,2,Small Forward,SF
+becker01,1,Shooting Guard,SG
+bedfowi01,1,Center,C
 beekmre01,1,Point Guard,PG
 belinma01,1,Shooting Guard,SG
 belinma01,2,Small Forward,SF
@@ -114,6 +180,8 @@ bembrde01,1,Small Forward,SF
 bembrde01,2,Shooting Guard,SG
 bendedr01,1,Power Forward,PF
 bendedr01,2,Center,C
+berinjo01,1,Power Forward,PF
+berinjo01,2,Center,C
 bernaju01,1,Shooting Guard,SG
 bertada01,1,Power Forward,PF
 bertada02,1,Shooting Guard,SG
@@ -121,7 +189,12 @@ beverpa01,1,Point Guard,PG
 beverpa01,2,Shooting Guard,SG
 beysa01,1,Small Forward,SF
 beyty01,1,Small Forward,SF
+bibbyhe01,1,Point Guard,PG
+billuch01,1,Point Guard,PG
+billuch01,2,Shooting Guard,SG
 birchkh01,1,Center,C
+birdla01,1,Small Forward,SF
+birdla01,2,Power Forward,PF
 bitadgo01,1,Center,C
 bitimon01,1,Shooting Guard,SG
 biyombi01,1,Center,C
@@ -130,9 +203,12 @@ bjeline01,2,Center,C
 blackan01,1,Point Guard,PG
 blackle01,1,Small Forward,SF
 blakean01,1,Shooting Guard,SG
+blantri01,1,Small Forward,SF
 bledser01,1,Point Guard,PG
 bledser01,2,Shooting Guard,SG
 blevike01,1,Small Forward,SF
+bloommi01,1,Forward,F
+bloommi01,2,Center,C
 blossja01,1,Small Forward,SF
 boehebu01,1,Small Forward,SF
 bogdabo01,1,Shooting Guard,SG
@@ -151,28 +227,58 @@ bonaad01,2,Power Forward,PF
 bonejo01,1,Point Guard,PG
 bongais01,1,Small Forward,SF
 bongais01,2,Point Guard,PG
+bonharo01,1,Small Forward,SF
+bonharo01,2,Shooting Guard,SG
+bonnema01,1,Power Forward,PF
+bonnema01,2,Center,C
 bookede01,1,Shooting Guard,SG
 bookede01,2,Point Guard,PG
+boonero01,1,Shooting Guard,SG
+boothke01,1,Small Forward,SF
+boozebo01,1,Power Forward,PF
+boozebo01,2,Small Forward,SF
+boshch01,1,Center,C
+boshch01,2,Power Forward,PF
 bostobr01,1,Shooting Guard,SG
 bostobr01,2,Small Forward,SF
+bosweto01,1,Power Forward,PF
 bouchch01,1,Power Forward,PF
 bouchch01,2,Center,C
 bouchch01,3,Small Forward,SF
 bouknja01,1,Shooting Guard,SG
 bouyeja01,1,Point Guard,PG
+bowenbr01,1,Small Forward,SF
 bowenbr02,1,Small Forward,SF
 bowmaky01,1,Point Guard,PG
+bowmana01,1,Center,C
+bracest01,1,Point Guard,PG
+bracest01,2,Shooting Guard,SG
+braddga01,1,Power Forward,PF
+braddga01,2,Small Forward,SF
 bradlav01,1,Shooting Guard,SG
 bradlav01,2,Point Guard,PG
+bradlbi01,1,Small Forward,SF
+bradlbi01,2,Shooting Guard,SG
+bradlji01,1,Power Forward,PF
+bradlji01,2,Small Forward,SF
 bradlto01,1,Center,C
+brancad01,1,Small Forward,SF
 branhma01,1,Shooting Guard,SG
 branhma01,2,Point Guard,PG
 brantja01,1,Power Forward,PF
+braunca01,1,Point Guard,PG
+braunca01,2,Shooting Guard,SG
 braunch01,1,Shooting Guard,SG
 brazdig01,1,Small Forward,SF
+breako01,1,Shooting Guard,SG
+breauti01,1,Small Forward,SF
 breweco01,1,Small Forward,SF
 breweco01,2,Shooting Guard,SG
 breweco01,3,Power Forward,PF
+breweji01,1,Power Forward,PF
+brickfr01,1,Center,C
+brickfr01,2,Power Forward,PF
+bridgbi01,1,Power Forward,PF
 bridgja01,1,Small Forward,SF
 bridgmi01,1,Small Forward,SF
 bridgmi01,2,Shooting Guard,SG
@@ -193,64 +299,119 @@ brookdi01,1,Small Forward,SF
 brookdi01,2,Shooting Guard,SG
 brookke02,1,Small Forward,SF
 brookma01,1,Shooting Guard,SG
+brooksc01,1,Point Guard,PG
+broomjo01,1,Center,C
+broomjo01,2,Power Forward,PF
 brownbr01,1,Point Guard,PG
 brownbr01,2,Small Forward,SF
 brownbr01,3,Shooting Guard,SG
+brownch01,1,Small Forward,SF
+brownch01,2,Power Forward,PF
 brownch02,1,Shooting Guard,SG
 brownch05,1,Shooting Guard,SG
 brownch05,2,Small Forward,SF
+brownda04,1,Shooting Guard,SG
+brownde02,1,Shooting Guard,SG
+brownfr01,1,Shooting Guard,SG
+brownfr01,2,Point Guard,PG
 browngr01,1,Power Forward,PF
 browngr01,2,Small Forward,SF
 brownja02,1,Small Forward,SF
 brownja02,2,Shooting Guard,SG
 brownke03,1,Shooting Guard,SG
 brownko01,1,Power Forward,PF
+brownla01,1,Point Guard,PG
 brownlo01,1,Point Guard,PG
 brownmo01,1,Center,C
+brownpj01,1,Power Forward,PF
+brownpj01,2,Center,C
+brownra02,1,Point Guard,PG
+brownro01,1,Small Forward,SF
+brownsh01,1,Shooting Guard,SG
 brownst02,1,Shooting Guard,SG
 brownst02,2,Small Forward,SF
 browntr01,1,Small Forward,SF
 brunsja01,1,Point Guard,PG
 brunsja01,2,Shooting Guard,SG
+bryanca01,1,Power Forward,PF
 bryanel01,1,Shooting Guard,SG
+bryanem01,1,Point Guard,PG
+bryanko01,1,Shooting Guard,SG
+bryanko01,2,Small Forward,SF
 bryanth01,1,Center,C
+buccige01,1,Shooting Guard,SG
 buchash01,1,Shooting Guard,SG
+bucknqu01,1,Point Guard,PG
+bucknqu01,2,Shooting Guard,SG
+buechju01,1,Small Forward,SF
 bufkiko01,1,Shooting Guard,SG
+bullama01,1,Power Forward,PF
+bullama01,2,Small Forward,SF
 bullore01,1,Small Forward,SF
 bullore01,2,Shooting Guard,SG
 burketr01,1,Point Guard,PG
 burksal01,1,Shooting Guard,SG
 burksal01,2,Small Forward,SF
+burresc01,1,Small Forward,SF
 burtode02,1,Power Forward,PF
 burtode02,2,Small Forward,SF
 burtode02,3,Shooting Guard,SG
+burtoty01,1,Small Forward,SF
+busedo01,1,Point Guard,PG
+busedo01,2,Shooting Guard,SG
+butleal01,1,Point Guard,PG
+butleca01,1,Small Forward,SF
+butleca01,2,Shooting Guard,SG
+butleja01,1,Center,C
 butleja02,1,Point Guard,PG
 butleja02,2,Shooting Guard,SG
 butleji01,1,Small Forward,SF
 butleji01,2,Shooting Guard,SG
 butleji01,3,Power Forward,PF
 butlejo01,1,Center,C
+butlemi01,1,Shooting Guard,SG
 buzelma01,1,Small Forward,SF
+buzelma01,2,Power Forward,PF
+bynuman01,1,Center,C
+byrnema01,1,Small Forward,SF
 cabocbr01,1,Small Forward,SF
 cabocbr01,2,Center,C
 cabocbr01,3,Power Forward,PF
 cacokde01,1,Power Forward,PF
 cacokde01,2,Center,C
-cainja01,1,Power Forward,PF
-cainja01,2,Small Forward,SF
+caffeja01,1,Power Forward,PF
+cainja01,1,Small Forward,SF
+cainja01,2,Power Forward,PF
 caldejo01,1,Point Guard,PG
 caldejo01,2,Shooting Guard,SG
+caldwad01,1,Power Forward,PF
 caldwke01,1,Shooting Guard,SG
+calhobi01,1,Shooting Guard,SG
+calhobi01,2,Small Forward,SF
+calhoco01,1,Small Forward,SF
 camarto01,1,Power Forward,PF
 campafa01,1,Point Guard,PG
+campbel01,1,Center,C
+campbel01,2,Power Forward,PF
+campbto01,1,Small Forward,SF
+campbto01,2,Shooting Guard,SG
 canaais01,1,Point Guard,PG
 canaais01,2,Shooting Guard,SG
 cancavl01,1,Power Forward,PF
 cannade01,1,Point Guard,PG
+cannola01,1,Shooting Guard,SG
 capelca01,1,Center,C
+cardibr01,1,Power Forward,PF
+cardibr01,2,Small Forward,SF
+cardwdy01,1,Center,C
 careyve01,1,Center,C
+carliri01,1,Shooting Guard,SG
 carlsbr01,1,Center,C
+carlsdo01,1,Guard,G
+carlsdo01,2,Forward,F
 carrica01,1,Point Guard,PG
+carrke01,1,Power Forward,PF
+carrml01,1,Small Forward,SF
 carrode01,1,Small Forward,SF
 carrode01,2,Power Forward,PF
 carrode01,3,Center,C
@@ -264,18 +425,24 @@ cartevi01,3,Power Forward,PF
 cartewe01,1,Center,C
 cartewe01,2,Power Forward,PF
 cartodj01,1,Shooting Guard,SG
+cartwbi01,1,Center,C
 carusal01,1,Point Guard,PG
 carusal01,2,Shooting Guard,SG
+cassesa01,1,Point Guard,PG
 casspom01,1,Small Forward,SF
 casspom01,2,Power Forward,PF
 castlco01,1,Center,C
 castlco01,2,Power Forward,PF
 castlst01,1,Point Guard,PG
+castlst01,2,Shooting Guard,SG
 caulewi01,1,Center,C
 caupatr01,1,Point Guard,PG
 cavanty01,1,Power Forward,PF
 caverah01,1,Shooting Guard,SG
 cazalma01,1,Shooting Guard,SG
+celesjo01,1,Point Guard,PG
+chalmma01,1,Point Guard,PG
+chambwi01,1,Center,C
 champju01,1,Small Forward,SF
 champju02,1,Small Forward,SF
 chandke01,1,Point Guard,PG
@@ -284,30 +451,47 @@ chandty01,2,Power Forward,PF
 chandwi01,1,Small Forward,SF
 chandwi01,2,Power Forward,PF
 chandwi01,3,Shooting Guard,SG
+chanedo01,1,Shooting Guard,SG
+chapmwa01,1,Small Forward,SF
 chealjo01,1,Point Guard,PG
 cheatzy01,1,Small Forward,SF
 cheatzy01,2,Power Forward,PF
+cheekma01,1,Point Guard,PG
+cheniph01,1,Shooting Guard,SG
+chilcpe01,1,Power Forward,PF
 chiozch01,1,Point Guard,PG
 chomcul01,1,Power Forward,PF
+choneji01,1,Center,C
+choneji01,2,Power Forward,PF
 chrisca02,1,Shooting Guard,SG
 chrisjo01,1,Shooting Guard,SG
 chrisma01,1,Power Forward,PF
 chrisma02,1,Shooting Guard,SG
+chubist01,1,Shooting Guard,SG
+cissemo01,1,Center,C
 cissosi01,1,Small Forward,SF
 clarkbr01,1,Power Forward,PF
+clarkca01,1,Shooting Guard,SG
 clarkga01,1,Power Forward,PF
 clarkga01,2,Small Forward,SF
 clarkia01,1,Shooting Guard,SG
 clarkja02,1,Shooting Guard,SG
 clarkjo01,1,Shooting Guard,SG
 clarkjo01,2,Point Guard,PG
+clawsjo01,1,Small Forward,SF
 claxtni01,1,Center,C
+claxtsp01,1,Point Guard,PG
+claytwa01,1,Point Guard,PG
+cleamji01,1,Point Guard,PG
 clemoch01,1,Shooting Guard,SG
 clevean01,1,Shooting Guard,SG
+cliffni01,1,Shooting Guard,SG
 clingdo01,1,Center,C
 clownno01,1,Power Forward,PF
 coffeam01,1,Shooting Guard,SG
 coffeam01,2,Small Forward,SF
+colemja01,1,Power Forward,PF
+coleno01,1,Point Guard,PG
 collida01,1,Point Guard,PG
 colliis01,1,Point Guard,PG
 collijo01,1,Power Forward,PF
@@ -316,22 +500,37 @@ colliza01,1,Center,C
 colliza01,2,Power Forward,PF
 colsobo01,1,Small Forward,SF
 comanch01,1,Center,C
+combsgl01,1,Shooting Guard,SG
+combsgl01,2,Point Guard,PG
+congdje01,1,Point Guard,PG
+conlege01,1,Power Forward,PF
 conlemi01,1,Point Guard,PG
 connapa01,1,Shooting Guard,SG
 connapa01,2,Small Forward,SF
+cookeja01,1,Shooting Guard,SG
 cookqu01,1,Point Guard,PG
 cooksxa01,1,Power Forward,PF
 cookty01,1,Power Forward,PF
 cookty01,2,Small Forward,SF
+coopemi01,1,Shooting Guard,SG
 coopesh01,1,Point Guard,PG
 cornepe01,1,Power Forward,PF
+costela01,1,Point Guard,PG
 coulibi01,1,Small Forward,SF
+coulibi01,2,Shooting Guard,SG
 councri01,1,Shooting Guard,SG
 councri01,2,Small Forward,SF
+countme01,1,Center,C
+countme01,2,Power Forward,PF
+courtjo01,1,Power Forward,PF
 couside01,1,Center,C
+cousybo01,1,Point Guard,PG
 covinro01,1,Small Forward,SF
 covinro01,2,Power Forward,PF
 covinro01,3,Center,C
+cowarce01,1,Shooting Guard,SG
+cowenda01,1,Center,C
+cowenda01,2,Power Forward,PF
 crabbal01,1,Shooting Guard,SG
 crabbal01,2,Small Forward,SF
 craigto01,1,Small Forward,SF
@@ -340,45 +539,84 @@ crawfis01,1,Small Forward,SF
 crawfja01,1,Shooting Guard,SG
 crawfja01,2,Point Guard,PG
 creekmi01,1,Small Forward,SF
+crispjo01,1,Point Guard,PG
+critcru01,1,Point Guard,PG
 crowdja01,1,Small Forward,SF
 crowdja01,2,Power Forward,PF
 crutcja01,1,Point Guard,PG
+cryerlj01,1,Point Guard,PG
 cuiyo01,1,Shooting Guard,SG
 culveja01,1,Shooting Guard,SG
 culveja01,2,Small Forward,SF
 cumbeja01,1,Shooting Guard,SG
+cunnibi01,1,Small Forward,SF
+cunnibi01,2,Power Forward,PF
 cunnica01,1,Point Guard,PG
 cunnica01,2,Shooting Guard,SG
 cunnida01,1,Power Forward,PF
 cunnida01,2,Small Forward,SF
+cunnidi01,1,Center,C
+cunnija01,1,Shooting Guard,SG
+curetea01,1,Center,C
+curetea01,2,Power Forward,PF
+curryed01,1,Center,C
+curryed01,2,Power Forward,PF
 curryse01,1,Shooting Guard,SG
 curryse01,2,Point Guard,PG
 curryst01,1,Point Guard,PG
 dadiepa01,1,Shooting Guard,SG
+dallmho01,1,Forward,F
+dampilo01,1,Point Guard,PG
+dandrbo01,1,Small Forward,SF
+daniean01,1,Point Guard,PG
+daniean01,2,Shooting Guard,SG
 daniedy01,1,Point Guard,PG
 daniedy01,2,Shooting Guard,SG
+danieme01,1,Center,C
 danietr01,1,Shooting Guard,SG
+dantlad01,1,Small Forward,SF
+dardeol01,1,Power Forward,PF
 darlina01,1,Shooting Guard,SG
 dasiltr01,1,Small Forward,SF
-davisan02,1,Center,C
-davisan02,2,Power Forward,PF
+daviebo01,1,Point Guard,PG
+davisan02,1,Power Forward,PF
+davisan02,2,Center,C
 davisde01,1,Center,C
 davised01,1,Power Forward,PF
 davised01,2,Center,C
-davisjd01,1,Shooting Guard,SG
-davisjd01,2,Point Guard,PG
+davisgl01,1,Power Forward,PF
+davisgl01,2,Center,C
+davishu01,1,Shooting Guard,SG
+davishu01,2,Point Guard,PG
+davisjd01,1,Point Guard,PG
+davisjd01,2,Shooting Guard,SG
+davisjo01,1,Shooting Guard,SG
+davisjo01,2,Point Guard,PG
 davisjo06,1,Shooting Guard,SG
 daviste02,1,Shooting Guard,SG
 davisty01,1,Center,C
+daviswa01,1,Power Forward,PF
+daviswa01,2,Center,C
+dawkida01,1,Center,C
+dayeau01,1,Small Forward,SF
 daysda01,1,Power Forward,PF
 daysda01,2,Small Forward,SF
+debusda01,1,Power Forward,PF
+debusda01,2,Small Forward,SF
 deckga01,1,Power Forward,PF
+decolna01,1,Shooting Guard,SG
 dedmode01,1,Center,C
 dekkesa01,1,Power Forward,PF
 delauja01,1,Center,C
+delebi01,1,Center,C
+delebi01,2,Power Forward,PF
 delgaan01,1,Center,C
 dellama01,1,Point Guard,PG
 dellama01,2,Shooting Guard,SG
+dembofe01,1,Small Forward,SF
+demineg01,1,Point Guard,PG
+dempsge01,1,Point Guard,PG
+dempsge01,2,Shooting Guard,SG
 denglu01,1,Small Forward,SF
 denglu01,2,Power Forward,PF
 dennide01,1,Shooting Guard,SG
@@ -394,15 +632,22 @@ diallch01,1,Center,C
 diallch01,2,Power Forward,PF
 diallha01,1,Small Forward,SF
 diallha01,2,Shooting Guard,SG
+diawamo01,1,Small Forward,SF
+diawbo01,1,Power Forward,PF
+diawbo01,2,Shooting Guard,SG
+dickede01,1,Power Forward,PF
 dickgr01,1,Shooting Guard,SG
+dickihu01,1,Center,C
 dienggo01,1,Center,C
 dienggo01,2,Power Forward,PF
-diengou01,1,Power Forward,PF
-diengou01,2,Center,C
+diengou01,1,Center,C
+diengou01,2,Power Forward,PF
+dillcr01,1,Center,C
 dilliro01,1,Point Guard,PG
 dinwisp01,1,Point Guard,PG
 dinwisp01,2,Shooting Guard,SG
 divindo01,1,Shooting Guard,SG
+doleami01,1,Center,C
 doncilu01,1,Point Guard,PG
 doncilu01,2,Shooting Guard,SG
 dorsety01,1,Shooting Guard,SG
@@ -413,6 +658,7 @@ dosunay01,1,Shooting Guard,SG
 dotsoda01,1,Shooting Guard,SG
 dotsode01,1,Point Guard,PG
 doumbse01,1,Power Forward,PF
+downist01,1,Center,C
 dowtije01,1,Point Guard,PG
 doziepj01,1,Shooting Guard,SG
 doziepj01,2,Small Forward,SF
@@ -420,15 +666,23 @@ doziepj01,3,Point Guard,PG
 dragigo01,1,Point Guard,PG
 dragigo01,2,Shooting Guard,SG
 drellhe01,1,Small Forward,SF
+drexlcl01,1,Shooting Guard,SG
 drumman01,1,Center,C
 duartch01,1,Small Forward,SF
 duartch01,2,Shooting Guard,SG
 ducasal01,1,Shooting Guard,SG
+dudlech01,1,Point Guard,PG
 dudleja01,1,Power Forward,PF
 dudleja01,2,Small Forward,SF
 dudleja01,3,Shooting Guard,SG
+duerote01,1,Shooting Guard,SG
+duerote01,2,Small Forward,SF
 dukeda01,1,Shooting Guard,SG
 dukeda01,2,Point Guard,PG
+dumarjo01,1,Shooting Guard,SG
+dumarjo01,2,Point Guard,PG
+duncati01,1,Center,C
+duncati01,2,Power Forward,PF
 dunnkr01,1,Point Guard,PG
 dunnry01,1,Small Forward,SF
 duranke01,1,Small Forward,SF
@@ -436,24 +690,49 @@ duranke01,2,Power Forward,PF
 duranke01,3,Shooting Guard,SG
 durenja01,1,Center,C
 duvaltr01,1,Point Guard,PG
+dwanja01,1,Forward,F
+dwanja01,2,Guard,G
+eakinji01,1,Center,C
+eakinji01,2,Power Forward,PF
 easonta01,1,Power Forward,PF
 echenja01,1,Center,C
 edeyza01,1,Center,C
+edgecvj01,1,Shooting Guard,SG
+edmonbo01,1,Small Forward,SF
 edwaran01,1,Shooting Guard,SG
 edwarca01,1,Shooting Guard,SG
+edwarfr01,1,Point Guard,PG
+edwarja01,1,Center,C
 edwarje01,1,Center,C
 edwarju01,1,Small Forward,SF
 edwarke02,1,Small Forward,SF
 edwarro01,1,Shooting Guard,SG
 edwarvi01,1,Small Forward,SF
+eliema01,1,Small Forward,SF
+eliema01,2,Shooting Guard,SG
 ellebcj01,1,Small Forward,SF
+ellefra01,1,Center,C
 ellenhe01,1,Power Forward,PF
 ellenhe01,2,Center,C
 ellinwa01,1,Shooting Guard,SG
+elliose01,1,Small Forward,SF
 elliske01,1,Shooting Guard,SG
+ellisle01,1,Center,C
+ellisle01,2,Power Forward,PF
+elsonfr01,1,Center,C
+elyme01,1,Center,C
+elyme01,2,Power Forward,PF
 embiijo01,1,Center,C
+embrywa01,1,Center,C
+enarutr01,1,Small Forward,SF
+englijo01,1,Shooting Guard,SG
 ennisja01,1,Small Forward,SF
 ennisja01,2,Shooting Guard,SG
+erickke01,1,Small Forward,SF
+erickke01,2,Shooting Guard,SG
+ervinju01,1,Small Forward,SF
+ervinju01,2,Shooting Guard,SG
+essenno01,1,Power Forward,PF
 etienty01,1,Point Guard,PG
 eubandr01,1,Center,C
 eubandr01,2,Power Forward,PF
@@ -465,62 +744,111 @@ evansty01,3,Point Guard,PG
 evbuoto01,1,Small Forward,SF
 exumda01,1,Point Guard,PG
 exumda01,2,Shooting Guard,SG
+ezelife01,1,Center,C
+faircjo01,1,Small Forward,SF
 fallta01,1,Center,C
 farieke01,1,Power Forward,PF
 farieke01,2,Center,C
+farledi01,1,Shooting Guard,SG
+farmajo01,1,Point Guard,PG
 favorde01,1,Power Forward,PF
 favorde01,2,Center,C
+fearsje01,1,Point Guard,PG
 feliccr01,1,Center,C
 feltora01,1,Point Guard,PG
 feltora01,2,Shooting Guard,SG
 fergute01,1,Shooting Guard,SG
 fergute01,2,Small Forward,SF
 fernabr01,1,Center,C
+fernser01,1,Center,C
+fernser01,2,Power Forward,PF
 ferreyo01,1,Point Guard,PG
 ferreyo01,2,Shooting Guard,SG
+ferriar01,1,Forward,F
+ferriar01,2,Guard,G
+ferryda01,1,Power Forward,PF
+ferryda01,2,Small Forward,SF
 filipky01,1,Center,C
+finkeha01,1,Center,C
+finlemi01,1,Small Forward,SF
+finlemi01,2,Shooting Guard,SG
 finnedo01,1,Power Forward,PF
 finnedo01,2,Small Forward,SF
+fishede01,1,Point Guard,PG
+fishede01,2,Shooting Guard,SG
+fitchge01,1,Point Guard,PG
 fittsma01,1,Power Forward,PF
+flaggco01,1,Small Forward,SF
 flaglad01,1,Shooting Guard,SG
+fleisje01,1,Shooting Guard,SG
+flemira01,1,Power Forward,PF
 flowetr01,1,Small Forward,SF
 flynnma01,1,Point Guard,PG
+foleyja01,1,Forward,F
 fontesi01,1,Small Forward,SF
 forbebr01,1,Shooting Guard,SG
 fordal03,1,Small Forward,SF
+fordch01,1,Shooting Guard,SG
+forddo01,1,Small Forward,SF
+forddo01,2,Power Forward,PF
 fordjo01,1,Point Guard,PG
+formado01,1,Guard,G
 forretr01,1,Shooting Guard,SG
 forretr01,2,Point Guard,PG
+fostegr01,1,Power Forward,PF
+fostegr01,2,Center,C
 fostemi02,1,Power Forward,PF
 fournev01,1,Shooting Guard,SG
 fournev01,2,Small Forward,SF
+fowlktr01,1,Small Forward,SF
 foxde01,1,Point Guard,PG
+foxri01,1,Small Forward,SF
 frankro01,1,Power Forward,PF
 frazime01,1,Shooting Guard,SG
 frazimi01,1,Shooting Guard,SG
 fraziti01,1,Point Guard,PG
+fraziwa01,1,Point Guard,PG
 fredeji01,1,Shooting Guard,SG
 fredeji01,2,Point Guard,PG
+freemdo01,1,Shooting Guard,SG
+freemdo01,2,Point Guard,PG
 freemen01,1,Power Forward,PF
+freemga01,1,Small Forward,SF
 freemja01,1,Point Guard,PG
+fritsji01,1,Power Forward,PF
 fryech01,1,Center,C
 fryech01,2,Power Forward,PF
 fudgeal01,1,Small Forward,SF
+fuetshe01,1,Guard,G
+fulksjo01,1,Power Forward,PF
 fultzma01,1,Point Guard,PG
 fultzma01,2,Shooting Guard,SG
 funkan01,1,Shooting Guard,SG
 furphjo01,1,Shooting Guard,SG
+gaborbi01,1,Shooting Guard,SG
 gabriwe01,1,Power Forward,PF
 gabriwe01,2,Center,C
 gaffoda01,1,Center,C
 gaffoda01,2,Power Forward,PF
+gaineel01,1,Forward,F
+gaineel01,2,Center,C
+galemi01,1,Point Guard,PG
+galemi01,2,Shooting Guard,SG
 gallida01,1,Small Forward,SF
 gallida01,2,Power Forward,PF
 gallida01,3,Shooting Guard,SG
 gallola01,1,Shooting Guard,SG
 gallola01,2,Point Guard,PG
+gambeda01,1,Small Forward,SF
+gambeda01,2,Power Forward,PF
+garcian01,1,Small Forward,SF
+gardnea01,1,Forward,F
+gardnmy01,1,Small Forward,SF
 garlada01,1,Point Guard,PG
 garlada01,2,Shooting Guard,SG
+garneke01,1,Power Forward,PF
+garneke01,2,Center,C
+garneke01,3,Small Forward,SF
 garrebi01,1,Shooting Guard,SG
 garrema01,1,Shooting Guard,SG
 garubus01,1,Power Forward,PF
@@ -532,18 +860,26 @@ gasolpa01,2,Power Forward,PF
 gateska01,1,Small Forward,SF
 gayru01,1,Small Forward,SF
 gayru01,2,Power Forward,PF
+gazean01,1,Shooting Guard,SG
+georgde01,1,Small Forward,SF
+georgja01,1,Point Guard,PG
+georgja01,2,Shooting Guard,SG
 georgke01,1,Point Guard,PG
 georgke01,2,Shooting Guard,SG
 georgky01,1,Shooting Guard,SG
+georgky01,2,Small Forward,SF
 georgpa01,1,Small Forward,SF
 georgpa01,2,Power Forward,PF
 georgpa01,3,Shooting Guard,SG
+gianejo01,1,Center,C
 gibsota01,1,Power Forward,PF
 gibsota01,2,Center,C
-giddejo01,1,Shooting Guard,SG
-giddejo01,2,Point Guard,PG
+giddejo01,1,Point Guard,PG
+giddejo01,2,Shooting Guard,SG
 giddejo01,3,Power Forward,PF
 giddejo01,4,Small Forward,SF
+gilbeke01,1,Point Guard,PG
+gilbeke01,2,Shooting Guard,SG
 gilesha01,1,Center,C
 gilesha01,2,Power Forward,PF
 gilgesh01,1,Point Guard,PG
@@ -551,8 +887,23 @@ gilgesh01,2,Shooting Guard,SG
 gillan01,1,Power Forward,PF
 gilleco01,1,Point Guard,PG
 gillefr01,1,Power Forward,PF
+gillihe01,1,Shooting Guard,SG
+gillihe01,2,Point Guard,PG
+gilmoar01,1,Center,C
 gilyaja01,1,Point Guard,PG
+ginobma01,1,Shooting Guard,SG
+gladnmi01,1,Power Forward,PF
+glickno01,1,Forward,F
+glovedi01,1,Shooting Guard,SG
 goberru01,1,Center,C
+golato01,1,Shooting Guard,SG
+golato01,2,Small Forward,SF
+goldivl01,1,Center,C
+goldwan01,1,Point Guard,PG
+gonzahu01,1,Small Forward,SF
+gonzahu01,2,Shooting Guard,SG
+goodrga01,1,Shooting Guard,SG
+goodrga01,2,Point Guard,PG
 goodwbr01,1,Point Guard,PG
 goodwjo01,1,Point Guard,PG
 goodwjo01,2,Shooting Guard,SG
@@ -563,18 +914,30 @@ gordoer01,2,Small Forward,SF
 gortama01,1,Center,C
 gortama01,2,Power Forward,PF
 gortmja01,1,Point Guard,PG
+grabojo01,1,Power Forward,PF
+grabojo01,2,Center,C
+grahaca01,1,Guard,G
 grahade01,1,Point Guard,PG
+grahama01,1,Point Guard,PG
 grahatr01,1,Shooting Guard,SG
 grahatr01,2,Small Forward,SF
+grantbu01,1,Forward,F
 grantdo01,1,Small Forward,SF
+grantho01,1,Power Forward,PF
+grantho01,2,Center,C
 grantje01,1,Power Forward,PF
 grantje01,2,Small Forward,SF
 grantje02,1,Point Guard,PG
 grantje02,2,Shooting Guard,SG
 graveha01,1,Point Guard,PG
+grayha01,1,Shooting Guard,SG
 grayjo01,1,Point Guard,PG
 grayra01,1,Power Forward,PF
+greacbo01,1,Small Forward,SF
+greenac01,1,Power Forward,PF
+greenac01,2,Small Forward,SF
 greenaj01,1,Shooting Guard,SG
+greenda01,1,Power Forward,PF
 greenda02,1,Shooting Guard,SG
 greenda02,2,Small Forward,SF
 greendr01,1,Power Forward,PF
@@ -589,18 +952,37 @@ greenje02,1,Power Forward,PF
 greenje02,2,Small Forward,SF
 greenje02,3,Center,C
 greenjo02,1,Shooting Guard,SG
+greensi01,1,Point Guard,PG
+greensi01,2,Shooting Guard,SG
+greerha01,1,Shooting Guard,SG
+greerha01,2,Point Guard,PG
+gregoga01,1,Small Forward,SF
+gregoga01,2,Power Forward,PF
+greveke01,1,Small Forward,SF
+greveke01,2,Shooting Guard,SG
 griffaj01,1,Small Forward,SF
 griffbl01,1,Power Forward,PF
 griffbl01,2,Center,C
 grimequ01,1,Shooting Guard,SG
+grossbo01,1,Small Forward,SF
+grubadi01,1,Guard,G
+guarige01,1,Small Forward,SF
 gudurma01,1,Shooting Guard,SG
 gueyemo01,1,Power Forward,PF
 gueyemo01,2,Small Forward,SF
 gueyemo02,1,Power Forward,PF
+guokama01,1,Forward,F
+guokama02,1,Shooting Guard,SG
+guokama02,2,Small Forward,SF
 guyky01,1,Shooting Guard,SG
 guyky01,2,Point Guard,PG
 hachiru01,1,Power Forward,PF
 haganas01,1,Point Guard,PG
+hagancl01,1,Small Forward,SF
+hairsha01,1,Power Forward,PF
+hairsha01,2,Small Forward,SF
+haleyja01,1,Power Forward,PF
+haleyja01,2,Center,C
 halibty01,1,Point Guard,PG
 halibty01,2,Shooting Guard,SG
 hallde01,1,Point Guard,PG
@@ -610,24 +992,40 @@ halljo01,1,Small Forward,SF
 halljo02,1,Small Forward,SF
 hallpj01,1,Center,C
 hallty01,1,Shooting Guard,SG
+hamda01,1,Small Forward,SF
+hamda01,2,Shooting Guard,SG
 hamilda02,1,Shooting Guard,SG
+hamiljo01,1,Point Guard,PG
+hamilri01,1,Shooting Guard,SG
+hamilri01,2,Small Forward,SF
 hamptrj01,1,Shooting Guard,SG
 hamptrj01,2,Point Guard,PG
+hankiph01,1,Small Forward,SF
 hannadu01,1,Shooting Guard,SG
+hansebo01,1,Shooting Guard,SG
+hansela01,1,Center,C
 hardati02,1,Shooting Guard,SG
 hardati02,2,Small Forward,SF
 hardeja01,1,Point Guard,PG
 hardeja01,2,Shooting Guard,SG
 hardyja02,1,Shooting Guard,SG
+hargeir01,1,Center,C
 harklej01,1,Shooting Guard,SG
 harklma01,1,Small Forward,SF
 harklma01,2,Power Forward,PF
+harpedy01,1,Shooting Guard,SG
 harpeja01,1,Point Guard,PG
+harpero01,1,Shooting Guard,SG
+harpero01,2,Point Guard,PG
 harpero02,1,Small Forward,SF
 harpero02,2,Power Forward,PF
+harrejo01,1,Center,C
+harrejo01,2,Power Forward,PF
 harremo01,1,Center,C
 harremo01,2,Power Forward,PF
 harrian01,1,Point Guard,PG
+harribo02,1,Shooting Guard,SG
+harribo02,2,Point Guard,PG
 harride01,1,Point Guard,PG
 harride01,2,Shooting Guard,SG
 harriga01,1,Shooting Guard,SG
@@ -637,6 +1035,8 @@ harrijo01,2,Small Forward,SF
 harrike01,1,Shooting Guard,SG
 harrish01,1,Shooting Guard,SG
 harrish01,2,Point Guard,PG
+harrist01,1,Shooting Guard,SG
+harrite01,1,Shooting Guard,SG
 harrito02,1,Power Forward,PF
 harrito02,2,Small Forward,SF
 harteis01,1,Center,C
@@ -645,23 +1045,51 @@ hartjo01,1,Small Forward,SF
 hartjo01,2,Shooting Guard,SG
 hasleud01,1,Power Forward,PF
 hasleud01,2,Center,C
+hassebi01,1,Guard,G
+hassejo01,1,Shooting Guard,SG
+hastisc01,1,Power Forward,PF
+hastisc01,2,Center,C
 hausesa01,1,Small Forward,SF
 hausesa01,2,Power Forward,PF
+havlijo01,1,Small Forward,SF
+havlijo01,2,Shooting Guard,SG
+hawkico01,1,Small Forward,SF
+hawkico01,2,Power Forward,PF
+hawkico01,3,Center,C
 hawkijo01,1,Shooting Guard,SG
+hayesel01,1,Power Forward,PF
+hayesel01,2,Center,C
 hayesja02,1,Center,C
 hayeski01,1,Point Guard,PG
+hayesni01,1,Small Forward,SF
 haywago01,1,Small Forward,SF
 haywago01,2,Power Forward,PF
+haywobr01,1,Center,C
+haywosp01,1,Power Forward,PF
+haywosp01,2,Center,C
+heinsto01,1,Power Forward,PF
+heinsto01,2,Small Forward,SF
+hemridi01,1,Power Forward,PF
+hendege01,1,Point Guard,PG
 hendesc01,1,Point Guard,PG
+hendeto01,1,Point Guard,PG
+hendeto01,2,Shooting Guard,SG
 hendrta01,1,Power Forward,PF
+hennela01,1,Shooting Guard,SG
 henryaa01,1,Small Forward,SF
 hensojo01,1,Center,C
 hensojo01,2,Power Forward,PF
+hepbuch01,1,Point Guard,PG
+hermskl01,1,Center,C
+hermskl01,2,Forward,F
 hernade01,1,Center,C
 hernaju01,1,Power Forward,PF
 hernawi01,1,Center,C
+herreca01,1,Power Forward,PF
 herroty01,1,Shooting Guard,SG
 herveke01,1,Power Forward,PF
+heymaar01,1,Shooting Guard,SG
+heymaar01,2,Small Forward,SF
 hezonma01,1,Small Forward,SF
 hezonma01,2,Power Forward,PF
 hicksis01,1,Power Forward,PF
@@ -669,63 +1097,98 @@ hieldbu01,1,Shooting Guard,SG
 hieldbu01,2,Small Forward,SF
 highsha01,1,Small Forward,SF
 highsha01,2,Power Forward,PF
+hightwa01,1,Power Forward,PF
 hilarne01,1,Center,C
 hilarne01,2,Power Forward,PF
 hillge01,1,Point Guard,PG
 hillge01,2,Shooting Guard,SG
+hillhar01,1,Center,C
 hillma01,1,Small Forward,SF
 hillma01,2,Shooting Guard,SG
+hillmda01,1,Power Forward,PF
+hillmda01,2,Center,C
 hillso01,1,Small Forward,SF
 hillso01,2,Power Forward,PF
+hinsobl01,1,Small Forward,SF
 hintona01,1,Shooting Guard,SG
 hintona01,2,Small Forward,SF
+hitchle01,1,Power Forward,PF
 hoardja01,1,Small Forward,SF
 hoardja01,2,Power Forward,PF
+hodgecr01,1,Shooting Guard,SG
+hodgecr01,2,Point Guard,PG
 hodgedm01,1,Shooting Guard,SG
+hoffmpa01,1,Shooting Guard,SG
+hoffmpa01,2,Point Guard,PG
+hogsebo01,1,Power Forward,PF
 holidaa01,1,Point Guard,PG
 holidjr01,1,Point Guard,PG
 holidjr01,2,Shooting Guard,SG
 holidju01,1,Shooting Guard,SG
 holidju01,2,Small Forward,SF
+hollabr01,1,Shooting Guard,SG
 hollajo02,1,Small Forward,SF
 hollaro01,1,Small Forward,SF
+hollili01,1,Point Guard,PG
+hollili01,2,Shooting Guard,SG
 holliro01,1,Small Forward,SF
 holliro01,2,Power Forward,PF
+holmeda01,1,Power Forward,PF
 holmeri01,1,Center,C
 holmeri01,2,Power Forward,PF
 holmgch01,1,Center,C
 holmgch01,2,Power Forward,PF
+holstji01,1,Small Forward,SF
+holzmre01,1,Point Guard,PG
 hoodro01,1,Shooting Guard,SG
 hoodro01,2,Small Forward,SF
 hoodro01,3,Power Forward,PF
 hoodsja01,1,Shooting Guard,SG
+hopsode01,1,Shooting Guard,SG
+hopsode01,2,Small Forward,SF
 hopsosc01,1,Shooting Guard,SG
 horfoal01,1,Center,C
+horryro01,1,Power Forward,PF
+horryro01,2,Small Forward,SF
 hortota01,1,Shooting Guard,SG
 hortota01,2,Point Guard,PG
+hoskebi01,1,Power Forward,PF
 houseda01,1,Small Forward,SF
 houseda01,2,Shooting Guard,SG
+houseed01,1,Shooting Guard,SG
+houseed01,2,Point Guard,PG
 houstca01,1,Small Forward,SF
 howardw01,1,Center,C
 howardw01,2,Power Forward,PF
 howarje01,1,Small Forward,SF
+howarju01,1,Power Forward,PF
+howarju01,2,Small Forward,SF
+howarju01,3,Center,C
 howarma02,1,Shooting Guard,SG
 howarwi01,1,Power Forward,PF
+howelba01,1,Power Forward,PF
+howelba01,2,Small Forward,SF
 hudgitr01,1,Point Guard,PG
 huertke01,1,Shooting Guard,SG
 huertke01,2,Small Forward,SF
 huffja01,1,Center,C
 hugheel01,1,Shooting Guard,SG
 hugheel01,2,Small Forward,SF
+hugheki01,1,Center,C
 hukpoar01,1,Center,C
 humphis01,1,Center,C
 huntede01,1,Small Forward,SF
+hunteli01,1,Point Guard,PG
+hunteli01,2,Shooting Guard,SG
 hunterj01,1,Shooting Guard,SG
 huntfe01,1,Small Forward,SF
+huntlcj01,1,Small Forward,SF
 hurtma01,1,Power Forward,PF
 hutchch01,1,Small Forward,SF
+huttojo01,1,Shooting Guard,SG
 hylanbo01,1,Point Guard,PG
 hylanbo01,2,Shooting Guard,SG
+iavarma01,1,Power Forward,PF
 ibakase01,1,Power Forward,PF
 ibakase01,2,Center,C
 ighodos01,1,Power Forward,PF
@@ -742,39 +1205,64 @@ ingraha01,1,Small Forward,SF
 irvinky01,1,Point Guard,PG
 irvinky01,2,Shooting Guard,SG
 isaacjo01,1,Power Forward,PF
+isselda01,1,Center,C
+isselda01,2,Power Forward,PF
 iveyja01,1,Shooting Guard,SG
 iwundwe01,1,Small Forward,SF
+jabalwa01,1,Shooting Guard,SG
+jabalwa01,2,Point Guard,PG
 jacksan01,1,Shooting Guard,SG
 jacksde01,1,Point Guard,PG
 jacksfr01,1,Point Guard,PG
 jacksgg01,1,Power Forward,PF
 jacksis01,1,Center,C
+jacksja01,1,Shooting Guard,SG
 jacksja02,1,Center,C
 jacksja02,2,Power Forward,PF
 jacksjo02,1,Small Forward,SF
 jacksjo02,2,Shooting Guard,SG
 jacksju01,1,Small Forward,SF
 jacksju01,2,Power Forward,PF
+jackslu01,1,Power Forward,PF
+jackslu01,2,Center,C
+jacksme01,1,Point Guard,PG
+jacksph01,1,Power Forward,PF
 jacksqu01,1,Point Guard,PG
 jacksre01,1,Point Guard,PG
 jacksre01,2,Shooting Guard,SG
-jackstr02,1,Power Forward,PF
-jackstr02,2,Center,C
+jacksst02,1,Small Forward,SF
+jacksst02,2,Shooting Guard,SG
+jacksst02,3,Power Forward,PF
+jackstr02,1,Center,C
+jackstr02,2,Power Forward,PF
+jacobsa01,1,Point Guard,PG
+jakucka01,1,Shooting Guard,SG
+jakucka01,2,Point Guard,PG
 jamesbr02,1,Shooting Guard,SG
+jamesda01,1,Small Forward,SF
 jamesju01,1,Small Forward,SF
 jamesle01,1,Small Forward,SF
 jamesle01,2,Power Forward,PF
 jamesle01,3,Point Guard,PG
 jamesle01,4,Center,C
 jamesle01,5,Shooting Guard,SG
+jamesmi01,1,Point Guard,PG
 jamesmi02,1,Point Guard,PG
+jamessi01,1,Shooting Guard,SG
 jaqueja01,1,Small Forward,SF
+jarosto01,1,Forward,F
+jarosto01,2,Guard,G
 jarrede01,1,Shooting Guard,SG
+jarviji01,1,Point Guard,PG
+jeannbu01,1,Guard,G
 jeffeam01,1,Power Forward,PF
+jeffeot01,1,Shooting Guard,SG
+jefferi01,1,Small Forward,SF
 jeffrda01,1,Shooting Guard,SG
 jemistr01,1,Center,C
 jenkida01,1,Point Guard,PG
 jenkijo01,1,Shooting Guard,SG
+jentch01,1,Small Forward,SF
 jerebjo01,1,Power Forward,PF
 jeromty01,1,Shooting Guard,SG
 joeis01,1,Shooting Guard,SG
@@ -783,81 +1271,173 @@ johnsal02,1,Power Forward,PF
 johnsam01,1,Power Forward,PF
 johnsam01,2,Center,C
 johnsam01,3,Small Forward,SF
+johnsar01,1,Small Forward,SF
+johnsav01,1,Point Guard,PG
 johnsbj01,1,Small Forward,SF
 johnsca02,1,Power Forward,PF
+johnsca02,2,Small Forward,SF
+johnsch01,1,Shooting Guard,SG
+johnsch01,2,Point Guard,PG
+johnsch06,1,Small Forward,SF
+johnscl01,1,Center,C
+johnscl02,1,Shooting Guard,SG
 johnsda08,1,Point Guard,PG
 johnsda08,2,Shooting Guard,SG
+johnsde01,1,Point Guard,PG
+johnsde01,2,Shooting Guard,SG
+johnsge02,1,Center,C
+johnsgu01,1,Power Forward,PF
+johnsgu01,2,Small Forward,SF
 johnsja01,1,Power Forward,PF
 johnsja01,2,Small Forward,SF
 johnsja01,3,Center,C
 johnsja05,1,Small Forward,SF
 johnsja05,2,Power Forward,PF
+johnsjo01,1,Small Forward,SF
 johnsjo02,1,Shooting Guard,SG
 johnsjo02,2,Small Forward,SF
 johnske04,1,Small Forward,SF
 johnske07,1,Shooting Guard,SG
 johnske08,1,Small Forward,SF
 johnske10,1,Small Forward,SF
+johnsli01,1,Power Forward,PF
+johnsli01,2,Small Forward,SF
+johnsma02,1,Point Guard,PG
+johnsma02,2,Shooting Guard,SG
+johnsma02,3,Power Forward,PF
+johnsne01,1,Center,C
+johnsre01,1,Power Forward,PF
+johnsre01,2,Small Forward,SF
+johnsri01,1,Center,C
+johnsri01,2,Power Forward,PF
 johnsst04,1,Small Forward,SF
 johnsst04,2,Power Forward,PF
+johnstr03,1,Shooting Guard,SG
 johnsty01,1,Point Guard,PG
 johnsty01,2,Shooting Guard,SG
+johnsvi01,1,Shooting Guard,SG
+johnsvi01,2,Point Guard,PG
 johnswe01,1,Small Forward,SF
 johnswe01,2,Shooting Guard,SG
 jokicni01,1,Center,C
+jonesbo01,1,Power Forward,PF
 jonesca03,1,Point Guard,PG
+jonesch01,1,Center,C
+jonesch01,2,Power Forward,PF
 jonesco02,1,Shooting Guard,SG
+jonescu01,1,Shooting Guard,SG
+jonesda02,1,Small Forward,SF
+jonesda02,2,Shooting Guard,SG
 jonesda03,1,Center,C
+jonesda06,1,Small Forward,SF
 jonesde02,1,Small Forward,SF
 jonesde02,2,Power Forward,PF
 jonesdi01,1,Small Forward,SF
+jonesdo02,1,Shooting Guard,SG
+jonesdo02,2,Point Guard,PG
+jonesea01,1,Center,C
 joneshe01,1,Small Forward,SF
 joneshe01,2,Power Forward,PF
 jonesis01,1,Power Forward,PF
+jonesja02,1,Small Forward,SF
+jonesja02,2,Shooting Guard,SG
 jonesja04,1,Small Forward,SF
 jonesje01,1,Small Forward,SF
+jonesjo01,1,Small Forward,SF
 joneska01,1,Center,C
+joneska03,1,Shooting Guard,SG
+joneskc01,1,Point Guard,PG
 jonesma05,1,Shooting Guard,SG
+jonesri01,1,Small Forward,SF
+jonesri01,2,Power Forward,PF
+jonesro01,1,Center,C
+jonessa01,1,Shooting Guard,SG
 jonessp01,1,Small Forward,SF
 joneste01,1,Power Forward,PF
 jonestr01,1,Point Guard,PG
 jonesty01,1,Point Guard,PG
+joneswa02,1,Point Guard,PG
+joneswa02,2,Shooting Guard,SG
+joneswi02,1,Power Forward,PF
+joneswi02,2,Small Forward,SF
 jordade01,1,Center,C
+jordaed01,1,Point Guard,PG
+jordami01,1,Shooting Guard,SG
+jordami01,2,Small Forward,SF
+jorgejo01,1,Guard,G
+jorgejo01,2,Forward,F
 josepco01,1,Point Guard,PG
 josepco01,2,Shooting Guard,SG
 jovicni01,1,Power Forward,PF
 juzanjo01,1,Shooting Guard,SG
 kabenmf01,1,Power Forward,PF
 kabenmf01,2,Center,C
+kachawh01,1,Guard,G
 kalaige01,1,Small Forward,SF
+kalkbry01,1,Center,C
 kaminfr01,1,Center,C
 kaminfr01,2,Power Forward,PF
 kanteen01,1,Center,C
+kaplora01,1,Guard,G
+kaplora01,2,Forward,F
+kaponja01,1,Small Forward,SF
+kaponja01,2,Shooting Guard,SG
+kaunsa01,1,Center,C
 kawamyu01,1,Point Guard,PG
 keelstr01,1,Shooting Guard,SG
+kellebi01,1,Point Guard,PG
+kellebi01,2,Shooting Guard,SG
 kelleky01,1,Center,C
+kellyar01,1,Shooting Guard,SG
+kellyar01,2,Point Guard,PG
+kellymi02,1,Point Guard,PG
+kendrfr01,1,Small Forward,SF
 kennalu01,1,Shooting Guard,SG
+kenonla01,1,Power Forward,PF
+kenonla01,2,Small Forward,SF
+kentja01,1,Small Forward,SF
+kenvibi01,1,Shooting Guard,SG
+kenvibi01,2,Point Guard,PG
+kerrre01,1,Center,C
+kerrst01,1,Point Guard,PG
+kerrst01,2,Shooting Guard,SG
+kerseje01,1,Small Forward,SF
+kerwito01,1,Forward,F
 kesslwa01,1,Center,C
 keybr01,1,Small Forward,SF
 kiddgmi01,1,Small Forward,SF
 kiddgmi01,2,Power Forward,PF
+kiddja01,1,Point Guard,PG
+kiddja01,2,Shooting Guard,SG
 kiddst01,1,Shooting Guard,SG
+kimbrst01,1,Point Guard,PG
+kingge01,1,Point Guard,PG
+kingge02,1,Small Forward,SF
 kingge03,1,Small Forward,SF
 kinglo02,1,Small Forward,SF
 kinglo02,2,Power Forward,PF
+kingma01,1,Point Guard,PG
+kingst01,1,Center,C
+kingst01,2,Power Forward,PF
 kispeco01,1,Small Forward,SF
+kitegr01,1,Center,C
 klebima01,1,Power Forward,PF
 klebima01,2,Center,C
+kleinjo01,1,Center,C
 klintbo01,1,Small Forward,SF
+klotzhe01,1,Guard,G
 knechda01,1,Small Forward,SF
 knighbr03,1,Point Guard,PG
 knighbr03,2,Shooting Guard,SG
 knighna01,1,Power Forward,PF
 knighna01,2,Center,C
+knightr01,1,Center,C
 knoxke01,1,Small Forward,SF
 knoxke01,2,Power Forward,PF
+knuepko01,1,Small Forward,SF
 kolekty01,1,Point Guard,PG
 kolokch01,1,Center,C
+konanya01,1,Center,C
 konchjo01,1,Shooting Guard,SG
 konchjo01,2,Small Forward,SF
 korkmfu01,1,Shooting Guard,SG
@@ -868,22 +1448,41 @@ korveky01,3,Power Forward,PF
 koufoko01,1,Center,C
 krejcvi01,1,Point Guard,PG
 krejcvi01,2,Shooting Guard,SG
+kreklwa01,1,Shooting Guard,SG
+kuberst01,1,Power Forward,PF
+kuberst01,2,Small Forward,SF
+kuberst01,3,Center,C
+kukocto01,1,Small Forward,SF
+kukocto01,2,Power Forward,PF
 kulboar01,1,Small Forward,SF
 kuminjo01,1,Power Forward,PF
 kuminjo01,2,Small Forward,SF
+kupchmi01,1,Power Forward,PF
+kupchmi01,2,Center,C
 kurucro01,1,Small Forward,SF
 kurucro01,2,Power Forward,PF
 kuzmaky01,1,Power Forward,PF
 kuzmaky01,2,Small Forward,SF
+kuzmiog01,1,Center,C
 labissk01,1,Power Forward,PF
 labissk01,2,Center,C
+lackebo01,1,Shooting Guard,SG
+ladnewe01,1,Small Forward,SF
+lagarto01,1,Center,C
+lagarto01,2,Power Forward,PF
+laimbbi01,1,Center,C
 lamban01,1,Small Forward,SF
 lambje01,1,Shooting Guard,SG
 lambje01,2,Small Forward,SF
+lampje01,1,Small Forward,SF
 landajo01,1,Center,C
+landsma01,1,Power Forward,PF
+landsma01,2,Center,C
 langfro01,1,Shooting Guard,SG
+laniech01,1,Shooting Guard,SG
 laravja01,1,Power Forward,PF
 larsspe01,1,Shooting Guard,SG
+larueru01,1,Point Guard,PG
 lavinza01,1,Shooting Guard,SG
 lavinza01,2,Small Forward,SF
 lavinza01,3,Point Guard,PG
@@ -893,26 +1492,43 @@ laymaja01,1,Small Forward,SF
 leaftj01,1,Power Forward,PF
 lecquja01,1,Point Guard,PG
 lecquja01,2,Shooting Guard,SG
+leebu01,1,Point Guard,PG
 leeco01,1,Shooting Guard,SG
+leeda02,1,Power Forward,PF
+leeda02,2,Center,C
+leeda02,3,Small Forward,SF
 leeda03,1,Shooting Guard,SG
 leesa01,1,Point Guard,PG
+leiboba01,1,Point Guard,PG
+leiboba01,2,Shooting Guard,SG
 lemonwa01,1,Point Guard,PG
 lenal01,1,Center,C
 leonaka01,1,Small Forward,SF
 leoname01,1,Center,C
 leoname01,2,Power Forward,PF
 leonsma01,1,Small Forward,SF
+lestero01,1,Point Guard,PG
 leuerjo01,1,Power Forward,PF
 leuerjo01,2,Center,C
 leverca01,1,Shooting Guard,SG
 leverca01,2,Small Forward,SF
+levincl01,1,Power Forward,PF
+lewisfr02,1,Point Guard,PG
+lewisfr02,2,Shooting Guard,SG
+lewisgr01,1,Forward,F
+lewisgr01,2,Center,C
 lewiski01,1,Point Guard,PG
 lewisma05,1,Small Forward,SF
+lewisra01,1,Small Forward,SF
+lewisra01,2,Shooting Guard,SG
+lewisra02,1,Small Forward,SF
+lewisra02,2,Power Forward,PF
 lewissc01,1,Shooting Guard,SG
 liddeej01,1,Power Forward,PF
 lillada01,1,Point Guard,PG
 linje01,1,Point Guard,PG
 linje01,2,Shooting Guard,SG
+littlge01,1,Point Guard,PG
 littlna01,1,Small Forward,SF
 littlna01,2,Power Forward,PF
 livelde01,1,Center,C
@@ -921,47 +1537,78 @@ liveris01,2,Small Forward,SF
 livinch01,1,Small Forward,SF
 livinsh01,1,Point Guard,PG
 livinsh01,2,Shooting Guard,SG
+lloydea01,1,Small Forward,SF
 loftoke01,1,Power Forward,PF
 loftoza01,1,Shooting Guard,SG
+loganhe01,1,Shooting Guard,SG
+loganhe01,2,Point Guard,PG
+longjo01,1,Shooting Guard,SG
+longllu01,1,Center,C
 looneke01,1,Center,C
 looneke01,2,Power Forward,PF
 lopezbr01,1,Center,C
 lopezro01,1,Center,C
+loscuji01,1,Small Forward,SF
 louzama01,1,Small Forward,SF
 louzama01,2,Shooting Guard,SG
+loveca01,1,Shooting Guard,SG
 loveke01,1,Power Forward,PF
 loveke01,2,Center,C
+lovelcl01,1,Center,C
+loverla01,1,Center,C
 lowryky01,1,Point Guard,PG
 loydjo01,1,Point Guard,PG
+lucasje01,1,Power Forward,PF
+lucasje01,2,Center,C
 lucaska01,1,Point Guard,PG
+lucasma01,1,Power Forward,PF
+lucasma01,2,Center,C
+luety01,1,Point Guard,PG
 lundbga01,1,Shooting Guard,SG
 lundyse01,1,Small Forward,SF
 luwawti01,1,Small Forward,SF
 lydonty01,1,Power Forward,PF
 lylestr01,1,Power Forward,PF
+macaued01,1,Center,C
+macaued01,2,Power Forward,PF
 machasc01,1,Point Guard,PG
+mackol01,1,Shooting Guard,SG
 macksh01,1,Point Guard,PG
 macksh01,2,Shooting Guard,SG
 maconda01,1,Point Guard,PG
 maconda01,2,Shooting Guard,SG
 macurjp01,1,Shooting Guard,SG
+madsema01,1,Center,C
+madsema01,2,Power Forward,PF
 magetjo01,1,Point Guard,PG
 magnawi01,1,Center,C
 mahinia01,1,Center,C
+mahorri01,1,Power Forward,PF
+mahorri01,2,Center,C
 makerth01,1,Center,C
 makerth01,2,Power Forward,PF
 maledth01,1,Point Guard,PG
+malonmo01,1,Center,C
+malonmo01,2,Power Forward,PF
+maluakh01,1,Center,C
 mamuksa01,1,Center,C
 mamuksa01,2,Power Forward,PF
 maneka01,1,Point Guard,PG
 mannini01,1,Point Guard,PG
+mannipa01,1,Small Forward,SF
 mannte01,1,Shooting Guard,SG
 mannte01,2,Small Forward,SF
 manntr01,1,Point Guard,PG
+manonch01,1,Shooting Guard,SG
+mariosh01,1,Small Forward,SF
+mariosh01,2,Power Forward,PF
 marjabo01,1,Center,C
 markkla01,1,Power Forward,PF
 markkla01,2,Small Forward,SF
+marksse01,1,Power Forward,PF
+marksse01,2,Center,C
 marshna01,1,Small Forward,SF
+martial01,1,Shooting Guard,SG
 martica02,1,Small Forward,SF
 martico01,1,Small Forward,SF
 martija01,1,Power Forward,PF
@@ -970,33 +1617,56 @@ martije02,1,Point Guard,PG
 martike03,1,Small Forward,SF
 martike04,1,Small Forward,SF
 martike04,2,Power Forward,PF
+martisl01,1,Point Guard,PG
 martity01,1,Shooting Guard,SG
+mashaja01,1,Shooting Guard,SG
 masonfr01,1,Point Guard,PG
+masseto01,1,Power Forward,PF
+masseto01,2,Center,C
 matenya01,1,Power Forward,PF
 mathega01,1,Shooting Guard,SG
 mathida01,1,Shooting Guard,SG
 mathube01,1,Small Forward,SF
 mathube01,2,Shooting Guard,SG
 matkoka01,1,Power Forward,PF
+matthwe01,1,Point Guard,PG
 matthwe02,1,Shooting Guard,SG
 matthwe02,2,Small Forward,SF
 maxeyty01,1,Point Guard,PG
 maxeyty01,2,Shooting Guard,SG
+maxwece01,1,Small Forward,SF
+maxweve01,1,Shooting Guard,SG
+maxweve01,2,Point Guard,PG
+maydo01,1,Small Forward,SF
+mayescl01,1,Power Forward,PF
 mayssk01,1,Shooting Guard,SG
 mayssk01,2,Point Guard,PG
 mbahalu01,1,Power Forward,PF
 mbahalu01,2,Small Forward,SF
+mbengbe01,1,Shooting Guard,SG
+mbengdj01,1,Center,C
+mcadobo01,1,Center,C
+mcadobo01,2,Power Forward,PF
+mcadoja01,1,Power Forward,PF
 mcbrimi01,1,Point Guard,PG
+mcbrimi01,2,Shooting Guard,SG
 mccaija01,1,Shooting Guard,SG
 mccaija01,2,Point Guard,PG
 mccalta01,1,Shooting Guard,SG
+mccarjo01,1,Point Guard,PG
+mccarjo01,2,Shooting Guard,SG
 mccawpa01,1,Shooting Guard,SG
 mccawpa01,2,Small Forward,SF
+mcclate01,1,Shooting Guard,SG
+mcclate01,2,Point Guard,PG
 mccluma01,1,Shooting Guard,SG
 mccluma01,2,Point Guard,PG
 mccolcj01,1,Shooting Guard,SG
 mccolcj01,2,Point Guard,PG
 mccontj01,1,Point Guard,PG
+mccoyje01,1,Center,C
+mccraro01,1,Small Forward,SF
+mccraro01,2,Power Forward,PF
 mcculke01,1,Small Forward,SF
 mcdanja01,1,Small Forward,SF
 mcdanja02,1,Power Forward,PF
@@ -1004,41 +1674,79 @@ mcdanja02,2,Small Forward,SF
 mcderdo01,1,Small Forward,SF
 mcderdo01,2,Power Forward,PF
 mcderse01,1,Small Forward,SF
+mcdongl01,1,Small Forward,SF
+mcdonro01,1,Small Forward,SF
+mcdonro01,2,Power Forward,PF
 mcgeeja01,1,Center,C
+mcgeemi01,1,Small Forward,SF
+mcgeemi01,2,Shooting Guard,SG
+mcginge01,1,Power Forward,PF
+mcginge01,2,Small Forward,SF
+mcglojo01,1,Shooting Guard,SG
+mcglojo01,2,Small Forward,SF
 mcgowbr01,1,Shooting Guard,SG
 mcgrica01,1,Small Forward,SF
 mcgruro01,1,Shooting Guard,SG
+mchalke01,1,Power Forward,PF
+mckeeje01,1,Guard,G
+mckenke01,1,Shooting Guard,SG
 mckinal01,1,Small Forward,SF
 mclauja01,1,Point Guard,PG
 mclaujo01,1,Point Guard,PG
 mclembe01,1,Shooting Guard,SG
 mclembe01,2,Small Forward,SF
+mclemmc01,1,Small Forward,SF
+mcmahja01,1,Point Guard,PG
+mcmahja01,2,Shooting Guard,SG
+mcmilji01,1,Small Forward,SF
+mcnabch01,1,Forward,F
+mcnamjo01,1,Small Forward,SF
+mcnamma01,1,Center,C
+mcneeli01,1,Small Forward,SF
 mcraejo01,1,Shooting Guard,SG
 mcraejo01,2,Point Guard,PG
 mcveija01,1,Power Forward,PF
+medvest01,1,Power Forward,PF
+medvest01,2,Center,C
 meeksjo01,1,Shooting Guard,SG
+meinhca01,1,Guard,G
+meinhca01,2,Forward,F
 mejrisa01,1,Center,C
+melchbi01,1,Point Guard,PG
 mellini01,1,Power Forward,PF
 mellini01,2,Center,C
 meltode01,1,Point Guard,PG
 meltode01,2,Shooting Guard,SG
+meminde01,1,Shooting Guard,SG
+meminde01,2,Point Guard,PG
 mensana01,1,Center,C
 merrisa01,1,Shooting Guard,SG
 metuch01,1,Center,C
 metuch01,2,Power Forward,PF
+meyerbi01,1,Guard,G
 micicva01,1,Point Guard,PG
 middlkh01,1,Small Forward,SF
 middlkh01,2,Shooting Guard,SG
+mihmch01,1,Center,C
+mihmch01,2,Power Forward,PF
 mikaer01,1,Center,C
+mikaned01,1,Center,C
+mikange01,1,Center,C
+mikkeve01,1,Power Forward,PF
 milescj01,1,Small Forward,SF
 milescj01,2,Shooting Guard,SG
 milescj01,3,Point Guard,PG
+milicda01,1,Center,C
+milicda01,2,Power Forward,PF
 millebr02,1,Small Forward,SF
 milleda01,1,Small Forward,SF
 milleem01,1,Power Forward,PF
+milleja01,1,Small Forward,SF
 millejo02,1,Small Forward,SF
 millele01,1,Small Forward,SF
 millema01,1,Small Forward,SF
+millemi01,1,Small Forward,SF
+millemi01,2,Shooting Guard,SG
 millspa01,1,Power Forward,PF
 millspa01,2,Center,C
 millspa02,1,Point Guard,PG
@@ -1047,6 +1755,7 @@ miltosh01,1,Shooting Guard,SG
 minayju01,1,Small Forward,SF
 minixri01,1,Small Forward,SF
 minotjo01,1,Small Forward,SF
+minotjo01,2,Power Forward,PF
 mirotni01,1,Power Forward,PF
 missiyv01,1,Center,C
 mitchaj01,1,Shooting Guard,SG
@@ -1056,11 +1765,15 @@ mitchdo01,2,Point Guard,PG
 mitrona01,1,Shooting Guard,SG
 mobleev01,1,Power Forward,PF
 mobleis01,1,Power Forward,PF
+moedo01,1,Small Forward,SF
 mogbojo01,1,Power Forward,PF
+mohamna01,1,Center,C
 mokokad01,1,Shooting Guard,SG
 mokokad01,2,Small Forward,SF
 monekch01,1,Small Forward,SF
 monkma01,1,Shooting Guard,SG
+monroea01,1,Shooting Guard,SG
+monroea01,2,Point Guard,PG
 monrogr01,1,Center,C
 monrogr01,2,Power Forward,PF
 moodymo01,1,Shooting Guard,SG
@@ -1068,34 +1781,48 @@ moonema01,1,Shooting Guard,SG
 moonxa01,1,Shooting Guard,SG
 mooreet01,1,Shooting Guard,SG
 mooreet01,2,Point Guard,PG
+mooreja01,1,Small Forward,SF
 mooreta02,1,Shooting Guard,SG
 moorewe01,1,Shooting Guard,SG
+moralal01,1,Point Guard,PG
 moranja01,1,Point Guard,PG
 moreler01,1,Power Forward,PF
 morgaju01,1,Power Forward,PF
+morriad01,1,Small Forward,SF
+morriad01,2,Power Forward,PF
 morrija01,1,Shooting Guard,SG
 morrima02,1,Power Forward,PF
 morrima03,1,Power Forward,PF
 morrima03,2,Small Forward,SF
 morrimo01,1,Point Guard,PG
+morrire01,1,Center,C
 motiedo01,1,Power Forward,PF
 motlejo01,1,Power Forward,PF
+mountri01,1,Shooting Guard,SG
+mournal01,1,Center,C
+mournal01,2,Power Forward,PF
+mozgoti01,1,Center,C
 mudiaem01,1,Point Guard,PG
 muldemy01,1,Point Guard,PG
 muldemy01,2,Small Forward,SF
+mullije01,1,Shooting Guard,SG
 murkead01,1,Shooting Guard,SG
+murphjo01,1,Forward,F
 murphtr02,1,Small Forward,SF
+murraco01,1,Power Forward,PF
 murrade01,1,Point Guard,PG
 murrade01,2,Shooting Guard,SG
 murraja01,1,Point Guard,PG
 murraja01,2,Shooting Guard,SG
-murrake02,1,Small Forward,SF
-murrake02,2,Power Forward,PF
+murrake02,1,Power Forward,PF
+murrake02,2,Small Forward,SF
 murrakr01,1,Small Forward,SF
+murratr01,1,Small Forward,SF
 musadz01,1,Small Forward,SF
 musadz01,2,Shooting Guard,SG
 muscami01,1,Center,C
 muscami01,2,Power Forward,PF
+musian01,1,Guard,G
 mykhasv01,1,Small Forward,SF
 naderab01,1,Small Forward,SF
 nancela02,1,Power Forward,PF
@@ -1103,24 +1830,48 @@ nancela02,2,Center,C
 nancepe01,1,Power Forward,PF
 nancepe01,2,Center,C
 napiesh01,1,Point Guard,PG
-nembhan01,1,Shooting Guard,SG
-nembhan01,2,Point Guard,PG
+natersw01,1,Center,C
+naullwi01,1,Small Forward,SF
+naullwi01,2,Power Forward,PF
+nealll01,1,Power Forward,PF
+nealll01,2,Center,C
+nealyed01,1,Power Forward,PF
+nelsodo01,1,Small Forward,SF
+nelsodo01,2,Power Forward,PF
+nelsogr02,1,Power Forward,PF
+nembhan01,1,Point Guard,PG
+nembhan01,2,Shooting Guard,SG
 nembhrj01,1,Shooting Guard,SG
+nembhry01,1,Point Guard,PG
+nemeldi01,1,Shooting Guard,SG
 nesmiaa01,1,Small Forward,SF
+nestera01,1,Center,C
+netolbo01,1,Power Forward,PF
+netolbo01,2,Center,C
 netora01,1,Point Guard,PG
+nevitch01,1,Center,C
+newelas01,1,Power Forward,PF
 newmama01,1,Point Guard,PG
 newmama01,2,Shooting Guard,SG
+newtobi01,1,Center,C
+newtobi01,2,Power Forward,PF
 newtotr01,1,Shooting Guard,SG
 nfalyda01,1,Center,C
 niangge01,1,Power Forward,PF
+nichoja01,1,Power Forward,PF
 nixda01,1,Point Guard,PG
 nixda01,2,Shooting Guard,SG
+nixonno01,1,Point Guard,PG
 nnajize01,1,Power Forward,PF
 noahjo01,1,Center,C
 noelne01,1,Center,C
 noelne01,2,Power Forward,PF
+noelpa01,1,Forward,F
+nordmbe01,1,Center,C
 norrimi01,1,Power Forward,PF
 norveza01,1,Shooting Guard,SG
+novakst01,1,Power Forward,PF
+novakst01,2,Small Forward,SF
 nowelja01,1,Shooting Guard,SG
 nowelma01,1,Shooting Guard,SG
 nowitdi01,1,Power Forward,PF
@@ -1134,65 +1885,120 @@ nurkiju01,1,Center,C
 nwabada01,1,Small Forward,SF
 nwabada01,2,Shooting Guard,SG
 nworajo01,1,Small Forward,SF
+obertfa01,1,Center,C
+obrieji02,1,Small Forward,SF
+odomla01,1,Power Forward,PF
+odomla01,2,Small Forward,SF
+odurojo01,1,Power Forward,PF
 ojelese01,1,Power Forward,PF
 okafoja01,1,Center,C
+okanito01,1,Shooting Guard,SG
 okekech01,1,Power Forward,PF
 okekech01,2,Small Forward,SF
 okoboel01,1,Point Guard,PG
 okogijo01,1,Shooting Guard,SG
 okongon01,1,Center,C
-okorois01,1,Small Forward,SF
-okorois01,2,Shooting Guard,SG
+okorois01,1,Shooting Guard,SG
+okorois01,2,Small Forward,SF
 okpalkz01,1,Power Forward,PF
+okurme01,1,Center,C
+okurme01,2,Power Forward,PF
 oladivi01,1,Shooting Guard,SG
 oladivi01,2,Point Guard,PG
+olajuha01,1,Center,C
+olbrila01,1,Center,C
+olbrila01,2,Power Forward,PF
 olivaqu01,1,Point Guard,PG
 oliveca01,1,Small Forward,SF
+olsenbu01,1,Power Forward,PF
 olynyke01,1,Center,C
 olynyke01,2,Power Forward,PF
+omierno01,1,Power Forward,PF
 omorueu01,1,Small Forward,SF
 onealro01,1,Small Forward,SF
+onealsh01,1,Center,C
 onimi01,1,Shooting Guard,SG
 onimi01,2,Small Forward,SF
 oquinky01,1,Center,C
 oquinky01,2,Power Forward,PF
+ormsba01,1,Point Guard,PG
 osmande01,1,Small Forward,SF
+osterwa01,1,Small Forward,SF
+osterwa01,2,Power Forward,PF
 oturuda01,1,Center,C
 oubreke01,1,Small Forward,SF
 owensta01,1,Power Forward,PF
+pacejo01,1,Center,C
 pachuza01,1,Center,C
 paigeja01,1,Point Guard,PG
+palazto01,1,Small Forward,SF
+palazto01,2,Shooting Guard,SG
 palmetr01,1,Shooting Guard,SG
 pangoke01,1,Point Guard,PG
 pargoje01,1,Point Guard,PG
 pargoje01,2,Shooting Guard,SG
+parisro01,1,Center,C
 parkeja01,1,Power Forward,PF
 parketo01,1,Point Guard,PG
+parkme01,1,Shooting Guard,SG
+parkme01,2,Small Forward,SF
+parksri01,1,Small Forward,SF
 parsoch01,1,Small Forward,SF
 parsoch01,2,Power Forward,PF
 pascher01,1,Power Forward,PF
 pasecan01,1,Center,C
 pattepa01,1,Power Forward,PF
+pattewo01,1,Guard,G
 pattoju01,1,Center,C
 paulch01,1,Point Guard,PG
+paultbi01,1,Center,C
+paultbi01,2,Power Forward,PF
+pavloal01,1,Shooting Guard,SG
+pavloal01,2,Small Forward,SF
+paxsojo01,1,Point Guard,PG
 payneca01,1,Point Guard,PG
 payneca01,2,Shooting Guard,SG
 paytoel01,1,Point Guard,PG
+paytoga01,1,Point Guard,PG
 paytoga02,1,Shooting Guard,SG
 paytoga02,2,Point Guard,PG
 paytoga02,3,Small Forward,SF
+peavymi01,1,Shooting Guard,SG
+pedulse01,1,Point Guard,PG
+peeplge01,1,Center,C
 pelleno01,1,Center,C
+penbemi01,1,Point Guard,PG
+pendano01,1,Small Forward,SF
+pendeje02,1,Power Forward,PF
+pendeje02,2,Center,C
+perduwi01,1,Center,C
 pereima01,1,Small Forward,SF
+perkike01,1,Center,C
 perryre01,1,Power Forward,PF
 peterdr01,1,Power Forward,PF
+peterme01,1,Shooting Guard,SG
+peterme01,2,Small Forward,SF
+peterta01,1,Shooting Guard,SG
 petrufi01,1,Center,C
+petruri01,1,Center,C
+pettibo01,1,Power Forward,PF
+pettibo01,2,Center,C
+phillan01,1,Point Guard,PG
+phillan01,2,Shooting Guard,SG
+phillga01,1,Shooting Guard,SG
+phillga01,2,Point Guard,PG
 phillju01,1,Small Forward,SF
 pickeja01,1,Small Forward,SF
 pickeja01,2,Power Forward,PF
 pickeja02,1,Shooting Guard,SG
+piercpa01,1,Small Forward,SF
+piercpa01,2,Shooting Guard,SG
+pilchjo01,1,Forward,F
 pinsoth01,1,Shooting Guard,SG
 pinsoth01,2,Small Forward,SF
+pippesc01,1,Small Forward,SF
 pippesc02,1,Point Guard,PG
+pittmde01,1,Center,C
 plowdda01,1,Shooting Guard,SG
 plumlma01,1,Center,C
 plumlmi01,1,Center,C
@@ -1200,6 +2006,8 @@ podzibr01,1,Shooting Guard,SG
 poeltja01,1,Center,C
 poirivi01,1,Center,C
 pokusal01,1,Power Forward,PF
+pollaji01,1,Small Forward,SF
+pollasc01,1,Center,C
 pondequ01,1,Small Forward,SF
 pondequ01,2,Shooting Guard,SG
 pondssh01,1,Point Guard,PG
@@ -1214,106 +2022,196 @@ porteke02,3,Small Forward,SF
 portemi01,1,Small Forward,SF
 porteot01,1,Small Forward,SF
 porteot01,2,Power Forward,PF
+portewi01,1,Power Forward,PF
 portibo01,1,Power Forward,PF
 portibo01,2,Center,C
 porzikr01,1,Center,C
 porzikr01,2,Power Forward,PF
+poseyja01,1,Small Forward,SF
+poseyja01,2,Shooting Guard,SG
+poseyja01,3,Power Forward,PF
+postljo01,1,Forward,F
 postqu01,1,Power Forward,PF
-pottemi01,1,Power Forward,PF
-pottemi01,2,Center,C
+pottemi01,1,Center,C
+pottemi01,2,Power Forward,PF
+poulajo01,1,Shooting Guard,SG
+poweldr01,1,Shooting Guard,SG
 poweldw01,1,Center,C
 poweldw01,2,Power Forward,PF
+powele01,1,Center,C
+powele01,2,Power Forward,PF
+powele01,3,Small Forward,SF
+poweljo01,1,Power Forward,PF
+poweljo01,2,Center,C
 powelmy01,1,Point Guard,PG
 powelno01,1,Shooting Guard,SG
 powelno01,2,Small Forward,SF
 poythal01,1,Power Forward,PF
 prestja01,1,Point Guard,PG
+pricemi01,1,Shooting Guard,SG
 primojo01,1,Shooting Guard,SG
 primojo01,2,Small Forward,SF
+princta01,1,Small Forward,SF
 princta02,1,Power Forward,PF
 princta02,2,Small Forward,SF
 pritcpa01,1,Point Guard,PG
 pritcpa01,2,Shooting Guard,SG
+proctty01,1,Point Guard,PG
 prospol01,1,Power Forward,PF
+pruitga01,1,Shooting Guard,SG
+pruitga01,2,Point Guard,PG
 pullizy01,1,Shooting Guard,SG
 qizh01,1,Power Forward,PF
 qizh01,2,Center,C
+queende01,1,Center,C
 queentr01,1,Shooting Guard,SG
 quetane01,1,Center,C
 quickim01,1,Point Guard,PG
 quickim01,2,Shooting Guard,SG
 quinole01,1,Shooting Guard,SG
 rabbiv01,1,Power Forward,PF
+rackllu01,1,Center,C
+radmavl01,1,Power Forward,PF
+radmavl01,2,Small Forward,SF
+rambiku01,1,Power Forward,PF
+ramsefr01,1,Shooting Guard,SG
+ramsefr01,2,Small Forward,SF
 ramseja01,1,Shooting Guard,SG
+randama01,1,Power Forward,PF
 randlch01,1,Point Guard,PG
 randlju01,1,Power Forward,PF
 randlju01,2,Center,C
+raycl01,1,Center,C
+raymocr01,1,Center,C
+raynama01,1,Center,C
+raynama01,2,Power Forward,PF
 reathdu01,1,Center,C
 reaveau01,1,Shooting Guard,SG
 reavejo02,1,Small Forward,SF
+rebraze01,1,Center,C
 reddica01,1,Small Forward,SF
 redicjj01,1,Shooting Guard,SG
 redicjj01,2,Point Guard,PG
 reedda01,1,Shooting Guard,SG
 reedpa01,1,Center,C
 reedpa01,2,Power Forward,PF
+reedwi01,1,Center,C
+reedwi01,2,Power Forward,PF
 reeseal01,1,Power Forward,PF
+reeseju01,1,Power Forward,PF
 reevean01,1,Shooting Guard,SG
 reidna01,1,Center,C
 reidna01,2,Power Forward,PF
+reisech01,1,Guard,G
+reisech01,2,Forward,F
 reynoca01,1,Small Forward,SF
 reynoca01,2,Shooting Guard,SG
 rhodeja01,1,Shooting Guard,SG
+ricegl01,1,Small Forward,SF
+richacl01,1,Shooting Guard,SG
+richaja02,1,Shooting Guard,SG
 richajo01,1,Shooting Guard,SG
 richajo01,2,Small Forward,SF
 richama01,1,Shooting Guard,SG
 richani01,1,Center,C
 richani01,2,Power Forward,PF
+richawi02,1,Shooting Guard,SG
+richmka01,1,Shooting Guard,SG
+richmmi01,1,Shooting Guard,SG
+richtjo01,1,Center,C
+rideris01,1,Shooting Guard,SG
+rikerto01,1,Center,C
+rileyer01,1,Center,C
+rileypa01,1,Shooting Guard,SG
+rileypa01,2,Small Forward,SF
+rileywi01,1,Small Forward,SF
 rillegr01,1,Point Guard,PG
+rinalri01,1,Shooting Guard,SG
+riordmi01,1,Small Forward,SF
+riordmi01,2,Shooting Guard,SG
 risacza01,1,Small Forward,SF
+risenar01,1,Center,C
 riverau01,1,Shooting Guard,SG
 riverau01,2,Point Guard,PG
 robbili01,1,Center,C
+robbire01,1,Center,C
+robbire01,2,Power Forward,PF
 roberan03,1,Shooting Guard,SG
 roberan03,2,Small Forward,SF
+roberma01,1,Small Forward,SF
+roberma01,2,Power Forward,PF
+roberos01,1,Point Guard,PG
+robeyri01,1,Center,C
+robinda01,1,Center,C
 robinde01,1,Small Forward,SF
 robindu01,1,Small Forward,SF
 robindu01,2,Shooting Guard,SG
+robinfl01,1,Point Guard,PG
+robinfl01,2,Shooting Guard,SG
+robingl01,1,Small Forward,SF
 robingl02,1,Small Forward,SF
 robingl02,2,Shooting Guard,SG
+robinja01,1,Small Forward,SF
 robinje01,1,Shooting Guard,SG
 robinje02,1,Power Forward,PF
 robinje02,2,Center,C
 robinju01,1,Point Guard,PG
+robinla01,1,Shooting Guard,SG
+robinla01,2,Point Guard,PG
+robinla01,3,Small Forward,SF
 robinmi01,1,Center,C
 robinor01,1,Center,C
 robyis01,1,Power Forward,PF
+rochare01,1,Center,C
+rochejo01,1,Shooting Guard,SG
+rochejo01,2,Point Guard,PG
 roddyda01,1,Power Forward,PF
+rodmade01,1,Power Forward,PF
+rodmade01,2,Small Forward,SF
 rolliry01,1,Point Guard,PG
 rondora01,1,Point Guard,PG
 rosede01,1,Point Guard,PG
+rosema01,1,Power Forward,PF
+rosenpe01,1,Guard,G
 rosste01,1,Shooting Guard,SG
 rosste01,2,Small Forward,SF
+rotheir01,1,Center,C
 roweja01,1,Power Forward,PF
+rowinji01,1,Power Forward,PF
+rowinji01,2,Center,C
 roziete01,1,Point Guard,PG
 roziete01,2,Shooting Guard,SG
 rubiori01,1,Point Guard,PG
+rulloje01,1,Guard,G
 ruperra01,1,Shooting Guard,SG
+rushbr01,1,Shooting Guard,SG
+rushbr01,2,Small Forward,SF
+russebi01,1,Center,C
+russeca01,1,Small Forward,SF
 russeda01,1,Point Guard,PG
+ryanco01,1,Shooting Guard,SG
 ryanma01,1,Small Forward,SF
 sabondo01,1,Center,C
 sabondo01,2,Power Forward,PF
 salauti01,1,Power Forward,PF
+sallejo01,1,Power Forward,PF
+sallejo01,2,Center,C
+sallihu01,1,Shooting Guard,SG
 samanlu01,1,Power Forward,PF
 sampsbr01,1,Shooting Guard,SG
 sampsja02,1,Small Forward,SF
 sampsja02,2,Power Forward,PF
 samueje01,1,Small Forward,SF
+sandeko01,1,Shooting Guard,SG
+sandeto01,1,Small Forward,SF
+sandeto01,2,Power Forward,PF
+sandfpa01,1,Small Forward,SF
 sanogad01,1,Power Forward,PF
 sanogad01,2,Center,C
 santogu01,1,Power Forward,PF
-saricda01,1,Power Forward,PF
-saricda01,2,Center,C
+sarafbe01,1,Shooting Guard,SG
+saricda01,1,Center,C
+saricda01,2,Power Forward,PF
 sarral01,1,Center,C
 sarral01,2,Power Forward,PF
 sarrol01,1,Center,C
@@ -1321,48 +2219,96 @@ sassema01,1,Point Guard,PG
 satorto01,1,Shooting Guard,SG
 satorto01,2,Point Guard,PG
 satorto01,3,Small Forward,SF
+sauldwo01,1,Power Forward,PF
+sauldwo01,2,Center,C
+saulpe01,1,Shooting Guard,SG
+scalabr01,1,Power Forward,PF
+scalabr01,2,Center,C
+schaebi01,1,Small Forward,SF
+schaehe01,1,Guard,G
+schaehe01,2,Forward,F
+schafbo01,1,Shooting Guard,SG
 schakjo01,1,Small Forward,SF
 schakjo01,2,Shooting Guard,SG
+schaydo01,1,Power Forward,PF
+schaydo01,2,Center,C
 scheiba01,1,Shooting Guard,SG
+schnidi01,1,Small Forward,SF
+schoeru01,1,Power Forward,PF
 schofad01,1,Power Forward,PF
 schofad01,2,Small Forward,SF
 schrode01,1,Point Guard,PG
 schrode01,2,Shooting Guard,SG
+schuldi01,1,Forward,F
+schuldi01,2,Guard,G
+schulho01,1,Power Forward,PF
+scottby01,1,Shooting Guard,SG
+scottby01,2,Point Guard,PG
+scottch01,1,Shooting Guard,SG
+scottch01,2,Point Guard,PG
 scottmi01,1,Power Forward,PF
-scotttr01,1,Small Forward,SF
+scotttr01,1,Power Forward,PF
+scotttr01,2,Small Forward,SF
 scrubja01,1,Shooting Guard,SG
 seabrde01,1,Shooting Guard,SG
+searced01,1,Small Forward,SF
+searsma01,1,Point Guard,PG
 sefolth01,1,Shooting Guard,SG
 sefolth01,2,Small Forward,SF
 sefolth01,3,Power Forward,PF
 seldewa01,1,Shooting Guard,SG
+selvyfr01,1,Shooting Guard,SG
+selvyfr01,2,Small Forward,SF
+senesge01,1,Point Guard,PG
 sengual01,1,Center,C
 sensabr01,1,Small Forward,SF
 sextoco01,1,Shooting Guard,SG
 sextoco01,2,Point Guard,PG
+seymopa01,1,Shooting Guard,SG
+seymopa01,2,Point Guard,PG
 shamela01,1,Shooting Guard,SG
 shannte01,1,Shooting Guard,SG
+sharech01,1,Center,C
+sharmbi01,1,Shooting Guard,SG
 sharpda01,1,Center,C
 sharpda01,2,Power Forward,PF
 sharpsh01,1,Shooting Guard,SG
+shawbr01,1,Point Guard,PG
+shawbr01,2,Shooting Guard,SG
 shayoma01,1,Shooting Guard,SG
 sheadja01,1,Point Guard,PG
+shefffr01,1,Forward,F
+sheltlo01,1,Power Forward,PF
 sheppbe01,1,Shooting Guard,SG
-sheppre01,1,Point Guard,PG
-sheppre01,2,Shooting Guard,SG
+sheppre01,1,Shooting Guard,SG
+sheppre01,2,Point Guard,PG
+shulgma01,1,Shooting Guard,SG
 shumpim01,1,Shooting Guard,SG
 shumpim01,2,Small Forward,SF
 shumpim01,3,Point Guard,PG
 siakapa01,1,Power Forward,PF
 siberjo01,1,Shooting Guard,SG
+sichtje01,1,Point Guard,PG
+sidledo01,1,Power Forward,PF
+sidledo01,2,Center,C
+siegfla01,1,Point Guard,PG
+siegfla01,2,Shooting Guard,SG
+sikmaja01,1,Center,C
+sikmaja01,2,Power Forward,PF
+silaspa01,1,Power Forward,PF
 silvach01,1,Power Forward,PF
+simiewa01,1,Power Forward,PF
 simmobe01,1,Point Guard,PG
+simmoco01,1,Center,C
+simmoco01,2,Power Forward,PF
 simmojo02,1,Shooting Guard,SG
 simmojo02,2,Small Forward,SF
 simmoko01,1,Point Guard,PG
 simmoko01,2,Shooting Guard,SG
 simonan01,1,Shooting Guard,SG
 simonma01,1,Center,C
+simpkdi01,1,Power Forward,PF
+simpkdi01,2,Center,C
 simpskj01,1,Point Guard,PG
 simpsza01,1,Point Guard,PG
 simsja01,1,Shooting Guard,SG
@@ -1370,14 +2316,21 @@ simsje01,1,Center,C
 simsje01,2,Power Forward,PF
 sirvyde01,1,Shooting Guard,SG
 skapidm01,1,Center,C
+skinnal01,1,Shooting Guard,SG
+skoogwh01,1,Shooting Guard,SG
 slawsja01,1,Small Forward,SF
 smailal01,1,Power Forward,PF
 smailal01,2,Center,C
+smallja01,1,Point Guard,PG
 smartja01,1,Point Guard,PG
 smartma01,1,Point Guard,PG
 smartma01,2,Shooting Guard,SG
 smithde03,1,Point Guard,PG
+smithdo01,1,Guard,G
+smithdo01,2,Forward,F
 smithdr01,1,Shooting Guard,SG
+smithgr01,1,Small Forward,SF
+smithgr01,2,Power Forward,PF
 smithis01,1,Point Guard,PG
 smithja02,1,Center,C
 smithja02,2,Power Forward,PF
@@ -1386,90 +2339,152 @@ smithja04,2,Power Forward,PF
 smithja05,1,Power Forward,PF
 smithjr01,1,Shooting Guard,SG
 smithjr01,2,Small Forward,SF
+smithke01,1,Point Guard,PG
+smithma02,1,Shooting Guard,SG
 smithni01,1,Shooting Guard,SG
+smithph01,1,Shooting Guard,SG
+smithsa01,1,Small Forward,SF
+smithst01,1,Shooting Guard,SG
 smithte01,1,Point Guard,PG
 smithto05,1,Power Forward,PF
 smithty02,1,Power Forward,PF
 smithzh01,1,Shooting Guard,SG
 smithzh01,2,Small Forward,SF
+smrekmi01,1,Center,C
+smrekmi01,2,Power Forward,PF
 sneedxa01,1,Small Forward,SF
 snellto01,1,Shooting Guard,SG
 snellto01,2,Small Forward,SF
+snydedi01,1,Shooting Guard,SG
+snydedi01,2,Small Forward,SF
 sochaje01,1,Power Forward,PF
+sojouwi01,1,Center,C
 spaldra01,1,Power Forward,PF
 spaldra01,2,Center,C
+sparrro01,1,Point Guard,PG
+speigma01,1,Center,C
+speigma01,2,Power Forward,PF
 spellom01,1,Center,C
 spellom01,2,Power Forward,PF
 spencca01,1,Shooting Guard,SG
 spencpa01,1,Point Guard,PG
+splitti01,1,Center,C
+splitti01,2,Power Forward,PF
+sprigla01,1,Small Forward,SF
+sprigla01,2,Power Forward,PF
 sprinja01,1,Shooting Guard,SG
 sprinja01,2,Point Guard,PG
+stacoke01,1,Shooting Guard,SG
+stallda01,1,Small Forward,SF
 stanlca01,1,Shooting Guard,SG
 stausni01,1,Shooting Guard,SG
+steella01,1,Shooting Guard,SG
+steella01,2,Small Forward,SF
+steigma01,1,Small Forward,SF
 stephdj01,1,Shooting Guard,SG
 stephla01,1,Shooting Guard,SG
 stephla01,2,Small Forward,SF
 stephla01,3,Point Guard,PG
+stevede01,1,Shooting Guard,SG
+stevede01,2,Small Forward,SF
 steveis01,1,Point Guard,PG
 stevela01,1,Power Forward,PF
 stevela01,2,Small Forward,SF
 stewais01,1,Center,C
 stewais01,2,Power Forward,PF
-strawju01,1,Small Forward,SF
-strawju01,2,Shooting Guard,SG
+stojape01,1,Small Forward,SF
+stonege01,1,Small Forward,SF
+strawju01,1,Shooting Guard,SG
+strawju01,2,Small Forward,SF
 strusma01,1,Small Forward,SF
-suggsja01,1,Shooting Guard,SG
-suggsja01,2,Point Guard,PG
+stumpge01,1,Forward,F
+stumpge01,2,Guard,G
+suggsja01,1,Point Guard,PG
+suggsja01,2,Shooting Guard,SG
 sumneed01,1,Shooting Guard,SG
 sumneed01,2,Point Guard,PG
+surabo01,1,Shooting Guard,SG
+surabo01,2,Point Guard,PG
+swainbe01,1,Power Forward,PF
 swanica01,1,Power Forward,PF
 swanica01,2,Center,C
+swartda01,1,Small Forward,SF
 swideco01,1,Small Forward,SF
 swordcr01,1,Shooting Guard,SG
 sykeske01,1,Point Guard,PG
+tabakza01,1,Center,C
 tateja01,1,Small Forward,SF
 tateja01,2,Power Forward,PF
 tatumja01,1,Small Forward,SF
 tatumja01,2,Power Forward,PF
+taylobr01,1,Point Guard,PG
+taylool01,1,Shooting Guard,SG
 taylote01,1,Power Forward,PF
 teaguje01,1,Point Guard,PG
+telfoja01,1,Power Forward,PF
 templga01,1,Shooting Guard,SG
 templga01,2,Small Forward,SF
 templga01,3,Point Guard,PG
 teodomi01,1,Point Guard,PG
 terreja01,1,Shooting Guard,SG
+terrych01,1,Small Forward,SF
 terryda01,1,Shooting Guard,SG
 terryem01,1,Power Forward,PF
+terryja01,1,Shooting Guard,SG
+terryja01,2,Point Guard,PG
 terryty01,1,Point Guard,PG
 teskejo01,1,Center,C
+thackto01,1,Point Guard,PG
+thackto01,2,Shooting Guard,SG
 theisda01,1,Center,C
+thierad01,1,Small Forward,SF
+thierad01,2,Power Forward,PF
+thirdda01,1,Small Forward,SF
+thirdda01,2,Power Forward,PF
 thomabr01,1,Shooting Guard,SG
 thomaca02,1,Shooting Guard,SG
+thomais01,1,Point Guard,PG
 thomais02,1,Point Guard,PG
 thomais02,2,Shooting Guard,SG
 thomakh01,1,Shooting Guard,SG
 thomala01,1,Power Forward,PF
 thomala01,2,Small Forward,SF
+thomama01,1,Power Forward,PF
 thomama02,1,Shooting Guard,SG
+thomaro01,1,Power Forward,PF
 thompam01,1,Small Forward,SF
+thompam01,2,Point Guard,PG
 thompau01,1,Small Forward,SF
+thompbi01,1,Small Forward,SF
+thompet01,1,Shooting Guard,SG
+thompjo01,1,Center,C
+thompjo01,2,Power Forward,PF
 thompkl01,1,Shooting Guard,SG
 thompkl01,2,Small Forward,SF
+thompmy01,1,Center,C
+thompmy01,2,Power Forward,PF
 thomptr01,1,Center,C
 thomptr01,2,Power Forward,PF
 thorjt01,1,Power Forward,PF
 thornsi01,1,Shooting Guard,SG
 thornsi01,2,Small Forward,SF
+thorpot01,1,Power Forward,PF
+thorpot01,2,Center,C
 thybuma01,1,Shooting Guard,SG
 thybuma01,2,Small Forward,SF
 tilliki02,1,Center,C
 tillmxa01,1,Center,C
 tillmxa01,2,Power Forward,PF
 timmedr01,1,Power Forward,PF
+tinglja01,1,Forward,F
 toddis01,1,Power Forward,PF
+tolbera01,1,Power Forward,PF
 tollian01,1,Power Forward,PF
 tollian01,2,Small Forward,SF
 tomlina01,1,Power Forward,PF
+toneyan01,1,Shooting Guard,SG
+tonjejo01,1,Shooting Guard,SG
+topicni01,1,Point Guard,PG
 toppija01,1,Small Forward,SF
 toppiob01,1,Power Forward,PF
 toscaju01,1,Small Forward,SF
@@ -1477,28 +2492,40 @@ toscaju01,2,Shooting Guard,SG
 toupaax01,1,Small Forward,SF
 townska01,1,Center,C
 townska01,2,Power Forward,PF
+traorno01,1,Point Guard,PG
+trappjo01,1,Small Forward,SF
 travelu01,1,Shooting Guard,SG
 trentga02,1,Shooting Guard,SG
 trentga02,2,Small Forward,SF
 trieral01,1,Shooting Guard,SG
-tshieos01,1,Power Forward,PF
-tshieos01,2,Center,C
+tshieos01,1,Center,C
+tshieos01,2,Power Forward,PF
+tsiorlo01,1,Small Forward,SF
+tuckeji01,1,Power Forward,PF
 tuckepj01,1,Small Forward,SF
 tuckepj01,2,Power Forward,PF
 tuckepj01,3,Shooting Guard,SG
 tuckera01,1,Shooting Guard,SG
 tuckera01,2,Point Guard,PG
+tucketr01,1,Shooting Guard,SG
+turiaro01,1,Center,C
 turneev01,1,Small Forward,SF
 turneev01,2,Shooting Guard,SG
 turneev01,3,Point Guard,PG
+turnehe01,1,Point Guard,PG
 turnemy01,1,Center,C
+twardda01,1,Point Guard,PG
 tysonhu01,1,Power Forward,PF
 tysonja01,1,Shooting Guard,SG
 udohek01,1,Center,C
 udohek01,2,Power Forward,PF
+udrihbe01,1,Point Guard,PG
+udrihbe01,2,Shooting Guard,SG
 ulisty01,1,Point Guard,PG
 umudest01,1,Shooting Guard,SG
+unselwe01,1,Center,C
 uthofja01,1,Power Forward,PF
+vacenst01,1,Point Guard,PG
 valanjo01,1,Center,C
 valende01,1,Shooting Guard,SG
 valende01,2,Small Forward,SF
@@ -1507,39 +2534,73 @@ vanvlfr01,1,Point Guard,PG
 vanvlfr01,2,Shooting Guard,SG
 varejan01,1,Center,C
 varejan01,2,Power Forward,PF
+varnaja01,1,Power Forward,PF
 vassede01,1,Shooting Guard,SG
 vassede01,2,Small Forward,SF
+vaughch01,1,Shooting Guard,SG
+vaughch01,2,Point Guard,PG
+vaughda02,1,Power Forward,PF
+vaughja01,1,Point Guard,PG
+vaughja01,2,Shooting Guard,SG
 vezenal01,1,Power Forward,PF
 vildolu01,1,Point Guard,PG
 vincega01,1,Point Guard,PG
+vincesa01,1,Point Guard,PG
+vincesa01,2,Shooting Guard,SG
 vonleno01,1,Power Forward,PF
 vonleno01,2,Center,C
 vucevni01,1,Center,C
+vujacsa01,1,Shooting Guard,SG
+vujacsa01,2,Point Guard,PG
 vukcetr01,1,Center,C
 wadede01,1,Power Forward,PF
 wadedw01,1,Shooting Guard,SG
 wadedw01,2,Point Guard,PG
 wagnefr01,1,Small Forward,SF
+wagnemi01,1,Shooting Guard,SG
 wagnemo01,1,Center,C
 wainris01,1,Small Forward,SF
 wainris01,2,Power Forward,PF
 waitedi01,1,Shooting Guard,SG
-walkeja01,1,Small Forward,SF
+walkean02,1,Power Forward,PF
+walkech01,1,Small Forward,SF
+walkeda01,1,Point Guard,PG
+walkeda01,2,Shooting Guard,SG
+walkeja01,1,Power Forward,PF
 walkeja02,1,Power Forward,PF
 walkeke02,1,Point Guard,PG
 walkelo01,1,Shooting Guard,SG
 walkemj01,1,Shooting Guard,SG
+walkeph01,1,Shooting Guard,SG
+walkesa01,1,Power Forward,PF
+walkesa01,2,Center,C
+walkewa01,1,Small Forward,SF
+wallabe01,1,Center,C
+wallabe01,2,Power Forward,PF
 wallaca01,1,Shooting Guard,SG
 wallake01,1,Point Guard,PG
+wallara01,1,Power Forward,PF
+wallara01,2,Center,C
+wallara01,3,Small Forward,SF
 wallaty01,1,Shooting Guard,SG
 wallaty01,2,Point Guard,PG
 walljo01,1,Point Guard,PG
-walshjo01,1,Small Forward,SF
-walshjo01,2,Power Forward,PF
+walshjo01,1,Power Forward,PF
+walshjo01,2,Small Forward,SF
+walshma01,1,Shooting Guard,SG
 walteja01,1,Shooting Guard,SG
+walthpa01,1,Shooting Guard,SG
+waltobi01,1,Center,C
 waltode01,1,Point Guard,PG
+waltolu01,1,Small Forward,SF
+waltolu01,2,Power Forward,PF
 wanambr01,1,Point Guard,PG
+wanzebo01,1,Shooting Guard,SG
+wanzebo01,2,Point Guard,PG
+wardge01,1,Shooting Guard,SG
 wareke01,1,Center,C
+warrejo01,1,Shooting Guard,SG
+warrejo01,2,Point Guard,PG
 warretj01,1,Small Forward,SF
 warretj01,2,Power Forward,PF
 washbju01,1,Small Forward,SF
@@ -1547,32 +2608,55 @@ washidu02,1,Shooting Guard,SG
 washidu02,2,Point Guard,PG
 washipj01,1,Power Forward,PF
 washipj01,2,Center,C
+washitr01,1,Power Forward,PF
+washitr01,2,Center,C
 washity02,1,Point Guard,PG
 watanyu01,1,Small Forward,SF
 waterli01,1,Shooting Guard,SG
 watertr01,1,Point Guard,PG
 watfotr01,1,Power Forward,PF
 watfotr01,2,Small Forward,SF
+watkija01,1,Shooting Guard,SG
 watsoan02,1,Small Forward,SF
 watsopa01,1,Small Forward,SF
 watsope01,1,Small Forward,SF
 watsope01,2,Shooting Guard,SG
+wattsro01,1,Forward,F
 weathqu01,1,Shooting Guard,SG
+webbje01,1,Shooting Guard,SG
+weberbr01,1,Point Guard,PG
+wedmasc01,1,Small Forward,SF
+weissbo01,1,Point Guard,PG
+weissbo01,2,Shooting Guard,SG
+weitzri01,1,Shooting Guard,SG
 wellsja01,1,Shooting Guard,SG
 wellsja01,2,Small Forward,SF
 welshth01,1,Center,C
 wembavi01,1,Center,C
 wembavi01,2,Power Forward,PF
+wennibi01,1,Center,C
 weslebl01,1,Shooting Guard,SG
+westbde01,1,Forward,F
 westbru01,1,Point Guard,PG
+westbru01,2,Small Forward,SF
+westda01,1,Power Forward,PF
+westda01,2,Center,C
+westda01,3,Small Forward,SF
+westje01,1,Point Guard,PG
+westje01,2,Shooting Guard,SG
+westppa01,1,Shooting Guard,SG
+westppa01,2,Point Guard,PG
 wheelph02,1,Power Forward,PF
-whiteco01,1,Point Guard,PG
-whiteco01,2,Shooting Guard,SG
+whiteco01,1,Shooting Guard,SG
+whiteco01,2,Point Guard,PG
 whiteda01,1,Small Forward,SF
 whitede01,1,Shooting Guard,SG
 whitede01,2,Point Guard,PG
 whiteha01,1,Center,C
+whiteja02,1,Small Forward,SF
+whiteja02,2,Shooting Guard,SG
 whiteja03,1,Small Forward,SF
+whitejo01,1,Point Guard,PG
 whiteok01,1,Power Forward,PF
 whiteok01,2,Small Forward,SF
 whitmca01,1,Small Forward,SF
@@ -1583,62 +2667,111 @@ wiggiaa01,1,Shooting Guard,SG
 wiggian01,1,Small Forward,SF
 wiggian01,2,Power Forward,PF
 wiggili01,1,Point Guard,PG
+wilfowi01,1,Point Guard,PG
+wilkeja01,1,Small Forward,SF
+wilkeja01,2,Power Forward,PF
+wilksmi01,1,Point Guard,PG
+wilksmi01,2,Shooting Guard,SG
 willial03,1,Power Forward,PF
 willial03,2,Center,C
 willial06,1,Shooting Guard,SG
+william01,1,Power Forward,PF
+william01,2,Center,C
+williar01,1,Point Guard,PG
+willibr01,1,Shooting Guard,SG
+willibr01,2,Small Forward,SF
 willibr03,1,Point Guard,PG
+willich01,1,Point Guard,PG
+willich01,2,Shooting Guard,SG
 willicj01,1,Shooting Guard,SG
+willico01,1,Point Guard,PG
+willico02,1,Small Forward,SF
+willico02,2,Power Forward,PF
 willico04,1,Shooting Guard,SG
 willido02,1,Shooting Guard,SG
+willier01,1,Small Forward,SF
+willier01,2,Shooting Guard,SG
 willigr01,1,Power Forward,PF
+willigu01,1,Point Guard,PG
+willigu01,2,Shooting Guard,SG
+willija02,1,Point Guard,PG
 willija06,1,Shooting Guard,SG
 willija06,2,Power Forward,PF
-willija07,1,Center,C
-willija07,2,Power Forward,PF
+willija07,1,Power Forward,PF
+willija07,2,Center,C
 willije02,1,Shooting Guard,SG
+willijo01,1,Shooting Guard,SG
 willijo04,1,Power Forward,PF
 willijo04,2,Center,C
+willike02,1,Power Forward,PF
+willike02,2,Center,C
 willike04,1,Power Forward,PF
 willike04,2,Small Forward,SF
 willilo02,1,Point Guard,PG
 willilo02,2,Shooting Guard,SG
+willilu01,1,Shooting Guard,SG
+willima01,1,Point Guard,PG
+willima01,2,Shooting Guard,SG
 willima02,1,Power Forward,PF
 willima02,2,Small Forward,SF
 willima07,1,Center,C
 willima11,1,Center,C
+willimi02,1,Point Guard,PG
 willini01,1,Point Guard,PG
 willipa01,1,Power Forward,PF
 williro04,1,Center,C
+willisc01,1,Center,C
+willisc01,2,Power Forward,PF
+willisl01,1,Small Forward,SF
+willisl01,2,Power Forward,PF
 willitr02,1,Small Forward,SF
 willivi01,1,Shooting Guard,SG
+willivi01,2,Point Guard,PG
 willizi01,1,Power Forward,PF
 willizi02,1,Small Forward,SF
 wilsodj01,1,Power Forward,PF
 wilsoja03,1,Power Forward,PF
 windldy01,1,Small Forward,SF
+wingoha01,1,Power Forward,PF
+winklma01,1,Shooting Guard,SG
 winslju01,1,Power Forward,PF
 winslju01,2,Small Forward,SF
 winslju01,3,Shooting Guard,SG
 winstca01,1,Point Guard,PG
 wisemja01,1,Center,C
+wisewi01,1,Small Forward,SF
+wisewi01,2,Power Forward,PF
+wolfda01,1,Power Forward,PF
 wongis01,1,Shooting Guard,SG
 woodaro01,1,Small Forward,SF
 woodch01,1,Power Forward,PF
 woodch01,2,Center,C
+workmto01,1,Forward,F
+workmto01,2,Center,C
+worthja01,1,Small Forward,SF
+worthja01,2,Power Forward,PF
 wrighde01,1,Point Guard,PG
 wrighde01,2,Shooting Guard,SG
+wrighdo01,1,Small Forward,SF
 wrighju02,1,Point Guard,PG
+wrighla01,1,Point Guard,PG
+wrighle01,1,Power Forward,PF
 wrighmc01,1,Point Guard,PG
 wrighmo01,1,Power Forward,PF
 yabusgu01,1,Center,C
 yabusgu01,2,Power Forward,PF
+yangha01,1,Center,C
 yorkga01,1,Shooting Guard,SG
+youngch01,1,Shooting Guard,SG
 youngja05,1,Point Guard,PG
 youngni01,1,Shooting Guard,SG
 youngth01,1,Power Forward,PF
 youngtr01,1,Point Guard,PG
+yuesu01,1,Shooting Guard,SG
 yurtsom01,1,Center,C
 zelleco01,1,Center,C
 zellety01,1,Center,C
+zikarro01,1,Center,C
 zizican01,1,Center,C
+zopfbi01,1,Point Guard,PG
 zubaciv01,1,Center,C

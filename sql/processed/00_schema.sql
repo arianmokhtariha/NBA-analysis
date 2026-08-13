@@ -68,9 +68,10 @@ create table processed.teams (
 
 
 -- Every player referenced anywhere: by a roster, a box score, or an MVP
--- award. 1,175 of them were scraped with a full bio page; the other 814 are
--- known only by their id (and usually a name), so has_bio is false and their
--- attribute columns are NULL. Michael Jordan is one of them.
+-- award. 1,981 of the 1,985 were scraped with a full bio page; the other 4
+-- are known only by their id, so has_bio is false and their attribute
+-- columns are NULL. All four are early MVP winners the raw data never even
+-- names — they exist so mvp_winners has something valid to point at.
 create table processed.players (
     player_id                 varchar(12)  not null,
     -- NULL for four MVP winners whose name appears nowhere in the raw data.
@@ -78,6 +79,10 @@ create table processed.players (
     has_bio                   boolean      not null,
 
     -- ── bio attributes: populated only when has_bio is true ──────────────
+    -- The player's first listed position, as the short code the season and
+    -- roster pages use. 'G' and 'F' are not missing detail: the source lists
+    -- players from before the five-position split at plain Guard or Forward,
+    -- and rosters.position_primary already holds them that way.
     primary_position          varchar(2),
     shoots                    varchar(8),
     height_cm                 numeric(5,1),
@@ -97,12 +102,12 @@ create table processed.players (
     -- The drafting franchise as free text. Not a team_id: the source names a
     -- club as it was called on draft night, which no longer maps cleanly.
     draft_team_name           text,
-    -- NULL for undrafted players (424 of the 1,175 with a bio).
+    -- NULL for undrafted players (579 of the 1,981 with a bio).
     draft_round               integer,
     draft_round_pick          integer,
     draft_overall_pick        integer,
 
-    -- ── career totals from the bio page, present for 569 players ─────────
+    -- ── career totals from the bio page, present for 1,980 players ──────
     career_games              integer,
     career_points             numeric(5,1),
     career_total_rebound_pct  numeric(5,1),
@@ -116,7 +121,7 @@ create table processed.players (
 
     constraint pk_players primary key (player_id),
     constraint ck_players_primary_position
-        check (primary_position in ('PG', 'SG', 'SF', 'PF', 'C')),
+        check (primary_position in ('PG', 'SG', 'SF', 'PF', 'C', 'G', 'F')),
     constraint ck_players_shoots
         check (shoots in ('right', 'left', 'both')),
     -- has_bio is the definition of "we have this player's bio page", so a row
@@ -144,7 +149,10 @@ create table processed.seasons (
     -- The same season written the way Basketball-Reference prints it.
     season_label  varchar(8)  not null,
     start_year    integer     not null,
-    -- True when the season has a row in season_awards (79 of the 80).
+    -- True when the season has a row in season_awards. Currently true for
+    -- all 80, so it distinguishes nothing today — it is kept because the
+    -- awards scrape and the season list are built from different pages and
+    -- have disagreed before.
     has_awards    boolean     not null,
 
     constraint pk_seasons primary key (season),
@@ -164,8 +172,10 @@ create table processed.player_positions (
     slot           integer      not null,
     -- Spelled out as the bio page writes it, e.g. "Point Guard".
     position       varchar(16)  not null,
-    -- The same position as the two-letter code the season tables use, so it
-    -- joins to player_season_stats.position.
+    -- The same position as the short code the season tables use, so it joins
+    -- to player_season_stats.position. 'G' and 'F' belong to players from
+    -- before the five-position split, who predate that table entirely and so
+    -- join to nothing in it — correctly.
     position_code  varchar(2)   not null,
 
     constraint pk_player_positions primary key (player_id, slot),
@@ -173,7 +183,7 @@ create table processed.player_positions (
         foreign key (player_id) references processed.players (player_id),
     constraint ck_player_positions_slot check (slot >= 1),
     constraint ck_player_positions_code
-        check (position_code in ('PG', 'SG', 'SF', 'PF', 'C'))
+        check (position_code in ('PG', 'SG', 'SF', 'PF', 'C', 'G', 'F'))
 );
 
 
@@ -208,16 +218,22 @@ create table processed.season_awards (
 -- ============================================================================
 
 -- Who was on which roster. Scope worth knowing before using it: this covers
--- the CHAMPION team's roster for every season from 1946-47 on (both champions
--- in the ABA seasons), plus all 30 rosters of the current 2025-26 season. It
--- is not a league-wide roster history.
+-- the CHAMPION team's roster only, for every season from 1946-47 through
+-- 2017-18 (both champions in the ABA seasons) — but all 30 rosters for each
+-- season from 2018-19 through 2025-26. So it is league-wide exactly over the
+-- eight seasons the stat tables cover, and champions-only before that. A
+-- per-team average over the early seasons is a fact about champions, not
+-- about the league.
 create table processed.rosters (
     season              integer      not null,
     team_id             varchar(4)   not null,
     player_id           varchar(12)  not null,
     player_name         text         not null,
     -- The annotation the source appends to a name, e.g. "TW" for a two-way
-    -- contract. NULL for the 1,793 entries with no annotation.
+    -- contract. Currently NULL for ALL 6,291 rows: the roster pages this
+    -- scrape reads carry no annotations at all. The column is kept because
+    -- the parsing is real and the source has published these before — but
+    -- treat it as empty, not as "nobody is on a two-way contract".
     roster_note         varchar(8),
     -- As printed on the roster page: "G", "F-C", "PG", ...
     position            varchar(4)   not null,
@@ -245,7 +261,7 @@ create table processed.rosters (
 );
 
 
--- Season box-score totals per player, 2018-19 through 2024-25.
+-- Season box-score totals per player, 2018-19 through 2025-26.
 --
 -- Traded players keep every stint. A player who stayed at one club has a
 -- single row with stint = 1. A player traded mid-season has one row per club
@@ -254,7 +270,7 @@ create table processed.rosters (
 --
 -- is_primary marks exactly one row per player-season — the combined row where
 -- there is one, otherwise the player's only row. `where is_primary` gives
--- 3,884 rows, one per player-season: use it for any per-player analysis, and
+-- 4,466 rows, one per player-season: use it for any per-player analysis, and
 -- use the stint rows only when the question is about a specific club.
 create table processed.player_season_stats (
     season                    integer      not null,
@@ -327,7 +343,7 @@ create table processed.player_season_stats (
 );
 
 
--- Basketball-Reference's advanced metrics for the same 5,025 player-season
+-- Basketball-Reference's advanced metrics for the same 5,758 player-season
 -- stints, from the advanced page of the same seasons.
 --
 -- The descriptive columns (age, position, games, minutes) are deliberately
@@ -407,12 +423,17 @@ create table processed.player_advanced_stats (
 -- Team season totals, 1949-50 through 2025-26.
 --
 -- Two things to know before averaging over this table:
---   * The 30 rows for the not-yet-played 2025-26 season are kept, with
---     games = 0. Filter `where games > 0` before averaging anything.
+--   * Every season here has now been played: all 30 rows of 2025-26 carry a
+--     full 82 games. Earlier builds kept that season at games = 0 as a
+--     placeholder, so older notebooks may still filter `where games > 0`;
+--     that filter is now a no-op rather than a correction.
 --   * Columns are NULL where the era did not record the statistic — there is
---     no three-point data before 1979-80, and no steals or blocks before
---     1973-74. One row (blb, 1954-55) has no totals at all: the franchise
---     folded mid-season.
+--     no three-point data before 1979-80, and no league-wide steals, blocks
+--     or offensive/defensive rebounds before 1973-74. Turnovers go league-
+--     wide in 1970-71. Those three have a handful of stray early rows (one
+--     or two clubs reporting ahead of the league), so test for completeness
+--     by season rather than trusting the first non-NULL year. One row
+--     (blb, 1954-55) has no totals at all: the franchise folded mid-season.
 create table processed.team_season_stats (
     season                    integer     not null,
     team_id                   varchar(4)  not null,
@@ -451,7 +472,8 @@ create table processed.team_season_stats (
     constraint fk_team_season_stats_team
         foreign key (team_id) references processed.teams (team_id),
     constraint ck_team_season_stats_rank check (rank >= 1),
-    -- 0 is legitimate: it means the season has not been played yet.
+    -- 0 is allowed, not expected: it is how a scraped-but-unplayed season
+    -- lands. No row carries it today.
     constraint ck_team_season_stats_games check (games >= 0),
     constraint ck_team_season_stats_shooting
         check (
@@ -462,7 +484,8 @@ create table processed.team_season_stats (
 
 
 -- The "Michael Jordan Trophy" — the season MVP, one row per season from
--- 1955-56 on, with the per-game line the award was won on.
+-- 1955-56 through 2025-26, with the per-game line the award was won on.
+-- 71 awards shared between 37 players.
 create table processed.mvp_winners (
     season             integer      not null,
     league             varchar(4)   not null,
@@ -498,7 +521,7 @@ create table processed.mvp_winners (
 );
 
 
--- Everyone who received an MVP vote, 2018-19 through 2024-25, with the vote
+-- Everyone who received an MVP vote, 2018-19 through 2025-26, with the vote
 -- tally. The winner also appears here at rank 1.
 create table processed.mvp_candidates (
     season             integer      not null,
@@ -508,7 +531,8 @@ create table processed.mvp_candidates (
     -- "10T"); the tie marker is stored separately from the number.
     tie                boolean      not null,
     age                integer      not null,
-    -- NULL for two candidates the source lists without a club.
+    -- Nullable because the source has listed a candidate without a club
+    -- before; every one of the current 93 rows resolves to a real team.
     team_id            varchar(4),
 
     first_place_votes  integer      not null,

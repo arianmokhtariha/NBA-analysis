@@ -19,12 +19,11 @@ import requests
 from bs4 import BeautifulSoup
 from tqdm import tqdm
 
+from scrapers.config import DEFAULT_SEASON_YEARS
 from scrapers.fetch import build_session, fetch_page
 from scrapers.parse import href_id, parse_stat_table
 
 logger = logging.getLogger(__name__)
-
-DEFAULT_SEASON_YEARS: range = range(2019, 2027)
 
 AWARDS_URL = "https://www.basketball-reference.com/awards/awards_{year}.html"
 OUTPUT_PATH = Path("data/raw/mvp_candidates.csv")
