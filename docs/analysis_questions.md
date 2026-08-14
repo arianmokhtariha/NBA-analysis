@@ -29,6 +29,11 @@ is needed, and that is the whole design.
 
 See [`data_dictionary.md`](data_dictionary.md) for every column of all of these.
 
+[`00_data_overview.ipynb`](../notebooks/00_data_overview.ipynb) answers none of
+the questions below. It reads the layers with the data in front of it: 4,466
+player-seasons from 2018-19 through 2025-26, 1,278 players, 30 clubs,
+`team_season` back to 1949-50, and where the columns run out. Read it first.
+
 ---
 
 ## Definitions used across several questions
@@ -39,13 +44,14 @@ Settle these once; they are what the questions actually turn on.
 | --- | --- | --- |
 | **"Top N players of a season"** | The N highest **point scorers** — `points_rank <= N`. | It is the order Basketball-Reference's own season pages use, and this data carries no wins, minutes-weighted rating, or all-round score to rank by instead. It is a **scoring-volume** reading and every finding must be phrased that way. |
 | **"The Michael Jordan Trophy list"** | The MVP **ballot** — everyone who received a vote — via `is_mvp_candidate`. | The brief asks about a *list* of players, not a single winner. `processed.mvp_winners` holds the one winner per season since 1955-56; the ballot exists from 2018-19 and covers every window we study. |
-| **"Experience"** | Seasons played **before** the season in question. A rookie is `0`. | Basketball-Reference's own roster-page convention. `processed.rosters.experience_seasons` is the authoritative per-season figure; `player_season.experience_seasons` is rolled back from the career total and agrees with it wherever both exist. |
+| **"Experience"** | Seasons played **before** the season in question. A rookie is `0`. | Basketball-Reference's own roster-page convention. `processed.rosters.experience_seasons` is the authoritative per-season figure and the one to use. `player_season.experience_seasons` is rolled back from a career total, so it cannot see a season a player missed; see D2 for the two cases where the two disagree. |
 | **"Active player"** | On the roster **and** appeared in at least one game that season. | A roster entry alone does not mean he played. In practice this excludes almost nobody, but the two are not the same claim. |
 | **A season** | Its **ending year**. 2023-24 is `2024`. | Applies database-wide. |
+| **"The last two seasons"** | `2025` and `2026`: 2024-25 Oklahoma City and 2025-26 New York. "The two before that" are `2023` and `2024`, Denver and Boston. | The re-scrape brought 2025-26 in as a complete season, so both windows sit one year later than in the original bootcamp analysis. Used by D2 and H2. |
 
 ---
 
-## Assigned — descriptive statistics
+## Descriptive statistics
 
 ### D1. Height: the MVP ballot vs. the season's top 50 scorers
 
@@ -60,7 +66,11 @@ partition the league, so the overlap is kept and stated rather than removed.
 **Watch for:** any height difference is largely a *position* difference. Report
 position alongside height or the finding is unexplained.
 
-**Status:** notebook pending.
+**Answered in** [`../notebooks/01_D1_height.ipynb`](../notebooks/01_D1_height.ipynb).
+The ballot runs 2.35 cm taller than the top 50, but that is a few very tall men
+appearing on it every year: one row per player instead of one per season leaves
+p = 0.46 and identical medians of 198.1 cm. What separates the two groups is
+spread, not height.
 
 ### D2. Champion squads vs. the season's top 15, in height and experience
 
@@ -68,12 +78,21 @@ position alongside height or the finding is unexplained.
 > and their height, over the last two seasons, with the experience and height
 > distribution of the top 15 players of that season.
 
-**Needs deciding:** the two groups draw experience from different sources — the
-champion roster page states it per season, while the top-15 group is not on
-those pages and must be rolled back from the career total. Confirm the two agree
-on the overlap before comparing them, and say which each group used.
+**Needs deciding:** which experience figure both groups use. The worry was that
+the champion roster page states it per season while the top-15 group would have
+to be rolled back from a career total. `processed.rosters` covers all 30 clubs
+from 2018-19, so both groups take the source's stated figure and nothing is
+rolled back. The check did turn up two defects in the derived
+`player_season.experience_seasons`, both on 2024-25 Oklahoma City: Adam Flagler
+is stated at 1 season and derived as 0, because the roll-back cannot see the
+season he missed, and Alex Ducas is stated at 0 and derived as NULL. Prefer
+`processed.rosters`.
 
-**Status:** notebook pending.
+**Answered in** [`../notebooks/02_D2_champions.ipynb`](../notebooks/02_D2_champions.ipynb).
+Experience splits the groups hard (2.56 seasons against 8.47 in 2024-25,
+p = 0.0001) and height does not (p = 0.64 and 0.40). Most of the experience gap
+is structural: a whole squad and the 15 leading scorers in the league are
+assembled by different rules.
 
 ### D3. Which point guard should the club buy?
 
@@ -90,11 +109,15 @@ on the overlap before comparing them, and say which each group used.
   then by name — so the recommendation is reproducible rather than an artefact of
   an unordered result set.
 
-**Status:** notebook pending.
+**Answered in** [`../notebooks/03_D3_point_guard.ipynb`](../notebooks/03_D3_point_guard.ipynb).
+Thirteen point guards drew a vote in the window and the metric ranks Dončić,
+Curry, Paul. The recommendation drops Paul for Gilgeous-Alexander: Paul's last
+ballot as a PG was 2021-22, and by 2023-24 he was 38 with a PER of 14.7, which
+the metric cannot see because that season brought him no votes.
 
 ---
 
-## Assigned — hypothesis tests
+## Hypothesis tests
 
 ### H1. Has the "agility" of the top 20 increased?
 
@@ -106,11 +129,21 @@ on the overlap before comparing them, and say which each group used.
 basketball metric — it is `height_cm / weight_kg`, available as
 `player_season.height_to_weight`. Higher means leaner.
 
-**Watch for:** this ratio tracks *position* closely (~2.2 for a guard, ~1.9 for
-a centre), so the test is largely asking whether the top 20 has shifted toward
-guards. Say that rather than implying players became more athletic.
+**Watch for:**
+- The ratio tracks *position* closely (~2.2 for a guard, ~1.9 for a centre), so
+  the test is largely asking whether the top 20 has shifted toward guards. Say
+  that rather than implying players became more athletic.
+- **The column cannot see the change the question asks about.**
+  `height_to_weight` comes from the bio page and is constant per player: 0 of
+  929 multi-season players have a ratio that varies. It cannot register a player
+  getting leaner from one season to the next, only a change in *who* is in the
+  top 20. The question as posed is not answerable with this column, and the
+  answer has to be phrased around roster turnover.
 
-**Status:** notebook pending.
+**Answered in** [`../notebooks/04_H1_agility.ipynb`](../notebooks/04_H1_agility.ipynb).
+No increase: 2.0210 recent against 2.0244 earlier, Welch t = −0.0682, two-tailed
+p = 0.946, Hedges' g = −0.015. Counting each player once per period flips the
+sign of the difference, which is another way of saying it has no direction.
 
 ### H2. Has the "innate ability" of champion squads increased?
 
@@ -123,71 +156,22 @@ guards. Say that rather than implying players became more athletic.
 current age — a single stored current age would give every season the same
 number and flatten the exact difference being tested.
 
-⚠️ **Open issue carried from the original analysis.** It ran a one-tailed test
-(`alternative='greater'`) and reported p ≈ 0.97 / "cannot reject H0" while the
-t-statistic was **−4.918** — a large effect in the *opposite* direction that a
-two-tailed test would flag as highly significant. Its Yeo-Johnson transform was
-also fitted separately per group, which distorts a between-group comparison.
-Both need resolving when this is rebuilt; neither is a data problem.
+**Two faults carried over from the original analysis, both now settled.** It ran
+a one-tailed test (`alternative='greater'`) and reported p ≈ 0.97 / "cannot
+reject H0" while the t-statistic was **−4.918**, a large effect in the *opposite*
+direction that a two-tailed test would have flagged as highly significant. Its
+Yeo-Johnson transform was also fitted separately per group, which distorts a
+between-group comparison. Neither was a data problem. The rebuild runs two-tailed
+as the primary result and reports the original's one-tailed p = 0.9477 next to
+it, so a reader can see that on a sample which moved the wrong way a one-tailed p
+near 1 restates the direction rather than defending H0. The per-group transform
+is gone; the toolkit picked a distribution-free test on the raw ratios instead.
 
-**Status:** notebook pending. **Test choice must be revisited.**
-
----
-
-## Additional analyses
-
-Beyond the assignment. The brief awards credit for these.
-
-### B1. Availability — is the best ability availability?
-
-Does the share of the schedule a player actually appears in separate the
-MVP-honoured from the rest? `player_season.availability` is
-`games_played / team_games`, where a traded player is measured against the
-league schedule instead of one club's.
-
-**Watch for:** availability is a share of *games*, not minutes — a two-minute
-appearance counts as available.
-
-**Status:** notebook pending.
-
-### B2. The superstar tax — does efficiency fall as usage rises?
-
-Usage is the share of a team's possessions a player finishes; true shooting is
-how efficiently he finishes them. If carrying more costs accuracy the two trade
-off, and the players who stay efficient at high usage are the genuinely elite.
-
-**Watch for:** usage is stored 0-100 and true shooting 0-1. Converting one is
-required before they share an axis, and forgetting is a silent 100× error.
-
-**Status:** notebook pending.
-
-### B3. Team four factors — what goes with a stronger season?
-
-Dean Oliver's four factors — shooting, turnovers, offensive rebounding, free
-throws — are precomputed on `analyst_ready.team_season` for every season the
-source records the inputs for.
-
-⚠️ **Watch for:** this database has **no wins column.** `points_rank` is a
-scoring rank, not a league standing, so any finding is "what goes with scoring
-more," never "what goes with winning more." State it that way or the conclusion
-is wrong.
-
-**Status:** notebook pending.
-
-### B4. Draft position — are picks 1-5 better than picks 6-10?
-
-The club cannot realistically land the first overall pick, so it wants to buy a
-player who was one; that pool is too small, so the search widens to the top 10.
-
-**Needs deciding:** "career" figures can only mean *over the seasons in this
-database*, not a true career — a veteran and a four-year pro are summed over the
-same window, so any total must be read next to the count of seasons.
-
-⚠️ **Watch for:** defensive box plus/minus is **positive = good** (points
-prevented above an average player). The original analysis had this sign
-backwards and labelled the worst defenders 'great'.
-
-**Status:** notebook pending.
+**Answered in** [`../notebooks/05_H2_innate.ipynb`](../notebooks/05_H2_innate.ipynb).
+The claim is not supported and the ratio moved against it: 0.129 recent against
+0.187 earlier, two-tailed Mann-Whitney p = 0.1075, Cliff's δ = −0.235. Experience
+over age is career stage, so a champion built around young players scores low on
+it by construction.
 
 ---
 
