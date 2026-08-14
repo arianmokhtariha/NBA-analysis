@@ -14,6 +14,8 @@ config_local.py
 
 # Jupyter
 .ipynb_checkpoints/
+.jupyter/
+.jupyter_ystore.db
 
 # Editors / OS
 .vscode/
@@ -22,3 +24,7 @@ config_local.py
 # Claude
 .claude/
 CLAUDE.md
+
+# Claude Code MCP config (contains credentials)
+.mcp.json
+.mcp-kit.json
