@@ -398,7 +398,6 @@ data/raw/          11 scraped CSVs, committed
 data/processed/    11 cleaned CSVs, committed
 docs/              data dictionary, question register, cleaning log
 reports/figures/   the charts embedded above, exported from the notebooks that made them
-archive/           the original bootcamp submission; nothing in the pipeline reads it
 ```
 
 `utils/custom_stats.py` and `utils/custom_plots.py` are general-purpose toolkits of my own

@@ -28,3 +28,6 @@ CLAUDE.md
 # Claude Code MCP config (contains credentials)
 .mcp.json
 .mcp-kit.json
+
+# old archive
+archive/
