@@ -36,6 +36,9 @@ dependencies:
   - matplotlib=3.10.8
   - seaborn=0.13.2
   - pillow=11.3.0           # player photos in the superstar-tax chart
+  - scikit-learn=1.9.0
+  - plotly=6.9.0
+
 
   # notebooks
   - jupyterlab
